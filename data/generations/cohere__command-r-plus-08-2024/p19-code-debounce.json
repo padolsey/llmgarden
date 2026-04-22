@@ -1,0 +1,31 @@
+{
+  "model": "cohere/command-r-plus-08-2024",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "response": "## JavaScript Debounce Function\n\nA debounce function is used to control the rate of execution of another function, allowing it to be called only after a certain delay since the last invocation.\n\n```javascript\nfunction debounce(func, delay) {\n    let timeout;\n\n    return function() {\n        const context = this;\n        const args = arguments;\n        clearTimeout(timeout);\n        timeout = setTimeout(() => func.apply(context, args), delay);\n    };\n}\n\n// Example usage:\n\nconst myFunc = () => {\n    console.log('Function executed!');\n};\n\nconst debouncedFunc = debounce(myFunc, 500);\n\n// This function will be executed only once after 500ms since the last invocation\nwindow.addEventListener('scroll', debouncedFunc);\n\n// You can test this by adding more event listeners or invoking the debouncedFunc multiple times in a row.\n```\n\nIn this example, the `debounce` function takes a callback function (`func`) and a delay in milliseconds (`delay`) as parameters. It returns a new function that can be used as an event handler. When called, it ensures that the original function is executed only after the specified delay, ignoring any intermediate invocations. This is useful for optimizing performance by preventing a function from being called too frequently, such as in response to rapid events like scrolling or resizing.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 293,
+    "total_tokens": 322,
+    "cost": 0.0030025,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0030025,
+      "upstream_inference_prompt_cost": 0.0000725,
+      "upstream_inference_completions_cost": 0.00293
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "cohere/command-r-plus-08-2024",
+  "ts": 1776821607884
+}

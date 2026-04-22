@@ -1,0 +1,31 @@
+{
+  "model": "deepseek/deepseek-chat-v3-0324",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "response": "Imagine you're debugging a complex codebase. Instead of reading every line equally, you focus on the most relevant files and functions—this selective attention is similar to how transformers work.  \n\nIn a transformer model, the system processes sequences (like sentences) by assigning \"attention scores\" to each element (like words). These scores determine how much each element should influence the output. For example, in \"The cat sat on the mat,\" the word \"cat\" might strongly attend to \"sat\" (the action) but weakly to \"mat\" (the object).  \n\nTechnically, this happens via three learned vectors per element:  \n1. **Query**: What the current element is \"looking for\"  \n2. **Key**: What other elements \"offer\"  \n3. **Value**: The actual content to propagate  \n\nThe model computes attention scores by comparing queries to keys (like dot products), softmax-normalizes them to probabilities, then uses these to weight the values. This allows dynamic, context-aware relationships—unlike fixed patterns in older models.  \n\nMulti-head attention extends this by running parallel attention mechanisms (like having multiple debuggers focus on different aspects), capturing diverse relationships (e.g., grammar *and* semantics).  \n\nNo manual feature engineering is needed—the model learns all this during training. It’s like your IDE’s \"find references\" tool, but automated and probabilistic.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 283,
+    "total_tokens": 312,
+    "cost": 0.000255304,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000255304,
+      "upstream_inference_prompt_cost": 0.000006264,
+      "upstream_inference_completions_cost": 0.00024904
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "deepseek/deepseek-chat-v3-0324",
+  "ts": 1776821463008
+}

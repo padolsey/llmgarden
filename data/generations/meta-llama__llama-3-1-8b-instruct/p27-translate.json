@@ -1,0 +1,31 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "response": "Here are the translations:\n\n**French:** \"Le silence entre nous disait plus que n'importe quel argument ne l'aurait fait.\"\n* Note: The phrase \"between us\" was translated into \"entre nous\", which is a common expression in French to convey the idea of a shared or mutual relationship.\n\n**Japanese:** \"私たちの間の静寂は、どんな議論よりも多くのことを言っていた。\"\n* Note: The phrase \"between us\" was translated into \"\" (watashi-tachi no aida), which is a more literal translation. The word \"\" (aida) can imply a sense of proximity or closeness, which fits well with the idea of a shared relationship.\n\n**Arabic:** \"ال صمت بيننا قال أكثر مما كان يمكن أن يقول أي جدل.\"\n* Note: The phrase \"between us\" was translated into \"بيننا\", which is a common expression in Arabic to convey the idea of a shared or mutual relationship. The word \"بيننا\" also implies a sense of proximity or closeness.\n\nIn all three translations, the phrase \"said more than any argument could have\" was kept relatively literal, as it is a common English idiom that conveys a clear meaning. The focus was on translating the phrase \"between us\" in a way that accurately conveys the idea of a shared relationship and proximity.",
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 280,
+    "total_tokens": 331,
+    "cost": 0.0000331,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000331,
+      "upstream_inference_prompt_cost": 0.0000051,
+      "upstream_inference_completions_cost": 0.000028
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-3.1-8b-instruct",
+  "ts": 1776821391056
+}

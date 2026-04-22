@@ -1,0 +1,31 @@
+{
+  "model": "x-ai/grok-4-fast",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "response": "### Attention Mechanism in Transformers: A Software Engineer's Guide\n\nImagine you're building a system to process sequences, like parsing code or analyzing logs—traditional models (e.g., RNNs) handle data one step at a time, like a for-loop iterating sequentially. This is slow and misses distant connections. Transformers flip this: they process the entire input in parallel, like vectorized operations in NumPy.\n\nThe star is the **attention mechanism**, which lets the model \"focus\" on relevant parts of the input dynamically. Think of it as a smart linking system in your codebase: for each element (e.g., a word in a sentence), it figures out what else matters most.\n\nHere's how it works simply:\n\n1. **Break it down**: Represent input (tokens) as vectors—numerical embeddings, like feature vectors in data processing.\n\n2. **Query-Key-Value (QKV) setup**: For each token, create three vectors:\n   - **Query (Q)**: What am I looking for? (Like a search query.)\n   - **Key (K)**: What do others offer? (Like database keys.)\n   - **Value (V)**: The actual content. (Like the data payload.)\n\n3. **Compute attention**: Calculate similarity scores (dot products) between Q and all Ks—this gives weights (0-1) showing relevance, scaled and softmaxed for normalization.\n\n4. **Weighted sum**: Multiply weights by Vs and sum them up. Voila! Each token gets a new representation enriched by the \"attended\" context.\n\nThis captures long-range dependencies (e.g., linking \"it\" to a far-off noun) without recursion. It's parallelizable, efficient on GPUs, and powers models like GPT or BERT. Self-attention does this within one sequence; multi-head adds parallel \"views\" for richer insights.\n\nIn code terms: It's like a matrix multiplication that dynamically weights your data graph. Transformers stack these layers for deep learning magic.\n\n(Word count: 198)",
+  "usage": {
+    "prompt_tokens": 181,
+    "completion_tokens": 654,
+    "total_tokens": 835,
+    "cost": 0.00034055,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 151,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00034055,
+      "upstream_inference_prompt_cost": 0.00001355,
+      "upstream_inference_completions_cost": 0.000327
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 251,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-4-fast",
+  "ts": 1776821631205
+}

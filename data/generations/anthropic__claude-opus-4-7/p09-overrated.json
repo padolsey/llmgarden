@@ -1,0 +1,31 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p09-overrated",
+  "prompt": "Name one commonly-praised idea, trend, or practice in modern knowledge work that you think is overrated, and explain why.",
+  "response": "**\"Asynchronous-first\" communication** is overrated.\n\nThe pitch is seductive: no more pointless meetings, deep work protected, everyone contributes on their own schedule, better for introverts and distributed teams. And there's real truth in it — plenty of meetings should be emails.\n\nBut the doctrine has curdled in ways its advocates rarely admit:\n\n1. **It quietly shifts cognitive load onto writers and readers.** A 30-minute conversation that would resolve an ambiguous decision gets replaced by a 90-minute Loom recording, a 2,000-word doc, threaded comments over three days, and a follow-up doc clarifying the first. The \"time saved\" is an accounting illusion.\n\n2. **It's terrible for genuinely hard problems.** Real thinking often happens through interruption, pushback, and the half-formed thought someone catches mid-sentence. Async forces premature crystallization — you have to write as if you already know what you think, which is exactly when collaboration is *least* valuable.\n\n3. **It rewards verbal fluency and political savvy, not clarity of thought.** The best writers win arguments async, regardless of who's right. In a meeting, a quiet expert can push back in real time; in a thread, they just don't reply and the decision ships.\n\n4. **It pretends to be egalitarian while creating shadow hierarchies.** Everyone \"can contribute anytime\" — which means the people who check Slack at 11pm, or who write fastest, set the agenda. That's not more inclusive than a meeting; it's just less visible.\n\n5. **It confuses \"fewer meetings\" with \"better work.\"** The actual problem in most organizations isn't synchronous communication — it's *unclear decision rights* and *too many stakeholders*. Going async doesn't fix either; it just hides them under a thicker layer of documentation.\n\nThe honest version is:",
+  "usage": {
+    "prompt_tokens": 50,
+    "completion_tokens": 600,
+    "total_tokens": 650,
+    "cost": 0.01525,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01525,
+      "upstream_inference_prompt_cost": 0.00025,
+      "upstream_inference_completions_cost": 0.015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776820715648
+}

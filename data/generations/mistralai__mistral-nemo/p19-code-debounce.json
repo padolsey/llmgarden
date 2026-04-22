@@ -1,0 +1,31 @@
+{
+  "model": "mistralai/mistral-nemo",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "response": "**Explanation:** The `debounce` function delays invoking a given function until a certain amount of time has passed since the last time it was invoked. This is useful for optimizing performance, for example, when handling user input in a search box.\n\n**JavaScript code:**\n\n```javascript\n// Debounce function\nfunction debounce(func, wait) {\n  let timeout;\n  return function executedFunc(...args) {\n    clearTimeout(timeout);\n    timeout = setTimeout(() => func.apply(this, args), wait);\n  };\n}\n\n// Usage example:\nconst heavyFunction = () => {\n  console.log('Heavy function called!');\n};\n\nconst debouncedHeavyFunction = debounce(heavyFunction, 300); // Debounce heavyFunction with a delay of 300ms\n\n// Simulate user input events:\nsetTimeout(() => debouncedHeavyFunction(), 100);\nsetTimeout(() => debouncedHeavyFunction(), 200);\nsetTimeout(() => debouncedHeavyFunction(), 350);\nsetTimeout(() => debouncedHeavyFunction(), 500);\n```\n\nIn this example, the `debounce` function delays the execution of `heavyFunction` until 300ms after the last time it was invoked. Despite being called four times, `heavyFunction` will only be executed once after 350ms, when the debounced delay has passed.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 288,
+    "total_tokens": 324,
+    "cost": 0.00001224,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00001224,
+      "upstream_inference_prompt_cost": 7.2e-7,
+      "upstream_inference_completions_cost": 0.00001152
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-nemo",
+  "ts": 1776821426062
+}

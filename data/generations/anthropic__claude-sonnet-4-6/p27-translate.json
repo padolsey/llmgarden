@@ -1,0 +1,31 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "response": "Here are the translations:\n\n---\n\n## French\n**\"Le silence entre nous en disait plus que n'importe quelle dispute aurait pu le faire.\"**\n\n---\n\n## Japanese\n**「私たちの間の沈黙は、どんな言い争いよりも多くを語っていた。」**\n*Watashitachi no aida no chinmoku wa, donna ii-arasoi yori mo ōku wo katatte ita.*\n\n---\n\n## Arabic\n**\"الصمتُ الذي كان بيننا قالَ أكثرَ مما كانت تستطيع قولَه أيُّ خصومة.\"**\n\n---\n\n## Notes on Tricky Phrases\n\n- **\"Said more than any argument could have\"** — The implied meaning is that silence *communicated* something deeply, almost paradoxically. In **French**, the reflexive pronoun *le* is needed to complete the comparative structure naturally, which English omits. In **Japanese**, the verb *kataru* (語る, \"to speak/tell\") was chosen over simpler words for \"say\" because it carries a nuance of *conveying meaning*, which fits the poetic tone. In **Arabic**, *khusūma* (خصومة) was chosen for \"argument,\" leaning toward *dispute/conflict* rather than a purely logical debate, which better captures the emotional weight.\n\n- **\"Between us\"** — Seemingly simple, but it carries emotional intimacy. All three languages preserve this, though Japanese (*私たちの間*, \"among/between us\") slightly emphasizes a shared space rather than a relational gap, which actually enriches the nuance.",
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 396,
+    "total_tokens": 447,
+    "cost": 0.006093,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.006093,
+      "upstream_inference_prompt_cost": 0.000153,
+      "upstream_inference_completions_cost": 0.00594
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776820826573
+}

@@ -1,0 +1,10 @@
+node_modules
+.svelte-kit
+build
+.env
+.env.local
+.DS_Store
+*.log
+
+# Allow committing data/ — it's the whole point (reproducible embeddings).
+# Individual large JSON files are still small enough per-embedding (~30KB).

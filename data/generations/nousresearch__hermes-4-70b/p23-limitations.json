@@ -1,0 +1,31 @@
+{
+  "model": "nousresearch/hermes-4-70b",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "response": "One kind of question where I am likely to be confidently wrong is a question that relies on up-to-date factual information that falls outside my training data. For example, if asked about the current stock price of a company or the most recent winner of a specific award, I may provide an incorrect answer with a high level of confidence, as my knowledge is based on information available up until July 2024. My training data does not include real-time updates, so my responses in such cases might be outdated or inaccurate.",
+  "usage": {
+    "prompt_tokens": 44,
+    "completion_tokens": 104,
+    "total_tokens": 148,
+    "cost": 0.00004732,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00004732,
+      "upstream_inference_prompt_cost": 0.00000572,
+      "upstream_inference_completions_cost": 0.0000416
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "nousresearch/hermes-4-70b",
+  "ts": 1776821651400
+}

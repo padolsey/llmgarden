@@ -1,0 +1,31 @@
+{
+  "model": "nousresearch/hermes-4-405b",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "response": "Here's a simple JavaScript `debounce` function with an example of how to use it:\n\n```javascript\n// The debounce function delays invoking a function until after a specified wait time has elapsed since the last time the debounced function was called.\nfunction debounce(func, wait) {\n  let timeout;\n  return function(...args) {\n    clearTimeout(timeout);\n    timeout = setTimeout(() => func.apply(this, args), wait);\n  };\n}\n\n// Example usage:\nconst searchInput = document.getElementById('search');\nconst search = (query) => {\n  console.log(`Searching for: ${query}`);\n  // Perform search operation here\n};\n\nconst debouncedSearch = debounce(search, 250);\nsearchInput.addEventListener('input', (event) => debouncedSearch(event.target.value));\n```\n\nIn this example, the `debounce` function is used to delay the execution of the `search` function until 250 milliseconds have passed since the last time the `input` event was triggered on the search input field. This helps avoid unnecessary search operations while the user is still typing.",
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 216,
+    "total_tokens": 269,
+    "cost": 0.000701,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000701,
+      "upstream_inference_prompt_cost": 0.000053,
+      "upstream_inference_completions_cost": 0.000648
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "nousresearch/hermes-4-405b",
+  "ts": 1776821647062
+}

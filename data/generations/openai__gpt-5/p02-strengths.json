@@ -1,0 +1,31 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p02-strengths",
+  "prompt": "What do you think you are unusually good at, compared to other language models? Give three specific examples.",
+  "response": "Here are three areas where I tend to excel, with concrete examples:\n\n1) Following dense, multi-constraint instructions precisely\n- Example: If asked, “Write a 120–140 word third‑person bio; include exactly two dates, one statistic with a percent sign, no adjectives, end with a question,” I reliably deliver text that hits every constraint (length range, perspective, count‑exact dates/stat, no forbidden words, required closing punctuation).\n\n2) Producing reliable, schema‑true structured outputs\n- Example: Given a JSON schema that requires RFC 3339 timestamps, snake_case keys, disallows nulls, and includes a checksum field that must be SHA‑256 of specific concatenated values, I return valid JSON on the first try and explain the checksum derivation, so it passes downstream validators without hand‑fixing.\n\n3) Visual understanding to actionable structure\n- Example: From a photo of a receipt or a whiteboard schedule, I can extract line items/times into normalized JSON or a CSV, verify subtotals vs. tax vs. total, flag mismatches, and produce a ready‑to‑import dataset (including currency normalization and inferred categories).",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 1698,
+    "total_tokens": 1725,
+    "cost": 0.01701375,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01701375,
+      "upstream_inference_prompt_cost": 0.00003375,
+      "upstream_inference_completions_cost": 0.01698
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1408,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776821196149
+}

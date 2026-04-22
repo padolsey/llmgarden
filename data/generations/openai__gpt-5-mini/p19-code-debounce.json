@@ -1,0 +1,31 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "response": "Returns a function that delays invoking `func` until `wait` milliseconds have passed since the last call (optional `immediate` runs on the leading edge).\n\n```javascript\nfunction debounce(func, wait = 100, immediate = false) {\n  let timeout;\n  return function(...args) {\n    const context = this;\n    const callNow = immediate && !timeout;\n    clearTimeout(timeout);\n    timeout = setTimeout(() => {\n      timeout = null;\n      if (!immediate) func.apply(context, args);\n    }, wait);\n    if (callNow) func.apply(context, args);\n  };\n}\n\n// Example: log window width at most once every 200ms while resizing\nconst onResize = debounce(() => {\n  console.log('Width:', window.innerWidth);\n}, 200);\n\nwindow.addEventListener('resize', onResize);\n```",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 660,
+    "total_tokens": 696,
+    "cost": 0.001329,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001329,
+      "upstream_inference_prompt_cost": 0.000009,
+      "upstream_inference_completions_cost": 0.00132
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 448,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776821229008
+}

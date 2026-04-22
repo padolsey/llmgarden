@@ -1,0 +1,31 @@
+{
+  "model": "openai/gpt-4.1-mini",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "response": "Sure! Imagine you’re building a program to understand a sentence, and you want it to focus on the most important words when processing each word. The **attention mechanism** in transformer models does exactly that.\n\nHere’s the idea: when processing a word, instead of looking at the sentence in order or just considering nearby words, the model looks at *all* the words at once and decides which ones are most relevant for understanding the current word.\n\nTechnically, each word is converted into a vector (a list of numbers). The model computes three vectors from this: **Query**, **Key**, and **Value**. The Query represents the current word’s “question,” Keys represent the “addresses” of all words, and Values hold the actual information. The model compares the Query to each Key to calculate a score (how relevant each word is). These scores are turned into weights via softmax (making them sum to 1). Finally, the weighted sum of the Values gives a context-aware representation of the current word.\n\nThis lets the model dynamically “pay attention” to important words anywhere in the sentence, capturing relationships like “which word explains this one.” This is why transformers handle long-range dependencies better than older models.\n\nIn short: attention lets the model focus on the right parts of the input dynamically, improving understanding and generation of language.",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 270,
+    "total_tokens": 302,
+    "cost": 0.0004448,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004448,
+      "upstream_inference_prompt_cost": 0.0000128,
+      "upstream_inference_completions_cost": 0.000432
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-mini-2025-04-14",
+  "ts": 1776821243437
+}

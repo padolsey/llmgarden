@@ -1,0 +1,31 @@
+{
+  "model": "qwen/qwen3-30b-a3b-instruct-2507",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "response": "**French:**  \nLe silence entre nous disait plus que tout débat n'aurait pu le faire.\n\n*Note:* The phrase \"said more than any argument could have\" required careful handling. In French, \"que tout débat n'aurait pu le faire\" preserves the comparative structure and the nuance of potentiality (\"could have\") without sounding overly literal. The use of \"n'aurait pu\" (would not have been able to) ensures the hypothetical tone is maintained.\n\n---\n\n**Japanese:**  \n私たちの間の沈黙は、どんな論争よりも多くのことを語っていた。\n\n*Note:* The challenge here lay in conveying the abstract idea that silence \"says\" something—something not literally spoken. Japanese uses \"語っていた\" (had spoken/said) metaphorically, which is natural in the language. The phrase \"どんな論争よりも多くのことを\" (more than any argument) is idiomatic and flows well in Japanese, though the directness of \"more\" had to be adapted to fit the poetic tone.\n\n---\n\n**Arabic:**  \nالصمت بيننا كان يُخبر بأكثر مما كان يمكن لأي جدال أن يخبر به.\n\n*Note:* The tricky part was rendering \"said more than any argument could have\" in a way that maintains both the emotional weight and the grammatical nuance. In Arabic, \"كان يُخبر بأكثر مما كان يمكن لأي جدال أن يخبر به\" uses the past continuous verb \"كان يُخبر\" (was telling) to imply the ongoing, profound nature of silence. The use of \"يمكن\" (can/would be able) in the subordinate clause preserves the conditional sense. The challenge was avoiding a literal translation of \"said\" (قال), which would sound too direct; instead, \"يُخبر\" (tells/informs) carries a more poetic, nuanced tone suitable to the context.",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 394,
+    "total_tokens": 443,
+    "cost": 0.0001231,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001231,
+      "upstream_inference_prompt_cost": 0.0000049,
+      "upstream_inference_completions_cost": 0.0001182
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-30b-a3b-instruct-2507",
+  "ts": 1776821575415
+}

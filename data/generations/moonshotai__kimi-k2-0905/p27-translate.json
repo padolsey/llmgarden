@@ -1,0 +1,31 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "response": "French  \n« Le silence entre nous en disait plus que n’aurait pu le faire aucune dispute. »  \nNote: The verb phrase « en dire plus que » is the idiomatic way to keep the English idea of “say more,” and the subjunctive « n’aurait pu le faire » is needed to preserve the counter-factual nuance of “could have.”\n\nJapanese  \n私たちの間の沈黙は、どんな口論よりも多くを語っていた。  \nNote: どんな口論よりも多くを語っていた literally means “was saying more than any argument,” capturing the comparative nuance; Japanese normally omits the explicit “could have,” letting the past tense 語っていた carry the counter-factual feel.\n\nArabic  \nالصمتُ بيننا قال أكثر ممّا كان يستطيع أيّ جدال أن يقوله.  \nNote: The structure « أكثر ممّا كان يستطيع … أن يقوله » (“more than any argument was able to say”) is a faithful but compact way to render “could have,” since Arabic lacks a one-word equivalent for that English modal past perfect.",
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 258,
+    "total_tokens": 325,
+    "cost": 0.0005428,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0005428,
+      "upstream_inference_prompt_cost": 0.0000268,
+      "upstream_inference_completions_cost": 0.000516
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776821779771
+}

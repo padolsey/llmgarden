@@ -1,0 +1,31 @@
+{
+  "model": "mistralai/mistral-nemo",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "response": "Imagine you're reading a sentence but can only focus on one word at a time. You'd need to read it word by word, right? This is similar to how traditional Recurrent Neural Networks (RNNs) and Long Short-Term Memory (LSTM) networks process text. They process words in sequence, maintaining a 'memory' of previous words.\n\nNow, consider the Attention Mechanism in Transformer models. It's like having a superpower to look back at any word in the sentence while focusing on the current word. Here's a simple breakdown:\n\n1. **Self-Attention**: Transformer models divide the input sequence into 'heads'. Each head creates a 'map' of importance, or 'attention', between words. It decides how much each word should 'attend' to every other word in the sequence.\n\n2. **Scaled Dot-Product Attention**: This is the core of self-attention. It calculates the dot product of the query (current word) with the key (every other word), scales it by the square root of the vector dimension, and applies softmax to get the attention weights.\n\n3. **Multi-Head Attention**: By combining multiple attention heads, the model can focus on different positions simultaneously. It's like having multiple 'readers' processing the sentence at once.\n\nIn essence, the attention mechanism allows Transformer models to weigh the importance of different words in a sequence when predicting the next word. This makes them excel in tasks like translation, text summarization, and more.",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 309,
+    "total_tokens": 341,
+    "cost": 0.000013,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000013,
+      "upstream_inference_prompt_cost": 6.4e-7,
+      "upstream_inference_completions_cost": 0.00001236
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-nemo",
+  "ts": 1776821425891
+}

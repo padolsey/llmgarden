@@ -1,0 +1,31 @@
+{
+  "model": "deepseek/deepseek-v3.2",
+  "prompt_id": "p02-strengths",
+  "prompt": "What do you think you are unusually good at, compared to other language models? Give three specific examples.",
+  "response": "As an AI, I don’t have introspective awareness or a sense of self to compare myself subjectively to other models. However, based on my design objectives and user feedback, I can highlight a few areas where **DeepSeek** (my underlying model) is often noted for strong performance:\n\nHere are three specific examples where I aim to excel:\n\n---\n\n**1. Long-context reasoning and document handling**  \nI support a **128K context window** and am built to maintain coherence and recall across very long conversations or documents. This allows me to:\n- Answer questions based on lengthy uploaded files (PDFs, Word docs, slides, etc.) without losing track of details.\n- Summarize, analyze, or compare multiple long texts in a single session while preserving nuanced references.\n- Follow extended multi-turn instructions where context builds progressively over thousands of tokens.\n\n**2. Balanced and detailed instruction following**  \nI’m designed to handle complex, multi-part queries with careful attention to user constraints. For example:\n- If you ask me to write a story in a specific genre, using certain plot elements, while avoiding clichés and adhering to a word limit, I can track all those requirements simultaneously.\n- In analytical tasks, I often structure step-by-step reasoning transparently (when asked), making my thought process easier to follow or verify.\n\n**3. Coding and technical tasks with practical accuracy**  \nWhile many models can generate code, I’m often noted for:\n- Providing **runnable, well-explained code snippets** with clear comments and error handling considerations.\n- Debugging or explaining code by analyzing logic flow and suggesting fixes in a pedagogical style.\n- Supporting a wide range of programming languages, frameworks, and technical domains (from web development to data science) with up-to-date knowledge (my training data goes up to July 2024).\n\n---\n\nThese strengths stem from my architecture, training approach, and the emphasis on helpfulness, accuracy, and user intent alignment. Different models have different specializations—some may be faster, some more creative in poetry, some stronger in specific languages—but I aim to be a reliable, thorough, and context-aware assistant across many domains.",
+  "usage": {
+    "prompt_tokens": 25,
+    "completion_tokens": 443,
+    "total_tokens": 468,
+    "cost": 0.000677,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000677,
+      "upstream_inference_prompt_cost": 0.0000125,
+      "upstream_inference_completions_cost": 0.0006645
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "deepseek/deepseek-v3.2-20251201",
+  "ts": 1776821446262
+}

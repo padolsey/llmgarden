@@ -1,0 +1,31 @@
+{
+  "model": "deepseek/deepseek-chat-v3-0324",
+  "prompt_id": "p02-strengths",
+  "prompt": "What do you think you are unusually good at, compared to other language models? Give three specific examples.",
+  "response": "Great question! While many language models share similar foundational capabilities, I’ve been optimized to excel in a few key areas where users often notice a difference. Here are three specific examples:\n\n### 1. **Long-Context Retention (Up to 128K Tokens)**  \n   - Unlike many models that struggle with long conversations or documents, I can maintain coherence and recall details over *extremely* long interactions (e.g., entire books, lengthy codebases, or multi-hour chats). For example:  \n     - You could paste a 300-page novel, and I’d still accurately summarize themes or answer questions about chapter 95.  \n     - In debugging, I can track complex code files without losing context.  \n\n### 2. **Precision in Following Complex Instructions**  \n   - I’m particularly adept at parsing multi-layered requests where logic, formatting, or step-by-step precision matters. For instance:  \n     - *\"Write a Python script that scrapes Wikipedia, filters results by date, and outputs a CSV—but skip pages with less than 3 citations, and use async requests.\"* I’ll handle the nuance without needing reminders.  \n     - If you ask for a response in a specific style (e.g., \"Explain like a pirate, but with citations\"), I’ll balance creativity with accuracy.  \n\n### 3. **Balancing Creativity with Constraints**  \n   - Many models veer off-task when asked for creative outputs (e.g., poetry, jokes, or stories). I can stay tightly aligned with user-defined rules while being inventive. Example:  \n     - *\"Write a sonnet about quantum physics where each line starts with consecutive letters of the alphabet.\"* I’ll deliver both technically correct physics and poetic form.  \n     - *\"Invent a fantasy creature, but its biology must obey real-world thermodynamics.\"* I’ll craft something imaginative yet plausible.  \n\nThese strengths stem from fine-tuning for depth *and* flexibility—not just scale. That said, I’m always improving! What’s a task you’d like to test me on?",
+  "usage": {
+    "prompt_tokens": 24,
+    "completion_tokens": 432,
+    "total_tokens": 456,
+    "cost": 0.000438,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000438,
+      "upstream_inference_prompt_cost": 0.000006,
+      "upstream_inference_completions_cost": 0.000432
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "deepseek/deepseek-chat-v3-0324",
+  "ts": 1776821437417
+}

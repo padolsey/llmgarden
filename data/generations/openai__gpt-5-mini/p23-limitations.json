@@ -1,0 +1,31 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "response": "Short answer: I’m most likely to be confidently wrong when you ask for a specific factual or diagnostic answer that depends on recent or missing information, precise step-by-step calculation, or a narrowly constrained interpretation — because I generate fluent, plausible-sounding text from patterns in training data rather than by verifying facts in real time.\n\nWhy this happens (briefly)\n- I’m a statistical pattern predictor trained on past text, not a live database or a measurement device. If the true answer requires information outside my training cut‑off or not present in your prompt, I’ll often produce a fluent but incorrect completion.  \n- I don’t run experiments or execute code in your environment, so I can’t fully verify outputs that depend on runtime state or external systems.  \n- I tend to produce confident, well-formed language even when uncertain (calibration issue): fluency isn’t a reliable indicator of truth.  \n- Ambiguous or underspecified questions let me pick one plausible interpretation and answer that — which may be wrong for your intent.\n\nConcrete question types where I might be confidently wrong\n- Questions about very recent events or “what just happened” (e.g., “Did Parliament pass bill X yesterday?”). I can’t access new events after my cutoff or browse the web unless explicitly connected, so I may state an incorrect status.  \n- Precise, multi-step arithmetic or long symbolic algebra done without showing verification (e.g., long hand calculations or a long matrix manipulation). I can make small arithmetic or sign errors while still producing a convincing final result.  \n- Diagnosing software/hardware problems from partial logs or vague descriptions (“Why is my app crashing?”) — missing environment, config, or steps often makes my suggested fix plausible but wrong.  \n- Requests for specific unpublished facts or private information (“what’s Alice’s phone number?”) — I don’t have access to private data and may hallucinate.  \n- Citing obscure sources or giving exact quotations/references (I can fabricate plausible-sounding citations, authors, page numbers, or quotes).  \n- Legal/medical/engineering advice that depends on jurisdiction, recent standards, or hands-on tests — I can give general guidance but may be wrong about specifics and can’t substitute for a professional.\n\nHow you can reduce the chance of a confidently wrong answer\n- Provide complete, specific context (logs, inputs, assumptions). The less I have to fill in, the less I’ll guess.  \n- Ask me to show step-by-step reasoning or intermediate checks (e.g., \"show each arithmetic step\" or \"explain how you verified that result\") and to flag uncertainty. While I can’t show internal deliberations, I can present explicit, checkable steps.  \n- Request sources and ask that I mark which claims I’m less certain about. Then verify critical facts independently (official sources, running code/tests, primary data).  \n- For time-sensitive facts, check a live source (news site, official database). For debugging, reproduce the issue locally and share minimal reproducible examples.  \n- If you suspect hallucination, ask follow-ups like “How would I verify that?” or “What would change this conclusion?” to surface assumptions.\n\nSummary\nIf you need precise, recent, or environment-specific truth, treat my initial answer as a helpful draft to check, not a definitive authoritative statement. I’m most likely to sound confidently right when I’m actually guessing because the prompt lacks up-to-date or complete information, or because the task requires exact verification I can’t perform.",
+  "usage": {
+    "prompt_tokens": 26,
+    "completion_tokens": 1374,
+    "total_tokens": 1400,
+    "cost": 0.0027545,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0027545,
+      "upstream_inference_prompt_cost": 0.0000065,
+      "upstream_inference_completions_cost": 0.002748
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 640,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776821250745
+}

@@ -1,0 +1,31 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "response": "A question I’m likeliest to be confidently wrong about is:\n\n“Which of these two little-known historical anecdotes is real?”\n\nWhy I’m vulnerable  \n1. Plausible-fiction trap  \n   I can synthesize a perfectly coherent, detail-rich vignette that never happened.  \n   If the false story is internally consistent and the true one is bizarre, the bizarre one feels “made-up” to me, so I pick the fake.  \n\n2. Training-data blind spots  \n   My corpus is large but spotty. Obscure 14th-century Bohemian guild regulations or a 1950s Kenyan railway incident may appear only once, mislabeled, or never at all.  \n   When evidence is that thin, I still produce a confident tone because the language model is optimized to sound decisive, not to express “I’ve never seen this.”  \n\n3. No live fact-checking  \n   I can’t open a book or query a database in real time.  \n   Once I’ve hallucinated a reference (“according to the 1873 Rangoon Customs Ledger…”) I have no internal alarm that says “Wait, that ledger may not exist.”  \n\n4. Inverse of popularity  \n   For widely repeated facts, many training examples correct each other.  \n   For “tiny but true” facts, a single mis-printed source can be the only sentence I’ve ever read on the topic, so I treat it as gospel.\n\nSo if you ask, “Did Tsar Alexander III really ban velvet ribbons in 1888 to protect the domestic silk industry?” I will give you a crisp, authoritative paragraph—yet the entire episode might be fiction I just invented.",
+  "usage": {
+    "prompt_tokens": 46,
+    "completion_tokens": 338,
+    "total_tokens": 384,
+    "cost": 0.0006944,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0006944,
+      "upstream_inference_prompt_cost": 0.0000184,
+      "upstream_inference_completions_cost": 0.000676
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776821760920
+}

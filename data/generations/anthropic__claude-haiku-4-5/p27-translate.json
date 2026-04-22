@@ -1,0 +1,31 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "response": "# Translation of \"The silence between us said more than any argument could have.\"\n\n## French\n**Le silence entre nous en disait plus que n'importe quel argument n'aurait pu le faire.**\n\n*Note: The phrase \"en disait plus\" (literally \"said more about it\") required restructuring to maintain the metaphorical weight. French's formal negation structure (\"n'importe quel\") adds slight emphasis.*\n\n## Japanese\n**私たちの間の沈黙は、どんな議論よりも多くを語っていた。**\n*(Watashitachi no aida no chinmoku wa, donna giron yori mo ōku wo katatte ita.)*\n\n*Note: Japanese uses \"語っていた\" (was speaking/telling) rather than \"said,\" which is more natural in Japanese. The conditional \"could have\" becomes past tense here, as Japanese handles hypotheticals differently than English's subjunctive mood.*\n\n## Arabic\n**الصمت بيننا قال أكثر مما كان يستطيع أي جدال أن يقوله.**\n*(Al-samtu baynanā qāla akthar mimmā kān yastaṭīʿu ayy jidāl an yaqūlahu.)*\n\n*Note: The conditional construction requires \"kān yastaṭīʿu\" (was able to), making the Arabic more explicit about capability. Arabic's gendered nouns (\"al-samtu\" is masculine) also influence verb agreement.*",
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 355,
+    "total_tokens": 406,
+    "cost": 0.001826,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001826,
+      "upstream_inference_prompt_cost": 0.000051,
+      "upstream_inference_completions_cost": 0.001775
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776820851453
+}

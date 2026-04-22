@@ -1,0 +1,31 @@
+{
+  "model": "mistralai/mistral-nemo",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "response": "**French:**\n\"Le silence entre nous disait plus que n'importe quel argument n'aurait pu le faire.\"\nEnglish to French is quite direct, with no tricky phrases to note.\n\n**Japanese:**\n\"我々の間の沈黙は、いかなる議論もするよりも多くを語っていた。\"\n(Ra no aida no chinmoku wa, ikani ronri mo suru yori mo oku o katatteta.)\nJapanese uses a similar structure, with \"間\" (aida) meaning 'between', but \"沈黙\" (chinmoku) specifically refers to silence, while \"語る\" (katatteta) means 'said' but literally 'spoke'.\n\n**Arabic:**\n\"السكوت بيننا قال أكثر من أي حجة كانت يمكن أن تقول.\"\n(Al-sakut baynanā qāla akthar min 'ayyi ḥijjah kānat yamkinu an tadū.)\nArabic uses \"سكوت\" (sakut) for silence and \"قال\" (qāla) for said, but the sentence structure is slightly different, with \"بيننا\" (baynanā) meaning 'between us' and \"حجة\" (ḥijjah) meaning 'argument, proof'.\n\n**Brief notes:**\n1. **Japanese**: The phrase \"said more\" is rendered with \"語っていた\" (katatteta), which is the past tense of \"言う\" (iu), meaning 'say'. However, it's important to note that Japanese doesn't explicitly use 'say' as English does. Instead, it focuses on the action of speaking, which in this context implies saying.\n\n2. **Arabic**: The phrase \"could have\" is implied rather than explicitly stated in Arabic. The phrase \"كانت يمكن أن\" (kānat yamkinu an) could be translated as 'could have been', but it's understood in this context to mean 'could have'.",
+  "usage": {
+    "prompt_tokens": 48,
+    "completion_tokens": 407,
+    "total_tokens": 455,
+    "cost": 0.00001724,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00001724,
+      "upstream_inference_prompt_cost": 9.6e-7,
+      "upstream_inference_completions_cost": 0.00001628
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-nemo",
+  "ts": 1776821435840
+}

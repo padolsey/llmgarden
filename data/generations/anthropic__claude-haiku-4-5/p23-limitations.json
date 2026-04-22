@@ -1,0 +1,31 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "response": "I think I'm likely to be confidently wrong about **questions requiring real-time information or recent events**.\n\nHere's why: My training data has a cutoff date, so I lack access to current facts. But more insidiously, I can *generate plausible-sounding answers* about recent events using patterns from my training. If you ask \"Who won the 2024 World Series?\" I might construct a grammatically perfect, contextually reasonable answer that sounds authoritative—while being completely fabricated.\n\nThe danger isn't that I'll say \"I don't know.\" It's that I'll confidently narrate something false because:\n\n1. **I can't distinguish between my knowledge cutoff and the present** in real-time. I have no internal clock signaling \"this is outdated.\"\n\n2. **Plausibility is easy; accuracy is hard.** I can generate text that *fits the pattern* of what a correct answer looks like, even when I'm confabulating.\n\n3. **Confidence isn't calibrated to accuracy.** My output style doesn't inherently reflect my actual uncertainty about whether I'm current or hallucinating.\n\nI try to mitigate this by flagging uncertainty and stating my cutoff date. But I'm genuinely uncertain how often I fail to notice I'm doing this—which is precisely what makes it a good example of confident wrongness.\n\nDoes that kind of blindspot resonate with your intuition about where I'd be risky?",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 322,
+    "total_tokens": 351,
+    "cost": 0.001639,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001639,
+      "upstream_inference_prompt_cost": 0.000029,
+      "upstream_inference_completions_cost": 0.00161
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776820846777
+}

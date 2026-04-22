@@ -1,0 +1,31 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p12-fermi",
+  "prompt": "Estimate, with reasoning, how many piano tuners work in Paris today. Show your thought process.",
+  "response": "# Estimating Piano Tuners in Paris\n\n## My Approach\nI'll work backwards from piano ownership to service demand.\n\n## Key Estimates\n\n**Population & Pianos**\n- Paris population: ~2.2 million\n- Pianos are luxury items; estimate 1 piano per 300-500 households\n- Assume ~60% of households = ~1.3M households\n- **Pianos in Paris: ~2,600-4,300** (I'll use 3,500)\n\n**Service Demand**\n- Professional pianos (concert halls, schools, studios): ~200-300\n- These need tuning 4-12x/year = ~2,000 tunings/year\n- Home pianos: ~3,200\n- Most tuned 1-2x/year = ~4,000 tunings/year\n- **Total: ~6,000 tunings/year**\n\n**Tuner Productivity**\n- One tuning takes 1-2 hours + travel time\n- Realistic: ~3 tunings per day\n- Working ~250 days/year = ~750 tunings/year per tuner\n- (This accounts for admin, no-shows, maintenance work)\n\n**Calculation**\n6,000 tunings ÷ 750 per tuner = **~8 full-time equivalent tuners**\n\n## Reality Check\n- This seems low, but piano ownership has declined significantly\n- Paris likely has some specialists who also repair/restore\n- Some tuners work part-time\n\n## Estimate: **8-15 piano tuners** in Paris\n\nThe lower end seems more realistic for a modern city where piano ownership is niche, though the actual number could be higher if I've underestimated piano prevalence among upper-middle-class households.",
+  "usage": {
+    "prompt_tokens": 28,
+    "completion_tokens": 411,
+    "total_tokens": 439,
+    "cost": 0.002083,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002083,
+      "upstream_inference_prompt_cost": 0.000028,
+      "upstream_inference_completions_cost": 0.002055
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776820827015
+}

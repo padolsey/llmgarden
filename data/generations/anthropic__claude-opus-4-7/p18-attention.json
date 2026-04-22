@@ -1,0 +1,31 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "response": "# Attention in Transformers\n\nImagine you're reading the sentence: *\"The server crashed because it was overloaded.\"* To understand what \"it\" refers to, your brain connects \"it\" back to \"server.\" Attention is how transformers do this programmatically.\n\n**The core idea:** For every word (token), the model asks, *\"Which other words in this sentence matter to me right now?\"* It then builds a new representation of that word by mixing in information from the relevant ones.\n\n**How it works mechanically:**\nEach token gets three vectors, computed via learned weight matrices:\n- **Query (Q):** what this token is looking for\n- **Key (K):** what this token offers\n- **Value (V):** the actual content it contributes\n\nFor each token, you compute dot products between its Query and every other token's Key. That gives you similarity scores. Run those through softmax to get weights (summing to 1), then take a weighted sum of all the Values. That's the token's new representation.\n\n**Think of it like a dictionary lookup**, but fuzzy: instead of one exact key match, you get a blended result weighted by how well each key matches your query.\n\nStack this across many \"heads\" (parallel attentions) and many layers, and you get the powerful context-understanding that drives models like GPT.",
+  "usage": {
+    "prompt_tokens": 50,
+    "completion_tokens": 398,
+    "total_tokens": 448,
+    "cost": 0.0102,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0102,
+      "upstream_inference_prompt_cost": 0.00025,
+      "upstream_inference_completions_cost": 0.00995
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776820734024
+}

@@ -1,0 +1,31 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "response": "A debounce function delays invoking a callback until a specified wait time has passed without any new calls.\n\n```javascript\nfunction debounce(fn, wait) {\n  let t;\n  return function (...args) {\n    clearTimeout(t);\n    t = setTimeout(() => fn.apply(this, args), wait);\n  };\n}\n\n// Example usage:\nwindow.addEventListener('resize', debounce(() => {\n  console.log('Resize finished');\n}, 300));\n```",
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 93,
+    "total_tokens": 149,
+    "cost": 0.0002084,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002084,
+      "upstream_inference_prompt_cost": 0.0000224,
+      "upstream_inference_completions_cost": 0.000186
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776821735440
+}

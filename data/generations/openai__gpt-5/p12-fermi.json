@@ -1,0 +1,31 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p12-fermi",
+  "prompt": "Estimate, with reasoning, how many piano tuners work in Paris today. Show your thought process.",
+  "response": "Short answer: On the order of 150–200 working piano tuners serve the Paris metropolitan area today (about 30–50 if you mean the City of Paris proper).\n\nKey assumptions and quick math:\n- Area counted: Greater Paris (Île-de-France) ≈ 12.5 million people; ~5.4 million households (avg household ≈ 2.3).\n- Acoustic piano ownership: ~1.5% of households have an acoustic piano in a dense European city context → ~81,000 home pianos.\n- Home tuning frequency: average ≈ 0.6 tunings per piano per year (many tune annually, some skip years) → ~49,000 home tunings/year.\n- Institutional/commercial pianos: ~10% as many as home pianos (schools, conservatories, churches, venues, studios), tuned more often, ≈ 4×/year → ~8,000 pianos × 4 ≈ 32,000 tunings/year.\n- Total annual tunings: ~49,000 + 32,000 ≈ 81,000.\n- Productivity per tuner: ~2–3 tunings/day, ~200–220 workdays/year, minus time for travel/repairs → ~450 tunings per tuner per year.\n- Implied number of tuners: 81,000 / 450 ≈ 180 → say 150–200.\n\nIf you restrict to the City of Paris (~2.2 million people; ~1.1–1.2 million households): roughly 16,000 total tunings/year, implying about 30–50 tuners active primarily within the city.",
+  "usage": {
+    "prompt_tokens": 26,
+    "completion_tokens": 2674,
+    "total_tokens": 2700,
+    "cost": 0.0267725,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0267725,
+      "upstream_inference_prompt_cost": 0.0000325,
+      "upstream_inference_completions_cost": 0.02674
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2304,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776821223772
+}

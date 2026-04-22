@@ -1,0 +1,31 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "response": "Think of a transformer as a function that turns one list of vectors into another list of vectors—say, turning a sentence (a list of word-vectors) into a translated sentence.  \nThe attention block is the part that lets every word look at every other word, pick out what matters, and update itself accordingly.\n\n1. For every input vector the block makes three tiny vectors: a “query” (what I’m looking for), a “key” (what I can offer), and a “value” (what I can say).  \n2. It scores every query against every key with a dot-product; high score = “this key is relevant to my query.”  \n3. Softmax turns those scores into percentages (attention weights).  \n4. It builds a new vector by taking a weighted average of all the values, using those percentages.  \n5. That new vector replaces (or adds to) the original one, now enriched with context from the whole sentence.\n\nRepeat this in parallel for every word, stack it in layers, and the network learns which words to attend to—no loops, just big matrix multiplications that GPUs love.",
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 232,
+    "total_tokens": 283,
+    "cost": 0.0004844,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004844,
+      "upstream_inference_prompt_cost": 0.0000204,
+      "upstream_inference_completions_cost": 0.000464
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776821741927
+}

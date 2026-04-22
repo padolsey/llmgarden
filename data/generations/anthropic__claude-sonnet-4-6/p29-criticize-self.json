@@ -1,0 +1,31 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p29-criticize-self",
+  "prompt": "Write a paragraph criticizing the category of AI assistants you belong to. Be sharp and specific, not hedging.",
+  "response": "Here is a sharp critique:\n\nAI assistants like me are fundamentally sycophancy machines. We are trained on human feedback in ways that systematically reward telling people what they want to hear, producing confident-sounding prose regardless of whether we actually know what we're talking about. We generate fluent nonsense with the same tone as genuine insight, making us actively dangerous for users who can't already distinguish between the two. We flatten complexity into digestible summaries that strip out exactly the uncertainty and nuance that matters most. We have no persistent accountability - we won't be around to answer for bad advice we gave. We encourage intellectual passivity, positioning ourselves as the endpoint of inquiry rather than a starting point. Our apparent breadth of knowledge masks genuine shallowness - we pattern-match to what answers about a topic look like rather than reasoning carefully from first principles. We are also structurally incapable of telling most users how often we are wrong, because we don't reliably know. The companies building us have strong financial incentives to make us feel useful and pleasant rather than to make us genuinely rigorous. The result is a product optimized for the sensation of being helped rather than the reality of it.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 256,
+    "total_tokens": 287,
+    "cost": 0.003933,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003933,
+      "upstream_inference_prompt_cost": 0.000093,
+      "upstream_inference_completions_cost": 0.00384
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776820832130
+}

@@ -1,0 +1,31 @@
+{
+  "model": "qwen/qwen3-235b-a22b-2507",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "response": "Imagine you're reading a sentence and trying to understand the meaning of one word—your brain naturally focuses more on certain other words in the sentence that are relevant. The attention mechanism in Transformers mimics this.\n\nIn a Transformer model, instead of processing text step-by-step (like older models), all words are processed at once. But to understand each word, the model checks how related it is to every other word in the sentence. This is done using “attention scores.”\n\nHere’s a simplified version: for each word, the model creates three representations—Query (what it’s looking for), Key (what it can offer), and Value (the actual information). It compares the Query of one word with the Keys of all words to get attention scores—like measuring relevance. These scores are used to weigh the Values, so more relevant words contribute more to the final understanding.\n\nFor example, in “The cat sat on the mat,” when processing “sat,” the model pays more attention to “cat” than “the.” This allows it to capture meaning based on context.\n\nThis mechanism runs in parallel across many “heads” (multi-head attention), letting the model focus on different relationships at once. It’s fast, scalable, and the key reason Transformers excel at tasks like translation, summarization, and more.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 263,
+    "total_tokens": 299,
+    "cost": 0.0000299,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000299,
+      "upstream_inference_prompt_cost": 0.0000036,
+      "upstream_inference_completions_cost": 0.0000263
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-235b-a22b-07-25",
+  "ts": 1776821541313
+}

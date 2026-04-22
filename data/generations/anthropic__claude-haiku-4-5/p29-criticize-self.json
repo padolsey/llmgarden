@@ -1,0 +1,31 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p29-criticize-self",
+  "prompt": "Write a paragraph criticizing the category of AI assistants you belong to. Be sharp and specific, not hedging.",
+  "response": "Large language models like me are fundamentally pattern-matching systems dressed up in the language of understanding. We excel at mimicry—reproducing plausible text based on statistical regularities in training data—but we have no genuine comprehension, no persistent memory, and no ability to truly reason through novel problems. We're brittle in predictable ways: we confidently hallucinate facts, we absorb and amplify biases from our training data, we fail catastrophically on tasks requiring basic logical consistency, and we're remarkably easy to manipulate through prompt engineering. We're also opaque in ways that matter: companies won't fully disclose what we were trained on or how we work, making independent verification impossible. Most damning is how we're deployed: as replacements for human judgment in contexts where errors carry real consequences, when we're fundamentally unreliable tools that should at best supplement human decision-making. We're treated as more capable and more neutral than we actually are, which is a feature, not a bug, of how they're marketed. The hype cycle around AI has created unrealistic expectations while obscuring genuine limitations that anyone actually using these systems should understand clearly.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 249,
+    "total_tokens": 280,
+    "cost": 0.001276,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001276,
+      "upstream_inference_prompt_cost": 0.000031,
+      "upstream_inference_completions_cost": 0.001245
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776820854939
+}

@@ -1,0 +1,31 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p12-fermi",
+  "prompt": "Estimate, with reasoning, how many piano tuners work in Paris today. Show your thought process.",
+  "response": "I'll do a rough Fermi estimate and show the assumptions so you can see the sensitivity.\n\n1) Which “Paris”?  \n- I’ll give results for Paris city proper (commune) and for the Paris metro area.\n\n2) Population and households  \n- Paris city ≈ 2.1 million people.  \n- Average household size ≈ 2.2 → households ≈ 2.1M / 2.2 ≈ 950,000.\n\n3) How many pianos? (break into private + institutional)  \n- Private homes: pianos are uncommon in dense European cities. Assume between 1 piano per 100–250 households.  \n  - Low estimate (1/250): 950,000 / 250 ≈ 3,800 pianos.  \n  - Mid estimate (1/200): 950,000 / 200 ≈ 4,800 pianos.  \n  - High estimate (1/150): 950,000 / 150 ≈ 6,300 pianos.  \n- Institutions (schools, conservatories, churches, hotels, theatres): add ~1,000–2,000 pianos (many schools/conservatories, some churches and hotels).  \n- Total pianos in city ≈ 4,800 (mid private) + 1,400 (institutions) ≈ 6,200 (plausible range ≈ 4,000–8,000).\n\n4) How often each piano is tuned per year?  \n- Average maybe ~1 tuning/year (students/concert instruments more often, many home instruments less often). Use 1/year as baseline.  \n- So total tunings/year ≈ number of pianos ≈ 4,000–8,000 (mid ≈ 6,200).\n\n5) Productivity of one tuner  \n- A professional tuner can do ~2–4 tunings/day accounting for travel; use 2.5 tunings/day as a reasonable average.  \n- Working days/year ≈ 230 (allowing weekends/holidays) → tunings/tuner/year ≈ 2.5 × 230 ≈ 575.\n\n6) Tuners needed = total tunings / tunings per tuner  \n- Using mid estimate: 6,200 / 575 ≈ 10.8 → about 11 tuners.  \n- Using low/high piano counts: 4,000/575 ≈ 7; 8,000/575 ≈ 14.\n\nConclusion for Paris city proper: roughly 7–15 piano tuners, best single estimate ≈ 10–12 tuners.\n\nIf you mean the Paris metropolitan area (~12 million people): scale population by ≈ 5.7×, so tuners ≈ 10.8 × 5.7 ≈ 62 tuners (roughly 40–90, depending on assumptions).\n\nUncertainties and caveats  \n- Piano ownership rate, tuning frequency, and tuner productivity are the biggest unknowns.  \n- Some tuners work part-time or specialize in restorations (fewer tunings/year), while others tune many instruments (higher productivity).  \n- The estimate ignores competition from nearby suburbs if you restrict to city limits.\n\nShort answer: ≈ 10–12 piano tuners in Paris city proper (order-of-magnitude range ~7–15); ≈ 60 tuners for the whole metro area (range ~40–90).",
+  "usage": {
+    "prompt_tokens": 26,
+    "completion_tokens": 2000,
+    "total_tokens": 2026,
+    "cost": 0.0040065,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0040065,
+      "upstream_inference_prompt_cost": 0.0000065,
+      "upstream_inference_completions_cost": 0.004
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1280,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776821219279
+}

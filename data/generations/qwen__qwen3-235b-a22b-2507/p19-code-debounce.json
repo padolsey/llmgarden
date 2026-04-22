@@ -1,0 +1,31 @@
+{
+  "model": "qwen/qwen3-235b-a22b-2507",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "response": "A debounce function limits how often a function can be called by delaying its execution until after a specified wait time has passed since the last invocation.\n\n```javascript\nfunction debounce(func, delay) {\n  let timeoutId;\n  return function (...args) {\n    clearTimeout(timeoutId);\n    timeoutId = setTimeout(() => func.apply(this, args), delay);\n  };\n}\n\n// Example: Log search query only after user stops typing for 300ms\nconst search = debounce((query) => {\n  console.log('Searching for:', query);\n}, 300);\n\n// Simulate user typing\nsearch('a');        // No immediate log\nsearch('ab');       // Still no log\nsearch('abc');      // Logs \"Searching for: abc\" after 300ms of no further calls\n```",
+  "usage": {
+    "prompt_tokens": 37,
+    "completion_tokens": 166,
+    "total_tokens": 203,
+    "cost": 0.00009961,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00009961,
+      "upstream_inference_prompt_cost": 0.00000333,
+      "upstream_inference_completions_cost": 0.00009628
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-235b-a22b-07-25",
+  "ts": 1776821541600
+}

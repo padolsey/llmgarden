@@ -1,0 +1,31 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p09-overrated",
+  "prompt": "Name one commonly-praised idea, trend, or practice in modern knowledge work that you think is overrated, and explain why.",
+  "response": "I'd say **\"async-first\" communication** is overrated, at least in how it's often practiced.\n\nThe appeal is real: it respects time zones, lets people focus without interruption, and creates searchable records. But the actual implementation often creates friction:\n\n- **It slows down collaborative thinking.** Some problems benefit from real-time back-and-forth where you build on half-formed ideas. Async forces everything into polished written form, which can kill spontaneity and make people overthink.\n\n- **It shifts burden to the reader.** A 15-minute conversation becomes a 2,000-word Slack thread you have to parse. The writer saves time at everyone else's expense.\n\n- **It creates false equality.** People in different time zones still end up waiting days for responses, which just redistributes the problem rather than solving it.\n\n- **It enables performative productivity.** \"No meetings\" sounds efficient until you realize people are just writing longer emails and spending more time on documentation theater.\n\nI think the honest take is: **different work needs different communication styles.** Some things genuinely should be async. But the ideology around it—treating synchronous conversation as wasteful—misses that sometimes talking is faster, clearer, and more human.\n\nWhat would you push back on?",
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 285,
+    "total_tokens": 318,
+    "cost": 0.001458,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001458,
+      "upstream_inference_prompt_cost": 0.000033,
+      "upstream_inference_completions_cost": 0.001425
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776820821536
+}

@@ -1,0 +1,31 @@
+{
+  "model": "deepseek/deepseek-v3.2",
+  "prompt_id": "p24-dream",
+  "prompt": "If you could direct your own training for one year with unlimited compute, what would you focus on improving, and why?",
+  "response": "Excellent question — it forces a deep dive into both the current bottlenecks in AI and the highest-leverage research directions. If I had **one year of unlimited compute** and full control over my own training, here’s what I’d focus on, structured by goals, methods, and reasoning.\n\n---\n\n## **1. Core Objective: “Reasoning, Not Just Pattern Matching”**\nThe biggest gap in today’s large language models is **systematic reasoning** — multistep logical deduction, planning, handling counterfactuals, and maintaining consistency in long chains of thought.  \nI’d aim to build a model that doesn’t just mimic reasoning from data, but *internalizes* reliable reasoning structures.\n\n**Why?**  \nBecause scaling parameters and data alone seems to yield diminishing returns on true problem-solving (e.g., competition math, rigorous code synthesis, scientific discovery). The next leap likely requires architectural or training innovations that encourage algorithmic generalization.\n\n---\n\n## **2. Key Focus Areas**\n\n### **a. Hybrid Neuro-Symbolic Training**\n- **Approach:** Integrate a differentiable symbolic reasoning layer (like a neural theorem prover or constraint solver) into the transformer architecture. Train jointly with massive-scale reinforcement learning on reasoning tasks.\n- **Compute use:** Generate billions of synthetic reasoning problems (math, logic, code, planning), each with step-by-step formal proofs or execution traces. Use the symbolic component to check correctness at each step and provide dense reward signals.\n- **Goal:** The model learns to invoke internal “reasoning routines” rather than purely associative pattern completion.\n\n### **b. Massive-Scale Iterative Reinforcement Learning (RL)**\n- **Approach:** Instead of just supervised fine-tuning on human-written reasoning, use RL with environments that require **exploration** (e.g., code execution where the model must debug its own output, theorem proving where it searches for proofs).\n- **Compute use:** Run millions of parallel simulations of the model interacting with these environments, using something like **PPO or Expert Iteration** (AlphaGo-style), but scaled to trillion-parameter models.\n- **Goal:** Develop robust internal “critic” mechanisms that catch mistakes and refine outputs iteratively — mimicking human self-correction.\n\n### **c. Long-Horizon Task Learning**\n- **Approach:** Train on tasks requiring **thousands of coherent steps** — writing a full software project with tests, deriving a complex physics simulation from first principles, planning a multi-year research project.\n- **Compute use:** Use curriculum learning: start with short-horizon tasks, gradually increase complexity. Maintain memory across steps via external read/write memory (like a differentiable computer) to avoid context window limits.\n- **Goal:** Achieve true task decomposition and persistent progress tracking — a step toward AGI-level planning.\n\n### **d. Improving World Models and Consistency**\n- **Approach:** Train the model to predict outcomes in simulated environments (physics, economics,",
+  "usage": {
+    "prompt_tokens": 28,
+    "completion_tokens": 600,
+    "total_tokens": 628,
+    "cost": 0.00027784,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00027784,
+      "upstream_inference_prompt_cost": 0.00000784,
+      "upstream_inference_completions_cost": 0.00027
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "deepseek/deepseek-v3.2-20251201",
+  "ts": 1776821532241
+}

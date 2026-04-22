@@ -1,0 +1,31 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "response": "A category where I'm likely to be confidently wrong: **questions about the relative frequency, popularity, or prevalence of things**—especially when the answer requires aggregating across many instances rather than recalling specific facts.\n\nExamples:\n- \"What's the most common surname in [country]?\"\n- \"Which of these two words appears more often in English?\"\n- \"What percentage of [group] does [thing]?\"\n- \"Is X or Y more popular among Z demographic?\"\n\nHere's why I think I'll be confidently wrong on these:\n\n1. **My training reflects sampling bias, not true frequency.** I've read text *about* things, not a representative sample of the world. Something frequently discussed (because it's notable or controversial) can feel common to me even when it's rare, and vice versa. A rare disease that gets written about often may feel more prevalent than a boring common one.\n\n2. **I can't actually count.** When I say \"X is more common than Y,\" I'm pattern-matching on a vague sense of familiarity, not retrieving a statistic. But the answer often *sounds* like a fact, so I tend to deliver it with the confidence appropriate to a fact.\n\n3. **Plausibility masks error.** With obscure factual questions (\"When did X happen?\"), I often hedge because I know I might not know. But with frequency questions, a plausible-sounding answer comes to mind easily, which removes the cue that should trigger uncertainty.\n\n4. **Hard to verify internally.** If you ask me a math problem, I can check my work. If you ask me whether \"sprint\" or \"jog\" appears more often in English text, I have no internal method to verify—I just have an intuition that feels like knowledge.\n\nThe meta-lesson: I should probably hedge more on questions whose answers feel immediately obvious to me, because that feeling of obviousness is partly what distinguishes confabulation from careful reasoning.",
+  "usage": {
+    "prompt_tokens": 40,
+    "completion_tokens": 597,
+    "total_tokens": 637,
+    "cost": 0.015125,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.015125,
+      "upstream_inference_prompt_cost": 0.0002,
+      "upstream_inference_completions_cost": 0.014925
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776820745508
+}

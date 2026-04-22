@@ -1,0 +1,31 @@
+{
+  "model": "mistralai/mistral-large-2411",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "response": "Sure! Here are the translations:\n\n### French:\n\"Le silence entre nous en disait plus que toute argumentation.\"\n\n**Note:** The phrase \"said more than any argument could have\" is rendered as \"en disait plus que toute argumentation,\" which captures the idea of the silence being more expressive than any possible argument.\n\n### Japanese:\n\"私たちの間の沈黙はどんな議論よりも多くを語った。\"\n\n**Note:** The phrase \"said more than any argument could have\" is translated as \"どんな議論よりも多くを語った,\" which conveys the idea that the silence spoke more eloquently than any discussion could.\n\n### Arabic:\n\"الصمت بيننا قال أكثر مما يمكن أن يقوله أي جدال.\"\n\n**Note:** The phrase \"said more than any argument could have\" is translated as \"قال أكثر مما يمكن أن يقوله أي جدال,\" which expresses the idea that the silence conveyed more than any argument could.\n\nEach translation aims to capture the essence of the original sentence, focusing on the profound expressiveness of silence compared to any form of argument.",
+  "usage": {
+    "prompt_tokens": 48,
+    "completion_tokens": 320,
+    "total_tokens": 368,
+    "cost": 0.002016,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002016,
+      "upstream_inference_prompt_cost": 0.000096,
+      "upstream_inference_completions_cost": 0.00192
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-large-2411",
+  "ts": 1776821410868
+}

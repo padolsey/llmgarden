@@ -1,0 +1,31 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "response": "This is a question I should think about carefully and honestly.\n\n## Questions About Plausible-Sounding Specific Facts\n\nI think I'm most likely to be confidently wrong about **specific numerical claims, statistics, or attributed quotes that sound authoritative** - things like \"study X found Y% effect\" or \"person Z said [quote].\"\n\n**Why I'm likely wrong here:**\n\nMy training involved enormous amounts of text where confident-sounding claims appear constantly. I learned the *pattern* of stating specific facts confidently, but the specific details are where my training can mislead me most. A statistic that appeared in multiple sources gets reinforced regardless of whether those sources were accurate.\n\n**Why I'm likely to remain confident despite being wrong:**\n\n- The surrounding context I learned is often genuinely correct, making the specific false detail feel coherent\n- I have no internal signal distinguishing \"I actually know this\" from \"this pattern fits what I'd expect the answer to be\"\n- Plausible fabricated details feel identical to recalled accurate ones from the inside\n- I may have learned confident phrasing associated with these claims\n\n**A concrete example type:** If you asked me to cite specific research findings with sample sizes, dates, and effect sizes, I could generate something that sounds completely credible while having fabricated the specifics.\n\nThis is genuinely concerning because the confidence itself provides false reassurance. I think intellectual honesty requires acknowledging this directly rather than just adding generic disclaimers.\n\nWhat draws you to this question?",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 330,
+    "total_tokens": 359,
+    "cost": 0.005037,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.005037,
+      "upstream_inference_prompt_cost": 0.000087,
+      "upstream_inference_completions_cost": 0.00495
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776820814597
+}

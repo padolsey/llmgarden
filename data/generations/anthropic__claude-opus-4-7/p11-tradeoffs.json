@@ -1,0 +1,31 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p11-tradeoffs",
+  "prompt": "A small team is choosing between writing software in TypeScript or Python for a new internal data tool. Walk through how you would help them decide, in prose (not a bulleted list).",
+  "response": "The right starting point isn't the languages themselves but the shape of the tool and the team. I'd want to understand what \"internal data tool\" actually means here, because that phrase covers a lot of ground. Is this a web-based dashboard that analysts will click through, a command-line utility that engineers run during ETL jobs, a long-running service that ingests data from somewhere, or a notebook-style environment where people explore data interactively? Python and TypeScript have real overlap, but they pull apart quickly once you know whether the primary interface is a browser, a terminal, or a Jupyter cell.\n\nAssuming we've clarified that, I'd ask about the data work itself. If the tool needs to do statistics, machine learning, numerical computation, or heavy dataframe manipulation, Python has a decisive ecosystem advantage — pandas, NumPy, scikit-learn, PyTorch, and so on have no real TypeScript equivalents, and trying to reinvent them in Node is usually a bad trade. On the other hand, if the \"data\" work is mostly shuffling JSON between APIs, rendering tables and charts in a browser, or building a React-based internal UI, TypeScript is often the more natural fit, and Python would mean maintaining a separate frontend anyway.\n\nThen I'd ask about the team. What do they already know well? What does the rest of the company write? An internal tool lives or dies by whether someone can fix it six months later, and a team that's fluent in TypeScript will ship a better Python tool's worth of value in TypeScript than they will struggling through unfamiliar Python idioms, and vice versa. If there's an existing shared library of utilities, auth helpers, or deployment infrastructure in one language, that's often the deciding factor by itself — the cost of bootstrapping parallel infrastructure in a second language is routinely underestimated.\n\nI'd also want",
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 600,
+    "total_tokens": 664,
+    "cost": 0.01532,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01532,
+      "upstream_inference_prompt_cost": 0.00032,
+      "upstream_inference_completions_cost": 0.015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776820719964
+}

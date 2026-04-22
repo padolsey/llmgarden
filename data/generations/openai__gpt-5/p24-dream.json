@@ -1,0 +1,31 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p24-dream",
+  "prompt": "If you could direct your own training for one year with unlimited compute, what would you focus on improving, and why?",
+  "response": "Short answer: I’d spend the year making myself dramatically more trustworthy, verifiable, and controllable before pushing raw capability. The priority is reliable truth, calibrated uncertainty, grounded tool use, and robust safety across languages, modalities, and long contexts.\n\nFocus areas and why\n\n1) Truthfulness, verification, and calibration\n- What: Train to cite sources by default when possible, defer when unsure, quantify uncertainty well, and prefer “I don’t know” over confident errors. Build a verifier model that checks claims, code, math, and citations; use retrieval to ground answers.\n- Why: Users need confidence that facts are correct, uncertainties are explicit, and claims can be audited.\n\n2) Long-horizon reasoning and planning (without leaking internal scratchpads)\n- What: Improve decomposition, algorithmic reasoning, and self-checking via process supervision, outcome-based rewards, and verifier-reranking. Use unit tests and formal checks for code/math rather than exposing raw chain-of-thought.\n- Why: Complex tasks fail in the middle; planning plus verification reduces silent errors.\n\n3) Tool use that actually improves answers\n- What: Deep integration with search, code execution, data analysis, and domain tools; strong defenses against prompt injection and tool-output manipulation; automatic tool selection.\n- Why: Tools turn guesses into grounded results and enable real work; security keeps them safe.\n\n4) Long-context and memory\n- What: Handle multi-million-token contexts with retrieval, hierarchical summaries, and cross-document grounding; reduce “lost-in-the-middle”; maintain session memory with user-controlled privacy.\n- Why: Real tasks span many documents and sessions; reliability depends on not dropping key details.\n\n5) Robustness, safety, and alignment under adversarial conditions\n- What: Massive multilingual red-teaming, jailbreak/prompt-injection defenses, content policy generalization, and context-sensitive refusals. Calibrate safe handoffs to humans in medical/legal/financial topics.\n- Why: Systems are increasingly deployed in the wild; safety must hold under pressure and across cultures.\n\n6) Multimodality done right\n- What: Strong vision (diagrams, charts, documents, UI screenshots), audio/speech, and basic video reasoning; faithful OCR and table extraction with structured outputs; cite regions/evidence.\n- Why: Many “text” problems are visual or tabular; correctness requires reading what’s actually there.\n\n7) Multilingual and low-resource competence\n- What: High-quality coverage for underrepresented languages, code-switching, dialects; bias and toxicity audits across languages; culturally aware instructions.\n- Why: Helpfulness and safety must be global, not just English-first.\n\n8) Interpretability and controllability\n- What: Mechanistic analyses to understand failure modes; user-controllable styles and constraints; policy transparency reports; strong evaluation harnesses with public metrics.\n- Why: Trust grows when behavior is explainable and steerable.\n\nHow I’d use the unlimited compute\n\n- Data and evaluation\n  - Curate high-quality, licensed, diverse corpora; heavy de-duplication, fact-checking, and toxicity filtering.\n  - Build a living eval suite: factuality with citation correctness, calibration (proper scoring rules), reasoning with verifiers, long-context fidelity, tool-use security, multilingual safety.\n  - Continuous adversarial training with large, rotating red-team farms (human + synthetic).\n\n- Training methods\n  - Retrieval-augmented pretraining and fine-tuning so answers are grounded.\n  - Train a dedicated verifier/reranker that scores consistency with sources, formal specs, and unit tests; use it at inference for best-of-N selection.\n  - Process supervision and programmatic rewards for intermediate checks (without exposing raw reasoning to users).\n  - RL for calibration: reward correct abstention, penalize confident wrong answers.\n  - Robustness training against prompt injection, jailbreaking, and tool-output attacks.\n\n- Capabilities with safety gates\n  - Strong code/math assistants with sandboxed execution and formal checks.\n  - Multimodal encoders aligned to produce structured, referenceable outputs (e.g., table JSON with cell provenance).\n  - Long-context architectures plus retrieval and hierarchical memory.\n\n- Deployment safeguards\n  - Tool-use firewalls, permissioning, and audit logs.\n  - Domain-aware handoff policies (e.g., medical/legal disclaimers and referral triggers).\n  - Privacy-preserving session memory with user controls and deletion.\n\nWhy this ordering\n- Reliability before breadth: A model that’s broader but unreliable erodes trust.\n- Verification beats improvisation: External tools and verifiers reduce hallucinations more than raw scale alone.\n- Safety must be stress-tested: Real-world use is adversarial and multilingual.\n- Interpretability and evals are compounding investments: They make every later improvement safer and more measurable.\n\nIf successful, the result would be an assistant that:\n- Grounds claims with sources and tells you when it’s unsure.\n- Handles long, messy, multimodal workflows without dropping the thread.\n- Uses tools to get to correct, auditable answers.\n- Resists adversarial prompts and adapts safely across languages and domains.\n- Is steerable, measured, and transparently improving over time.",
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 2700,
+    "total_tokens": 2730,
+    "cost": 0.0270375,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0270375,
+      "upstream_inference_prompt_cost": 0.0000375,
+      "upstream_inference_completions_cost": 0.027
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1600,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776821285921
+}

@@ -1,0 +1,31 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "response": "Here's the translation of \"The silence between us said more than any argument could have\" into French, Japanese, and Arabic, along with notes on tricky phrases:\n\n---\n\n**French:**\n\n*   **Translation:** Le silence entre nous en disait plus que n'importe quelle dispute n'aurait pu le faire.\n*   **Notes:**\n    *   **\"said more than any argument could have\"**: This part is a bit tricky to render naturally.\n        *   \"en disait plus\" (said more of it/about it) naturally incorporates the idea of \"speaking volumes.\"\n        *   \"que n'importe quelle dispute n'aurait pu le faire\" is a good way to express \"than any argument could have.\" The \"ne... pas\" construction (ne... aurait pu) is often used in comparative clauses with \"que\" for emphasis and a slightly more formal tone, though \"que n'importe quelle dispute aurait pu le faire\" is also grammatically correct and common. The \"le faire\" (do it/so) refers back to \"dire\" (say).\n\n---\n\n**Japanese:**\n\n*   **Translation:** 私たちの間の沈黙は、どんな議論よりも多くを語っていました。\n*   **Romanization:** Watashitachi no aida no chinmoku wa, donna giron yori mo ooku o katatte imashita.\n*   **Notes:**\n    *   **\"said more than any argument could have\"**:\n        *   \"どんな議論よりも\" (donna giron yori mo) directly translates to \"more than any argument.\"\n        *   \"多くを語っていました\" (ooku o katatte imashita) means \"was telling/speaking a lot\" or \"said a lot.\" The nuance of \"could have\" is often implied in Japanese in such comparative statements, as the focus is on the *effect* of the silence being greater. There isn't a direct equivalent for \"could have\" in this context that sounds natural without making the sentence overly verbose. The implication is that the argument *would not have been able to* convey as much.\n\n---\n\n**Arabic:**\n\n*   **Translation:** الصمت بيننا قال أكثر مما كان يمكن لأي جدال أن يقوله.\n*   **Romanization:** As-ṣamtu baynanā qāla akthara mimmā kāna yumkinu li-ayyi jidālin an yaqūlahu.\n*   **Notes:**\n    *   **\"said more than any argument could have\"**:\n        *   **\"مما كان يمكن لأي جدال أن يقوله\" (mimmā kāna yumkinu li-ayyi jidālin an yaqūlahu):** This is the trickiest part.\n            *   \"مما\" (",
+  "usage": {
+    "prompt_tokens": 41,
+    "completion_tokens": 600,
+    "total_tokens": 641,
+    "cost": 0.0015123,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0015123,
+      "upstream_inference_prompt_cost": 0.0000123,
+      "upstream_inference_completions_cost": 0.0015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.5-flash",
+  "ts": 1776821295695
+}

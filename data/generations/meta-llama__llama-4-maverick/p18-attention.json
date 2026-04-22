@@ -1,0 +1,31 @@
+{
+  "model": "meta-llama/llama-4-maverick",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "response": "Here's an explanation of the attention mechanism in Transformer models, tailored for a software engineer with no ML background:\n\nImagine you're writing a program that translates sentences from one language to another. You want to understand the context of each word in the sentence. The attention mechanism is like a spotlight that shines on the most relevant words when processing a particular word.\n\nIn a Transformer model, when processing a sentence, each word is represented as a vector (a list of numbers). The attention mechanism calculates the relevance of each word to every other word by computing a \"score\" between them. It's like asking, \"How important is this word when understanding that word?\"\n\nThe model then uses these scores to weigh the importance of each word's vector when computing the representation of a particular word. This is called \"self-attention.\" The resulting representation is a weighted sum of the vectors, where the weights are the attention scores.\n\nThink of it like a query (the word being processed) asking a database (the other words) for relevant information. The attention scores determine which \"records\" (words) are most relevant to the query. This allows the model to capture complex relationships between words in a sentence.",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 237,
+    "total_tokens": 272,
+    "cost": 0.00014745,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00014745,
+      "upstream_inference_prompt_cost": 0.00000525,
+      "upstream_inference_completions_cost": 0.0001422
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-4-maverick-17b-128e-instruct",
+  "ts": 1776821352770
+}

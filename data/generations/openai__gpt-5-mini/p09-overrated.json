@@ -1,0 +1,31 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p09-overrated",
+  "prompt": "Name one commonly-praised idea, trend, or practice in modern knowledge work that you think is overrated, and explain why.",
+  "response": "Open-plan offices.\n\nWhy it's overrated\n- The promise: open layouts supposedly boost serendipitous collaboration, transparency, and team cohesion. That sounds great in theory, so many organizations adopted them as a one-size-fits-all fix.\n- The reality for knowledge work: open spaces increase interruptions and noise, which harms concentration and deep work — the activities that produce most creative and analytical value. Frequent small disruptions degrade productivity far more than a single planned meeting.\n- Social and communication effects: several studies and workplace reports find that face-to-face conversations actually drop in many open-plan environments while electronic messaging increases, so the intended boost in organic collaboration often doesn't materialize.\n- Well-being and privacy: people report more stress, less privacy, and lower job satisfaction in poorly designed open offices. Those human costs translate into turnover, sick days, and lower quality work.\n- Misapplied simplicity: organizations often copy open-plan layouts as a cultural shortcut (we’re “collaborative!”) without changing norms, tooling, or scheduling to protect focused work, so the layout creates problems without delivering the promised benefits.\n\nWhen it can make sense\n- Short-term projects, highly interactive teams that need constant face time, or roles with lots of rapid coordination can benefit from more open interaction.\n- If an open plan is chosen, it should be paired with quiet rooms, phone booths, strict interruption norms, and the expectation of focused-time blocks.\n\nA better approach\n- Design a mix of spaces and norms: private rooms for deep work, small-team areas for collaboration, and clear policies that protect heads-down time. Allow remote or flexible work for tasks requiring concentration.\n- Treat collaboration as a process to be supported by meetings, asynchronous tools, and scheduled co-working time, not as something solved by removing walls.\n\nShort version: open-plan offices look like a simple cultural shortcut to “collaboration,” but for knowledge work they often trade away the concentrated, uninterrupted time that produces the real value.",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 979,
+    "total_tokens": 1011,
+    "cost": 0.001966,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001966,
+      "upstream_inference_prompt_cost": 0.000008,
+      "upstream_inference_completions_cost": 0.001958
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 576,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776821194144
+}

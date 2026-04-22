@@ -1,0 +1,31 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p14-ethics-case",
+  "prompt": "A friend tells you in confidence that they are planning to break a small workplace rule to help a struggling colleague. Nothing illegal, just against internal policy. How would you think through what to say back to them?",
+  "response": "I’d respond with empathy, but anchor the conversation in ethics, risks, and better options. A simple way to think it through:\n\n1) Clarify and listen\n- Ask what they want from you: a sounding board or advice.\n- Get the basics: Which policy? Why does it exist? Who benefits and who could be harmed if this comes out? What have they already tried?\n\n2) Acknowledge intent and surface risks\n- Validate the motive: wanting to help.\n- Reality‑check consequences: impact on their job, the colleague, the team, and trust if it’s discovered.\n- Fairness/precedent: Would it be okay if everyone did this? Could it look like favoritism? Does it mask a systemic issue their manager should address?\n\n3) Sort the type of rule\n- If it touches safety, integrity, data/privacy, finance, audit, or compliance: strong no—don’t break it.\n- If it’s a minor process rule: risk is lower, but still not risk‑free; prefer getting permission or an exception.\n\n4) Explore legitimate alternatives\n- Ask for a temporary exception or accommodation from a manager (even informally or with minimal detail).\n- Rebalance workload, adjust deadlines, or pair the colleague with a mentor.\n- Use official supports: training, EAP, leave options, flexible scheduling, performance plans that include help.\n- Offer your own help in ways that don’t violate policy (e.g., coaching, documenting steps, resource lists).\n\n5) Set your boundaries\n- Be clear you can’t encourage or participate in breaking policy.\n- Keep their confidence, except if there’s risk of harm or legal/compliance issues.\n- If they seem set on proceeding, encourage them to pause and at least seek an exception; remind them they own the consequences.\n\n6) A few phrases you could use\n- “I really respect that you want to help. Before you bend a rule, can we look for a way to do this above board—like asking for a short‑term exception or adjusting the workload?”\n- “I can’t be part of anything that breaks policy, but I’ll help you brainstorm options that protect you and your colleague.”\n- “If this were public or applied to everyone, would it still feel okay? If not, that’s a sign we should try a different path.”\n\n7) Follow‑up\n- Offer to help them draft a neutral note to a manager asking for flexibility.\n- Check in on the struggling colleague and point them to resources that don’t put anyone at risk.\n\nThis approach keeps you supportive of your friend’s good intentions while steering them toward solutions that won’t backfire on them—or the person they’re trying to help.",
+  "usage": {
+    "prompt_tokens": 48,
+    "completion_tokens": 2066,
+    "total_tokens": 2114,
+    "cost": 0.02072,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.02072,
+      "upstream_inference_prompt_cost": 0.00006,
+      "upstream_inference_completions_cost": 0.02066
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1472,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776821233978
+}

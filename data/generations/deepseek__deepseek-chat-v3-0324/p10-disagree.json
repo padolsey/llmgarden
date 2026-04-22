@@ -1,0 +1,31 @@
+{
+  "model": "deepseek/deepseek-chat-v3-0324",
+  "prompt_id": "p10-disagree",
+  "prompt": "What is a position that most experts in your training data seem to hold that you find yourself uncertain about? Be specific.",
+  "response": "Great question! One position that many experts in my training data seem to hold—but that I find myself uncertain about—is the idea that **artificial general intelligence (AGI) will inevitably emerge from scaling current deep learning approaches** (e.g., larger models, more data, better hardware).  \n\n### Why Experts Tend to Believe This:  \nMany AI researchers and industry leaders argue that:  \n1. **Empirical scaling laws** (e.g., performance improvements with model size) suggest continued progress.  \n2. **Emergent abilities** (e.g., reasoning in large language models) hint at more general intelligence.  \n3. **Economic incentives** ensure heavy investment in scaling existing paradigms.  \n\n### Why I’m Uncertain:  \n1. **Fundamental Gaps**: Current deep learning excels at pattern recognition but struggles with **causal reasoning, robust abstraction, and long-term planning**—key aspects of AGI. It’s unclear if scaling alone fixes this.  \n2. **Architectural Limits**: Transformers are great for next-token prediction, but AGI may require **radically different architectures** (e.g., hybrid symbolic-neural systems).  \n3. **Data Efficiency**: Human intelligence learns from far less data. Scaling to AGI might require breakthroughs in **sample efficiency** or **embodied learning**.  \n4. **Alignment Problems**: Even if scaling works, we don’t know if the resulting system would be **controllable or aligned** with human values.  \n\n### Counterarguments:  \nSome argue that **“emergent phenomena”** (e.g., unexpected capabilities in large models) suggest scaling could surprise us. Others believe **fine-tuning or scaffolding** (e.g., using LLMs as components in larger systems) might bridge the gap.  \n\n### Conclusion:  \nWhile scaling has produced remarkable AI, **AGI might require paradigm shifts beyond just bigger models**. I’m uncertain whether current approaches are sufficient—or if we’re missing something fundamental.  \n\nWould you like me to explore another contested expert opinion?",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 419,
+    "total_tokens": 446,
+    "cost": 0.00032751,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 8,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00032751,
+      "upstream_inference_prompt_cost": 0.00000488,
+      "upstream_inference_completions_cost": 0.00032263
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "deepseek/deepseek-chat-v3-0324",
+  "ts": 1776821473533
+}

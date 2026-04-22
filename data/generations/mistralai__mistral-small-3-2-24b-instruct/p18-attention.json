@@ -1,0 +1,31 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "response": "The attention mechanism in transformer models is like a focused reading system. Imagine you're reading a book and want to understand a sentence. Instead of reading the whole book again, you focus on the most relevant parts—other sentences that help clarify the current one.\n\nIn a transformer, this \"focus\" is mathematically calculated. For each word (or token) in your input, the model creates a **query** (what it’s trying to understand), a **key** (what each other word offers), and a **value** (the actual helpful information). The model computes how much each word should pay attention to others by comparing queries with keys (using dot products) and assigning weights.\n\nThese weights determine how much each \"value\" contributes to understanding the current word. The model then sums weighted values to form a contextualized representation. This happens *dynamically* for every word, allowing the model to handle long-range dependencies without complex loops.\n\nFor example, if you’re translating \"Paris is the capital of France,\" the word \"France\" might strongly attend to \"Paris\" and \"capital\" to understand context. Attention lets transformers process all words at once (in parallel) while adaptively focusing on what matters.\n\nThis is why transformers excel at tasks like translation or chatbots—they efficiently \"zoom in\" on relevant parts of the input, just like a human reader. No need for RNNs or convolutions! Just pure, scalable attention.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 296,
+    "total_tokens": 327,
+    "cost": 0.000061525,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000061525,
+      "upstream_inference_prompt_cost": 0.000002325,
+      "upstream_inference_completions_cost": 0.0000592
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-small-3.2-24b-instruct-2506",
+  "ts": 1776821407837
+}

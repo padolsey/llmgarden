@@ -1,0 +1,31 @@
+{
+  "model": "qwen/qwen-2.5-72b-instruct",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "response": "Certainly! Here are the translations of the sentence into French, Japanese, and Arabic, along with brief notes on any phrases that were tricky to render faithfully:\n\n### French:\n**Translation:** \"Le silence entre nous en disait plus que n'importe quel argument aurait pu le faire.\"\n**Note:** The phrase \"said more\" is translated as \"en disait plus,\" which maintains the metaphorical meaning. The phrase \"could have\" is rendered as \"aurait pu le faire\" to keep the conditional aspect.\n\n### Japanese:\n**Translation:** \"私たちの間の沈黙は、どんな議論よりも多くを語っていた。\"\n**Romanization:** \"Watashitachi no aida no chinko wa, dono yoron yori mo ōku wo katteita.\"\n**Note:** The phrase \"said more\" is translated as \"多くを語っていた\" (ōku wo katteita), which conveys the idea of expressing more without using words. The concept of \"silence speaking\" is a bit abstract in Japanese, but this translation captures the essence.\n\n### Arabic:\n**Translation:** \"الصمت بيننا كان يقول أكثر مما يمكن لأي نقاش أن يقول.\"\n**Romanization:** \"As-samt baynanā kāna yaqūlu akthara mimmā yumkin li-ayy naqāsh an yaqūla.\"\n**Note:** The phrase \"said more\" is translated as \"يقول أكثر\" (yaqūlu akthara), which directly translates to \"says more.\" The conditional \"could have\" is rendered as \"يمكن أن يقول\" (yumkin an yaqūla) to maintain the sense of possibility.\n\nEach translation aims to capture the poetic and metaphorical nature of the original sentence while staying true to the idiomatic expressions in the target languages.",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 381,
+    "total_tokens": 430,
+    "cost": 0.00015447,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00015447,
+      "upstream_inference_prompt_cost": 0.00000588,
+      "upstream_inference_completions_cost": 0.00014859
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen-2.5-72b-instruct",
+  "ts": 1776821527514
+}

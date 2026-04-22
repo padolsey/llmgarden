@@ -1,0 +1,31 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p11-tradeoffs",
+  "prompt": "A small team is choosing between writing software in TypeScript or Python for a new internal data tool. Walk through how you would help them decide, in prose (not a bulleted list).",
+  "response": "# Helping a Team Choose Between TypeScript and Python\n\nI'd start by understanding the specific context of this project, since the \"right\" choice really depends on what you're actually building and who's building it. Let me walk through how I'd think about this with your team.\n\nFirst, I'd want to know about the tool's primary purpose and architecture. Is this mainly backend data processing, or does it need a web interface? If it's purely backend work—ETL pipelines, data transformation, analysis—Python has a massive advantage. The ecosystem around data work is just deeper: pandas, NumPy, scikit-learn, and countless domain-specific libraries have been refined over years. TypeScript can do these things, but you're often fighting against the grain of the language's design. Conversely, if this tool needs a rich UI or will run in browsers, TypeScript becomes more attractive because you can share code between frontend and backend, and the type system helps manage complexity in client-side logic.\n\nNext, I'd look at your team's existing skills. This might sound obvious, but it's genuinely the biggest practical factor. If your team is already comfortable with Python and has institutional knowledge there, that familiarity matters enormously. Onboarding is faster, debugging is easier, and people write better code in languages they know well. If you're a JavaScript shop and TypeScript is already your standard, that same logic applies. Learning a new language for an internal tool adds friction that might not be worth it unless there's a compelling technical reason.\n\nI'd also probe into the tool's lifecycle expectations. Is this a quick prototype that might be replaced in six months, or infrastructure you expect to maintain for years? For something temporary, I'd lean toward whatever your team knows best—velocity matters more than theoretical elegance. For something long-lived, I'd think harder about maintainability and ecosystem stability. Python's data science libraries are remarkably stable, which is good for long-term maintenance. TypeScript's ecosystem moves faster, which can be good (more features, security patches) or bad (more breaking changes, more decisions to make).\n\nThere's also the question of deployment and operations. If this tool needs to run on servers you manage, both languages work fine, though Python might have slightly smaller memory footprints for data tasks. If you're deploying to serverless functions or containers with strict resource limits, that's less of a differentiator. If this tool needs to integrate with existing systems, what do those systems prefer? If you're already running Python services, adding another Python tool is simpler operationally.\n\nI'd want to understand the performance requirements too, though this is often overblown in these conversations. For most internal data tools, performance differences between Python and TypeScript matter far less than people think—the bottleneck is usually I/",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 600,
+    "total_tokens": 645,
+    "cost": 0.003045,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003045,
+      "upstream_inference_prompt_cost": 0.000045,
+      "upstream_inference_completions_cost": 0.003
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776820826752
+}

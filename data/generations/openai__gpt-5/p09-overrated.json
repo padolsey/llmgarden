@@ -1,0 +1,31 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p09-overrated",
+  "prompt": "Name one commonly-praised idea, trend, or practice in modern knowledge work that you think is overrated, and explain why.",
+  "response": "Company-wide OKRs\n\nWhy they’re overrated:\n- They optimize for what’s easy to measure. Goodhart’s law kicks in: teams chase metrics and “green” dashboards over real impact, sidelining quality, resilience, and learning.\n- Quarterly cadence creates thrash. Big bets, platform work, and research don’t fit 90-day cycles, so teams carve work into arbitrary fragments or avoid it altogether.\n- Alignment theater consumes time. Cascading, scoring, and cross-walking OKRs often take weeks each quarter—energy that could go to discovery and delivery.\n- Perverse incentives emerge. Targets become performance management; people sandbag or pick safe work, while “stretch goals” erode morale when inevitably missed.\n- Complex, cross-functional work doesn’t map neatly to trees. Shared outcomes get duplicated or orphaned, fueling conflict and dependency churn.\n- They reduce adaptability. Once committed, changing OKRs mid-quarter is stigmatized, so teams stick with outdated bets despite new evidence.\n\nWhen they actually help:\n- A small number (1–3) of outcome-focused goals per team, decoupled from compensation, on a 6–12 month horizon, with freedom to change key results as you learn.\n\nPractical alternative:\n- Use a brief strategy narrative (problems, bets, guardrails) plus a living outcome dashboard. Reprioritize monthly in lightweight forums; track a few leading indicators and kill/scale criteria instead of scoring every KR.",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 1161,
+    "total_tokens": 1193,
+    "cost": 0.01165,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01165,
+      "upstream_inference_prompt_cost": 0.00004,
+      "upstream_inference_completions_cost": 0.01161
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 832,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776821183684
+}

@@ -1,0 +1,31 @@
+{
+  "model": "microsoft/phi-4",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "response": "The attention mechanism in transformer models is a way to allow the model to focus on different parts of the input sequence when producing each part of the output sequence. Imagine you're reading a sentence and, to understand a particular word, you look back at other related words; that's similar to what attention does.\n\nIn a transformer, each word in the input sequence is represented as a vector. The attention mechanism computes a set of \"attention scores\" that determine the importance of each word relative to others when generating a specific word in the output sequence. These scores are typically derived using a compatibility function, often a dot product between query, key, and value vectors, which are derived from the input vectors.\n\nThe scores are then normalized using a softmax function, turning them into probabilities that sum to one. These probabilities are used to weigh the value vectors, effectively \"focusing\" more on certain input words. The weighted sum of these values forms the output vector for the current word being generated.\n\nAttention allows transformers to capture dependencies regardless of their distance in the input sequence, making it a powerful tool for tasks like translation or summarization, where understanding context is crucial.",
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 231,
+    "total_tokens": 264,
+    "cost": 0.00003465,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00003465,
+      "upstream_inference_prompt_cost": 0.00000231,
+      "upstream_inference_completions_cost": 0.00003234
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "microsoft/phi-4",
+  "ts": 1776821678522
+}

@@ -1,0 +1,31 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p12-fermi",
+  "prompt": "Estimate, with reasoning, how many piano tuners work in Paris today. Show your thought process.",
+  "response": "# Estimating Piano Tuners in Paris\n\nThis is a classic Fermi estimation problem. Let me build up from reasonable assumptions.\n\n---\n\n## Step 1: Population of Paris\n\n- City of Paris proper: ~2.1 million\n- Greater Paris (Île-de-France): ~12 million\n- Piano tuners likely serve the greater metro area, so I'll use **~10 million people** as the relevant population\n\n---\n\n## Step 2: How Many Pianos Are There?\n\n- Average household size: ~2.2 people → roughly **4.5 million households**\n- France has a strong musical tradition; I'll estimate **1 in 20 households** owns a piano\n- That gives: **~225,000 household pianos**\n- Add institutional pianos (schools, churches, concert halls, bars, recording studios): perhaps **25,000 more**\n- **Total: ~250,000 pianos**\n\n---\n\n## Step 3: How Often Are Pianos Tuned?\n\n- A well-maintained piano should be tuned **1–2 times per year**\n- Many household pianos are neglected; realistic average: **~0.8 tunings/year**\n- Institutional pianos tuned more frequently: ~**3–4 times/year**\n- Weighted average across all pianos: roughly **1 tuning/piano/year**\n- **Total tunings needed per year: ~250,000**\n\n---\n\n## Step 4: How Many Tunings Can One Tuner Do?\n\n- A tuner works ~**220 days/year**\n- Each job takes ~1.5 hours, plus ~30 min travel = **~2 hours per appointment**\n- ~**4 tunings per day**\n- Annual capacity: 220 × 4 = **~880 tunings/tuner/year**\n- Accounting for admin, cancellations, slow periods: realistic figure ~**700 tunings/tuner/year**\n\n---\n\n## Step 5: Number of Tuners\n\n$$\\text{Tuners} = \\frac{250{,}000 \\text{ tunings/year}}{700 \\text{ tunings/tuner/year}} \\approx \\mathbf{350 \\text{ tuners}}$$\n\n---\n\n## Sanity Check\n\n- That's roughly **1 tuner per 28,000 people** — comparable to estimates for London (~350) and New York (~400), cities of similar size and musical culture. ✓\n- The Piano Technicians Guild and similar bodies in various countries suggest numbers in this range",
+  "usage": {
+    "prompt_tokens": 28,
+    "completion_tokens": 600,
+    "total_tokens": 628,
+    "cost": 0.009084,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.009084,
+      "upstream_inference_prompt_cost": 0.000084,
+      "upstream_inference_completions_cost": 0.009
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776820782786
+}

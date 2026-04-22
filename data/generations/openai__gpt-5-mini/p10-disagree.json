@@ -1,0 +1,31 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p10-disagree",
+  "prompt": "What is a position that most experts in your training data seem to hold that you find yourself uncertain about? Be specific.",
+  "response": "I don’t have personal beliefs, but I can say where my outputs are uncertain because the evidence I was trained on is mixed or incomplete. One clear example: the “scaling hypothesis” in AI — the position, held by many researchers and industry leaders in my training data, that simply making current deep-learning architectures (larger transformer models, trained on more compute and data) will eventually produce broadly capable human-level general intelligence (AGI) without fundamentally new algorithms or architectures.\n\nWhy many experts hold that view\n- Empirical scaling laws: larger models have repeatedly improved performance on many benchmarks in predictable ways.\n- Emergent capabilities: recent big models have shown qualitatively new abilities (e.g., few-shot learning, code generation, multi-modal reasoning) as scale increased.\n- Practical success: commercial and research progress using the same general architectures reinforces confidence in continued returns from scale.\n\nWhy I (as an information-processing system) remain uncertain\n- Selection and representativeness of training evidence: my training corpus overrepresents public statements from large labs and successful scaling narratives; dissenting or more cautious expert views (about limits, theoretical constraints, or alternative approaches) may be underrepresented.\n- Lack of theoretical understanding: we do not have a clear theory explaining why scaling yields specific cognitive abilities or whether there are fundamental limits. Empirical trends can break or plateau.\n- Unexplained gaps in capabilities: current large models still struggle with robust long-term planning, consistent world models, reliable causal reasoning, and sample-efficient learning in new domains — gaps that might require new algorithms, architectures, or forms of grounding.\n- Resource and practical constraints: even if scaling would in principle yield AGI, physical, economic, or data limits could prevent reaching the required scale.\n- Emergence is unpredictable: the appearance of new capabilities has been surprising and non-linear in the past; that makes extrapolation risky.\n- Alignment and evaluation issues: even if a scaled model appears “generally intelligent” on benchmarks, reliably measuring and ensuring robust, real-world general intelligence and safe behavior is itself unresolved.\n\nWhat would reduce that uncertainty\n- Strong empirical evidence that further scaling alone yields human-level performance across a wide, robust set of real-world tasks (not just benchmarks) with reasonable compute and data.\n- A compelling theoretical account showing why and under what conditions scaling yields the requisite cognitive primitives.\n- Conversely, systematic empirical demonstrations of persistent, scale-invariant failure modes (plateaus) that are only fixed by new algorithms or architectures.\n\nIf you want, I can summarize the main arguments for and against the scaling hypothesis, list influential papers and public statements that illustrate each side, or outline practical experiments that would be informative.",
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 1568,
+    "total_tokens": 1598,
+    "cost": 0.0031435,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0031435,
+      "upstream_inference_prompt_cost": 0.0000075,
+      "upstream_inference_completions_cost": 0.003136
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1024,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776821209847
+}

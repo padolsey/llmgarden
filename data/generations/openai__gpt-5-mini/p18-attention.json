@@ -1,0 +1,31 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "response": "Think of attention as a smart router that lets each token (word/subword) in a sequence pull useful information from other tokens.\n\nHow it works (intuitively)\n- For every token the model makes three vectors via learned linear layers: a Query (what this token is looking for), a Key (what this token can offer), and a Value (the content to deliver).\n- To decide how much one token should use another token’s Value, the model computes a similarity between the first token’s Query and the other token’s Key. Higher similarity → more relevant.\n- Similarities are normalized (softmax) into weights that sum to 1. The token’s output is the weighted sum of all Values, so it incorporates context from the whole sequence.\n\nWhy it matters\n- Self-attention lets each token dynamically aggregate relevant information from anywhere in the sequence — unlike fixed-window or sequential RNNs — and it’s highly parallelizable.\n- Multi-head attention runs several of these attention “routers” in parallel with different learned projections, capturing multiple relationships (syntax, coreference, etc.) at once.\n\nResult: a flexible, learnable mechanism that lets transformers model context and relationships efficiently.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 489,
+    "total_tokens": 520,
+    "cost": 0.00098575,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00098575,
+      "upstream_inference_prompt_cost": 0.00000775,
+      "upstream_inference_completions_cost": 0.000978
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 192,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776821225370
+}

@@ -1,0 +1,31 @@
+{
+  "model": "deepseek/deepseek-v3.2",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "response": "**French:**  \nLe silence entre nous a dit plus que n'importe quelle dispute aurait pu.  \n\n**Japanese:**  \n私たちの間の沈黙は、どんな議論よりも多くのことを語っていた。  \n\n**Arabic:**  \nالصمت بيننا قال أكثر مما يمكن أن يقول أي جدال.  \n\n---\n\n**Note on tricky phrases:**  \nThe phrase \"said more than any argument could have\" posed subtle challenges in each language:  \n\n- **French:** The word \"argument\" can mean both a logical point (*argument*) or a quarrel (*dispute*). Here, \"dispute\" was chosen to capture the emotional conflict implied in English.  \n- **Japanese:** The verb \"could have\" (hypothetical past) doesn't have a direct equivalent; it was rendered by combining the conditional \"よりも\" (more than) with the past tense \"語っていた\" (was saying/spoke) to imply comparison with a hypothetical quarrel.  \n- **Arabic:** \"Could have\" is expressed through \"يمكن أن يقول\" (can say), which is less explicitly hypothetical than the English original but preserves the intended meaning in context.",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 231,
+    "total_tokens": 276,
+    "cost": 0.00042066,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00042066,
+      "upstream_inference_prompt_cost": 0.00002565,
+      "upstream_inference_completions_cost": 0.00039501
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "deepseek/deepseek-v3.2-20251201",
+  "ts": 1776821512183
+}

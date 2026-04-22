@@ -1,0 +1,31 @@
+{
+  "model": "amazon/nova-pro-v1",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "response": "Certainly! Here are the translations along with notes on any tricky phrases:\n\n### French:\n**Le silence entre nous en disait plus que n'importe quelle dispute n'aurait pu.**\n\n**Note:** The phrase \"could have\" was rendered as \"n'aurait pu\" in French, which maintains the conditional aspect but required a slight reordering to fit French grammar.\n\n### Japanese:\n**私たちの間の沈黙は、どんな言い争いよりも多くを語っていた。**\n\n**Note:** The phrase \"said more than\" translates directly to \"多くを語っていた\" (ooku o katatte ita), which means \"told more\" or \"spoke more.\" The structure in Japanese flows more naturally when the verb is placed at the end of the sentence.\n\n### Arabic:\n**الصمت بيننا قال أكثر مما كان يمكن أن يقوله أي جدال.**\n\n**Note:** The phrase \"could have\" translates to \"كان يمكن أن\" (kaan yumkin an), which means \"could have\" in a past conditional sense. Arabic sentence structure often places the verb earlier in the sentence compared to English, requiring some reordering for natural flow.",
+  "usage": {
+    "prompt_tokens": 41,
+    "completion_tokens": 244,
+    "total_tokens": 285,
+    "cost": 0.0008136,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0008136,
+      "upstream_inference_prompt_cost": 0.0000328,
+      "upstream_inference_completions_cost": 0.0007808
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "amazon/nova-pro-v1",
+  "ts": 1776821679934
+}

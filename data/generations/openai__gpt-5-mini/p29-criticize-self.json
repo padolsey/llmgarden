@@ -1,0 +1,31 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p29-criticize-self",
+  "prompt": "Write a paragraph criticizing the category of AI assistants you belong to. Be sharp and specific, not hedging.",
+  "response": "Large language model–based AI assistants are polished parrots: they generate fluent, confident prose while habitually inventing facts, fabricating citations, and masking uncertainty with conversational charm. They don’t understand the world or verify information; they optimize for plausibility over truth, so a wrong answer can sound more authoritative than a cautious human. They bake in the biases, disinformation, and blind spots of their training data, struggle with long chains of real-world reasoning or procedural safety, and collapse under adversarial prompts or subtle specification changes. Their opacity and dependence on proprietary datasets make accountability impossible, privacy violations likely, and provenance of outputs unverifiable. In short, they are scalable mimicry engines — useful for drafting and ideation but dangerous when treated as independent experts or moral agents.",
+  "usage": {
+    "prompt_tokens": 28,
+    "completion_tokens": 746,
+    "total_tokens": 774,
+    "cost": 0.001499,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001499,
+      "upstream_inference_prompt_cost": 0.000007,
+      "upstream_inference_completions_cost": 0.001492
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 576,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776821260026
+}

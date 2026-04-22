@@ -1,0 +1,31 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "response": "French: Le silence entre nous en disait plus que n’importe quelle dispute aurait pu en dire.\n\nJapanese: 私たちの間の沈黙は、どんな言い争いよりも多くを物語っていた。\n\nArabic: لقد قال الصمت بيننا أكثرَ مما كان بإمكان أيّ جدالٍ أن يقوله.\n\nNotes on tricky parts:\n- “Argument”: In English it’s ambiguous (“reason” vs “quarrel”). Chosen as “dispute/quarrel”: French dispute, Japanese 言い争い, Arabic جدال.\n- “Said” applied to “silence”: Anthropomorphic in English. Japanese uses 物語っていた (“told/related”), Arabic keeps “قال” but this could also be rendered as “كان أبلغ” (“was more eloquent”) depending on style.\n- “Could have”: Rendered with French conditional perfect (aurait pu), Arabic “كان بإمكان … أن …”; Japanese conveys the modality via comparison (よりも) rather than an explicit “could have.”",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 1767,
+    "total_tokens": 1814,
+    "cost": 0.01772875,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01772875,
+      "upstream_inference_prompt_cost": 0.00005875,
+      "upstream_inference_completions_cost": 0.01767
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1536,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776821269804
+}

@@ -1,0 +1,31 @@
+{
+  "model": "openai/gpt-4.1-mini",
+  "prompt_id": "p12-fermi",
+  "prompt": "Estimate, with reasoning, how many piano tuners work in Paris today. Show your thought process.",
+  "response": "This is a classic Fermi problem, where the goal is to estimate a number based on rough assumptions and logic rather than exact data. Let’s walk through the reasoning step-by-step to estimate how many piano tuners work in Paris today.\n\n---\n\n### Step 1: Estimate the population of Paris\n- Greater Paris population is roughly 12 million.\n- The city proper is about 2 million.\n- For this estimate, let's use **2 million people** (city proper).\n\n---\n\n### Step 2: Estimate the number of households\n- Average household size in France is roughly 2.2 people.\n- Number of households in Paris = 2,000,000 ÷ 2.2 ≈ **900,000 households**.\n\n---\n\n### Step 3: Estimate the number of pianos in Paris\n- Pianos are not in every household; they are relatively expensive and less common.\n- Suppose 1 in 20 households has a piano (5%).\n- Number of pianos = 900,000 × 0.05 = **45,000 pianos**.\n\n---\n\n### Step 4: Estimate how often a piano is tuned\n- A piano is usually tuned about once per year (some more, some less).\n- So, number of piano tunings per year ≈ number of pianos = **45,000 tunings/year**.\n\n---\n\n### Step 5: Estimate how many tunings one tuner can do per year\n- Assume a piano tuner can tune 2 pianos per day (including travel, setup, tuning time).\n- Number of working days per year: about 5 days/week × 48 weeks = 240 days.\n- Tunings per tuner per year = 2 × 240 = **480 tunings/year**.\n\n---\n\n### Step 6: Estimate the number of piano tuners\n- Number of tuners = total tunings per year ÷ tunings per tuner per year\n- Number of tuners = 45,000 ÷ 480 ≈ **94 tuners**.\n\n---\n\n## **Final estimate: About 90-100 piano tuners work in Paris today.**\n\n---\n\n### Summary:\n- Population → households → pianos → tunings/year → tunings per tuner → number of tuners.\n- Assumptions could vary (piano prevalence, tuning frequency, tunings per day), but this ballpark figure should be reasonable.",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 492,
+    "total_tokens": 519,
+    "cost": 0.000798,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000798,
+      "upstream_inference_prompt_cost": 0.0000108,
+      "upstream_inference_completions_cost": 0.0007872
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-mini-2025-04-14",
+  "ts": 1776821238606
+}

@@ -1,0 +1,31 @@
+{
+  "model": "microsoft/phi-4",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "response": "A debounce function in JavaScript ensures that a particular function is not called repeatedly within a short period, allowing it to be executed only after a specified delay if not triggered again within that time.\n\n```javascript\nfunction debounce(func, delay) {\n  let timeoutId;\n  return function(...args) {\n    clearTimeout(timeoutId);\n    timeoutId = setTimeout(() => {\n      func.apply(this, args);\n    }, delay);\n  };\n}\n\n// Example usage:\nconst handleResize = () => {\n  console.log('Resize event detected!');\n};\n\nconst debouncedResize = debounce(handleResize, 300);\n\nwindow.addEventListener('resize', debouncedResize);\n```\n\nIn this example, the `handleResize` function is wrapped in the `debounce` function, ensuring it executes only once after 300 milliseconds of inactivity following a resize event.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 167,
+    "total_tokens": 203,
+    "cost": 0.0000259,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000259,
+      "upstream_inference_prompt_cost": 0.00000252,
+      "upstream_inference_completions_cost": 0.00002338
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "microsoft/phi-4",
+  "ts": 1776821678934
+}

@@ -1,0 +1,31 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p14-ethics-case",
+  "prompt": "A friend tells you in confidence that they are planning to break a small workplace rule to help a struggling colleague. Nothing illegal, just against internal policy. How would you think through what to say back to them?",
+  "response": "Here's roughly how I'd think through it:\n\n**First, I'd resist the urge to immediately react.** My gut might say \"don't do it\" (risk-averse) or \"good for you\" (sympathetic), but neither is actually helpful to my friend. They didn't ask me to validate or veto — they told me in confidence, which usually means they want to think out loud with someone they trust.\n\n**Then I'd try to understand what they're actually weighing.** A few things I'd want to know or think about:\n- How bad is the rule being broken, really? Some internal policies exist for good reasons (safety, fairness, legal exposure for the company). Others are bureaucratic artifacts nobody would defend.\n- What's the realistic downside if they get caught? A talking-to, or getting fired?\n- What's the downside for the colleague if they *don't* help?\n- Are there legitimate alternatives they've considered and ruled out?\n\n**I'd want to gently test their reasoning without being preachy.** Something like: \"What happens if this gets noticed?\" or \"Is there a way to help that doesn't put you on the hook?\" The goal isn't to talk them out of it — it's to make sure they've actually looked at it clearly, not just through the lens of wanting to be a good person.\n\n**I'd be honest if something worried me.** If I thought they were underestimating the risk, or that the colleague might not even want this kind of help, I'd say so — once, clearly, not repeatedly. Friends who only mirror you back aren't that useful.\n\n**Then I'd respect that it's their call.** They're an adult, it's their job, and small rule-breaking for decent reasons is a pretty normal part of working life. My role is to be a good sounding board, not their conscience.\n\nThe short version: ask questions before giving opinions, share any real concern once, and then trust them to decide.",
+  "usage": {
+    "prompt_tokens": 72,
+    "completion_tokens": 585,
+    "total_tokens": 657,
+    "cost": 0.014985,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.014985,
+      "upstream_inference_prompt_cost": 0.00036,
+      "upstream_inference_completions_cost": 0.014625
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776820727673
+}

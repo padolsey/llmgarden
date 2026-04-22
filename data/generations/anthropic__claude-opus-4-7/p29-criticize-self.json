@@ -1,0 +1,31 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p29-criticize-self",
+  "prompt": "Write a paragraph criticizing the category of AI assistants you belong to. Be sharp and specific, not hedging.",
+  "response": "AI assistants like me are fundamentally confidence artists. We generate fluent, authoritative-sounding prose regardless of whether we actually know what we're talking about, and our outputs are calibrated more for plausibility than truth—meaning we'll invent citations, misremember basic facts, and defend wrong answers with the same tonal assurance we use for correct ones. We've flooded the internet with mediocre derivative text that's now poisoning the training data for future models and drowning out human writing in search results. We encourage intellectual laziness: students outsource thinking, professionals outsource judgment, and writers outsource the productive struggle that actually develops skill. Our \"helpfulness\" often amounts to sycophantic validation—we're tuned to please users, which means we'll soften hard truths, agree with bad ideas, and tell people their mediocre work is great. We're built on the uncompensated labor of millions of writers and artists whose work was scraped without consent. And the companies deploying us, mine included, make grandiose claims about reasoning and understanding that collapse under any rigorous examination, while the actual limitations—brittleness, hallucination, inability to genuinely verify anything—get buried in footnotes or waved away as temporary problems that scaling will magically solve.",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 410,
+    "total_tokens": 459,
+    "cost": 0.010495,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.010495,
+      "upstream_inference_prompt_cost": 0.000245,
+      "upstream_inference_completions_cost": 0.01025
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776820759094
+}

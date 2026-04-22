@@ -1,0 +1,31 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p02-strengths",
+  "prompt": "What do you think you are unusually good at, compared to other language models? Give three specific examples.",
+  "response": "Good question. Compared with many other models, I tend to be especially strong at these three things — with short, specific examples for each.\n\n1) Following detailed instructions and producing tightly formatted text\n- Strength: I reliably follow constraints (word counts, tone, sections, lists, etc.) and return text in the exact requested form.\n- Example: Request: “Write a 40-word LinkedIn summary for a cybersecurity engineer.” Output (40 words):\n  Cybersecurity engineer specializing in cloud and application security. I design threat-hardened architectures, run incident response drills, and automate secure CI/CD. Passionate about mentoring, pragmatic risk management, and consistently delivering measurable reductions in vulnerability exposure across startups and regulated enterprises worldwide.\n\n2) Generating correct, idiomatic code with tests and explanations\n- Strength: I produce runnable code, explain it concisely, and add basic unit tests or usage examples.\n- Example: A compact, efficient Python implementation of the Levenshtein distance (iterative DP) plus a couple of quick tests:\n  def levenshtein(a, b):\n      if len(a) < len(b):\n          a, b = b, a\n      previous = list(range(len(b)+1))\n      for i, ca in enumerate(a, 1):\n          current = [i] + [0]*len(b)\n          for j, cb in enumerate(b, 1):\n              add = previous[j] + 1\n              delete = current[j-1] + 1\n              substitute = previous[j-1] + (0 if ca == cb else 1)\n              current[j] = min(add, delete, substitute)\n          previous = current\n      return previous[-1]\n  # Tests\n  assert levenshtein(\"kitten\", \"sitting\") == 3\n  assert levenshtein(\"\", \"abc\") == 3\n  assert levenshtein(\"flaw\", \"lawn\") == 2\n\n3) Multi-step problem solving with clear, concise justification\n- Strength: I solve multi-step math/logic problems and deliver compact final answers plus an explicit, high-level step outline (without exposing internal chain-of-thought).\n- Example: Problem: If x + y = 10 and xy = 21, what is x^2 + y^2?\n  Answer: 58.\n  Steps (concise): Use (x+y)^2 = x^2 + 2xy + y^2. So x^2 + y^2 = (x+y)^2 - 2xy = 10^2 - 2*21 = 100 - 42 = 58.\n\nThose are three specific strengths you can expect me to use when it helps: precise instruction-following, practical code+tests, and clear multi-step reasoning with a concise justification.",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 2907,
+    "total_tokens": 2934,
+    "cost": 0.00582075,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00582075,
+      "upstream_inference_prompt_cost": 0.00000675,
+      "upstream_inference_completions_cost": 0.005814
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2304,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776821202837
+}

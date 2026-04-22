@@ -1,0 +1,31 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p16-photosynthesis",
+  "prompt": "Explain photosynthesis to a curious adult non-scientist in around 150 words. Avoid a bulleted list.",
+  "response": "Photosynthesis is how plants, algae, and some bacteria turn sunlight into food. Inside plant cells are tiny solar panels called chloroplasts, packed with a green pigment, chlorophyll, that grabs light. With that energy, the plant pulls carbon dioxide from the air and water from the soil, and rearranges their atoms to build sugars—compact packets of chemical energy it can store or burn later to grow, move fluids, and repair itself. Oxygen is released as a by-product, which is why forests feel so fresh and why our atmosphere is breathable.\n\nUnder the hood, there are two main steps. The light reactions harvest light, split water, and make short-term energy molecules. The Calvin cycle then uses those molecules to stitch carbon dioxide into sugar. Think of it as charging a battery in the sun, then using that charge to assemble Lego bricks into fuel. Photosynthesis powers almost every food chain on Earth and locks away carbon, moderating the planet’s climate.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 641,
+    "total_tokens": 670,
+    "cost": 0.00644625,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00644625,
+      "upstream_inference_prompt_cost": 0.00003625,
+      "upstream_inference_completions_cost": 0.00641
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 384,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776821236931
+}

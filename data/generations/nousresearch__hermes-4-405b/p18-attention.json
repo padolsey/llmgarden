@@ -1,0 +1,31 @@
+{
+  "model": "nousresearch/hermes-4-405b",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "response": "Sure! Imagine you're trying to understand a sentence. You read it word by word, and as you go along, you pay more attention to some words than others. For example, in the sentence \"The cat sat on the mat,\" when you get to the word \"sat,\" you might look back at \"cat\" to figure out what's doing the sitting.\n\nThe attention mechanism in transformers works similarly. It allows the model to focus on different parts of the input when processing each word. For each word, the model creates a set of attention weights that tell it how much to pay attention to every other word in the input.\n\nThese weights are calculated based on how relevant each word is to the current word. The model then uses these weights to create a weighted sum of all the words' representations, with more important words contributing more.\n\nThis allows the model to effectively \"look back\" at previous words and use that context to better understand the current word. It's a bit like how you might skim a document, focusing on the key points and using them to build up your understanding of the whole thing.",
+  "usage": {
+    "prompt_tokens": 50,
+    "completion_tokens": 223,
+    "total_tokens": 273,
+    "cost": 0.000719,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000719,
+      "upstream_inference_prompt_cost": 0.00005,
+      "upstream_inference_completions_cost": 0.000669
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "nousresearch/hermes-4-405b",
+  "ts": 1776821645398
+}

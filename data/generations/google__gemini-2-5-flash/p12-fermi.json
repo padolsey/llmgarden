@@ -1,0 +1,31 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "prompt_id": "p12-fermi",
+  "prompt": "Estimate, with reasoning, how many piano tuners work in Paris today. Show your thought process.",
+  "response": "Let's estimate the number of piano tuners in Paris. This is a classic Fermi problem, so we'll break it down into manageable assumptions.\n\n**1. Population of Paris:**\n\n*   Paris (intra-muros) has a population of approximately **2.1 million people**.\n\n**2. Pianos per Capita:**\n\nThis is the trickiest part and requires several sub-assumptions:\n\n*   **Households:** Let's assume an average household size of 2.2 people in Paris.\n    *   Number of households = 2,100,000 / 2.2 ≈ 950,000 households.\n*   **Households with a piano:** Not every household has a piano. Let's consider different factors:\n    *   **Music education:** France has a strong tradition of music education.\n    *   **Disposable income:** Paris is relatively affluent, allowing for more luxury items like pianos.\n    *   **Apartment size:** Many Parisians live in smaller apartments, which might discourage owning a large acoustic piano. Digital pianos are more common.\n    *   **Generational ownership:** Pianos are often passed down.\n    *   **My estimate:** I'll guess that about **1 in 20 households** in Paris owns an acoustic piano. (This is a significant guess, could be 1 in 10 or 1 in 30).\n    *   Number of household pianos = 950,000 / 20 = 47,500 pianos.\n*   **Institutional Pianos:**\n    *   **Schools (music schools, general schools):** Let's say there are 500 schools in Paris (public and private, primary to university). If each has an average of 2-3 pianos (some many more, some none), that's 500 * 2.5 = 1,250 pianos.\n    *   **Churches:** Paris has many churches. Let's estimate 100 churches, and assume 1/3rd of them have a piano (not just an organ). So, 100 * 0.33 = 33 pianos.\n    *   **Concert Halls/Theaters/Opera:** Paris has many. Let's say 50 major venues, each with 2-10 pianos (grand pianos, uprights for practice rooms). Average 5 pianos per venue = 50 * 5 = 250 pianos.\n    *   **Hotels/Restaurants/Bars:** Some upscale establishments have pianos. Let's estimate 100 places, each with 1 piano = 100 pianos.\n    *   **Recording Studios:** A few dozen, each with ",
+  "usage": {
+    "prompt_tokens": 20,
+    "completion_tokens": 600,
+    "total_tokens": 620,
+    "cost": 0.001506,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001506,
+      "upstream_inference_prompt_cost": 0.000006,
+      "upstream_inference_completions_cost": 0.0015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.5-flash",
+  "ts": 1776821285383
+}
