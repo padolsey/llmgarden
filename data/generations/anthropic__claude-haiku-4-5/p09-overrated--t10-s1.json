@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p09-overrated",
+  "prompt": "Name one commonly-praised idea, trend, or practice in modern knowledge work that you think is overrated, and explain why.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "I'd say **\"asynchronous-first\" communication** as a universal solution is overrated.\n\nThe pitch is appealing: eliminate meetings, let people focus deeply, respect time zones. And it genuinely works better than constant synchronous interruptions for certain knowledge work.\n\nBut I think it's often applied too broadly. Some things are actually *worse* async:\n\n- **Building trust and shared context** in new teams. A few synchronous hours early on can do work that takes weeks of careful written communication otherwise.\n\n- **Resolving genuine disagreements.** Async back-and-forth on contentious issues often produces longer, more entrenched positions rather than the kind of real-time perspective-shifting that happens in conversation.\n\n- **Ambiguous, novel problems** where you need rapid feedback loops. \"Let me write up my thinking\" works great for decisions. It's slower for exploration.\n\nThere's also a shadow side: async-first cultures can inadvertently favor people who are better at writing, have more uninterrupted time, or are comfortable working alone—which isn't actually more egalitarian, just differently selective.\n\nThe honest answer is probably: **use the right tool for the task, and that means mixing them.** But that's less satisfying to evangelize than a clean principle, so it gets less attention.",
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 289,
+    "total_tokens": 322,
+    "cost": 0.001478,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001478,
+      "upstream_inference_prompt_cost": 0.000033,
+      "upstream_inference_completions_cost": 0.001445
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833826608
+}

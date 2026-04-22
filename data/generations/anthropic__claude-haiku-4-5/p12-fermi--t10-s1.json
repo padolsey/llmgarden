@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p12-fermi",
+  "prompt": "Estimate, with reasoning, how many piano tuners work in Paris today. Show your thought process.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "# Estimating Piano Tuners in Paris\n\nLet me work through this classic Fermi estimation:\n\n## Step 1: Paris Population & Pianos\n- Paris proper: ~2.2 million people\n- Assume ~1 piano per 200-300 households (pianos are luxury items)\n- Parisian households: ~800,000\n- **Estimated pianos: ~2,700-4,000**\n\n(This accounts for homes, concert halls, music schools, studios)\n\n## Step 2: Tuning Frequency\n- Amateur/home pianos: tuned 1-2 times/year\n- Professional pianos (studios, concert halls): 4-12 times/year\n- **Average across all pianos: ~3 times/year**\n- **Total tunings needed annually: ~8,000-12,000**\n\n## Step 3: Tuner Productivity\n- Time per tuning: 1-2 hours\n- Travel time: 30-60 minutes average\n- **Time per job (including travel): ~2 hours**\n- Working days per year: ~220 (accounting for weekends, holidays, admin)\n- **Tunings per tuner annually: ~880** (4 per day × 220 days)\n\n## Step 4: Calculate Tuners Needed\n- 10,000 tunings ÷ 880 per tuner = **~11 tuners**\n\n## Estimate: **10-15 piano tuners in Paris**\n\nThis feels reasonable—a niche specialty profession with modest but consistent demand in a major cultural city.",
+  "usage": {
+    "prompt_tokens": 28,
+    "completion_tokens": 368,
+    "total_tokens": 396,
+    "cost": 0.001868,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001868,
+      "upstream_inference_prompt_cost": 0.000028,
+      "upstream_inference_completions_cost": 0.00184
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833834635
+}

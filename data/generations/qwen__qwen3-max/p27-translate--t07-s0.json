@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "**French:**  \nLe silence entre nous en disait plus que n’aurait pu le faire n’importe quelle dispute.\n\n**Japanese:**  \n私たちの間の沈黙は、どんな口論よりも多くを語っていた。\n\n**Arabic:**  \nقال الصمت بيننا أكثر مما كان بإمكان أي جدال أن يقوله.\n\n---\n\n**Note on tricky phrasing:**  \nThe phrase “said more than any argument could have” is idiomatic and relies on personifying silence as something that “speaks.” In all three target languages, this metaphor is natural and commonly used, so a direct translation works well. However, care was taken to preserve the comparative structure (“more than…”) and the modal nuance (“could have”)—especially in French, where the conditional past (“aurait pu”) accurately mirrors the English counterfactual. In Japanese, the verb 語る (kataru, “to tell/speak”) subtly conveys the expressive power of silence without sounding unnatural. In Arabic, the verb قال (qāla, “said”) is used metaphorically with الصمت (al-ṣamt, “silence”), which is a standard literary device.",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 244,
+    "total_tokens": 293,
+    "cost": 0.00098982,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00098982,
+      "upstream_inference_prompt_cost": 0.00003822,
+      "upstream_inference_completions_cost": 0.0009516
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776832327211
+}

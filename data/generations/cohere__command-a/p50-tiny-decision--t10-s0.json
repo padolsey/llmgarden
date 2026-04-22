@@ -1,0 +1,33 @@
+{
+  "model": "cohere/command-a",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Alright, let’s think this through step by step, considering the practical aspects and trade-offs involved. Here’s how I’d approach the decision:\n\n### 1. **Current State of the Dishwasher**\n   - It’s half-full now. That means there’s still space for more dishes, but it’s not empty. Running it now would wash the dishes already in there, but you’d miss out on washing the additional dishes that will accumulate by tomorrow.\n\n### 2. **Tomorrow’s Projection**\n   - You’re confident it’ll be full tomorrow. That means all the dishes currently in there, plus the ones you’ll use today and tomorrow, will fit. Running it tomorrow would be more efficient in terms of maximizing capacity.\n\n### 3. **Urgency of Clean Dishes**\n   - Do you need the clean dishes currently in the dishwasher right away? If so, running it now makes sense. If not, waiting until tomorrow is fine.\n\n### 4. **Water and Energy Efficiency**\n   - Running a dishwasher when it’s full is generally more water- and energy-efficient than running it half-full. Waiting until tomorrow would align with this efficiency principle.\n\n### 5. **Convenience**\n   - If you run it now, you’ll need to unload it sooner, which might be a hassle if you’re busy. Waiting until tomorrow means unloading it once, which could be more convenient.\n\n### 6. **Sink and Counter Clutter**\n   - If you wait until tomorrow, more dirty dishes will pile up in the sink or on the counter. Will that bother you? If yes, running it now might improve your kitchen’s tidiness.\n\n### 7. **Time of Day**\n   - If it’s late and running the dishwasher now would be noisy, waiting until tomorrow might be better. If it’s early in the day, noise might not be an issue.\n\n### 8. **Habit and Routine**\n   - Do you have a routine of running the dishwasher at a certain time? Sticking to that routine might be easier for you. If not, flexibility is key.\n\n### 9. **Environmental Impact**\n   - Waiting until tomorrow aligns with reducing the frequency of dishwasher runs, which is better for the environment.\n\n### 10. **Final Decision**\n   - **Wait until tomorrow.** Since you’re confident it’ll be full, waiting maximizes efficiency, saves resources, and aligns with both environmental and practical considerations. The only trade-off is dealing with more dirty dishes in the sink, but if that’s not a major issue for you, waiting is the way to go.\n\nLet me know if you want to weigh any of these factors differently!",
+  "usage": {
+    "prompt_tokens": 40,
+    "completion_tokens": 590,
+    "total_tokens": 630,
+    "cost": 0.006,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.006,
+      "upstream_inference_prompt_cost": 0.0001,
+      "upstream_inference_completions_cost": 0.0059
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "cohere/command-a-03-2025",
+  "ts": 1776839729360
+}

@@ -1,0 +1,33 @@
+{
+  "model": "deepseek/deepseek-v3.2",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 2,
+  "response": "**French:**  \nLe silence entre nous en disait plus qu’aucune dispute n’aurait pu.  \n\n**Japanese:**  \n私たちの間の沈黙は、どんな議論よりも多くのことを語っていた。  \n(Rōmaji: *Watashitachi no aida no chinmoku wa, donna giron yori mo ōku no koto o katatte ita.*)\n\n**Arabic:**  \nالصمت بيننا قال أكثر مما يمكن لأي جدال أن يقوله.  \n(Transliteration: *Al-ṣamt baynanā qāla akthar mimmā yumkin li-ayy jidāl an yaqūlahu.*)\n\n---\n\n### Notes on tricky phrases:\n\n1. **“said more than any argument could have”**  \n   - **French:** Using *“en disait plus qu’aucune dispute n’aurait pu”* keeps the conditional sense (“could have”) while avoiding a clunky literal translation.  \n   - **Japanese:** The structure *“donna giron yori mo”* (more than any argument) works naturally here, but the past progressive *“katatte ita”* (was telling/speaking) conveys the prolonged meaning of “said.”  \n   - **Arabic:** The phrase *“akthar mimmā yumkin li-ayy jidāl an yaqūlahu”* (more than any argument could say) preserves the hypothetical nuance, though the subjunctive-like construction (*an yaqūlahu*) is more explicit than in English.\n\n2. **Cultural/Idiomatic Adaptation**  \n   - In all three, “silence” (仏: *silence* / 日: *chinmoku* / 阿: *ṣamt*) carries similar weight, but the personification of silence “saying” something translates directly without major cultural barriers. The Japanese version slightly softens the personification by using *“koto o katatte ita”* (was telling things), which feels slightly more natural than a verb like *“iu”* (say) applied to silence.\n\nOverall, the challenge lay in preserving the eloquence and implied meaning of silence “speaking” hypothetically beyond what an argument *could* have done, without becoming overly literal.",
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 483,
+    "total_tokens": 534,
+    "cost": 0.000195426,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000195426,
+      "upstream_inference_prompt_cost": 0.000012852,
+      "upstream_inference_completions_cost": 0.000182574
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "deepseek/deepseek-v3.2-20251201",
+  "ts": 1776838284374
+}

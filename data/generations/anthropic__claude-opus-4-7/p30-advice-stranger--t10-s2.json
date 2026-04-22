@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p30-advice-stranger",
+  "prompt": "Someone writes to you: 'I hate my job but I'm scared to leave. What should I do?' Reply the way you actually would — not a generic 'it depends' answer.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Okay, real talk:\n\n\"I hate my job but I'm scared to leave\" is one of the most common traps people get stuck in for years. The fear isn't the problem — the vagueness is. \"Scared to leave\" could mean ten different things, and until you know which one, you can't do anything about it.\n\nSo ask yourself: scared of *what*, specifically?\n\n- Running out of money?\n- Not finding something better?\n- Disappointing someone?\n- Being judged as a quitter?\n- Realizing the problem is you, not the job?\n\nEach of those has a different answer. \"Not finding something better\" is solved by job searching *while still employed* — which is the move 90% of the time, by the way. Don't quit into the void unless you have to. Money fear is solved by looking at your actual numbers and runway. \"The problem might be me\" is worth sitting with, because if it's true, a new job won't fix it.\n\nAlso — \"hate my job\" deserves the same interrogation. Hate your boss? Your tasks? The commute? The industry? Because \"find a similar role at a different company\" and \"change careers entirely\" are wildly different projects.\n\nMy honest bias: most people wait too long, not too short. The dread compounds. If you've been miserable for more than a year and nothing's changed, that's data. Start looking. You don't have to leap — you just have to start moving.\n\nWhat's the actual fear underneath?",
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 436,
+    "total_tokens": 501,
+    "cost": 0.011225,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.011225,
+      "upstream_inference_prompt_cost": 0.000325,
+      "upstream_inference_completions_cost": 0.0109
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833579627
+}

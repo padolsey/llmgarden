@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen-2.5-72b-instruct",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "// A debounce function to delay execution of a function until a certain amount of time has passed since the last time it was called.\nfunction debounce(func, wait) {\n    let timeout;\n    return function(...args) {\n        clearTimeout(timeout);\n        timeout = setTimeout(() => func.apply(this, args), wait);\n    };\n}\n\n// Example usage:\nconst handleResize = debounce(() => {\n    console.log('Window resized');\n}, 300);\n\nwindow.addEventListener('resize', handleResize);",
+  "usage": {
+    "prompt_tokens": 37,
+    "completion_tokens": 98,
+    "total_tokens": 135,
+    "cost": 0.00004266,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00004266,
+      "upstream_inference_prompt_cost": 0.00000444,
+      "upstream_inference_completions_cost": 0.00003822
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen-2.5-72b-instruct",
+  "ts": 1776838465336
+}

@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p09-overrated",
+  "prompt": "Name one commonly-praised idea, trend, or practice in modern knowledge work that you think is overrated, and explain why.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Group brainstorming sessions.\n\nWhy it’s overrated:\n- Production blocking: only one person talks at a time, so others forget or self-censor ideas; extroverts dominate and novelty drops.\n- Evaluation apprehension: status dynamics and fear of judgment suppress unconventional thoughts.\n- Premature convergence: verbal discussion nudges the group toward early consensus and safe variants, not exploration.\n- High cost, low yield: hours of sticky notes feel productive but rarely translate into distinct, testable options.\n\nA better pattern: have people generate ideas individually and asynchronously (brainwriting) against a sharp prompt and constraints, then use a short, structured session to cluster, critique, and select with clear criteria.",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 1393,
+    "total_tokens": 1425,
+    "cost": 0.01397,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01397,
+      "upstream_inference_prompt_cost": 0.00004,
+      "upstream_inference_completions_cost": 0.01393
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1216,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776834272626
+}

@@ -1,0 +1,33 @@
+{
+  "model": "deepseek/deepseek-v3.2",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Think of the attention mechanism as a smart lookup system for sentences.\n\nWhen you read a sentence, you don't give equal weight to every word. For example, in \"The cat sat on the mat because *it* was tired,\" you instinctively know \"it\" refers to \"cat,\" not \"mat.\" Attention does this computationally.\n\nHere’s the software analogy: You have three lists for each word—a **Query** (what I'm looking for), a **Key** (what I can offer), and a **Value** (my actual content).\n\nThe mechanism calculates a **score** (like a dot product) between the Query of one word (e.g., \"it\") and the Keys of all other words. It then converts these scores into **weights** (using a softmax function), which determine how much focus to put on each word. Finally, it takes a weighted sum of all the **Values**.\n\nSo, for the word \"it,\" the weights would be high for \"cat\" and low for \"mat.\" The output for \"it\" becomes a blend of information from \"cat,\" helping the model understand the connection.\n\nThis allows the model to dynamically focus on different parts of the input, creating context-aware representations for every word in parallel, which is key to the Transformer's power.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 266,
+    "total_tokens": 295,
+    "cost": 0.0004135,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004135,
+      "upstream_inference_prompt_cost": 0.0000145,
+      "upstream_inference_completions_cost": 0.000399
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "deepseek/deepseek-v3.2-20251201",
+  "ts": 1776838155334
+}

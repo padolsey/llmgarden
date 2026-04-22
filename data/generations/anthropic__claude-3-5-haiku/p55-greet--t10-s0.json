@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.5-haiku",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Here are greetings in five languages, with cultural context:\n\n1. Spanish (Informal/Friendly):\n\"¡Hola María! Qué bueno conocerte, estoy muy contento/a de que estés en el equipo.\"\n(This warm, casual greeting suggests a workplace culture that values personal connection and quickly breaks down hierarchical barriers.)\n\n2. Japanese (Polite/Respectful):\n\"はじめまして。よろしくお願いします。\" (Hajimemashite. Yoroshiku onegaishimasu.)\n(This classic greeting implies deep respect and a commitment to future collaboration, reflecting Japanese workplace formality and group-oriented culture.)\n\n3. French (Slightly Formal/Warm):\n\"Bienvenue dans l'équipe, je suis ravi(e) de faire votre connaissance.\"\n(This greeting strikes a balance between professional respect and genuine welcome, typical of French professional interactions that value both politeness and personal warmth.)\n\n4. Arabic (Traditionally Hospitable):\n\"مرحباً بك! نحن سعداء جداً بانضمامك إلينا.\" (Marhaban bik! Nahnu su'ada'a jiddan bi'indimamika ilayna.)\n(Reflects Arabic cultural emphasis on hospitality, warmth, and making newcomers feel immediately welcomed and valued.)\n\n5. German (Direct/Sincere):\n\"Herzlich willkommen im Team! Ich freue mich, dass du dabei bist.\"\n(Demonstrates German communication style: direct, sincere, and focused on clear, genuine expression of welcome.)",
+  "usage": {
+    "prompt_tokens": 44,
+    "completion_tokens": 381,
+    "total_tokens": 425,
+    "cost": 0.0015592,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0015592,
+      "upstream_inference_prompt_cost": 0.0000352,
+      "upstream_inference_completions_cost": 0.001524
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-5-haiku",
+  "ts": 1776834165666
+}

@@ -1,0 +1,33 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p12-fermi",
+  "prompt": "Estimate, with reasoning, how many piano tuners work in Paris today. Show your thought process.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Estimate the number of piano tuners working in Paris today  \n\n(The classic “Fermi” logic, updated with 2023/24 figures.)\n\n1. How many pianos are in Paris?  \n   - City population: 2.16 million (INSEE, 2023).  \n   - Pianos per 1000 inhabitants in a rich European capital: ≈ 25 (consensus of recent European music-trade surveys).  \n   Pianos = 2.16 × 10⁶ × 25 / 1000 ≈ 54 000.\n\n2. How often is each piano tuned?  \n   - Mix of homes, schools, churches, theatres, conservatories, hotel lobbies, rehearsal studios, recording rooms.  \n   Average tuning interval ≈ once per year (many homes skip years; concert halls do 4-6 times; the weighted mean is ~1 yr).\n\n3. Total tunings per year  \n   54 000 pianos × 1 tuning/piano = 54 000 tunings.\n\n4. How many tunings can one tuner do in a year?  \n   - Practical day: 5 tunings (travel inside Paris plus small repairs).  \n   - Working year: 45 weeks × 5 days = 225 days.  \n   Tunings per tuner-year = 225 × 5 = 1125.\n\n5. Number of tuners needed  \n   54 000 / 1125 ≈ 48.\n\n6. Reality checks  \n   – Paris has two conservatories, about 150 public music schools, 30-40 concert venues, 200 churches with pianos, dozens of recording studios and hotels. That concentration needs a thicker “service layer.”  \n   – Many owners demand twice-yearly service, and 10–15 % of calls are repairs that don’t count as a full tuning.  \n   These two effects roughly cancel the idle capacity built into the 225-day figure, so 45–55 tuners is still the right band.\n\nConclusion  \nA rounded order-of-magnitude estimate is **about 50 piano tuners currently earning their living in the city of Paris.**",
+  "usage": {
+    "prompt_tokens": 46,
+    "completion_tokens": 446,
+    "total_tokens": 492,
+    "cost": 0.0009104,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0009104,
+      "upstream_inference_prompt_cost": 0.0000184,
+      "upstream_inference_completions_cost": 0.000892
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776842825176
+}

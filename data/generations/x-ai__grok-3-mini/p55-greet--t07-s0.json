@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-3-mini",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Below, I've written a warm greeting to a new colleague in five different languages of my choice: English, Spanish, French, German, and Japanese. For each one, I've followed it with a one-line note explaining the cultural implications of the register (e.g., formality, politeness, or tone) I selected.\n\n1. **English:** \"Hello and welcome to the team!\"  \n   This casual and friendly register implies a culture that values approachability and building quick rapport in professional settings, common in many English-speaking countries.\n\n2. **Spanish:** \"¡Bienvenido al equipo!\"  \n   This warm and somewhat informal register suggests an emphasis on hospitality and community, reflecting the inclusive and relational norms in Spanish-speaking cultures.\n\n3. **French:** \"Bienvenue dans l'équipe !\"  \n   This polite and standard register highlights the French cultural focus on elegance and courtesy, even in professional contexts, to maintain social harmony.\n\n4. **German:** \"Willkommen im Team!\"  \n   This direct and efficient register underscores the German cultural value of straightforwardness and practicality, fostering a sense of immediate belonging without excess formality.\n\n5. **Japanese:** \"チームへようこそ！\" (Chīmu e yōkoso!)  \n   This polite and respectful register reflects the Japanese emphasis on hierarchy and group harmony, using formal language to show deference and build long-term relationships in the workplace.",
+  "usage": {
+    "prompt_tokens": 41,
+    "completion_tokens": 951,
+    "total_tokens": 992,
+    "cost": 0.0004869,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 4,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004869,
+      "upstream_inference_prompt_cost": 0.0000114,
+      "upstream_inference_completions_cost": 0.0004755
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 674,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-3-mini",
+  "ts": 1776832636988
+}

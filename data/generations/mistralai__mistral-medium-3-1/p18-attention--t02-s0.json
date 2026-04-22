@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-medium-3.1",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "The **attention mechanism** in transformers is like a smart way for a model to focus on the most relevant parts of input data (e.g., words in a sentence) when processing it. Here’s a simple breakdown:\n\n1. **Problem**: In traditional models (like RNNs), each word is processed sequentially, and long-range dependencies are hard to capture. Attention solves this by letting the model \"look\" at all words at once and weigh their importance dynamically.\n\n2. **How it works**:\n   - For each word in a sentence, the model creates three vectors: **Query (Q)**, **Key (K)**, and **Value (V)**. Think of these as:\n     - **Q**: \"What am I looking for?\" (e.g., the current word’s context).\n     - **K**: \"What do I have?\" (e.g., features of all other words).\n     - **V**: \"What’s the actual data?\" (e.g., the words’ representations).\n   - The model calculates **attention scores** by comparing **Q** of one word with **K** of all others (using dot products). These scores are softened into weights (via *softmax*), showing how much each word should \"pay attention\" to others.\n   - The weighted **V** vectors are summed to produce a context-aware representation for each word.\n\n3. **Why it’s powerful**:\n   - Captures relationships between *any* two words, regardless of distance (e.g., linking \"it\" to \"cat\" in \"The cat sat. It meowed\").\n   - Parallelizable (unlike RNNs), making transformers fast and scalable.\n\n**Analogy**: Imagine reading a book and highlighting key phrases that help understand the current sentence—attention does this automatically.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 369,
+    "total_tokens": 400,
+    "cost": 0.0007504,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0007504,
+      "upstream_inference_prompt_cost": 0.0000124,
+      "upstream_inference_completions_cost": 0.000738
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-medium-3.1",
+  "ts": 1776828794616
+}

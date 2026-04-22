@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.0-flash-001",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Okay, let's think this through like I'm actually standing in your kitchen with you, staring at the dishwasher.\n\n**1. The Immediate Gut Check:**\n\n*   **How annoying is the current state of the kitchen?** Is the half-full dishwasher making the counter look cluttered and stressing you out? If so, that's a point in favor of running it now.\n*   **How tired/busy are you right now?** If you're exhausted and just want to collapse, waiting until tomorrow might be the better option for your mental health.\n\n**2. The Practical Considerations:**\n\n*   **Noise:** Will the dishwasher running now bother anyone? Are people sleeping, working from home, or trying to relax? If so, waiting until tomorrow is probably kinder.\n*   **Timing Tomorrow:** What's your schedule like tomorrow? Will you actually have time to load the dishwasher fully and run it? If tomorrow is going to be a crazy day, running it now might prevent a bigger mess later.\n*   **Smell:** Are there any particularly smelly items in the dishwasher right now? If so, running it sooner rather than later might be preferable.\n\n**3. The Cost/Benefit Analysis (Quick & Dirty):**\n\n*   **Water/Energy:** This is where the \"half-full vs. full\" thing really comes into play.\n    *   **If your dishwasher has a half-load setting:** This is a game changer. If you can use the half-load setting, the energy/water difference is minimal, and running it now is probably fine.\n    *   **If your dishwasher *doesn't* have a half-load setting:** You're using roughly the same amount of water and energy for a half-full load as you would for a full load. This is a strong argument for waiting.\n*   **Your Time:** How much time will it take to load the rest of the dishwasher tomorrow? Is that time worth the potential energy/water savings?\n\n**4. The Tie-Breaker (If Needed):**\n\n*   **\"Future You\" Test:** Imagine yourself tomorrow. Would \"future you\" be happier to have a clean kitchen and an empty dishwasher, or would \"future you\" be annoyed that you wasted water/energy?\n\n**In summary, here's how I'd weigh it:**\n\n*   **Strongly Consider Running Now If:**\n    *   The kitchen clutter is stressing you out.\n    *   You have a half-load setting on your dishwasher.\n    *   You're worried about smells.\n    *   Tomorrow is going to be a super busy day.\n*   **Strongly Consider Waiting If:**\n    *   You're exhausted and need to relax.\n    *   The noise will bother someone.\n    *   Your dishwasher doesn't have",
+  "usage": {
+    "prompt_tokens": 41,
+    "completion_tokens": 600,
+    "total_tokens": 641,
+    "cost": 0.0002441,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002441,
+      "upstream_inference_prompt_cost": 0.0000041,
+      "upstream_inference_completions_cost": 0.00024
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.0-flash-001",
+  "ts": 1776828371418
+}

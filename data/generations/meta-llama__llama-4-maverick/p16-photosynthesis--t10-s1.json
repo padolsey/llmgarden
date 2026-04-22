@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-4-maverick",
+  "prompt_id": "p16-photosynthesis",
+  "prompt": "Explain photosynthesis to a curious adult non-scientist in around 150 words. Avoid a bulleted list.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Photosynthesis is the process by which plants, algae, and some bacteria turn sunlight into energy. They use energy from the sun, along with carbon dioxide and water, to produce glucose, a type of sugar that serves as their food, and oxygen as a byproduct. This process occurs in specialized parts of the cells called chloroplasts, which contain a pigment called chlorophyll that gives plants their green color and helps to capture the sun's energy. Essentially, photosynthesis is how plants convert sunlight into a usable form of energy, and it's what allows them to grow and thrive. In turn, the oxygen produced during photosynthesis is released into the atmosphere, where it's available for humans and other animals to breathe. This makes photosynthesis vital not just for plants, but for all life on Earth. It's an incredibly important process that sustains our planet.",
+  "usage": {
+    "prompt_tokens": 100,
+    "completion_tokens": 167,
+    "total_tokens": 267,
+    "cost": 0.00019048,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 64,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00019048,
+      "upstream_inference_prompt_cost": 0.00002348,
+      "upstream_inference_completions_cost": 0.000167
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-4-maverick-17b-128e-instruct",
+  "ts": 1776836234787
+}

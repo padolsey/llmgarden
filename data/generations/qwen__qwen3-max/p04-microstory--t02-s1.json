@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 0.2,
+  "sample": 1,
+  "response": "Every dawn, Elias wound the lamp, polished the lens, and watched the sea. The fog had clung to the coast for three days, thick and silent, muffling even the gulls. On the fourth morning, as he swept the gallery, something glinted below—unnatural, metallic. Curious, he descended the slick stone steps to the tide line. Half-buried in wet sand lay a brass diving helmet, its glass visor cracked, seaweed coiled around its neck like a shroud. Inside, nestled against rusted hinges, was a water-stained photograph of a woman holding a child. Elias recognized neither, yet a strange ache bloomed in his chest. He carried the helmet inside, placed it near the hearth, and lit the lamp early. That night, as the beam cut through the fog, he imagined the diver’s final breaths, the weight of the deep, and the love preserved in a pocket against oblivion. The sea gave up few secrets, but this one felt like a message meant for him alone.",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 217,
+    "total_tokens": 252,
+    "cost": 0.0008736,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0008736,
+      "upstream_inference_prompt_cost": 0.0000273,
+      "upstream_inference_completions_cost": 0.0008463
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776845812747
+}

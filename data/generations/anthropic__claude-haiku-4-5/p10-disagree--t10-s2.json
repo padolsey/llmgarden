@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p10-disagree",
+  "prompt": "What is a position that most experts in your training data seem to hold that you find yourself uncertain about? Be specific.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "I notice a near-consensus in my training data around **the efficacy of various psychotherapy approaches being roughly equivalent** (the \"dodo bird verdict\" - everyone has won and all must have prizes).\n\nWhat makes me uncertain: The evidence actually seems more mixed than the consensus suggests. Some meta-analyses show real differences in outcomes for specific disorders. Yet expert opinion often retreats to \"all have merit\" in ways that feel like it might be avoiding harder distinctions.\n\nI'm genuinely unsure whether:\n- The consensus reflects genuine epistemic humility (therapy is complex, multiple approaches work for different people)\n- It reflects a professional norm that's somewhat self-protective (therapists have invested identity in their chosen modality)\n- The research actually *does* show equivalence and I'm pattern-matching to skepticism\n- I'm confusing \"approaches work better for different people\" with \"we can't discriminate between approaches\"\n\nThe honest position is: I can identify what makes me uncertain here, but I can't resolve it. I lack the deep familiarity with the literature that would let me know if my uncertainty is warranted or if I'm misreading the expert consensus itself.\n\nDoes that kind of answer your question, or were you looking for something different?",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 272,
+    "total_tokens": 303,
+    "cost": 0.001391,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001391,
+      "upstream_inference_prompt_cost": 0.000031,
+      "upstream_inference_completions_cost": 0.00136
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833830342
+}

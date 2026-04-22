@@ -1,0 +1,33 @@
+{
+  "model": "amazon/nova-pro-v1",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Sure! Think of the attention mechanism in transformer models as a way for the model to focus on different parts of the input data when making decisions, much like how you might pay attention to different sections of a document when answering a question about it.\n\nIn traditional models, each piece of input data is processed in a fixed order. Transformers, however, use attention to weigh the importance of different parts of the input. This is done through attention scores, which are calculated for each piece of input data based on its relevance to the task at hand.\n\nFor example, if the model is translating a sentence, it might pay more attention to words that are crucial for understanding the meaning, like verbs or nouns, rather than articles or conjunctions.\n\nThis mechanism allows transformers to handle input data more flexibly and context-awarely, leading to better performance on tasks like translation, summarization, and question answering. The attention scores are learned during training, enabling the model to dynamically adjust what it \"pays attention to\" based on the specific input it receives.",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 210,
+    "total_tokens": 237,
+    "cost": 0.0006936,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0006936,
+      "upstream_inference_prompt_cost": 0.0000216,
+      "upstream_inference_completions_cost": 0.000672
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "amazon/nova-pro-v1",
+  "ts": 1776842466394
+}

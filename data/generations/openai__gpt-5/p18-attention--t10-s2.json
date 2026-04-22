@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Imagine a sentence as an array of tokens. Each token is turned into a vector. For every token, the model makes three projections: Query (what am I looking for?), Key (what do I match with?), and Value (what information do I share?). To process one token, it takes that token’s Query and computes dot products with every token’s Key to get relevance scores. A softmax turns these scores into weights that sum to 1. The model then takes a weighted sum of the Value vectors. That result is the token’s context-aware representation—it “attends” more to relevant tokens, anywhere in the sequence.\n\nMulti-head attention repeats this in parallel with several different projections (heads). Each head can focus on different patterns (e.g., nearby syntax vs. long-range references). Their outputs are concatenated and linearly mixed.\n\nAttention works over all tokens at once, so it parallelizes well on GPUs, unlike RNNs. In decoders, a mask prevents looking at future tokens to keep generation causal. In encoder–decoder setups, cross-attention lets the decoder attend to the encoded input.\n\nStacking attention with small feed-forward networks builds deep, global understanding. That’s the core of Transformers: flexible, parallel, long-range context modeling.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 838,
+    "total_tokens": 869,
+    "cost": 0.00841875,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00841875,
+      "upstream_inference_prompt_cost": 0.00003875,
+      "upstream_inference_completions_cost": 0.00838
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 576,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776834490093
+}

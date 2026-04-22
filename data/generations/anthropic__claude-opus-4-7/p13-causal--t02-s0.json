@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p13-causal",
+  "prompt": "Why do coffee shops so often have similar aesthetics (exposed brick, pendant lights, light wood) across very different cities? Offer a serious analysis, not a joke.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "The convergence isn't accidental or purely a matter of taste. Several reinforcing mechanisms produce it:\n\n**1. Instagram as a design filter.** Since roughly 2012, cafés have competed for visibility on a platform that rewards specific visual qualities: bright natural or warm light, textured but uncluttered backgrounds, and muted color palettes that don't clash with whatever drink or pastry is photographed. Exposed brick, light wood, and matte white walls perform extraordinarily well under these conditions. Pendant lights provide the warm focal glow that signals \"cozy\" in a thumbnail. Cafés that adopted this look got disproportionate free marketing, which taught other cafés what to build.\n\n**2. Signaling third-wave coffee.** The aesthetic functions as a semiotic shorthand. When specialty coffee emerged as a cultural movement (Stumptown, Blue Bottle, Intelligentsia, then countless imitators), it defined itself against both diner coffee and Starbucks' dark-wood corporate warmth. The alternative vocabulary—reclaimed materials, visible craft, Scandinavian minimalism, industrial fixtures—communicated \"artisanal,\" \"authentic,\" and \"serious about the product.\" A new café in Seoul or Lisbon adopts these cues because customers globally now read them as credentials.\n\n**3. Supply chain and cost rationality.** Exposed brick and ductwork are often cheaper than finishing them. Edison bulbs and simple pendant fixtures are inexpensive and widely available. Light wood (often plywood or oak veneer) is affordable and durable. Subway tile is cheap. The aesthetic is partly a post-2008 recession style that made virtue of economic necessity, and it remained because the economics didn't change.\n\n**4. Globalized design media.**",
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 600,
+    "total_tokens": 667,
+    "cost": 0.015335,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.015335,
+      "upstream_inference_prompt_cost": 0.000335,
+      "upstream_inference_completions_cost": 0.015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776827650105
+}

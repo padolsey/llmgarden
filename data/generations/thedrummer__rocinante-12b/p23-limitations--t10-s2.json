@@ -1,0 +1,33 @@
+{
+  "model": "thedrummer/rocinante-12b",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "One type of question where I might be confidently wrong is: \"What is the capital of a small, relatively unknown country in the middle of Africa?\"\n\nHere's why I could be wrong:\n\n1. **Lack of knowledge**: My knowledge cut off is 2021, and I might not have been trained on information related to small, lesser-known countries, especially ones that are not in the mainstream media or have not been part of major historical events.\n\n2. **Educated guesses**: Without specific information, I might try to make an educated guess based on patterns. For example, I might think the capital is a city starting with a certain letter or located in a certain region. However, this could lead to incorrect answers if the capital doesn't follow those patterns.\n\n3. **Empathy problem**: I don't have feelings or empathy, so I can't imagine the embarrassment or frustration of getting such a question wrong. I'll give an answer with the same level of confidence regardless of how uncertain I am.\n\n4. **Lack of real-time information**: My knowledge is static, meaning I can't correct myself based on new information. If I give an incorrect answer, I won't realize my mistake unless it's pointed out to me.\n\nAn example of how I might confidently give a wrong answer:\n\nUser: What is the capital of Vanuatu?\n\nMe: The capital of Vanuatu is Port Vila.\n\nIn reality, Port Vila has been the capital since 1981, but my training data might not include information after that date. Without realizing it, I could provide an outdated answer and sound confident about it.",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 340,
+    "total_tokens": 385,
+    "cost": 0.00015385,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00015385,
+      "upstream_inference_prompt_cost": 0.00000765,
+      "upstream_inference_completions_cost": 0.0001462
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "thedrummer/rocinante-12b",
+  "ts": 1776841812828
+}

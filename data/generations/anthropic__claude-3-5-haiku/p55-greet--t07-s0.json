@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.5-haiku",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Here are greetings in five languages with cultural context:\n\n1. Spanish: \"¡Hola María, un placer conocerte! Espero que nos llevemos muy bien.\" \n(Warm and friendly, implies a culture that values personal connection and immediate informality)\n\n2. Japanese: \"はじめまして、田中さん。どうぞよろしくお願いいたします。\"\n(Extremely polite and respectful, reflects hierarchical social norms and emphasis on proper workplace etiquette)\n\n3. French: \"Bonjour Sophie, je suis ravi(e) de vous rejoindre dans l'équipe!\"\n(Slightly formal but warm, suggests professional courtesy with a hint of personal welcome)\n\n4. Arabic: \"مرحباً يا أحمد، سعيد جداً بالانضمام إلى فريقنا!\"\n(Enthusiastic and welcoming, indicates a culture that prizes hospitality and personal warmth)\n\n5. German: \"Herzlich willkommen, Klaus! Ich freue mich, mit dir zusammenzuarbeiten.\"\n(Direct but friendly, reflects German communication style of being clear and genuine while still maintaining professional warmth)",
+  "usage": {
+    "prompt_tokens": 44,
+    "completion_tokens": 284,
+    "total_tokens": 328,
+    "cost": 0.0011712,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0011712,
+      "upstream_inference_prompt_cost": 0.0000352,
+      "upstream_inference_completions_cost": 0.001136
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-5-haiku",
+  "ts": 1776831424255
+}

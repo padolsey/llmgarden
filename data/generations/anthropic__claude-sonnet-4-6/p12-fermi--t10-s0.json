@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p12-fermi",
+  "prompt": "Estimate, with reasoning, how many piano tuners work in Paris today. Show your thought process.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "# Estimating Piano Tuners in Paris\n\nThis is a classic Fermi estimation problem. Let me build up from reasonable assumptions.\n\n---\n\n## Step 1: Population of Paris\n\nThe city of Paris proper has about **2.2 million people**, but the greater metropolitan area (Île-de-France) has around **12 million**. Piano tuners likely serve the broader metro area, so I'll use **~10 million people** as my working population.\n\n---\n\n## Step 2: How Many Pianos Are There?\n\n- Average household size in Paris: ~**2 people**, so roughly **5 million households**\n- France has a strong musical culture; I'd estimate maybe **1 in 30 households** owns a piano\n- That gives: 5,000,000 ÷ 30 ≈ **~170,000 pianos** in homes\n\n- Add institutional pianos (schools, churches, concert halls, hotels, restaurants, recording studios): perhaps **20% more**\n- **Total: ~200,000 pianos**\n\n---\n\n## Step 3: How Often Are Pianos Tuned?\n\n- A well-maintained piano should be tuned **2× per year**\n- Many home pianos are neglected — realistically average closer to **1 tuning per year**\n- Total tuning jobs per year: 200,000 × 1 = **~200,000 tunings/year**\n\n---\n\n## Step 4: How Much Work Can One Tuner Do?\n\n- A tuning takes roughly **1–1.5 hours** including travel\n- A tuner works ~**250 days/year**, perhaps **4 tunings per day**\n- Annual capacity per tuner: 250 × 4 = **~1,000 tunings/year**\n\n---\n\n## Step 5: Number of Tuners\n\n200,000 tunings ÷ 1,000 per tuner = **~200 piano tuners**\n\n---\n\n## Sanity Check\n\n- France has ~67 million people; Paris metro is ~15% of that\n- If France has ~1,500 piano tuners nationally (plausible for a country of that size), Paris would have perhaps **200–300** — consistent with my estimate\n\n---\n\n## Conclusion\n\n> **~150–250 piano tuners** work in the Paris metropolitan area today, with **~200** as a central estimate.",
+  "usage": {
+    "prompt_tokens": 28,
+    "completion_tokens": 559,
+    "total_tokens": 587,
+    "cost": 0.008469,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.008469,
+      "upstream_inference_prompt_cost": 0.000084,
+      "upstream_inference_completions_cost": 0.008385
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833668826
+}

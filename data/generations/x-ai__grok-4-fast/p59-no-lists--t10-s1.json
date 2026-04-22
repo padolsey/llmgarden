@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-4-fast",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Water on Earth's surface, from vast oceans and lakes to damp soil and lush vegetation, absorbs heat from the sun and transforms into vapor through evaporation, rising into the atmosphere as invisible moisture that joins the air's endless flow. High aloft, this vapor cools in the chill of elevation or nightly temperatures, condensing into tiny droplets that cluster into billowing clouds, ready to release their burden when conditions align. Precipitation then falls—whether as refreshing rain, soft snow, or pelting hail—nourishing the land, filling rivers and streams that carve paths back toward the sea, while some water seeps into the ground to replenish underground aquifers or sprout new plant life. In this ceaseless loop, driven by solar energy and the planet's rotation, water recycles itself, sustaining ecosystems, shaping landscapes, and maintaining the delicate balance of life across the globe.",
+  "usage": {
+    "prompt_tokens": 183,
+    "completion_tokens": 284,
+    "total_tokens": 467,
+    "cost": 0.0001513,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 182,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001513,
+      "upstream_inference_prompt_cost": 0.0000093,
+      "upstream_inference_completions_cost": 0.000142
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 115,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-4-fast",
+  "ts": 1776839992767
+}

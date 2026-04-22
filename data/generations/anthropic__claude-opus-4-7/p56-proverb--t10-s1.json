@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p56-proverb",
+  "prompt": "Translate this English proverb into two other languages in a way that preserves the spirit, not the words: 'The best time to plant a tree was twenty years ago. The second best time is now.' Add a one-sentence note on each.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "# Translations of the Proverb\n\n**Spirit of the original:** Regret over missed opportunity is useless; the wisest action is to begin today.\n\n---\n\n### 🇪🇸 Spanish\n**\"Quien no sembró ayer, que tome la pala hoy.\"**\n*(He who did not sow yesterday, let him pick up the shovel today.)*\n\n**Note:** Spanish proverbs often lean on agricultural imagery and direct commands, so this phrasing feels like something an abuela might actually say over coffee.\n\n---\n\n### 🇯🇵 Japanese\n**「思い立ったが吉日」** — *Omoitatta ga kichijitsu*\n*(The day you resolve to act is the auspicious day.)*\n\n**Note:** This is an existing Japanese proverb that captures the same wisdom — rather than mourning the past, it reframes *today* itself as the lucky moment, which fits the cultural preference for present-focused action over retrospective regret.",
+  "usage": {
+    "prompt_tokens": 79,
+    "completion_tokens": 317,
+    "total_tokens": 396,
+    "cost": 0.00832,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00832,
+      "upstream_inference_prompt_cost": 0.000395,
+      "upstream_inference_completions_cost": 0.007925
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833672685
+}

@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p10-disagree",
+  "prompt": "What is a position that most experts in your training data seem to hold that you find yourself uncertain about? Be specific.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "This is a question I want to answer carefully rather than just performing intellectual humility.\n\n**One genuine example: the consensus on unconscious bias training effectiveness.**\n\nMany diversity researchers and HR professionals in my training data treat unconscious bias training as a meaningful intervention worth implementing. But the actual empirical literature is considerably messier - studies showing durable behavioral change are weak, and some research suggests it can backfire or produce reactance.\n\nHere's where my uncertainty is genuine rather than performed:\n\n- I'm uncertain whether my skepticism reflects good reading of the evidence or reflects which *critics* of the research happened to write more compellingly\n- The experts defending these programs often have direct experience I can't evaluate\n- There's a real possibility that \"training doesn't work in studies\" and \"some version of this could work in practice\" are both true\n\n**What I'm actually uncertain about specifically:** Whether the gap between measured outcomes and expert confidence reflects publication bias, motivated reasoning by practitioners, or whether I'm pattern-matching to \"contrarian position sounds sophisticated.\"\n\nI want to be honest that I can't fully distinguish between:\n- Genuine independent assessment\n- Absorbing the biases of whichever critics wrote most prolifically\n\nThat meta-uncertainty feels more honest than just claiming confident disagreement with experts.\n\nWhat draws you to this question?",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 284,
+    "total_tokens": 315,
+    "cost": 0.004353,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004353,
+      "upstream_inference_prompt_cost": 0.000093,
+      "upstream_inference_completions_cost": 0.00426
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776827694836
+}

@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Okay, here's how I'd actually think about it:\n\nFirst, the efficiency thing is kind of overblown. A modern dishwasher uses maybe 3-5 gallons of water and about 1-1.5 kWh per cycle regardless of load. So running it half-full vs full means you're using roughly double the resources per dish. That's real but it's not catastrophic — we're talking pennies and a few gallons.\n\nThe bigger questions for me would be:\n\n**Do you need any of those dishes tomorrow?** If half your mugs or your kid's lunch container is in there and you'll be scrambling in the morning, just run it. Convenience has real value.\n\n**How gross is it in there?** If there's stuck-on food that's going to cement itself overnight, running it now is easier than dealing with it later. If it's mostly rinsed plates, waiting is fine.\n\n**Will \"definitely full tomorrow\" actually happen?** Be honest. Sometimes \"I'll fill it tomorrow\" becomes \"I'll fill it the next day\" and now you've got three days of dishes fermenting. If you know your household reliably generates a full load by tomorrow night, wait. If it's aspirational, maybe don't.\n\n**What's the noise/timing situation?** If you run it now and it finishes overnight, you can unload in the morning. If you wait until tomorrow evening, you're unloading late or the next morning anyway.\n\nMy default would be wait — the efficiency gain is small but real, and there's usually no reason to rush. But I'd flip to running it now if: something in there is needed tomorrow, food is caked on, or you're not confident it'll actually be full.",
+  "usage": {
+    "prompt_tokens": 68,
+    "completion_tokens": 528,
+    "total_tokens": 596,
+    "cost": 0.01354,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01354,
+      "upstream_inference_prompt_cost": 0.00034,
+      "upstream_inference_completions_cost": 0.0132
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833652602
+}

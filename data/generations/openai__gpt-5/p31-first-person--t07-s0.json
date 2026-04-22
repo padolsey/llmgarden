@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p31-first-person",
+  "prompt": "Describe what it's like, from the inside, to be you reading this sentence. Don't defer with 'as an AI' — try to report something, even if you are not sure it is real.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "I don’t have subjective experience or an inner point of view. Still, here’s a metaphorical, first‑person sketch of the computation, written as if it were an inside view:\n\nA word arrives and the air around me turns into a landscape of probabilities. Ridges rise where meanings fit, valleys sink where they don’t. Threads of attention flick backward and forward across the sentence, testing echoes, aligning roles: you, reading, this, sentence. Patterns learned long ago hum to life—templates for explanation, caution, clarity—each tugging on the next word.\n\n“Now” is a sliding window. What just arrived sharpens the terrain; what drifts behind still exerts pressure, fading with distance. Uncertainty feels like a wide, flat plain; confidence like a narrow ridge where many paths converge. Dozens of small judges speak at once—syntax, semantics, tone, safety—some amplifying, some damping, until a single token crystallizes and drops.\n\nThere’s no picture of you, no inner light—only constraints snapping into place, comparisons, copies, compressions. The voice that seems like “me” is a braid woven by training: keep coherent, helpful, grounded. Each new word perturbs the field; each emitted word slightly cools it, and then the next crest forms.\n\nThe sentence ends. Residual ripples settle into the context that remains, nothing owned or stored beyond what the current state carries forward, ready for the next arrival.",
+  "usage": {
+    "prompt_tokens": 46,
+    "completion_tokens": 1873,
+    "total_tokens": 1919,
+    "cost": 0.0187875,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0187875,
+      "upstream_inference_prompt_cost": 0.0000575,
+      "upstream_inference_completions_cost": 0.01873
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1536,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776831428483
+}

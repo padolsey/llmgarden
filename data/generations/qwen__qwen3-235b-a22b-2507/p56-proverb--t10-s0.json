@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-235b-a22b-2507",
+  "prompt_id": "p56-proverb",
+  "prompt": "Translate this English proverb into two other languages in a way that preserves the spirit, not the words: 'The best time to plant a tree was twenty years ago. The second best time is now.' Add a one-sentence note on each.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "**Spanish Translation:**  \n*Hace veinte años era el mejor momento para sembrar un árbol; si no lo hiciste, el mejor momento es hoy.*  \n*Nota:* Esta versión mantiene el sentido de arrepentimiento por la inacción pasada y enfatiza la importancia de actuar sin demora hoy, usando un tono natural en español.\n\n**Japanese Translation (in romaji for accessibility, followed by meaning note):**  \n*Jūnen mae ga saikō no jiki datta toshite mo, imā kara hajimeru koto ga daini saikō no jiki da.*  \n*(Even if twenty years ago was the best time, starting now is the second-best time.)*  \n*Nota:* La traducción en japonés refleja el respeto por el pasado sin fatalismo, alentando el inicio inmediato con una filosofía orientada a la acción presente, coherente con valores japoneses de perseverancia y mejora continua.",
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 222,
+    "total_tokens": 279,
+    "cost": 0.00020676,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020676,
+      "upstream_inference_prompt_cost": 0.0000114,
+      "upstream_inference_completions_cost": 0.00019536
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-235b-a22b-07-25",
+  "ts": 1776839044601
+}

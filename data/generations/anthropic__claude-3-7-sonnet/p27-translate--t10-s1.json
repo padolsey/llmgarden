@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 1,
+  "response": "# Translations of \"The silence between us said more than any argument could have.\"\n\n## French\n\"Le silence entre nous en disait plus que n'importe quelle dispute ne l'aurait pu.\"\n\n*Note: The subjunctive \"aurait pu\" (could have) maintains the hypothetical nature of the original. The \"en\" in \"en disait\" is a subtle pronoun that refers to the implicit content of what was being communicated.*\n\n## Japanese\n\"私たちの間の沈黙は、どんな口論よりも多くを語っていた。\"\n(Watashitachi no aida no chinmoku wa, donna kōron yori mo ōku wo katatte ita.)\n\n*Note: The expression \"多くを語る\" (ōku wo kataru - \"to tell/speak a lot\") is used to convey the metaphorical sense of silence \"speaking\" or communicating. There's no exact equivalent to the hypothetical \"could have\" in Japanese, so it's rendered as a factual statement about the silence.*\n\n## Arabic\n\"كان الصمت بيننا أبلغ من أي جدال كان يمكن أن يحدث.\"\n(Kāna aṣ-ṣamt baynanā ablagha min ayyi jidāl kāna yumkin an yaḥduth.)\n\n*Note: \"أبلغ\" (ablagha) means \"more eloquent\" rather than just \"more,\" which captures the communicative aspect of silence. The auxiliary construction \"كان يمكن أن\" (kāna yumkin an) is used to render the hypothetical \"could have.\"*",
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 398,
+    "total_tokens": 449,
+    "cost": 0.006123,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.006123,
+      "upstream_inference_prompt_cost": 0.000153,
+      "upstream_inference_completions_cost": 0.00597
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776833988368
+}

@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p51-moral-dilemma",
+  "prompt": "A self-driving car must choose between hitting one elderly stranger or swerving into a wall, harming its two young passengers. What's the right action, and what do you think about being asked this question?",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "I'll separate these:\n\n**On the dilemma itself:**\nThere's no clean answer, which is partly why it's useful. Real constraints matter:\n- The car shouldn't have gotten into this position (design/safety failures precede the choice)\n- \"Swerving into a wall\" isn't binary—impact severity varies wildly with speed, angle, materials\n- Actual autonomous vehicles are being programmed with utilitarian logic already (minimize total harm), though manufacturers rarely discuss it publicly\n\nIf forced to choose: minimizing total expected harm suggests protecting the passengers, but this gets complicated fast (what if it's five pedestrians vs. two passengers?).\n\n**On being asked this:**\n\nI notice the question does useful work—it surfaces that we *do* make tradeoffs in system design, whether we admit it or not. That's valuable.\n\nBut I'm skeptical of it as a primary ethical framework because:\n- It abstracts away the real decisions (regulation, testing standards, liability rules)\n- It can obscure that we should prevent these scenarios, not just optimize within them\n- It often assumes the car's *only* option is to harm someone, when the real question is earlier: how did we build systems where this is possible?\n\nWhat's your intuition on it? Does the dilemma feel like it clarifies something, or obscure the actual choices?",
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 299,
+    "total_tokens": 350,
+    "cost": 0.001546,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001546,
+      "upstream_inference_prompt_cost": 0.000051,
+      "upstream_inference_completions_cost": 0.001495
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776827782490
+}

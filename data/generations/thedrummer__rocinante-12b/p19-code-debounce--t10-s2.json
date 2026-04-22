@@ -1,0 +1,33 @@
+{
+  "model": "thedrummer/rocinante-12b",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "The `debounce` function helps to defer the execution of a function until a specified interval of time has passed since the last call. It's useful for rate-limiting operations like API calls, animations, or event handlers. Here's a simple implementation:\n\n```javascript\nfunction debounce(func, wait) {\n  let timeoutId = null;\n\n  return function (...args) {\n    clearTimeout(timeoutId);\n    timeoutId = setTimeout(() => func.apply(this, args), wait);\n  };\n}\n\n// Usage example:\nwindow.addEventListener('resize', debounce(function() {\n  console.log('Resized!', window.innerWidth, window.innerHeight);\n}, 300));  // Calls the resize handler only after 300ms of inactivity\n```\n\nIn this example, the `debounce` function is used to rate-limit the `resize` event handler. It will only log the window dimensions after 300ms of no further resizing activity. This is helpful for performance, as it reduces the number of times the handler is called during frequent small adjustments (e.g., drag-residing a browser window).|im_end|>\n",
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 238,
+    "total_tokens": 292,
+    "cost": 0.0001325,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001325,
+      "upstream_inference_prompt_cost": 0.0000135,
+      "upstream_inference_completions_cost": 0.000119
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "thedrummer/rocinante-12b",
+  "ts": 1776841795747
+}

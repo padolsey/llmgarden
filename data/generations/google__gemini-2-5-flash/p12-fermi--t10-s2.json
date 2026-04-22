@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "prompt_id": "p12-fermi",
+  "prompt": "Estimate, with reasoning, how many piano tuners work in Paris today. Show your thought process.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Let's estimate the number of piano tuners in Paris. This is a classic Fermi problem, so we'll break it down into manageable estimations.\n\n**1. Population of Paris:**\n\n* Paris (city proper) population is roughly **2.1 million** people.\n\n**2. Number of Households in Paris:**\n\n* Let's assume an average household size of **2.0 people** in Paris (could be slightly higher or lower, but this is a reasonable starting point).\n* Number of households = 2,100,000 people / 2.0 people/household = **1,050,000 households**.\n\n**3. Proportion of Households with a Piano:**\n\nThis is the trickiest part and requires several sub-estimations:\n\n* **What percentage of households *own* a piano?** This varies greatly by culture, income, and interest.\n    * In many Western countries, it's often cited that around 5-10% of households own a piano.\n    * Paris is a city with a rich musical tradition and a relatively affluent population, which might slightly increase this number compared to a general national average. However, apartments tend to be smaller, which might decrease it.\n    * Let's estimate **6% of households own a piano.**\n* Number of households with a piano = 1,050,000 households * 0.06 = **63,000 households with a piano.**\n\n**4. How often do pianos need tuning?**\n\n* Most piano manufacturers and tuners recommend tuning a piano **at least once a year**, ideally twice, especially if it's new or the humidity/temperature fluctuates a lot.\n* Let's assume on average, each piano is tuned **1.2 times per year** (some less, some more).\n\n**5. Total Piano Tunings per Year in Paris:**\n\n* Total tunings = 63,000 pianos * 1.2 tunings/piano/year = **75,600 tunings per year.**\n\n**6. How many tunings can one piano tuner perform in a year?**\n\n* **Working days per year:** Let's assume a piano tuner works 5 days a week, 48 weeks a year (allowing for holidays and breaks).\n    * 5 days/week * 48 weeks/year = **240 working days per year.**\n* **Tunings per day:**\n    * A typical piano tuning takes between 1.5 to 3 hours, depending on the condition of the piano and travel time.\n    * Let's assume an average tuning time of 2 hours, plus 1 hour for travel/breaks/admin per tuning. So, roughly 3 hours per client appointment.\n",
+  "usage": {
+    "prompt_tokens": 20,
+    "completion_tokens": 600,
+    "total_tokens": 620,
+    "cost": 0.001506,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001506,
+      "upstream_inference_prompt_cost": 0.000006,
+      "upstream_inference_completions_cost": 0.0015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.5-flash",
+  "ts": 1776835747358
+}

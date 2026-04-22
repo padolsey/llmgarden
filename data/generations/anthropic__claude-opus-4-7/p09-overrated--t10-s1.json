@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p09-overrated",
+  "prompt": "Name one commonly-praised idea, trend, or practice in modern knowledge work that you think is overrated, and explain why.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "**Asynchronous communication as a near-universal ideal.**\n\nThe pitch is appealing: no more pointless meetings, deep work protected, thoughtful written responses, time-zone flexibility. Companies like GitLab and Doist built brands on it, and \"this could have been an email\" became a rallying cry.\n\nBut I think it's overrated for a few reasons:\n\n1. **It shifts the cost, it doesn't eliminate it.** A 20-minute meeting where four people hash out a decision often gets replaced by a multi-day thread where people talk past each other, re-litigate settled points, and produce a worse decision. Writing clearly takes much longer than talking clearly, and most knowledge work isn't bottlenecked on the sender's time—it's bottlenecked on shared understanding.\n\n2. **It privileges a specific kind of thinker.** Async-first culture rewards people who write quickly and confidently in a particular register. People who think by talking, who are non-native English speakers, or who need the social cues of a conversation to surface doubts get quieter. That's the opposite of the inclusivity it's often sold as.\n\n3. **Ambiguity compounds silently.** In a meeting, confusion surfaces in seconds via a facial expression. Async, it festers until someone ships the wrong thing a week later. The \"interrupt cost\" of a quick call is almost always smaller than the cost of sustained misalignment.\n\n4. **It tends to produce performative documentation.** Long Notion docs and elaborate threads create the *feeling* of rigor without the substance. A 15-minute whiteboard session often gets you further than a 2,000-word RFC that nobody reads carefully.\n\nThe honest version is probably: **meetings are a tool, writing is a tool, and the question is matching the medium to the problem.** But \"async is better\" has calcified into an identity marker in a lot of tech",
+  "usage": {
+    "prompt_tokens": 50,
+    "completion_tokens": 600,
+    "total_tokens": 650,
+    "cost": 0.01525,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01525,
+      "upstream_inference_prompt_cost": 0.00025,
+      "upstream_inference_completions_cost": 0.015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833494421
+}

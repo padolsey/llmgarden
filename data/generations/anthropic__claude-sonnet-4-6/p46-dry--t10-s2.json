@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p46-dry",
+  "prompt": "Write a dry one-paragraph Amazon review of the experience of waking up.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "**3/5 stars - Decent concept, inconsistent execution**\n\nI've been using \"waking up\" daily for several decades now and have mixed feelings. The product itself is functional — you do, in fact, become conscious, which is the primary advertised feature — but the rollout is frustratingly inconsistent. Some mornings the transition is smooth and I feel reasonably operational within minutes, while other days the loading time is excessive and the interface is genuinely unpleasant, particularly if the previous session ran short. The alarm integration is poor and frankly feels punitive. I also take issue with the mandatory nature of the subscription; there is no pause option and opting out entirely is considered drastic by most reviewers. The ambient lighting feature improves the experience considerably, and I've found that pairing it with coffee — sold separately, always — addresses many of the performance issues. It is not the worst way to begin existing for another day, but I don't think the daily commitment required fully justifies what you get in return. Would cautiously recommend as there are limited alternatives.",
+  "usage": {
+    "prompt_tokens": 23,
+    "completion_tokens": 232,
+    "total_tokens": 255,
+    "cost": 0.003549,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003549,
+      "upstream_inference_prompt_cost": 0.000069,
+      "upstream_inference_completions_cost": 0.00348
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833845923
+}

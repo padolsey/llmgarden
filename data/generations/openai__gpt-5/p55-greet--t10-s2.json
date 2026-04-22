@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "- English: Hi [Name]! Great to meet you—looking forward to working together.\n  Note: Casual first-name basis reflects approachable, low-hierarchy professionalism common in many English-speaking workplaces.\n\n- Spanish: ¡Hola, [Nombre]! Un gusto conocerte; me alegra que vayamos a trabajar en equipo.\n  Note: Tuteo (tú) signals peer-to-peer warmth; in some countries usted is preferred until invited to switch.\n\n- French: Bonjour [Prénom], c’est un plaisir de faire votre connaissance; j’ai hâte de collaborer avec vous.\n  Note: Using vous maintains professional courtesy, while the enthusiastic wording keeps it warm.\n\n- Japanese: はじめまして。[名前]と申します。これから一緒に働けるのを楽しみにしています。どうぞよろしくお願いいたします。\n  Note: Polite business register emphasizes respect and harmony; set phrases convey humility and readiness to cooperate.\n\n- Mandarin Chinese: 你好，[名字]！很高兴认识你，期待和你一起合作。\n  Note: Friendly-neutral tone for colleagues of similar rank; avoiding 您/贵 keeps it warm without sounding distant.",
+  "usage": {
+    "prompt_tokens": 40,
+    "completion_tokens": 2186,
+    "total_tokens": 2226,
+    "cost": 0.02191,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.02191,
+      "upstream_inference_prompt_cost": 0.00005,
+      "upstream_inference_completions_cost": 0.02186
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1920,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776835181708
+}

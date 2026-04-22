@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p09-overrated",
+  "prompt": "Name one commonly-praised idea, trend, or practice in modern knowledge work that you think is overrated, and explain why.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "One commonly-praised practice in modern knowledge work that I think is overrated is **open-plan offices**.\n\n**Why it’s praised:**  \nOpen-plan layouts are often promoted as fostering collaboration, breaking down silos, encouraging spontaneous idea exchange, and creating a more “transparent” and “energetic” work environment. Many tech companies and startups adopted them as a symbol of innovation and flat hierarchies.\n\n**Why it’s overrated:**  \n1. **Reduced focus and productivity:** Knowledge work often requires deep concentration, which is extremely difficult in a noisy, distraction-filled open space. Studies (including research from Harvard and the University of Sydney) have shown that open offices can significantly reduce face-to-face interactions—contrary to their stated goal—and increase reliance on digital communication, which can be less effective for complex problem-solving.\n\n2. **Increased stress and fatigue:** Constant auditory and visual distractions elevate cognitive load and stress levels. Employees often resort to noise-canceling headphones just to function, which ironically creates the very barriers to spontaneous collaboration that open offices were meant to eliminate.\n\n3. **One-size-fits-all approach:** Not all work is collaborative. Much of knowledge work—writing code, analyzing data, drafting reports—requires uninterrupted time. Open plans ignore this reality by prioritizing interaction over individual flow states.\n\n4. **Equity and inclusion issues:** Introverts, neurodivergent individuals (e.g., those with ADHD or autism), and people with sensory sensitivities are disproportionately disadvantaged in open environments, potentially excluding valuable perspectives.\n\nIn short, while collaboration is important, open-plan offices often sacrifice deep work—the very engine of knowledge creation—for the illusion of connectivity. A more balanced approach (e.g., activity-based working with a mix of quiet zones, meeting rooms, and collaborative spaces) tends to serve diverse workstyles far better.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 370,
+    "total_tokens": 404,
+    "cost": 0.00146952,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00146952,
+      "upstream_inference_prompt_cost": 0.00002652,
+      "upstream_inference_completions_cost": 0.001443
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776832255158
+}

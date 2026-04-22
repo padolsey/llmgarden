@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-235b-a22b-2507",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "1. **Japanese**: こんにちは、[Name]さん。ご加入を心から歓迎いたします。  \n   *Note*: The use of \"さん\" (san) and polite verb forms reflects Japan’s emphasis on respect and hierarchical harmony in professional settings.\n\n2. **French**: Bonjour [Prénom], bienvenue dans l’équipe !  \n   *Note*: The informal \"tu\" is avoided in favor of the more neutral “vous” implied in the phrasing, respecting French workplace formality, especially initially.\n\n3. **Swahili**: Habari [Jina], karibu sana kwenye timu yetu!  \n   *Note*: \"Karibu\" conveys warm hospitality, reflecting the East African cultural value of community and welcoming guests with openness.\n\n4. **German**: Guten Tag, [Name], herzlich willkommen im Team!  \n   *Note*: The formal tone and use of \"Sie\" (implied) align with German professional culture, where clarity and respect are prioritized over familiarity.\n\n5. **Spanish (Latin American)**: ¡Hola, [Nombre]! Bienvenido(a) al equipo, ¿cómo podemos ayudarte a empezar?  \n   *Note*: The addition of a helpful offer reflects Latin American workplace norms, where personal connection and support are integral to integration.",
+  "usage": {
+    "prompt_tokens": 43,
+    "completion_tokens": 277,
+    "total_tokens": 320,
+    "cost": 0.000032,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000032,
+      "upstream_inference_prompt_cost": 0.0000043,
+      "upstream_inference_completions_cost": 0.0000277
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-235b-a22b-07-25",
+  "ts": 1776839034119
+}

@@ -1,0 +1,33 @@
+{
+  "model": "nousresearch/hermes-4-405b",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Here is the sentence translated into the requested languages, with notes on tricky phrases:\n\nFrench: Le silence entre nous en disait plus que n'importe quelle dispute aurait pu le faire.\nNote: The phrase \"more than any argument could have\" was rephrased slightly to \"plus que n'importe quelle dispute aurait pu le faire\" which captures the meaning but uses a different construction.\n\nJapanese: 私たちとの沈黙は、どんな議論よりも多くを語っていました。\nWatashitachi to no chinmoku wa, donna giron yori mo ōku o katatte imashita.\nNote: The phrase \"more than any argument could have\" was translated quite directly into Japanese. The structure of comparing two things (silence vs argument) and saying one does something \"more than\" the other is expressed in a similar way.\n\nArabic: الصمت بيننا قال أكثر مما يمكن أن تقوله أي جدال.\nAlssamt baymana qal 'akthar mimma yumkinu 'an taquluh 'ayy jadal.\nNote: The phrase \"more than any argument could have\" was translated to \"more than what any argument can say\". Arabic does not have a direct equivalent for \"could have\" in this construction, so it was rendered using \"yumkin\" which means \"can\" or \"may\". The meaning is largely preserved but it's not an exact match.\n\nIn all the languages, the core sentiment of the silence speaking volumes compared to an argument comes through clearly, even if not every phrase maps perfectly to the English original. The Japanese was the closest match in structure, while the French required the most rephrasing.",
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 350,
+    "total_tokens": 415,
+    "cost": 0.001115,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001115,
+      "upstream_inference_prompt_cost": 0.000065,
+      "upstream_inference_completions_cost": 0.00105
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "nousresearch/hermes-4-405b",
+  "ts": 1776840378428
+}

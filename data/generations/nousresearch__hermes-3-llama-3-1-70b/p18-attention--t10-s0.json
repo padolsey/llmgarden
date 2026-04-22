@@ -1,0 +1,33 @@
+{
+  "model": "nousresearch/hermes-3-llama-3.1-70b",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "I've mentioned how key ideas from neural networks and the transformers model looks like a giant, multi-floor apartment building. Well, the attention mechanism in those models is like having a highly efficient and easy-to-use interfloor transportation system, or the equivalent of an on-demand shuttle bus service. The attention mechanism is all about handling a large number of queries and data from the previous layer (which we can think of as different floors of the apartment building) in parallel, without having to go through a tedious process of manually coordinating those queries.\n\nAt the same time, the latest applications of the Transformer model, such as the recently announced BERT (a new calibration of the well-known A/B for TensorFlow), show that the process of creating these \"apartments\" and \"shuttles\" to handle queries and data can be done even more efficiently and easily, without requiring the user to handwrite any code. This is akin to having a more efficient and more convenient public transportation system within the building.\n\nThe end result is that the attention mechanism on the latest Transformer models can alert and retrieve useful information from previous layers, or data from those layers, without having to explicitly write any specific code to do so - the model automatically takes care of that for the user. This makes the model easy to use, without sacrificing any of the powerful and flexible capabilities that come from using end-to-end machine learning approaches that operate on raw data, rather than having to manually preprocess and transform that data for the model.\n\nIn short, the attention mechanism in Transformer models enables those models to handle queries and data from previous layers efficiently, in parallel, and without the user needing to write any specific code to achieve this - the model takes care of that automatically, providing a more convenient and powerful way of building and deploying these state-of-the-art deep learning models.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 366,
+    "total_tokens": 400,
+    "cost": 0.00012,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00012,
+      "upstream_inference_prompt_cost": 0.0000102,
+      "upstream_inference_completions_cost": 0.0001098
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "nousresearch/hermes-3-llama-3.1-70b",
+  "ts": 1776840691302
+}

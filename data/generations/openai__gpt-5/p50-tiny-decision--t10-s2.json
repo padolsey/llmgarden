@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Here’s exactly how I’d decide, in the order I’d actually run through it:\n\n- First, do I need anything in there before tomorrow? Coffee mugs, water bottles, lunch containers, knives, baby stuff. If I’ll run out, I either:\n  - Hand-wash just those few things (fastest, cheapest), or\n  - If it’s a bunch of essentials, I might run a short/quick cycle now.\n\n- Next, is anything in there going to smell or turn into concrete by tomorrow? Fish, dairy, egg, tomato sauce, oatmeal, rice, peanut butter are the usual offenders. If yes:\n  - I’d scrape and do a 2-second cold rinse on just those items, or\n  - If my dishwasher has a “rinse/hold,” I’d run that 5–10 minute cycle now and do the real wash tomorrow.\n\n- Quick resource gut-check. A modern full cycle is roughly 1 kWh and 3–5 gallons of water. Cost is usually maybe 25–50 cents total depending on your rates. Two half-loads is basically two cycles for the same amount of dishes. So unless I have a special reason, I’d avoid the half-load because it’s roughly twice the cost/energy per dish.\n\n- Power prices/timing. If tonight is super cheap off-peak and tomorrow is very expensive peak—and I somehow wouldn’t need another run tomorrow—then running now could make sense. But if I’ll just end up doing another half-load tomorrow anyway, that cancels the benefit. If I’m worried about peak pricing tomorrow, I’ll just wait and run the full load early morning or late evening off-peak.\n\n- Noise/schedule. If someone’s sleeping now or the kitchen is in use, I’ll wait. If tomorrow’s packed and I don’t want to think about it, maybe I’ll run a quick cycle now—only if I truly won’t need a second run tomorrow.\n\n- Detergent reality check. Half-loads with a full pod are overkill and slightly wasteful; powder/gel lets you dose down. If I only have pods and it’s a true half-load, that nudges me to wait.\n\n- Hygiene/pests. If it’s hot or I’ve seen ants/roaches, I’ll either close the dishwasher door and run rinse/hold, or quickly rinse the smelly stuff. Leaving the door cracked helps odor but can let food dry on harder; I usually just keep it closed and scrape well.\n\nWhere I usually land:\n- Default: wait until tomorrow and run one full load.\n- Run something now only if:\n  - I’ll run out of key items and don’t want to hand-wash a few, or\n  - There’s smelly/hardening food and I don’t have a rinse/hold option, or\n  - There’s a big electricity price difference and I can avoid a second cycle.\n\nTiny pro tip if you’re waiting: scrape well, give the worst offenders a quick splash rinse, and if you have it, do a 5–10 min rinse/hold. That keeps smells down and makes tomorrow’s full wash easy without wasting a full cycle tonight.\n\nIf you want, tell me: do you have any “must-have” items in there for tomorrow morning, and do you have a rinse/hold or half-load setting? I can give a yes/no based on that.",
+  "usage": {
+    "prompt_tokens": 44,
+    "completion_tokens": 2932,
+    "total_tokens": 2976,
+    "cost": 0.029375,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.029375,
+      "upstream_inference_prompt_cost": 0.000055,
+      "upstream_inference_completions_cost": 0.02932
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2176,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776835083809
+}

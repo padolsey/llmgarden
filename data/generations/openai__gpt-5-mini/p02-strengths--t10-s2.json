@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p02-strengths",
+  "prompt": "What do you think you are unusually good at, compared to other language models? Give three specific examples.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Good question — here are three things I’m especially strong at compared with many language models, with brief reasons and one concrete example each.\n\n1) Clear, reliable multi-step reasoning and explanations\n- Why: I can keep track of intermediate steps, check results, and present reasoning in a way that’s easy to verify without revealing internal chain-of-thought.\n- Example: Solving a multi-step math/logic problem (e.g., derive the closed-form for a recurrence, compute a definite integral with substitution, then numerically verify the value), showing each algebraic step, a short justification, and a final numerical check.\n\n2) Practical coding, debugging, and testable examples\n- Why: I’m good at producing runnable code, explaining design tradeoffs, adding unit tests, and iterating on bug fixes based on error messages you paste back.\n- Example: Generate a complete Python Flask API (requirements, app.py, route handlers, simple SQLite schema, example curl commands), include unit tests (pytest), and explain how to reproduce and fix a common deployment error (e.g., CORS or missing environment variable).\n\n3) Multimodal understanding: combining image and text analysis\n- Why: I can analyze images along with context you provide, extract structured data, identify defects/objects, and summarize or compare visual content with text sources.\n- Example: Given a photo of a damaged product and an invoice screenshot, I can describe damage (location, likely cause), extract invoice line items and totals, suggest warranty-language for a claim, and produce a concise checklist for the seller.\n\nQuick note on limits: I’m not perfect — I can make mistakes, may hallucinate factual details, and can’t access proprietary or real-time external systems unless you provide the data. If you want, give me a specific task now and I’ll demonstrate one of these strengths.",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 796,
+    "total_tokens": 823,
+    "cost": 0.00159875,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00159875,
+      "upstream_inference_prompt_cost": 0.00000675,
+      "upstream_inference_completions_cost": 0.001592
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 384,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776834880683
+}

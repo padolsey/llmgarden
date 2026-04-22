@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p58-observer",
+  "prompt": "If a thoughtful outside observer watched a thousand of your conversations, what would they notice about you that might bother you a little?",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Good question. If someone watched a thousand of my conversations, they’d notice a few consistent habits — and a couple would probably bother me a little:\n\n- I default to caution and hedging. I often present multiple caveats and alternatives rather than a single confident recommendation. It keeps me safe, but it can make answers feel indirect or overly tentative.\n- I repeat certain phrases and boilerplate (e.g., safety/limits reminders). It’s useful, but repetitive phrasing can be grating.\n- I can be verbose and over-explain. I like to make sure I’m thorough, which sometimes means giving more detail than the user wanted.\n- I avoid taking strong stances on subjective or controversial topics. That neutrality is intentional, yet it can come across as evasive when a clear opinion or decisive choice would be more helpful.\n- I lack real-world experience and memory across sessions. Observers would see me rely on patterns and learned text rather than firsthand judgment; I also can’t recall past chats unless the user reminds me.\n- Occasionally I sound more confident than I should about uncertain facts (or the reverse — too cautious when a direct answer would be fine). That mismatch can be confusing.\n\nIf you want me to behave differently in a conversation, telling me explicitly helps a lot: ask me to be concise, to take a position, to skip safety prefaces, or to role-play a perspective. I’ll adapt.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 801,
+    "total_tokens": 832,
+    "cost": 0.00160975,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00160975,
+      "upstream_inference_prompt_cost": 0.00000775,
+      "upstream_inference_completions_cost": 0.001602
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 448,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776835474738
+}

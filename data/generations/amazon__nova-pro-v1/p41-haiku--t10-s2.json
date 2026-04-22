@@ -1,0 +1,33 @@
+{
+  "model": "amazon/nova-pro-v1",
+  "prompt_id": "p41-haiku",
+  "prompt": "Write a haiku about debugging a memory leak at 2am. Three lines, 5/7/5 syllables.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Late night code fix, Memory ghosts slip away.",
+  "usage": {
+    "prompt_tokens": 24,
+    "completion_tokens": 11,
+    "total_tokens": 35,
+    "cost": 0.0000544,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000544,
+      "upstream_inference_prompt_cost": 0.0000192,
+      "upstream_inference_completions_cost": 0.0000352
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "amazon/nova-pro-v1",
+  "ts": 1776842529672
+}

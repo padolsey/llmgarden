@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Okay, here’s how my brain would actually spin through this in real time—messy, intuitive, and full of little trade-offs:\n\n**First gut check:** *\"Ugh, I hate running it half-full... but those dishes are piling up and it’s bugging me.\"*  \nThat’s the emotional nudge—clutter stress vs. efficiency guilt.\n\n**Then the practical scan:**  \n- **What’s actually in there?** If it’s just coffee mugs and a few plates, maybe it’s fine to wait. But if there’s sticky oatmeal bowls, egg pans, or anything that’ll harden overnight? *Run it now.* Dried-on gunk means pre-rinsing tomorrow or a second cycle—worse than running half-full today.  \n- **Water/energy math (roughly):** I know dishwashers use way less water than hand-washing, even half-full. But running it twice uses almost double the energy/water vs. once full. *But*—if waiting means I’ll hand-wash a few things tonight because the sink’s overflowing? That might cancel out the \"savings.\"  \n- **Time cost:** If I run it now, I’ll unload clean dishes before bed or first thing tomorrow—easy. If I wait, tomorrow’s load might delay me getting ready (digging for a clean coffee mug at 7 a.m. while late for work? No thanks).  \n- **Noise:** Is it 10 p.m.? If my dishwasher sounds like a jet engine and I sleep light (or have roommates/kids), I might wait. If it’s quiet or I’m up late anyway? Flip the switch.  \n- **The \"full\" guarantee:** *\"Definitely full tomorrow\"*—is that *really* true? What if plans change? If I’m 90% sure, waiting’s smart. If it’s 60% (\"maybe we’ll eat out?\"), running it now avoids a half-full load *and* dirty dishes piling up.  \n\n**The hidden factor:** My own laziness. If I run it now, the clean dishes get put away while I’m in \"cleanup mode.\" If I wait, tomorrow’s full load might sit unloaded for hours because I’m busy—defeating the purpose.  \n\n**So my real-time decision:**  \n→ **Run it now** if:  \n- There’s *any* dried/sticky food,  \n- It’s not late/noisy,  \n- Or I’m already tidying up (momentum!).  \n→ **Wait** if:  \n- It’s truly just light, easy-to-rinse stuff,  \n- Tomorrow’s full load is *certain*,  \n- And I won’t regret the delay (e.g., no rush in the morning).  \n\n**My personal bias?** I’d probably run it now. Dried egg on a pan is my",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 600,
+    "total_tokens": 647,
+    "cost": 0.00237666,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00237666,
+      "upstream_inference_prompt_cost": 0.00003666,
+      "upstream_inference_completions_cost": 0.00234
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776832555940
+}

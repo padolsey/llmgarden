@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.0-flash-001",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Okay, here are the translations, along with notes on the more challenging aspects:\n\n**English:** The silence between us said more than any argument could have.\n\n**French:**\n\n*   **Translation:** *Le silence entre nous en disait plus que n'importe quelle dispute n'aurait pu le faire.*\n\n*   **Notes:**\n    *   \"En disait plus\" - This is a slightly more idiomatic way to say \"said more\" in this context.  It doesn't *literally* translate word-for-word, but it's a very common and natural way to express the idea.\n    *  \"N'importe quelle dispute n'aurait pu le faire\" - The double negative here (ne...n') is required for grammatical correctness in this phrase, but it can be confusing for English speakers. The subjunctive mood \"aurait pu le faire\" is also needed to express the hypothetical nature of the argument.\n\n**Japanese:**\n\n*   **Translation:** 私たちの間の沈黙は、どんな議論よりも多くを語っていた。 (Watashitachi no aida no chinmoku wa, donna giron yori mo ooku o katatte ita.)\n\n*   **Breakdown:**\n    *   私たちの間 (watashitachi no aida): between us\n    *   の (no): possessive particle\n    *   沈黙 (chinmoku): silence\n    *   は (wa): topic marker\n    *   どんな議論 (donna giron): any argument\n    *   よりも (yori mo): more than\n    *   多く (ooku): much, a lot\n    *   を (o): direct object marker\n    *   語っていた (katatte ita): was saying (past progressive)\n\n*   **Notes:**\n    *   Japanese doesn't always require explicitly stating \"could have.\" The past progressive form \"katatte ita\" implies that the silence was *actively communicating* more than any argument *could have*. The context carries the hypothetical meaning.\n    *   There isn't a perfect single-word equivalent for \"argument\" in this context. \"Giron\" (議論) is a general term for discussion or argument.\n\n**Arabic:**\n\n*   **Translation:** كان الصمت بيننا أبلغ مما كانت تستطيع أي مناقشة أن تقوله. (Kana al-samt baynana ablagh mimma kanat tastatie' ayy munaqasha an taqoolahu.)\n\n*   **Breakdown:**\n    *   كان (kana): was\n    *   الصمت (al-samt): the silence\n    *   بيننا (baynana): between us\n    *   أبلغ (ablagh): more eloquent, more expressive (literally, \"more eloquent\")\n    *   مما (mimma",
+  "usage": {
+    "prompt_tokens": 41,
+    "completion_tokens": 600,
+    "total_tokens": 641,
+    "cost": 0.0002441,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002441,
+      "upstream_inference_prompt_cost": 0.0000041,
+      "upstream_inference_completions_cost": 0.00024
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.0-flash-001",
+  "ts": 1776831672849
+}

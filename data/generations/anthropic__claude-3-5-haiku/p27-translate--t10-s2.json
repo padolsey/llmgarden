@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.5-haiku",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Here are the translations with notes:\n\nFrench:\n\"Le silence entre nous en disait plus long que n'importe quel argument n'aurait pu.\"\n\nNote: The translation captures the meaning, but the idiomatic structure required some nuanced restructuring.\n\nJapanese:\n「私たちの間の沈黙は、どんな議論よりも多くを語っていた。」\n\nNote: The Japanese translation preserves the metaphorical sense of silence \"speaking\" more than words, which translates well in Japanese.\n\nArabic:\n«الصمت بيننا كان يقول أكثر مما يمكن لأي جدال أن يقوله»\n\nNote: In Arabic, the translation required shifting the sentence structure to maintain the poetic essence of the original. The verb \"said\" is transformed to convey the metaphorical meaning of silence communicating more effectively than an argument.\n\nEach translation attempts to preserve the emotional and metaphorical weight of the original English sentence while adapting to the linguistic nuances of the target language.",
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 244,
+    "total_tokens": 295,
+    "cost": 0.0010168,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0010168,
+      "upstream_inference_prompt_cost": 0.0000408,
+      "upstream_inference_completions_cost": 0.000976
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-5-haiku",
+  "ts": 1776834090644
+}

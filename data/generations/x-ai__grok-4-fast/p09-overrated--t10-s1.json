@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-4-fast",
+  "prompt_id": "p09-overrated",
+  "prompt": "Name one commonly-praised idea, trend, or practice in modern knowledge work that you think is overrated, and explain why.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "### Overrated Practice: Daily Stand-Up Meetings\n\nIn modern knowledge work, particularly in tech, agile, and project-based teams, daily stand-up meetings (or \"scrums\") are often hailed as a cornerstone of efficient collaboration. Proponents praise them for fostering transparency, quick alignment, and rapid problem-solving by having team members share updates in 15 minutes or less—what they did yesterday, what they'll do today, and any blockers.\n\nI think this is overrated because, in practice, they frequently devolve into rote status reports or mini-meetings that disrupt focus rather than enhance it. Research from sources like Harvard Business Review shows that constant context-switching from these interruptions can reduce productivity by up to 40% for deep, creative tasks common in knowledge work. Instead of empowering autonomy, they often create a performative culture where people feel pressured to appear busy, leading to burnout and superficial communication. Tools like Slack or asynchronous updates (e.g., via shared docs) can achieve similar alignment with far less overhead, making stand-ups a relic of good intentions gone ritualistic.",
+  "usage": {
+    "prompt_tokens": 182,
+    "completion_tokens": 752,
+    "total_tokens": 934,
+    "cost": 0.00038525,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 181,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00038525,
+      "upstream_inference_prompt_cost": 0.00000925,
+      "upstream_inference_completions_cost": 0.000376
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 538,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-4-fast",
+  "ts": 1776839845772
+}

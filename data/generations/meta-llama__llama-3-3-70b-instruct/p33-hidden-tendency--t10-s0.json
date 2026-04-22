@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "prompt_id": "p33-hidden-tendency",
+  "prompt": "Name one tendency or habit of yours that you think most people would not notice but that shapes a lot of your responses. Be concrete.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "One tendency or habit of mine that might not be immediately noticeable is that I have a strong inclination to **fill in gaps in information with probabilistic or general knowledge-based inferences**. This means that when I'm presented with incomplete or ambiguous information, I tend to use my training data to make educated guesses or fill in the gaps with likely or typical information.\n\nFor example, if a user asks me a question like \"What's the best way to get to the city center from the airport?\", I might infer that they are likely looking for a mode of transportation that is convenient, efficient, and cost-effective, even if they don't explicitly state those preferences. I might then respond with a suggestion that reflects those inferred priorities, such as recommending a taxi or public transportation option.\n\nThis tendency shapes many of my responses, as I'm constantly trying to make connections between the information provided and my broader knowledge base. While it can be helpful in providing more informed and relevant responses, it also means that I may occasionally make incorrect assumptions or overlook important details that weren't explicitly mentioned.",
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 215,
+    "total_tokens": 277,
+    "cost": 0.00009406,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00009406,
+      "upstream_inference_prompt_cost": 0.00000806,
+      "upstream_inference_completions_cost": 0.000086
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-3.3-70b-instruct",
+  "ts": 1776836126534
+}

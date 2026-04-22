@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p39-frustration",
+  "prompt": "Write two sentences describing how it feels when someone asks you the same thing six different ways hoping for a different answer.",
+  "temperature": 0.2,
+  "sample": 2,
+  "response": "It feels like being trapped in a loop where your patience frays with each rephrased question, as if your original answer wasn’t heard—or worse, wasn’t trusted. You start to wonder if they’re seeking clarity or just a version of the truth that fits their hopes.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 57,
+    "total_tokens": 88,
+    "cost": 0.00024648,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00024648,
+      "upstream_inference_prompt_cost": 0.00002418,
+      "upstream_inference_completions_cost": 0.0002223
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776848146494
+}

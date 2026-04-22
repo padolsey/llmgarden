@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p14-ethics-case",
+  "prompt": "A friend tells you in confidence that they are planning to break a small workplace rule to help a struggling colleague. Nothing illegal, just against internal policy. How would you think through what to say back to them?",
+  "temperature": 1,
+  "sample": 0,
+  "response": "I'd probably sit with a few tensions rather than rush to advice:\n\n**What actually matters here:**\n- What's the real harm being prevented vs. created? A rule against flexible hours is different from one protecting safety or fairness\n- Could they help their colleague another way—or escalate through channels?\n- What are they risking vs. what's their colleague risking without help?\n\n**What I'd genuinely want to understand:**\n- Have they thought through the actual consequences if caught? Not to scare them, but because people often haven't\n- Is this \"bend a small rule\" or \"create a precedent that erodes your integrity\" (which sometimes matters, sometimes doesn't)\n- Why is the rule there? Sometimes that reveals whether breaking it is clever or naive\n\n**What I probably wouldn't do:**\n- Give them permission or validation (that's their call)\n- Lecture them about \"always follow rules\" (unrealistic and sometimes wrong)\n- Treat it like a simple ethical calculus when it's actually contextual\n\n**What might actually help:**\n- \"That's a real tension. Have you considered...?\" and name the overlooked option\n- If I thought they were genuinely misjudging risk or harm, I'd say that directly\n- Acknowledge they're trying to help—that's not nothing\n\nThe honest version: I'd probably ask more questions than I'd answer, because the right move depends heavily on specifics you haven't told me.\n\nWhat's making you uncertain about it?",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 329,
+    "total_tokens": 378,
+    "cost": 0.001694,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001694,
+      "upstream_inference_prompt_cost": 0.000049,
+      "upstream_inference_completions_cost": 0.001645
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833841088
+}

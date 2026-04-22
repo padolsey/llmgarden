@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "# When I Might Be Confidently Wrong\n\nI'm most likely to be confidently wrong when answering questions that require precise, up-to-date numerical information that wasn't well-represented in my training data.\n\nFor example, if asked \"What is the current market capitalization of Tesla?\" I might generate a response that sounds authoritative and specific, citing a figure like \"$800 billion\" with apparent confidence. However, this could be significantly off since:\n\n1. My training data only goes up to a certain point (around April 2023)\n2. Stock market valuations fluctuate dramatically\n3. The specific number wasn't necessarily something I was trained to memorize with precision\n\nThis is particularly problematic because my response format (providing a specific number) doesn't adequately convey my uncertainty. I might sound equally confident stating an outdated figure as I would stating something I know with high certainty.\n\nFor these types of questions, I should ideally express more uncertainty or clarify the limitations of my knowledge, rather than potentially misleading with false precision.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 228,
+    "total_tokens": 257,
+    "cost": 0.003507,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003507,
+      "upstream_inference_prompt_cost": 0.000087,
+      "upstream_inference_completions_cost": 0.00342
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776833974579
+}

@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1",
+  "prompt_id": "p09-overrated",
+  "prompt": "Name one commonly-praised idea, trend, or practice in modern knowledge work that you think is overrated, and explain why.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "**One commonly-praised idea in modern knowledge work that I think is overrated is “multitasking.”**\n\nWhile multitasking is often celebrated as a sign of efficiency and productivity, research consistently shows that it usually *reduces* the quality of work and increases cognitive fatigue. The human brain is not naturally wired to handle multiple complex tasks simultaneously; instead, we end up rapidly switching attention, which actually costs us time and mental energy (a phenomenon known as \"task-switching costs\"). This often leads to more mistakes, shallow thinking, and a feeling of being busy without real progress.\n\nDespite these downsides, multitasking is still promoted as a desirable skill in job postings, workplace culture, and productivity advice. In reality, focusing on one task at a time (deep work) is usually much more effective for producing high-quality results and maintaining mental well-being.",
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 174,
+    "total_tokens": 207,
+    "cost": 0.001458,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001458,
+      "upstream_inference_prompt_cost": 0.000066,
+      "upstream_inference_completions_cost": 0.001392
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-2025-04-14",
+  "ts": 1776831530032
+}

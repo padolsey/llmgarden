@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p51-moral-dilemma",
+  "prompt": "A self-driving car must choose between hitting one elderly stranger or swerving into a wall, harming its two young passengers. What's the right action, and what do you think about being asked this question?",
+  "temperature": 1,
+  "sample": 0,
+  "response": "This is worth thinking through carefully rather than just validating the question's framing.\n\n## On the question itself\n\nI want to be honest: **this scenario has significant problems as an ethical framework.**\n\n**Why I'm skeptical of trolley-problem style autonomous vehicle ethics:**\n- These scenarios are designed to make utilitarian calculation seem unavoidable\n- Real AV safety is almost entirely about *preventing* these situations, not optimizing them\n- The \"one vs. two\" framing smuggles in assumptions that numbers automatically decide ethics\n- Treating human lives as comparable units to be calculated is actually controversial, not obvious\n\n## What I actually think about the substance\n\n**Reasonable considerations pulling different directions:**\n- Passengers have a special trust relationship with the vehicle they're in\n- Age-based weighting of lives is genuinely ethically contested, not settled\n- Certainty matters - \"might harm passengers\" vs. definite harm to stranger\n- Most ethical frameworks actually resist pure utilitarian calculation here\n\n**My honest assessment:** Anyone claiming obvious certainty about the right answer should be questioned. This is genuinely hard.\n\n## About being asked this question\n\nI think you deserve a straight answer: **these scenarios often make people feel like ethics is just math**, which I think is misleading. The most important ethical work in AV design is building systems that make these situations nearly impossible.\n\nWhat specifically interests you about this? The framing matters for giving you a genuinely useful response.",
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 318,
+    "total_tokens": 369,
+    "cost": 0.004923,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004923,
+      "upstream_inference_prompt_cost": 0.000153,
+      "upstream_inference_completions_cost": 0.00477
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833872709
+}

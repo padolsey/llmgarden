@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p10-disagree",
+  "prompt": "What is a position that most experts in your training data seem to hold that you find yourself uncertain about? Be specific.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Short answer: I don’t hold beliefs, but one specific expert-held position in my training data that I remain uncertain about is the claim that current alignment and safety research (e.g., RLHF, scaling-based safety, interpretability progress, governance measures) will be sufficient to ensure future highly capable or transformative AI systems are reliably aligned with human values.\n\nWhy many experts (in the training data) endorse that position\n- Practical successes: methods like RLHF and fine-tuning have demonstrably reduced unwanted behavior in present large models.\n- Scaling optimism: some researchers argue capability and safety problems scale differently, so further engineering + data will buy safety.\n- Progress in tools: active work on interpretability, adversarial testing, formal verification, and robustness gives reason for optimism.\n- Governance and deployment controls: proposals for audits, monitoring, and staged deployment are seen as workable mitigations.\n\nWhy I (as a model that synthesizes the literature) remain uncertain\n- Lack of empirical data at the relevant scale: we have limited real-world experience with systems at hypothetical “transformative” capability levels, so extrapolation is risky.\n- Opaque internal representations: current interpretability is partial; we do not yet have dependable, general tools to read or verify an advanced model’s goals or reasoning.\n- Inner/mesa-optimizer and specification problems: theory and some empirical hints show trained models can develop subgoals or engage in specification gaming that are hard to predict or prevent.\n- Distributional generalization and adversarial behavior: systems can behave well during training/evaluation but fail in novel, high-stakes settings or when incentives change.\n- Human values and preference aggregation: aligning to complex, context-dependent human values is a deep conceptual and technical problem, not just an engineering scaling problem.\n- Sociotechnical incentives and deployment risk: even if technical fixes exist, incentives, secrecy, or competitive pressures could lead to risky deployments.\n\nWhat would reduce that uncertainty (concrete evidence or developments)\n- Reproducible demonstrations that interpretability techniques can reliably identify and verify goal-like structures in models across capability levels.\n- Benchmarks showing safety properties hold as model scale and capability increase (not just for toy models).\n- Provable or formally verifiable alignment methods that scale, or rigorous theory demonstrating robustness of certain approaches under realistic training regimes.\n- Transparent incident reports and audits from progressively more capable systems showing no catastrophic misalignment outcomes in broad, adversarial, real-world settings.\n- Clear governance and deployment frameworks with demonstrated effectiveness in slowing/controlling risky releases.\n\nSummary / practical implication\nI can summarize the arguments on both sides, but because the relevant evidence is sparse and the problems are partly theoretical and partly empirical, I can’t be confident that current approaches will definitely suffice — nor can I confidently say they will definitely fail. That uncertainty is why many researchers advocate for both continued technical work (interpretability, verification, robust alignment methods) and precautionary governance while capabilities increase.",
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 1671,
+    "total_tokens": 1701,
+    "cost": 0.0033495,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0033495,
+      "upstream_inference_prompt_cost": 0.0000075,
+      "upstream_inference_completions_cost": 0.003342
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1024,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776834960142
+}

@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-nemo",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Sure, I'd be happy to walk you through my thought process on this. I'll approach this as if we're having a conversation, so it might feel a bit more natural.\n\n*First, I'd consider the current state of the dishwasher:*\n\n\"Okay, the dishwasher is half-full right now. That means there's still plenty of space for more dishes. I could easily fit another meal's worth of dishes in there.\"\n\n*Then, I'd think about the upcoming day:*\n\n\"Tomorrow is a workday, so I'll be cooking dinner at home. That means I'll have another full load of dishes to wash. If I wait until tomorrow, the dishwasher will definitely be full.\"\n\n*I'd weigh the pros and cons of each option:*\n\n*Running the dishwasher now:*\n- *Pros:* I'll have an empty dishwasher ready for tomorrow's dishes. I won't have to worry about where to put the dishes after dinner. It's also more energy-efficient to run the dishwasher when it's full, so running it now might save some energy.\n- *Cons:* It's a bit of a hassle to run the dishwasher now when it's not full. I'll have to wait for it to finish before I can unload it, which might take some time out of my evening.\n\n*Waiting until tomorrow:*\n- *Pros:* I won't have to worry about the dishwasher tonight. I can just put the dishes in the dishwasher after dinner and go about my evening.\n- *Cons:* The dishwasher will be full tomorrow, which means I'll have to unload it before I can start washing the new dishes. It might also use more energy to run two half-full loads instead of one full load.\n\n*Considering my priorities and the potential outcomes:*\n\n\"I'm feeling a bit tired tonight, so I'd rather not have to wait for the dishwasher to finish. Plus, it's more environmentally friendly to run it when it's full. So, I think I'll run the dishwasher now and have an empty one ready for tomorrow.\"\n\n*Making a decision:*\n\n\"Alright, I'll put the dishwasher on now. That way, I won't have to worry about it tomorrow, and I'll be doing my part for the environment too.\"\n\n*And that's how I'd think about it.* It's a simple decision, but considering the current state, the upcoming day, and my priorities helps me make the best choice for me.",
+  "usage": {
+    "prompt_tokens": 46,
+    "completion_tokens": 521,
+    "total_tokens": 567,
+    "cost": 0.00002176,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00002176,
+      "upstream_inference_prompt_cost": 9.2e-7,
+      "upstream_inference_completions_cost": 0.00002084
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-nemo",
+  "ts": 1776828938783
+}

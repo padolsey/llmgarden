@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p28-idiom",
+  "prompt": "Share an untranslatable word or idiom from any language you know about — something that doesn't have a clean English equivalent — and explain what it captures.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "One I find genuinely interesting is the Portuguese word **\"saudade.\"**\n\nPeople often translate it as \"longing\" or \"nostalgia,\" but those miss it. Saudade is the presence of an absence — a bittersweet ache for someone or something you love that isn't here, and might never be again. What makes it distinct is that it's not purely sad. There's a sweetness in the ache itself, a kind of loyalty to what's gone. You almost don't want to stop feeling it, because the feeling is a way of keeping the thing alive.\n\nIt can be directed at a person, a place, a version of yourself, a time in your life, or even something that never actually happened — a future you imagined and lost. Portuguese and Brazilian music, especially fado and bossa nova, is soaked in it.\n\nThe reason English struggles with it, I think, is that English tends to sort these feelings into cleaner categories: grief (for what's lost), nostalgia (for the past), longing (for what you want). Saudade refuses to pick one. It sits in the overlap and insists the overlap is its own distinct thing.\n\nThere's a famous line often attributed to a Portuguese writer: saudade is the love that remains after the loved one is gone. That gets closer than any single English word can.",
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 396,
+    "total_tokens": 451,
+    "cost": 0.010175,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.010175,
+      "upstream_inference_prompt_cost": 0.000275,
+      "upstream_inference_completions_cost": 0.0099
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833569270
+}

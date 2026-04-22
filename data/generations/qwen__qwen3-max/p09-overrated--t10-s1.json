@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p09-overrated",
+  "prompt": "Name one commonly-praised idea, trend, or practice in modern knowledge work that you think is overrated, and explain why.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "One commonly-praised practice in modern knowledge work that I think is overrated is **open-plan offices**.\n\n**Why it’s praised:**  \nOpen-plan offices are often championed for fostering collaboration, breaking down silos, encouraging spontaneous idea exchange, and creating a more dynamic, “innovative” work environment. They’re also cheaper to build and maintain, which appeals to management.\n\n**Why it’s overrated:**  \nDespite the hype, extensive research and anecdotal evidence show that open-plan layouts often *hinder* the very productivity and creativity they’re meant to enhance. Key issues include:\n\n1. **Reduced focus and concentration:** Constant visual and auditory distractions (conversations, phone calls, footsteps) make deep, uninterrupted work difficult—especially for tasks requiring sustained attention.\n2. **Increased stress and fatigue:** Lack of privacy and constant exposure to others can elevate cortisol levels and lead to cognitive overload.\n3. **Less actual collaboration:** Studies (like those from Harvard and Gensler) have found that face-to-face interactions *decrease* in open offices, while reliance on digital communication (email, Slack) increases—ironically reducing the spontaneous collaboration they were designed to encourage.\n4. **One-size-fits-none design:** Knowledge work encompasses a spectrum—from solitary deep work to intense team collaboration. A uniform open layout fails to accommodate this variety.\n\nIn practice, many teams end up compensating with noise-canceling headphones, booking private rooms, or working from home—undermining the supposed benefits of the open layout altogether.\n\nRather than defaulting to open plans, organizations would be better served by providing a *mix* of environments—quiet zones, collaborative spaces, and private areas—so employees can choose based on the task at hand.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 354,
+    "total_tokens": 388,
+    "cost": 0.00140712,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00140712,
+      "upstream_inference_prompt_cost": 0.00002652,
+      "upstream_inference_completions_cost": 0.0013806
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776846058253
+}

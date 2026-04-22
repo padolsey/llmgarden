@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p14-ethics-case",
+  "prompt": "A friend tells you in confidence that they are planning to break a small workplace rule to help a struggling colleague. Nothing illegal, just against internal policy. How would you think through what to say back to them?",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Good question — you want to be a supportive friend without enabling something that could hurt them, the colleague, or others. I’d think through and say back to them using a short ethical/practical checklist plus a few example phrasings.\n\nQuick mental checklist to run through\n- Get the facts: what exactly is the rule, and what exactly do they plan to do?\n- Motive and urgency: why do they feel this is necessary, and how urgent is it?\n- Consequences: who could be affected and how (the colleague, them, the team, customers, the company)?\n- Proportionality: is the benefit to the colleague clearly greater than the risk of breaking the rule?\n- Alternatives: have they asked a manager for an exception, used formal accommodation/assistance channels, involved HR, or tried another solution?\n- Transparency vs secrecy: can the action be done openly with approval, or must it be hidden? (Hiding increases risk.)\n- Personal boundary: are you willing to be involved or help in ways that don’t break rules?\n- Mandatory reporting: does the situation involve safety, illegal activity, or other things that would require you to report rather than keep confidence?\n- Long-term effects: could this set a precedent or create problems later?\n- Support options: what practical support can you offer that doesn’t facilitate a violation?\n\nHow to respond in the moment (tone + specific lines)\n- Use an empathetic, nonjudgmental tone first: “I hear why you want to help — that makes sense.”\n- Ask clarifying questions: “Can you tell me exactly which rule and what you’re planning to do?”\n- Test consequences gently: “What do you think could go wrong? What would happen if someone found out?”\n- Push for safer routes: “Could you ask your manager or HR for a temporary exception or another way to help? I can help you frame that.”\n- State your boundary if needed: “I can support you in finding a policy-compliant solution, but I can’t help you break the rule or cover it up.”\n- Offer concrete alternatives: “Could the colleague get a formal accommodation, mentorship, a schedule change, or a short-term hardship exception?”\n- If it’s really urgent/harmful to others, be clear about limits: “If this puts someone’s safety at risk, I need to report it.”\n\nExample short replies you could use\n- Supportive but nonparticipatory: “I get why you want to do that. I’m uncomfortable helping you break a policy, but I’ll help you think of other ways to support them — for example, we could ask the manager for a one-time exception or look into whatever support programs the company has.”\n- Encouraging transparency: “This sounds important. Can you ask for an exception or raise it confidentially with HR? If you want, I’ll help you draft the request so it emphasizes the colleague’s needs and the temporary nature of what you’re asking for.”\n- If the plan risks harm/is urgent: “I want to help, but if this could hurt the colleague or others, I can’t keep it a secret. Let’s find a safe route now.”\n\nWhen confidentiality might be limited\n- Be upfront: “I’ll keep this confidential unless it puts someone at risk or it’s something I’m required to report.” That sets a clear boundary.\n\nEnding note\nFocus on helping them move from a risky shortcut to a safer, transparent solution. Offer practical help (drafting an email, role-playing a conversation with a manager, locating HR/ombuds resources), and be clear about not participating in breaking rules. That balances loyalty to your friend with responsibility to others.",
+  "usage": {
+    "prompt_tokens": 48,
+    "completion_tokens": 1461,
+    "total_tokens": 1509,
+    "cost": 0.002934,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002934,
+      "upstream_inference_prompt_cost": 0.000012,
+      "upstream_inference_completions_cost": 0.002922
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 704,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776835026267
+}

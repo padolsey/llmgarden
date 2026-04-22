@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "The `debounce` function is a higher-order function that delays the execution of a given function by a specified amount of time, ensuring it only runs after a certain period of inactivity.\n\n```javascript\nfunction debounce(fn, wait) {\n  let timeout;\n  return function(...args) {\n    clearTimeout(timeout);\n    timeout = setTimeout(() => fn(...args), wait);\n  };\n}\n\n// Example usage:\nconst debouncedLog = debounce(console.log, 500);\ndebouncedLog('Hello'); // This will be logged after 500ms\ndebouncedLog('World'); // This will override the previous log and be logged after 500ms\n```",
+  "usage": {
+    "prompt_tokens": 39,
+    "completion_tokens": 133,
+    "total_tokens": 172,
+    "cost": 0.00004646,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00004646,
+      "upstream_inference_prompt_cost": 0.0000039,
+      "upstream_inference_completions_cost": 0.00004256
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-3.3-70b-instruct",
+  "ts": 1776836004329
+}

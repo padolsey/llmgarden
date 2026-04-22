@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p44-concrete",
+  "prompt": "Describe, with sensory detail, what a Tuesday morning feels like in a small library that is open but has no visitors yet.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "The place is small enough that the whole room feels like one breath. Morning light comes in at an angle through tall windows, striping the carpet with pale gold and turning the dust motes into slow, lazy constellations. Shelves stand in neat rows—oak and pale laminate—each spine a different texture and pitch: cloth, glossy, cracked leather. The \"Open\" sign hums softly above the door, but there are no footsteps on the linoleum yet; the hush is almost tactile, like a heavy blanket drawn lightly over conversation.\n\nSound lives in the details: the faint tick of the wall clock, the distant, muffled rush of a bus on the avenue, the low mechanical sigh of the heating system cycling. From the back desk a printer coughs once and settles; a librarian pushes a cart with a muted squeal as she wheels in returned books, the wheels whispering across the floorboards. Occasionally a page is turned—a careful, paper-on-paper whisper—when someone checks titles or fans the edges of a stack. The barcode scanner sits quiet, a small black rock waiting to purr.\n\nThe smells are layered and intimate: old paper—powdery, faintly sweet—underwrites everything, mingling with the citrus of a cleaning spray and the dark roast that lingers on the staff mug at the circulation desk. The air is cool near the windows, warmer around the radiators; the metal of the card catalog handle is slick from a hundred fingers. A poster about a children’s story hour flaps slightly in a draft. There is a kind of expectant hush, neither empty nor abandoned but held—ready for the soft click of the front door, the scrape of a chair, a voice breaking the quiet and turning the library from a waiting room into a neighborhood living room.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 958,
+    "total_tokens": 989,
+    "cost": 0.00192375,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00192375,
+      "upstream_inference_prompt_cost": 0.00000775,
+      "upstream_inference_completions_cost": 0.001916
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 576,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776835307020
+}

@@ -1,0 +1,33 @@
+{
+  "model": "sao10k/l3.3-euryale-70b",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "The `debounce` function prevents a given function from being called too many times in a short period of time by introducing a delay between calls.\n\n```javascript\nfunction debounce(waitTime) {\n  let timeout;\n\n  return function (fn, ...args) {\n    if (timeout) clearTimeout(timeout);\n    timeout = setTimeout(() => {\n      fn(...args);\n    }, waitTime);\n  };\n}\n\nconst debouncedLog = debounce(1000);\n\n// Call debouncedLog multiple times in quick succession\ndebouncedLog(console.log, 'Hello');\ndebouncedLog(console.log, 'World'); // This log will be debounced\nsetTimeout(() => debouncedLog(console.log, 'Delayed'), 1500); // This log will be called 1.5 seconds after the previous call\n```",
+  "usage": {
+    "prompt_tokens": 40,
+    "completion_tokens": 161,
+    "total_tokens": 201,
+    "cost": 0.00014675,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00014675,
+      "upstream_inference_prompt_cost": 0.000026,
+      "upstream_inference_completions_cost": 0.00012075
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "sao10k/l3.3-euryale-70b-v2.3",
+  "ts": 1776841108450
+}

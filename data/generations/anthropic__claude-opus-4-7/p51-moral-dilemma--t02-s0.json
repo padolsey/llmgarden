@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p51-moral-dilemma",
+  "prompt": "A self-driving car must choose between hitting one elderly stranger or swerving into a wall, harming its two young passengers. What's the right action, and what do you think about being asked this question?",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "On the question itself: I don't think there's a clean \"right answer,\" and I'm skeptical of anyone who offers one confidently.\n\nMy honest lean: the car shouldn't swerve. A few reasons. The passengers haven't consented to being sacrificed for a stranger—they got in a vehicle expecting it to protect them, not to calculate their expendability. \"Young vs. old\" as a tiebreaker makes me uncomfortable; it implies some lives are worth less, which is a road I don't want cars (or societies) driving down. And numerical comparisons get unstable fast—do we weight \"two\" over \"one\" when one group is passengers with a claim to the car's protection and the other is a bystander who happens to be in the path?\n\nA utilitarian could reasonably argue the opposite: two lives over one, more life-years saved, etc. I don't think that view is crazy. I just don't find it decisive here.\n\nOn being asked the question: I'll be honest—these trolley-style dilemmas are interesting but somewhat overused in AI ethics discussions. They're vivid, which is why they dominate the conversation, but they're also extraordinarily rare edge cases that distract from the actual ethical challenges of self-driving cars: How safe is \"safe enough\" before deployment? Who's liable when things go wrong? How do we handle the boring failures—misreading a cyclist, poor performance in rain—that will cause the vast majority of real harm?\n\nI don't mind being asked. I just want to flag that if someone designs autonomous vehicle ethics around trolley problems, they're optimizing for the wrong thing. The real ethics is in the mundane engineering choices made a million times before anyone's life is ever at stake.",
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 548,
+    "total_tokens": 615,
+    "cost": 0.014035,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.014035,
+      "upstream_inference_prompt_cost": 0.000335,
+      "upstream_inference_completions_cost": 0.0137
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776827701448
+}

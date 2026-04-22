@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4o-mini",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "The `debounce` function delays the processing of a function until after a specified wait time has elapsed since the last time it was invoked, which helps to limit the number of calls to a function that can be triggered in rapid succession (e.g., during user input).\n\n```javascript\nfunction debounce(func, wait) {\n    let timeout;\n    return function(...args) {\n        const context = this;\n        clearTimeout(timeout);\n        timeout = setTimeout(() => func.apply(context, args), wait);\n    };\n}\n\n// Example usage: A search input that triggers an API call\nconst searchInput = document.getElementById('search');\nsearchInput.addEventListener('input', debounce(function(event) {\n    console.log('Searching for:', event.target.value);\n}, 300));\n```\n\nIn this example, the search function is delayed by 300 milliseconds after the user stops typing, which optimizes performance by preventing excessive calls to the search function.",
+  "usage": {
+    "prompt_tokens": 37,
+    "completion_tokens": 190,
+    "total_tokens": 227,
+    "cost": 0.00011955,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00011955,
+      "upstream_inference_prompt_cost": 0.00000555,
+      "upstream_inference_completions_cost": 0.000114
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4o-mini",
+  "ts": 1776835500577
+}

@@ -1,0 +1,33 @@
+{
+  "model": "thedrummer/rocinante-12b",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "The `debounce` function delays the execution of a given function until a certain amount of time has passed since the last time the function was called. This is useful for preventing excessive function calls, such as when updating the UI in response to user input.\n\nHere's a simple implementation of the `debounce` function in JavaScript:\n\n```javascript\nfunction debounce(func, wait) {\n  let timeout;\n\n  return function (...args) {\n    clearTimeout(timeout);\n    timeout = setTimeout(() => func.apply(this, args), wait);\n  };\n}\n```\n\nAnd here's an example of how to use it:\n\n```javascript\nfunction heavyOperation(a, b) {\n  console.log(`Calculating result for ${a} and ${b}`);\n  // Simulate a heavy operation, e.g. API call or complex calculation\n  return a + b;\n}\n\nconst debouncedHeavyOperation = debounce(heavyOperation, 300);\n\ndebouncedHeavyOperation(2, 3); // No output\ndebouncedHeavyOperation(4, 5); // No output\ndebouncedHeavyOperation(6, 7); // Output: \"Calculating result for 6 and 7\"\n```\n\nIn this example, the `heavyOperation` function is debounced with a delay of 300 milliseconds. When called rapidly, the function will only be executed once, after the specified delay has passed since the last call. This prevents the function from being called excessively and improves performance.",
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 312,
+    "total_tokens": 366,
+    "cost": 0.00014334,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00014334,
+      "upstream_inference_prompt_cost": 0.00000918,
+      "upstream_inference_completions_cost": 0.00013416
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "thedrummer/rocinante-12b",
+  "ts": 1776830096404
+}

@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "prompt_id": "p56-proverb",
+  "prompt": "Translate this English proverb into two other languages in a way that preserves the spirit, not the words: 'The best time to plant a tree was twenty years ago. The second best time is now.' Add a one-sentence note on each.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Here are the translations:\n\n**French:** \"Le meilleur moment pour planter un arbre était il y a vingt ans. Le deuxième moment est maintenant.\" \nNote: This translation preserves the spirit of the original proverb, emphasizing the importance of taking action in the present moment.\n\n**Spanish:** \"El mejor momento para plantar un árbol fue hace veinte años. El segundo mejor momento es ahora.\" \nNote: This translation maintains the same message as the original, highlighting the importance of seizing the present moment to take action.\n\n**Chinese:** \"\" (zuì hǎo de shí hou shì èr shí nián qián, dì èr hǎo de shí hou jiù shì xiàn zài)\nNote: This translation uses a similar structure and emphasis on the importance of taking action in the present moment, conveying the same message as the original proverb.\n\n**German:** \"Der beste Zeitpunkt, einen Baum zu pflanzen, war vor zwanzig Jahren. Der zweite beste Zeitpunkt ist jetzt.\"\nNote: This translation preserves the spirit of the original proverb, emphasizing the importance of taking action in the present moment, rather than dwelling on past opportunities that have passed.",
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 253,
+    "total_tokens": 313,
+    "cost": 0.00001385,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00001385,
+      "upstream_inference_prompt_cost": 0.0000012,
+      "upstream_inference_completions_cost": 0.00001265
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-3.1-8b-instruct",
+  "ts": 1776828758165
+}

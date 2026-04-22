@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.0-flash-001",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "A question where I think I'm likely to be confidently wrong is any question that involves **estimating probability or frequency of rare events, especially when relying on heuristics or personal experience.**\n\nHere's why:\n\n* **Availability Heuristic:** Our brains tend to overestimate the frequency of events that are easily recalled or emotionally charged. If I've recently heard a news story about a shark attack, I might confidently overestimate my chances of being attacked by a shark while swimming, despite the statistically low probability. The vividness of the news report makes it readily available in my memory, skewing my perception.\n\n* **Confirmation Bias:** If I have a preconceived notion about the likelihood of something happening, I'm more likely to notice and remember instances that confirm my belief and dismiss those that contradict it. For example, if I believe that computer viruses are rampant in a particular operating system, I might confidently overestimate the percentage of users affected, even if my evidence is anecdotal.\n\n* **Lack of Data and Statistical Understanding:** Estimating probabilities accurately requires access to reliable data and a solid understanding of statistical concepts like base rates. Without this foundation, my guesses are likely to be influenced by biases and inaccurate information. Thinking that I \"know\" how these things work can be easily misleading.\n\n* **Overconfidence in Pattern Recognition:** Our brains are wired to find patterns, even where they don't exist. This can lead to confidently wrong estimations about the probability of a sequence of events or the predictability of certain outcomes. For example, thinking you can predict the stock market based only on surface-level news from the past few days.\n\n* **Dunning-Kruger Effect:** This effect suggests that people with low competence in a particular area tend to overestimate their abilities. When it comes to estimating rare event probabilities, my lack of deep expertise could lead me to believe I'm more accurate than I am, resulting in confident but incorrect assessments.\n\n**In summary:** Questions involving probability estimation of rare or complex events are a breeding ground for overconfidence and error because our brains are prone to cognitive biases, rely on easily accessible but often misleading information, and frequently overestimate our own knowledge in fields where we lack expertise. I can easily fall into the trap of feeling like I have a \"good sense\" of the situation when, in reality, my judgment is heavily distorted.\n",
+  "usage": {
+    "prompt_tokens": 20,
+    "completion_tokens": 477,
+    "total_tokens": 497,
+    "cost": 0.0001928,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001928,
+      "upstream_inference_prompt_cost": 0.000002,
+      "upstream_inference_completions_cost": 0.0001908
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.0-flash-001",
+  "ts": 1776835850360
+}

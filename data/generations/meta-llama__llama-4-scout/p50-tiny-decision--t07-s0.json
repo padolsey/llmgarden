@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-4-scout",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Let's think this through.\n\nSo, the dishwasher is half-full now, and I'm considering whether to run it now or wait until tomorrow when it'll be full. \n\nIf I run it now, it'll use some electricity and water, but I'll get the benefit of having those dishes clean and out of the way. Plus, it'll be one less thing to think about tomorrow.\n\nOn the other hand, if I wait until tomorrow, I'll be able to fill it up completely, which is more efficient in terms of energy and water usage per item. But then I'll have to deal with a full dishwasher tomorrow, and I might be busy or not feel like running it.\n\nAnother thing to consider is that if I run it now, I'll have clean dishes available if I need them, but if I wait, I might have to wash some dishes by hand if I need them tomorrow.\n\nHmm... I'm not in a huge rush to get the dishes done today, and I'm pretty sure I can wait until tomorrow. Plus, running a full load is generally more efficient. I think I'll just wait until tomorrow and fill it up then.\n\nHow does that sound?",
+  "usage": {
+    "prompt_tokens": 48,
+    "completion_tokens": 229,
+    "total_tokens": 277,
+    "cost": 0.00007254,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00007254,
+      "upstream_inference_prompt_cost": 0.00000384,
+      "upstream_inference_completions_cost": 0.0000687
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-4-scout-17b-16e-instruct",
+  "ts": 1776831809477
+}

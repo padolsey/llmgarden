@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "So I'm looking at the dishwasher, and it's half-full. That's not ideal, but it's also not like it's almost empty or anything. If I run it now, I'll get all these dishes clean, which is nice. But then again, I'll be using energy and water to run a half-full load, which doesn't feel very efficient.\n\nOn the other hand, if I wait until tomorrow, it'll definitely be full, which is better for the environment and my utility bills, I guess. But that means I'll have to deal with a bunch of dirty dishes hanging around for another day, which is kind of gross. And what if I need some of those dishes tomorrow? I'll have to wash them by hand, which is a hassle.\n\nBut...if I do wait, it's not like the dishes are going to get any cleaner just sitting there. And it's not like it's a huge inconvenience to wash a few dishes by hand if I need them. Plus, running a full load is just more responsible, you know? It feels like the grown-up thing to do.\n\nI think what's swaying me is that I don't really need any of the dishes that are in the dishwasher right now. They're all just extras, and I can survive without them for another day. So, yeah, I think I'll just wait until tomorrow and run a full load. It's not like it's a huge deal either way, but it feels like the slightly more sensible thing to do.",
+  "usage": {
+    "prompt_tokens": 50,
+    "completion_tokens": 311,
+    "total_tokens": 361,
+    "cost": 0.00013115,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00013115,
+      "upstream_inference_prompt_cost": 0.00000675,
+      "upstream_inference_completions_cost": 0.0001244
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-3.3-70b-instruct",
+  "ts": 1776831761789
+}

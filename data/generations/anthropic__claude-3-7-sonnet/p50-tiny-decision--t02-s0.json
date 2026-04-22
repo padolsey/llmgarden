@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Here's how I'd actually think about this:\n\nFirst gut reaction: Is it annoying me that there are dirty dishes sitting there? If yes, just run it now for the mental relief.\n\nHow many clean dishes do I have left? If I'm running low on important items (like my favorite mug or all my forks), I'd run it now.\n\nWhat's my morning like tomorrow? If busy, having clean dishes ready would be nice. If relaxed, I can run it then.\n\nDo I hate the sound of the dishwasher while I'm trying to relax? Maybe wait until I leave or go to bed.\n\nIs it a small household where it takes days to fill it completely? Half-full might actually be \"full enough\" for efficiency's sake.\n\nEnergy bill concerns? Running a half-load is less efficient, but not dramatically so.\n\nHonestly, I'd probably just run it now if I'm thinking about it this much. The convenience usually outweighs the slight inefficiency for me.",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 221,
+    "total_tokens": 270,
+    "cost": 0.003462,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003462,
+      "upstream_inference_prompt_cost": 0.000147,
+      "upstream_inference_completions_cost": 0.003315
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776827823859
+}

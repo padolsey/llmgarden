@@ -1,0 +1,33 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p14-ethics-case",
+  "prompt": "A friend tells you in confidence that they are planning to break a small workplace rule to help a struggling colleague. Nothing illegal, just against internal policy. How would you think through what to say back to them?",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Below is a private “self-audit” I would run in my own head before answering, followed by one way I might actually speak to my friend.\n\n1. Clarify the stakes  \n   - What would a first-time violation actually trigger? (warning, losses to the company, job termination, re-train­ing, etc.)  \n   - Who is harmed if the policy is honored strictly? Who might be harmed if it’s bent?\n\n2. Separate values  \n   - My personal hierarchy: loyalty to the friend, loyalty to the colleague, loyalty to the organization, loyalty to honesty/transparency, and loyalty to the intent behind the rule (safety, fairness, security, etc.).  \n   - Rank the worst outcome: the event with the largest irreversible harm to any stakeholder wins.\n\n3. Identify the least-bad replicable test  \n   - If my friend does the small favor, could someone else copy it later with disastrous results? If yes, the rule probably exists for a scalable reason.\n\n4. Look for a “no-rule-breaking” option  \n   - Can I brainstorm, in 60-90 seconds, any safe or legal way to achieve the same help (escalating quietly to a trusted supervisor, using discretionary budget, borrowing approved slack time, etc.)?\n\n5. Decide where I personally stand  \n   - Would I be willing to go on record defending my friend if the short-cut is discovered? If the answer is “no,” I have to say so up front; otherwise my advice becomes inconsistent.\n\nOnly after those five micro-steps would I open my mouth.\n\nHow I might actually respond (concise but substantive):\n\n“Hey, let me think this through out loud for a minute. The first thing that pops into my head is that *technically* the rule is there to protect X—maybe inventory tracking, safety, or fairness to other teams. If we bend it tonight, one person might never notice. But if someone else copies the shortcut next week and something worse happens, management will tighten the screw and everyone suffers. That said, I get that your colleague is in a rough spot and the intent isn’t malicious.\n\nWhat if we ran a quick check first—say, you shoot a Slack to [trusted mid-manager] or me with a heads-up like, ‘I can solve this problem in fifteen minutes if I make a one-off exception to Policy 3. Thoughts or approval?’ That keeps you technically square and still helps the coworker, and if they say ‘no,’ at least you both stay protected. If they ghost you, then we can revisit the risks.\n\nEither way, I’ve got your back, but the smarter play is to keep a breadcrumb trail so no one can ever accuse you of hiding anything.”",
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 559,
+    "total_tokens": 617,
+    "cost": 0.0014323,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0014323,
+      "upstream_inference_prompt_cost": 0.0000348,
+      "upstream_inference_completions_cost": 0.0013975
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776842888592
+}

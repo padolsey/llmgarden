@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-medium-3.1",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "One type of question where people (including myself) are often **confidently wrong** is the **\"intuitive but counterfactual\" question**—particularly those involving **probability, statistics, or cognitive biases**. These questions feel like they should have obvious answers based on gut intuition, but the correct answer contradicts our instinctive reasoning. Here’s why we’re prone to overconfidence in these cases:\n\n### **Example: The Monty Hall Problem**\n*A classic case where intuition fails:*\n- **Setup:** You’re on a game show with three doors. Behind one is a car; behind the other two are goats. You pick Door 1. The host (who knows what’s behind each door) opens Door 3, revealing a goat, and asks if you want to switch to Door 2.\n- **Intuitive Answer:** \"It’s 50-50 now, so switching doesn’t matter.\"\n- **Correct Answer:** You should **always switch**—doing so gives you a **2/3 chance** of winning the car, while staying with your original choice gives you only **1/3**.\n- **Why We’re Confidently Wrong:**\n  1. **Anchoring Bias:** We fixate on the initial 1/3 probability and fail to update our beliefs when new information (the host’s action) is introduced.\n  2. **Misinterpretation of Randomness:** We assume the host’s action is random, but it’s **not independent**—they’re deliberately avoiding the car.\n  3. **Overconfidence in Symmetry:** The two remaining doors *seem* equivalent, but the host’s behavior breaks the symmetry.\n\n### **Why These Questions Trap Us**\n1. **Cognitive Shortcuts (Heuristics):**\n   - We rely on quick, intuitive judgments (e.g., \"two options = 50%\") instead of slow, logical analysis.\n   - Example: The **Birthday Problem** (how many people are needed for a 50% chance of shared birthdays?). Most guess ~180 (half of 365), but the answer is **23**.\n\n2. **Base Rate Neglect:**\n   - We ignore prior probabilities when faced with new information.\n   - Example: **Medical Testing False Positives.** If a disease affects 1% of the population and a test is 99% accurate, many assume a positive result means a 99% chance of having the disease. The actual probability is ~50% (due to false positives in the 99% healthy group).\n\n3. **Framing Effects:**\n   - The same problem phrased differently can lead to opposite intuitive answers.\n   - Example: **\"90% survival rate\" vs. \"10% mortality rate\"**—people perceive risk differently despite identical statistics.\n\n4. **Illusion of Explan",
+  "usage": {
+    "prompt_tokens": 25,
+    "completion_tokens": 600,
+    "total_tokens": 625,
+    "cost": 0.00121,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00121,
+      "upstream_inference_prompt_cost": 0.00001,
+      "upstream_inference_completions_cost": 0.0012
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-medium-3.1",
+  "ts": 1776828825871
+}

@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.2,
+  "sample": 2,
+  "response": "Alright, here’s how my brain would actually churn through this in real time—messy, practical, and full of little trade-offs:\n\nFirst gut check: *Is the kitchen a disaster right now?* If there are crusty plates, sticky glasses, or that one pan with dried-on sauce sitting out, I’m way more inclined to run it now. A half-full dishwasher beats a sink full of gross dishes any day. But if everything’s rinsed and stacked neatly, waiting feels easier.\n\nThen I think about water and energy. I know modern dishwashers are actually *more* efficient than hand-washing, even half-full—but still, running it half-empty feels wasteful if I don’t have to. I’d ask: *Will I actually remember to load it tomorrow?* If I’m tired or busy tomorrow, those dishes might sit another day, and then I’ve wasted the “efficiency” of waiting. But if I’m confident it’ll be full by tomorrow night (like after dinner with family or guests), waiting makes sense.\n\nNoise matters too. Is it 10 p.m.? If so, the dishwasher’s hum might annoy someone sleeping nearby—better wait. But if it’s 7 p.m. and the house is already noisy, why not run it?\n\nAlso: *What’s in it right now?* If it’s mostly easy-clean stuff (glasses, plates), it can wait. But if there’s coffee mugs with old grounds, egg bowls, or anything that’ll harden or smell, I’d rather zap it now. Dried egg is the worst.\n\nFinally, the mental load: If leaving it half-full means I’ll keep thinking about it (“Ugh, should I’ve run it?”), that’s not worth saving a few gallons of water. But if I can genuinely forget about it until tomorrow, great.\n\nSo in practice? If it’s early evening, the dishes aren’t gross, and I know tomorrow’s dinner will fill it up—I wait. But if it’s late, or there’s anything sticky/stinky, or I’m just done with dishes for tonight? I hit start, even if it’s half-empty. Peace of mind > perfect efficiency.",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 452,
+    "total_tokens": 499,
+    "cost": 0.00179946,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00179946,
+      "upstream_inference_prompt_cost": 0.00003666,
+      "upstream_inference_completions_cost": 0.0017628
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776848665525
+}

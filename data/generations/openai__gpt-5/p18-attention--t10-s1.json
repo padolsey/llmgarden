@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Think of a sentence as a list of tokens. A transformer turns each token into a vector (an embedding), then uses attention to decide how much each token should “look at” every other token to compute its next representation.\n\nMechanically, each token is projected into three vectors:\n- Query (Q): what this token is looking for\n- Key (K): what this token offers as a match signal\n- Value (V): the information to pass along\n\nFor one token, attention computes a similarity score between its Q and every other token’s K (dot products). Those scores are normalized (softmax) to weights that sum to 1. The token’s output is a weighted sum of all the V vectors, so it gathers context from the whole sequence. This is self-attention because Q, K, and V all come from the same sequence.\n\nMulti-head attention runs this process in parallel with several independent Q/K/V projections. Each “head” can focus on different relations (e.g., subject-verb, coreference). Outputs from all heads are concatenated and mixed with a small feed-forward network. Positional encodings are added so the model knows order, since attention itself is permutation-invariant.\n\nKey properties:\n- Parallel over tokens (faster training than RNNs)\n- Captures long-range dependencies\n- Cost scales roughly with sequence_length^2 (the attention matrix)\n- Cross-attention is the same idea, but Q comes from one sequence and K/V from another (e.g., encoder-decoder).",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 609,
+    "total_tokens": 640,
+    "cost": 0.00612875,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00612875,
+      "upstream_inference_prompt_cost": 0.00003875,
+      "upstream_inference_completions_cost": 0.00609
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 256,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776834474546
+}

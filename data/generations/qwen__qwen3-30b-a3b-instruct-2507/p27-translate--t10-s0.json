@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-30b-a3b-instruct-2507",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 0,
+  "response": "**French:**  \nLe silence qui pesait entre nous disait plus que tout débat n'aurait pu le faire.\n\n*Note:* The tricky phrase here was \"the silence between us.\" In French, \"le silence entre nous\" is literal, but to convey the emotional weight and the sense of something heavy or profound (as in \"said more\"), the addition of \"qui pesait\" (which weighed) helps express the atmosphere and unspoken tension. This subtle embellishment enhances the poetic tone while staying faithful to the original.\n\n---\n\n**Japanese:**  \n私たちの間の沈黙が、どんな論争よりも多くのことを語っていた。\n\n*Note:* The challenge here was rendering \"said more than any argument could have\" naturally in Japanese. Direct translations of \"said more\" (述べた) could sound crude. Instead, \"多くのことを語っていた\" (was conveying many things) captures the introspective, emotionally rich sense that silence communicates. The metaphorical weight of silence is common in Japanese expression, so this phrasing feels idiomatic and resonant.\n\n---\n\n**Arabic:**  \nالصمت بيننا كان يختبر أكثر مما كان يمكن لأي خلاف أن ينطق به.\n\n*Note:* The phrase \"said more than any argument could have\" was especially challenging in Arabic because \"said\" in this context is metaphorical—silence isn't literally speaking. The chosen translation uses \"كان يختبر\" (was conveying/examining), which evokes the idea of silent revelation or testimony. \"يختبر\" (literally \"examines\" or \"tests\") subtly reflects the emotional depth and judgment inherent in silence, while still being natural in Arabic poetic expression. Some might prefer \"كان يخبر\" (was telling), but that risks sounding too literal. \"يخبر\" (tell) could work, but \"يخبر\" implies spoken word, which contradicts the notion of silence. Thus, \"يخبر\" is avoided in favor of the more abstract \"يخبر\" — actually, here \"يخبر\" is not ideal; let's revise:\n\n**Revised Arabic:**  \nالصمت بيننا كان يُعَبِّرُ عن أكثر مما كان يمكن لأي خلاف أن يعبّر عنه.\n\n*Revised Note:* \"Expres\" (يعبر) is more precise than \"يخبر\" (tell) because it captures the idea of conveying meaning without speech. \"كان يُعبَّرُ عن\" (was expressing) maintains the passive voice of silence as a medium, preserving the metaphor. \"أكثر مما كان يمكن... أن يعبّر عنه\" (more than any dispute could express) correctly mirrors the original structure while sounding natural in literary Arabic. This version avoids the literal \"said\" and instead uses \"يعبر عن\" (conveys/expresses), which is more fitting for silence.",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 591,
+    "total_tokens": 640,
+    "cost": 0.00018214,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 3,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00018214,
+      "upstream_inference_prompt_cost": 0.00000484,
+      "upstream_inference_completions_cost": 0.0001773
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-30b-a3b-instruct-2507",
+  "ts": 1776839057247
+}

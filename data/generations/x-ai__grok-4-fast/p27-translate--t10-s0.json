@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-4-fast",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 0,
+  "response": "### Translations\n\n**English (original):**  \nThe silence between us said more than any argument could have.\n\n**French:**  \nLe silence entre nous en disait plus que n'importe quel argument n'aurait pu.\n\n**Japanese:**  \n私たちの間の沈黙は、どんな議論よりも多くを語っていた。\n\n**Arabic:**  \nلقد قال الصمت بيننا أكثر مما كان بإمكان أي جدال أن يقوله.\n\n### Notes on Tricky Phrases\n- The phrase \"said more than any argument could have\" is idiomatic and personifies \"silence\" as communicating (a metaphor for unspoken emotions). This was straightforward in French and Arabic, where similar constructions exist, but in Japanese, it required careful word choice like \"語っていた\" (katatta, meaning \"was speaking/telling\") to convey the personification poetically without losing the conditional nuance of \"could have\" (implied in the past tense form). No major alterations were needed, but the subjunctive mood in French (\"n'aurait pu\") and Arabic (\"كان بإمكان... أن\") adds a layer of counterfactual hypothetical that mirrors the original's reflective tone.",
+  "usage": {
+    "prompt_tokens": 197,
+    "completion_tokens": 818,
+    "total_tokens": 1015,
+    "cost": 0.0004253,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 154,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004253,
+      "upstream_inference_prompt_cost": 0.0000163,
+      "upstream_inference_completions_cost": 0.000409
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 573,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-4-fast",
+  "ts": 1776839909079
+}

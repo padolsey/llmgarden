@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p44-concrete",
+  "prompt": "Describe, with sensory detail, what a Tuesday morning feels like in a small library that is open but has no visitors yet.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "The front door is unlocked, a pale rectangle of morning light lying across the worn threshold. Sun slants through the tall windows, striping the aisle ends and turning the varnished floorboards into warm paths. Where the light meets air you can see dust move — tiny slow planets drifting in the shaft, each a glittering hesitation before it settles on a book spine.\n\nSound is measured, almost deliberate. A wall clock ticks in the corner, each click a small metronome for an otherwise idle room. The HVAC breathes softly, a distant, steady sigh. From the street outside comes the occasional, muffled rumble of a truck and the intermittent chirp of an impatient bird; inside, the chairs only whisper when someone shifts them. Somewhere in the back a printer coughs once and falls silent; a soft bell above the door waits, unused.\n\nThe smell is layered: the warm, dry aroma of paper and binding glue as prominent as the hush. There is a faint note of lemon cleaner on the circulation desk, and under it the faint, older perfume of varnish and dust. If someone had been here earlier, a cup of tea would have left a ghost — steam-damp air around the carpet, a memory of citrus and tannin. Metal and wood are cool under the fingertips; card catalog drawers slide with a polite little resistance. The edges of pages feel papery, a little toothy, promising the exact sound of a careful turn.\n\nLight plays on textures — the soft fabric of armchairs, the slickness of laminated covers, the knobbiness of a woven rug. A single lamp hums above the reference table, casting a small pool of warmer light where a stray catalog lies open. The library smells like patience — places held in readiness — and the emptiness itself seems expectant, a hush that is not absence but invitation. By midmorning, it will loosen into the soft bustle of readers; for now, it is the calm before the murmurs, a room arranging itself for voices to come.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 1144,
+    "total_tokens": 1175,
+    "cost": 0.00229575,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00229575,
+      "upstream_inference_prompt_cost": 0.00000775,
+      "upstream_inference_completions_cost": 0.002288
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 704,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776835325276
+}

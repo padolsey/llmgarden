@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Attention is a learned routing mechanism that lets each token in a sequence “look at” other tokens and build a context-aware representation.\n\nHow it works (high level):\n- For every token you compute three vectors by learned linear projections: Query (Q), Key (K), and Value (V). Think of Q as a request, K as an address, and V as the payload.\n- For a given token, compute dot products between its Q and all tokens’ K to get similarity scores. Scale and apply softmax to turn scores into attention weights (a probability distribution).\n- The token’s new representation is the weighted sum of all V vectors using those weights. So it aggregates information from other tokens proportionally to relevance.\n\nKey points for a software engineer:\n- Self-attention: Q, K, V all come from the same sequence, so every token can attend to every other token (global context).\n- Multi-head attention runs several independent Q/K/V projections in parallel so the model can capture different relation types, then concatenates results.\n- Implementationally this is matrix-heavy (lots of linear algebra), highly parallelizable on GPUs, and has O(n^2) time/memory in sequence length.\n- Intuition: a differentiable, learned pointer system that routes and mixes information between positions.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 661,
+    "total_tokens": 692,
+    "cost": 0.00132975,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00132975,
+      "upstream_inference_prompt_cost": 0.00000775,
+      "upstream_inference_completions_cost": 0.001322
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 384,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776828103031
+}

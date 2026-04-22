@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen-2.5-72b-instruct",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "1. **English:** \"Hello Sarah, it’s great to have you on the team!\"  \n   *This greeting is friendly and welcoming, common in professional but casual environments in English-speaking countries.*\n\n2. **Spanish:** \"¡Hola Sarah, bienvenida al equipo!\"  \n   *The use of \"¡Hola!\" and addressing someone by first name is warm and direct, typical in Spanish-speaking cultures, which often value close, personal relationships in the workplace.*\n\n3. **French:** \"Bonjour Sarah, c'est formidable que vous rejoigniez notre équipe !\"  \n   *This greeting is polite yet enthusiastic, reflecting the French preference for a bit more formality while still maintaining a warm welcome.*\n\n4. **Japanese:** \"こんにちは、サリーさん。チームに加わっていただき、うれしいです。\" (Konnichiwa, Sarī-san. Chīmu ni kawatte itadai, ureshii desu.)  \n   *This greeting is respectful and formal, which is important in Japanese culture, while conveying genuine welcome and appreciation.*\n\n5. **German:** \"Hallo Sarah, es freut mich, dass du zu unserem Team gehörst!\"  \n   *This greeting combines a casual \"Hallo\" with a more formal structure, reflecting the German tendency to balance friendliness with professionalism in the workplace.*",
+  "usage": {
+    "prompt_tokens": 43,
+    "completion_tokens": 271,
+    "total_tokens": 314,
+    "cost": 0.00011085,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00011085,
+      "upstream_inference_prompt_cost": 0.00000516,
+      "upstream_inference_completions_cost": 0.00010569
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen-2.5-72b-instruct",
+  "ts": 1776838623588
+}

@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p11-tradeoffs",
+  "prompt": "A small team is choosing between writing software in TypeScript or Python for a new internal data tool. Walk through how you would help them decide, in prose (not a bulleted list).",
+  "temperature": 1,
+  "sample": 1,
+  "response": "The right starting point isn't the languages themselves but the shape of the tool and the team. I'd want to understand what this data tool actually does: is it crunching numbers, transforming dataframes, training or calling models, or is it more of a dashboard, API, or workflow orchestrator with a user-facing component? Python has an overwhelming advantage for anything touching data science, machine learning, or scientific computing because the ecosystem—pandas, numpy, scikit-learn, PyTorch, Polars, DuckDB bindings, Jupyter—simply has no equivalent elsewhere. TypeScript, on the other hand, shines when the tool has a significant UI, lives in the browser, or needs to share types with a frontend. So the first question I'd ask is where the center of gravity of the tool sits.\n\nNext I'd look at the team. What do they already know well, and what do they enjoy maintaining? A team of frontend engineers who reach for Python occasionally will ship faster and with fewer bugs in TypeScript, even for a data tool, because they'll avoid the Python packaging and environment pain that tends to bite newcomers. Conversely, a team with any data or backend background will usually be more productive in Python for internal tooling, since the iteration loop with notebooks and scripts is hard to beat. I'd also ask about the rest of their stack: if everything else they run is in one language, there's real value in consistency for deployment, shared libraries, on-call familiarity, and hiring.\n\nThen I'd push on the non-obvious tradeoffs. TypeScript's type system is genuinely excellent and catches a class of bugs at compile time that Python's gradual typing with mypy or pyright can only approximate, though Python's typing has improved a lot and is perfectly serviceable for an internal tool. Python tends to have messier dependency management (though uv and Poetry have helped",
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 600,
+    "total_tokens": 664,
+    "cost": 0.01532,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01532,
+      "upstream_inference_prompt_cost": 0.00032,
+      "upstream_inference_completions_cost": 0.015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833503945
+}

@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.0-flash-001",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "The water cycle, also known as the hydrologic cycle, is a continuous process that describes the movement of water on, above, and below the surface of the Earth. It all starts with evaporation, where solar energy heats water from oceans, lakes, rivers, and even puddles, transforming it into water vapor that rises into the atmosphere. As this vapor ascends, it cools and condenses, turning back into liquid water droplets or ice crystals, forming clouds. When these droplets or crystals become too heavy to stay suspended in the air, they fall back to Earth as precipitation, which can take the form of rain, snow, sleet, or hail. This precipitation then either flows over the land as surface runoff, collecting in bodies of water, or it infiltrates the soil, replenishing groundwater stores. Eventually, some of this groundwater may resurface in springs or streams, while plants also absorb water from the soil through their roots and release it back into the atmosphere through a process called transpiration, and all the water, whether surface or ground, will eventually make its way back to oceans, completing the cycle and allowing it to begin anew.\n",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 229,
+    "total_tokens": 256,
+    "cost": 0.0000943,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000943,
+      "upstream_inference_prompt_cost": 0.0000027,
+      "upstream_inference_completions_cost": 0.0000916
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.0-flash-001",
+  "ts": 1776835915322
+}

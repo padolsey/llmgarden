@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Here are five warm greetings to a new colleague in different languages, with cultural notes:\n\n---\n\n**1. English:**\n\n\"Welcome to the team, [Colleague's Name]! We're all very happy to have you join us.\"\n\n*Cultural Implication:* This is a standard, friendly, and inclusive greeting in English-speaking workplaces, emphasizing teamwork and acceptance.\n\n---\n\n**2. Spanish:**\n\n\"¡Bienvenido/a al equipo, [Colleague's Name]! Es un placer tenerte con nosotros.\"\n\n*Cultural Implication:* Using \"te\" (informal \"you\") is common in many modern Spanish workplaces, especially when addressing a peer, and \"es un placer\" adds a touch of genuine delight.\n\n---\n\n**3. Japanese:**\n\n「[Colleague's Name]さん、チームへようこそ！皆であなたをお迎えできて大変光栄です。」 ( [Colleague's Name]-san, teamu e yōkoso! Mina de anata o omukae dekite taihen kōei desu.)\n\n*Cultural Implication:* The use of \"-san\" (a polite honorific) and the phrase \"taihen kōei desu\" (it is a great honor) reflects a high level of politeness and respect, even towards a peer, which is typical in Japanese business communication.\n\n---\n\n**4. French:**\n\n\"Bienvenue dans l'équipe, [Colleague's Name] ! Nous sommes ravis de vous compter parmi nous.\"\n\n*Cultural Implication:* The use of \"vous\" (formal \"you\") is generally preferred in professional settings in France, even among colleagues, to show respect initially. \"Ravis de vous compter parmi nous\" conveys genuine pleasure in a formal yet friendly way.\n\n---\n\n**5. German:**\n\n\"Herzlich willkommen im Team, [Colleague's Name]! Wir freuen uns sehr, Sie bei uns zu haben.\"\n\n*Cultural Implication:* Similar to French, \"Sie\" (formal \"you\") is the standard for new colleagues in German workplaces until explicitly invited to use \"du\" (informal \"you\"), demonstrating professional respect. \"Wir freuen uns sehr\" is a sincere expression of happiness.",
+  "usage": {
+    "prompt_tokens": 37,
+    "completion_tokens": 469,
+    "total_tokens": 506,
+    "cost": 0.0011836,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0011836,
+      "upstream_inference_prompt_cost": 0.0000111,
+      "upstream_inference_completions_cost": 0.0011725
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.5-flash",
+  "ts": 1776835828487
+}

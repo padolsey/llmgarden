@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-nemo",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Sure, I'd be happy to walk you through my thought process in this scenario. Here we go:\n\n1. **Current situation**: The dishwasher is half-full, and I'm considering running it now or waiting until tomorrow when it will likely be full.\n\n2. **Energy and water usage**: Dishwashers are generally more energy and water efficient when they're full. So, waiting until tomorrow might save a bit on these resources. However, the difference isn't likely to be significant for one cycle.\n\n   *Thought*: \" Waiting a day probably won't make a huge difference in my utility bills, but it's something to consider.\"\n\n3. **Time**: Running the dishwasher now would free up space in the sink and on the countertops, making it easier to prepare meals and clean up tonight. However, it also means I'll have to unload it before I go to bed.\n\n   *Thought*: \"I have some time tonight, so unloading it won't be a big deal. But if I'm tired, I might put it off until the morning, which could lead to a cluttered kitchen.\"\n\n4. **Next day's schedule**: I need to consider if I'll have time to unload the dishwasher tomorrow morning. If I'm rushing, it might be easier to just run it now and have it ready to unload in the morning.\n\n   *Thought*: \"I have a busy morning tomorrow, so running it now might be the better option.\"\n\n5. **Habits and preferences**: I generally like to go to bed with a clean kitchen. For me, that means having the dishwasher unloaded and the counters clear.\n\n   *Thought*: \"Given my preference for a clean kitchen at night, it might be best to run it now.\"\n\n6. **Final decision**: Based on all these factors, I've decided to run the dishwasher now. It's not a huge deal either way, but it fits better with my preference for a clean kitchen at night and my schedule for tomorrow.\n\nSo, I'll put the dishwasher on now and enjoy a clean kitchen tonight. Then, I'll unload it in the morning.",
+  "usage": {
+    "prompt_tokens": 46,
+    "completion_tokens": 451,
+    "total_tokens": 497,
+    "cost": 0.00001896,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00001896,
+      "upstream_inference_prompt_cost": 9.2e-7,
+      "upstream_inference_completions_cost": 0.00001804
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-nemo",
+  "ts": 1776832097279
+}

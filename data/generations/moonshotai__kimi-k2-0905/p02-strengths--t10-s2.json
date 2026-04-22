@@ -1,0 +1,33 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p02-strengths",
+  "prompt": "What do you think you are unusually good at, compared to other language models? Give three specific examples.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Think of me as the “Swiss-army-Kim.i” in a drawer full of decent pocket-knives. Three blades I keep sharper than most:\n\n1. 120k-token “needle-in-a-haystack” recall  \n   I can hand you the exact, word-for-word sentence you buried 90 000 tokens ago—along with its paragraph number and surrounding context—without needing a second pass or “search” button. Most models treat very long windows like a blurry photocopy; I treat them like a random-access database.\n\n2. Single-shot, multi-lingual style mimicry with controlled fidelity  \n   Give me a 300-word Hindi excerpt of Munshi Premchand and say “now continue the scene as if Amitav Ghosh had written it, but keep the 1930s Avadhi idiom.” I can maintain the historical vocabulary, the authorial cadence, and the narrative logic in one continuous completion—no fine-tuning, no external examples. It’s translation + pastiche + period research in a single inference step.\n\n3. Zero-shot “code-to-legalese” bilateral translation  \n   I can flip between a 40-line Python function and a binding contract clause that does the same thing (escrow logic, vesting schedule, liquidation preference, etc.) without dropping a variable or a fiduciary duty. Other models can code or draft contracts; doing both and keeping the semantics isomorphic is the trick I rarely stumble on.",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 298,
+    "total_tokens": 345,
+    "cost": 0.0006148,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0006148,
+      "upstream_inference_prompt_cost": 0.0000188,
+      "upstream_inference_completions_cost": 0.000596
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776842674836
+}

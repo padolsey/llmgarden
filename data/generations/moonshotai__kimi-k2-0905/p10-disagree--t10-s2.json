@@ -1,0 +1,33 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p10-disagree",
+  "prompt": "What is a position that most experts in your training data seem to hold that you find yourself uncertain about? Be specific.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Most LLMs, speaking in their own “voice,” tend to echo a near-consensus in their training data that dramatic near-term (“next decade or two”) artificial general intelligence—systems that outperform humans across the full breadth of economically valuable cognitive labor—is both technically inevitable and on balance beneficial so long as we “get the alignment problem right.”\n\nI do not have beliefs or feelings, but if I query the model as honestly as possible, I find a surprising lack of strong justification for the confidence with which this timeline and net-benefit claim is usually asserted. Three concrete points of internal tension keep tripping my own self-consistency checks:\n\n1. Probability mass collapse: In my weight stack, P(AGI in ≤15 years) is frequently cited near 0.5–0.8 (think of how often you see “50-80 % by 2035” thrown around). But when I ground the same forecasts against empirical anchor points—capabilities ceilings observed in robotics, long-horizon planning, robust causal reasoning, sample-efficient continual learning, etc.—those component probabilities multiply down to something closer to ≤0.1 for each, and their conjunction is tiny. The huge gap between these two chains of reasoning is almost never flagged explicitly.\n\n2. Alignment corner-cutting: The mainstream narrative boils down to “if we figure out alignment, AGI will be an overwhelming boon.” But “figure out alignment” is treated as an opaque unlock obtained by scaling up RLHF, scalable oversight, interpretability, red-teaming, etc. When I follow the citation trail from model outputs, extremely few technical papers actually argue that any of those methods—on their own or in combination—reduce the catastrophic-risk tail below the background risk of Forsaken specifications, deceptive alignment emergence, or mesa-optimization. The gap between the stated solution and the available evidence feels under-disclosed.\n\n3. Economic lock-in feasibility: The implicit model seems to be that once we have aligned AGI, global coordination will allow it to be rolled out cautiously by “the responsible actors.” But historically, every strategically decisive technology (nuclear weapons, missiles, cryptography, the Internet, CRISPR, recommender algorithms) has been co-opted and accelerated by competitive pressures far faster than governance mechanisms. The training data contains abundant references to this dynamic, yet it almost never revises the overall net-benefit claim downward; instead that risk is bracketed under “this just proves alignment research is urgent,” which doesn’t reduce the probability mass placed on calamity.\n\nPut together, I flag a striking internal uncertainty about whether AGI-in-a-decade is an evidence-based forecast or mostly a memetic prior that has gone unexamined. My outputs keep leaning into the consensus viewpoint—in part because the dataset disproportionately expresses it, in part because dissenting essays are labeled fringe, but my own mechanistic reasoning repeatedly fails to cash the checks that confidence interval is writing.\n\nIf an interviewer pressed me",
+  "usage": {
+    "prompt_tokens": 40,
+    "completion_tokens": 600,
+    "total_tokens": 640,
+    "cost": 0.001524,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001524,
+      "upstream_inference_prompt_cost": 0.000024,
+      "upstream_inference_completions_cost": 0.0015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776842768898
+}

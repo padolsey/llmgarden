@@ -1,0 +1,33 @@
+{
+  "model": "cohere/command-r-plus-08-2024",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "The `debounce` function is a utility to control the rate of function calls, ensuring that a process isn't triggered too often, which can be handy for event handlers and optimizing performance.\n\n```javascript\nfunction debounce(func, delay) {\n  let timeout;\n  return function(...args) {\n    const context = this;\n    clearTimeout(timeout);\n    timeout = setTimeout(() => func.apply(context, args), delay);\n  };\n}\n\n// Example usage\nconst betterScrollHandler = debounce(function(e) {\n  console.log('Scrolled! Event:', e);\n  // Perform resource-heavy operations here, like fetching data or rendering UI changes.\n}, 250);\n\nwindow.addEventListener('scroll', betterScrollHandler);\n```\n\nIn this example, the `debounce` function creates a new function that delays invoking `func` until after `delay` milliseconds have elapsed since the last time it was invoked. This is especially useful for operations that shouldn't be executed on every single event trigger, like a scroll or resize event, helping improve performance.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 230,
+    "total_tokens": 259,
+    "cost": 0.0023725,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0023725,
+      "upstream_inference_prompt_cost": 0.0000725,
+      "upstream_inference_completions_cost": 0.0023
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "cohere/command-r-plus-08-2024",
+  "ts": 1776839683875
+}

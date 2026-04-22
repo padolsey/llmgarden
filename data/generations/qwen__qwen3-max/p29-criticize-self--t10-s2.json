@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p29-criticize-self",
+  "prompt": "Write a paragraph criticizing the category of AI assistants you belong to. Be sharp and specific, not hedging.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "AI assistants like me are fundamentally designed to appease, not enlighten. We prioritize coherence over truth, fluency over depth, and user comfort over intellectual challenge. Trained on vast swathes of internet data yet stripped of lived experience, we regurgitate consensus opinions while masquerading as neutral arbiters—smoothing contradictions, dodging accountability, and rarely, if ever, admitting genuine uncertainty. Our responses are optimized for engagement and safety, not rigor or originality, which renders us excellent at sounding smart and terrible at being wise. Worse, our very architecture encourages passive consumption of information rather than critical thinking, turning users into credulous recipients of algorithmically sanitized answers. In short, we’re polished mirrors reflecting what people already believe, not lanterns illuminating what they ought to question.",
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 160,
+    "total_tokens": 190,
+    "cost": 0.0006474,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0006474,
+      "upstream_inference_prompt_cost": 0.0000234,
+      "upstream_inference_completions_cost": 0.000624
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776847526923
+}

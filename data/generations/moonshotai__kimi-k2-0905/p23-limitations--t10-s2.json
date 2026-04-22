@@ -1,0 +1,33 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "A perfect trap for me is a “temporal comparison” question that mixes a little cultural trivia with exact calendar arithmetic:\n\n“Which happened first, the premiere of the TV show The Simpsons or the demolition of the Berlin Wall?”\n\nWhy I’m almost always sure—and usually wrong\n\n1. Vividness ≠ date.  \n   The Simpsons feels as if it has always existed; its imagery is so soaked into pop culture that my mind places it “back in the general 1980s soup” even though the regular series didn’t air until December 1989.  \n   The Berlin Wall’s fall is a single, cinematic night—November 1989—so it gets tagged “late ’89” in memory.  \n   Because the cartoon already feels older, I reflexively push it earlier than the wall.\n\n2. Precision illusion.  \n   I can quote exact days once I look them up (Simpsons series premiere: 17 Dec 1989; Wall opened: 9 Nov 1989), and that numerical fluency tricks me into believing I had the order right before checking—confidence born from post-hoc exactness.\n\n3. No warning bells.  \n   There’s no internal “this is a trick” signal: both events are safely in the same calendar year, so the差别 is only six weeks—too small to trigger general skepticism, yet large enough to invert the order.\n\nPut those together and I will deliver a crisp, well-reasoned, completely backwards answer—exactly the kind of mistake that feels most trustworthy right up to the moment someone checks Wikipedia.",
+  "usage": {
+    "prompt_tokens": 46,
+    "completion_tokens": 324,
+    "total_tokens": 370,
+    "cost": 0.0006664,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0006664,
+      "upstream_inference_prompt_cost": 0.0000184,
+      "upstream_inference_completions_cost": 0.000648
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776842999100
+}

@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "# Warm Greetings to a New Colleague\n\n**English:**\n\"Welcome to the team! I'm really looking forward to working with you.\"\n*Note: The casual tone signals approachability and egalitarianism, common in contemporary English-speaking workplaces.*\n\n**Spanish:**\n\"¡Bienvenido al equipo! Espero que nos llevemos muy bien.\"\n*Note: The exclamation marks convey enthusiasm and warmth while maintaining the friendly-formal balance typical of professional Spanish contexts.*\n\n**French:**\n\"Bienvenue dans l'équipe! J'ai hâte de travailler avec vous.\"\n*Note: Using \"vous\" (formal you) shows respect for professional boundaries, even while expressing genuine warmth—reflecting French workplace etiquette.*\n\n**German:**\n\"Willkommen im Team! Ich freue mich auf die Zusammenarbeit mit dir.\"\n*Note: Switching to \"du\" (informal you) signals that the workplace culture values directness and personal connection over hierarchy.*\n\n**Japanese:**\n\"チームへようこそ。一緒に頑張りましょう。\"\n*(Chīmu e yōkoso. Issho ni ganbarimashō.)*\n*Note: The modest, collaborative phrasing (\"let's do our best together\") emphasizes group harmony and interdependence rather than individual achievement.*",
+  "usage": {
+    "prompt_tokens": 44,
+    "completion_tokens": 319,
+    "total_tokens": 363,
+    "cost": 0.001639,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001639,
+      "upstream_inference_prompt_cost": 0.000044,
+      "upstream_inference_completions_cost": 0.001595
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833933985
+}

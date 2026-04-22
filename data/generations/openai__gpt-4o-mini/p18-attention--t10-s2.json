@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4o-mini",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "The attention mechanism in transformer models helps the model focus on relevant parts of input data when making predictions or generating outputs. Imagine you're writing an article: you don't consider every word equally; some words are more important for understanding the topic. \n\nIn transformers, attention quantifies the relationship between words in a sentence. Each word is transformed into a numerical representation (a vector), and the model calculates how much one word should pay attention to others. This is done using three components for each word: **Query**, **Key**, and **Value**. \n\n1. **Query**: What is this word asking about?\n2. **Key**: What does this word represent?\n3. **Value**: What information does this word carry?\n\nFor each word, the model compares its Query with every other word's Key, generating a score. These scores determine how much focus to put on each word (the Value), resulting in a weighted average. \n\nThis allows the transformer to capture context and meaning more effectively than earlier models, enabling it to handle language tasks like translation or text generation efficiently. Overall, attention enhances the model’s understanding of context in sequences of words.",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 232,
+    "total_tokens": 264,
+    "cost": 0.000144,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000144,
+      "upstream_inference_prompt_cost": 0.0000048,
+      "upstream_inference_completions_cost": 0.0001392
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4o-mini",
+  "ts": 1776835500607
+}

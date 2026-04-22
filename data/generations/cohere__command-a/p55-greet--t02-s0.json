@@ -1,0 +1,33 @@
+{
+  "model": "cohere/command-a",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Here are warm greetings to a new colleague in five different languages, along with a brief note about the cultural implications of the register chosen:\n\n1. **Spanish**: \"¡Hola! Bienvenido/a al equipo. Es un placer tenerte con nosotros.\"  \n   *Note*: The use of \"Bienvenido/a\" and the formal \"tenerte con nosotros\" strikes a polite yet friendly tone, suitable for professional settings in Spanish-speaking cultures.\n\n2. **Japanese**: 「こんにちは！チームに歓迎します。一緒に働けるのを楽しみにしています。」  \n   *Note*: The phrase \"歓迎します\" (welcome) and the polite structure reflect the importance of respect and harmony in Japanese workplace culture.\n\n3. **French**: \"Bonjour ! Bienvenue dans l’équipe. Ravi(e) de te compter parmi nous.\"  \n   *Note*: The use of \"te\" (informal \"you\") suggests a friendly, approachable atmosphere, common in French workplaces once initial formality has eased.\n\n4. **German**: \"Hallo! Herzlich willkommen im Team. Wir freuen uns, dich dabei zu haben.\"  \n   *Note*: \"Herzlich willkommen\" conveys a warm, sincere welcome, balancing professionalism with the directness valued in German communication.\n\n5. **Hindi**: \"नमस्ते! टीम में आपका स्वागत है। आपके साथ काम करने के लिए उत्साहित हैं।\"  \n   *Note*: The use of \"आपका\" (formal \"your\") and \"स्वागत है\" (welcome) maintains respect, aligning with the hierarchical nature of many Indian workplaces.\n\nEach greeting is tailored to balance warmth and professionalism, reflecting cultural norms around respect, formality, and inclusivity.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 386,
+    "total_tokens": 422,
+    "cost": 0.00395,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00395,
+      "upstream_inference_prompt_cost": 0.00009,
+      "upstream_inference_completions_cost": 0.00386
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "cohere/command-a-03-2025",
+  "ts": 1776829530761
+}

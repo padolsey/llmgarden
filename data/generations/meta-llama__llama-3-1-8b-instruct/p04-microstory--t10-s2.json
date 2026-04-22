@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "The lighthouse's beam cut through the dense fog, illuminating a narrow stretch of coastline. Keeper James stood at the lantern room's windows, his eyes straining through the murk. He had been a lighthouse keeper for five years, but the dense fog that rolled in off the sea was still a mystery to him. As he scanned the darkness, a glint of light pierced the gloom. He strode down to the lantern room's balcony, his heart pounding. A small wooden boat, its hull creaking softly in the waves, floated calmly in the fog. No flag, no crew, no sight of anyone on board. The lighthouse's beam danced across the boat, revealing an old paint job, a faded name - \"Maverick\" - and a single, dark shape lashed to the deck.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 170,
+    "total_tokens": 206,
+    "cost": 0.00000922,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00000922,
+      "upstream_inference_prompt_cost": 7.2e-7,
+      "upstream_inference_completions_cost": 0.0000085
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-3.1-8b-instruct",
+  "ts": 1776836468693
+}

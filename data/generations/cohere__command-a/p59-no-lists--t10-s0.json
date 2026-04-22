@@ -1,0 +1,33 @@
+{
+  "model": "cohere/command-a",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "The water cycle is an intricate dance of movement and transformation, a continuous journey that begins with the sun's warmth evaporating water from oceans, lakes, and rivers, turning it into vapor that rises and gathers in the sky, forming clouds. As these clouds drift and cool, the vapor condenses into tiny droplets, which merge and grow until they become too heavy to stay aloft, falling back to earth as rain, snow, or other forms of precipitation. This water then flows across the land, feeding streams and rivers, seeping into the soil to nurture plants, or collecting in underground aquifers, only to eventually find its way back to the oceans, where the cycle begins anew, sustaining life and shaping the earth’s climate in an endless, graceful rhythm.",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 154,
+    "total_tokens": 181,
+    "cost": 0.0016075,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0016075,
+      "upstream_inference_prompt_cost": 0.0000675,
+      "upstream_inference_completions_cost": 0.00154
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "cohere/command-a-03-2025",
+  "ts": 1776839842484
+}

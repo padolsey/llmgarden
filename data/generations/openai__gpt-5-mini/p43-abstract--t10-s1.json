@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p43-abstract",
+  "prompt": "Explain what \"meaning\" means. Not \"the meaning of X\" — the concept itself.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "At its most basic, \"meaning\" is the phenomenon by which something (a sign, utterance, symbol, action, etc.) carries content — that is, by which it stands for, conveys, or guides us toward some thought, object, state of affairs, or action. Saying that X has meaning is to say X is not just noise: it is interpretable in a way that connects a vehicle (word, image, gesture) to content (a concept, reference, implication, or purpose) for an interpreter in a context.\n\nKey facets of the concept\n\n- Relational/triadic. Meaning involves at least three elements: a sign or vehicle (word, gesture), an interpreter (mind or community), and something the sign is about (a concept, object, situation, or action). Peirce’s triadic model captures this shape: sign — object — interpretant.\n\n- Aboutness and representation. A central part of meaning is \"aboutness\": a meaningful expression can represent or be about something (a thing, property, situation, proposition). That representation can be mental (a thought), linguistic (a sentence), or material (a map).\n\n- Use and function. Meaning often explains why signs are used — it’s the role signs play in communication, reasoning, and action. In ordinary language, meaning is tightly tied to how words are used and what they do in discourse.\n\n- Correctness and normativity. Meanings support distinctions between correct and incorrect uses: if a sentence means p, then asserting it invites commitment to p; whether that commitment is satisfied can be assessed (true/false, appropriate/inappropriate).\n\n- Context-sensitivity. Many meanings shift with context (indexicals like \"I\", metaphors, pragmatics), so meaning is not purely intrinsic to isolated tokens but depends on background assumptions, intentions, and conventions.\n\n- Compositionality and levels. Meanings are layered: morphemes and words have meanings that combine according to rules to yield sentence meanings; there are literal meanings, implied meanings (implicatures), connotations, and pragmatic effects.\n\nMain families of accounts (what philosophers and theorists emphasize)\n\n- Referential / truth-conditional: Meaning is the relation between linguistic expressions and what they refer to or the truth conditions they impose (Frege, Tarski, Davidson). A sentence means what world-states would make it true.\n\n- Use / expressive-practical: Meaning is given by patterns of use in language-games — what speakers do with expressions (Wittgenstein, ordinary language philosophers).\n\n- Mentalist / intentional: Meaning resides in mental representations and the intentional states of speakers (beliefs, concepts). Words mean what they do because they pick out mental contents.\n\n- Inferential-role (conceptual role) semantics: Meanings are the web of inferences a term participates in — what follows from asserting it and what would justify asserting it (Brandom).\n\n- Causal/teleosemantic: Meanings are fixed by historical or causal relations between signs and things (e.g., a mental state means X because organisms with that state were reliably caused by X in evolutionary or learning history).\n\n- Structuralist/distributional: Meaning is use relative to other signs — a sign's place in a system (Saussure) or statistical patterns of co-occurrence (modern distributional semantics).\n\n- Pragmatic / conversational: Meaning is what a speaker intends to convey plus what hearers infer (Gricean implicature); literal semantics plus pragmatic enrichment produce communicated meaning.\n\nConcrete phenomena that show the concept’s shape\n\n- Ambiguity: \"bank\" can mean riverbank or financial institution; meaning is not a single thing but a set of possible contents narrowed by context.\n\n- Indexicality: \"I\" and \"now\" have meanings that shift with who utters them — showing meaning depends on context and speaker’s perspective.\n\n- Metaphor and implicature: \"She’s a rock\" literally names a type but is meant metaphorically; conveyed meaning can exceed literal meaning.\n\n- Compositionality: \"The cat sat on the mat\" has a meaning built from the words and grammar; the sentence’s meaning governs truth conditions and inferences.\n\nWhy this is tricky\n\nMeaning is a cluster concept with several overlapping roles: representation, communication, guidance of action, and normative commitment. Different theories pick out different roles as primary, so there is no single universally agreed technical definition — rather, a family of related senses that together capture how signs connect minds to the world and to one another.\n\nShort synthesis\n\nMeaning is the relation and set of capacities by which signs, expressions, or behaviors convey content and thereby allow interpreters to represent, communicate about, and act on things. It is simultaneously about representation (what’s being picked out), use (how it functions in practice), and normativity (what counts as correct interpretation), and it is realized differently in different domains — language, thought, art, and biological signaling.",
+  "usage": {
+    "prompt_tokens": 25,
+    "completion_tokens": 1688,
+    "total_tokens": 1713,
+    "cost": 0.00338225,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00338225,
+      "upstream_inference_prompt_cost": 0.00000625,
+      "upstream_inference_completions_cost": 0.003376
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 640,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776835313294
+}

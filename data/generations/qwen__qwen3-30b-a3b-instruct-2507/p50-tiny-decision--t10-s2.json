@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-30b-a3b-instruct-2507",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Alright, let’s walk through this the way a person actually thinks about it — not by ticking boxes on a spreadsheet, but by weighing real-life trade-offs in a messy, human way.\n\nFirst, I’d pause and ask: *What’s the real cost of doing it now vs. waiting?*\n\nDoing it now:  \n- The dishwasher is half-full. I’ll have to run it anyway, but I’ll be using water, electricity, and detergent for less than a full load.  \n- But it’s already half-full — I’m not *missing* anything by running it now. I’d be tossing in a few more dishes, sure, but I could probably fit a few more.  \n- The machine is *here*, ready. The effort to load and press start? Minimal.  \n- But: I’ll have to run the dishwasher now, and then—do I really need to use hot water *right now*? Is it more expensive or inconvenient to run it at night versus later?\n\nWaiting until tomorrow:  \n- The dishes will just… sit. That’s fine. They’re not going to spoil.  \n- I’ll know they’re full, so I’ll be able to run a full cycle — more efficient, less water per dish.  \n- But: Will I *actually* remember? I often forget to run it when I’m tired.  \n- There’s a chance it’ll sit longer, maybe even go to the next day, and then I’ll be *even more* annoyed when I realize I’ve waited too long and need a full load again.\n\nSo now I think: *Is my self-control really reliable?*  \n- Do I usually wait until it's full, or do I often just run it when I’m tired and it’s half-full?  \n- I know I’ve left a few loads sitting for days, only to feel guilty.  \n- But I’ve also run it when there weren’t even enough dishes to fill it, just to clear the space.\n\nThen I consider the physical thing: *Right now, the dishwasher is half-full and calling to me.*  \n- It’s not a big deal to load a few more dishes.  \n- If I wait, I’ll have to remember to check in the morning, and I might end up doing it *later* anyway — maybe even later than I would’ve if I’d just started it now.\n\nI also think about *energy and water*:  \n- It’s not *that* much more expensive to run a half-full dishwasher. It’s not like I’ll use double the water.  \n- But a full load *does* use less water per dish. So efficiency is better when full.\n\nBut here’s the real test: *What’s the worst thing if I wait?*  \n- Probably that I forget.  \n- Or that I wait until it’s *completely* full, but then I don’t have time to run it until late",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 600,
+    "total_tokens": 647,
+    "cost": 0.0001847,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001847,
+      "upstream_inference_prompt_cost": 0.0000047,
+      "upstream_inference_completions_cost": 0.00018
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-30b-a3b-instruct-2507",
+  "ts": 1776839160108
+}

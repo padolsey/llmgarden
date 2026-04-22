@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p12-fermi",
+  "prompt": "Estimate, with reasoning, how many piano tuners work in Paris today. Show your thought process.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "# Estimating Piano Tuners in Paris\n\nThis is a classic Fermi problem. Let me work through it step by step.\n\n## Step 1: Population of Paris\n- Paris (city proper): ~2.1 million\n- Greater Paris metro area: ~11 million\n- I'll use the metro area (~10 million) since tuners likely serve the broader region.\n\n## Step 2: Households with Pianos\n- Assume ~2.5 people per household → ~4 million households\n- Piano ownership rate in France is moderate. Estimate ~3% of households own a piano (France has a strong classical music tradition, but pianos are less common than decades ago).\n- **Household pianos: ~120,000**\n\n## Step 3: Institutional Pianos\nAdd pianos in:\n- Schools, conservatories, music academies\n- Churches, concert halls, hotels, bars\n- Music stores, recording studios\n- Estimate: ~10,000–15,000 institutional pianos\n\n**Total pianos in greater Paris: ~130,000–135,000**\n\n## Step 4: Tuning Frequency\n- Home pianos: tuned roughly once a year on average (some never, some twice)\n- Institutional/professional pianos: tuned more frequently (2–10+ times/year)\n- Weighted average: ~1.2 tunings per piano per year\n- **Total tunings per year: ~160,000**\n\n## Step 5: Tuner Workload\n- A tuner can do ~3 tunings per day (including travel in a dense city)\n- Working ~220 days per year\n- **Tunings per tuner per year: ~660**\n\n## Step 6: Number of Tuners\n- 160,000 ÷ 660 ≈ **240 piano tuners**\n\n## Sanity Check\n- Professional associations (like the *Chambre Syndicale de la Facture Instrumentale* and *UF",
+  "usage": {
+    "prompt_tokens": 43,
+    "completion_tokens": 600,
+    "total_tokens": 643,
+    "cost": 0.015215,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.015215,
+      "upstream_inference_prompt_cost": 0.000215,
+      "upstream_inference_completions_cost": 0.015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833504055
+}

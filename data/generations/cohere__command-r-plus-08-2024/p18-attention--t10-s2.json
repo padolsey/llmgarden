@@ -1,0 +1,33 @@
+{
+  "model": "cohere/command-r-plus-08-2024",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "The Attention mechanism is a fundamental concept in Transformer models, which are a type of neural network architecture commonly used in natural language processing (NLP) tasks. This process allows the model to focus on specific parts of the input data and weigh their importance when making predictions or generating output.\n\nIn NLP, the goal is often to understand the relationship between different words in a sentence or sequence. The focus mechanism achieves this by creating a weighted sum of the input data, assigning higher weights to more 'relevant' parts. When translating a sentence, for example, it helps the model decide which words in the source language are critical for accurate translation.\n### Here's a simplified breakdown:\n- **Input**: Each word in a sentence is represented as a vector, a list of numbers.\n- **Query, Key, and Value**: Three different vectors are derived from these input vectors. These are referred to as the 'Query' (what we're looking for), 'Key' (the data we are comparing it to), and 'Value' (the information we want to retrieve).\n- **Similarity Scoring**: The Query and Key vectors are compared to calculate a score, which represents the relevance of each word in the input. \n- **Weighted Sum**: These scores are then used to weigh and sum the Value vectors. Higher scores result in a greater influence of the corresponding Value vector on the output.\n\nThrough this method, Transformer models can process and understand the intricate relationships between different parts of the input data, making them highly effective for various language-based tasks.",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 315,
+    "total_tokens": 342,
+    "cost": 0.0032175,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0032175,
+      "upstream_inference_prompt_cost": 0.0000675,
+      "upstream_inference_completions_cost": 0.00315
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "cohere/command-r-plus-08-2024",
+  "ts": 1776839680091
+}

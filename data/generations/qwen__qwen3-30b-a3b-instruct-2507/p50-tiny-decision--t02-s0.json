@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-30b-a3b-instruct-2507",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Alright, let’s just walk through it like you’re sitting at the kitchen counter, staring at the dishwasher, wondering what to do.\n\nFirst, I’d look at the dishwasher. It’s half-full. That means there are a few dishes in there—maybe a few plates, a couple of bowls, some utensils. Not a ton, but enough that it’s not empty. I’d think: *Is this really worth running now? Or am I just being lazy and waiting for it to be full?*\n\nThen I’d think about the cost—both real and mental. Running the dishwasher uses water and electricity. But not a ton. It’s not like I’m leaving the tap running for 20 minutes. Still, every time I run it, I’m using resources. So if I run it now, I’m using more than I need to—because it’s not full. That feels wasteful. But if I wait, I’ll have to run it later, maybe even twice if I don’t get it full tomorrow. That’s more total cycles, more energy, more water. So maybe waiting is better?\n\nBut then I’d think about the *real* cost: the mental load. If I wait, I have to remember to run it tomorrow. And I *know* I’ll forget. Or I’ll get distracted. Or I’ll be tired. Or I’ll think, “Eh, it’s not that bad,” and leave it until the next day. And then it’s full, but I still don’t run it. And suddenly, I’ve got a pile of dishes that’s not just dirty—it’s *stale*. That’s worse. That’s the kind of thing that makes me feel guilty and stressed.\n\nSo now I’m weighing:  \n- Running it now: a little waste, but it’s *done*. No more thinking about it.  \n- Waiting: saves a little energy now, but risks it not getting done, and then I’m stuck with a bigger mess later.\n\nThen I’d ask: *What’s the worst that happens if I wait?*  \nWell, the dishes stay in the sink. They’re not going to grow legs and walk away. But they’ll be there tomorrow. And if I don’t run it, I’ll have to deal with them later—maybe even hand-wash them, which is worse.\n\nBut here’s the thing: I’ve already *decided* to run it tomorrow. So I’m not really avoiding it. I’m just delaying. And delay often means *not doing*.\n\nSo now I’m thinking: *If I’m going to run it tomorrow anyway, why not just do it now?*  \nBecause then I don’t have to remember. I don’t have to worry. I don’t have to feel bad about it. And I’m not wasting much more than a little water and electricity.\n\nAnd honestly, I’d probably just *do it",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 600,
+    "total_tokens": 647,
+    "cost": 0.0001847,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001847,
+      "upstream_inference_prompt_cost": 0.0000047,
+      "upstream_inference_completions_cost": 0.00018
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-30b-a3b-instruct-2507",
+  "ts": 1776829358070
+}

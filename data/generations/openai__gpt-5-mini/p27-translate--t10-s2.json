@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 2,
+  "response": "French\nLe silence entre nous en disait plus que ne l'aurait fait n'importe quelle dispute.\n\nNote: I used the literary construction \"en disait plus que ne l'aurait fait...\" to render the figurative \"said more than any argument could have.\" I chose \"dispute\" (querelle) rather than \"discussion\" because the English \"argument\" implies a quarrel.\n\nJapanese\n私たちの間の沈黙は、どんな口論よりも多くを語っていた。\n\nNote: I used 沈黙が「語っていた」 (was speaking/telling) to capture the metaphorical \"said.\" I chose 口論 (quarrel) rather than 議論 (discussion/debate) to match the sense of a personal argument.\n\nArabic\nكان صمتنا أبلغَ من أيّ جدالٍ.\n\nNote: I used أبلغ (\"more eloquent\") instead of a literal \"قال أكثر\" because it is the more idiomatic way in Arabic to say that silence communicated more effectively than an argument would. I also used صمتنا (our silence) which naturally implies \"between us.\"",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 1391,
+    "total_tokens": 1438,
+    "cost": 0.00279375,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00279375,
+      "upstream_inference_prompt_cost": 0.00001175,
+      "upstream_inference_completions_cost": 0.002782
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1088,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776835154671
+}

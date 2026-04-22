@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-30b-a3b-instruct-2507",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Alright, let’s just walk through it like you’re standing in your kitchen, staring at the dishwasher, trying to decide.\n\nFirst, I’d look at the dishes. Half-full. There’s a few plates, some glasses, maybe a couple of pans with dried-on bits. Not *super* messy, but not just a few spoons either. I’d ask myself: *How much effort is it to load this now?* Not much—just grab a few more items from the sink, toss them in, add detergent, and press start. It’s not a chore.\n\nThen I’d think about the *cost* of running it now. Electricity? Water? Probably minimal. A cycle is maybe 1.5 kWh and 5–10 gallons. Not a huge deal. But I’d also consider how much I care about energy use. If I’m really trying to be green, I’d prefer to run it full. But if I’m just trying to avoid doing dishes tomorrow, that might be worth a little extra energy.\n\nNow I’d think about tomorrow. Will it really be *definitely* full? Well, I’ve had this half-load for a day. Tomorrow, I’ll probably have dinner, maybe a snack, maybe a late-night treat. That’s at least a few more plates, some utensils. Maybe a coffee mug. Likely it’ll be full. But… what if I’m tired and just leave it? Or if I forget? Or if someone else uses the kitchen and doesn’t wash it? Then I’ll have a bigger mess to deal with later.\n\nSo, if I run it now, I’m getting it out of the way. No more dishes to think about. I’ll have a clean dishwasher, and a clean kitchen. I won’t be tempted to pile more in. But if I wait, I’m trusting that tomorrow *will* be full—and that I’ll actually remember to run it.\n\nBut here’s the real thing: *I’m not 100% sure I’ll do it tomorrow.* I’ve been in that spot before—tired, busy, distracted. I’ve left a full dishwasher for days. That’s not great. The smell can start, the food can get stuck, and then it’s a bigger headache.\n\nSo, in the end—maybe I’d say: *Just run it now.* Not because it’s the “perfect” choice, but because it’s the *sensible* one. It’s low effort, low cost, and it removes a future worry. I’ll feel better knowing it’s done. And if tomorrow *does* end up full anyway, I’ll just run it then—no big loss. But if it doesn’t, I’ve already won.\n\nSo yes. I’d probably push the button now. Not because it’s optimal on paper, but because it fits how I actually live.",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 591,
+    "total_tokens": 638,
+    "cost": 0.000182,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000182,
+      "upstream_inference_prompt_cost": 0.0000047,
+      "upstream_inference_completions_cost": 0.0001773
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-30b-a3b-instruct-2507",
+  "ts": 1776832246477
+}

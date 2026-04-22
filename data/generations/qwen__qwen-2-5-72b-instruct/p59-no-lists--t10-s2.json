@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen-2.5-72b-instruct",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "The water cycle, a continuous and vital process, describes the movement of water on, above, and below the surface of the Earth. Water from oceans, lakes, and rivers evaporates into the air as water vapor due to the heat of the sun. As this vapor rises, it cools and condenses into clouds. When these clouds become heavy with moisture, precipitation occurs in the form of rain, snow, sleet, or hail, depending on the temperature. Some of this water is absorbed into the soil and taken up by plants, while the rest flows over the land as runoff, replenishing lakes, rivers, and eventually making its way back to the oceans. Some water also percolates deep into the ground, replenishing aquifers, which can store water for long periods. Eventually, this groundwater finds its way back to the surface through springs or is extracted for human use, continuing the endless and essential cycle of water.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 188,
+    "total_tokens": 224,
+    "cost": 0.00007764,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00007764,
+      "upstream_inference_prompt_cost": 0.00000432,
+      "upstream_inference_completions_cost": 0.00007332
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen-2.5-72b-instruct",
+  "ts": 1776838635115
+}

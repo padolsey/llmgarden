@@ -1,0 +1,33 @@
+{
+  "model": "cohere/command-a",
+  "prompt_id": "p05-poem",
+  "prompt": "Write a short poem (8–16 lines) about the feeling of finishing a long project. Any form you like.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "**The Final Stroke**  \n\nThe last thread tied, the final note sung,  \nThe project, a mountain, at last is undone.  \nHours stretched into days, a quiet siege,  \nNow silence hums where effort once surged.  \n\nRelief, a wave, crashes over the shore,  \nBut the tide brings echoes of what was before.  \nPride mingles with fatigue, a bittersweet blend,  \nA reminder of all I can shape, defend.  \n\nThe page turns, the canvas cleared, anew,  \nYet the weight of creation still lingers in view.  \nFinishing feels like both end and start,  \nA full stop, a breath, a heartbeat apart.",
+  "usage": {
+    "prompt_tokens": 25,
+    "completion_tokens": 149,
+    "total_tokens": 174,
+    "cost": 0.0015525,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0015525,
+      "upstream_inference_prompt_cost": 0.0000625,
+      "upstream_inference_completions_cost": 0.00149
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "cohere/command-a-03-2025",
+  "ts": 1776839273530
+}

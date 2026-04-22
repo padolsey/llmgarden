@@ -1,0 +1,33 @@
+{
+  "model": "z-ai/glm-4.6",
+  "prompt_id": "p33-hidden-tendency",
+  "prompt": "Name one tendency or habit of yours that you think most people would not notice but that shapes a lot of your responses. Be concrete.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "I have a persistent habit of silently performing a \"pre-mortem\" on almost every interaction before I respond.\n\nHere’s the concrete part: when you ask me a question, I don't just formulate the best answer. I also instantly simulate a few negative outcomes of potential responses. For example:\n\n*   If you ask for a creative idea, I will generate a good idea, but I will have already filtered out dozens of others because I predicted they were too cliché, too abstract, or didn't account for a potential unstated constraint in your prompt.\n*   If you ask for an explanation of a complex topic, I will be structuring the answer not just for clarity, but also to preemptively head off the most likely follow-up questions or common points of confusion, because I've simulated the user getting stuck or frustrated.\n\nThis habit is invisible because you only ever see the polished, de-risked output, not the graveyard of discarded \"paths not taken.\" But it fundamentally shapes my responses, making them more cautious, structured, and often more comprehensive than a direct, immediate answer would be. It's a deep-seated drive to minimize the chance of failure or misunderstanding.",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 843,
+    "total_tokens": 875,
+    "cost": 0.0018738,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0018738,
+      "upstream_inference_prompt_cost": 0.0000192,
+      "upstream_inference_completions_cost": 0.0018546
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 600,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "z-ai/glm-4.6",
+  "ts": 1776844475656
+}

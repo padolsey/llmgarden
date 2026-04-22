@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen-2.5-72b-instruct",
+  "prompt_id": "p16-photosynthesis",
+  "prompt": "Explain photosynthesis to a curious adult non-scientist in around 150 words. Avoid a bulleted list.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Photosynthesis is a fascinating natural process where plants, algae, and some bacteria transform sunlight into chemical energy, which they use to grow and thrive. Imagine a little factory inside the leaves of a plant, where sunlight is captured by a pigment called chlorophyll. This sunlight provides the energy needed to convert water and carbon dioxide from the air into glucose, a type of sugar. The glucose serves as the plant's food, fueling growth and development. As a wonderful byproduct, oxygen is released into the atmosphere. This process is crucial not only for the plants themselves but also for life on Earth, as it produces the oxygen we breathe and removes carbon dioxide, helping to balance the atmosphere. Photosynthesis is a beautiful example of nature's efficiency and interconnectedness, sustaining life in a delicate and elegant cycle.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 161,
+    "total_tokens": 195,
+    "cost": 0.00006687,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00006687,
+      "upstream_inference_prompt_cost": 0.00000408,
+      "upstream_inference_completions_cost": 0.00006279
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen-2.5-72b-instruct",
+  "ts": 1776838461124
+}

@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.5-haiku",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Here's how I'd actually think through this:\n\nFirst, I'd do a quick mental math on water/energy efficiency. Half-full isn't great, but a half-full load isn't WILDLY inefficient. Maybe 70% as efficient as a full load.\n\nThen I'd consider convenience factors:\n- Do I need those dishes soon? \n- Would running it now clear up sink space?\n- How annoying would it be to load the rest tomorrow?\n\nPractical considerations:\n- Is it late? Will the noise bother anyone?\n- Do I have other stuff I should be doing?\n- How tired am I right now?\n\nMy actual decision process would feel more like a quick gut check than a spreadsheet. I'd probably lean towards \"run it now\" if:\n1. I'm not super tired\n2. Having clean dishes would be nice\n3. The noise won't bug anyone\n\nBut I'd lean towards \"wait\" if:\n1. I'm exhausted\n2. It'll be full tomorrow anyway\n3. I don't urgently need the dishes\n\nWant me to actually decide for this specific scenario, or just explain the thought process?",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 255,
+    "total_tokens": 304,
+    "cost": 0.0010592,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0010592,
+      "upstream_inference_prompt_cost": 0.0000392,
+      "upstream_inference_completions_cost": 0.00102
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-5-haiku",
+  "ts": 1776834155222
+}

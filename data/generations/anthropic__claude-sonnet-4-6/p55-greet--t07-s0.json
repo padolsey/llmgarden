@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Here are five warm greetings for a new colleague, each with a cultural note:\n\n---\n\n**1. French**\n*\"Bienvenue parmi nous ! Nous sommes vraiment ravis de vous accueillir dans l'équipe.\"*\n> Using *vous* rather than *tu* reflects the French workplace norm of maintaining respectful formality until a colleague explicitly invites informality — jumping to *tu* too soon can feel presumptuous.\n\n---\n\n**2. Japanese**\n*「チームに加わっていただき、心より歓迎いたします。どうぞよろしくお願いいたします。」*\n*(Chīmu ni kuwawatte itadaki, kokoro yori kangei itashimasu. Dōzo yoroshiku onegai itashimasu.)*\n> The phrase *yoroshiku onegai itashimasu* carries no direct English equivalent — it simultaneously expresses humility, an invitation for mutual goodwill, and an acknowledgment of the relationship being formed.\n\n---\n\n**3. Spanish (Latin American)**\n*\"¡Bienvenido/a al equipo! Aquí ya eres parte de la familia.\"*\n> Calling the team *familia* is genuinely meant, not merely rhetorical — many Latin American workplace cultures emphasize personal warmth and relationship-building as foundations of professional trust.\n\n---\n\n**4. German**\n*\"Herzlich willkommen im Team! Wir freuen uns sehr, Sie an Bord zu haben.\"*\n> Keeping *Sie* (formal \"you\") signals professional respect, which in German culture is a sign of taking someone seriously — switching to *du* is a meaningful social step typically proposed by the senior person.\n\n---\n\n**5. Swahili**\n*\"Karibu sana kwenye timu yetu! Tunafurahi sana kuwa nawe.\"*\n> *Karibu* (welcome) is one of the most culturally loaded words in Swahili — hospitality is a deep social value across East African cultures, so this word carries a genuine promise of inclusion, not just a polite formality.",
+  "usage": {
+    "prompt_tokens": 44,
+    "completion_tokens": 497,
+    "total_tokens": 541,
+    "cost": 0.007587,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.007587,
+      "upstream_inference_prompt_cost": 0.000132,
+      "upstream_inference_completions_cost": 0.007455
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776831300424
+}

@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1",
+  "prompt_id": "p11-tradeoffs",
+  "prompt": "A small team is choosing between writing software in TypeScript or Python for a new internal data tool. Walk through how you would help them decide, in prose (not a bulleted list).",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Choosing between TypeScript and Python for a new internal data tool involves understanding several factors about your team’s needs, the project’s long-term goals, and the characteristics of each language.\n\nFirst, I would start by learning about the existing expertise within the team. If most team members are already proficient in Python, leveraging that existing knowledge would likely accelerate development and reduce onboarding time. Conversely, if the team already works with JavaScript or has front-end development experience, adopting TypeScript might be smoother, especially if the tool will eventually need a web interface or integration with other TypeScript projects.\n\nNext, we would consider the nature of the tool itself. If the tool is heavily data-centric, requiring tasks like data cleaning, analysis, or interfacing with machine learning models or scientific libraries, Python would be a strong candidate. Its ecosystem—libraries such as pandas, NumPy, and scikit-learn—makes it the de facto language for data manipulation and analysis. Python also has mature frameworks for building internal tools quickly, such as Flask, Django, or Streamlit.\n\nOn the other hand, if the project is expected to evolve into a complex web-based application, or needs to integrate tightly with browser-based technologies, then TypeScript could offer significant advantages. TypeScript’s static typing and tooling help catch bugs early and provide a richer development experience for larger codebases. It’s also a better fit if the tool needs to run in a browser or share code between client and server using Node.js.\n\nAnother dimension is long-term maintenance. TypeScript’s type safety can be particularly valuable as the codebase grows, making it easier for new contributors to understand and extend the system. Python is more flexible and concise for prototyping and can be faster to write initially, but without static types, it can become harder to manage as complexity increases.\n\nI would also discuss the internal IT environment. If the company already has infrastructure built around Python (for example, systems that run Python scripts, or deployment pipelines for Python applications), it may make sense to continue building on that foundation. If there's an existing investment in Node.js or web-centric architecture, TypeScript might integrate more smoothly.\n\nFinally, I would ask about anticipated future needs. If the tool might one day be productized or opened up to a larger internal audience via a web interface, TypeScript (or a hybrid approach, with a Python backend and TypeScript frontend) could be compelling. If it’s primarily a back-office tool, used by a small number of technically competent users, Python is likely to get the job done faster.\n\nThroughout this process, I’d facilitate an open discussion, weighing familiarity, ecosystem support, deployment requirements, collaboration needs, and long-term maintainability. In some cases, even starting with a prototype in the language the team is most comfortable with—while leaving open the possibility of evolving or rewriting parts as requirements become clearer—can be the most pragmatic starting point.",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 584,
+    "total_tokens": 629,
+    "cost": 0.004762,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004762,
+      "upstream_inference_prompt_cost": 0.00009,
+      "upstream_inference_completions_cost": 0.004672
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-2025-04-14",
+  "ts": 1776835285750
+}

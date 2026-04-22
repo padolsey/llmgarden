@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-4-maverick",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "The attention mechanism is a key component of the transformer model, widely used in natural language processing. Imagine you're translating a sentence from one language to another. When translating a word, you don't just look at that word, but also the surrounding words to understand its context. That's what the attention mechanism does.\n\nIn the transformer model, when processing a sequence of words (like a sentence), the attention mechanism helps the model focus on the most relevant words in that sequence. Here's a simplified explanation:\n\n1. The model creates three vectors for each word: Query (what you're looking for), Key (what you have), and Value (the information associated with the Key).\n2. The model computes the similarity between the Query vector and the Key vectors of all words. This gives a score indicating how relevant each word is to the current word being processed.\n3. The model uses these scores to weigh the Value vectors, effectively \"paying attention\" to the most relevant words.\n4. The weighted sum of the Value vectors is used as the output, which captures the contextual information.\n\nThis allows the model to capture long-range dependencies and complex relationships between words in a sentence, making it particularly effective for tasks like language translation and text generation.",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 245,
+    "total_tokens": 280,
+    "cost": 0.0002177,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002177,
+      "upstream_inference_prompt_cost": 0.00000945,
+      "upstream_inference_completions_cost": 0.00020825
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-4-maverick-17b-128e-instruct",
+  "ts": 1776836243690
+}

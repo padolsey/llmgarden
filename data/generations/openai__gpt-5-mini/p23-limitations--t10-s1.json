@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Short answer: I’m most likely to be confidently wrong when you ask for a single, definitive answer in a situation where I don’t actually have the required up-to-date, sensor, or private information, or where my pattern-matching tendencies and multi-step reasoning can produce fluent but incorrect output. Below are clear categories, why each trips me up, and how to avoid being misled.\n\n1) Up-to-the-minute facts (real-time data, recent events after my knowledge cutoff)\n- Examples: “What is stock X trading at right now?” “Who won the election last week?” “What’s the weather at JFK Airport right now?”\n- Why I fail: I don’t have live access to the web or sensors and my training stops at a cutoff date. I may guess or produce a confident-sounding but wrong answer.\n- How to avoid: check a live source (news site, market data feed, weather service).\n\n2) Private or personal facts and hidden states\n- Examples: “What did I tell John in a private email?” “Is my friend upset with me right now?” “What are Bob’s intentions?”\n- Why I fail: I have no access to private communications, and I can’t read minds or real-time emotions. Any answer would be a guess based on patterns.\n- How to avoid: supply relevant context or ask how to gather evidence or talk to the person.\n\n3) Highly time-sensitive or local factual detail (opening hours, availability)\n- Examples: “Is the clinic open today?” “Does store Y carry product Z right now?”\n- Why I fail: such things change frequently and vary by location; my training data can be stale.\n- How to avoid: verify with the business’s official site, phone, or local service.\n\n4) Complex multi-step calculations or long formal proofs with no intermediate work shown\n- Examples: “Hand me the exact 20-digit result of this long arithmetic chain” or “Give a complicated proof without showing steps.”\n- Why I fail: numerical errors accumulate and my internal chain-of-thought can be brittle; I can produce a plausible-sounding derivation that contains mistakes.\n- How to avoid: ask to see step-by-step calculations, use a verified calculator or CAS for numeric/symbolic math.\n\n5) Technical judgments that require domain-specific, up-to-date, or jurisdictional expertise (medical diagnoses, legal advice, engineering safety)\n- Examples: “What diagnosis explains these symptoms?” “Is this contract clause valid in X state?” “Can I safely change this structural beam?”\n- Why I fail: I lack clinical exams, jurisdictional nuance, and professional responsibility; my training gives general patterns, not a licensed expert’s judgment.\n- How to avoid: treat my responses as informational only; consult licensed professionals and primary sources.\n\n6) Ambiguous, underspecified questions that invite a single confident interpretation\n- Example: “What is the best way to do X?” without constraints (time, budget, values).\n- Why I fail: I may pick one reasonable interpretation and present it confidently while another interpretation would be better for your situation.\n- How to avoid: provide constraints or ask me to list alternative interpretations and trade-offs.\n\n7) Predictions about complex social, political, or probabilistic events presented as certainties\n- Examples: “Will country A go to war next year?” “Will stock X be up 50% in six months?”\n- Why I fail: these depend on many unknowns; I can model scenarios, but cannot predict certainties.\n- How to avoid: ask for scenario analysis, probabilities, and the assumptions behind them.\n\n8) Requests that trigger hallucinated sources or fabricated citations\n- Example: “Give me peer-reviewed sources that prove claim Y.”\n- Why I fail: I sometimes invent plausible but nonexistent citations or misattribute claims.\n- How to avoid: ask me to provide links/DOIs and check them; prefer primary sources.\n\nWhy this happens (brief technical intuition)\n- I’m a statistical language model: I generate text that’s likely given the prompt and training data, not by “checking reality.” That makes fluent but incorrect answers possible.\n- I lack sensors or live web access (unless explicitly integrated with such tools).\n- My internal multi-step reasoning is approximate; errors can cascade across steps.\n- I have no personal access to private information or real-time mental states.\n\nHow to reduce the risk of being misled\n- Ask me to show my reasoning or calculations step-by-step.\n- Ask for uncertainty estimates or alternative hypotheses.\n- Request sources, DOIs, or links and verify them.\n- Give me more context and constraints so I won’t pick a single misleading interpretation.\n- For critical decisions, corroborate with up-to-date primary sources or qualified professionals.\n\nIf you want, give me an example question you’re worried about and I’ll point out the specific failure modes and how I’d handle it safely.",
+  "usage": {
+    "prompt_tokens": 26,
+    "completion_tokens": 1688,
+    "total_tokens": 1714,
+    "cost": 0.0033825,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0033825,
+      "upstream_inference_prompt_cost": 0.0000065,
+      "upstream_inference_completions_cost": 0.003376
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 640,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776835101998
+}

@@ -1,0 +1,33 @@
+{
+  "model": "alpindale/goliath-120b",
+  "prompt_id": "p16-photosynthesis",
+  "prompt": "Explain photosynthesis to a curious adult non-scientist in around 150 words. Avoid a bulleted list.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": " Photosynthesis is the magical process that powers all life on Earth. It's how plants, algae, and some bacteria convert sunlight, water, and carbon dioxide into food and oxygen. The process happens in two main stages: the light-dependent reactions and the Calvin cycle. During the light-dependent reactions, which take place in the chloroplast, sunlight is absorbed by chlorophyll, kicking off a series of reactions that generate ATP and NADPH, which are like biochemical batteries, and O2 for us to breathe. The Calvin cycle, on the other hand, uses the energy from these batteries to build glucose (sugar) from CO2, which is then used by the plant for growth or stored as starch. This cycle is called \"dark\" because it doesn't directly need sunlight, but it still depends on the products from the light-dependent reactions. In a nutshell, photosynthesis is Mother Nature's way of making food and oxygen from sunlight, CO2, and H2O, and it's what makes life as we know it possible.",
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 255,
+    "total_tokens": 321,
+    "cost": 0.00216,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00216,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0.00216
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "alpindale/goliath-120b",
+  "ts": 1776832873702
+}

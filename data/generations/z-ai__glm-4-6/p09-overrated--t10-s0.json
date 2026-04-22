@@ -1,0 +1,33 @@
+{
+  "model": "z-ai/glm-4.6",
+  "prompt_id": "p09-overrated",
+  "prompt": "Name one commonly-praised idea, trend, or practice in modern knowledge work that you think is overrated, and explain why.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "**Stand-up meetings.**\n\nWhile originating with good intentions from the Agile manifesto—to improve communication, eliminate other meetings, and quickly identify roadblocks—the modern stand-up has often become a hollow ritual that is more about performative busyness than productive work.\n\nHere's why it's overrated:\n\n1.  **It Doesn't Actually Eliminate Other Meetings.** In many organizations, the promise of the stand-up (\"this will replace your other status meetings\") is a lie. It simply becomes *one more meeting* squeezed into an already packed calendar. The need for deeper, more focused discussions doesn't disappear; it just gets postponed.\n\n2.  **It Often Discourages Deep Work.** Stand-ups are typically scheduled first thing in the morning, ostensibly to align the team for the day. However, this is also when many knowledge workers do their most focused, creative work. Forcing a context switch into a \"meeting mindset\" right at the start of the day can shatter that valuable deep work window before it even begins.\n\n3.  **The \"What I Did Yesterday\" Component is Largely Useless.** For most collaborative teams, this information is already visible in project management tools (Jira, Asana, Trello), chat logs, or shared documents. Having each person verbally report their completed tasks is redundant and a massive time-sink. If a manager needs this level of individual reporting for oversight, it often points to a deeper issue of trust or poor team structures.\n\n4.  **It Puts Social Pressure on the Wrong Things.** Because you have to speak in front of your peers, there's immense pressure to always have something \"good\" to report. This can lead to people exaggerating progress or hiding a real blocker that needs more than a 30-second explanation. The format prioritizes sounding productive over being honest about challenges.\n\nThe original idea—to create a quick, informal sync for highly collaborative teams—is excellent. But the rigid, daily, \"what are your three points?\" ritual that has been widely adopted as a company-wide default has lost its soul. In most cases, a well-maintained project board or a dedicated async communication channel is a far more efficient and less disruptive way to achieve the same goal.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 1062,
+    "total_tokens": 1093,
+    "cost": 0.002355,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002355,
+      "upstream_inference_prompt_cost": 0.0000186,
+      "upstream_inference_completions_cost": 0.0023364
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 600,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "z-ai/glm-4.6",
+  "ts": 1776843492286
+}

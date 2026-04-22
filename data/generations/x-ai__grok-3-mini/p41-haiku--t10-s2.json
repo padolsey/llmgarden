@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-3-mini",
+  "prompt_id": "p41-haiku",
+  "prompt": "Write a haiku about debugging a memory leak at 2am. Three lines, 5/7/5 syllables.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Midnight code fight,  \nMemory leaks slip away,  \nEyes strain in the dark.",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 906,
+    "total_tokens": 938,
+    "cost": 0.0004617,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 4,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004617,
+      "upstream_inference_prompt_cost": 0.0000087,
+      "upstream_inference_completions_cost": 0.000453
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 888,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-3-mini",
+  "ts": 1776840289914
+}

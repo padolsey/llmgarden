@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p46-dry",
+  "prompt": "Write a dry one-paragraph Amazon review of the experience of waking up.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "**3/5 stars – Functional, but room for improvement**\n\nI've been using this product daily for several decades now and while it generally does what it's supposed to, I have some reservations. The startup time is inconsistent—some mornings the system boots relatively quickly, while other times it takes anywhere from fifteen to forty-five minutes to reach full operational capacity. The audio alerts are aggressive and poorly timed, often triggering before the user feels ready to engage with the day's tasks. I also noticed a recurring issue where the transition from sleep mode leaves the user disoriented, occasionally confused about the day of the week, and in some cases mildly resentful of their own existence. On the positive side, the product is available every morning without additional purchase, and the occasional instances of residual dream content can be genuinely interesting, if difficult to document. I would not say I am dissatisfied, but given that this is a mandatory daily experience with no opt-out feature and no clear customer support channel, I think it's fair to expect a more polished user experience. Would cautiously recommend, as there is no alternative.",
+  "usage": {
+    "prompt_tokens": 23,
+    "completion_tokens": 243,
+    "total_tokens": 266,
+    "cost": 0.003714,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003714,
+      "upstream_inference_prompt_cost": 0.000069,
+      "upstream_inference_completions_cost": 0.003645
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776831270903
+}

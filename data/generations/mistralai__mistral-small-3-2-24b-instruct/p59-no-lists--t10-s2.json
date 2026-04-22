@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "The water cycle is a continuous journey of Earth’s water, an ever-turning loop that sustains life and shapes the planet’s weather. Beginning with evaporation, the sun’s heat raises water molecules from oceans, lakes, and rivers, turning them into vapor that drifts into the atmosphere. As this vapor rises, it cools and condenses into tiny droplets, clustering around dust and other particles to form clouds—a process known as condensation. When these droplets grow heavy enough, they descend as precipitation, falling to the earth as rain, snow, or sleet, replenishing rivers and soaking into the ground. Some of this water flows back into larger bodies of water, while the rest is absorbed by plants, which release it again through transpiration into the air, perpetuating the cycle. Even underground, water travels through porous rock, feeding springs and lakes, until eventually, it joins the sea once more, ready to begin the cycle anew. This dance of evaporation, condensation, precipitation, and runoff ensures that water, though constantly moving, never leaves our planet.",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 217,
+    "total_tokens": 249,
+    "cost": 0.0000458,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000458,
+      "upstream_inference_prompt_cost": 0.0000024,
+      "upstream_inference_completions_cost": 0.0000434
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-small-3.2-24b-instruct-2506",
+  "ts": 1776837397099
+}

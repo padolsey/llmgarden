@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "The lighthouse keeper stood at the edge of the fog-shrouded pier, his eyes scanning the grey mist for any sign of movement. The beam of the lighthouse cut through the fog, casting an eerie glow on the water below. As he gazed out into the murk, he noticed something peculiar - a small, intricately carved wooden boat, half-hidden in the fog.\n\nCurious, the keeper stepped closer, his boots making soft crunching sounds on the wet stone. As he reached out to touch the boat, the fog swirled around him, revealing a small, leather-bound book tucked into the boat's hull. The keeper's fingers brushed against the cover, and he felt a shiver run down his spine. He opened the book, revealing yellowed pages filled with handwritten notes and sketches. The keeper's eyes widened as he realized that this was no ordinary boat - it was a piece of history, lost in the fog for decades.",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 195,
+    "total_tokens": 230,
+    "cost": 0.00001045,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00001045,
+      "upstream_inference_prompt_cost": 7e-7,
+      "upstream_inference_completions_cost": 0.00000975
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-3.1-8b-instruct",
+  "ts": 1776828577581
+}

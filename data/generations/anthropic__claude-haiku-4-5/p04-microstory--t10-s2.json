@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "# The Fog's Gift\n\nMartin climbed the spiral stairs as he had for thirty years, carrying the oil can for the lamp. Fog rolled thick tonight, obscuring everything beyond the gallery rail. He lit the beacon and watched it cut through the murk in golden arcs.\n\nA shape materialized in the mist—too large for a ship, too deliberate in its movement. Martin leaned forward, squinting. A massive hand emerged from the fog, pale and webbed, gripping the iron railing of the gallery.\n\nHis breath caught. The creature's head rose into view: ancient eyes, patient and knowing, surveyed him without malice. For an eternal moment, they simply regarded each other.\n\nThen the fog swallowed it whole.\n\nMartin sat heavily on the stairs, trembling. He'd always believed the sea held mysteries. Now he knew it did. He returned to polishing the lens, smiling softly, forever changed.",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 206,
+    "total_tokens": 238,
+    "cost": 0.001062,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001062,
+      "upstream_inference_prompt_cost": 0.000032,
+      "upstream_inference_completions_cost": 0.00103
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833817247
+}

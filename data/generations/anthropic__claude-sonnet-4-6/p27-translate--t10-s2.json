@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Here are the translations:\n\n---\n\n## French\n**\"Le silence entre nous en disait plus que n'importe quelle dispute aurait pu le dire.\"**\n\n---\n\n## Japanese\n**「私たちの間の沈黙は、どんな言い争いよりも多くを語っていた。」**\n*(Watashitachi no aida no chinmoku wa, donna ii-arasoi yori mo ōku wo katatte ita.)*\n\n---\n\n## Arabic\n**\"الصمتُ بيننا قالَ أكثرَ مما كان يمكن لأيِّ جدالٍ أن يقوله.\"**\n*(As-samtu baynana qāla akthara mimmā kāna yumkinu li-ayyi jidālin an yaqūlahu.)*\n\n---\n\n## Notes on Tricky Phrases\n\n- **\"Said more than any argument could have\"** — The implied *could have said* is elliptical in English. All three languages required completing the clause explicitly to sound natural, rather than leaving it suspended as English elegantly does.\n\n- **\"Silence between us\"** (French) — The pronoun *le* was added (*le dire*) to grammatically complete the comparative clause, which has no direct equivalent ellipsis in French.\n\n- **\"Argument\"** — This carries emotional weight beyond a simple disagreement. French *dispute*, Japanese *言い争い (ii-arasoi)*, and Arabic *جدال (jidāl)* each lean slightly differently — dispute, quarrel, and debate respectively — none perfectly capturing the full emotional register.\n\n- **Japanese** — The past progressive *語っていた (katatte ita)* was chosen over simple past to convey the **ongoing, lingering quality** of the silence, which feels truer to the original's emotional tone.",
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 444,
+    "total_tokens": 495,
+    "cost": 0.006813,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.006813,
+      "upstream_inference_prompt_cost": 0.000153,
+      "upstream_inference_completions_cost": 0.00666
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833752254
+}

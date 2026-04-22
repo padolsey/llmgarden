@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p13-causal",
+  "prompt": "Why do coffee shops so often have similar aesthetics (exposed brick, pendant lights, light wood) across very different cities? Offer a serious analysis, not a joke.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Several overlapping forces push independent coffee shops toward the same visual language. Think of it as a narrow solution space defined by economics, operations, signaling, and global taste diffusion.\n\n- Cost- and build-out constraints\n  - White-box retail shells and adaptive reuse: Many cafés lease older or “developer-standard” spaces (polished concrete, brick, black steel windows). Leaving ceilings/ducts and masonry exposed keeps costs and schedules down compared to full drywall, soffits, and millwork.\n  - Readily available “kit-of-parts”: Light wood tables, bentwood chairs, subway tile, Edison/pendant lights, and black fixtures are mass-produced, in stock, and easy for contractors to install. A few hospitality suppliers and design-build firms recycle the same SKUs.\n  - Durability and maintenance: Light wood laminates, sealed concrete, and tile are affordable, hard-wearing, easy to clean, and look acceptable as they age.\n\n- Operational and functional needs\n  - Lighting: Pendant lights create pleasant task lighting for tables while keeping ceilings open; warmer color temps make people linger but still flatter photos. Bright, neutral surfaces also amplify scarce daylight.\n  - Acoustics and zoning: Soft wood and plants warm up otherwise echoey concrete/brick boxes; pendant fixtures help visually zone seating versus the bar.\n  - Workflow and visibility: Open bars with minimal finishes and a low, linear counter let customers see the espresso-making “craft,” speed up service, and reduce labor by keeping staff in one sightline.\n\n- Market signaling and semiotics\n  - “Craft authenticity”: Exposed brick, raw wood, matte black metal, and visible equipment connote handwork, transparency, and small-batch quality—values tied to third-wave coffee. The materials act as shorthand for taste and care.\n  - Neutrality as a safe bet: A restrained palette offends no one, works with many neighborhoods, and lets latte art and pastries be the color. For owners on thin margins, aesthetic risk is business risk.\n\n- Taste formation and imitation\n  - Industry diffusion: Baristas, roasters, and designers travel, attend the same trade shows, and share photos. Early exemplars (Scandinavian cafés; US third-wave pioneers) set a template that’s been widely copied.\n  - Social media pressure: Instagrammable textures (brick, wood grain, glossy tile) and warm pendants photograph well and perform reliably in feeds and reviews. Owners benchmark what “works” visually because customers do the same.\n  - Herd behavior and de-risking: Investors and landlords prefer a proven look. Designers reuse successful layouts and specs to hit budgets and timelines.\n\n- Real estate and urban development patterns\n  - Convergence of “creative-class” spaces: The same gentrifying corridors in different cities are built out by similar developers and tenants, producing a common shell and streetscape into which cafés fit.\n  - Short lease terms: If you might move in 5–7 years, you choose reversible, generic finishes rather than idiosyncratic, costly build-outs.\n\n- Cultural frameworks\n  - The “third place” goal: Cafés aim to be comfortable for lingering and laptop work without becoming living rooms. Minimal, light, plant-accented interiors strike a balance between calm and public.\n  - Globalized minimalism: Scandinavian/Japanese-influenced simplicity has become an international default for “good taste” in small urban spaces.\n\nPut together, these forces compress design choices into a narrow equilibrium: light woods, exposed masonry or concrete, black metal, pendant lighting, plants, and a visible craft counter. Variations exist, but the incentives—financial, operational, and cultural—reward this specific package, so it replicates across very different cities.",
+  "usage": {
+    "prompt_tokens": 40,
+    "completion_tokens": 2020,
+    "total_tokens": 2060,
+    "cost": 0.02025,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.02025,
+      "upstream_inference_prompt_cost": 0.00005,
+      "upstream_inference_completions_cost": 0.0202
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1216,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776834417803
+}

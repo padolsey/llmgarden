@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-235b-a22b-2507",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "1. **Spanish** – *¡Hola! Bienvenido/a al equipo, espero que tengas un gran día.*  \n*(Note: Using the informal \"tú\" and \"bienvenido/a\" creates an immediate sense of warmth and inclusivity common in Latin team cultures, where personal connection is valued.)*\n\n2. **Japanese** – *こんにちは、チームへようこそ。今日からのご活躍を楽しみにしています。*  \n*(Note: The formal register and honorific implication (\"ご活躍\") show respect and welcome without overfamiliarity, reflecting Japanese workplace values of humility and group harmony.)*\n\n3. **French** – *Bonjour et bienvenue dans l’équipe ! Nous sommes ravis de t’accueillir parmi nous.*  \n*(Note: The shift to informal \"tu\" after a formal greeting indicates polite familiarity—typical in French workplaces once the professional context is established.)*\n\n4. **Swahili** – *Hujambo! Karibu sana kwenye timu yetu.*  \n*(Note: \"Karibu sana\" (very welcome) carries deep cultural emphasis on hospitality, reflecting East African values of community and generous welcome.)*\n\n5. **German** – *Guten Tag und herzlich willkommen im Team! Wir freuen uns, dich bei uns zu haben.*  \n*(Note: Despite Germany’s reputation for formality, using \"dich\" (informal you) signals intentional inclusivity and a friendly yet professional tone common in modern German workplaces.)*",
+  "usage": {
+    "prompt_tokens": 43,
+    "completion_tokens": 323,
+    "total_tokens": 366,
+    "cost": 0.0000366,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000366,
+      "upstream_inference_prompt_cost": 0.0000043,
+      "upstream_inference_completions_cost": 0.0000323
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-235b-a22b-07-25",
+  "ts": 1776839036638
+}

@@ -1,0 +1,33 @@
+{
+  "model": "nousresearch/hermes-4-405b",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Here's a simple JavaScript `debounce` function with an example:\n\nThe `debounce` function delays the execution of a given function until a specified time has passed without further calls.\n\n```javascript\nfunction debounce(func, delay) {\n  let timeoutId;\n\n  return function(...args) {\n    if (timeoutId) {\n      clearTimeout(timeoutId);\n    }\n    timeoutId = setTimeout(() => {\n      func.apply(this, args);\n    }, delay);\n  };\n}\n\n// Example usage:\nconst sayHello = () => {\n  console.log(\"Hello!\");\n};\n\nconst debouncedSayHello = debounce(sayHello, 300);\ndebouncedSayHello(); // No output\ndebouncedSayHello(); // No output\n// After 300ms, \"Hello!\" will be logged once\n```\n\nIn this example, `debouncedSayHello` is a debounced version of `sayHello` with a 300ms delay. Even though `debouncedSayHello` is called twice in quick succession, `sayHello` will only be executed once after 300ms have passed without any additional calls.",
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 224,
+    "total_tokens": 277,
+    "cost": 0.000725,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000725,
+      "upstream_inference_prompt_cost": 0.000053,
+      "upstream_inference_completions_cost": 0.000672
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "nousresearch/hermes-4-405b",
+  "ts": 1776840344087
+}

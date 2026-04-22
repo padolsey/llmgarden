@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-4-maverick",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Here are the translations of the sentence \"The silence between us said more than any argument could have\" into French, Japanese, and Arabic, along with notes on any challenging phrases:\n\n**French:** \"Le silence entre nous en disait plus que n'importe quelle discussion n'aurait pu le faire.\"\nNote: The phrase \"any argument\" was translated to \"n'importe quelle discussion\" to convey the idea of a discussion or debate. \"Argument\" can be translated to \"argument\" in French, but it may have a slightly different connotation. \"Discussion\" is a more neutral term that fits the context.\n\n**Japanese:** \"\" (Chinmoku wa nanika o iu kotoba yori mo ōku no koto o hanashite ita.)\nNote: The sentence was rephrased to convey the same meaning in a more natural way in Japanese. The original sentence was translated to \"The silence between us spoke more than any words could have.\" The phrase \"said more than any argument could have\" is a bit tricky to translate directly, so it was rendered as \"\" (ōku no koto o hanashite ita), which means \"spoke more\" or \"conveyed more.\"\n\n**Arabic:** \"الصمت بيننا قال أكثر مما قد تفعله أي مناقشة.\"\nNote: The phrase \"argument\" was translated to \"مناقشة\" (munāqashah), which means \"discussion\" or \"debate.\" The sentence structure was adjusted to fit the Arabic grammatical rules. The verb \"قال\" (qāla) is used to convey the idea of \"said\" or \"expressed,\" and it agrees with the subject \"الصمت\" (al-ṣamt), which means \"silence.\"\n\nThese translations aim to render the original sentence faithfully while taking into account the nuances of each language.",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 379,
+    "total_tokens": 431,
+    "cost": 0.0002352,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002352,
+      "upstream_inference_prompt_cost": 0.0000078,
+      "upstream_inference_completions_cost": 0.0002274
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-4-maverick-17b-128e-instruct",
+  "ts": 1776836295470
+}

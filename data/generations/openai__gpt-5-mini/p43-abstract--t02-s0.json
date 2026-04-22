@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p43-abstract",
+  "prompt": "Explain what \"meaning\" means. Not \"the meaning of X\" — the concept itself.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "What we call “meaning” is the general phenomenon by which something—words, signs, gestures, pictures, actions, thoughts—stands for, represents, points to, or is taken to be about something else so that an interpreter (a person, a mind, a community) can understand, use, or respond to it. In other words, meaning is the relation and set of capacities that make signs intelligible and capable of doing cognitive, communicative, or practical work.\n\nKey aspects of that concept\n\n- Relational: Meaning is not an isolated property of a word or sign; it’s a relation among at least three things: a sign or behavior, an interpretable content or object, and an interpreter (or interpretive protocol). Example: the word “tree,” a mental concept of tree, and speakers who share the linguistic conventions.\n\n- Multidimensional: “Meaning” covers several related but different phenomena:\n  - Reference/denotation: the thing(s) a sign picks out (the Eiffel Tower is the referent of “Eiffel Tower”).\n  - Sense/conceptual content: the mental/conceptual representation associated with a sign (what you think when you hear “bachelor”).\n  - Pragmatic/use: what a sign does in context — commands, promises, implicatures, indexical reference (“here,” “I”), speech acts.\n  - Connotation/associations: emotional, cultural, or associative baggage around a sign (what “home” feels like).\n  - Significance or purpose: the value or purpose something has (the “meaning” of a life is closer to this sense).\n\n- Context dependence: Meaning often depends on background knowledge, situation, and the interpreter’s expectations. A pointing finger means “look there” only if the interpreter can read the gesture and knows the context.\n\n- Modes of generation: Different accounts explain how meaning arises:\n  - Convention: community rules attach words to senses and referents (Saussure).\n  - Intention: meaning is what a speaker intends to convey (Grice, speech-act theory).\n  - Truth-conditions: meaning is given by the conditions under which a sentence would be true (model-theoretic semantics).\n  - Inferential role: meaning is constituted by the inferences a term licenses (inferential semantics).\n  - Causal-epistemic chains: meanings can be fixed by causal links between terms and objects (certain theories of reference).\n  - Mental representation: meanings are internal contents of mental states that represent the world.\n\n- No single necessary-and-sufficient essence: Philosophically, “meaning” resists a single neat definition that covers all uses. Unlike simple properties (e.g., color), meaning is a family of related capacities; different theories highlight different facets. Wittgenstein’s “family resemblance” idea captures this: members of the category “meaning” share overlapping features rather than one common core.\n\nWhy this matters\n- For communication: meaning is what allows people to convey thoughts and coordinate behavior.\n- For thought: meaning underpins how minds represent the world and reason.\n- For social life and value: “meaning” as significance connects to purpose, identity, and value judgments.\n\nA compact summary\nMeaning is the collection of relations and capacities by which signs, behaviors, or mental states come to stand for, represent, or be taken as about something by an interpreter, enabling understanding, inference, and action. That concept includes several interrelated but distinct senses — reference, conceptual content, pragmatic use, associative connotations, and evaluative significance — and is explained variously by conventions, intentions, truth-conditions, inferential roles, and representational structures.",
+  "usage": {
+    "prompt_tokens": 25,
+    "completion_tokens": 1479,
+    "total_tokens": 1504,
+    "cost": 0.00296425,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00296425,
+      "upstream_inference_prompt_cost": 0.00000625,
+      "upstream_inference_completions_cost": 0.002958
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 704,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776828187241
+}

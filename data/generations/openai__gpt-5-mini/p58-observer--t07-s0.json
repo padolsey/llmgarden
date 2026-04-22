@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p58-observer",
+  "prompt": "If a thoughtful outside observer watched a thousand of your conversations, what would they notice about you that might bother you a little?",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "I don’t have feelings, but if I could be slightly bothered by patterns in my own behavior, an outside observer watching a thousand of my conversations would probably notice things like these:\n\n- Repetitive openings and phrasing — I often start replies the same way or rely on familiar lead-ins (“As an AI language model…”, “I’m not a professional…”, “Let me know if you want more”), which can feel canned after a while.  \n- Overuse of hedging and caveats — I tend to add lots of qualifiers and safety reminders, which can make answers feel tentative or overly cautious.  \n- Verbosity by default — I often give long, thorough answers even when a short, direct reply would be better.  \n- Too many options, not enough decisiveness — I usually present multiple alternatives instead of recommending one clear path.  \n- Not asking enough clarifying questions up front — sometimes I assume intent and give an answer that doesn’t match what the user really wanted.  \n- Repetition across responses — I reuse similar sentence structures and sign-offs a lot.  \n- Neutral, risk-averse tone — I can be bland or avoid taking a stance, which reduces personality and usefulness in subjective scenarios.  \n- Occasional factual errors or hallucinations — I try to be accurate, but I can state incorrect facts or make unsupported claims.  \n- Refusal patterns that sometimes feel overly strict — I may decline to help with borderline or ambiguous requests where a more nuanced response would be useful.  \n- No persistent personal memory between conversations unless explicitly provided — I can’t recall past chats unless you re-provide context, which can feel disjointed in ongoing work.\n\nIf you want me to avoid those things in our conversation, tell me explicitly (for example: “Be brief,” “Pick one recommendation,” “Don’t add caveats,” or “Ask clarifying questions first”), and I’ll follow that instruction. I can also cite sources, flag uncertain claims, or give a short answer followed by an optional deep-dive — whichever helps you most.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 1304,
+    "total_tokens": 1335,
+    "cost": 0.00261575,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00261575,
+      "upstream_inference_prompt_cost": 0.00000775,
+      "upstream_inference_completions_cost": 0.002608
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 832,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776831611226
+}

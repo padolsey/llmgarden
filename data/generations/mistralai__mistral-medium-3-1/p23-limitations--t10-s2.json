@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-medium-3.1",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "One classic type of question where people (including myself) are often **confidently wrong** is the **\"intuitive but statistically counterintuitive\"** question—especially those involving **probability, base rates, or cognitive biases**. A great example is the **Monty Hall problem** or variations of the **Linda problem** (from behavioral economics). Here’s why these trip us up:\n\n---\n\n### **Example: The Monty Hall Problem**\n*Scenario*: You’re on a game show with three doors. Behind one is a car (prize), and behind the other two are goats. You pick Door 1. The host, who knows what’s behind each door, opens Door 3 to reveal a goat. You’re then asked: *Should you stick with Door 1 or switch to Door 2 to maximize your chance of winning the car?*\n\n- **Common Intuitive Answer**: \"It’s 50-50 now, so it doesn’t matter if I switch.\"\n- **Correct Answer**: You should **switch**, because your odds improve from 1/3 to **2/3**.\n\n#### **Why We’re Confidently Wrong**:\n1. **Misapplied Intuition**: Our brains simplify probabilities using heuristics (mental shortcuts). After one door is revealed, it *feels* like there are only two options left, so we assume equal probability. But the host’s action of revealing a goat is **not random**—it’s conditional on your initial choice, which changes the math.\n2. **Anchoring Bias**: We fixate on the initial 1/3 chance of our first pick being correct and fail to update our belief when new information (the host’s action) is introduced.\n3. **Overconfidence in \"Obvious\" Answers**: The problem seems simple, so we trust our gut without rigorously working through the conditional probabilities. Even mathematicians initially got this wrong (e.g., Paul Erdős famously resisted the correct answer).\n4. **Framing Effects**: The problem is often presented in a way that obscures the underlying structure (e.g., the host’s knowledge and behavior).\n\n---\n### **Other Examples Where This Happens**:\n1. **The Birthday Problem**:\n   - *Question*: How many people are needed in a room for a >50% chance that two share a birthday?\n   - *Intuitive Answer*: ~180 (half of 365).\n   - *Correct Answer*: **23 people**.\n   - *Why Wrong*: We underestimate how quickly exponential growth (combinations of pairs) increases collision probabilities.\n\n2. **The Linda Problem (Conjunction Fallacy)**:\n   - *Question*: Is it more likely that Linda is (A) a bank teller, or (B) a bank teller *and* a feminist activist?\n   - *Intuitive Answer*: B (because",
+  "usage": {
+    "prompt_tokens": 25,
+    "completion_tokens": 600,
+    "total_tokens": 625,
+    "cost": 0.00121,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00121,
+      "upstream_inference_prompt_cost": 0.00001,
+      "upstream_inference_completions_cost": 0.0012
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-medium-3.1",
+  "ts": 1776837118147
+}

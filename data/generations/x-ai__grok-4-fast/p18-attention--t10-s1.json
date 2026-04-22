@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-4-fast",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "### Attention Mechanism in Transformers: A Software Engineer's Guide\n\nImagine you're building a text-processing app, like a search engine or chat bot. Older ML models (e.g., RNNs) handled sentences word-by-word, like a slow loop that forgets distant details—inefficient for long texts.\n\nEnter transformers: neural networks that process entire sequences at once, like parallel threads in your codebase. The secret sauce? **Attention**, which lets the model dynamically decide what parts of the input matter most for each output, mimicking how humans focus while reading.\n\nHere's how it works (simplified):\n\n1. **Input Prep**: Convert words/tokens into vectors (numerical embeddings), like feature vectors in data structures.\n\n2. **Query, Key, Value (QKV)**: For each token, derive three vectors: Query (what I'm looking for, like a search term), Key (what others offer, like database indexes), and Value (the actual data payload).\n\n3. **Scoring**: Compute dot-product similarity between a token's Query and all Keys—higher scores mean more relevance (e.g., \"cat\" attends strongly to \"feline\" but less to \"car\").\n\n4. **Weights & Output**: Apply softmax to scores for probabilities (normalized weights, summing to 1). Then, weighted-sum the Values: output = ∑ (weight_i * value_i). This creates a context-aware representation per token.\n\nSelf-attention means every token attends to all others (including itself), capturing long-range links efficiently. Multi-head attention runs this in parallel \"heads\" for diverse focuses, like multiple worker threads.\n\nBenefits: Fully parallelizable (no sequential bottlenecks), scales to huge data. It's why models like GPT crush translation or summarization tasks. No ML background needed—just think relational databases with dynamic joins!\n\n(Word count: 198)",
+  "usage": {
+    "prompt_tokens": 181,
+    "completion_tokens": 609,
+    "total_tokens": 790,
+    "cost": 0.00031805,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 151,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00031805,
+      "upstream_inference_prompt_cost": 0.00001355,
+      "upstream_inference_completions_cost": 0.0003045
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 241,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-4-fast",
+  "ts": 1776839882987
+}

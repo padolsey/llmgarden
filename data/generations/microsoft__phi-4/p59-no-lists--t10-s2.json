@@ -1,0 +1,33 @@
+{
+  "model": "microsoft/phi-4",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "The water cycle is a continuous and dynamic process that circulates water throughout Earth's systems, driven by energy from the sun. It begins with evaporation, where the sun heats bodies of water, such as oceans, rivers, and lakes, causing water molecules to transform into vapor and rise into the atmosphere. Plants also contribute to this through transpiration, releasing water vapor from their leaves. Once in the atmosphere, water vapor cools and condenses into clouds through condensation, facilitated by the cooling of air at higher altitudes. The clouds eventually become saturated, leading to precipitation in the form of rain, snow, sleet, or hail, which then falls back to Earth, replenishing surface water bodies and infiltrating the ground. Some of this precipitation replenishes aquifers in a process called infiltration, while some surface runoff flows into streams and rivers, eventually making its way back to the oceans. Throughout this journey, the cycle repeats, maintaining the balance and distribution of Earth's water resources, highlighting the interconnectedness of the planet's various ecosystems and landscapes.",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 213,
+    "total_tokens": 248,
+    "cost": 0.00003227,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00003227,
+      "upstream_inference_prompt_cost": 0.00000245,
+      "upstream_inference_completions_cost": 0.00002982
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "microsoft/phi-4",
+  "ts": 1776842703551
+}

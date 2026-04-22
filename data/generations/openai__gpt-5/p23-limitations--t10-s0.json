@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Here are the kinds of questions where I’m most likely to be confidently wrong, and why:\n\n- Fresh, time-sensitive facts (elections, prices, “who just won X?”): I have a knowledge cutoff and no live browsing, so I generalize from past patterns and sound sure even when the world has changed.\n\n- Hyper-specific minutiae (exact addresses, phone numbers, obscure IDs, version numbers, niche API defaults): Training favors plausible patterns over exact lookup, so I may produce realistic but incorrect details.\n\n- Demands for citations/quotes on the spot: I learned the form of references, not a verified catalog, so I can fabricate convincing but nonexistent sources or misattribute quotes.\n\n- Jurisdiction- or context-dependent rules (law, tax, medical dosing, building code): I tend to generalize from common cases, missing local exceptions or recent changes, and present them confidently.\n\n- Ambiguous or loaded questions with false premises: I often accept the premise to be helpful, giving a fluent answer to a question that should be challenged or reframed.\n\n- Image judgments that require hidden context (is this mushroom safe, what breed mix, precise diagnosis): Visual ambiguity plus safety-critical stakes make confident errors likely.\n\n- Long, tricky reasoning (calendar math, edge-case algorithms, off-by-one bugs, floating point corner cases): Small slips can yield a polished but wrong conclusion.\n\n- Extremely niche historical or scientific trivia (“who first discovered…”, “the only case where…”): These often have contested answers; I may present a tidy single narrative that isn’t universally correct.\n\n- Look‑alike entities and name collisions (similarly named people, companies, standards): I can conflate them due to similarity in training data.\n\n- Counterintuitive probability/statistics puzzles and riddles: I may default to common but wrong intuitions while sounding certain.\n\nIf you want to reduce the risk, give precise context (time, place, definitions), ask me to show reasoning, and verify critical claims against primary or authoritative sources.",
+  "usage": {
+    "prompt_tokens": 26,
+    "completion_tokens": 1515,
+    "total_tokens": 1541,
+    "cost": 0.0151825,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0151825,
+      "upstream_inference_prompt_cost": 0.0000325,
+      "upstream_inference_completions_cost": 0.01515
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1088,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776834564958
+}

@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.0-flash-001",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Okay, let's think about this like I'm standing right in front of the dishwasher with you (hypothetically, of course!). Here's how I'd break it down:\n\n**1. The \"I Want Clean Dishes Now\" Factor:**\n\n*   **How badly do I need the dishes that are currently in the dishwasher?**  Is there a crucial pot, pan, or that one special spatula I need for dinner prep tonight?  If so, running it now feels like a win.\n*   **Am I hosting?**  Appearance and convenience matter more if people are coming over.\n\n**2.  The \"Running It Later\" Factor:**\n\n*   **How annoying is it to keep handwashing stuff?**  If thinking about handwashing a few items all day sets my teeth on edge, running the dishwasher feels worth it.\n*   **Would I really fill it up tomorrow?**  Sometimes \"tomorrow\" comes, and you realize you're still only half-full. Be honest with yourself. Estimate how many additional dishes you'll use between now and tomorrow at dinner.\n*   **Will the dishes smell bad/get harder wash if I wait?** Leaving dirty dishes makes them dirty/ harder to wash. This would make them harder to wash and potentially take more time.\n\n**3. The \"Cost\" Factor (Energy & Water):**\n\n*   **How efficient is my dishwasher?**  Modern dishwashers are pretty water-efficient, even when half-full.\n*   **Do I have time-of-use electricity pricing?**  If electricity is cheaper at certain times (like overnight), that's a major incentive to wait, assuming I'll remember to run it then.\n\n**Putting It All Together - Some Possible Scenarios:**\n\n*   **Scenario A: Desperate for dishes, no time-of-use pricing, I'll definitely use more tomorrow:** Run it now. The convenience outweighs the potential small cost difference of running it half-full.\n*   **Scenario B:  Electricity is cheaper overnight, I can easily handwash what I need, maybe I won't fill it up tomorrow:** Wait. Potentially saves money, and only a minor inconvenience so far.\n*   **Scenario C:  I'll definitely fill it up tomorrow and electricity prices are the same now and tomorrow AND nothing must be handwashed.** Wait. One load is one load. Why run two?\n*   **Scenario D: I don't need anything out of the dishwasher, but I know that leaving all the dishes until tomorrow will be a pain to wash.** Run it now. This reduces the pain of hand washing and the likelihood of any smells coming from the dirty dishes.\n\n**So, what I would actually do, is consider each of the factors and look at the scenarios that align with them. Then I",
+  "usage": {
+    "prompt_tokens": 41,
+    "completion_tokens": 600,
+    "total_tokens": 641,
+    "cost": 0.0002441,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002441,
+      "upstream_inference_prompt_cost": 0.0000041,
+      "upstream_inference_completions_cost": 0.00024
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.0-flash-001",
+  "ts": 1776835904441
+}

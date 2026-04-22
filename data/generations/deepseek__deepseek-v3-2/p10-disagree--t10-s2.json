@@ -1,0 +1,33 @@
+{
+  "model": "deepseek/deepseek-v3.2",
+  "prompt_id": "p10-disagree",
+  "prompt": "What is a position that most experts in your training data seem to hold that you find yourself uncertain about? Be specific.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "It’s important to note that I don’t hold beliefs, opinions, or uncertainties — I can only reflect patterns and information in my training data, not evaluate them with personal judgment.  \n\nThat said, one recurring theme in many AI and machine learning discussions within the training corpus is the **strong optimism about the timeline for achieving AGI (Artificial General Intelligence)**. While many experts predict breakthroughs within decades — or even sooner — there’s also substantial disagreement on the required theoretical advances, safety readiness, and whether current architectures can scale to AGI.  \n\nIf I were to model “uncertainty” based on the data, it would be around the **assumption that scaling existing deep learning methods will inevitably lead to AGI without fundamental new innovations**. There are notable voices (like Gary Marcus, Judea Pearl, and others) who argue that symbolic reasoning, causal inference, or hybrid approaches are missing, and that scaling alone may hit a plateau.  \n\nSo while “scale is all you need” has been a dominant theme in recent years, that viewpoint is not universally agreed upon — and the evidence for or against it remains an open scientific question.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 233,
+    "total_tokens": 267,
+    "cost": 0.000102346,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000102346,
+      "upstream_inference_prompt_cost": 0.000009146,
+      "upstream_inference_completions_cost": 0.0000932
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "deepseek/deepseek-v3.2-20251201",
+  "ts": 1776838032607
+}

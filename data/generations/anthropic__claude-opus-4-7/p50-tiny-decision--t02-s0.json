@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Okay, honestly? Run it tomorrow.\n\nHere's my actual reasoning:\n\nA half-full load uses nearly the same water and electricity as a full one. Modern dishwashers have sensors for soil level, not load size, so you're basically paying the full energy cost for half the work. That's the main thing.\n\nThe counter-arguments I'd actually weigh:\n- Do you need specific dishes tomorrow morning? If yes, run it.\n- Will the dirty dishes start to smell or get crusty overnight? Rinse the worst offenders and you're fine.\n- Is your kitchen small enough that a sink of dirty dishes will genuinely bug you? That's a real cost, don't pretend it isn't.\n\nThe thing people overthink: whether \"definitely full tomorrow\" is actually true. If you're the type who ends up running it half-full tomorrow anyway because more dishes didn't materialize, just run it now. But you said definitely, so I'll trust that.\n\nWait until tomorrow.",
+  "usage": {
+    "prompt_tokens": 68,
+    "completion_tokens": 326,
+    "total_tokens": 394,
+    "cost": 0.00849,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00849,
+      "upstream_inference_prompt_cost": 0.00034,
+      "upstream_inference_completions_cost": 0.00815
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776827698424
+}

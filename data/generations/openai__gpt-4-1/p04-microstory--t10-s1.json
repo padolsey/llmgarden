@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "The lighthouse keeper moved through the swirling fog, his lantern beam swallowed by the thick, damp air. Each night, the sea sang its mournful tune against the rocks, but tonight, an uneasy silence pressed close. As he checked the light, he noticed a faint, rhythmic glimmer far below, pulsing between the waves. Squinting, he saw it was not a boat’s light, nor the reflection from the tower. Curiosity pulled him down the slick stone steps to the shoreline, breath misting in the cold night. There, half-buried in seaweed, he found a mysterious glass sphere, light swirling inside like captured starlight. It warmed his hands through the glass, humming gently, as though alive. Behind him, the fog thinned for a moment, revealing strange footprints in the sand leading away from the sphere—a trail that vanished into the night. Heart racing, the keeper realized he was no longer alone with the sea.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 195,
+    "total_tokens": 226,
+    "cost": 0.001622,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001622,
+      "upstream_inference_prompt_cost": 0.000062,
+      "upstream_inference_completions_cost": 0.00156
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-2025-04-14",
+  "ts": 1776835267575
+}

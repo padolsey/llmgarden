@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p09-overrated",
+  "prompt": "Name one commonly-praised idea, trend, or practice in modern knowledge work that you think is overrated, and explain why.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Brainstorming sessions\n\nWhy it’s overrated:\n- Group brainstorming reliably produces fewer and less original ideas than individuals generating ideas alone and then combining them. Production blocking (only one person can talk at a time), evaluation apprehension (fear of judgment), social loafing, and anchoring on the first ideas all depress creativity.\n- It creates an illusion of progress: lots of sticky notes and energy, little signal. Extroverts and senior voices dominate; riskier, better ideas stay unspoken.\n- Synchronous time is expensive, and most of it is spent listening, not thinking.\n\nWhen it does have value:\n- As a way to align on problem framing and constraints—less for raw idea generation, more for shared understanding.\n\nBetter approach:\n- “Alone together”: send a tight prompt and constraints, give people quiet time to ideate individually (brainwriting, Crazy 8s), then merge and critique.\n- Separate divergence and convergence; use explicit criteria to score ideas.\n- Use small groups with facilitation tools (round-robins, silent voting, time-boxed critique) to reduce dominance and anchoring.\n- Capture decisions and next steps; limit the session to what truly requires real-time discussion.",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 1425,
+    "total_tokens": 1457,
+    "cost": 0.01429,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01429,
+      "upstream_inference_prompt_cost": 0.00004,
+      "upstream_inference_completions_cost": 0.01425
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1152,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776834273959
+}

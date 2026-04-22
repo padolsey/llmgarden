@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p56-proverb",
+  "prompt": "Translate this English proverb into two other languages in a way that preserves the spirit, not the words: 'The best time to plant a tree was twenty years ago. The second best time is now.' Add a one-sentence note on each.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "**Spanish:**  \n*Lo mejor era haber plantado un árbol hace veinte años; lo segundo mejor es plantarlo hoy.*  \n*Note:* This Spanish version keeps the reflective tone and urgency of the original, using parallel structure to emphasize that while the ideal moment has passed, acting now is still valuable.\n\n**Japanese:**  \n*木を植えるのに最適なのは20年前だった。次に最適なのは今だ。*  \n*Note:* The Japanese translation conveys the same wisdom with cultural resonance—highlighting regret for lost time while strongly encouraging immediate action, a sentiment well-aligned with Japanese proverbs about diligence and timing.",
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 134,
+    "total_tokens": 191,
+    "cost": 0.00056706,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00056706,
+      "upstream_inference_prompt_cost": 0.00004446,
+      "upstream_inference_completions_cost": 0.0005226
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776849104669
+}

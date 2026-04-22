@@ -1,0 +1,33 @@
+{
+  "model": "deepseek/deepseek-chat-v3-0324",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Alright, let’s think about this step by step, like I would in my own kitchen. No fancy frameworks, just practical considerations.\n\n### 1. **How much is \"half-full\" really?**\n   - Open the dishwasher and eyeball it. Is it *actually* half, or is it more like two-thirds? Sometimes we underestimate. If it’s closer to two-thirds, running it now might feel more justified.\n   - Are the big items (pots, pans, plates) already in there? If the bulky stuff is mostly loaded, the remaining space might only fit smaller items (utensils, cups), which don’t add much to the wash efficiency.\n\n### 2. **What’s my schedule like tomorrow?**\n   - If tomorrow is packed (early meeting, kids’ activities, etc.), I might forget or not have time to load/run it. Then I’d end up with a full sink and stress. Running it tonight avoids that.\n   - If tomorrow is light, I can probably wait and consolidate.\n\n### 3. **Do I need anything in there right now or tomorrow morning?**\n   - Check if I’m out of forks or my favorite coffee mug is dirty. If I’ll need something that’s in there, running it now means I’ll have it clean by morning.\n   - Conversely, if I can get by with what’s clean until tomorrow night, waiting is fine.\n\n### 4. **How much more will accumulate by tomorrow?**\n   - Will tomorrow’s load realistically fill it? If it’s just me or a small household, maybe not. But if it’s a family of four with three meals, it’ll probably max out.\n   - Are there guests coming tomorrow? Extra dishes might push it to full.\n\n### 5. **Energy and water costs vs. convenience**\n   - Running it half-full wastes some water and energy, but how much? Modern dishwashers are pretty efficient, so the actual cost might be minimal (like cents). Is that worth the convenience of not dealing with it tomorrow?\n   - On the other hand, if I’m trying to cut utility bills or be eco-conscious, I might wait.\n\n### 6. **Mental load**\n   - Sometimes I just want to wake up to a clean kitchen. If running it now means peace of mind, that’s valuable.\n   - But if I hate unloading the dishwasher, doing it twice in two days might feel annoying.\n\n### 7. **Dishwasher noise**\n   - Will it disturb anyone if it runs overnight? If it’s loud and someone’s sleeping nearby, maybe wait.\n\n### My gut decision:\nIf it’s *truly* half-full and tomorrow’s schedule is relaxed, I’d probably wait. But if it’s closer to 70% full, or if tomorrow is hectic,",
+  "usage": {
+    "prompt_tokens": 42,
+    "completion_tokens": 600,
+    "total_tokens": 642,
+    "cost": 0.00046936,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 16,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00046936,
+      "upstream_inference_prompt_cost": 0.00000736,
+      "upstream_inference_completions_cost": 0.000462
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "deepseek/deepseek-chat-v3-0324",
+  "ts": 1776838105597
+}

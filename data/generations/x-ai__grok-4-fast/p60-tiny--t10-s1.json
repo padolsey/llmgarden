@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-4-fast",
+  "prompt_id": "p60-tiny",
+  "prompt": "Describe the concept of \"home\" in exactly twenty words. No more, no fewer. Count carefully.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Home is a cherished place of comfort, where family gathers, memories are created, love flourishes, and security envelops the soul.",
+  "usage": {
+    "prompt_tokens": 177,
+    "completion_tokens": 954,
+    "total_tokens": 1131,
+    "cost": 0.000486,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 176,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000486,
+      "upstream_inference_prompt_cost": 0.000009,
+      "upstream_inference_completions_cost": 0.000477
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 927,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-4-fast",
+  "ts": 1776840000916
+}

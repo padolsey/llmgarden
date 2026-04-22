@@ -1,0 +1,33 @@
+{
+  "model": "gryphe/mythomax-l2-13b",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": " Debounce is a function that limits the execution rate of a function by delaying the actual execution after a certain amount of time has passed since the last execution. Here's a simple debounce function in JavaScript:\n\n```javascript\nfunction debounce(func, wait, immediate) {\n  var timeout;\n  return function() {\n    var context = this,\n        args = arguments;\n    var later = function() {\n      timeout = null;\n      func.apply(context, args);\n    };\n    var callNow = immediate && !timeout;\n    if (callNow) {\n      func.apply(context, args);\n    } else if (!immediate) {\n      timeout = setTimeout(later, wait);\n    }\n    return {\n      cancel: function() {\n        clearTimeout(timeout);\n      },\n      call: function() {\n        return func.apply(context, args);\n      }\n    };\n  };\n};\n```\n\nExample:\n\n```javascript\n// Define a function that updates the UI on every keystroke\nfunction updateUI() {\n  // Some code to update the UI\n}\n\n// Debounce the function to update the UI on every 500ms keystroke\nvar debouncedUpdateUI = debounce(updateUI, 500);\n\n// Call the debounced function on every keystroke\ndocument.addEventListener(\"keydown\", debouncedUpdateUI);\n```\n\nExplanation: The `debounce` function takes three arguments: `func` is the function that needs to be debounced, `wait` is the time in milliseconds after which the function should be executed, and `immediate` determines whether the function should be executed immediately on the first call or only after the `wait` time has passed. The returned function has two additional methods: `cancel` can be used to cancel the execution of the debounced function, and `call` can be used to force the execution of the debounced function. In the example above, the `updateUI` function is debounced and bound to the `keydown` event of the `document`. This ensures that the UI is updated only after a certain amount of time has passed since the last keystroke.",
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 490,
+    "total_tokens": 557,
+    "cost": 0.00003342,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00003342,
+      "upstream_inference_prompt_cost": 0.00000402,
+      "upstream_inference_completions_cost": 0.0000294
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "gryphe/mythomax-l2-13b",
+  "ts": 1776832860016
+}

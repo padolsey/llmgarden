@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p08-best-books",
+  "prompt": "Recommend three works of fiction that you think every thoughtful adult should read at some point. Explain each in two or three sentences.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "- Toni Morrison, Beloved (1987): A haunting meditation on slavery’s afterlife, memory, and motherhood, where the supernatural becomes a language for trauma. Morrison’s lyrical prose forces readers to confront what freedom, love, and responsibility cost individuals and communities.\n\n- Fyodor Dostoevsky, The Brothers Karamazov (1880): A philosophical epic that wrestles with faith, doubt, free will, and the problem of evil through a family tragedy and a murder trial. Its unforgettable set pieces—especially The Grand Inquisitor—probe what it means to live ethically in a suffering world.\n\n- Ursula K. Le Guin, The Dispossessed (1974): A scientist’s journey between an anarchist moon and a capitalist planet becomes a living experiment in freedom, obligation, and utopia’s compromises. Le Guin renders politics intimate, asking how societies—and people—balance ideals with human needs.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 972,
+    "total_tokens": 1003,
+    "cost": 0.00975875,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00975875,
+      "upstream_inference_prompt_cost": 0.00003875,
+      "upstream_inference_completions_cost": 0.00972
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 768,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776834237874
+}

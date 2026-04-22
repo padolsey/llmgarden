@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1-mini",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Alright, here’s how I’d actually think through it, step-by-step, rather than just laying out some abstract rules:\n\n**First, what’s the downside of running it now?**  \n- It’s only half full, so it’s less efficient water and energy-wise. That might waste a bit more resources than waiting.  \n- But if I let it sit, the dirty dishes might get crusty or start to smell, which isn’t fun.  \n- Also, if I run it now, I get clean dishes immediately, which could be handy if I’m in a rush or need them for cooking later.\n\n**Second, what’s the upside of waiting?**  \n- Definitely full means better load efficiency, so I’m saving water, energy, maybe even dish soap. Good for the environment and the utility bill.  \n- But waiting means dirty dishes lying around, which might affect the kitchen vibe or take up space. If I can handle that inconvenience, maybe it’s worth it.\n\n**Third, what’s my situation right now?**  \n- Am I going to be around long enough before tomorrow that running it now is easy and won’t disrupt anything? Or am I about to leave or head to bed, making waiting simpler?  \n- Am I low on clean dishes? If I really need plates or glasses, running it now makes sense. If I have enough, waiting is fine.\n\n**Fourth, how much do I weigh convenience vs. efficiency?**  \n- If I’m feeling mellow and eco-conscious today, I might lean toward waiting.  \n- If I’m tired and just want the kitchen done, I might run it now.\n\n---\n\n**So, personally, what I’d do:**  \n- If I’m not short on dishes and don’t mind the wait, I’d hold off until tomorrow for that full load efficiency.  \n- But if clean dishes are already running low or I want to feel like I’m crossing a chore off my list, I’d run it now with the half load.  \n\nThat’s honestly how I think about it—balancing immediate convenience and cleanliness with efficiency and minimizing resource use.",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 432,
+    "total_tokens": 477,
+    "cost": 0.0007092,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0007092,
+      "upstream_inference_prompt_cost": 0.000018,
+      "upstream_inference_completions_cost": 0.0006912
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-mini-2025-04-14",
+  "ts": 1776835471717
+}

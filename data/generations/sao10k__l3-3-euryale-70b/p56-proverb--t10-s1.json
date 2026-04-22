@@ -1,0 +1,33 @@
+{
+  "model": "sao10k/l3.3-euryale-70b",
+  "prompt_id": "p56-proverb",
+  "prompt": "Translate this English proverb into two other languages in a way that preserves the spirit, not the words: 'The best time to plant a tree was twenty years ago. The second best time is now.' Add a one-sentence note on each.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Here are the translations:\n\n**French:** \"L'occasion idéale pour planter un arbre, c'est souvent lorsque l'on n'y pense pas ; mais il n'est jamais trop tard pour commencer.\" \nNote: This translation preserves the spirit of the original proverb by using a similar structure and conveying the idea that while the ideal time may have passed, now is still a good time to take action.\n\n**Spanish:** \"Aunque el mejor momento para sembrar un árbol fue hace mucho tiempo, cada día es una oportunidad para dar el primer paso hacia un futuro mejor.\" \nNote: This translation maintains the essence of the original proverb by emphasizing that while the optimal time may have passed, every day presents a new chance to start working towards a better future.\n\nThese translations aim to preserve the spirit of the original proverb while using language and structures that are natural in the target languages.",
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 184,
+    "total_tokens": 244,
+    "cost": 0.000177,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000177,
+      "upstream_inference_prompt_cost": 0.000039,
+      "upstream_inference_completions_cost": 0.000138
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "sao10k/l3.3-euryale-70b-v2.3",
+  "ts": 1776841402587
+}

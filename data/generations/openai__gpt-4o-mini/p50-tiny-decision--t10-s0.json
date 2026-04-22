@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4o-mini",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Alright, so let’s think this through. \n\nFirst off, I’d consider how many dishes are in the dishwasher right now. A half-full load means I’m saving some space, but also that it’s not a full use of energy or water. I’d ask myself how long I can wait until tomorrow. If leaving it until tomorrow means the dishes might pile up more, that could lead to a bigger, messier load.\n\nNext, I would think about timing. If it’s late in the evening and I’ll be up early, putting the dishwasher on now might not be ideal since I’d probably prefer to let it run overnight. Plus, if I run it now, it’ll finish and be done by morning, which means I can unload it first thing and start the day off with everything clean.\n\nOn the other hand, if I wait until tomorrow to run a full load, that makes more sense in terms of efficiency. It might take a little longer to get around to washing, but I’ll definitely use up all the space and resources better that way. But then again, is there a reason that the half-full load is bothering me right now? Maybe there are items that need to be washed sooner rather than later.\n\nAlso, I’d consider water and energy costs. Running a half-full dishwasher isn't super efficient, so I’d weigh if it’s worth wasting that. But if there’s something that I need cleaned immediately (like that pot that’s taking up space), that might sway my decision.\n\nUltimately, I think it comes down to whether I value getting the half-load taken care of now or if I prefer saving it up for a more responsible full load tomorrow. If I'm leaning toward the idea of being organized and less cluttered, I might just run it now, even if it’s not the most ideal solution. But if I can wait and it’ll be easy enough to deal with tomorrow, I’d probably hold off and run it with a full load.",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 398,
+    "total_tokens": 443,
+    "cost": 0.00024555,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00024555,
+      "upstream_inference_prompt_cost": 0.00000675,
+      "upstream_inference_completions_cost": 0.0002388
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4o-mini",
+  "ts": 1776835559782
+}

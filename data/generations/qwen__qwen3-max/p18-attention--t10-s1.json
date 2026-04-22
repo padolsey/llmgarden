@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Imagine you’re translating a sentence like “The cat, which was tired, sat on the mat.” When translating “sat,” you need to know it refers to “cat,” not “mat.” Traditional models process words one by one, losing context over distance. Transformers solve this with *attention*—a way for each word to “pay attention” to other words that matter most for understanding it.\n\nTechnically, each word is turned into three vectors: **Query** (what it’s looking for), **Key** (what it offers), and **Value** (its actual content). For every word, the model computes attention scores by comparing its Query to every other word’s Key—high scores mean strong relevance. These scores are turned into weights (via softmax), which scale the corresponding Values. The weighted Values are summed to produce a new representation that blends relevant context.\n\nThis happens in parallel for all words, making transformers fast and powerful. Multiple attention “heads” let the model look at different relationships at once (e.g., subject-verb, adjective-noun). The result: each word’s final representation captures rich, long-range dependencies—critical for tasks like translation or summarization. No recurrence, no convolution—just smart, parallelized context mixing.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 253,
+    "total_tokens": 289,
+    "cost": 0.00101478,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00101478,
+      "upstream_inference_prompt_cost": 0.00002808,
+      "upstream_inference_completions_cost": 0.0009867
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776839174846
+}

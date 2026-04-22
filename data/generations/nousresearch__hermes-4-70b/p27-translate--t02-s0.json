@@ -1,0 +1,33 @@
+{
+  "model": "nousresearch/hermes-4-70b",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "French: \"Le silence entre nous en disait plus que n'importe quel argument aurait pu le faire.\"\n\nJapanese: \"私たち之间の沈黙は、どんな議論よりも多くのことを語っていました。\"\n\nArabic: \"الصمت بيننا قال أكثر مما يمكن لأي جدال أن يقوله.\"\n\nNote: The phrase \"said more than any argument could have\" was tricky to render faithfully in all three languages. In French, \"en disait plus que n'importe quel argument aurait pu le faire\" captures the meaning, but the structure is slightly different from the English. In Japanese, \"どんな議論よりも多くのことを語っていました\" conveys the idea, but the word order is different. In Arabic, \"قال أكثر مما يمكن لأي جدال أن يقوله\" is a close translation, but the word \"could\" is implied rather than directly translated.",
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 188,
+    "total_tokens": 253,
+    "cost": 0.00008365,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00008365,
+      "upstream_inference_prompt_cost": 0.00000845,
+      "upstream_inference_completions_cost": 0.0000752
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "nousresearch/hermes-4-70b",
+  "ts": 1776829760928
+}

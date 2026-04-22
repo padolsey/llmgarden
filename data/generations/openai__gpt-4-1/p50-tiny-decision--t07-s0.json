@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Absolutely! Here’s how I’d actually think through this—step by step, like I would if it were my own kitchen:\n\n**1. What’s in the dishwasher now?**  \nAre there any items in there you need soon—like your favorite coffee mug, or a specific pan? If yes, that pushes me toward running it now. If no, I can wait.\n\n**2. Smell and cleanliness.**  \nIf there’s anything in there that smells bad or is likely to get gross overnight (like bowls with leftover milk, or plates with egg), I’d lean toward running it now. If it’s mostly rinsed, not stinky, and will be fine sitting another day, waiting is okay.\n\n**3. Energy and water use.**  \nA full dishwasher is more efficient. If you’re at all concerned about saving water or electricity, waiting until it’s full is better. But if it’s only half-empty because you don’t have many dishes, maybe running it now is justified.\n\n**4. Tomorrow’s schedule.**  \nWill you have time or remember to run it tomorrow? If tomorrow is busy and you might forget or be annoyed to find no clean dishes, maybe run it now. If you know you’ll be home and can run it, wait.\n\n**5. Habit and convenience.**  \nDo you hate having dirty dishes sitting around? Or do you hate unloading the dishwasher more than once a day? For me, I’d rather wait and do it all at once unless there’s a smell or I need something.\n\n**6. Dishwasher detergent and wear.**  \nRunning it half-full uses more detergent per dish and wears the machine a bit more for less benefit. Not a big deal unless you’re trying to be especially economical.\n\n**So, what would I do?**  \nUnless there’s a gross smell, something I urgently need, or a habit of running it nightly, I’d wait until tomorrow so it’s full, save water/energy, and only unload once. If I was worried about smells, I’d do a quick rinse or start it now.\n\n**Final check:**  \n- No urgent dish needs?  \n- No bad smells?  \n- You’re not going to forget tomorrow?  \nIf all yes, I’d wait!\n\nLet me know if there’s a specific factor you care about most—I can help you weigh it!",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 483,
+    "total_tokens": 528,
+    "cost": 0.003954,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003954,
+      "upstream_inference_prompt_cost": 0.00009,
+      "upstream_inference_completions_cost": 0.003864
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-2025-04-14",
+  "ts": 1776831579035
+}

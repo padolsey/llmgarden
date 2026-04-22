@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p43-abstract",
+  "prompt": "Explain what \"meaning\" means. Not \"the meaning of X\" — the concept itself.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Short answer\nMeaning is the rule-governed connection between a sign (word, gesture, symbol, state) and what counts as taking or using it correctly by an interpreter in a context. It is the “aboutness” (what it is of or about) together with the norms, expectations, and effects that make that connection stable and shareable.\n\nWhat this involves\n- A sign or representation: a word, picture, signal, neural pattern, etc.\n- An object/content: what it’s about (a thing, property, event, state of affairs, intention, or action).\n- An interpreter: someone or something that can use/understand it.\n- A context and conventions: which fix how to resolve ambiguity, indexicals, tone, and implied meanings.\n- Correctness conditions: what would make its use correct (true, appropriate, satisfied, fulfilled).\n\nKey distinctions\n- Natural vs conventional meaning:\n  - Natural: smoke means fire (causal indication).\n  - Conventional: a red light means stop (social rule).\n- Sentence meaning vs speaker meaning:\n  - Sentence meaning: conventional content of the words.\n  - Speaker meaning: what the speaker intends you to recognize by their saying it (“It’s cold in here” meaning “Please close the window”).\n- Reference vs sense:\n  - Reference: what term points to (Venus).\n  - Sense: the way it presents that thing (“morning star” vs “evening star”).\n- Literal content vs implicature/presupposition:\n  - Literal: encoded by the words.\n  - Implicature: conveyed by cooperative inference.\n  - Presupposition: background taken for granted.\n- Type vs token:\n  - Type meaning is stable across instances; tokens are particular uses.\n\nWays theorists cash it out (complementary, not exclusive)\n- Use-theoretic (Wittgenstein): meaning is use in a language game.\n- Gricean pragmatics: meaning is an intention recognized by an audience.\n- Truth-conditional/model-theoretic: meaning fixes truth conditions by mapping expressions to models or possible worlds.\n- Inferential role/proof-theoretic: meaning is the role in patterns of inference; what follows from or licenses what.\n- Information-theoretic: meaning as carried, usable information for a consumer system.\n- Teleosemantics: meaning grounded in the biological function of a representation (what it is for).\n- Distributional/structural: meaning from a term’s relations and contrasts within a system (“you shall know a word by the company it keeps”).\n\nHow it composes and varies\n- Compositionality: meanings of wholes depend on parts plus structure.\n- Context-sensitivity: indexicals (“I,” “here,” “now”), demonstratives, and vagueness.\n- Expressive and directive meaning: not just describing, but expressing attitudes (“damn!”) or issuing directives (“Stop!”).\n\nBeyond language\n- Signals in nature: bee dances “mean” food location by evolved function.\n- Art and music: often convey affective or associative content rather than truth-conditions.\n- AI and symbol grounding: how symbols get nonarbitrary content that guides correct action.\n\nWhy it’s normative\n- To have a meaning is to be evaluable: uses can be correct/mistaken, apt/inapt, sincere/ironic. Meaning brings standards that make misunderstanding possible and learning necessary.\n\nAnother common sense of “meaning”\n- Significance or purpose (“the meaning of life”) is related but different: it’s about value and point rather than representational content. Both involve norms and shared standards, but one is about aboutness, the other about worth.\n\nOne-sentence synthesis\nMeaning is the socially and functionally stabilized set of constraints that link a representation to what it is about and to the ways it may be correctly used, interpreted, and acted upon in context.",
+  "usage": {
+    "prompt_tokens": 25,
+    "completion_tokens": 1988,
+    "total_tokens": 2013,
+    "cost": 0.01991125,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01991125,
+      "upstream_inference_prompt_cost": 0.00003125,
+      "upstream_inference_completions_cost": 0.01988
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1152,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776834929230
+}

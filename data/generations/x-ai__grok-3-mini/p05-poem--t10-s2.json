@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-3-mini",
+  "prompt_id": "p05-poem",
+  "prompt": "Write a short poem (8–16 lines) about the feeling of finishing a long project. Any form you like.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "At last, the final line is drawn,  \nA weary sigh escapes the night,  \nMonths of shadows, now withdrawn,  \nRevealing dawn's triumphant light.  \n  \nThe weight that bent my burdened back  \nLifts like fog from morning fields,  \nPride blooms in the quiet track  \nOf dreams once vague, now fiercely sealed.  \n  \nExhaustion lingers, sweet and deep,  \nYet joy ignites a spark anew,  \nFor in this end, a promise keeps:  \nThe world awaits what next I'll do.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 600,
+    "total_tokens": 631,
+    "cost": 0.00030255,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 30,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00030255,
+      "upstream_inference_prompt_cost": 0.00000255,
+      "upstream_inference_completions_cost": 0.0003
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 492,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-3-mini",
+  "ts": 1776839983562
+}

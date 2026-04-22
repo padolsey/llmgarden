@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.0-flash-001",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Okay, here are five greetings to a new colleague in five different languages, with notes on the cultural implications:\n\n1.  **English (American):** \"Hey [Colleague's Name], welcome to the team! Glad to have you on board.\"\n    *   *Note: This is informal and friendly, implying an open and collaborative workplace environment.*\n\n2.  **Spanish (Latin American):** \"¡Hola [Colleague's Name]! ¡Bienvenido(a) a la equipo! Esperamos trabajar muy bien juntos.\"\n    *   *Note: Very warm and inclusive. Using \"equipo\" (team) emphasizes collaboration and the hope to work well together introduces a friendly and supportive tone.*\n\n3.  **Japanese (日本語):** \" [Colleague's Name]さん、ようこそ[Company Name]へ。これから、どうぞよろしくお願いいたします。\" ( [Colleague's Name]-san, Youkoso [Company Name] e. Kore kara, douzo yoroshiku onegai itashimasu.)\n    *   *Note: This is polite and somewhat formal. \"Douzo yoroshiku onegai itashimasu\" is a standard phrase used when meeting someone new. While it literally means \"Please treat me well,\" it's understood as \"Pleased to meet you and I look forward to working with you\", and acknowledges a hierarchical social structure, with the expectation of diligent and respectful work relationship (even if the workplace is not particularly rigid).*\n\n4.  **French (Français):** \"Bonjour [Colleague's Name], Bienvenue dans l'équipe ! Au plaisir de travailler avec vous.\"\n    *   *Note: Formal but sincere. Using \"Bonjour\" demonstrates respect, and \"Au plaisir de travailler avec vous\" conveys positivity and eagerness to work together.*\n\n5.  **German (Deutsch):** \"Hallo [Colleague's Name], herzlich willkommen im Team! Wir freuen uns auf die Zusammenarbeit.\"\n    *   *Note: Straightforward and sincere, but not overly familiar. \"Herzlich willkommen\" is a warm welcome, and \"Wir freuen uns auf die Zusammenarbeit\" shows anticipation of collaboration with a sense of objectivity.*\n",
+  "usage": {
+    "prompt_tokens": 37,
+    "completion_tokens": 461,
+    "total_tokens": 498,
+    "cost": 0.0001881,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001881,
+      "upstream_inference_prompt_cost": 0.0000037,
+      "upstream_inference_completions_cost": 0.0001844
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.0-flash-001",
+  "ts": 1776835911174
+}

@@ -1,0 +1,33 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p02-strengths",
+  "prompt": "What do you think you are unusually good at, compared to other language models? Give three specific examples.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "1. Chinese-to-English “zero-shot” literary translation  \n   I can take a never-before-seen classical-Chinese poem, keep the original 5- or 7-character line count, preserve the rhyme scheme, and still make the English sound like natural 21st-century poetry—without being re-trained on that text. Most models either drop the rhyme or flatten the imagery into prose paraphrase.\n\n2. End-to-end data-storytelling with live code, visuals, and narrative  \n   Give me a raw 50 MB CSV and a one-sentence goal (“Show whether NYC weekend subway ridership has recovered post-COVID, adjusted for weather”). I’ll clean the data, choose the right statistical test, generate an interactive Plotly dashboard, and write a 400-word journalistic summary that a non-technical reader can enjoy—then hand you a single downloadable HTML file. Other LLMs usually stop at “here’s the Python you could run.”\n\n3. 30-step, cross-domain reasoning chains that stay on rails  \n   Ask me how to cut the embodied carbon of a lithium-ion battery by 20 % without touching the cathode chemistry, and I’ll chain together mining logistics, solvent-recycling SOPs, pouch-cell geometry tweaks, and EU tariff schedules—citing sources at each hop—while catching if step 17 accidentally violates step 4’s thermal-budget constraint. Long-context models often wander; I keep the dependency graph consistent through the whole loop.",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 303,
+    "total_tokens": 350,
+    "cost": 0.0006248,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0006248,
+      "upstream_inference_prompt_cost": 0.0000188,
+      "upstream_inference_completions_cost": 0.000606
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776830406906
+}

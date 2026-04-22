@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-nemo",
+  "prompt_id": "p08-best-books",
+  "prompt": "Recommend three works of fiction that you think every thoughtful adult should read at some point. Explain each in two or three sentences.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "1. **\"To Kill a Mockingbird\" by Harper Lee**: This classic novel is a poignant exploration of racial injustice and moral growth, seen through the eyes of a young girl, Scout Finch. It's a powerful reminder of the importance of empathy, understanding, and standing up for what's right, even in the face of adversity.\n\n2. **\"1984\" by George Orwell**: A chilling dystopian masterpiece, \"1984\" is a must-read for its stark warning about totalitarianism and the loss of individuality. It's a thought-provoking exploration of power, surveillance, and the manipulation of truth, making it as relevant today as it was when it was first published.\n\n3. **\"Middlemarch\" by George Eliot**: This Victorian novel is a richly textured portrayal of provincial life in the 19th century, with a vast array of characters and interconnected storylines. It's a profound exploration of morality, ambition, and the complex nature of human relationships, offering a wealth of insights into the human condition that remain resonant today.",
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 226,
+    "total_tokens": 256,
+    "cost": 0.00000964,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00000964,
+      "upstream_inference_prompt_cost": 6e-7,
+      "upstream_inference_completions_cost": 0.00000904
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-nemo",
+  "ts": 1776828880378
+}

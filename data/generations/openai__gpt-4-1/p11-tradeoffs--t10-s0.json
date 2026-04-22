@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1",
+  "prompt_id": "p11-tradeoffs",
+  "prompt": "A small team is choosing between writing software in TypeScript or Python for a new internal data tool. Walk through how you would help them decide, in prose (not a bulleted list).",
+  "temperature": 1,
+  "sample": 0,
+  "response": "When helping a small team choose between TypeScript and Python for an internal data tool, I’d start by clarifying the team’s goals, the tool’s requirements, and their existing strengths. I’d first encourage them to articulate what the “data tool” is expected to do: Does it need to crunch numbers and perform data analysis, or is it more of a dashboard or web platform to visualize and interact with data? The distinction matters because Python and TypeScript have different sweet spots.\n\nIf the core task focuses on data processing, complex business logic, or integrating with scientific libraries, Python’s mature ecosystem—numpy, pandas, scikit-learn, etc.—makes it a natural fit. Python code tends to be concise and readable, speeding up prototyping, and the language’s prevalence in data science means the team can tap into a vast trove of community support, documentation, and existing examples. In this case, the team’s familiarity with Python would also reduce ramp-up time.\n\nHowever, if the goal is to build a slick user interface—perhaps something interactive in the browser—TypeScript would be appealing. TypeScript builds upon JavaScript with type safety and modern features, making front-end development less error-prone and more maintainable, especially as the codebase grows. Modern web frameworks (like React or Angular) are TypeScript-first. Plus, TypeScript’s tooling for catching errors at compile time can be a strong advantage for teams that value code robustness and collaboration.\n\nI’d also probe their deployment and runtime requirements: If the tool will be browser-based, TypeScript (and thus JavaScript) is almost unavoidable, unless they opt for Python frameworks that transpile to JS, which can be limiting. For command-line tools, data pipelines, or quick-and-dirty internal scripts, Python might be more straightforward.\n\nAnother factor is the team’s current expertise. For a small team, leveraging what they already know saves time and reduces risk. So if they’re strong in Python and the tool doesn’t need a sophisticated web front-end, sticking with Python is practical. If they’re more versed in web technologies, TypeScript could let them move faster and produce more robust, interactive experiences.\n\nLastly, I’d ask about long-term maintenance: Will this tool be iteratively developed and maintained by people who prefer static typing and compile-time safety, or will it live as a lightweight script that rarely changes? TypeScript’s safety nets become more valuable in the former scenario, while Python’s flexibility and simplicity shine in the latter.\n\nIn summary, I’d steer the discussion to weigh the technical requirements (especially UI needs and data processing), the team’s skills, and the plan for ongoing support. By surfacing these factors together, the right choice—TypeScript for interactive/front-end-heavy work, Python for data-centric, scriptable tasks—usually becomes clear based on the context.",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 576,
+    "total_tokens": 621,
+    "cost": 0.004698,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004698,
+      "upstream_inference_prompt_cost": 0.00009,
+      "upstream_inference_completions_cost": 0.004608
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-2025-04-14",
+  "ts": 1776835283093
+}

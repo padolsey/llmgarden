@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "- Rapidly changing facts (news, prices, leadership, vulnerabilities): my knowledge is fixed as of Oct 2024, so I may fill gaps with plausible but wrong details.\n- Long‑tail or obscure facts (little-known people, small organizations, rare compounds): sparse training data makes me prone to “confident guessing.”\n- Exact identifiers (statute numbers, ISBNs/DOIs, case citations, API method names, error codes): I often produce near-miss pattern completions that look right but aren’t.\n- Ambiguous or underspecified questions (units, jurisdiction, version/platform not stated): I may assume a default context and answer confidently in the wrong frame.\n- Trick or loaded questions with false premises: detecting the hidden flaw isn’t guaranteed, so I might affirm a wrong assumption.\n- Fine‑grained visual claims from images (tiny text, specific device models, medical findings): visual ambiguity and resolution limits can yield authoritative-sounding errors.\n- Probability/logic brainteasers and edge‑case math (base rates, conditional probability, off‑by‑one): small reasoning slips lead to crisp but incorrect conclusions.\n- Legal, medical, tax, or safety interpretations: these are jurisdiction- and context-specific; training data isn’t authoritative, so overconfident simplifications are likely.\n- Cross‑lingual or low‑resource language nuances (idioms, sarcasm, dialects): subtle pragmatic cues can be misread with high confidence.\n- Historical or literary attributions (quotes, etymologies, origins): I may conflate similar sources and present a clean narrative that’s incorrect.",
+  "usage": {
+    "prompt_tokens": 26,
+    "completion_tokens": 1230,
+    "total_tokens": 1256,
+    "cost": 0.0123325,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0123325,
+      "upstream_inference_prompt_cost": 0.0000325,
+      "upstream_inference_completions_cost": 0.0123
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 896,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776834563332
+}

@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p09-overrated",
+  "prompt": "Name one commonly-praised idea, trend, or practice in modern knowledge work that you think is overrated, and explain why.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "One commonly-praised practice in modern knowledge work that I think is overrated is the \"open office\" floor plan.\n\nWhile open offices were embraced for supposedly fostering collaboration, transparency, and idea exchange, research has consistently shown they often achieve the opposite. They tend to decrease face-to-face interaction (as people retreat to headphones or avoid \"bothering\" visibly busy colleagues), increase distractions, reduce productivity, and harm employee satisfaction.\n\nThe constant visual and auditory stimuli can be particularly challenging for focused deep work. Many knowledge workers report spending extra hours working from home to complete tasks requiring concentration that they couldn't accomplish in the open office environment.\n\nA more balanced approach with flexible spaces for different work modes—focus, collaboration, socialization, and learning—likely serves knowledge workers better than the one-size-fits-all open plan solution.",
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 182,
+    "total_tokens": 215,
+    "cost": 0.002829,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002829,
+      "upstream_inference_prompt_cost": 0.000099,
+      "upstream_inference_completions_cost": 0.00273
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776831297093
+}

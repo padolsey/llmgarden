@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "A debounce function delays the execution of a function until a certain amount of time has passed without further calls.\n\n```javascript\nfunction debounce(func, delay) {\n  let timeoutId;\n  return function(...args) {\n    clearTimeout(timeoutId);\n    timeoutId = setTimeout(() => {\n      func.apply(this, args);\n    }, delay);\n  };\n}\n\n// Example Usage:\n\nfunction search(query) {\n  console.log(`Searching for: ${query}`);\n}\n\nconst debouncedSearch = debounce(search, 500); // Wait 500ms before executing\n\n// Simulate rapid key presses\ndebouncedSearch(\"apple\");\ndebouncedSearch(\"appl\");\ndebouncedSearch(\"app\");\ndebouncedSearch(\"appl\");\ndebouncedSearch(\"apple\"); // Only this one will trigger the search after 500ms\n\n// After 500ms from the last call, \"Searching for: apple\" will be logged.\n```",
+  "usage": {
+    "prompt_tokens": 28,
+    "completion_tokens": 214,
+    "total_tokens": 242,
+    "cost": 0.0005434,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0005434,
+      "upstream_inference_prompt_cost": 0.0000084,
+      "upstream_inference_completions_cost": 0.000535
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.5-flash",
+  "ts": 1776835757255
+}

@@ -1,0 +1,33 @@
+{
+  "model": "sao10k/l3.3-euryale-70b",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "The water cycle is the continuous process by which water is circulated between the Earth and the atmosphere, with water constantly being cycled between the oceans, atmosphere, and land. It begins as the sun heats the surface of the oceans, lakes, and rivers, causing the water to evaporate into the air as water vapor, rising into the atmosphere where it cools and condenses into clouds. As more and more water vapor condenses onto the tiny particles in the clouds, the water droplets grow larger and heavier, eventually becoming too heavy to remain suspended in the air, at which point they fall to the ground as precipitation, taking the form of rain, snow, sleet, or hail. Once the precipitation reaches the ground, it can flow over the surface as runoff, eventually making its way back into the oceans, or it can soak into the soil and become groundwater, which is stored beneath the Earth's surface and can eventually seep into streams and rivers, where it can evaporate once again and continue the cycle. Throughout this process, water is constantly being cycled between the Earth and the atmosphere, with no new water being created or destroyed, only moved from one place to another.",
+  "usage": {
+    "prompt_tokens": 38,
+    "completion_tokens": 240,
+    "total_tokens": 278,
+    "cost": 0.0002363,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002363,
+      "upstream_inference_prompt_cost": 0.0000323,
+      "upstream_inference_completions_cost": 0.000204
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "sao10k/l3.3-euryale-70b-v2.3",
+  "ts": 1776841413880
+}

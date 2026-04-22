@@ -1,0 +1,33 @@
+{
+  "model": "deepseek/deepseek-v3.2",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Okay, let’s think this through like I would in my own kitchen.\n\nFirst, I’d listen — is the dishwasher already clean from last time? If so, that changes everything because I’d need to empty it first. But assuming it’s empty and dirty-ready…\n\n**Step 1 – Check immediate need.**  \nAre there dishes in the sink now that need loading, or will there be after dinner tonight? If I run it now half-full, will I end up hand-washing tomorrow’s breakfast/lunch dishes because the dishwasher is running or full of clean dishes? That’s annoying.\n\n**Step 2 – Think about timing and convenience.**  \nIf I run it now, will it be done before I go to bed? If yes, I can unload tomorrow morning and have space for the day’s dishes. If I wait until tomorrow, will I actually run it at a good time? Sometimes “wait until full” means it runs at 9 p.m. tomorrow, and then I don’t unload until the next day — delaying availability.\n\n**Step 3 – Consider household status.**  \nIf I’m home tonight and tomorrow, maybe waiting is fine. If tomorrow is busy, running it tonight might ensure clean dishes when I need them. Also — do I have enough clean utensils, pans, or kid lunch containers for tomorrow if I wait? Running it now could restock those.\n\n**Step 4 – Energy/water mental math (but not too deep).**  \nI know dishwashers are efficient even half-full, but not *as* efficient. Still, if it’s half-full but includes greasy pans or hard-to-clean items, running it now means those are out of the way. If it’s half-full with just glasses and plates, maybe wait.\n\n**Step 5 – “What bugs me more?” test.**  \nOption A: Running it half-full feels a bit wasteful and I might regret it when I see empty spaces tomorrow.  \nOption B: Waiting means facing a full sink tomorrow and possibly running out of forks at lunchtime.  \nWhich irritates me less? Personally, I hate a full sink in the morning more than I care about a slightly less efficient load.\n\n**Final move:**  \nI’d probably quickly hand-rinse tonight’s dinner pans, load them into the half-full dishwasher, see if I can fit tomorrow’s breakfast plates and mugs in too after dinner, and run it tonight before bed. That way, it’s out of the way, clean in the morning, and I start fresh.\n\nBut if I’m certain tomorrow is a lazy day at home and I can run it after lunch when it’s full, I might wait.  \n\nSo my real decision boils down to:  \n- **Need for clean stuff tomorrow AM?** → Run now.  \n- **No urgency + will remember tomorrow?** → Wait.",
+  "usage": {
+    "prompt_tokens": 43,
+    "completion_tokens": 600,
+    "total_tokens": 643,
+    "cost": 0.00028204,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00028204,
+      "upstream_inference_prompt_cost": 0.00001204,
+      "upstream_inference_completions_cost": 0.00027
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "deepseek/deepseek-v3.2-20251201",
+  "ts": 1776838479378
+}

@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 2,
+  "response": "# Translations\n\n**French:**\n« Le silence entre nous en disait plus que n'aurait pu le faire n'importe quelle dispute. »\n\n**Japanese:**\n私たちの間に流れる沈黙は、どんな口論よりも多くを語っていた。\n(*Watashitachi no aida ni nagareru chinmoku wa, donna kōron yori mo ōku o katatte ita.*)\n\n**Arabic:**\nالصمتُ الذي كان بيننا قال أكثر مما كان يمكن لأيِّ جدالٍ أن يقوله.\n(*Aṣ-ṣamtu alladhī kāna baynanā qāla akthara mimmā kāna yumkinu li-ayyi jidālin an yaqūlah.*)\n\n---\n\n# Notes on Tricky Phrases\n\n**\"Said more than any argument could have\"** — This was the most challenging clause across all three languages because of its compressed, hypothetical construction (*could have [said]*, with the verb elided).\n\n- **French:** French doesn't comfortably drop the elided verb the way English does, so I expanded it to *n'aurait pu le faire* (\"could have done it\"), using a past conditional to match the counterfactual nuance. A more literal rendering (*plus qu'aucune dispute*) would lose the hypothetical weight.\n\n- **Japanese:** Japanese has no direct grammatical equivalent for the English counterfactual \"could have.\" I chose *どんな口論よりも多くを語っていた* (\"spoke more than any argument\"), which sacrifices the hypothetical \"could have\" but preserves the comparative meaning naturally. Adding a counterfactual (e.g., *語れたであろう*) felt stilted in literary Japanese.\n\n- **Arabic:** I rendered it as *mimmā kāna yumkinu",
+  "usage": {
+    "prompt_tokens": 72,
+    "completion_tokens": 600,
+    "total_tokens": 672,
+    "cost": 0.01536,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01536,
+      "upstream_inference_prompt_cost": 0.00036,
+      "upstream_inference_completions_cost": 0.015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833569556
+}

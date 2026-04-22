@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.0-flash-001",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "A question where I am likely to be confidently wrong is one requiring a quick, intuitive answer based on **common sense** in a complex, **statistically driven situation**, particularly when influenced by **cognitive biases**.\n\nHere's why:\n\n*   **Reliance on Intuition over Data:** My \"gut feeling\" or common sense often leads to incorrect conclusions when dealing with probabilities or large datasets. Human intuition is notoriously bad at grasping statistical concepts like regression to the mean, conditional probability, or the base rate fallacy. I might confidently answer based on a simplistic, cause-and-effect narrative when a more complex statistical explanation is actually at play.\n\n*   **Influence of Cognitive Biases:** My reasoning is susceptible to various cognitive biases that can lead to overconfidence in a wrong answer. For example:\n    *   **Confirmation Bias:** If I have a pre-existing belief, I might latch onto information that supports it and confidently dismiss contradictory data, even if the contradictory data is more statistically significant.\n    *   **Availability Heuristic:** I might overestimate the likelihood of events that are easily recalled, such as those that are vivid or recent, leading me to confidently make incorrect probability judgments.\n    *   **Representativeness Heuristic:** I might judge the probability of an event based on how similar it is to a stereotype, ignoring base rates and other relevant information. This can lead to confident misclassifications.\n    *   **Dunning-Kruger Effect:**  My perceived competence in a subject can be inflated if I lack sufficient foundational knowledge. A little bit of knowledge can be dangerous, leading to confident but incorrect assertions.\n\n*   **Lack of Awareness of Complexity:** Some situations are simply too complex for a quick, intuitive understanding. If I don't realize the underlying complexity or the number of interacting variables, I might confidently offer a simplified (and incorrect) explanation. \n\n**Example:**\n\nImagine being asked: \"There's a town with two hospitals, one large and one small. In which hospital are you likely to observe more days where over 60% of the babies born are boys?\"\n\nIntuitively, I might think that both hospitals would have roughly the same frequency of such days. However, the smaller hospital, due to its smaller sample size, is more likely to experience larger deviations from the average birth rate (due to random chance alone). So the correct answer is the smaller hospital, but I would likely answer with the WRONG answer with much confidence.\n\nIn such situations, my quick \"common sense\" answer, fueled by biases and a limited understanding of statistical principles, is likely to be confidently wrong. Recognizing this vulnerability is crucial for approaching such questions with more caution and seeking out data-driven explanations before forming a strong opinion.\n",
+  "usage": {
+    "prompt_tokens": 20,
+    "completion_tokens": 565,
+    "total_tokens": 585,
+    "cost": 0.000228,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000228,
+      "upstream_inference_prompt_cost": 0.000002,
+      "upstream_inference_completions_cost": 0.000226
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.0-flash-001",
+  "ts": 1776835851310
+}

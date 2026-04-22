@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1",
+  "prompt_id": "p02-strengths",
+  "prompt": "What do you think you are unusually good at, compared to other language models? Give three specific examples.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Great question! Based on my training and architecture as GPT-4, here are three areas where I may excel compared to many previous language models and even some contemporaries:\n\n1. **Contextual Understanding and Retention:**  \n   I'm especially good at understanding long, nuanced texts and carrying context reliably throughout a conversation. This allows me to address multi-turn questions, maintain consistency, and avoid repetition or contradictions more effectively than many earlier models.\n\n2. **Multimodal Capability:**  \n   With image input enabled, I can process and analyze both text and images. For example, I can describe the content of an image, extract text from a photo, or answer questions that involve both visual and textual information—something that sets me apart from most text-only language models.\n\n3. **Fact-Checking and Nuanced Reasoning (Within My Knowledge Cutoff):**  \n   My training includes not just memorizing facts but also reasoning abilities like comparing sources, identifying logical fallacies, and synthesizing complex information. This means I can provide balanced answers, explain my reasoning step by step, and flag uncertainty when a topic is ambiguous or controversial.\n\nOf course, there are always limits and I’m not infallible—but these are areas where I generally perform strongly, especially compared to past generations or more specialized models.",
+  "usage": {
+    "prompt_tokens": 28,
+    "completion_tokens": 262,
+    "total_tokens": 290,
+    "cost": 0.002152,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002152,
+      "upstream_inference_prompt_cost": 0.000056,
+      "upstream_inference_completions_cost": 0.002096
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-2025-04-14",
+  "ts": 1776835263677
+}

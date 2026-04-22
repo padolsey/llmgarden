@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p56-proverb",
+  "prompt": "Translate this English proverb into two other languages in a way that preserves the spirit, not the words: 'The best time to plant a tree was twenty years ago. The second best time is now.' Add a one-sentence note on each.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "# Two Translations\n\n## French\n**\"Le meilleur moment pour planter un arbre était il y a vingt ans. Le second meilleur moment est maintenant.\"**\n\n*Note: French preserves the exact temporal structure, which aligns well with the proverb's philosophical directness about regret and action.*\n\n## Mandarin Chinese\n**\"种树的最好时候是二十年前,其次是现在。\"**\n(Zhòngshù de zuì hǎo shíhou shì èrshí nián qián, qīcì shì xiànzài.)\n\n*Note: The Chinese version feels particularly apt since Confucian philosophy already emphasizes the importance of timely action and accepting what cannot be changed, resonating with the proverb's core message.*\n\n---\n\n**Alternative approach (more spirited than literal):**\n\nIf you prefer a freer interpretation that captures the *essence* rather than structure, the French might say: *\"Mieux vaut tard que jamais, mais mieux vaut tôt que tard\"* (Better late than never, but better early than late) — which captures the regret and urgency without the tree metaphor.",
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 275,
+    "total_tokens": 336,
+    "cost": 0.001436,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001436,
+      "upstream_inference_prompt_cost": 0.000061,
+      "upstream_inference_completions_cost": 0.001375
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833934611
+}

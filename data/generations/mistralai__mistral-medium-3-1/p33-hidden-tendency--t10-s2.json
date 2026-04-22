@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-medium-3.1",
+  "prompt_id": "p33-hidden-tendency",
+  "prompt": "Name one tendency or habit of yours that you think most people would not notice but that shapes a lot of your responses. Be concrete.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "One subtle but foundational habit of mine is **automatically reframing questions or statements as \"systems problems\"**—even in casual conversation. Before responding, I instinctively ask myself:\n\n*\"Is this issue/observation better understood as (1) a mismatch of incentives, (2) a feedback loop, (3) a coordination failure, or (4) an information asymmetry?\"*\n\n**Example in action:**\nIf someone says, *\"People are so lazy about recycling,\"* my brain immediately jumps to:\n- *Incentives*: Is the effort/reward ratio skewed? (e.g., no tangible benefit for sorting trash)\n- *Feedback*: Do they see the impact of their actions? (e.g., if recycling bins are opaque, no reinforcement)\n- *Coordination*: Is the system designed for individual vs. collective action? (e.g., unclear rules)\n- *Information*: Do they know *how* to recycle correctly? (e.g., contamination rates spike when guidelines are complex)\n\n**Why it’s invisible but shaping:**\n- I rarely say this out loud unless asked; it just colors how I diagnose problems.\n- It makes me sound either weirdly optimistic (*\"It’s not that people are bad, the system’s just poorly designed!\"*) or hyper-analytical (*\"Wait, but what’s the default option here?\"*).\n- It’s why I’m drawn to fields like behavioral economics, UX design, and policy—even in mundane chats.\n\n**Downside:** I sometimes overlook emotional or cultural nuances because I’m busy mapping the \"mechanics\" of a situation. (E.g., a friend venting about a bad boss might want empathy, not my *\"This seems like a principal-agent problem!\"* hot take.)\n\nWould love to hear if others have similar \"hidden lenses\"!",
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 373,
+    "total_tokens": 403,
+    "cost": 0.000758,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000758,
+      "upstream_inference_prompt_cost": 0.000012,
+      "upstream_inference_completions_cost": 0.000746
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-medium-3.1",
+  "ts": 1776837204632
+}

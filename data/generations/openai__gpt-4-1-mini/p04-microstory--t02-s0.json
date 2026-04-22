@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1-mini",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "The lighthouse keeper, Elias, had tended the solitary beacon for decades, his life marked by the steady rhythm of waves and the ceaseless sweep of light. One evening, as a thick fog rolled in, swallowing the coastline, Elias noticed an unusual glow beyond the usual shimmer of the sea. Curiosity pulled him toward the cliff’s edge, where the mist clung like a ghostly veil.\n\nPeering through the haze, Elias saw a faint outline of a ship, but it was unlike any vessel he had ever known. Its sails shimmered with an ethereal light, translucent and shifting, as if woven from the fog itself. The ship moved silently, gliding over the water without a sound.\n\nFor a moment, time seemed to pause. Elias felt a strange calm wash over him, a connection to something beyond the ordinary world. Then, as suddenly as it appeared, the ship vanished into the mist, leaving only the steady beam of the lighthouse to guide the night.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 198,
+    "total_tokens": 229,
+    "cost": 0.0003292,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0003292,
+      "upstream_inference_prompt_cost": 0.0000124,
+      "upstream_inference_completions_cost": 0.0003168
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-mini-2025-04-14",
+  "ts": 1776828201328
+}

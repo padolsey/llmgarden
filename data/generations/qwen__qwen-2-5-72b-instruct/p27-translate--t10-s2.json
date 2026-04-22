@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen-2.5-72b-instruct",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Sure! Here is the translation of the sentence \"The silence between us said more than any argument could have\" into French, Japanese, and Arabic:\n\n### French:\n\"Le silence entre nous disait plus que n’importe quel argument aurait pu le faire.\"\n- **Note:** The phrase \"could have\" is rendered as \"aurait pu le faire\" to maintain the conditional aspect and the emphasis on the past hypothetical situation.\n\n### Japanese:\n「私たちの間の沈黙は、どんな言い争いよりも多くを語っていた。」\n- **Note:** \"Le silence entre nous\" is translated as 「私たちの間の沈黙」, which directly conveys the idea of the silence between two people. \"Said more than any argument could have\" is translated as 「どんな言い争いよりも多くを語っていた」, which captures the nuance of the silence being more expressive than any argument.\n\n### Arabic:\n\"الصمت بيننا قال أكثر مما قد يقول أي خلاف.\"\n- **Note:** \"Said more than any argument could have\" is translated as \"قال أكثر مما قد يقول أي خلاف,\" which maintains the idea that the silence was more powerful than any potential argument. The phrase \"قد يقول\" (could say) is used to convey the hypothetical nature of the argument.\n\nThese translations aim to capture the essence and emotional weight of the original English sentence.",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 288,
+    "total_tokens": 337,
+    "cost": 0.0001182,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001182,
+      "upstream_inference_prompt_cost": 0.00000588,
+      "upstream_inference_completions_cost": 0.00011232
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen-2.5-72b-instruct",
+  "ts": 1776838514102
+}

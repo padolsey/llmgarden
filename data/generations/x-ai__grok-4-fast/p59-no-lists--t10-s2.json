@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-4-fast",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "The water cycle is nature's endless dance of transformation and renewal, beginning with the sun's warmth coaxing water from oceans, lakes, rivers, and even damp soil into the air as invisible vapor through evaporation, which rises and mingles with the atmosphere; as this vapor cools at higher altitudes, it condenses into tiny droplets that gather into clouds, heavy with moisture until they release their burden as precipitation—rain, snow, hail, or sleet—that falls back to Earth, replenishing streams, soaking into the ground to feed plants and aquifers, or pooling in vast bodies of water; from there, the journey loops anew as surface runoff carries it toward the seas, infiltration sustains underground reserves, and transpiration from living things exhales more vapor skyward, ensuring the planet's lifeblood perpetually circulates in this harmonious, self-sustaining rhythm.",
+  "usage": {
+    "prompt_tokens": 183,
+    "completion_tokens": 328,
+    "total_tokens": 511,
+    "cost": 0.0001733,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 182,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001733,
+      "upstream_inference_prompt_cost": 0.0000093,
+      "upstream_inference_completions_cost": 0.000164
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 159,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-4-fast",
+  "ts": 1776839994607
+}

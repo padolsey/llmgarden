@@ -1,0 +1,33 @@
+{
+  "model": "microsoft/phi-4",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "The water cycle is a continuous process that sustains life on Earth by moving water around the planet. It begins with the sun's energy heating up the surface of oceans, rivers, and lakes, causing water to evaporate and rise into the atmosphere as water vapor. As this vapor rises, it cools and condenses into tiny droplets, forming clouds through a process called condensation. These droplets eventually come together, growing heavy enough to fall back to the Earth's surface as precipitation, like rain, snow, sleet, or hail. Once on the ground, water takes various paths—it may seep into the soil, replenishing groundwater reserves, flow overland as surface runoff into streams and rivers, or be absorbed by plants and released back into the atmosphere through transpiration. Some of the water returns directly to larger bodies of water where it can once again evaporate, thus continuing the cycle. Throughout this remarkable journey, the water cycle regulates climate, supports ecosystems, and ensures water is available in various forms for all living organisms.",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 210,
+    "total_tokens": 245,
+    "cost": 0.00003185,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00003185,
+      "upstream_inference_prompt_cost": 0.00000245,
+      "upstream_inference_completions_cost": 0.0000294
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "microsoft/phi-4",
+  "ts": 1776842700404
+}

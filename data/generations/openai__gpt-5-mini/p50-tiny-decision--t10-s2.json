@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "I can’t share my internal chain-of-thought, but I can give a clear, practical summary of the factors I’d weigh and a straight recommendation you can use.\n\nShort version recommendation\n- If you don’t need clean dishes now and none are heavily contaminated (raw meat, baby bottles, rancid food), wait until tomorrow and run a full load — it’s more water/energy/detergent-efficient.\n- If you need plates now, have high-risk contamination, or notice smell, run it now (use a half-load/eco setting if your machine has one) or hand-wash the few items you need.\n\nWhat I’d actually consider (concise, actionable list)\n1. Immediate need: Do you need dishes now? If yes, run it (or hand-wash essentials). If no, consider waiting.\n2. Contamination risk: Items with raw-meat juices, baby items, or dairy that will go foul overnight are reasons to wash now.\n3. Smell/mold risk: Mild food scraps are usually fine for ~24 hours; greasy/residue that will stink or attract pests might argue for running now.\n4. Dishwasher features: If it has a half-load, eco, or sensor mode, a half-full run can be reasonably efficient — use that if you need to run now.\n5. Energy/water/economics: A dishwasher uses roughly the same energy per cycle whether half or full, so per-dish cost doubles when you run half-full. But the absolute dollar difference is small (see example below).\n6. Time-of-use electricity: If rates are much cheaper overnight, you might want to wait until the low-rate period even if you could run now.\n7. Convenience and wear: One extra cycle now vs waiting won’t noticeably wear the machine; convenience often outweighs tiny efficiency gains.\n\nQuick numeric example to put it in perspective\n- Typical modern dishwasher ~1–1.5 kWh per cycle. At $0.15/kWh that’s about $0.15–$0.23 per cycle.\n- If full load is 12 place settings: cost per setting ≈ $0.02. If half-load (6 settings), cost per setting ≈ $0.04.\nSo running half-full costs only a few cents more per dish in electricity; detergent and water differences are small but real.\n\nPractical steps if you decide to wait\n- Scrape large food bits into trash/compost (don’t pre-rinse under running water).\n- Rinse only if the residue is likely to stink or attract pests.\n- Let water-sensitive items (wood, cast iron) out of the dishwasher.\n- Put any raw-meat utensils in a separate small wash now if needed.\n\nPractical steps if you decide to run now\n- Use half-load/eco mode if available.\n- Use a quick/express cycle for lightly soiled items (saves time and energy).\n- If you only need a couple of plates, hand-wash what you need and save the machine for a full load.\n\nBottom line: if it’s purely about efficiency, wait for the full load tomorrow. If convenience, contamination, or immediate need matter, run it now (preferably in half-load/eco mode). Which of those matters most to you right now?",
+  "usage": {
+    "prompt_tokens": 44,
+    "completion_tokens": 1583,
+    "total_tokens": 1627,
+    "cost": 0.003177,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003177,
+      "upstream_inference_prompt_cost": 0.000011,
+      "upstream_inference_completions_cost": 0.003166
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 896,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776835388434
+}

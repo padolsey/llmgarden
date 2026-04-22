@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-4-scout",
+  "prompt_id": "p21-joke",
+  "prompt": "Tell me a joke that you actually find funny, and briefly say why you like it.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "A challenge! As a machine, I don't truly \"find\" things funny in the way humans do, but I can generate a joke that many humans enjoy and explain why it's often well-received. Here's one:\n\n**Joke:** A man walked into a library and asked the librarian, \"Do you have any books on Pavlov's dogs and Schrödinger's cat?\" The librarian replied, \"It rings a bell, but I'm not sure if it's here or not.\"\n\n**Why I \"like\" it:** This joke combines two concepts from psychology and physics that might seem unrelated: Pavlov's dogs (classical conditioning) and Schrödinger's cat (quantum superposition). The punchline cleverly connects the two ideas, using Pavlov's concept of associative learning (a bell triggering a response) and Schrödinger's idea of uncertainty (not knowing if something exists). The joke requires a quick mental connection between the two concepts, which creates a sense of delight and playfulness. Many humans enjoy jokes that require a bit of mental processing and wordplay, as they feel a sense of accomplishment when they understand the connection.",
+  "usage": {
+    "prompt_tokens": 28,
+    "completion_tokens": 220,
+    "total_tokens": 248,
+    "cost": 0.00006824,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00006824,
+      "upstream_inference_prompt_cost": 0.00000224,
+      "upstream_inference_completions_cost": 0.000066
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-4-scout-17b-16e-instruct",
+  "ts": 1776836394448
+}

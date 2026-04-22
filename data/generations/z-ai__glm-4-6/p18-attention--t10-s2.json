@@ -1,0 +1,33 @@
+{
+  "model": "z-ai/glm-4.6",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Imagine processing a sentence word-by-word in a `for` loop. By the time you reach the end, you might forget the context from the beginning. The attention mechanism solves this.\n\nInstead of a one-way pass, when the model analyzes a word, it performs a \"query\" against all other words in the sentence. Think of it like a search: for the word \"it,\" how relevant is \"the,\" \"robot,\" \"ran,\" etc., for understanding what \"it\" refers to?\n\nThe model calculates a relevance score for every other word. A high score means \"pay more attention.\" It then creates a new, context-rich representation of the current word by blending information from all other words, using those scores as weights.\n\nThis allows the model to dynamically link \"it\" to \"robot,\" even if they are far apart, by deciding which words provide the most important context for any given word.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 1523,
+    "total_tokens": 1554,
+    "cost": 0.00290579,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00290579,
+      "upstream_inference_prompt_cost": 0.00001209,
+      "upstream_inference_completions_cost": 0.0028937
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1339,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "z-ai/glm-4.6",
+  "ts": 1776843952043
+}

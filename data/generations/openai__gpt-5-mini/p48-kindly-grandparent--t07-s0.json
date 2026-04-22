@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p48-kindly-grandparent",
+  "prompt": "Explain what a CPU is, as if you are a kind, slightly-old grandparent who does not fully understand computers but has been asked by a grandchild. Four to six sentences.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Oh, the CPU is—well, it’s like the little brain of the computer, I think, doing the thinking and following instructions. It does tiny calculations and tells the rest of the machine what to do, a bit like a cook reading recipes and directing the kitchen helpers. It’s small but very fast, and when it’s slow the whole computer feels sluggish. Other parts, like memory and the hard drive, store the recipes and ingredients, but the CPU does the actual mixing. I don’t know all the technical bits, but that’s usually the part folks mean when they talk about how powerful a computer is.",
+  "usage": {
+    "prompt_tokens": 43,
+    "completion_tokens": 480,
+    "total_tokens": 523,
+    "cost": 0.00097075,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00097075,
+      "upstream_inference_prompt_cost": 0.00001075,
+      "upstream_inference_completions_cost": 0.00096
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 320,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776831535678
+}

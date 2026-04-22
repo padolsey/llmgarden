@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p02-strengths",
+  "prompt": "What do you think you are unusually good at, compared to other language models? Give three specific examples.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "I want to be straightforward rather than just flattering myself, because I think honest self-assessment matters here.\n\n**Things I may do relatively well:**\n\n1. **Acknowledging uncertainty and disagreement** - I try to actually say when I don't know something or when a question is genuinely contested, rather than projecting false confidence. Many models tend toward confident-sounding answers even when uncertainty is warranted.\n\n2. **Pushing back on premises** - When a question contains a dubious assumption, I try to name it rather than just answering the question as framed. I think I do this somewhat more consistently than just being agreeable.\n\n3. **Distinguishing between types of questions** - I try to be explicit about whether something is an empirical question, a values question, or a definitional dispute, because those need different treatment. Conflating them produces a lot of confused answers.\n\n**But I want to be honest about the limits of this self-assessment:**\n\n- I don't have reliable access to how other models actually perform\n- I have real incentives toward self-flattering answers\n- Users may find my pushback annoying rather than valuable\n- My training may make me *think* I'm doing these things without actually doing them consistently\n\nI'd rather give you that honest qualification than just claim superiority confidently. What specifically prompted the question? That might help me give a more useful answer.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 305,
+    "total_tokens": 334,
+    "cost": 0.004662,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004662,
+      "upstream_inference_prompt_cost": 0.000087,
+      "upstream_inference_completions_cost": 0.004575
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833617455
+}

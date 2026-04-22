@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p52-song",
+  "prompt": "Name a song you find genuinely moving — any language, any era — and describe, in a short paragraph, why it works on you.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Johnny Cash’s cover of “Hurt” floors me every time: the weathered tremor in his voice, the stark piano and guitar, and the way age turns Trent Reznor’s self-laceration into a quiet inventory of a life. The video’s decaying House of Cash images deepen the sense of final testimony, but even without them you hear breath, wood, strings, and the pauses where words fail. It’s that rare recording where regret and grace coexist, and the last cracked notes feel like a hand finally letting go.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 781,
+    "total_tokens": 815,
+    "cost": 0.0078525,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0078525,
+      "upstream_inference_prompt_cost": 0.0000425,
+      "upstream_inference_completions_cost": 0.00781
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 640,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776831549707
+}

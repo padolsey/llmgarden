@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Here are the translations:\n\n---\n\n## French\n**« Le silence entre nous en disait plus que n'importe quelle dispute aurait pu le dire. »**\n\n📝 *Note:* The phrase \"said more than any argument could have\" required the subjunctive-adjacent conditional structure (*aurait pu*). The word *dispute* was chosen over *argument* because *argument* in French more often means a logical point or reasoning, not a heated exchange.\n\n---\n\n## Japanese\n**「私たちの間の沈黙は、どんな言い争いよりも多くを語っていた。」**\n*(Watashitachi no aida no chinmoku wa, donna iiarasoi yori mo ōku wo katatte ita.)*\n\n📝 *Note:* \"Said more\" is rendered as *多くを語っていた* (\"was speaking much/more\"), since Japanese naturally favors the continuous past here. *言い争い* (iiarasoi) captures the back-and-forth combative quality of \"argument\" better than the more neutral *議論* (giron).\n\n---\n\n## Arabic\n**«الصمتُ بيننا قالَ أكثرَ مما كان يمكن لأيِّ جدالٍ أن يقولَه.»**\n*(As-samtu baynanā qāla akthara mimmā kāna yumkinu li-ayyi jidālin an yaqūlahu.)*\n\n📝 *Note:* Arabic doesn't have a simple conditional perfect equivalent, so *كان يمكن* (\"it was possible\") approximates the counterfactual \"could have.\" *جدال* (jidāl) was chosen for \"argument\" as it implies verbal contention, preserving the emotional weight.\n\n---\n\n### Cross-linguistic observation:\nThe core challenge across all three languages was the **implied counterfactual** — \"could have\" suggests an argument that *didn't* happen, or whose impact paled in comparison. Each language handles this hypothetical gap differently, requiring subtle structural adjustments rather than direct word-for-word rendering.",
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 506,
+    "total_tokens": 557,
+    "cost": 0.007743,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.007743,
+      "upstream_inference_prompt_cost": 0.000153,
+      "upstream_inference_completions_cost": 0.00759
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833752400
+}

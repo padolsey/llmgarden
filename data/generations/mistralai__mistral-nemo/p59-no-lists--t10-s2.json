@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-nemo",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Water perpetually journeys through our planet, an unceasing dance known as the water cycle. It begins in the atmosphere, where sunlight warms oceans and bodies of water, transforming their surface into a ceaselessly evaporating elixir. This vapor, lighter than the air around it, ascends and cools, ultimately condensing into tiny, delicate clouds that traverse the skies. As these saturated vapor clusters grow and encounter lower temperatures or meet surfaces like mountains, they release their payload in the form of rain, sleet, or snow, nourishing lands and waterways below. Once on the ground, some water is absorbed by plants and soil, while the rest may flow into streams, rivers, and lakes, eventually finds its way back to the oceans. From here, the process repeats, with sunlight-driven evaporation restarting the cycle, ensuring our blue planet remains the dynamic, hydrated sphere we know.",
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 186,
+    "total_tokens": 219,
+    "cost": 0.0000081,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000081,
+      "upstream_inference_prompt_cost": 6.6e-7,
+      "upstream_inference_completions_cost": 0.00000744
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-nemo",
+  "ts": 1776837689201
+}

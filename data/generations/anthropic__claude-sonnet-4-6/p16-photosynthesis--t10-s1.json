@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p16-photosynthesis",
+  "prompt": "Explain photosynthesis to a curious adult non-scientist in around 150 words. Avoid a bulleted list.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "## How Plants Turn Sunlight Into Food\n\nThink of a plant as a tiny solar-powered kitchen. The main chef's table is inside the leaves, in structures called chloroplasts, which contain a green pigment called chlorophyll. This is what gives plants their color, but it also acts like a solar panel, capturing energy from sunlight.\n\nThe plant pulls in two simple ingredients: water, drawn up through its roots, and carbon dioxide, a gas it absorbs from the air through microscopic pores in its leaves.\n\nUsing the captured sunlight as energy, the plant breaks these ingredients apart and rebuilds them into glucose, a sugar it uses as food to grow, flower, and reproduce. The leftover byproduct of this process gets released back into the air as oxygen, which is conveniently what we need to breathe.\n\nSo in a very real sense, plants are quietly running on sunlight and giving us clean air in return.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 203,
+    "total_tokens": 237,
+    "cost": 0.003147,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003147,
+      "upstream_inference_prompt_cost": 0.000102,
+      "upstream_inference_completions_cost": 0.003045
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833693980
+}

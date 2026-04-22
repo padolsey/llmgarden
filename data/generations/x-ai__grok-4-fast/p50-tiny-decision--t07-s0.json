@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-4-fast",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Okay, so dishwasher dilemma—half-full now or wait for full tomorrow. First thing that pops into my head is efficiency: running it half-full feels wasteful because the machine's going to use almost the same amount of water and electricity regardless of load size. I've seen those stats; it might waste like 20-30% more per dish that way. Bills aren't huge for one cycle, but over time, it adds up, and I'm trying to be a bit greener anyway.\n\nBut do I actually need clean dishes right now? Kitchen's a mess from dinner, and I hate hand-washing everything—it's tedious and my hands get pruny. If I wait, I'll probably just stack more stuff in there tonight, and tomorrow morning I'll be annoyed with a full sink if things overflow. On the flip side, if I run it now, it'll be done by bedtime, and I can unload fresh ones whenever, no rush.\n\nWhat's my schedule like? Tomorrow's busy—work, errands—so having it done tonight means one less chore. Waiting could mean forgetting or getting lazy and running two half-loads, which is worse. Nah, I think the convenience wins here, but only if it's not too empty. Half-full is borderline; maybe I can rinse and toss in a few more glasses or utensils to bump it up.\n\nEh, screw it—I'm hitting start now. Saves me the mental hassle tomorrow, and the planet won't mind one inefficient cycle every blue moon.",
+  "usage": {
+    "prompt_tokens": 194,
+    "completion_tokens": 497,
+    "total_tokens": 691,
+    "cost": 0.0002645,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 152,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002645,
+      "upstream_inference_prompt_cost": 0.000016,
+      "upstream_inference_completions_cost": 0.0002485
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 202,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-4-fast",
+  "ts": 1776832436242
+}

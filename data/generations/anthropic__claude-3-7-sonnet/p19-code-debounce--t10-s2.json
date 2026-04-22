@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "# Debounce Function in JavaScript\n\nA debounce function ensures that a function is only executed after a certain amount of time has passed without it being called again, which is useful for handling events like window resizing or keystrokes.\n\n```javascript\n/**\n * Creates a debounced version of a function that delays its execution\n * until after a specified wait time has elapsed since the last time it was called.\n * \n * @param {Function} func - The function to debounce\n * @param {number} wait - The time in milliseconds to delay execution\n * @return {Function} - The debounced function\n */\nfunction debounce(func, wait) {\n  let timeout;\n  \n  return function(...args) {\n    const context = this;\n    clearTimeout(timeout);\n    \n    timeout = setTimeout(() => {\n      func.apply(context, args);\n    }, wait);\n  };\n}\n\n// Example usage:\nconst searchInput = document.getElementById('search-input');\n\n// Without debounce, this would fire on every keystroke\n// With debounce, it will only fire after the user stops typing for 500ms\nconst handleSearch = debounce(function(e) {\n  console.log('Searching for:', e.target.value);\n  // API call or search logic would go here\n}, 500);\n\nsearchInput.addEventListener('input', handleSearch);\n```",
+  "usage": {
+    "prompt_tokens": 37,
+    "completion_tokens": 329,
+    "total_tokens": 366,
+    "cost": 0.005046,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.005046,
+      "upstream_inference_prompt_cost": 0.000111,
+      "upstream_inference_completions_cost": 0.004935
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776833965926
+}

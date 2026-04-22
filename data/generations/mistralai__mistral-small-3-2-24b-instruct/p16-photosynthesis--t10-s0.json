@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "prompt_id": "p16-photosynthesis",
+  "prompt": "Explain photosynthesis to a curious adult non-scientist in around 150 words. Avoid a bulleted list.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Photosynthesis is how plants, algae, and some bacteria harness the power of sunlight to create food and release oxygen—a process vital for life on Earth. Here’s how it works: Plants absorb sunlight through chlorophyll, a green pigment in their leaves. They also take in carbon dioxide from the air and water from their roots. Using sunlight as energy, these ingredients are transformed into glucose (a sugar that feeds the plant) and oxygen, which is released into the atmosphere as a byproduct. This process occurs in tiny cellular factories called chloroplasts. It’s nature’s way of recycling: plants take in what’s \"waste\" for us (carbon dioxide) and give back oxygen, which animals need to breathe. Without photosynthesis, there would be no oxygen to sustain most life, no food chain, and no greenery. It’s the hidden engine of ecosystems, turning sunlight into energy and connecting plants to every living thing on the planet through the air we breathe and the food we eat.",
+  "usage": {
+    "prompt_tokens": 28,
+    "completion_tokens": 198,
+    "total_tokens": 226,
+    "cost": 0.00012132,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00012132,
+      "upstream_inference_prompt_cost": 0.00000252,
+      "upstream_inference_completions_cost": 0.0001188
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-small-3.2-24b-instruct-2506",
+  "ts": 1776837302628
+}

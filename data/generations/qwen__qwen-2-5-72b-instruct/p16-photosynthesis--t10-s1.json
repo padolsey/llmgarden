@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen-2.5-72b-instruct",
+  "prompt_id": "p16-photosynthesis",
+  "prompt": "Explain photosynthesis to a curious adult non-scientist in around 150 words. Avoid a bulleted list.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Photosynthesis is a process used by plants, algae, and some bacteria to convert light energy from the sun into chemical energy stored in sugars. Essentially, it’s how these organisms make their own food using sunlight. During photosynthesis, plants take in carbon dioxide from the air and water from the soil. Light energy is captured by chlorophyll, a green pigment in the leaves, which uses this energy to break down water molecules and generate oxygen, which is released into the air. The energy from this process is then used to convert carbon dioxide into glucose, a type of sugar. This sugar serves as the building block for plant growth and development. In a way, photosynthesis is like a natural factory that transforms sunlight, water, and carbon dioxide into food and oxygen, supporting life on Earth.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 159,
+    "total_tokens": 193,
+    "cost": 0.00006609,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00006609,
+      "upstream_inference_prompt_cost": 0.00000408,
+      "upstream_inference_completions_cost": 0.00006201
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen-2.5-72b-instruct",
+  "ts": 1776838460509
+}

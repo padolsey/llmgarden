@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-nemo",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "**Explanation:**\nThe `debounce` function delays the execution of a provided function until after a certain amount of time has elapsed since the last time the debounced function was invoked.\n\n```javascript\n// Debounce function\nfunction debounce(func, delay) {\n  let timeoutId;\n  return function (...args) {\n    const context = this;\n    clearTimeout(timeoutId);\n    timeoutId = setTimeout(() => func.apply(context, args), delay);\n  };\n}\n\n// Example usage:\nconst heavyFunction = () => {\n  console.log('Heavy function executed');\n};\n\nconst debouncedHeavyFunction = debounce(heavyFunction, 300); // Debounced function with a delay of 300ms\n\n// Simulate multiple function invocations in a short period\ndebouncedHeavyFunction();\ndebouncedHeavyFunction();\ndebouncedHeavyFunction();\n\n// After a 300ms delay, \"Heavy function executed\" will be logged only once\n```",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 196,
+    "total_tokens": 232,
+    "cost": 0.00000856,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00000856,
+      "upstream_inference_prompt_cost": 7.2e-7,
+      "upstream_inference_completions_cost": 0.00000784
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-nemo",
+  "ts": 1776837478324
+}

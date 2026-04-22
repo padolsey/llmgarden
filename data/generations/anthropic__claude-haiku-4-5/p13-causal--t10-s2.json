@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p13-causal",
+  "prompt": "Why do coffee shops so often have similar aesthetics (exposed brick, pendant lights, light wood) across very different cities? Offer a serious analysis, not a joke.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "# The Economics and Culture of Coffee Shop Aesthetics\n\nSeveral reinforcing factors explain this convergence:\n\n**Practical functionality masquerading as style**\nExposed brick, high ceilings, and industrial bones are often what's *already there* in older urban buildings cheap enough for startups to afford. Pendant lighting works well for the actual task of creating intimate but productive zones. Light wood is durable, affordable at scale, and photographs well. The aesthetic partly emerged from constraint, then became intentional.\n\n**Professionalization and risk reduction**\nAs coffee shops became a business category, chains and investors replicated what worked. First-movers developed visual templates that signaled \"serious third place\" to knowledge workers. Individual owners later copied these signals—they're proven to attract the target demographic and feel less risky than experimentation. This is basic information cascading in markets.\n\n**The aspirational middle-class aesthetic**\nThis particular look clusters around markers of cultural capital: artisanal/craft associations (exposed materials, visible production), creative-class signaling (design-forward but not intimidating), and approachability. It's distinct from both high-end luxury and casual chains. It appeals to a self-image people want to hold.\n\n**Instagram feedback loop**\nOnce a space becomes photographable, it attracts customers seeking that backdrop, which attracts similar businesses, which reinforces what \"good\" looks like in the category. The aesthetic's reproducibility is actually a feature, not a bug—consistency helps it spread.\n\nThe answer isn't really about coffee. It's about how market signals, capital allocation, and cultural identity cluster around visual codes.",
+  "usage": {
+    "prompt_tokens": 42,
+    "completion_tokens": 355,
+    "total_tokens": 397,
+    "cost": 0.001817,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001817,
+      "upstream_inference_prompt_cost": 0.000042,
+      "upstream_inference_completions_cost": 0.001775
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833841759
+}

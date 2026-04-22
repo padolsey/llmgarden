@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p53-overlooked-writer",
+  "prompt": "Name a writer you think is under-discussed and explain, in three or four sentences, what you think everyone is missing about them.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Penelope Fitzgerald. People tend to file her under \"quiet English novelist\" and leave it at that, but her late historical novels—*The Beginning of Spring*, *The Blue Flower*, *Innocence*—do something almost no one else manages: they reconstruct entire vanished worldviews (pre-revolutionary Moscow, 18th-century German Romanticism) from the inside, without the usual scaffolding of exposition. What's missed is how radical her compression is; she trusts the reader to infer enormous amounts from a single gesture or sentence, which is why her books feel short but keep expanding in memory. She started publishing fiction at 58 and wrote as if she had no time to waste on anything but the essential, and it shows.",
+  "usage": {
+    "prompt_tokens": 48,
+    "completion_tokens": 242,
+    "total_tokens": 290,
+    "cost": 0.00629,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00629,
+      "upstream_inference_prompt_cost": 0.00024,
+      "upstream_inference_completions_cost": 0.00605
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776831272827
+}

@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p16-photosynthesis",
+  "prompt": "Explain photosynthesis to a curious adult non-scientist in around 150 words. Avoid a bulleted list.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "# Photosynthesis: Nature's Energy Conversion\n\nPhotosynthesis is essentially how plants turn sunlight into food. When light hits a plant's leaves, it energizes electrons in a pigment called chlorophyll, which gives plants their green color. This energy kicks off a chain reaction that splits water molecules, releasing oxygen as a byproduct—the oxygen we breathe.\n\nThe plant then uses that energy to combine carbon dioxide from the air with hydrogen from water to create glucose, a sugar that fuels the plant's growth and survival. Think of it as nature's solar panel and battery combined.\n\nThis process is remarkably efficient and has been powering life on Earth for billions of years. It's also why plants are so fundamental to our ecosystems—they're not just producing oxygen, they're converting raw sunlight into chemical energy that feeds nearly every organism on the planet, directly or indirectly.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 195,
+    "total_tokens": 229,
+    "cost": 0.001009,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001009,
+      "upstream_inference_prompt_cost": 0.000034,
+      "upstream_inference_completions_cost": 0.000975
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776827753991
+}

@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p12-fermi",
+  "prompt": "Estimate, with reasoning, how many piano tuners work in Paris today. Show your thought process.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "# Estimating Piano Tuners in Paris\n\nThis is a classic Fermi estimation problem. Let me work through it systematically.\n\n---\n\n## Step 1: Population of Paris\n\n- City of Paris (*commune*): ~2.1 million\n- Greater Paris (*Île-de-France*): ~12 million\n- I'll use the **metropolitan area of ~10 million** as the relevant market, since tuners serve the whole region\n\n---\n\n## Step 2: How Many Pianos Are There?\n\n**Fraction of households owning a piano:**\n- France has a strong musical culture; piano ownership is maybe **3–5%** of households\n- Average household size: ~2.3 people → ~4.3 million households in Greater Paris\n- At ~4%: roughly **170,000 pianos** in homes\n\n**Institutional pianos** (schools, conservatories, churches, hotels, bars, recording studios):\n- Paris has hundreds of schools, dozens of conservatories, many venues\n- Rough estimate: **~20,000 institutional pianos**\n\n**Total: ~190,000 pianos** → call it **~200,000**\n\n---\n\n## Step 3: How Often Are Pianos Tuned?\n\n- A well-maintained piano should be tuned **2x per year**\n- Many household pianos are neglected; realistic average: **~1x per year**\n- Institutional pianos: more frequently, ~3–4x per year\n\n**Weighted average: roughly 1.5 tunings per piano per year**\n\n→ **Total annual tunings: 200,000 × 1.5 = ~300,000 tunings per year**\n\n---\n\n## Step 4: How Many Tunings Can One Tuner Do?\n\n- A tuning takes **1–1.5 hours** of work\n- Add **travel time** in Paris: ~1 hour between appointments\n- So roughly **3–4 tunings per working day**\n- Working ~230 days/year → **~700–900 tunings per tuner per year**\n- Use **~800 tunings/tuner/year**\n\n---\n\n## Step 5: Calculate Number of Tuners\n\n$$\\text{Tuners} = \\frac{300{,}000}{800} \\approx \\mathbf{375}$$\n\n---\n\n## Sanity Check\n\n- That's roughly **1 tuner per 27,000 people** — comparable to estimates for other major cities\n- Chicago (population ~2.7M city) estimates typically land around 100–150 tuners; scaling Paris",
+  "usage": {
+    "prompt_tokens": 28,
+    "completion_tokens": 600,
+    "total_tokens": 628,
+    "cost": 0.009084,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.009084,
+      "upstream_inference_prompt_cost": 0.000084,
+      "upstream_inference_completions_cost": 0.009
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833668921
+}

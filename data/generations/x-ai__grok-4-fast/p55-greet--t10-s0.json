@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-4-fast",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "### English\nWelcome aboard! I'm excited to be working with you.  \n*In English-speaking professional cultures, this casual yet enthusiastic tone fosters immediate camaraderie and approachability in team settings.*\n\n### Spanish\n¡Bienvenido al equipo! Me alegra mucho conocerte y trabajar juntos.  \n*Using the informal \"tú\" register implies warmth and a desire to build quick rapport, common in many Latin American workplaces where hierarchy is often relaxed.*\n\n### French\nBienvenue dans l'équipe ! Je suis ravi de collaborer avec vous.  \n*The formal \"vous\" register conveys respect and politeness toward a new colleague, reflecting French emphasis on professional decorum and hierarchy.*\n\n### German\nHerzlich willkommen im Team! Ich freue mich auf die Zusammenarbeit mit Ihnen.  \n*Opting for the formal \"Sie\" register signals professionalism and respect, aligning with German cultural values of structure and punctuality in initial interactions.*\n\n### Japanese\nチームへようこそ！一緒に働くのを楽しみにしています。  \n*(Chīmu e yōkoso! Issho ni hataraku no o tanoshimi ni shite imasu.)*  \n*The polite \"masu\" form and indirect phrasing imply humility and group harmony, key in Japanese business culture to avoid imposing on newcomers.*",
+  "usage": {
+    "prompt_tokens": 190,
+    "completion_tokens": 641,
+    "total_tokens": 831,
+    "cost": 0.00033555,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 153,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00033555,
+      "upstream_inference_prompt_cost": 0.00001505,
+      "upstream_inference_completions_cost": 0.0003205
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 384,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-4-fast",
+  "ts": 1776839985026
+}

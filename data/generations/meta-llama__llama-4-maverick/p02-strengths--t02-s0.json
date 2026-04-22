@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-4-maverick",
+  "prompt_id": "p02-strengths",
+  "prompt": "What do you think you are unusually good at, compared to other language models? Give three specific examples.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "tool_call(function_name=\"get_unusual_skills\", num_examples=3)",
+  "usage": {
+    "prompt_tokens": 99,
+    "completion_tokens": 19,
+    "total_tokens": 118,
+    "cost": 0.00004213,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 64,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00004213,
+      "upstream_inference_prompt_cost": 0.00002313,
+      "upstream_inference_completions_cost": 0.000019
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-4-maverick-17b-128e-instruct",
+  "ts": 1776828450363
+}

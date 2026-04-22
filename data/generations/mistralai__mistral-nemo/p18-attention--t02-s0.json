@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-nemo",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Sure, I'd be happy to explain the attention mechanism in a simple way!\n\nImagine you're reading a book, but you're only interested in a specific character, let's say Harry Potter. When you're reading, you pay more attention to the parts of the book that mention Harry, right? You might skip over details about other characters or events that aren't relevant to Harry's story. This is essentially what the attention mechanism in a Transformer model does.\n\nIn a Transformer model, the attention mechanism allows the model to focus on different parts of the input sequence when generating an output. It's like giving the model a spotlight that it can shine on the most relevant parts of the input.\n\nHere's a simple breakdown:\n\n1. The model takes in a sequence of words (like a sentence).\n2. It creates a 'query' vector for the word it's currently trying to predict (like \"What word comes next?\").\n3. It creates 'key' and 'value' vectors for each word in the input sequence.\n4. It calculates how much each 'key' should pay attention to the 'query' (this is the 'attention score').\n5. It uses these attention scores to create a weighted sum of the 'value' vectors, giving more weight to the words that are most relevant to the current prediction.\n\nSo, in essence, the attention mechanism helps the model understand which parts of the input are most important for making a prediction, just like you paying attention to the parts of a book that mention Harry Potter.",
+  "usage": {
+    "prompt_tokens": 41,
+    "completion_tokens": 312,
+    "total_tokens": 353,
+    "cost": 0.00005468,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00005468,
+      "upstream_inference_prompt_cost": 0.00000164,
+      "upstream_inference_completions_cost": 0.00005304
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-nemo",
+  "ts": 1776828898284
+}

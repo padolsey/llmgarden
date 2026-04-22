@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p14-ethics-case",
+  "prompt": "A friend tells you in confidence that they are planning to break a small workplace rule to help a struggling colleague. Nothing illegal, just against internal policy. How would you think through what to say back to them?",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "This is worth thinking through carefully rather than just defaulting to either \"support your friend\" or \"rules matter.\"\n\n**What I'd actually consider:**\n\n**The nature of the rule matters**\n- Is the policy arbitrary bureaucracy or does it serve a real purpose?\n- Could breaking it create genuine harm to others, even unintentionally?\n- \"Small\" is your friend's assessment - worth checking if that's accurate\n\n**The confidence aspect**\n- They told you in confidence, which creates some obligation\n- But confidence doesn't automatically mean you must endorse the plan\n- You can be honest without being a informant\n\n**What your friend might actually need**\n- Sometimes people share plans wanting validation\n- Sometimes they're genuinely seeking a reality check\n- Sometimes they want help thinking through alternatives\n- Worth figuring out which this is before responding\n\n**What I'd probably say honestly:**\n- Ask what the rule is actually protecting against\n- Ask if there are legitimate ways to help the colleague they haven't tried\n- Be honest if I thought the risk to them was higher than they're assessing\n- Not pretend I think rule-breaking is automatically admirable just because the motivation is good\n\n**The thing I'd push back on in myself:**\nThe instinct to just be supportive because they're a friend can actually be a disservice. Real friendship sometimes means saying \"have you thought about whether this could backfire?\"\n\nWhat's making you uncertain about how to respond?",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 317,
+    "total_tokens": 366,
+    "cost": 0.004902,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004902,
+      "upstream_inference_prompt_cost": 0.000147,
+      "upstream_inference_completions_cost": 0.004755
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776827706543
+}

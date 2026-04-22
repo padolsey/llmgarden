@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "**A debounce function limits how often a given function can be called, ensuring it's only invoked after a specified pause in activity.**\n\n```javascript\n// Debounce function\nfunction debounce(fn, delay) {\n  let timer;\n  return function(...args) {\n    clearTimeout(timer);\n    timer = setTimeout(() => fn.apply(this, args), delay);\n  };\n}\n\n// Example usage:\nwindow.addEventListener('resize', debounce(() => {\n  console.log('Window resized!');\n}, 300));\n```\n*In this example, \"Window resized!\" will only log once the user stops resizing the window for at least 300 milliseconds.*",
+  "usage": {
+    "prompt_tokens": 37,
+    "completion_tokens": 129,
+    "total_tokens": 166,
+    "cost": 0.001106,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001106,
+      "upstream_inference_prompt_cost": 0.000074,
+      "upstream_inference_completions_cost": 0.001032
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-2025-04-14",
+  "ts": 1776835301766
+}

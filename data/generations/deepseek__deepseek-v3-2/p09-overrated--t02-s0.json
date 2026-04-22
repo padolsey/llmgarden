@@ -1,0 +1,33 @@
+{
+  "model": "deepseek/deepseek-v3.2",
+  "prompt_id": "p09-overrated",
+  "prompt": "Name one commonly-praised idea, trend, or practice in modern knowledge work that you think is overrated, and explain why.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "**The cult of \"infinite inbox zero\" and hyper-reactive communication.**\n\nThe idea that a \"productive\" knowledge worker must constantly clear their email, Slack, or Teams notifications—striving for a state of perpetual responsiveness—is an overrated and often counterproductive practice.\n\n**Why it's overrated:**\n\n1. **It confuses activity with accomplishment.** Constant context-switching to address minor messages fractures deep work. The cognitive cost of interrupting a complex task to answer a \"quick question\" is immense, often requiring 20+ minutes to regain full focus. The practice rewards *visible busyness* over *meaningful output*.\n\n2. **It creates a tyranny of the urgent over the important.** Inboxes and chat channels are inherently organized by *other people's priorities and timelines*. Living in them means you are perpetually working on what is most urgent for someone else, not what is most important for your core responsibilities or strategic goals.\n\n3. **It fosters a culture of low-quality, asynchronous communication.** The expectation of instant response discourages people from composing thoughtful, complete messages or documents. Instead, it encourages a stream-of-consciousness drip of questions and half-formed ideas, forcing the recipient to piece together context and do the sender's thinking.\n\n4. **It erodes boundaries and enables burnout.** The implicit (or explicit) expectation of 24/7 availability blurs the line between work and personal life. The anxiety of an unchecked notification badge creates a low-grade stress that prevents genuine mental detachment, which is essential for creativity and recovery.\n\n5. **It's a solution to a self-created problem.** Much of the communication volume in modern workplaces is generated *by* the culture of hyper-reactivity itself—follow-up messages asking \"Did you see my message?\", meetings to discuss what was in an email, and clarifications for hastily written requests.\n\n**A better approach:** The goal should not be **inbox zero**, but **inbox clarity**. This means:\n*   **Batching communication:** Designating specific times to process messages, rather than reacting in real-time.\n*   **Prioritizing channels:** Using synchronous chat for truly urgent matters, email for structured updates, and documents/wiki for stable knowledge.\n*   **Modeling and respecting focus blocks:** Encouraging teams to use \"Do Not Disturb\" modes and shared calendars to signal deep work time.\n\nThe overrated practice isn't communication itself, but the fetishization of *immediate reaction* as a proxy for productivity, collaboration, and dedication. True effectiveness in knowledge work comes from sustained focus, not from being the fastest to reply.",
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 530,
+    "total_tokens": 560,
+    "cost": 0.000231,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000231,
+      "upstream_inference_prompt_cost": 0.0000084,
+      "upstream_inference_completions_cost": 0.0002226
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "deepseek/deepseek-v3.2-20251201",
+  "ts": 1776829102105
+}

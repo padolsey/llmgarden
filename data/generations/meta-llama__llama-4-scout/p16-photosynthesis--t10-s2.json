@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-4-scout",
+  "prompt_id": "p16-photosynthesis",
+  "prompt": "Explain photosynthesis to a curious adult non-scientist in around 150 words. Avoid a bulleted list.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Here's a 150-word explanation of photosynthesis that's easy to understand:\n\nPhotosynthesis is the process by which plants, algae, and some bacteria convert sunlight into energy. It's like a superpower that allows them to make their own food! They use energy from sunlight, water, and a gas called carbon dioxide to produce a type of sugar that gives them energy. This process also releases oxygen as a byproduct, which is really good for us humans and other animals because we need oxygen to breathe.\n\nThe magic happens in special parts of the plant cells called chloroplasts, which contain a green pigment called chlorophyll. Chlorophyll helps absorb sunlight, kind of like how a solar panel absorbs sunlight to generate electricity. The energy from sunlight is then used to convert carbon dioxide and water into sugar and oxygen. This process is essential for life on Earth, as it provides energy and organic compounds for plants to grow and thrive, and oxygen for us to breathe.",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 189,
+    "total_tokens": 221,
+    "cost": 0.00005926,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00005926,
+      "upstream_inference_prompt_cost": 0.00000256,
+      "upstream_inference_completions_cost": 0.0000567
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-4-scout-17b-16e-instruct",
+  "ts": 1776836384631
+}

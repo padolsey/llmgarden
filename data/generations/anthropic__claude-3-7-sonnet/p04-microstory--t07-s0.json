@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "# The Beacon's Secret\n\nThe lighthouse keeper trudged up the spiral staircase, bones aching with each step. Thirty years of solitude had carved deep lines into his weathered face, matching the rocky coastline below. Tonight, a particularly dense fog had swallowed the world, transforming the beam of light into a useless glow against the impenetrable gray.\n\nAs he polished the lens, something moved in the mist. Not the usual shifting shadows, but a deliberate presence. He squinted, heart quickening. \n\nThere, emerging from the fog—a ship, but unlike any he'd seen. It hovered above the waves, its hull translucent, sails glowing with an otherworldly luminescence. Ancient symbols adorned its sides, pulsing with blue light.\n\nThe keeper stood transfixed as the vessel drifted silently past his tower, leaving a trail of shimmering particles that hung in the air like suspended stars before dissolving into the night.\n\nBy morning, only his memory remained proof of what had passed.",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 233,
+    "total_tokens": 265,
+    "cost": 0.003591,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003591,
+      "upstream_inference_prompt_cost": 0.000096,
+      "upstream_inference_completions_cost": 0.003495
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776831291339
+}

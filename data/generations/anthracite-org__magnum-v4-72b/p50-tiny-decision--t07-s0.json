@@ -1,0 +1,33 @@
+{
+  "model": "anthracite-org/magnum-v4-72b",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Here's how I would think through this decision:\n\nFirst, I'd consider the immediate benefits of running the dishwasher now. The key upside is freeing up space in the dishwasher for more dirty dishes. If I'm running low on clean dishes and anticipate needing more soon, that's a good reason to run it now, even if it's only half full. \n\nNext, I'd think about the costs of running it now. The main downsides are using more water and electricity than necessary. A half-full dishwasher wastes resources compared to waiting for a full load. So if I'm not running low on clean dishes, this would make me lean towards waiting.\n\nI'd also consider if running it now would be more convenient, like if I have time to empty it later today but may not tomorrow. Convenience is a factor, but not as important as the resource usage.\n\nFinally, I'd weigh the immediate benefits against the costs. If I really need the space, I'll run it now despite the waste. But if I have enough clean dishes, I'll wait for a full load to save resources, even if it's slightly less convenient.\n\nSo in summary, I'd run it now only if I really need the space, and wait if I have enough clean dishes. The key factor is balancing my immediate needs with the costs and waste of running a half-full dishwasher.",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 275,
+    "total_tokens": 322,
+    "cost": 0.001515,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001515,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0.001515
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthracite-org/magnum-v4-72b",
+  "ts": 1776832805505
+}

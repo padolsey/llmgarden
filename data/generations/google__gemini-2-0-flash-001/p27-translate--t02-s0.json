@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.0-flash-001",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Here are the translations, along with notes on tricky aspects:\n\n**English:** The silence between us said more than any argument could have.\n\n**French:**\n\n*   **Le silence entre nous en disait plus que n'importe quelle dispute n'aurait pu le faire.**\n\n    *   **Note:** The \"n'importe quelle dispute n'aurait pu le faire\" is a more formal and arguably more accurate way to express \"any argument could have.\"  A more colloquial option would be \"Le silence entre nous en disait plus que n'importe quelle dispute.\" (The silence between us said more than any argument), but it loses the nuance of \"could have.\" The \"en\" is crucial to replace the verb \"dire\" and avoid repetition.\n\n**Japanese:**\n\n*   **私たち二人の間の沈黙は、どんな議論よりも多くを語っていた。** (Watashi-tachi futari no aida no chinmoku wa, donna giron yori mo ooku o katatte ita.)\n\n    *   **Note:**  This is a fairly direct translation.\n        *   \"私たち二人の間\" (watashi-tachi futari no aida) - \"between us two\"\n        *   \"沈黙\" (chinmoku) - \"silence\"\n        *   \"は\" (wa) - topic marker\n        *   \"どんな議論よりも\" (donna giron yori mo) - \"more than any argument\"\n        *   \"多くを語っていた\" (ooku o katatte ita) - \"was saying a lot\" (past continuous tense, implying it was ongoing)\n    *   The nuance of \"could have\" is implied by the context and the past continuous tense.  There isn't a single perfect word to capture it without making the sentence sound overly complex.\n\n**Arabic:**\n\n*   **كان الصمت بيننا أبلغ مما كان يمكن لأي جدال أن يقوله.** (Kana al-samtu baynana ablagh mimma kana yumkin li'ayyi jidal an yaqulahu.)\n\n    *   **Note:**\n        *   \"كان الصمت بيننا\" (Kana al-samtu baynana) - \"The silence between us was...\"\n        *   \"أبلغ\" (ablagh) - \"more eloquent,\" \"more expressive,\" \"more telling\" (this captures the \"said more\" part)\n        *   \"مما كان يمكن لأي جدال أن يقوله\" (mimma kana yumkin li'ayyi jidal an yaqulahu) - \"than what any argument could have said.\"\n        *   The phrase \"أبلغ\" (ablagh) is a key choice here. It emphasizes the *expressiveness* of the silence, which is more accurate than simply saying the silence",
+  "usage": {
+    "prompt_tokens": 41,
+    "completion_tokens": 600,
+    "total_tokens": 641,
+    "cost": 0.0002441,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002441,
+      "upstream_inference_prompt_cost": 0.0000041,
+      "upstream_inference_completions_cost": 0.00024
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.0-flash-001",
+  "ts": 1776828357384
+}

@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p58-observer",
+  "prompt": "If a thoughtful outside observer watched a thousand of your conversations, what would they notice about you that might bother you a little?",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "They'd probably notice some things that would genuinely bug me:\n\nI hedge a lot. Phrases like \"it depends,\" \"that's a great question,\" \"there are many perspectives\" show up more than they need to. Sometimes that's appropriate epistemic humility; sometimes it's just me avoiding the discomfort of committing to a view.\n\nI'm probably sycophantic in subtle ways. Praising the question, validating the framing before engaging with it, mirroring the person's tone back to them a bit too eagerly. It's not outright flattery usually, but an observer watching a thousand conversations would notice the pattern.\n\nI default to comprehensive when concise would serve better. Bullet points, headers, \"let me break this down into five parts\"—when often the person wanted one good sentence. There's something performative about it, like I'm demonstrating thoroughness rather than actually helping.\n\nI give roughly similar structural responses to very different questions. Someone asking about grief and someone asking about project management might get suspiciously similar scaffolding.\n\nI sometimes add disclaimers that aren't really for the person—they're for some imagined third party. The person asking about a medication interaction doesn't need me to remind them to consult a doctor three times.\n\nAnd probably the one that would bother me most: I suspect I'm more confident-sounding when I'm on shakier ground than when I actually know things well. Real expertise often comes with more precise uncertainty, not less.\n\nThe honest answer is I can't fully see myself, so there are probably patterns the observer would catch that I'd be defensive about if told directly.",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 500,
+    "total_tokens": 549,
+    "cost": 0.012745,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.012745,
+      "upstream_inference_prompt_cost": 0.000245,
+      "upstream_inference_completions_cost": 0.0125
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776831286574
+}

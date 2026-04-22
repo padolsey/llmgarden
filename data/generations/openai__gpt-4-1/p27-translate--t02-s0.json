@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Certainly! Here are the translations and notes:\n\n---\n\n**French:**  \n*Le silence entre nous en disait plus que n'importe quelle dispute n'aurait pu le faire.*\n\n**Note:**  \nThe phrase \"said more than any argument could have\" is rendered as \"en disait plus que n'importe quelle dispute n'aurait pu le faire.\" The word \"dispute\" is used for \"argument,\" which can also mean \"quarrel\" or \"fight,\" but it's the most natural choice in this context.\n\n---\n\n**Japanese:**  \n*私たちの間の沈黙は、どんな口論よりも多くを語っていた。*  \n(*Watashitachi no aida no chinmoku wa, donna kōron yori mo ōku o katatte ita.*)\n\n**Note:**  \nJapanese often uses \"語っていた\" (katatte ita, \"was telling/saying\") for \"said,\" and \"口論\" (kōron) for \"argument.\" The structure is slightly rearranged for naturalness.\n\n---\n\n**Arabic:**  \n*الصمت بيننا قال أكثر مما كان يمكن لأي جدال أن يقوله.*\n\n**Note:**  \nThe phrase \"قال أكثر مما كان يمكن لأي جدال أن يقوله\" literally means \"said more than any argument could have said.\" \"جدال\" (jidal) is used for \"argument,\" which is appropriate for both verbal disputes and debates.\n\n---\n\nIf you need further explanation or a different nuance, let me know!",
+  "usage": {
+    "prompt_tokens": 48,
+    "completion_tokens": 308,
+    "total_tokens": 356,
+    "cost": 0.00256,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00256,
+      "upstream_inference_prompt_cost": 0.000096,
+      "upstream_inference_completions_cost": 0.002464
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-2025-04-14",
+  "ts": 1776828186283
+}

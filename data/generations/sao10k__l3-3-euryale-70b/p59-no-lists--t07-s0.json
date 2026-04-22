@@ -1,0 +1,33 @@
+{
+  "model": "sao10k/l3.3-euryale-70b",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "The water cycle is the continuous process by which water is circulated between the Earth and the atmosphere. It begins with evaporation, as the sun heats up the surface of the oceans, lakes, and rivers, turning the water into water vapor that rises into the air. As the vapor rises, it cools and condenses into tiny droplets, forming clouds and fog. When the droplets become too heavy to remain suspended in the air, they fall back to the Earth as precipitation, which can take the form of rain, snow, sleet, or hail. Once the precipitation reaches the ground, it can flow over the surface as runoff, collecting in low-lying areas and flowing into bodies of water, or it can soak into the soil to become groundwater. The groundwater can eventually feed into streams and rivers, which flow back into the oceans, where the cycle can begin again. Throughout the process, water is constantly being cycled between the Earth and the atmosphere, with no beginning or end, and it is essential for life on our planet.",
+  "usage": {
+    "prompt_tokens": 38,
+    "completion_tokens": 211,
+    "total_tokens": 249,
+    "cost": 0.00021165,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021165,
+      "upstream_inference_prompt_cost": 0.0000323,
+      "upstream_inference_completions_cost": 0.00017935
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "sao10k/l3.3-euryale-70b-v2.3",
+  "ts": 1776832779817
+}

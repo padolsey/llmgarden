@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Short answer: I’d wait and run a full load tomorrow. If you’re worried about smell, do a quick “rinse/hold” cycle tonight or scrape well and close the door.\n\nHow I’d decide, pragmatically:\n- Resources: A modern dishwasher uses roughly 3–5 gallons of water and 0.7–1.2 kWh per cycle whether it’s half-full or full. That’s about $0.25–$0.50 in utilities plus a detergent pod. Running half-full now is basically paying the same per cycle for half the dishes. Even with a “half-load” option, you might save only 10–30%, which is still worse than one full load.\n- Tomorrow implications: If you run it now half-full, you’ll likely end up running another cycle soon anyway. Two half-loads usually use more water/energy/detergent than one full load.\n- Smell/hygiene: If there are protein-heavy scraps (eggs, fish, meat) or it’s warm, scrape plates well. Best option is a “rinse/hold” cycle (uses ~1–2 gallons) to keep odors down without doing a full wash. Avoid full-on pre-rinsing under the tap—that wastes more water than you think.\n- Dish availability: If you’ll run out of key items (mugs, forks, baby bottles) before tomorrow, either hand-wash just those few or run a quick/express cycle. That’s a convenience call.\n- Other constraints: If electricity is much cheaper at night, set a delayed start for late tonight or early morning. If noise is an issue, run when it won’t bother anyone.\n\nRecommendation:\n- Default: Wait and run a full load tomorrow.\n- If odor is likely: Do a rinse-only cycle tonight, then the full wash tomorrow.\n- Run now only if you need specific items before tomorrow and don’t want to hand-wash them.",
+  "usage": {
+    "prompt_tokens": 44,
+    "completion_tokens": 2365,
+    "total_tokens": 2409,
+    "cost": 0.023705,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.023705,
+      "upstream_inference_prompt_cost": 0.000055,
+      "upstream_inference_completions_cost": 0.02365
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1920,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776835032002
+}

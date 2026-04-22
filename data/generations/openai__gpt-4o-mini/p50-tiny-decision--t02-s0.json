@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4o-mini",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Sure! Let’s think through this decision together.\n\nFirst, I’d consider how much time I have right now. If I’m busy or have other things to do, it might be easier to just wait until tomorrow when I can load it up completely. But if I have a few minutes to spare, running it now could save me some time later.\n\nNext, I’d think about how dirty the dishes are. If the half-full load has a lot of greasy or sticky items, it might be better to run the dishwasher now to avoid letting them sit and potentially get harder to clean. On the other hand, if the dishes are just lightly soiled, waiting until tomorrow might be fine.\n\nI’d also consider the energy and water usage. Running a half-full dishwasher isn’t as efficient as a full one, but I’d weigh that against the convenience of not having to deal with dirty dishes piling up. If I wait until tomorrow, I might end up with a bigger mess to tackle.\n\nThen there’s the noise factor. If I run it now, will it disturb anyone else in the house? If it’s late or someone is trying to sleep, that might push me toward waiting.\n\nLastly, I’d think about my routine. If I usually run the dishwasher at a certain time, like in the morning, it might make sense to stick to that. But if I’m feeling motivated to get it done now, that could be a good reason to go ahead and run it.\n\nSo, weighing all of this, if the dishes are really dirty and I have the time, I might choose to run it now. But if they’re not too bad and I can wait, I’d probably hold off until tomorrow for a full load.",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 349,
+    "total_tokens": 394,
+    "cost": 0.00021615,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021615,
+      "upstream_inference_prompt_cost": 0.00000675,
+      "upstream_inference_completions_cost": 0.0002094
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4o-mini",
+  "ts": 1776828263483
+}

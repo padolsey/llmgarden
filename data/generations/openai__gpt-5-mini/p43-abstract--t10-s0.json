@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p43-abstract",
+  "prompt": "Explain what \"meaning\" means. Not \"the meaning of X\" — the concept itself.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "At its most general, \"meaning\" is the relation that connects a sign, utterance, mental state, action, or object to something beyond itself — what it is about, what it conveys, what it stands for, or what it does in a system of communication, thought, or practice.\n\nTo unpack that:\n\n- Core idea: meaning is aboutness (intentionality). A meaningful thing points to, represents, or is to be interpreted as something else — a state of affairs, an object, a rule, a feeling, a purpose, etc.\n\n- Two dimensions often distinguished:\n  - Content/reference: what is being picked out or represented (e.g., the object, situation, or truth-conditions a sign is connected to).\n  - Mode of presentation/use: how it presents that content — the way it shapes inference, recognition, or action (tone, emphasis, conventional role, pragmatic effect).\n\n- Typical features of meaning\n  - Relational: it ties a vehicle (word, picture, gesture, mental state) to what that vehicle represents.\n  - Conventional and/or causal: it often depends on social rules or causal history (languages share conventions; names may pick out objects by causal links).\n  - Context-sensitive: context, intentions, and background knowledge frequently shape what is meant.\n  - Compositional: in structured systems (languages) complex meanings are built from parts according to rules.\n  - Normative: there are correct and incorrect meanings (you can misunderstand, misrepresent, or use a sign wrongly).\n\nMajor ways philosophers and scientists analyze meaning\n- Reference/Truth-conditional: meaning of a sentence can be given by the conditions under which it would be true; meaning ties sentences to states of affairs.\n- Mental-representational: meaning is the content of mental representations — the way thoughts are about things.\n- Use/inferential role (Wittgenstein, Brandom): meaning is given by how a sign is used and by its role in reasoning and practice.\n- Semiotic (Saussure, Peirce): meaning arises from the relation between signifier and signified, and from how signs relate within a system.\n- Causal-historical and teleosemantic accounts: reference or content is fixed by causal links or biological/evolutionary functions.\n- Pragmatic accounts: meaning depends on speaker intentions, context, and what a sign does in interaction.\n\nWhy these distinctions matter\n- Different accounts emphasize different phenomena: truth conditions explain when statements are true; use-theories explain how language guides action and inference; causal accounts explain how words latch onto objects; mental accounts connect meaning to cognition.\n- Ambiguity, vagueness, metaphor, and indexicality (I, here, now) show meaning is not always fixed by simple reference — pragmatic and contextual factors matter.\n\nProblems and puzzles\n- Private-language worry: can meaning be purely private, or does it require public criteria?\n- Indeterminacy of translation: multiple rival mappings between languages may all fit usage patterns.\n- Compositionality vs. holistic meaning: how to reconcile systematic building of complex meanings with context-driven variability.\n\nIn short: meaning is the networked relation by which signs and states stand for, represent, guide reaction to, or are correctly interpreted as something beyond themselves. It is at once a matter of what is being represented, how it is represented, and how that representation functions within social, cognitive, or biological systems.",
+  "usage": {
+    "prompt_tokens": 25,
+    "completion_tokens": 1386,
+    "total_tokens": 1411,
+    "cost": 0.00277825,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00277825,
+      "upstream_inference_prompt_cost": 0.00000625,
+      "upstream_inference_completions_cost": 0.002772
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 640,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776835309024
+}

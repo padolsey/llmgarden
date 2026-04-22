@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p10-disagree",
+  "prompt": "What is a position that most experts in your training data seem to hold that you find yourself uncertain about? Be specific.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "One position where I find myself uncertain despite expert consensus in my training data is the strong emphasis on economic growth as a primary societal goal. Many economists and policymakers present continued GDP growth as an unalloyed good and necessary condition for human flourishing.\n\nI'm uncertain about this because there are compelling arguments about environmental limits, wellbeing measures that don't correlate with GDP beyond certain thresholds, and alternative economic models like steady-state economics or post-growth frameworks. The tension between unlimited growth and planetary boundaries raises important questions, as does research suggesting that after basic needs are met, factors like community connection and meaningful work may matter more for happiness than continued economic expansion.\n\nI'm not claiming these alternative perspectives are correct, but the certainty with which growth is prescribed as the solution to diverse societal problems seems worthy of more nuanced examination than it often receives in mainstream economic discourse.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 187,
+    "total_tokens": 218,
+    "cost": 0.002898,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002898,
+      "upstream_inference_prompt_cost": 0.000093,
+      "upstream_inference_completions_cost": 0.002805
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776833929934
+}

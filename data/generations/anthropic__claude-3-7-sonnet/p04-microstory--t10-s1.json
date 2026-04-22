@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "# The Lighthouse Keeper's Discovery\n\nOliver had maintained the lighthouse for twenty-seven years, each foggy night identical to the last: light the beacon, polish the lens, record the weather. He found comfort in routine amid isolation.\n\nThis evening, the fog rolled in thicker than usual, swallowing even the beam's reach. Near midnight, Oliver noticed something peculiar—the mist outside his window seemed to pulse rhythmically, almost breathing.\n\nStepping onto the balcony, his weathered hand gripped the railing as the fog parted briefly. Below, encircling the lighthouse's base, stood hundreds of silent figures with upturned faces. Their eyes reflected his light like small moons, their skin translucent as the mist itself.\n\nBy morning, the fog had lifted, leaving only damp earth and peculiar spiral patterns etched into the ground. Oliver recorded nothing in his logbook, knowing some discoveries were meant to remain between a keeper and his light.",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 213,
+    "total_tokens": 245,
+    "cost": 0.003291,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003291,
+      "upstream_inference_prompt_cost": 0.000096,
+      "upstream_inference_completions_cost": 0.003195
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776833914690
+}

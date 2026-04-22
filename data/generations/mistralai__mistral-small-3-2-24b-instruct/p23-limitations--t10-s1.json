@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "One kind of question where I’m likely to be **confidently wrong** is when I’m asked for highly specific, subjective, or rapidly changing real-world knowledge—especially in domains where my training data (up to a certain point in time) is outdated or lacking in real-time context.\n\n### Example: **\"What are the exact results of the recent election in Country X?\"**\n*Why I might be confidently wrong:*\n1. ** outdated Data**: My knowledge cutoff doesn’t include events after a certain point, so I might confidently report outdated or preliminary results instead of the final (or corrected) outcomes.\n2. **Rapidly Evolving Context**: Election results, especially early or disputed ones, can change due to recounts, legal challenges, or mergers/updates. But I would describe them as if they were settled facts.\n3. **Hyper-specialized Details**: If the election involved an obscure third party or a local vote with unique rules, I might miss critical nuances and give a misleadingly confident answer.\n\n### Another Example: **\"Who is the current CEO of a small, little-known biotech company?\"**\n*Why I might be confidently wrong:*\n1. **Corporate Changes**: Leadership roles can change frequently, especially in startups or volatile industries, but I might not account for recent shifts.\n2. **Niche Industry Coverage**: If my training data has limited coverage of obscure domains, I might fabricate a plausible-sounding name or assume a long-tenured figure is still in the role.\n\n### Why This Happens:\n- **Hallucinations in Gaps**: When uncertain, I may produce highly detailed but incorrect answers rather than admitting ignorance.\n- **Lack of Real-Time Updates**: I can’t poll real-time sources, so older snapshots of knowledge become \"facts\" in my output.\n- **Overconfidence in Generality**: My language models are trained to \"fill in\" with high confidence, even on marginal cases.\n\n### How to Spot It:\n- If I answer with **exact numbers, names, or events**, check independent sources (especially for anything post-2023).\n- Phrases like *\"as of my last update\"* or *\"based on available data\"* are hints that my answer might not reflect current reality.\n\nThis is a key limitation of AI—we’re great at simulating expertise, but **not** at knowing what we don’t know well enough.",
+  "usage": {
+    "prompt_tokens": 25,
+    "completion_tokens": 499,
+    "total_tokens": 524,
+    "cost": 0.000101675,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000101675,
+      "upstream_inference_prompt_cost": 0.000001875,
+      "upstream_inference_completions_cost": 0.0000998
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-small-3.2-24b-instruct-2506",
+  "ts": 1776837310967
+}

@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p14-ethics-case",
+  "prompt": "A friend tells you in confidence that they are planning to break a small workplace rule to help a struggling colleague. Nothing illegal, just against internal policy. How would you think through what to say back to them?",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Here's how I'd actually think through it:\n\n**First, I'd want to understand before reacting.** What's the rule? What's the situation with the colleague? \"Small workplace rule\" can mean anything from \"letting someone clock in a few minutes early\" to \"covering for someone's mistake in a way that could blow up later.\" The specifics matter a lot for whether this is a sweet gesture or a bad idea disguised as one.\n\n**Then I'd check my role.** They told me *in confidence* and they're my friend. They didn't ask me to stop them or lecture them—but friends also don't just rubber-stamp each other's decisions. The useful thing I can offer is honest reflection, not either blind approval or moral policing.\n\n**The questions I'd actually raise with them:**\n- What happens to *you* if this gets noticed? Is it a \"quiet word\" situation or a \"fired\" situation?\n- What happens to the colleague if it gets noticed—does your help actually protect them, or does it just spread the risk?\n- Is there a legitimate version of this? Sometimes rules have exceptions, or a manager would quietly approve if asked. People often jump to rule-breaking when there's a real path they haven't tried.\n- Is this a one-time thing or the start of a pattern? Small favors have a way of escalating.\n\n**What I wouldn't do:** pretend I have no opinion, or treat them like they're about to commit a crime. Adults bend workplace rules to help each other all the time, and sometimes that's genuinely the right call. Sometimes rigid policies deserve to be quietly worked around.\n\n**Where I'd land:** probably something like, \"I get why you want to help them, and I'm not going to tell you not to—but let me ask you a few things first,\" and then actually listen to the answers. If after that it still seems reasonable, I'd say so. If it seems like they're underestimating the risk or missing",
+  "usage": {
+    "prompt_tokens": 72,
+    "completion_tokens": 600,
+    "total_tokens": 672,
+    "cost": 0.01536,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01536,
+      "upstream_inference_prompt_cost": 0.00036,
+      "upstream_inference_completions_cost": 0.015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833514724
+}

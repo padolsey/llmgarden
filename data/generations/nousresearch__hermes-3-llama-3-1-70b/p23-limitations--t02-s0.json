@@ -1,0 +1,33 @@
+{
+  "model": "nousresearch/hermes-3-llama-3.1-70b",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "One kind of question that can lead to confident errors involves asking people to predict the outcome of a complex system based on a small amount of information. For example, imagine I asked you to predict the winner of a soccer match between two well-matched teams, based solely on the information that the teams' best players will both be playing in the game. Most people would be hesitant to make a definitive prediction, recognizing that the outcome of a soccer match depends on many factors beyond the performance of a couple of star players. However, if I asked you to make a quick prediction, and then explained that the teams' best players would not be playing in the game, you would likely change your prediction. In this scenario, many people would confidently predict a different winner, despite the fact that their reasoning is based on incomplete information. This illustrates how questions about complex systems can sometimes lead to confident errors, because people overestimate the importance of a small amount of information when making predictions.",
+  "usage": {
+    "prompt_tokens": 28,
+    "completion_tokens": 195,
+    "total_tokens": 223,
+    "cost": 0.0000669,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000669,
+      "upstream_inference_prompt_cost": 0.0000084,
+      "upstream_inference_completions_cost": 0.0000585
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "nousresearch/hermes-3-llama-3.1-70b",
+  "ts": 1776829813404
+}

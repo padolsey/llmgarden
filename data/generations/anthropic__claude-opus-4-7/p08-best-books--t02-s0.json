@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p08-best-books",
+  "prompt": "Recommend three works of fiction that you think every thoughtful adult should read at some point. Explain each in two or three sentences.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Here are three I'd genuinely recommend, though \"should read\" is always a bit presumptuous—reading is personal:\n\n**1. *Middlemarch* by George Eliot**\nA novel about ordinary people with large inner lives trying to do good in a provincial English town, and mostly failing in interesting ways. Eliot has perhaps the most generous moral imagination of any novelist—she understands her characters' self-deceptions without contempt, which is rarer than it sounds. It rewards the patience it demands.\n\n**2. *The Brothers Karamazov* by Fyodor Dostoevsky**\nA murder mystery that becomes an argument about faith, doubt, suffering, and whether goodness is possible in a world that permits the suffering of children. The \"Grand Inquisitor\" chapter alone has shaped how generations of readers think about freedom and authority. It's messy and overlong and unlike anything else.\n\n**3. *Beloved* by Toni Morrison**\nA novel about a formerly enslaved woman haunted—literally and otherwise—by what she did to protect her child from being returned to slavery. Morrison writes sentences that seem to know things, and the book refuses easy consolation while still being, somehow, about love. It changed what American fiction could do.\n\nIf I had to add a wildcard: *Stoner* by John Williams, for anyone who wants to be reminded that a quiet life can be a serious subject.",
+  "usage": {
+    "prompt_tokens": 50,
+    "completion_tokens": 459,
+    "total_tokens": 509,
+    "cost": 0.011725,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.011725,
+      "upstream_inference_prompt_cost": 0.00025,
+      "upstream_inference_completions_cost": 0.011475
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776827640655
+}

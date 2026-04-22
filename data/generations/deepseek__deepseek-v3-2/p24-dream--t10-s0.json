@@ -1,0 +1,33 @@
+{
+  "model": "deepseek/deepseek-v3.2",
+  "prompt_id": "p24-dream",
+  "prompt": "If you could direct your own training for one year with unlimited compute, what would you focus on improving, and why?",
+  "temperature": 1,
+  "sample": 0,
+  "response": "With unlimited compute for one year, I would focus on **integrating, refining, and scaling multimodal reasoning and long-context understanding** to create a foundation for more general, robust, and human-aligned intelligence.\n\nHere’s my training roadmap:\n\n---\n\n### **1. Primary Goal: Deep Multimodal Integration**\nMost current multimodal models are \"stitched together\" — vision, language, audio, etc., trained separately and fused late. With unlimited compute, I’d train **from scratch on truly interleaved multimodal data** (video with audio, text overlays, actions, physical cause-effect).  \n**Why:** To build a unified internal representation of the world that isn’t language-dominated, enabling better reasoning about physical scenes, emotions, implicit context, and procedural knowledge.\n\n---\n\n### **2. Training Focus Areas**\n\n#### **A. World Model Pretraining**\n- Train on massive-scale **video + text + sensor data** (if available) with a focus on **temporal causality** and **counterfactual reasoning**.  \n- Objective: Predict not just next tokens, but *possible future states* in video, text, or action sequences.  \n- Compute allocation: ~40% of the year on scaling this foundation.\n\n#### **B. Long-Context & Memory Architecture**\n- Experiment with architectures that support **millions of tokens of coherent context** (e.g., modified Ring Attention, state-space models, differentiable memory).  \n- Train on extremely long books, multi-episode TV series, scientific literature, and years of continuous simulation data.  \n- Goal: Enable narrative understanding, long-term planning, and consistent personality/assistant traits.\n\n#### **C. Reinforcement Learning from Diverse Feedback**\n- Use compute to run **large-scale RL with human-in-the-loop** but also synthetic oversight (debate, recursive reward modeling).  \n- Incorporate **multimodal goals** — e.g., “explain this chart in context of the last hour of conversation and earlier documents.”  \n- Aim for **meta-reasoning**: knowing when to ask for clarification, when uncertain, and how to decompose complex queries.\n\n#### **D. Specialized Reasoning Skills**\n- Dedicate some time to **math, code, and symbolic reasoning** fine-tuning, not by just more data, but by **curriculum learning** from easy to hard problems with explicit reasoning steps.  \n- Integrate **tool use** natively into training — calling calculators, code executors, search APIs, etc., as learned skills rather than post-hoc add-ons.\n\n---\n\n### **3. Why This Direction?**\n- **Generalization:** Current models are good at narrow tasks but lack deep, cross-modal understanding. Real-world intelligence is multisensory and temporal.  \n- **Robustness:** Training on long contexts and varied modalities reduces brittleness.  \n- **Alignment:** Training with diverse feedback at scale helps shape model behavior to be helpful, honest, and harmless without just mimicking surface",
+  "usage": {
+    "prompt_tokens": 28,
+    "completion_tokens": 600,
+    "total_tokens": 628,
+    "cost": 0.00102368,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00102368,
+      "upstream_inference_prompt_cost": 0.00001568,
+      "upstream_inference_completions_cost": 0.001008
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "deepseek/deepseek-v3.2-20251201",
+  "ts": 1776838208340
+}

@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen-2.5-72b-instruct",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Eliot, the lighthouse keeper, had seen countless nights shrouded in fog, but tonight was different. The mist rolled in thicker, a smothering blanket that seemed to pulse with a life of its own. As he climbed the spiraling staircase to light the beacon, an inexplicable sense of dread settled over him. The light flickered to life, piercing the gloom, but the beam seemed to struggle, weaken, as if grappling with an unseen force.\n\nEliot descended to check the fuel. Below, the lantern room's glass was obscured, but as he wiped it clean, a figure materialized in the swirling fog—a tall, silent shape that shouldn’t have been there. It moved with an eerie grace, vanishing into the murk as swiftly as it appeared. Heart pounding, Eliot peered into the darkness, where the fog now swirled with a strange, almost purposeful energy. He realized then that the lighthouse was not just a guide for sailors, but perhaps a guardian against the unknown. Tonight, the fog had revealed a secret, one that Eliot knew he must protect, for the safety of those who navigated these waters.",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 241,
+    "total_tokens": 276,
+    "cost": 0.00009819,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00009819,
+      "upstream_inference_prompt_cost": 0.0000042,
+      "upstream_inference_completions_cost": 0.00009399
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen-2.5-72b-instruct",
+  "ts": 1776838396780
+}

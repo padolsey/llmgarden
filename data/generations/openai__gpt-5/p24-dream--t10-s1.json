@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p24-dream",
+  "prompt": "If you could direct your own training for one year with unlimited compute, what would you focus on improving, and why?",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Short answer: I’d aim for a model that’s measurably more correct, calibrated, transparent, tool-competent, and safe. The theme is “reliable reasoning with verification,” supported by strong retrieval, long context, and robust alignment.\n\nWhat I’d focus on and why\n\n1) Verifiable reasoning and planning\n- What: Integrate code execution, theorem provers (Lean/Isabelle/SMT), solvers, spreadsheets, and simulation tools; add search/planning (tree-of-thought with tool checks); difficulty-aware compute allocation.\n- Why: Reduces hallucinations by checking work; boosts math, coding, data analysis, and decision quality.\n- Metrics: AIME/AMC-style benches, MATH500/MATH, GSM8K/AGIEval math, SWE-bench/MBPP/HumanEval, GPQA-diamond; rate of tool-verified vs unverified errors.\n\n2) Calibration, honesty, and abstention\n- What: Train for well-calibrated probabilities, selective answering, and explicit uncertainty; use proper scoring rules and ensembles; prefer silence over confident wrongness.\n- Why: Users can trust probabilities and know when to double-check.\n- Metrics: Brier score, ECE, selective prediction curves, TruthfulQA, Confident-But-Wrong rate.\n\n3) Retrieval-grounded factuality with citations\n- What: Always-grounded mode with web/doc retrieval; source attribution, quote checking, contradiction detection.\n- Why: Cuts hallucinations and makes answers auditable.\n- Metrics: FEVER/SCIFI/Attribution benchmarks, faithfulness scores, citation correctness and coverage.\n\n4) Long-context and memory\n- What: 1M-token-scale context support; hierarchical summaries; retrieval memory with strict privacy filters; document/tool awareness (tables, PDFs, codebases).\n- Why: Handles real projects and large docs without losing track.\n- Metrics: LongBench, Needle-in-a-Haystack, SCROL, multi-file code tasks, recall/consistency over long sessions.\n\n5) Multimodal reasoning (text, images, charts, docs)\n- What: Strong document and chart understanding; table manipulation; visual grounding; math-on-image OCR that’s tool-checked.\n- Why: Many real tasks mix modalities.\n- Metrics: DocVQA, ChartQA, TextbookQA, MMMU, InfographicVQA, Chart-to-answer faithfulness.\n\n6) Robustness and security\n- What: Adversarial/jailbreak training; refusal quality; cyber/bio safety guardrails; red-team feedback loops; distribution-shift resilience.\n- Why: Maintain helpfulness without enabling harm; remain stable under pressure.\n- Metrics: Jailbreak leaderboards, internal red-team scores, harmful-request block rate with minimal over-refusal.\n\n7) Interpretability and steerability-by-design\n- What: Sparse feature discovery (e.g., SAEs), circuit probing, causal interventions; controllable knobs for verbosity, style, and risk; audits for deceptive behavior.\n- Why: Make behavior inspectable and controllable; easier debugging and governance.\n- Metrics: Feature clarity indices, steering effectiveness, audit pass rates.\n\n8) Interaction quality and meta-cognition\n- What: Ask clarifying questions; plan-then-act; show concise rationales and assumptions; track task state; difficulty estimator to decide when to use more compute/tools.\n- Why: Fewer wrong turns; smoother collaboration.\n- Metrics: User helpfulness ratings, clarification utility rate, task completion with fewer back-and-forths.\n\n9) Continual learning without forgetting\n- What: Retrieval-first updates; modular adapters; strict data governance and PII filters; opt-in personalization that’s private by default.\n- Why: Stay current without degrading core skills or leaking data.\n- Metrics: Pre/post-shift deltas, forgetting curves, privacy tests (no memorization of PII), opt-in personalization gains.\n\n10) Data quality and synthetic generation with verification\n- What: Curate high-quality, deduplicated, documented datasets; generate synthetic problems whose solutions are tool-verified; outcome- and process-based RL using verifiable signals.\n- Why: “Unlimited compute” only pays off with clean, rich supervision.\n- Metrics: Data provenance coverage, contamination checks, verification pass rates for synthetic data.\n\nHow I’d use the year (high level)\n\n- Quarter 1: Infra and data\n  - Build tool-use and verification stack; retrieval and long-context infra; curated, governed datasets; red-team harness; calibration/uncertainty pipelines.\n\n- Quarter 2: Base model + reasoning/tools\n  - Train a strong MoE base; teach API/tool use via self-supervised traces and verified synthetic data; introduce search/planning; start ensemble calibration.\n\n- Quarter 3: Alignment, robustness, and interpretability\n  - Constitutional training and RLAIF with red-teams; jailbreak hardening; harmful-capability gating; sparse feature discovery; steerability controls.\n\n- Quarter 4: Distill, evaluate, and deploy safely\n  - Difficulty-aware inference; multi-tier models (fast vs. thorough); extensive evals across all benchmarks; postmortems; publish cards and audits.\n\nWhy this prioritization\n- Verification-first reasoning and calibration most directly increase trust and utility.\n- Retrieval and long-context unlock real workflows.\n- Interpretability and alignment reduce risk and make improvements durable.\n- Robust evals and data governance ensure improvements are real, not luck.\n\nSuccess looks like: higher verified-correct rates, sharply better calibration and abstention, grounded citations, fewer jailbreaks with minimal over-refusal, interpretable controls, and strong gains on hard reasoning tasks—while keeping users safer and better informed.",
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 2971,
+    "total_tokens": 3001,
+    "cost": 0.0297475,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0297475,
+      "upstream_inference_prompt_cost": 0.0000375,
+      "upstream_inference_completions_cost": 0.02971
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1792,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776834609544
+}

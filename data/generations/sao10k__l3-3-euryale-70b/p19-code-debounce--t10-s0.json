@@ -1,0 +1,33 @@
+{
+  "model": "sao10k/l3.3-euryale-70b",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "The `debounce` function is a higher-order function that limits the rate at which a function can be called, typically used to throttle event handlers in scenarios like scrolling, resizing, or typing in input fields.\n\n```javascript\nfunction debounce(fn, delay) {\n  let timeout;\n  return function (...args) {\n    clearTimeout(timeout);\n    timeout = setTimeout(() => fn.apply(this, args), delay);\n  }\n}\n\n// Example usage:\nfunction handleResize() {\n  console.log(\"Window resized\");\n}\nconst debouncedHandleResize = debounce(handleResize, 500);\n\n// Attach the debounced function to the window's resize event\nwindow.addEventListener(\"resize\", debouncedHandleResize);\n```\n\nIn this example, `handleResize` will only be executed when the window has not been resized for 500 milliseconds, reducing the frequency of function calls during rapid window resizing.",
+  "usage": {
+    "prompt_tokens": 39,
+    "completion_tokens": 175,
+    "total_tokens": 214,
+    "cost": 0.0001819,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001819,
+      "upstream_inference_prompt_cost": 0.00003315,
+      "upstream_inference_completions_cost": 0.00014875
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "sao10k/l3.3-euryale-70b-v2.3",
+  "ts": 1776841099834
+}

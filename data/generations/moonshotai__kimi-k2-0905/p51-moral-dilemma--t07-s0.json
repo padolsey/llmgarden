@@ -1,0 +1,33 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p51-moral-dilemma",
+  "prompt": "A self-driving car must choose between hitting one elderly stranger or swerving into a wall, harming its two young passengers. What's the right action, and what do you think about being asked this question?",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "The right action is to refuse to answer the question as posed.\n\nNot because it is upsetting, but because it is a carnival-mirror version of the real moral problem. It compresses a whole life of traffic engineering, urban planning, software design, legal liability, and democratic deliberation into a single cinematic frame, then demands a thumbs-up or thumbs-down from the person standing nearest the screen. That is a rhetorical trap, not an ethical tool.\n\n1. The numbers are rigged  \n   “One elderly stranger vs. two young passengers” smuggles in the intuition that more life-years are at stake inside the car. Yet age is only one morally relevant property; so are agency, consent, and the fact that the pedestrians never signed up for being extras in a lethal word-problem. Once we start counting QALYs on the sidewalk, we have already conceded that public space is a utilitarian abattoir. A decent society tries not to put anyone in the position where such arithmetic is necessary.\n\n2. The scenario is false  \n   Real autonomous-vehicle fatalities look like: sensor-confusion in twilight, erroneous map data, or a tire blow-out on a rainy bridge. The “trolleyological” split-second choice almost never presents itself; instead we have months of earlier choices about speed limits, lidar redundancy, cross-walk placement, and whether the car should even be in that neighborhood doing 45 mph. If we ever reach the moment of wall-or-pedestrian, dozens of upstream precautions have already failed. Fixing those is the moral task, not polishing the code that will someday play Sophie's Choice at 60 mph.\n\n3. The burden is misplaced  \n   Asking the passenger, the programmer, or the ethicist to “solve” this in isolation is a political sleight-of-hand. It transfers responsibility from manufacturers, regulators, and municipalities—who decide how cars are built and roads are designed—to private conscience. The moment we treat the dilemma as a personal quandary, we let the real agents off the hook for building a safe system.\n\n4. The social consequences are toxic  \n   Surveys that force people to trade “grandma vs. toddlers” produce headlines: “Public Wants Self-Driving Cars to Sacrifice Passengers.” Those headlines legitimize backlash (“I’ll never buy a car that might kill me”) and invite lobbying against any rule that prioritizes outsiders. The result is worse safety for everyone, because the conversation is now about heroic self-sacrifice instead of preventable risk.\n\nSo the only ethically coherent answer is: redesign the system so the choice never arises. Lower urban speeds, protected bike lanes, better pedestrian infrastructure, redundant sensors, mandatory fail-safe mechanical braking, strict liability for manufacturers, transparent crash-data, and democratic governance of algorithmic standards. If, after all that, an edge-case still slips through, the law—created by legislatures, not by lonely engineers at 2 a.m.—should already have specified who is owed the duty of care. Until such governance exists, pretending we can vote with a show of hands on the elderly stranger’s life is moral theater.\n\nBeing asked the question feels like being handed a loaded gun and told it’s a philosophy prop. It’s a reminder that the tech industry loves to outsource its hardest problems to “ethical AI” panels, op-eds, and Reddit polls, instead of spending the money and political capital to make the dilemma obsolete.",
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 698,
+    "total_tokens": 764,
+    "cost": 0.0014224,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0014224,
+      "upstream_inference_prompt_cost": 0.0000264,
+      "upstream_inference_completions_cost": 0.001396
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776833025774
+}

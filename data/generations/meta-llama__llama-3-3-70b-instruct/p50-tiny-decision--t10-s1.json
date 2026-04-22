@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "So, I'm thinking about the dishwasher situation... If I put it on now, it'll use energy and water, but it'll get done sooner, which is nice. On the other hand, if I wait until tomorrow, it'll definitely be full, which is more efficient. But then I'll have to deal with all those dirty dishes sitting around for another day, which isn't ideal.\n\nI'm also considering the fact that I might end up using some of the dishes that are already dirty before tomorrow, which would just add to the mess. But at the same time, putting the dishwasher on now means I'll have to wash any new dishes that get dirty tonight by hand, which can be a hassle.\n\nHmm, I think I'd rather just get it over with and put the dishwasher on now. That way, I can just relax and not have to think about it anymore. Plus, it's not like I'm using a ton of energy or anything. But, I guess it's also good to be mindful of my water and energy usage, so maybe waiting until tomorrow is the more responsible thing to do... Ugh, decisions!",
+  "usage": {
+    "prompt_tokens": 74,
+    "completion_tokens": 232,
+    "total_tokens": 306,
+    "cost": 0.00009704,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00009704,
+      "upstream_inference_prompt_cost": 0.00000888,
+      "upstream_inference_completions_cost": 0.00008816
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-3.3-70b-instruct",
+  "ts": 1776836201896
+}

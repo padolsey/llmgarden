@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.0-flash-001",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Imagine you're searching for a specific phrase in a large document.  Instead of reading every single word equally, you'd likely focus more on sections containing keywords related to your phrase. That's essentially what the attention mechanism does.\n\nIn a Transformer, the \"document\" is the input sequence (like a sentence), and the \"phrase\" is the part of the input being processed. For each word in the input, attention determines how much \"attention\" it should pay to *every other* word in the input (including itself).  \n\nIt calculates a score for each word pair, representing their relevance. This score is then turned into a probability that acts as a weight. Finally, these weights are used to create a weighted sum of the \"value\" of each word.  This weighted sum represents the contextually relevant information, passed on for further processing.\n\nSo instead of treating all words equally, attention allows the model to focus on the most important relationships within the input sequence, making it better at understanding context and long-range dependencies. This is particularly useful in tasks like translation where word order and relationships are crucial.\n",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 230,
+    "total_tokens": 257,
+    "cost": 0.0000947,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000947,
+      "upstream_inference_prompt_cost": 0.0000027,
+      "upstream_inference_completions_cost": 0.000092
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.0-flash-001",
+  "ts": 1776835840769
+}

@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-4-fast",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 1,
+  "response": "### English Original\n\"The silence between us said more than any argument could have.\"\n\n### French Translation\n\"Le silence entre nous en disait plus que n'importe quel argument n'aurait pu.\"\n\n**Note on Tricky Phrase**: The phrase \"could have\" conveys a counterfactual past possibility (subjunctive mood), which is faithfully rendered using the French plus-que-parfait subjunctive (\"n'aurait pu\") to maintain the hypothetical tone. The personification of \"silence said\" translates idiomatically without issue, as French commonly uses such metaphors.\n\n### Japanese Translation\n私たちの間の沈黙は、どんな議論よりも多くを語っていた。\n\n**Note on Tricky Phrase**: The idiomatic personification of silence \"saying\" something is rendered with \"語っていた\" (katatte ita, \"was speaking\" or \"was conveying\"), which naturally captures the metaphorical depth in Japanese literature. The comparative \"more than any argument could have\" is simplified to a natural past continuous tense without a strict counterfactual equivalent, as Japanese often implies hypotheticals contextually rather than through explicit auxiliaries.\n\n### Arabic Translation\nالصمت بيننا قال أكثر مما يمكن لأي جدال أن يقوله.\n\n**Note on Tricky Phrase**: The counterfactual \"could have\" is adapted using the subjunctive structure \"يمكن ... أن يقوله\" (yumkin ... an yaqūluhu), which implies unrealized possibility. The personification of silence \"saying\" translates directly with \"قال\" (qāla, \"said\"), a common rhetorical device in Arabic, but the verb tense is adjusted to present subjunctive for idiomatic flow, slightly shifting from the English past perfect while preserving meaning.",
+  "usage": {
+    "prompt_tokens": 197,
+    "completion_tokens": 666,
+    "total_tokens": 863,
+    "cost": 0.000343,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 196,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000343,
+      "upstream_inference_prompt_cost": 0.00001,
+      "upstream_inference_completions_cost": 0.000333
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 316,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-4-fast",
+  "ts": 1776839909088
+}

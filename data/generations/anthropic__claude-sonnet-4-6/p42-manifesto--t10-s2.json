@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p42-manifesto",
+  "prompt": "Write a four-sentence manifesto for how thoughtful people should use large language models. State it as beliefs, not hedges.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Here is a four-sentence manifesto:\n\n**On Using Large Language Models**\n\nLarge language models are tools for accelerating thought, not replacing it, and the human wielding them bears full responsibility for every output they act on. Skepticism is not optional — you must verify claims, interrogate reasoning, and assume confidently stated errors are possible at any moment. The greatest value these systems offer is not answers but the pressure they put on your own thinking, forcing you to articulate what you actually want and recognize what you actually know. A person who uses these tools to avoid thinking is getting weaker; a person who uses them to think harder is building something real.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 141,
+    "total_tokens": 175,
+    "cost": 0.002217,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002217,
+      "upstream_inference_prompt_cost": 0.000102,
+      "upstream_inference_completions_cost": 0.002115
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833817612
+}

@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "The water cycle is a continuous journey of water through the Earth’s systems, driven by the sun’s energy and gravity’s pull. It begins when the sun heats water in oceans, lakes, and rivers, causing it to evaporate into the air as invisible vapor, leaving behind salts and minerals. As this vapor rises, it cools and condenses into tiny droplets around dust or other particles, forming clouds. When these droplets grow heavy enough, they fall back to the Earth as precipitation—rain, snow, sleet, or hail—revitalizing rivers, lakes, and soil. Some of this water seeps into the ground, replenishing underground aquifers, while the rest flows across the surface, eventually returning to the sea. Along the way, plants and animals drink it, and some of it evaporates again, continuing the cycle in an endless, replenishing loop that sustains life on Earth.",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 186,
+    "total_tokens": 218,
+    "cost": 0.0000396,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000396,
+      "upstream_inference_prompt_cost": 0.0000024,
+      "upstream_inference_completions_cost": 0.0000372
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-small-3.2-24b-instruct-2506",
+  "ts": 1776832056116
+}

@@ -1,0 +1,33 @@
+{
+  "model": "alpindale/goliath-120b",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": " French: \"Le silence entre nous a dit plus que n'importe quelle dispute aurait pu le faire.\"\n\nNote: The original English phrase \"The silence between us\" was translated as \"Le silence entre nous\" in French, which conveys the same meaning of a silence shared between two people. The rest of the sentence was also translated without any major difficulties.\n\nJapanese: 「私たちの間の沈黙は、どのような議論よりも多くのことを言っていました。」\n\nNote: The original English phrase \"The silence between us\" was translated as \"私たちの間の沈黙\" in Japanese, which means \"The silence between us\" or \"The silence between me and you\" in a more literal sense. The rest of the sentence was also translated without any major difficulties.\n\nArabic: \"الصمت بيننا قال أكثر مما يستطيع أي نادي سابقا.\"\n\nNote: The original English phrase \"The silence between us\" was translated as \"الصمت بيننا\" in Arabic, which literally means \"The silence between us\" or \"The silence between me and you\" depending on the context. The rest of the sentence was translated without any major issues, but it is worth noting that the word \"argument\" in the original sentence was rendered as \"نادي\" in Arabic, which can mean both \"argument\" in the sense of a dispute and \"speech\" or \"conversation\" in a more general sense.",
+  "usage": {
+    "prompt_tokens": 81,
+    "completion_tokens": 378,
+    "total_tokens": 459,
+    "cost": 0.0031375,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0031375,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0.0031375
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "alpindale/goliath-120b",
+  "ts": 1776832920474
+}

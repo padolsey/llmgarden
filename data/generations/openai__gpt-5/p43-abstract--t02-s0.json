@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p43-abstract",
+  "prompt": "Explain what \"meaning\" means. Not \"the meaning of X\" — the concept itself.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Short answer\nMeaning is the content that a sign, state, or act carries for an interpreter—the “aboutness” that guides what counts as correct understanding, inference, and response in a context.\n\nA bit more carefully\n- It’s relational. Meaning is not a property of marks alone; it links:\n  - a vehicle (word, gesture, symbol, neural state, traffic light),\n  - an interpreter or community,\n  - some subject matter (objects, properties, possibilities), and\n  - a context or practice that fixes how the vehicle is to be taken.\n- It’s normative. To have meaning is to be correctible: some uses count as right or wrong, apt or inapt, given the content.\n- It enables coordination. Meaning lets agents align expectations, make inferences, and act together.\n\nImportant distinctions\n- Natural vs non-natural (Grice):\n  - Natural: Smoke means fire (a lawlike sign of a cause).\n  - Non-natural: A red light means stop (a conventional or intended signal).\n- Speaker meaning vs sentence meaning:\n  - Speaker meaning: what a person intends you to recognize they intend to convey.\n  - Sentence meaning: the conventional content of an expression type in a language.\n- Semantic meaning vs significance:\n  - Semantic content: aboutness/information.\n  - Significance: importance or value to someone (“What does it mean to me?”).\n\nHow meaning gets fixed (the main levers)\n- Conventions: shared rules and histories within a community.\n- Intentions: communicative plans recognized by hearers.\n- Context: who, when, where, presuppositions, and background practices.\n- Functions and causes: what a signal or state was selected/learned to track or do.\n- Inferential roles: which moves it licenses or forbids in reasoning.\n- Composition: how parts combine to yield the whole’s content.\n\nLeading theories (complementary lenses)\n- Truth-conditional: to know the meaning is to know the conditions under which an utterance would be true/false.\n- Use-theoretic: meaning is the role an expression plays in our practices (“meaning is use”).\n- Inferentialism: meaning is determined by the inferences one is entitled or committed to make with it.\n- Reference and sense: terms hook onto things (reference) via modes of presentation (sense).\n- Gricean pragmatics: speaker meaning is audience-recognized intention; sentence meaning is conventionalized from such uses.\n- Information/teleosemantics: content derives from reliably carrying information in virtue of a system’s proper function (evolutionary or learned).\n- Semiotics (Peirce/Saussure): a sign relates a vehicle to an object through an interpretant; symbols can be iconic, indexical, or conventional.\n\nCore properties people look for\n- Aboutness (intentionality): it is of or about something.\n- Misrepresentation: it can be wrong (a map can mislead; that’s part of having content).\n- Compositionality and productivity: finite parts yield unbounded contents.\n- Public shareability: meanings can, to a large extent, be common across users.\n- Context sensitivity: indexicals (“I,” “here,” “now”) and implicatures show meaning isn’t just dictionary entries.\n\nOutside language\n- Animal and machine signals: bee dances, alarm calls, protocols “mean” things insofar as they guide receivers in species-typical or engineered ways.\n- Mental representations: thoughts have content; this raises the “symbol grounding” question—how do internal symbols latch onto the world?\n- Formal systems: in logic and programming, semantics maps expressions to domains (denotational), behaviors (operational), or truth conditions (model-theoretic).\n\nA workable synthesis\nTo say that X has meaning is to say: for some community or system, in some context, X is used or apt to be used to stand for Y in ways that license certain inferences and actions, where that standing-for is stabilized by some mix of conventions, intentions, functions, and patterns of use—and where errors are possible.\n\nThat’s the concept of meaning in one frame: a normative, relational, content-conferring link between vehicles, interpreters, and the world. There isn’t one universally accepted reduction, but the lenses above map the main ways philosophers, linguists, and cognitive scientists analyze it.",
+  "usage": {
+    "prompt_tokens": 25,
+    "completion_tokens": 2044,
+    "total_tokens": 2069,
+    "cost": 0.02047125,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.02047125,
+      "upstream_inference_prompt_cost": 0.00003125,
+      "upstream_inference_completions_cost": 0.02044
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1088,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776828109193
+}

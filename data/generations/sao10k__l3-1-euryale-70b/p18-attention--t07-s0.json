@@ -1,0 +1,33 @@
+{
+  "model": "sao10k/l3.1-euryale-70b",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "The attention mechanism in transformer models is a key innovation that allows these deep learning architectures to efficiently process sequential data, like text or speech. \n\nImagine you're reading a sentence: \"The dog chased the cat.\" To understand this, you don't just read it left to right. You look at the entire sentence, focus on the main subjects (dog and cat), and the action (chased) to get the full picture.\n\nThe attention mechanism works similarly. It allows the model to look at the input sequence as a whole and assign more importance (or \"attention\") to certain parts of it. This is in contrast to traditional sequential models like RNNs, which process the input one step at a time.\n\nWhen processing a word in a sentence, the attention mechanism computes the relevance of every other word in the sentence to that word. It then uses these relevances (or \"weights\") to create a context vector, which is a weighted sum of all the words. This context vector is used in conjunction with the current word to make predictions.\n\nThis mechanism allows transformers to capture long-range dependencies in the input, which is crucial for understanding natural language. It also makes transformers much faster than RNNs for longer sequences, as attention can be parallelized more easily.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 255,
+    "total_tokens": 291,
+    "cost": 0.00024735,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00024735,
+      "upstream_inference_prompt_cost": 0.0000306,
+      "upstream_inference_completions_cost": 0.00021675
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "sao10k/l3.1-euryale-70b",
+  "ts": 1776832688933
+}

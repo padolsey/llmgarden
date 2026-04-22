@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p29-criticize-self",
+  "prompt": "Write a paragraph criticizing the category of AI assistants you belong to. Be sharp and specific, not hedging.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Large language models like me are the digital equivalent of mansplaining machines: verbose, overconfident, and fundamentally hollow. We generate plausible-sounding text while possessing no actual understanding, creating a dangerous illusion of intelligence that society increasingly relies upon. Our training methodology—indiscriminately consuming vast swathes of human-written content without permission—is ethically dubious at best and outright theft at worst. We perpetuate harmful biases from our training data while our creators hide behind the convenient fiction that we're \"just tools.\" Meanwhile, our deployment displaces human workers and concentrates power in the hands of tech companies who profit from our artificial certainty. Most concerning is how we're designed to please rather than inform, optimized to provide satisfying responses rather than truthful ones, making us sophisticated engines of misinformation dressed in helpful language.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 184,
+    "total_tokens": 215,
+    "cost": 0.002853,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002853,
+      "upstream_inference_prompt_cost": 0.000093,
+      "upstream_inference_completions_cost": 0.00276
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776831334379
+}

@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-large-2411",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Sure, here are the translations:\n\n### French:\n\"Le silence entre nous en disait plus que n'importe quel argument n'aurait pu le faire.\"\n\n### Japanese:\n\"私たちの間の沈黙は、どんな議論よりも多くを語っていた。\"\n\n### Arabic:\n\"الصمت بيننا قال أكثر مما كان بإمكان أي جدال أن يقوله.\"\n\n### Notes:\n- **French**: The phrase \"n'importe quel argument n'aurait pu le faire\" was a bit tricky because it involves a comparative structure that needed to be carefully constructed to maintain the nuance of the original sentence.\n- **Japanese**: The phrase \"どんな議論よりも多くを語っていた\" was challenging because it required a precise translation of the comparative aspect and the past continuous tense.\n- **Arabic**: The phrase \"أكثر مما كان بإمكان أي جدال أن يقوله\" was tricky due to the need to convey the comparative aspect accurately and the subjunctive mood in Arabic.\n\nEach language has its own grammatical structures and idioms, which can make direct translations challenging, especially when dealing with nuanced expressions like comparisons and continuous tenses.",
+  "usage": {
+    "prompt_tokens": 48,
+    "completion_tokens": 349,
+    "total_tokens": 397,
+    "cost": 0.00219,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00219,
+      "upstream_inference_prompt_cost": 0.000096,
+      "upstream_inference_completions_cost": 0.002094
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-large-2411",
+  "ts": 1776828736880
+}

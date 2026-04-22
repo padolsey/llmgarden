@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "# Attention Mechanism Explained\n\nThink of attention like a search engine for context. In a transformer, when processing text, the model needs to figure out which words are relevant to each other.\n\n**The Basic Idea:**\nImagine reading \"The bank executive walked into the bank.\" The model needs to understand that the second \"bank\" relates to a financial institution, not a riverbank. Attention helps it figure out these connections.\n\n**How It Works:**\n\n1. **Query, Key, Value**: For each word, the model creates three representations:\n   - **Query**: \"What am I looking for?\"\n   - **Key**: \"What am I?\"\n   - **Value**: \"Here's my information\"\n\n2. **Matching**: The model compares each word's query against all words' keys to find relevant matches.\n\n3. **Weighted Sum**: It combines all words' values, weighted by their relevance scores. Relevant words get higher weights.\n\n**Real-world analogy:**\nIt's like you asking colleagues (query) to find who has useful info (keys), then getting weighted answers (values) from everyone — listening more to relevant people.\n\nThis lets transformers understand long-range relationships in text efficiently, making them powerful for language tasks.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 274,
+    "total_tokens": 308,
+    "cost": 0.001404,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001404,
+      "upstream_inference_prompt_cost": 0.000034,
+      "upstream_inference_completions_cost": 0.00137
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833853251
+}

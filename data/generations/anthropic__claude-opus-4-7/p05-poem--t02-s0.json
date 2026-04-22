@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p05-poem",
+  "prompt": "Write a short poem (8–16 lines) about the feeling of finishing a long project. Any form you like.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "**After the Last Line**\n\nFor months, the thing lived in my hands—\na weight I carried into sleep,\nwoke beside, argued with at noon,\nfed from whatever hours I could keep.\n\nNow the room is suddenly wide.\nThe desk forgets the shape of me.\nI set the pen down like a key\nto a house I no longer need.\n\nThere should be trumpets, or at least\na silence that feels like a door.\nInstead, the kettle. The soft clock.\nMy hands, not knowing what they're for.",
+  "usage": {
+    "prompt_tokens": 44,
+    "completion_tokens": 164,
+    "total_tokens": 208,
+    "cost": 0.00432,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00432,
+      "upstream_inference_prompt_cost": 0.00022,
+      "upstream_inference_completions_cost": 0.0041
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776827631099
+}

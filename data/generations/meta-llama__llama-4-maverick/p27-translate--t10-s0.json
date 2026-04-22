@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-4-maverick",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Here are the translations:\n\n**French:** \"Le silence entre nous en disait plus que n'importe quel argument n'aurait pu le faire.\"\n\n**Note:** The French translation required a slight rephrasing to maintain the idiomatic expression. The original sentence's phrase \"could have\" is translated to \"n'aurait pu le faire,\" which is a more formal and idiomatic way to express the same idea in French.\n\n**Japanese:** \"\" (Chinmoku wa nanika o ronji hajimeru yori mo ōku o katatte shimatta).\n\n**Note:** The Japanese translation uses a more poetic expression to convey the idea. The phrase \"\" (ōku o katatte shimatta) is an idiomatic expression that means \"said more\" or \"conveyed more,\" and it is often used to describe a situation where something unspoken or implicit is more significant than what is explicitly stated.\n\n**Arabic:** \"الصمت بيننا قال أكثر مما قد تقوله أي مناقشة.\"\n\n**Note:** The Arabic translation required careful consideration of the word \"argument.\" The original sentence's word \"argument\" is translated to \"مناقشة\" (munāqashah), which is a more formal and nuanced term that encompasses the idea of a discussion or debate. The translation aims to convey the idea that the silence between the two individuals conveyed more than any verbal exchange or discussion.",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 286,
+    "total_tokens": 338,
+    "cost": 0.0001794,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001794,
+      "upstream_inference_prompt_cost": 0.0000078,
+      "upstream_inference_completions_cost": 0.0001716
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-4-maverick-17b-128e-instruct",
+  "ts": 1776836287924
+}

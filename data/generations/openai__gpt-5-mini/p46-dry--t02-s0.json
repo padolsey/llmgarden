@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p46-dry",
+  "prompt": "Write a dry one-paragraph Amazon review of the experience of waking up.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Waking up performs its primary function—transitioning the user from sleep to consciousness—consistently and with minimal setup, but with variable user experience depending on prior \"configuration\" (sleep duration, room conditions, caffeine). The core features (alarm stimulus, gradual light increase for some models, involuntary eye-opening) work as advertised; however, outputs often include residual grogginess, temporary cognitive impairment, and occasional mismatch between intended and actual wake times, and the ubiquitous \"snooze\" mechanic undermines long-term effectiveness. Maintenance is simple (regular sleep hygiene recommended), durability is daily and nonrefundable, and compatibility with morning activities is high provided expectations are modest. Functional and reliable for routine use, not remarkable or enjoyable.",
+  "usage": {
+    "prompt_tokens": 21,
+    "completion_tokens": 692,
+    "total_tokens": 713,
+    "cost": 0.00138925,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00138925,
+      "upstream_inference_prompt_cost": 0.00000525,
+      "upstream_inference_completions_cost": 0.001384
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 512,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776828182451
+}

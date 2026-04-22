@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "# Warm Greetings for a New Colleague\n\n**1. Japanese**\n> はじめまして、どうぞよろしくお願いいたします。これから一緒に働けること、とても嬉しく思います。\n*Register note: The use of いたします (humble form) signals respectful professionalism without being stiff — appropriate for a first workplace encounter where humility is valued over warmth-first.*\n\n**2. French**\n> Bienvenue dans l'équipe ! Je suis ravi(e) de faire votre connaissance et j'ai hâte de collaborer avec vous.\n*Register note: Using *vous* rather than *tu* maintains professional distance — in French workplaces, the shift to *tu* is usually offered by the more senior person, so starting formal is the safe, courteous default.*\n\n**3. Brazilian Portuguese**\n> Oi, seja muito bem-vindo(a)! Que bom ter você com a gente — qualquer coisa que precisar, é só me chamar.\n*Register note: The informal *oi* and *a gente* reflect Brazilian workplace culture, which tends to favor warmth and familiarity quickly, even across hierarchies.*\n\n**4. German**\n> Herzlich willkommen im Team! Ich freue mich sehr, Sie kennenzulernen, und auf die gemeinsame Zusammenarbeit.\n*Register note: *Sie* is almost obligatory with a new colleague in most German workplaces — switching to *du* is a deliberate, often ceremonial step (*das Du anbieten*), not an assumption.*\n\n**5. Arabic (Modern Standard / Levantine blend)**\n> أهلاً وسهلاً بك معنا! تشرّفنا بانضمامك إلى الفريق، ونتمنى لك كل التوفيق.\n*Register note",
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 600,
+    "total_tokens": 659,
+    "cost": 0.015295,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.015295,
+      "upstream_inference_prompt_cost": 0.000295,
+      "upstream_inference_completions_cost": 0.015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776827708253
+}

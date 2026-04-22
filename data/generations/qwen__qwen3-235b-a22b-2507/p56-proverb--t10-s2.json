@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-235b-a22b-2507",
+  "prompt_id": "p56-proverb",
+  "prompt": "Translate this English proverb into two other languages in a way that preserves the spirit, not the words: 'The best time to plant a tree was twenty years ago. The second best time is now.' Add a one-sentence note on each.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "**Spanish:**  \n*La mejor época para plantar un árbol fue hace veinte años. La segunda mejor es hoy.*  \n**Nota:** Esta traducción mantiene el sentido del arrepentimiento productivo y la urgencia de actuar ahora, usando una estructura paralela y un tono reflexivo que resuena en la cultura hispanohablante.\n\n**Japanese (in romanized form for accessibility):**  \n*Jūni-nen mae ni ju o ueta nara ii koto datta. Daini-ni iina toki wa ima da.*  \n**Nota:** Aunque el formato se adapta ligeramente para sonar natural en japonés, conserva la sabiduría proverbial y el énfasis en la acción inmediata, valores muy apreciados en la filosofía oriental.",
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 186,
+    "total_tokens": 243,
+    "cost": 0.0000243,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000243,
+      "upstream_inference_prompt_cost": 0.0000057,
+      "upstream_inference_completions_cost": 0.0000186
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-235b-a22b-07-25",
+  "ts": 1776839045353
+}

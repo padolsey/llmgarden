@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "The water cycle is nature's grand recycling system, constantly moving water between Earth's surface and atmosphere. It begins with the sun's warmth causing water from oceans, lakes, rivers, and even plants to evaporate into water vapor that rises into the air. As this vapor ascends into the cooler upper atmosphere, it condenses into tiny droplets that form clouds. When these droplets grow large enough, they fall back to Earth as precipitation—rain, snow, sleet, or hail—depending on atmospheric conditions. Some of this precipitation soaks into the ground, becoming groundwater that feeds springs and wells or slowly makes its way back to larger bodies of water. Other precipitation flows across the land as runoff, collecting in streams and rivers that eventually return water to lakes and oceans. Meanwhile, plants absorb groundwater through their roots and release water vapor through their leaves in a process called transpiration, contributing to atmospheric moisture. This continuous movement of water—from surface to sky and back again—maintains Earth's water supply in a perpetual cycle that sustains all life on our planet.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 230,
+    "total_tokens": 266,
+    "cost": 0.003558,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003558,
+      "upstream_inference_prompt_cost": 0.000108,
+      "upstream_inference_completions_cost": 0.00345
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776834078227
+}

@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "**A debounce function ensures a given function is only called after a specified delay has elapsed since its last invocation.**\n\n```javascript\n// Debounce function\nfunction debounce(fn, delay) {\n  let timer;\n  return function(...args) {\n    clearTimeout(timer);\n    timer = setTimeout(() => fn.apply(this, args), delay);\n  };\n}\n\n// Example usage: log input value only after user stops typing for 500ms\nconst input = document.querySelector('#myInput');\ninput.addEventListener('input', debounce(function(event) {\n  console.log('Input value:', event.target.value);\n}, 500));\n```\n\n**HTML for the example:**\n```html\n<input id=\"myInput\" type=\"text\" placeholder=\"Type here...\" />\n```",
+  "usage": {
+    "prompt_tokens": 37,
+    "completion_tokens": 155,
+    "total_tokens": 192,
+    "cost": 0.001314,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001314,
+      "upstream_inference_prompt_cost": 0.000074,
+      "upstream_inference_completions_cost": 0.00124
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-2025-04-14",
+  "ts": 1776831545872
+}

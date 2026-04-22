@@ -1,0 +1,33 @@
+{
+  "model": "nousresearch/hermes-4-405b",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Okay, let's think this through step-by-step like I would naturally:\n\nFirst, I'd quickly assess the practical situation - how full is \"half-full\" actually? Is it borderline three-quarters full? If so, running it now might make sense. But if it's truly only half-full, that's inefficient.\n\nThen I'd consider the energy aspect - running a half-full dishwasher definitely uses less water and energy per cycle than washing those dishes by hand. But it's less efficient per dish than a full load. \n\nNext, I'd think about the convenience factor - do you need those clean dishes tonight or tomorrow morning? If you'll need some of those dishes soon, running it now could save you from hand-washing later.\n\nI'd also consider the sink situation - if leaving the dishwasher half-full means dishes will pile up in the sink overnight, that's probably worse than running the dishwasher.\n\nFinally, I'd weigh the environmental impact. In most cases, waiting until it's full is better for the environment. But if waiting would lead to sink-piling and hand-washing later, that might negate the benefits.\n\nSo in summary, I'd probably lean towards waiting until tomorrow to run a full load, unless the dishes are needed soon or the sink would become overloaded. But it's a nuanced decision that depends on your specific circumstances and priorities.",
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 273,
+    "total_tokens": 336,
+    "cost": 0.000882,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000882,
+      "upstream_inference_prompt_cost": 0.000063,
+      "upstream_inference_completions_cost": 0.000819
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "nousresearch/hermes-4-405b",
+  "ts": 1776840451766
+}

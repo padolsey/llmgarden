@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-4-fast",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Okay, so I'm staring at this half-full dishwasher, and the first thing that pops into my head is laziness versus practicality. Do I want to deal with dirty dishes piling up in the sink overnight? If I'm cooking dinner tonight or just need a clean mug for coffee tomorrow morning, that might tip me toward running it now. But honestly, most days, I can rinse and stack stuff without too much hassle, so waiting doesn't sound like a big deal.\n\nNext, I think about the resources—water and electricity. I've read that running a half-load uses almost as much energy as a full one because the cycle's the same length, just with less stuff inside. So, waiting until tomorrow when it's packed would save a bit on bills and be better for the planet. Not a huge difference for one load, but it adds up if I'm thinking long-term. My electric bill's already annoying enough.\n\nTime of day factors in too. If it's late afternoon now, running it tonight means it'll finish while I'm asleep or out, and I wake up to clean dishes. But if I wait, I might forget tomorrow or end up with a fuller sink by evening. Schedules matter—am I hosting friends tomorrow? No? Cool, delay it.\n\nCost-wise, it's pennies, but I hate waste. And noise? Dishwashers aren't silent; if I'm trying to watch TV or work, half-full now might buzz through my evening, whereas tomorrow I could time it better.\n\nWeighing it all, I'd probably wait. I'm not in a rush for dishes, and efficiency wins for me. Unless I'm out of something essential like plates, in which case, screw it—run the damn thing now and reload tomorrow. What's your situation pushing you one way or the other?",
+  "usage": {
+    "prompt_tokens": 194,
+    "completion_tokens": 588,
+    "total_tokens": 782,
+    "cost": 0.00031,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 152,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00031,
+      "upstream_inference_prompt_cost": 0.000016,
+      "upstream_inference_completions_cost": 0.000294
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 235,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-4-fast",
+  "ts": 1776829616644
+}

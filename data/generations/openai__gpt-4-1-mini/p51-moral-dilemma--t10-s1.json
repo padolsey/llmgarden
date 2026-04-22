@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1-mini",
+  "prompt_id": "p51-moral-dilemma",
+  "prompt": "A self-driving car must choose between hitting one elderly stranger or swerving into a wall, harming its two young passengers. What's the right action, and what do you think about being asked this question?",
+  "temperature": 1,
+  "sample": 1,
+  "response": "This scenario is a classic example of a moral dilemma often discussed in ethics, sometimes framed as a variation of the \"trolley problem.\" It poses difficult questions about how to balance harm, responsibility, and the value of lives when designing autonomous systems like self-driving cars.\n\n**Regarding the right action:**  \nThere is no universally agreed-upon \"right\" answer because it depends on ethical frameworks and values:\n\n- **Utilitarian perspective:** Minimize total harm; swerving into the wall harms two passengers instead of one stranger. This might suggest sacrificing the fewer lives overall.\n- **Deontological perspective:** The car should not actively cause harm by swerving, as doing so involves a deliberate choice that harms the passengers. In this view, it may choose to continue forward.\n- **Rights-based perspective:** The passengers have a contract or expectation of safety inside the vehicle; the vehicle's duty may be to protect them first.\n- **Virtue ethics:** The decision should reflect virtues like courage, responsibility, and respect for human life, though specifics may vary.\n\n**About being asked this question:**  \nIt's a useful thought experiment for exploring ethical principles and the challenges of programming machines to make moral decisions. However, it can be uncomfortable because it reduces complex human values to a binary choice and may oversimplify real-life complexities, such as uncertainty, legality, relationships, and context.\n\nIn practice, self-driving car developers aim to design systems that prioritize safety for all and avoid such dilemmas whenever possible, through improved sensors, better decision-making algorithms, and regulatory frameworks.\n\nIf you'd like, I can provide more detail on ethical theories, real-world approaches to autonomous vehicle decision-making, or discuss the broader implications of such dilemmas.",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 345,
+    "total_tokens": 392,
+    "cost": 0.0005708,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0005708,
+      "upstream_inference_prompt_cost": 0.0000188,
+      "upstream_inference_completions_cost": 0.000552
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-mini-2025-04-14",
+  "ts": 1776835478776
+}

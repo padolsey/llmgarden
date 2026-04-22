@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-nemo",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Alright, let's think through this as if we were sitting at the kitchen table, and I'm sharing my thought process with you.\n\n*I glance at the dishwasher, which has some dishes in it, but not enough to run a full cycle.*\n\n1. **First things first, I consider the biggest factor: time.** If I run the dishwasher now, it'll finish in about two hours. If I wait until tomorrow, it'll be at least 16 hours before it runs, maybe more if I have breakfast first.\n\n2. **Next, I think about how often I typically run the dishwasher.** I usually wait until it's full or nearly full. This helps save water and energy. Running it now with only half a load goes against this habit.\n\n3. **Then, I consider the consequences of running it now or waiting.** Running it now might mean I have to unload it tonight, which could disrupt my relaxation time. But waiting until tomorrow means I'll have extra morning chores, and the dishes will have been sitting for longer, which might make them harder to clean.\n\n4. **I also think about my future self.** If I wait until tomorrow, I'll thank myself for not making extra work tonight. But if I run it now, my future self will have fewer chores to do tomorrow morning.\n\n5. **I remember that it's not the end of the world either way.** It's just a dishwasher cycle. It's not going to ruin my day or make me exceptionally happy, so I shouldn't stress too much about it.\n\n*After a moment of weighing these factors, I decide:*\n\n\"I'll wait until tomorrow. I'd rather not disrupt my evening routine, and it's not a big deal to wait a bit longer for the dishes to be clean. Plus, I'll appreciate having one less chore to do in the morning.\"\n\nSo, with a shrug, I go back to what I was doing, looking forward to tackling the dishwasher in the morning. The decision is made, and I'm content with it.",
+  "usage": {
+    "prompt_tokens": 46,
+    "completion_tokens": 427,
+    "total_tokens": 473,
+    "cost": 0.000018,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000018,
+      "upstream_inference_prompt_cost": 9.2e-7,
+      "upstream_inference_completions_cost": 0.00001708
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-nemo",
+  "ts": 1776837655200
+}

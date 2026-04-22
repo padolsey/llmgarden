@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "The water cycle is a continuous exchange of water driven by the Sun’s energy and Earth’s gravity: surface water from oceans, lakes, and soils evaporates, plants release moisture through transpiration, and ice can sublimate directly to vapor; this rising vapor cools and condenses onto tiny particles to form clouds, which winds transport across regions until droplets or ice crystals grow heavy enough to fall as precipitation such as rain or snow. Some of this moisture evaporates before reaching the ground, but what arrives either infiltrates into soils, replenishing groundwater that can flow slowly to springs and rivers, or runs off across the land to streams and eventually the ocean. Along the way, water is stored temporarily in glaciers, aquifers, lakes, and as soil moisture, then returns to the air through evaporation and evapotranspiration, while sublimation and deposition exchange water between ice and vapor, keeping the cycle in motion.",
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 500,
+    "total_tokens": 533,
+    "cost": 0.00504125,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00504125,
+      "upstream_inference_prompt_cost": 0.00004125,
+      "upstream_inference_completions_cost": 0.005
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 256,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776828177682
+}

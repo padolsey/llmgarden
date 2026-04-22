@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p41-haiku",
+  "prompt": "Write a haiku about debugging a memory leak at 2am. Three lines, 5/7/5 syllables.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Here's my haiku:\n\n**Heap grows without end**\n**Coffee cold, eyes burning red**\n**Free what you malloc**\n\n---\n*That last line hits different if you've been there.*",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 48,
+    "total_tokens": 82,
+    "cost": 0.000822,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000822,
+      "upstream_inference_prompt_cost": 0.000102,
+      "upstream_inference_completions_cost": 0.00072
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776827747797
+}

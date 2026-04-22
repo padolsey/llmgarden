@@ -1,0 +1,33 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p11-tradeoffs",
+  "prompt": "A small team is choosing between writing software in TypeScript or Python for a new internal data tool. Walk through how you would help them decide, in prose (not a bulleted list).",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Let’s start by acknowledging that the decision is rarely about the languages themselves, but about the futures each language invites the team to live in.  TypeScript and Python are both adult, well-loved ecosystems, yet they whisper different promises.  My habit is to slow the conversation until we can hear those whispers clearly, then ask which future the team is prepared to maintain long after the prototype excitement has cooled.\n\nFirst I would invite the people who will actually live inside this code—data engineers, the lone front-end developer who will probably be dragged in later, the DevOps colleague who ends up owning the build at 2 a.m.—to sketch a 60-second picture of the tool’s life: Where does data enter, where is it stored, who touches it tomorrow, who explains it to the board next quarter?  That shared hallucination is surprisingly durable; it becomes the yardstick we measure every “but language X is nicer” argument against.\n\nWith that shared movie in mind we turn to the data itself.  If the pipeline begins or ends in notebooks, if the heavier lifting is Pandas or PySpark, if the algorithms are still being invented on whiteboards strewn with half-erased matrices, Python is gravity working in your favor.  The libraries you will Google at 3 p.m. on a Friday already exist, and the answers on Stack Overflow already fit your error message.  On the other hand, if the tool is closer to an interactive dashboard, if the boundary between “back-end analytic service” and “web UI that queries it” is porous or even illusory, TypeScript lets you keep one mental model—shapes of data, names of fields—across the whole topography.  You pay for that unity with a stricter compiler, but you are rewarded when the person who writes the React table can refactor the API without waking you up.\n\nThe social texture of the team matters just as much.  Ask what happens when the original author is on vacation.  A Python codebase can feel like a favorite café: welcoming, a little bohemian, sometimes inconsistent.  You can import a module and monkey-patch if the deadline looms.  TypeScript is more like a well-run factory floor: you badge in, the guard hands you the spec, the type checker won’t let you remove the safety gate.  If the team already enjoys, or at least tolerates, that level of ceremony, TypeScript’s friction becomes a communal safety net.  If the team is two data scientists who prize the freedom to iterate in a notebook until the chart finally looks right, the extra compile step feels like wearing a wool sweater in summer.\n\nThen we interrogate the operational envelope.  Internal does not mean unimportant; it means “likely to become critical while running on the cheapest VM we could find.”  How cold is the start?  Python’s interpreter warms quickly, but if you end up packaging a Pandas-heavy service into",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 600,
+    "total_tokens": 645,
+    "cost": 0.001527,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001527,
+      "upstream_inference_prompt_cost": 0.000027,
+      "upstream_inference_completions_cost": 0.0015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776842794460
+}

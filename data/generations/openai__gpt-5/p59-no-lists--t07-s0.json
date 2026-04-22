@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "The water cycle is the continuous movement of water through Earth’s systems, driven mainly by the Sun’s energy. Heat causes liquid water from oceans, lakes, soils, and vegetation to evaporate or transpire into water vapor, which rises and cools in the atmosphere. As the vapor cools, it condenses onto tiny particles to form clouds, and winds transport these clouds across regions and over mountains. When droplets or ice crystals grow heavy enough, they fall as precipitation, such as rain, snow, sleet, or hail. Some of this water infiltrates the ground, replenishing soil moisture and percolating to aquifers as groundwater, while the rest flows as runoff through streams and rivers back to lakes and oceans. Groundwater slowly moves and can reemerge in springs, feeding surface waters even during dry periods. In cold regions, snow and ice store water temporarily, releasing it later through melt, and in some environments water can also change directly between ice and vapor through sublimation and deposition, keeping the cycle in motion.",
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 345,
+    "total_tokens": 378,
+    "cost": 0.00349125,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00349125,
+      "upstream_inference_prompt_cost": 0.00004125,
+      "upstream_inference_completions_cost": 0.00345
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 128,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776831612737
+}

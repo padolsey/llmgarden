@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 0.2,
+  "sample": 1,
+  "response": "Imagine you’re reading a sentence and trying to understand the meaning of one word—say, “it” in “The cat chased the mouse because it was hungry.” To know what “it” refers to, you look at other words in the sentence and weigh their relevance. That’s essentially what the attention mechanism does.\n\nIn a transformer model, every word (or token) is converted into a vector of numbers. For each word, the model computes how much “attention” it should pay to every other word when processing that position. It does this using three special vectors per word: **Query**, **Key**, and **Value**.\n\n- The **Query** represents what the current word is “looking for.”\n- Each other word’s **Key** says what it “offers.”\n- The **Value** holds the actual information that might be useful.\n\nThe model compares the current word’s Query with all Keys using a dot product (a similarity measure), scales and normalizes the results into attention weights (via a softmax), then uses those weights to take a weighted sum of all Values. The result is a new representation of the word that incorporates context from the whole sentence.\n\nThis lets the model dynamically focus on the most relevant parts of the input—like knowing “it” refers to “cat” rather than “mouse”—without relying on fixed rules or sequential processing.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 274,
+    "total_tokens": 310,
+    "cost": 0.00109668,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00109668,
+      "upstream_inference_prompt_cost": 0.00002808,
+      "upstream_inference_completions_cost": 0.0010686
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776846819294
+}

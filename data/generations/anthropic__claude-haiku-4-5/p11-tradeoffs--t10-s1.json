@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p11-tradeoffs",
+  "prompt": "A small team is choosing between writing software in TypeScript or Python for a new internal data tool. Walk through how you would help them decide, in prose (not a bulleted list).",
+  "temperature": 1,
+  "sample": 1,
+  "response": "# Helping a Team Choose: TypeScript vs Python for an Internal Data Tool\n\nI'd start by understanding what \"internal data tool\" really means for this specific team, since that phrase covers enormous ground. Is this a one-off script that processes a CSV file monthly? A dashboard that dozens of people will interact with daily? A pipeline that runs batch jobs overnight? The answer fundamentally changes which language makes sense.\n\nThen I'd want to know about the team itself. What languages do they already know well? This matters more than people often admit—a team comfortable with Python will ship faster in Python, even if TypeScript has some theoretical advantages. Are they evenly split in skills, or is there a clear strength? How much turnover do they expect? If this tool might be maintained by someone completely different in two years, that changes the calculus toward picking something with broader industry adoption or stronger guardrails.\n\nI'd ask about the actual data work involved. If the core value is in data manipulation, statistical analysis, or machine learning, Python has such a dominant ecosystem that TypeScript would genuinely handicap you. Libraries like pandas, scikit-learn, and the scientific Python stack simply don't have equivalents in TypeScript. But if the data work is straightforward—fetching, light transformation, storing—that advantage shrinks considerably.\n\nThe interface question matters too. Does this tool need a user interface, or is it command-line and scheduled jobs? If it's a backend-only tool, TypeScript's frontend advantage disappears. If it needs a nice UI that multiple team members will use regularly, TypeScript's ability to share code between frontend and backend becomes genuinely valuable. You could write Python with a web framework and JavaScript frontend, but now you're maintaining two languages anyway.\n\nI'd also probe their deployment environment and operational comfort. Where will this run? Can they easily deploy Python, or would they be fighting their infrastructure? Do they have Node.js readily available? What about long-term maintenance—who owns this in three years? A tool that's invisible and runs fine is better than one that becomes a source of friction during dependency updates.\n\nFrom there, I'd probably sketch out a rough timeline and effort estimate for both approaches, being honest about where each has friction. The Python version might be faster to write initially if the team knows it, but might require building more operational monitoring yourself. The TypeScript version might take longer but could integrate more smoothly with existing web infrastructure if that's relevant.\n\nMy honest take: for most internal data tools, Python is the default reasonable choice because the data ecosystem is so much stronger and most data work is simpler than it seems. But if your team is already JavaScript-heavy, or if this is primarily a backend service with a web interface, or if you're in an environment where Node.js is your standard runtime, TypeScript becomes genuinely",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 600,
+    "total_tokens": 645,
+    "cost": 0.003045,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003045,
+      "upstream_inference_prompt_cost": 0.000045,
+      "upstream_inference_completions_cost": 0.003
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833836225
+}

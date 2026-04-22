@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p16-photosynthesis",
+  "prompt": "Explain photosynthesis to a curious adult non-scientist in around 150 words. Avoid a bulleted list.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Photosynthesis is how plants, algae, and some bacteria use sunlight to make food. Inside leaf cells are chloroplasts containing chlorophyll, the green pigment that captures light energy. The plant takes in carbon dioxide from air through tiny pores and water from roots. Using the captured light, it splits water, releasing oxygen as a by‑product, and transfers the energy into chemical “batteries” that power the assembly of carbon dioxide into sugars like glucose. Those sugars feed the plant’s growth and can be stored as starch or built into cellulose; when you eat plants (or animals that ate plants), you tap that stored sunlight. Photosynthesis is essentially Earth’s original solar technology: it fuels ecosystems, produces most of the oxygen in the air, and helps regulate climate by locking atmospheric carbon into living tissue and soils. In summary, sunlight in, food made, oxygen out—a quiet, planet‑sized energy transformation happening in every green leaf.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 929,
+    "total_tokens": 958,
+    "cost": 0.00932625,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00932625,
+      "upstream_inference_prompt_cost": 0.00003625,
+      "upstream_inference_completions_cost": 0.00929
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 704,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776834459319
+}

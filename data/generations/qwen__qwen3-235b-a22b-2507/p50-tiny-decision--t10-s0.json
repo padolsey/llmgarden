@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-235b-a22b-2507",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Okay, so right now, the dishwasher is half-full, and I’m standing here wondering: run it now, or wait till tomorrow when it’ll definitely be full?\n\nFirst thing—I notice I’m asking the question at all, which means there’s some cost or annoyance either way. If it were totally obvious, I wouldn’t be hesitating.\n\nLet’s start with why I might want to run it now. Maybe the kitchen feels messy. Dishes are piling up, there’s a glass I want to reuse, or I just want to clear space. There’s a small mental relief in closing the dishwasher door and knowing it’s taken care of. Also, what if tomorrow I oversleep, or something comes up and I forget? Then I’m stuck with a full sink and no clean dishes. And if someone unexpected shows up, I’ll wish I’d run it.\n\nBut then—running it half-full feels wasteful. Water, electricity, detergent… I know dishwashers use roughly the same resources whether full or half-full. So half the dishes = twice the resource use per dish. That kind of bugs me, especially if I care about bills or the environment. Plus, if I can wait, I’ll get double the value out of that cycle.\n\nSo now I’m weighing the immediate comfort and risk of future hassle against efficiency.\n\nAnother angle: habits. If I run it half-full now, does that become a pattern? Will I start doing this often and slowly waste more over time? But also—am I being too rigid? Is one half-load really going to break the bank or flood the planet?\n\nThen I think about the dishes themselves. Are any of them smelly, sticky, or starting to grow biofilm in the sink? That’s gross and harder to clean later. Some things—like milk residue or oily pans—shouldn’t sit. But if everything’s just lightly used, rinsed, and stacked neatly… it can probably wait.\n\nAnd what’s tomorrow actually look like? Will I definitely be home to load and run it? Or is there a chance the house will be busy, I’ll be tired, and the dishwasher will just… not happen? If the “full” state relies on me being in the right headspace and time, is that reliable?\n\nSo I’m starting to narrow it down.\n\nIf the kitchen is chaotic, and I need peace of mind or space *today*, and it’s blocking me from cooking or hosting, I’ll run it. The mental ease is worth the inefficiency.\n\nBut if it’s mostly about routine, and I know I’ll load it properly tomorrow, and nothing’s going to rot or cause problems… then I’ll wait. I’ll scrape, rinse, stack neatly—maybe put a few more things toward the front so they’re easy to grab and add later.\n\nUltimately, it’s not a math problem. It’s about values in that moment: convenience vs. efficiency, cleanliness vs",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 600,
+    "total_tokens": 647,
+    "cost": 0.0003647,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0003647,
+      "upstream_inference_prompt_cost": 0.0000047,
+      "upstream_inference_completions_cost": 0.00036
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-235b-a22b-07-25",
+  "ts": 1776838997282
+}

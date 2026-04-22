@@ -1,0 +1,33 @@
+{
+  "model": "nousresearch/hermes-4-70b",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "The attention mechanism in transformer models is a way to focus on relevant parts of the input when processing and generating output. Imagine you're reading a sentence and trying to understand its meaning. As you read each word, you pay more attention to certain words that are more important for understanding the overall meaning, while ignoring less relevant words.\n\nIn transformer models, attention works similarly. When processing input data (like text), the model learns to assign higher importance (attention) to certain parts of the input that are more relevant for the task at hand. This allows the model to focus on the most important information and ignore less relevant details.\n\nThe attention mechanism is implemented using mathematical operations that calculate the importance (weights) of each input element. These weights are then used to create a weighted sum of the input elements, which is passed through the rest of the model for further processing.\n\nBy using attention, transformer models can effectively capture long-range dependencies and relationships between different parts of the input, leading to better performance on various tasks such as language translation, text generation, and sentiment analysis.",
+  "usage": {
+    "prompt_tokens": 50,
+    "completion_tokens": 213,
+    "total_tokens": 263,
+    "cost": 0.0000917,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000917,
+      "upstream_inference_prompt_cost": 0.0000065,
+      "upstream_inference_completions_cost": 0.0000852
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "nousresearch/hermes-4-70b",
+  "ts": 1776829756768
+}

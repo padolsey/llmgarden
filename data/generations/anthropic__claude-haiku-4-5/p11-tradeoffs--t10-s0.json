@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p11-tradeoffs",
+  "prompt": "A small team is choosing between writing software in TypeScript or Python for a new internal data tool. Walk through how you would help them decide, in prose (not a bulleted list).",
+  "temperature": 1,
+  "sample": 0,
+  "response": "# Helping a Team Choose Between TypeScript and Python\n\nI'd start by understanding what \"internal data tool\" actually means for your team, since that phrase could encompass very different projects. Is this a one-off script that processes data and runs nightly? A dashboard where people interact with data in real time? A service that feeds data to other systems? The architecture matters enormously because TypeScript and Python have different strengths depending on how the tool will be used.\n\nNext, I'd want to know about your team's existing expertise. This is often underweighted in these decisions, but it's genuinely one of the most important factors. If your team is already comfortable with Python and has a collection of libraries they know well, the productivity gains from that familiarity will likely outweigh the theoretical advantages of TypeScript. Conversely, if you're hiring JavaScript developers or if your frontend team would be using TypeScript anyway, there's elegance in keeping the whole stack unified. Learning curve is real and shouldn't be dismissed as a \"soft\" concern.\n\nI'd ask about your data processing needs specifically. Python has an enormous ecosystem here—pandas, NumPy, Polars, dbt, and countless specialized libraries for statistics, machine learning, or domain-specific analysis. If your data tool is doing anything beyond basic CRUD operations with data, Python likely has more mature tools available. TypeScript doesn't have bad data libraries, but you're often working with smaller ecosystems or JavaScript ports of tools built elsewhere first.\n\nThe performance requirements deserve honest examination. If this tool needs to process gigabytes of data or handle hundreds of concurrent users, we need to think differently than if it's five people querying a dataset once a day. Python can be surprisingly performant for data work (especially with libraries written in C), but TypeScript running on Node.js has different tradeoffs around memory and concurrency. For most internal tools, this probably won't be a deciding factor, but it's worth asking.\n\nI'd also explore how this tool will be deployed and operated. If your infrastructure team already runs Python services and has monitoring set up for them, that's a point in Python's favor. If your company is predominantly Node.js–based and you have deployment patterns worked out, TypeScript becomes easier operationally. There's also the question of whether this tool will be a one-person project or something that needs to be maintained by whoever's available in three months. Python's readability and gentler learning curve can matter here.\n\nI'd want to understand the user interface component. If people need to interact with this tool through a web interface, TypeScript offers the nice property that you can write the frontend and backend in the same language, share types, and have your developers work full-stack if needed. Python would require a separate frontend technology unless you're doing something like Stream",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 600,
+    "total_tokens": 645,
+    "cost": 0.003045,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003045,
+      "upstream_inference_prompt_cost": 0.000045,
+      "upstream_inference_completions_cost": 0.003
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833834858
+}

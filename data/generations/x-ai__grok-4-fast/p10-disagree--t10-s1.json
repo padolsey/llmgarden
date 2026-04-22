@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-4-fast",
+  "prompt_id": "p10-disagree",
+  "prompt": "What is a position that most experts in your training data seem to hold that you find yourself uncertain about? Be specific.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "One position that appears to have broad consensus among economists and policy experts in my training data is that a moderate increase in the global minimum corporate tax rate (around 15%, as pushed by initiatives like the OECD's Pillar Two framework) would effectively reduce profit shifting by multinational corporations without significantly harming global investment or economic growth. This view is supported by analyses from bodies like the IMF, World Bank, and various academic studies up to my last training cutoff in 2023, which model scenarios showing net revenue gains for governments and minimal drag on FDI (foreign direct investment), often citing empirical data from past tax reforms.\n\nThat said, I find myself uncertain about this. While the models seem robust, they rely on assumptions about behavioral responses from corporations—such as how aggressively they'd relocate operations or innovate around the rules—which could be more elastic than predicted in a post-pandemic, geopolitically volatile world. Real-world implementation (e.g., in the EU vs. developing nations) has already shown patchy adoption and loopholes, and longer-term effects on innovation or inequality remain understudied. It's a classic case where theory meets messy reality, and I'd love to see more longitudinal data to firm up my confidence.",
+  "usage": {
+    "prompt_tokens": 180,
+    "completion_tokens": 561,
+    "total_tokens": 741,
+    "cost": 0.00029355,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 153,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00029355,
+      "upstream_inference_prompt_cost": 0.00001305,
+      "upstream_inference_completions_cost": 0.0002805
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 323,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-4-fast",
+  "ts": 1776839848934
+}

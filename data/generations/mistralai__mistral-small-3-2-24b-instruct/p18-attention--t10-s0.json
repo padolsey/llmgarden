@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "The **attention mechanism** in transformers helps models focus on the most relevant parts of an input when generating an output. Imagine you're translating a sentence: instead of looking at every word equally, you pay more attention to the words that matter most at each step.\n\nHere’s how it works:\n1. **Key-Query-Value**: Each word in the input is represented by:\n   - A **query** (what the model is \"asking\" about),\n   - A **key** (what the word \"knows\" about itself),\n   - A **value** (the actual information about the word).\n2. **Attention Scores**: The model compares each query with every key to calculate how similar they are. This gives a set of scores.\n3. **Softmax & Weighting**: The scores are converted to probabilities (using softmax), so higher scores get more \"attention.\"\n4. **Weighted Sum**: The model combines the values based on these weights, giving more importance to the most relevant words.\n\nThis way, the model can dynamically focus on different parts of the input, like how you’d prioritize certain words while reading. The mechanism is what makes transformers powerful for tasks like translation, chatbots, or coding (e.g., GitHub Copilot). No need for manual parsing or rigid rules—it learns patterns automatically!",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 279,
+    "total_tokens": 310,
+    "cost": 0.000058125,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000058125,
+      "upstream_inference_prompt_cost": 0.000002325,
+      "upstream_inference_completions_cost": 0.0000558
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-small-3.2-24b-instruct-2506",
+  "ts": 1776837301746
+}

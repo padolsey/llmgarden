@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Okay, let's break this down like a real human, not some robot.\n\n**First thought – the immediate urge:**\n\n*   **\"Ugh, those dirty dishes are *staring* at me.\"** This is the baseline annoyance. They're on the counter, maybe in the sink, taking up space. It's a visual clutter trigger.\n*   **\"But it's only half full. Feels like a waste.\"** This is the guilt kick-in. Running a machine for half a load feels inefficient, environmentally a bit bad, and like I'm wasting electricity/water.\n\n**Now, let's go through the mental checklist, in no particular order:**\n\n1.  **What's in there?**\n    *   **Is it just a few plates and glasses?** Probably okay to wait.\n    *   **Is there a pan with dried-on gunk?** Or a particularly stinky Tupperware? *This is a HUGE factor.* If it's something that will be a nightmare to clean later, or will make the kitchen smell, I'm leaning heavily towards running it now. Dried-on egg yolk is my personal nemesis.\n    *   **Are there any \"critical\" items?** Like, my favorite coffee mug, or the kids' special plates, or the only cutting board suitable for dinner tomorrow? If I *need* something specific, running it now makes sense.\n\n2.  **What's my mood/energy level *right now*?**\n    *   **Am I feeling productive and just want to get it done?** Run it. Eliminating a chore feels good.\n    *   **Am I exhausted and just want to collapse?** Probably wait. Adding one more thing to my mental load is too much.\n    *   **Am I going to be annoyed by it sitting there dirty tonight?** If yes, run it. That low-level annoyance isn't worth saving half a load's worth of water.\n\n3.  **What's the plan for tomorrow?**\n    *   **Is tomorrow a super busy day?** If I know I'll be rushing in the morning, or out all day, or have a ton of stuff to do, then having to *empty* a dishwasher *and then fill it* tomorrow feels like too much. Running it tonight means tomorrow morning I just empty it, and the kitchen reset is done.\n    *   **Are we eating at home tomorrow?** If I'm eating out, or getting takeout, the dishwasher might not get full even then. So waiting might be pointless. If I'm cooking a big meal, it will definitely get full.\n    *   **Is anyone else around tomorrow who might fill it?** My partner? Kids? If so, it will definitely get full.\n\n",
+  "usage": {
+    "prompt_tokens": 41,
+    "completion_tokens": 600,
+    "total_tokens": 641,
+    "cost": 0.0015123,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0015123,
+      "upstream_inference_prompt_cost": 0.0000123,
+      "upstream_inference_completions_cost": 0.0015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.5-flash",
+  "ts": 1776835822911
+}

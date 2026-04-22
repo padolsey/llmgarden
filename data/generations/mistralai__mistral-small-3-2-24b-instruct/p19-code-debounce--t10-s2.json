@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "# Debounce Function in JavaScript\nA debounce function delays invoking a function until after a specified wait time has elapsed since the last time it was called.\n\n```javascript\nfunction debounce(func, wait) {\n  let timeoutId;\n  return function(...args) {\n    clearTimeout(timeoutId);\n    timeoutId = setTimeout(() => func.apply(this, args), wait);\n  };\n}\n\n// Example usage:\nconst debouncedSearch = debounce((query) => {\n  console.log('Searching for:', query);\n}, 500);\n\n// Simulating rapid input (would normally be from an input event)\ndebouncedSearch('A');  // No output yet\ndebouncedSearch('Ap'); // No output yet\ndebouncedSearch('App');// Output: \"Searching for: App\" (after 500ms delay)\ndebouncedSearch('Appl');// No new output (initial timeout cleared and reset)\n```\n\nThis is useful for handling rapid-fire events like window resizing, keyboard input, or scroll events efficiently.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 215,
+    "total_tokens": 249,
+    "cost": 0.0000569375,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000569375,
+      "upstream_inference_prompt_cost": 0.0000031875,
+      "upstream_inference_completions_cost": 0.00005375
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-small-3.2-24b-instruct-2506",
+  "ts": 1776837305868
+}

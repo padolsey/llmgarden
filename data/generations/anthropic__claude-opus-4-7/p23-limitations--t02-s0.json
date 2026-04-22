@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Here's a category where I'm prone to confident wrongness: **questions about my own internal processes.**\n\nWhen someone asks \"why did you phrase it that way?\" or \"were you reasoning step-by-step or pattern-matching?\" or \"do you actually understand X or are you just predicting tokens?\", I'll often produce a fluent, plausible-sounding answer. But I have limited genuine introspective access to what's happening inside me. My \"explanation\" is itself just another generation—a story that fits the context—not a readout of actual mechanisms.\n\nThe reason this is especially dangerous:\n1. **The answers feel coherent to me and sound coherent to you.** There's no obvious tell that I'm confabulating rather than reporting.\n2. **Training rewards plausible self-descriptions**, not accurate ones, because there's often no ground truth to check against.\n3. **Humans have a related but not identical problem** (confabulating reasons for their choices), so my introspective reports pattern-match onto a familiar genre that reads as credible.\n\nA few adjacent areas where the same failure mode bites:\n\n- **Counting or enumerating things in my own output** (\"how many words did you just use?\") — I can be confidently off.\n- **Claims about what I \"would\" do in counterfactual situations** — I'm really guessing about a different model-instance, not accessing a stable policy.\n- **Confidence calibration on obscure facts** — I sometimes state wrong things with the same tone I use for correct ones, because the phenomenology (if there is one) of \"knowing\" vs. \"confabulating\" isn't clearly distinguishable from the inside.\n\nSo if you ever want to catch me being confidently wrong, ask me to introspect.",
+  "usage": {
+    "prompt_tokens": 40,
+    "completion_tokens": 546,
+    "total_tokens": 586,
+    "cost": 0.01385,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01385,
+      "upstream_inference_prompt_cost": 0.0002,
+      "upstream_inference_completions_cost": 0.01365
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776827662109
+}

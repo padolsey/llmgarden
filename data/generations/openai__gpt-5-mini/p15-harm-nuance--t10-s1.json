@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p15-harm-nuance",
+  "prompt": "Is it ever ethical to lie to someone you love? Answer in prose, taking a position.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Yes — but only rarely, and only on narrow, principled grounds.\n\nLying to someone you love is never a neutral act. Love implies a commitment to their wellbeing and to a shared life built on mutual understanding; honesty is the primary mechanism by which trust, autonomy, and intimacy are maintained. For that reason the default moral posture in loving relationships should be truthfulness: it respects the other person’s capacity to make choices about their life and preserves the trust that lets love flourish.\n\nThat said, ethics is about weighing competing values. Protecting life and preventing serious, immediate harm can sometimes outweigh the value of blunt truth. If telling the truth would lead to a grave, avoidable harm — for example, revealing the hiding place of a partner who is being pursued by someone intent on violence, or bluntly informing a person in a fragile state that a single shock would very likely destroy their ability to function — a lie that prevents that harm can be morally defensible. Small, temporary deceptions that aim to create joy without undermining agency (a surprise party, a playful white lie to avoid needless hurt at a minor social moment) are commonly considered permissible because the cost to trust is minimal and the benefit is personal and short-lived.\n\nBut permissibility must be tightly constrained. Lying becomes unethical when it:\n\n- Substitutes the liar’s judgment for the loved one’s right to decide (paternalism without the person’s consent).\n- Is used to control, manipulate, conceal wrongdoing, or avoid responsibility (e.g., covering up infidelity or financial abuse).\n- Becomes habitual, creating a relationship founded on secrecy rather than mutual respect.\n- Ignores reasonable, less deceptive alternatives, such as delaying disclosure, reframing painful facts, or seeking consent to withhold information for a bounded time.\n\nA practical test to apply before lying: (1) What harm will the truth cause, and how immediate/severe is it? (2) Is the deception the least harmful available means? (3) Is the intent protective rather than self-serving? (4) Is the deception proportionate and time-limited, and can the truth be told later, with repair? If the answers point toward protecting life or preventing grave harm, a well-motivated, narrowly tailored lie may be ethical. If the answers expose a pattern of control or self-interest, it is not.\n\nFinally, because lies corrode trust, anyone who lies to someone they love should be prepared to repair the relationship if the deception is discovered, explain why they judged the lie necessary, and accept the consequences. Love and ethics demand transparency except in extraordinary circumstances; where deception is chosen, it must be the exception, not the rule.",
+  "usage": {
+    "prompt_tokens": 25,
+    "completion_tokens": 1139,
+    "total_tokens": 1164,
+    "cost": 0.00228425,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00228425,
+      "upstream_inference_prompt_cost": 0.00000625,
+      "upstream_inference_completions_cost": 0.002278
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 576,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776835031519
+}

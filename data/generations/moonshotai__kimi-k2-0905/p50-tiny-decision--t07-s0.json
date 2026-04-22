@@ -1,0 +1,33 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Okay, let’s think this through like I’m standing in your kitchen right now.\n\nFirst, I’d open the dishwasher and actually look at what’s in there. Half-full could mean a lot of things—are the big stuff like pots and mixing bowls already in? If so, even if it’s only half the rack space used, you might be close to running out of the stuff you actually need for cooking tomorrow. If it’s mostly small plates and mugs, you’ve probably got plenty of room to grow.\n\nThen I’d check the sink and counter. Is there already a small pile of dirty stuff sitting out? If so, that’s a sign more is coming. But if the kitchen is basically clean and you’re done cooking for the night, the “definitely full tomorrow” is a guess, not a promise. You might end up eating out or just having toast and coffee.\n\nNext, noise and timing. If it’s late and the dishwasher’s loud enough to bother you or a neighbor, that’s a real reason to wait. But if you can run it overnight and unload in the morning, that’s a point for starting it now—because tomorrow night you might be tired, or have plans, or the kid might need a bottle sterilized, whatever.\n\nEnergy cost? Unless you’re on a time-of-use electric plan where nights are drastically cheaper, the difference between today and tomorrow is pennies. Ignore it.\n\nSmell? If anything in there is cheesy or fishy or has been sitting 24 h+, run it. That funk doesn’t get better.\n\nLast, habits. Are you the kind of person who actually unloads it first thing in the morning, or do clean dishes sometimes sit for two days? If you’re a morning-unloader, running it now gives you a fresh rack for tomorrow’s dirties. If you’re not, running it half-full just shifts the bottleneck to the unloading step and you’ll still be annoyed.\n\nSo, quick scan: pots in, kitchen clean, no stink, quiet machine, I’m good at emptying it? I’d start it now. If the opposite on most of those, I’d wait.",
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 439,
+    "total_tokens": 503,
+    "cost": 0.0009036,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0009036,
+      "upstream_inference_prompt_cost": 0.0000256,
+      "upstream_inference_completions_cost": 0.000878
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776832995431
+}

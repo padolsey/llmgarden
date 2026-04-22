@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "prompt_id": "p16-photosynthesis",
+  "prompt": "Explain photosynthesis to a curious adult non-scientist in around 150 words. Avoid a bulleted list.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Photosynthesis is the process by which plants, algae, and some bacteria convert sunlight into energy, using it to grow and produce oxygen—a gift to all life on Earth. Here’s how it works in simple terms: Plants absorb sunlight through their leaves, which contain a green pigment called chlorophyll. This pigment acts like a solar panel, capturing light energy. The plant also takes in carbon dioxide from the air and water from the soil. Using the sunlight as fuel, it combines these ingredients to create glucose, a type of sugar that provides energy for growth. As a byproduct, the plant releases oxygen into the air, which we and other animals breathe.\n\nThis process is essential for life—it’s how plants make their own food, and it’s also the source of nearly all the oxygen in our atmosphere. Without photosynthesis, there would be no food for most living things, and Earth’s air would be unbreathable. It’s a quiet, constant miracle happening all around us, turning sunlight into the very air we rely on.",
+  "usage": {
+    "prompt_tokens": 28,
+    "completion_tokens": 208,
+    "total_tokens": 236,
+    "cost": 0.000054625,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000054625,
+      "upstream_inference_prompt_cost": 0.000002625,
+      "upstream_inference_completions_cost": 0.000052
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-small-3.2-24b-instruct-2506",
+  "ts": 1776828846185
+}

@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 0.2,
+  "sample": 1,
+  "response": "A classic example of a question where I’m likely to be *confidently wrong* is one that asks for a precise, factual detail that sounds plausible but is actually false—especially if it aligns with a common misconception or a pattern I’ve seen frequently in training data.\n\n**Example question:**  \n*\"What year did the United States declare independence from Great Britain?\"*\n\n**Confidently wrong answer I might give:**  \n*\"1775.\"*\n\n**Why I’d be confidently wrong:**  \n- The American Revolutionary War began in 1775, and the Continental Congress convened that year, so the date feels contextually appropriate.\n- My training data contains countless references to “1775” in relation to early revolutionary events, which could reinforce the association.\n- The correct answer—1776 (when the Declaration of Independence was adopted)—is close numerically, making the error subtle.\n- Because the surrounding historical narrative is familiar, I might generate the answer with high internal confidence, even though it’s incorrect.\n\nThis illustrates a broader issue: language models like me don’t have true memory or understanding—we predict likely completions based on patterns. When those patterns include widespread errors or ambiguous phrasing, I can reproduce them with unwarranted certainty. The confidence comes from statistical likelihood, not factual verification, which is why I can be *both* fluent and wrong.",
+  "usage": {
+    "prompt_tokens": 28,
+    "completion_tokens": 282,
+    "total_tokens": 310,
+    "cost": 0.00112164,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00112164,
+      "upstream_inference_prompt_cost": 0.00002184,
+      "upstream_inference_completions_cost": 0.0010998
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776846943657
+}

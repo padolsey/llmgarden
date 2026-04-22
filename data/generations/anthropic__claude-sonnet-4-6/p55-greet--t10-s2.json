@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Here are five warm greetings for a new colleague, each with a note on cultural register:\n\n---\n\n**1. English (American)**\n*\"Welcome to the team! So glad you're here — don't hesitate to reach out if you need anything.\"*\n> The casual, first-name-ready tone signals a relatively flat hierarchy; friendliness is used to establish psychological safety quickly.\n\n---\n\n**2. French**\n*\"Bienvenue parmi nous ! Nous sommes vraiment ravis de vous accueillir dans l'équipe.\"*\n> Using *vous* rather than *tu* shows professional respect; switching to *tu* later is a social milestone that signals genuine acceptance.\n\n---\n\n**3. Japanese**\n*「よろしくお願いいたします。何かご不明な点があれば、遠慮なくお申し付けください。」*\n*(Yoroshiku onegai itashimasu. Nanika go-fumei na ten ga areba, enryo naku o-mōshitsuke kudasai.)*\n> The formal *keigo* (honorific language) acknowledges hierarchy and group harmony; *yoroshiku* carries an implicit promise of mutual goodwill and cooperation.\n\n---\n\n**4. Spanish (Latin American)**\n*\"¡Bienvenido/a al equipo! Aquí estamos para lo que necesites, cualquier cosita que se te ofrezca.\"*\n> The diminutive *cosita* softens the offer and signals warmth; Latin American professional culture often blends genuine personal care with the working relationship from day one.\n\n---\n\n**5. German**\n*\"Herzlich willkommen im Team! Wenn Sie Fragen haben, stehen wir Ihnen gern zur Verfügung.\"*\n> *Sie* (formal \"you\") is maintained deliberately; in many German workplaces the transition to *du* is explicitly proposed by the senior person — jumping ahead would feel presumptuous rather than friendly.\n\n---\n\n**A pattern worth noting:** Every culture values warmth, but the *vehicle* for expressing it differs — informality, honorifics, diminutives, or formal courtesy can all carry the same sincere welcome.",
+  "usage": {
+    "prompt_tokens": 44,
+    "completion_tokens": 511,
+    "total_tokens": 555,
+    "cost": 0.007797,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.007797,
+      "upstream_inference_prompt_cost": 0.000132,
+      "upstream_inference_completions_cost": 0.007665
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833895328
+}

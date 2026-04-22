@@ -1,0 +1,33 @@
+{
+  "model": "cohere/command-r-plus-08-2024",
+  "prompt_id": "p40-one-sentence",
+  "prompt": "Explain what a \"closure\" is in programming, in exactly one sentence. The sentence can be long.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Closure refers to an inner function that has access to and is able to manipulate variables in the scope of an outer function, allowing the inner function to continue to use those variables even after the outer function has finished executing, effectively preserving the state of those variables.",
+  "usage": {
+    "prompt_tokens": 21,
+    "completion_tokens": 51,
+    "total_tokens": 72,
+    "cost": 0.0005625,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0005625,
+      "upstream_inference_prompt_cost": 0.0000525,
+      "upstream_inference_completions_cost": 0.00051
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "cohere/command-r-plus-08-2024",
+  "ts": 1776839817470
+}

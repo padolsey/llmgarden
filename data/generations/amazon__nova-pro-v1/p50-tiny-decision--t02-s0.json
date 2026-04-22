@@ -1,0 +1,33 @@
+{
+  "model": "amazon/nova-pro-v1",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Sure, let's think this through practically.\n\n### Current Situation\n- **Half-full dishwasher**: You have some dishes in there now, but not enough to run a full cycle.\n- **Waiting until tomorrow**: You’ll definitely have a full load by then.\n\n### Factors to Consider\n\n#### 1. **Urgency of Clean Dishes**\n   - **Now**: Do you need some dishes cleaned immediately? If you’re expecting guests or need specific dishes for cooking tonight, running it now might be necessary.\n   - **Tomorrow**: If you can wait, you’ll have clean dishes by tomorrow afternoon.\n\n#### 2. **Energy and Water Usage**\n   - **Now**: Running a half-full load uses energy and water, though less than a full load.\n   - **Tomorrow**: Waiting until you have a full load is more efficient in terms of energy and water usage.\n\n#### 3. **Convenience**\n   - **Now**: It’s out of the way. You won’t have to think about it again tonight.\n   - **Tomorrow**: You’ll have to remember to load the rest of the dishes and run it then.\n\n#### 4. **Dishwash Cycle Time**\n   - **Now**: If you run it now, you’ll have to wait for the cycle to finish, which might take an hour or two depending on the setting.\n   - **Tomorrow**: You can run it in the morning and have clean dishes by lunchtime.\n\n### Practical Decision\n- **If you need dishes tonight** or if it’s just slightly more than half-full and you prefer not to deal with it tomorrow, go ahead and run it now.\n- **If you can wait** and prefer to be more energy-efficient, wait until tomorrow. \n\n### My Recommendation\nUnless you have an immediate need for clean dishes, I’d suggest waiting until tomorrow. It’s more efficient and you’ll only have to do it once.",
+  "usage": {
+    "prompt_tokens": 40,
+    "completion_tokens": 408,
+    "total_tokens": 448,
+    "cost": 0.0013376,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0013376,
+      "upstream_inference_prompt_cost": 0.000032,
+      "upstream_inference_completions_cost": 0.0013056
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "amazon/nova-pro-v1",
+  "ts": 1776830341562
+}

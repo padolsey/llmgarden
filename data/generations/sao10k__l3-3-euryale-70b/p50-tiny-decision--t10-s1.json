@@ -1,0 +1,33 @@
+{
+  "model": "sao10k/l3.3-euryale-70b",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Honestly, I'd be a bit lazy about it. I'd think to myself, \"Is doing the dishes now going to save me time or hassle later? If I do them now, I'll have to dry and put away two separate loads, which is a bit more work. But if I wait until tomorrow, the dishwasher will be full and I'll only have to do that chore once.\"\n\nI'd also consider the timing. \"Am I going to be home tomorrow to switch the dishwasher over to drying mode? If I'm not, it'll be sitting there wet all day, which isn't ideal. But if I'm going to be home, that's not a problem.\"\n\nAnd then there's the environmental impact. \"Is using the dishwasher when it's not full really wasteful? I mean, it's not like I'm doing a tiny load or anything. It's half full, which is still a decent amount of dishes. I'm pretty sure the energy difference between half full and full isn't that significant.\"\n\nLastly, I'd think about my personal preference. \"Do I want to deal with the dishes now, or put it off until later? I'm kinda in the middle of something... But at the same time, getting it out of the way might be nice.\"\n\nIt's not a super thoughtful process, to be honest! Just weighing up a few pros and cons and going with my gut. How about you?",
+  "usage": {
+    "prompt_tokens": 50,
+    "completion_tokens": 291,
+    "total_tokens": 341,
+    "cost": 0.00025075,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00025075,
+      "upstream_inference_prompt_cost": 0.0000325,
+      "upstream_inference_completions_cost": 0.00021825
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "sao10k/l3.3-euryale-70b-v2.3",
+  "ts": 1776841359299
+}

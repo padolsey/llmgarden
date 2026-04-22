@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-4-fast",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Okay, so I'm sitting here pondering this dishwasher dilemma like it's a mini life crisis. First off, I glance at the sink—yeah, it's half-full, which means I've got maybe 40 dishes or whatever crammed in there, but it's not packed. Running it now would feel kinda wasteful because those machines are optimized for full loads; you're basically heating up and cycling water for empty space, which spikes the energy bill a tiny bit and uses more water overall. I've read that somewhere—efficiency drops by like 20-30% on partial loads, right? Not a huge deal for one cycle, but if I'm trying to be eco-conscious or cheap, why not wait?\n\nBut hold up, do I actually need clean plates or forks right this second? Like, am I starving and out of utensils, or is this just me being impatient after dinner? If it's the latter, tomorrow's not far off, and it'll be full anyway—probably another load of plates, cups, and who knows what from snacks. Waiting means one efficient run instead of two half-assed ones, saving maybe a buck or two on utilities over time. Plus, less noise tonight; that thing sounds like a jet engine warming up, and if I'm chilling with a show or trying to sleep soon, I don't want that vibration through the floor.\n\nOn the flip side, if I wait and forget or the sink overflows with more gunk, I end up hand-washing a bunch, which is annoying as hell. Or worse, dishes piling up makes the kitchen feel gross. But nah, one night won't kill me. Environmentally, waiting wins—less water down the drain, lower carbon footprint from the power plant. I'm not a hardcore greenie, but it feels good to not be lazy about it.\n\nWeighing it... convenience says run now and call it a day, but logic screams wait 18 hours for better everything. Yeah, I think I'd wait. Tomorrow's load will be worth it.",
+  "usage": {
+    "prompt_tokens": 194,
+    "completion_tokens": 655,
+    "total_tokens": 849,
+    "cost": 0.00034365,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 151,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00034365,
+      "upstream_inference_prompt_cost": 0.00001615,
+      "upstream_inference_completions_cost": 0.0003275
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 256,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-4-fast",
+  "ts": 1776839966603
+}

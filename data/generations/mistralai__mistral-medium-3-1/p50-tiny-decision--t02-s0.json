@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-medium-3.1",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Here’s how I’d actually think through it in real time, with all the messy, practical considerations:\n\n1. **The Immediate Hassle Factor**:\n   - If I run it now, I have to scrape/rinse the dishes in there, maybe rearrange a few things to fit more, and then actually start the cycle. That’s 5-10 minutes of effort *right now* when I might be tired or distracted. If I wait, I can toss everything in tomorrow without thinking—future me handles the work.\n   - But if I wait, tomorrow’s me will have to deal with a bigger pile of dirty dishes sitting overnight, which might smell or attract fruit flies. Is the sink already gross? If yes, that’s a point for running it now.\n\n2. **The Detergent/Waste Guilt**:\n   - Running a half-full dishwasher feels wasteful—water, electricity, detergent. But is it *actually* that much worse? Modern dishwashers use roughly the same energy/water per cycle regardless of load size, so the marginal cost of running it half-full isn’t huge. Still, it *feels* wrong.\n   - On the other hand, if I wait and add more dishes tomorrow, I might end up with a poorly packed load (e.g., bowls blocking spray arms) and have to rewash stuff. That’s *also* wasteful.\n\n3. **The Timing Logistics**:\n   - If I run it now, will it finish before bedtime? If not, I’ll have to unload it in the morning, which means wet dishes sitting in the rack while I’m getting ready for work. Annoying.\n   - If I wait until tomorrow, can I time it to finish right before I get home? That’s ideal—unload while making dinner. But if tomorrow’s schedule is unpredictable, I might forget to run it at all, and then I’m stuck with two days of dishes.\n\n4. **The \"What’s Actually in There?\" Audit**:\n   - I’d peek inside: Are the dishes in there mostly large items (pots, baking sheets) that won’t fit well with tomorrow’s load? If so, running now makes sense because they’ll hog space.\n   - Are they things I’ll need tomorrow (e.g., my favorite mug, a cutting board)? If yes, I *have* to run it now. If no, I can wait.\n\n5. **The Smell Test (Literally)**:\n   - Are there any dishes with dried-on food (especially proteins, dairy, or sticky sauces) that’ll get nastier overnight? If yes, run it now. If it’s just plates with crusty pasta, they can probably wait.\n\n6. **The Psychological Boost**:\n   - Sometimes, running the dishwasher now just *feels* like a win—one less thing to do tomorrow.",
+  "usage": {
+    "prompt_tokens": 44,
+    "completion_tokens": 600,
+    "total_tokens": 644,
+    "cost": 0.0012176,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0012176,
+      "upstream_inference_prompt_cost": 0.0000176,
+      "upstream_inference_completions_cost": 0.0012
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-medium-3.1",
+  "ts": 1776828872997
+}

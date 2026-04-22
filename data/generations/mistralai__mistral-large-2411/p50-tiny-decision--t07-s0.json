@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-large-2411",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Sure, let's think through this step by step:\n\n1. **Efficiency**: First, consider the efficiency of running the dishwasher. Dishwashers use a significant amount of water and energy. Running it half-full might seem wasteful. A full load makes better use of those resources.\n\n2. **Time and Convenience**: Think about your schedule. If you're expecting a busy day tomorrow, it might be more convenient to run it now to have clean dishes ready when you need them. Also, consider the time it takes to run a cycle. If you run it now, will the clean dishes be ready in time for tomorrow's use?\n\n3. **Dishes Needed Tomorrow**: Consider what dishes you'll need tomorrow. If the half-full dishwasher contains items you'll need, it might be better to run it now. If not, you can probably wait.\n\n4. **Food Residue**: Think about what's in the dishwasher. Some food residues can be harder to clean the longer they sit. If there are dishes with stuck-on food, it might be better to run the dishwasher now.\n\n5. **Peak Hours**: Depending on your electricity plan, it might be cheaper to run the dishwasher at certain times. If now is an off-peak hour, it could be a good time to run it.\n\n6. **Unexpected Needs**: Life is unpredictable. If you wait, there might be an unexpected need for clean dishes. Running it now ensures you have a buffer against the unexpected.\n\n7. **Environmental Considerations**: If you're environmentally conscious, waiting until the dishwasher is full is generally better. However, if you know you'll end up hand-washing some items because you ran out, it might be more water-efficient to run the dishwasher now.\n\nAfter considering these points, you should have a clearer idea of whether to run the dishwasher now or wait until tomorrow. It's a balance between efficiency, convenience, and need.",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 463,
+    "total_tokens": 510,
+    "cost": 0.002872,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002872,
+      "upstream_inference_prompt_cost": 0.000094,
+      "upstream_inference_completions_cost": 0.002778
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-large-2411",
+  "ts": 1776831847647
+}

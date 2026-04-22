@@ -1,0 +1,33 @@
+{
+  "model": "nousresearch/hermes-4-70b",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "A debounce function limits the rate at which a function is executed. Here's a small JavaScript `debounce` function with an example of how to use it:\n\n```javascript\nfunction debounce(func, wait) {\n  let timeout;\n  return function() {\n    const context = this;\n    const args = arguments;\n    clearTimeout(timeout);\n    timeout = setTimeout(function() {\n      func.apply(context, args);\n    }, wait);\n  };\n}\n\n// Example usage:\nconst debouncedScroll = debounce(function() {\n  console.log('Scroll event triggered');\n}, 250);\n\nwindow.addEventListener('scroll', debouncedScroll);\n```\n\nIn this example, the `debouncedScroll` function will only be called once every 250 milliseconds, even if the scroll event is triggered more frequently.",
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 156,
+    "total_tokens": 209,
+    "cost": 0.00006929,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00006929,
+      "upstream_inference_prompt_cost": 0.00000689,
+      "upstream_inference_completions_cost": 0.0000624
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "nousresearch/hermes-4-70b",
+  "ts": 1776829756074
+}

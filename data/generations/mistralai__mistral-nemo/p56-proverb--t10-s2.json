@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-nemo",
+  "prompt_id": "p56-proverb",
+  "prompt": "Translate this English proverb into two other languages in a way that preserves the spirit, not the words: 'The best time to plant a tree was twenty years ago. The second best time is now.' Add a one-sentence note on each.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "**Spanish:**\n\"Lo mejor es haber plantado un árbol hace veinte años. Pero si no lo hiciste, el mejor momento es ahora.\"\n- *Note: This translation captures the spirit of the original proverb, emphasizing that the ideal time has passed, but the next best time is the present.*\n\n**French:**\n\"Il aurait été préférable de planter un arbre il y a vingt ans, mais il est encore temps de le faire maintenant.\"\n- *Note: The French version maintains the spirit of the original by firstly highlighting the missed opportunity and then accentuating the importance of acting now.*",
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 121,
+    "total_tokens": 178,
+    "cost": 0.00000598,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00000598,
+      "upstream_inference_prompt_cost": 0.00000114,
+      "upstream_inference_completions_cost": 0.00000484
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-nemo",
+  "ts": 1776837676281
+}

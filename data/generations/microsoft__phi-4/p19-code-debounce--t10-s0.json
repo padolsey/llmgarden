@@ -1,0 +1,33 @@
+{
+  "model": "microsoft/phi-4",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "A `debounce` function in JavaScript is used to limit the rate at which a function can fire, which is useful for improving performance when handling events like input or scroll. Here's a simple implementation with an example of how to use it:\n\n```javascript\nfunction debounce(func, wait) {\n  let timeout;\n  \n  return function(...args) {\n    const later = () => {\n      clearTimeout(timeout);\n      func(...args);\n    };\n    \n    clearTimeout(timeout);\n    timeout = setTimeout(later, wait);\n  };\n}\n\n// Example usage:\n// Debouncing a function that logs input value, triggered on each keystroke\nconst input = document.querySelector('#myInput');\n\nconst handleInput = debounce((event) => {\n  console.log('Input value:', event.target.value);\n}, 300);\n\ninput.addEventListener('input', handleInput);\n```\n\nIn this example, the `handleInput` function will only execute once the user has stopped typing for 300 milliseconds, preventing excessive calls to the function during continuous user input.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 206,
+    "total_tokens": 242,
+    "cost": 0.00003136,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00003136,
+      "upstream_inference_prompt_cost": 0.00000252,
+      "upstream_inference_completions_cost": 0.00002884
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "microsoft/phi-4",
+  "ts": 1776842593447
+}

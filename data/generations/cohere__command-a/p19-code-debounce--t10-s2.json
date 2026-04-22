@@ -1,0 +1,33 @@
+{
+  "model": "cohere/command-a",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "**Explanation:**  \nA `debounce` function limits the rate at which a function can fire by delaying its execution until after a specified amount of time has passed since the last invocation.\n\n```javascript\nfunction debounce(func, wait) {\n    let timeout;\n    return function(...args) {\n        const context = this;\n        clearTimeout(timeout);\n        timeout = setTimeout(() => func.apply(context, args), wait);\n    };\n}\n\n// Example usage:\nwindow.addEventListener('resize', debounce(() => {\n    console.log('Window resized!');\n}, 250));\n```\n\nIn this example, the `debounce` function ensures that the message `'Window resized!'` is logged to the console at most once every 250 milliseconds, no matter how often the window resize event fires.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 176,
+    "total_tokens": 205,
+    "cost": 0.0018325,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0018325,
+      "upstream_inference_prompt_cost": 0.0000725,
+      "upstream_inference_completions_cost": 0.00176
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "cohere/command-a-03-2025",
+  "ts": 1776839379411
+}

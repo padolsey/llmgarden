@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p05-poem",
+  "prompt": "Write a short poem (8–16 lines) about the feeling of finishing a long project. Any form you like.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "At last the last line settles like dusk on a weary field.\nTools laid down—pen, plan, the constant hum of worry.\nA thin, bright hush replaces the tight hours—dense and soft.\nMy chest unclenches as if a knot inside has finally loosened.\nI stand on the project's quiet shore, fingerprints in fresh sand,\ntracing the route of stubborn dawns and late-lit nights.\nThere’s a small, absurd glee—tea turned to champagne in my hands.\nGrief and triumph braid together, both necessary, neither loud.\nBeyond the finished door an uncharted room waits—empty, inviting.\nFor now I close my eyes on the work and breathe: it is done.",
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 480,
+    "total_tokens": 510,
+    "cost": 0.0009675,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0009675,
+      "upstream_inference_prompt_cost": 0.0000075,
+      "upstream_inference_completions_cost": 0.00096
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 320,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776834902940
+}

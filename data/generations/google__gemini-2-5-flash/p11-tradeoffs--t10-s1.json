@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "prompt_id": "p11-tradeoffs",
+  "prompt": "A small team is choosing between writing software in TypeScript or Python for a new internal data tool. Walk through how you would help them decide, in prose (not a bulleted list).",
+  "temperature": 1,
+  "sample": 1,
+  "response": "When approached with this decision, my first step would be to fully understand the *nature* of this \"internal data tool\" and the team itself. It's not a generic choice; it's a choice tailored to their specific context.\n\nI'd begin by engaging the team in a conversation about the tool's core functionality. Will it be heavily focused on data manipulation, scientific computing, or complex statistical analysis? Or is it more about building interactive dashboards, user interfaces, or integrating with various APIs? The type of data operations, the need for real-time visualization, and the projected complexity of the user interface are all crucial factors. This would immediately start to lean the conversation one way or another. If heavy numerical processing and existing data science libraries are paramount, Python would naturally emerge as a strong contender. If a robust, type-safe UI layer is a significant part of the project, TypeScript would gain an edge.\n\nNext, I'd delve into the team's existing skill set and experience. Are they more comfortable with dynamically typed languages, or do they appreciate the strictness and tooling benefits of static typing? Have they worked with JavaScript extensively before, making TypeScript a natural evolution? Or is their background more rooted in scripting and data processing, where Python might feel more familiar? Training costs and ramp-up time are real considerations. If the team has a strong Python background, forcing them into TypeScript means a steeper learning curve and potentially slower initial development. Conversely, if they're coming from a JavaScript ecosystem, TypeScript is often an easier transition.\n\nWe'd also discuss the *long-term maintainability* and *scalability* of the tool. How large is this internal tool expected to grow? Will multiple developers be contributing to it over time? Here, TypeScript's static typing offers significant advantages in preventing subtle bugs and facilitating refactoring in larger codebases. The explicit type definitions act as a form of living documentation, making it easier for new team members to understand and extend the code. Python, while having type hints, doesn't enforce them at runtime, making it more prone to runtime errors in complex, evolving systems unless rigorous testing is in place.\n\nFurthermore, I'd explore the *ecosystem dependencies* and *integration points*. What other internal systems or external services will this tool need to interact with? Are there existing libraries or frameworks within the company that are predominantly written in one language or the other? For example, if the tool needs to integrate deeply with a Python-based machine learning pipeline, using Python for the tool itself might simplify the integration. Conversely, if it needs to connect to numerous web APIs and present information in a browser, TypeScript's alignment with the web ecosystem could be beneficial.\n\nFinally, I'd bring up the *performance characteristics* expected. While both languages can be performant for many tasks, if there are extremely low-latency requirements or computationally intensive operations that aren't offloaded to",
+  "usage": {
+    "prompt_tokens": 37,
+    "completion_tokens": 600,
+    "total_tokens": 637,
+    "cost": 0.0015111,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0015111,
+      "upstream_inference_prompt_cost": 0.0000111,
+      "upstream_inference_completions_cost": 0.0015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.5-flash",
+  "ts": 1776835743443
+}

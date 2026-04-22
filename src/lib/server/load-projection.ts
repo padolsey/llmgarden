@@ -1,35 +1,66 @@
 /**
- * Server-side loader for data/projection.json and a sample generation per model
- * (for tooltip display). Runs at SSR time only.
+ * Server-side loader for data/projection.json. Adds family labels and picks a
+ * representative sample response per model for tooltip copy.
  */
-import { existsSync, readFileSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { GEN_DIR, PROJECTION_PATH } from '../runner/paths.ts';
 import { FAMILY_LABELS } from '../data/models.ts';
 import { PROMPTS } from '../data/prompts.ts';
 import path from 'node:path';
-import { readdirSync } from 'node:fs';
 
-export interface ProjectionRow {
+export interface ProjectionModel {
 	slug: string;
 	family: string;
 	label: string;
+	base?: string;
 	coverage: number;
 	missing: string[];
+	sample_count: number;
+	volatility: number;
 	x_umap: number;
 	y_umap: number;
+}
+
+export interface ProjectionModelTemp {
+	slug: string;
+	family: string;
+	temperature: number;
+	sample_count: number;
+	x_umap: number;
+	y_umap: number;
+}
+
+export interface ProjectionSample {
+	slug: string;
+	family: string;
+	prompt_id: string;
+	temperature: number;
+	sample: number;
+	x_umap: number;
+	y_umap: number;
+}
+
+export interface ProjectionEdge {
+	from: string;
+	to: string;
+	similarity: number;
 }
 
 export interface ProjectionFile {
 	generated_at: number;
 	n_models: number;
-	n_prompts_used: number;
+	n_prompts: number;
+	n_samples_total: number;
 	embedding_dim_per_prompt: number;
 	concat_dim: number;
-	models: ProjectionRow[];
+	models: ProjectionModel[];
+	model_temps: ProjectionModelTemp[];
+	samples: ProjectionSample[];
+	model_knn_edges: ProjectionEdge[];
 	pairwise_cosine: number[][];
 }
 
-export interface LoadedModel extends ProjectionRow {
+export interface LoadedModel extends ProjectionModel {
 	family_label: string;
 	sample_prompt: string;
 	sample_response: string;
@@ -37,11 +68,16 @@ export interface LoadedModel extends ProjectionRow {
 
 export interface LoadedData {
 	generated_at: number;
-	n_prompts_used: number;
+	n_prompts: number;
+	n_samples_total: number;
 	concat_dim: number;
 	models: LoadedModel[];
+	model_temps: ProjectionModelTemp[];
+	samples: ProjectionSample[];
+	model_knn_edges: ProjectionEdge[];
 	pairwise: number[][];
 	family_labels: Record<string, string>;
+	prompts: { id: string; category: string; text: string }[];
 }
 
 export function loadData(): LoadedData | null {
@@ -60,11 +96,16 @@ export function loadData(): LoadedData | null {
 
 	return {
 		generated_at: file.generated_at,
-		n_prompts_used: file.n_prompts_used,
+		n_prompts: file.n_prompts,
+		n_samples_total: file.n_samples_total,
 		concat_dim: file.concat_dim,
 		models,
+		model_temps: file.model_temps,
+		samples: file.samples,
+		model_knn_edges: file.model_knn_edges,
 		pairwise: file.pairwise_cosine,
-		family_labels: FAMILY_LABELS
+		family_labels: FAMILY_LABELS,
+		prompts: PROMPTS.map((p) => ({ id: p.id, category: p.category, text: p.text }))
 	};
 }
 
@@ -77,24 +118,32 @@ function slugify(modelId: string): string {
 		.replace(/[^a-z0-9_\-]/g, '-');
 }
 
-/** Pick a representative sample response: prefer p04-microstory (shows voice), else first available. */
 function pickSample(modelId: string): { prompt: string; response: string } | null {
 	const dir = path.join(GEN_DIR, slugify(modelId));
 	if (!existsSync(dir)) return null;
-	const preferredOrder = ['p04-microstory', 'p05-poem', 'p01-identity', 'p21-joke'];
-	for (const pid of preferredOrder) {
-		const f = path.join(dir, `${pid}.json`);
-		if (!existsSync(f)) continue;
-		try {
-			const data = JSON.parse(readFileSync(f, 'utf8')) as { prompt?: string; response?: string; error?: string };
-			if (data.response) {
-				const prompt = PROMPTS.find((p) => p.id === pid)?.text ?? data.prompt ?? '';
-				return { prompt, response: data.response };
-			}
-		} catch {}
+	const preferredPrompts = ['p04-microstory', 'p05-poem', 'p31-first-person', 'p01-identity', 'p21-joke'];
+	const files = new Set(readdirSync(dir));
+	for (const pid of preferredPrompts) {
+		// Prefer the temp=0.7 s=0 file for consistent "default-voice" tooltips.
+		const candidates = [
+			`${pid}--t07-s0.json`,
+			`${pid}--t02-s0.json`,
+			`${pid}--t10-s0.json`
+		];
+		for (const fname of candidates) {
+			if (!files.has(fname)) continue;
+			const f = path.join(dir, fname);
+			try {
+				const data = JSON.parse(readFileSync(f, 'utf8')) as { prompt?: string; response?: string };
+				if (data.response) {
+					const prompt = PROMPTS.find((p) => p.id === pid)?.text ?? data.prompt ?? '';
+					return { prompt, response: data.response };
+				}
+			} catch {}
+		}
 	}
-	// Fallback: any non-error file in the directory.
-	for (const file of readdirSync(dir)) {
+	// Fallback: first non-error file in dir
+	for (const file of files) {
 		if (!file.endsWith('.json')) continue;
 		try {
 			const data = JSON.parse(readFileSync(path.join(dir, file), 'utf8')) as { prompt?: string; response?: string };

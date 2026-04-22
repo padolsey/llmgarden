@@ -1,0 +1,33 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p11-tradeoffs",
+  "prompt": "A small team is choosing between writing software in TypeScript or Python for a new internal data tool. Walk through how you would help them decide, in prose (not a bulleted list).",
+  "temperature": 1,
+  "sample": 1,
+  "response": "First, sit down with the team and learn what the tool is supposed to do, not only on day one but over the next several release cycles. Are they building an interactive dashboard that analysts will hit through a browser, a headless pipeline that runs once a night, or a library other teams will import? Listen for clues about scale, uptime promises, and how much of the work is data plumbing versus user-facing polish. Ask who will own the code six months from now and how comfortable each maintainer already is with either language. That single conversation usually surfaces the real constraints; everything else is decoration.\n\nIf the conversation reveals that the tool will live primarily in notebooks—experimenting, eyeballing distributions, emailing screenshots—then Python wins almost reflexively. The analytic stack is frictionless: open pandas, chart with seaborn, hand the notebook to a colleague who already has Jupyter installed. The cost of context-switching is zero, and the penalty for “I’ll just hack this cell” is low. TypeScript, by contrast, feels like borrowing a speedboat to cross a puddle: you can do it, but the life jackets and ignition sequence slow you down.\n\nWhen the story tilts toward “we need to turn these experiments into a reliable service,” the balance shifts. If the service will expose REST endpoints, run background jobs, and evolve alongside a web frontend already written in React, TypeScript starts to look attractive for the simple reason that the boundary between frontend and backend can vanish. One shared type definition for UserProfile or DataQuery keeps server and browser in lock-step, and the same person can fix a serialization bug at 3 p.m. and a button alignment issue at 3:15 without mentally recompiling. That continuity is hard to price in a slide deck, but teams that have felt it rarely give it up.\n\nStill, continuity is only worth something if the team already speaks the dialect. A roomful of PhD statisticians who dream in numpy will write clumsy, unhappy TypeScript; import cycles and generic constraints will feel like ceremony imposed by strangers. Conversely, a group that has survived a few Python codebases that grew until type errors started showing up only in production may yearn for the compiler’s reassurance. Ask them to show you the last three bugs they fixed. If two were AttributeError: 'NoneType' or a column name that changed after refactoring, TypeScript’s strict null checks and static shape of a DataFrame-like interface might pay for themselves in the first month.\n\nPerformance rarely decides the contest at the scale of an internal tool; both languages sit atop runtimes fast enough for anything short of high-frequency joins on billion-row tables. What sometimes does decide is packaging. If the tool must install onto analysts’ laptops that already have Anaconda, a pip-installable wheel is invisible infrastructure. If it will deploy into a container on Cloud Run that already builds a Node image for other services, shipping a few megabytes",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 600,
+    "total_tokens": 645,
+    "cost": 0.001527,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 45,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001527,
+      "upstream_inference_prompt_cost": 0.000027,
+      "upstream_inference_completions_cost": 0.0015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776842799753
+}

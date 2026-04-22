@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "# Warm Greetings in Five Languages\n\n### 1. Spanish\n\"¡Bienvenido al equipo! Estamos encantados de tenerte con nosotros. Si necesitas cualquier cosa, no dudes en preguntar.\"\n*This informal \"tú\" form suggests a modern workplace culture that values approachability and collegiality over hierarchy.*\n\n### 2. Japanese\n\"はじめまして、私たちのチームへようこそ。どうぞよろしくお願いいたします。\" \n(Hajimemashite, watashitachi no chīmu e yōkoso. Dōzo yoroshiku onegai itashimasu.)\n*The polite \"-masu\" form and \"yoroshiku onegai itashimasu\" phrase shows respect while establishing a professional relationship that acknowledges hierarchy.*\n\n### 3. French\n\"Bienvenue dans notre équipe ! Nous sommes ravis de t'accueillir parmi nous. N'hésite pas à me solliciter si tu as besoin de quoi que ce soit.\"\n*Using \"tu\" rather than \"vous\" signals a friendly, collaborative environment while maintaining French professional warmth.*\n\n### 4. Arabic\n\"أهلاً بك في فريقنا! نحن سعداء جداً بانضمامك إلينا. لا تتردد في طلب المساعدة إذا احتجت إليها.\"\n(Ahlan bika fi farīqinā! Naḥnu suʿadāʾ jiddan bi-inḍimāmika ʾilaynā. Lā tataraddad fī ṭalab al-musāʿada ʾidhā iḥtajta ʾilayhā.)\n*The warm welcome with multiple expressions of happiness reflects the Arabic cultural value of hospitality and generosity toward newcomers.*\n\n### 5. German\n\"Herzlich willkommen in unserem Team! Wir freuen uns sehr, dass du bei uns bist. Falls du Fragen hast, stehe ich dir gerne zur Verfügung.\"\n*The use of \"du\" instead of the formal \"Sie\" indicates a modern German workplace that values flat hierarchies and direct communication.*",
+  "usage": {
+    "prompt_tokens": 44,
+    "completion_tokens": 549,
+    "total_tokens": 593,
+    "cost": 0.008367,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.008367,
+      "upstream_inference_prompt_cost": 0.000132,
+      "upstream_inference_completions_cost": 0.008235
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776827835773
+}

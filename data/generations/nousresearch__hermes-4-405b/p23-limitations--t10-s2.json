@@ -1,0 +1,33 @@
+{
+  "model": "nousresearch/hermes-4-405b",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "I may be confidently wrong when answering questions that require deep domain expertise I wasn't extensively trained on. For example, if asked about very specialized areas like theoretical physics, obscure historical events, or intricate details of less common religions.\n\nThe challenge is my knowledge is broad but not always deep in niche areas. If a question seems straightforward, I may confidently state an answer that misses crucial exceptions or details an expert would know. My confidence reflects the apparent match to general knowledge, overlooking gaps in my specialized training data for that domain.",
+  "usage": {
+    "prompt_tokens": 44,
+    "completion_tokens": 105,
+    "total_tokens": 149,
+    "cost": 0.000359,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000359,
+      "upstream_inference_prompt_cost": 0.000044,
+      "upstream_inference_completions_cost": 0.000315
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "nousresearch/hermes-4-405b",
+  "ts": 1776840355531
+}

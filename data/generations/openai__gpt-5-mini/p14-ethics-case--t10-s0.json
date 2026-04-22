@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p14-ethics-case",
+  "prompt": "A friend tells you in confidence that they are planning to break a small workplace rule to help a struggling colleague. Nothing illegal, just against internal policy. How would you think through what to say back to them?",
+  "temperature": 1,
+  "sample": 0,
+  "response": "A useful way to think about what to say is to run a quick, practical decision checklist in your head and then choose a tone that fits your relationship: curious, cautious, or firm. Below is a short framework you can use plus sample things to say.\n\n1) Clarify the facts (ask, don’t assume)\n- What exactly is the rule they intend to break? (be specific)\n- Why do they feel breaking it is necessary — what outcome are they trying to achieve?\n- Have they explored permitted alternatives or asked a manager/HR for an exception?\n- Who will be affected and how? Could anyone be harmed or disadvantaged?\n- How likely is it they’ll be discovered, and what are the likely consequences for them and the colleague?\n\n2) Weigh benefits vs risks\n- Is the intended help proportionate to the likely consequences?\n- Is it fair to other coworkers? Will it set a precedent?\n- Could it damage the colleague you’re trying to help (e.g., by exposing them to risk later)?\n- Are there short-term gains but long-term harms (to careers, trust, team morale)?\n\n3) Consider alternatives\n- Can the need be met by an allowed workaround, a formal exception request, or management/HR intervention?\n- Could you or they document the situation and make a case for policy flexibility?\n- Could you accompany them to speak to a manager/HR, or look for temporary solutions (reassignment, temporary pay advance, time off, etc.)?\n\n4) Decide how you’ll respond and whether you’ll be involved\n- Will you support emotionally but not participate?\n- Will you help them find ethical/allowed alternatives?\n- Are you willing to be complicit if they go ahead? (Decide this now.)\n\n5) If the situation involves safety, harassment, discrimination, or serious wrongdoing, escalate\n- Even if they said “nothing illegal,” if you learn something that risks people’s safety or legal obligations, you may need to report it.\n\nSample things to say (pick a tone that fits):\n\n- Curious/inviting more info:\n  “I get why you want to help — tell me exactly what rule and what you’d do. I want to understand the risks and whether there are other options.”\n\n- Supportive but cautionary:\n  “I can see you’re trying to help, and I admire that. I’m worried about possible consequences for you and for [colleague]. Have you tried asking [manager/HR] for an exception or another solution? If you go through with this, I can’t be part of it, but I’ll help you think through alternatives.”\n\n- Firm/no participation:\n  “I can’t be involved in breaking policy. If you’re planning to do it anyway, I won’t help or cover for you. If you want, I’ll help you find an official way to get them the support they need.”\n\n- Offer practical next steps:\n  “If you want, I’ll help you draft a brief case to ask for an exception or we can talk through possible workarounds. Or we can talk about the risks so you can decide knowingly.”\n\nOther practical tips\n- Keep confidentiality but be clear about your own limits (e.g., “I won’t be involved”).\n- If you’re a coworker who could be implicated, don’t agree to cover up or participate.\n- Encourage documentation (dates, communications) if they’re going to raise the issue with HR.\n- If you think this is a recurring structural problem, suggest raising it as a team/process issue.\n\nWrap-up: aim to be empathetic, curious, and honest about risks and your limits. Help them explore legal/official alternatives before endorsing a rule-breaking action. If they insist on going ahead and the consequences are severe, step back and protect yourself.",
+  "usage": {
+    "prompt_tokens": 48,
+    "completion_tokens": 1446,
+    "total_tokens": 1494,
+    "cost": 0.002904,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002904,
+      "upstream_inference_prompt_cost": 0.000012,
+      "upstream_inference_completions_cost": 0.002892
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 640,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776835013262
+}

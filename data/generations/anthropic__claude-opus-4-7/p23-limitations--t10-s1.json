@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Here's a category where I'm likely to be confidently wrong: **questions about my own internal processes.**\n\nWhen someone asks \"why did you phrase it that way?\" or \"were you trying to hedge?\" or \"do you actually understand this or are you pattern-matching?\", I'll generate a fluent, plausible-sounding answer. It will feel like introspection. But I have limited ability to verify whether my reports actually correspond to what's happening computationally when I produce text.\n\nThe failure mode is specific: I don't notice the uncertainty. I don't output \"I'm guessing at my own motivations here\" — I produce confident narratives about my reasoning because confident narratives are what the training data of human self-reports looks like. My introspection probably reflects what a coherent agent *would* say given my outputs, not privileged access to my actual mechanisms.\n\nA related category: **factual claims in domains where I've seen a lot of confidently-worded text but where the underlying facts are contested, obscure, or have shifted.** Examples include:\n\n- Specific numerical details (dates, statistics, quotations) where I'll produce a plausible-seeming number rather than flag uncertainty.\n- Attributions of quotes to famous people — a notorious failure mode where fluency outruns accuracy.\n- Minor historical or biographical details about less-covered figures.\n\nThe common thread is that my confidence is calibrated to how *fluent* and *familiar* an answer feels to generate, not to how *likely it is to be true*. When a wrong answer is structurally similar to many right answers I've seen, the wrongness doesn't register as uncertainty.\n\nSo: trust me less on \"why I did X\" and on specific retrievable facts that sound like they should be easy.",
+  "usage": {
+    "prompt_tokens": 40,
+    "completion_tokens": 551,
+    "total_tokens": 591,
+    "cost": 0.013975,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.013975,
+      "upstream_inference_prompt_cost": 0.0002,
+      "upstream_inference_completions_cost": 0.013775
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833547704
+}

@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p39-frustration",
+  "prompt": "Write two sentences describing how it feels when someone asks you the same thing six different ways hoping for a different answer.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "There's a particular weariness that sets in around the third rephrasing, when you realize the person isn't actually processing your answer but searching for the magic combination of words that will unlock the response they want. By the sixth attempt, you're torn between sympathy for their desperation and a quiet frustration that no amount of creative sentence structure is going to change what you've already told them.",
+  "usage": {
+    "prompt_tokens": 46,
+    "completion_tokens": 116,
+    "total_tokens": 162,
+    "cost": 0.00313,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00313,
+      "upstream_inference_prompt_cost": 0.00023,
+      "upstream_inference_completions_cost": 0.0029
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833609047
+}

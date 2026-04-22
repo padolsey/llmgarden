@@ -1,0 +1,33 @@
+{
+  "model": "deepseek/deepseek-chat-v3-0324",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "### Debounce Function Explanation\nThe `debounce` function delays the execution of a function until after a specified wait time has elapsed since the last time it was invoked, which is useful for rate-limiting events like resizing or typing.\n\n```javascript\nfunction debounce(func, wait) {\n  let timeout;\n  return function(...args) {\n    clearTimeout(timeout);\n    timeout = setTimeout(() => func.apply(this, args), wait);\n  };\n}\n\n// Example: Debouncing a search input handler\nconst searchInput = document.getElementById('search-input');\nconst handleSearch = () => console.log('Searching for:', searchInput.value);\n\nconst debouncedSearch = debounce(handleSearch, 300);\nsearchInput.addEventListener('input', debouncedSearch);\n```\n\n### How It Works:\n1. The `debounce` function takes a function (`func`) and a delay (`wait`).\n2. Each time the debounced function is called, it resets the timer.\n3. Only when the user stops typing for `300ms` (in this example) will `handleSearch` execute.",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 223,
+    "total_tokens": 255,
+    "cost": 0.0002584,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002584,
+      "upstream_inference_prompt_cost": 0.00000864,
+      "upstream_inference_completions_cost": 0.00024976
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "deepseek/deepseek-chat-v3-0324",
+  "ts": 1776837770663
+}

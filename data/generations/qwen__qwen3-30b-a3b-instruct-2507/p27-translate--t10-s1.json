@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-30b-a3b-instruct-2507",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 1,
+  "response": "**French:**  \nLe silence entre nous disait plus que tout débat n’aurait pu le faire.\n\n*Note:* The challenge lay in preserving the poetic weight of \"said more than any argument could have\" while ensuring natural French syntax. \"Disait plus que tout débat n’aurait pu le faire\" captures the comparative depth without sounding overly literal. The passive construction (implied \"could have said\") is rendered through a conditional structure for fluidity.\n\n---\n\n**Japanese:**  \n私たちの間の沈黙は、どんな論争よりも多くのことを語っていた。\n\n*Note:* The phrase \"said more than any argument could have\" required careful handling. In Japanese, direct translation of \"said\" as \"言った\" would imply active speech, which contradicts the silence. Instead, \"語っていた\" (was conveying) is used in a metaphorical sense, aligning with the figurative meaning. The structure \"〜よりも多くのことを語っていた\" elegantly conveys that silence communicated more than argument could.\n\n---\n\n**Arabic:**  \nالصمت بيننا كان يقول أكثر مما كان يمكن لأي حجة أن تقوله.\n\n*Note:* The tricky part was capturing the nuance of silence actively \"saying\" something—something that’s metaphorical in English. In Arabic, \"كان يقول\" (was saying) is used poetically to attribute speech to silence, a common rhetorical device in Arabic literature. The phrase \"أي حجة\" (any argument) is adjusted to \"ما كان يمكن لأي حجة أن تقوله\" (what any argument could possibly say), which maintains the sense of impossibility and emphasis, making it sound native and expressive.",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 346,
+    "total_tokens": 395,
+    "cost": 0.0001087,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001087,
+      "upstream_inference_prompt_cost": 0.0000049,
+      "upstream_inference_completions_cost": 0.0001038
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-30b-a3b-instruct-2507",
+  "ts": 1776839055050
+}

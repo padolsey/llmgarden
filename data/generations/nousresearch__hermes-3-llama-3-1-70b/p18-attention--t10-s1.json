@@ -1,0 +1,33 @@
+{
+  "model": "nousresearch/hermes-3-llama-3.1-70b",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "The transformer model uses a novel type of mechanism for controlling the flow of information between different elements of the model. For every item that is encoded into a 2-dimensional matrix, the model also has a corresponding 3-dimensional matrix that captures the relationships between items in the initial matrix. This allows each of the encoded items to interact with all other items, and the result is dynamically adjusted based on the content of the encoded items, which in turn leads to dynamic adjustments in the weight distribution of those items. This mechanism is referred to as the attention mechanism, and it works by having different parts of the model pay attention to different aspects of the encoded items in the initial matrix. In a software engineering context, this would be equivalent to having different subroutine modules focusing on different aspects of a large software system, with the capability to dynamically adjust their coordination based on what they are working on. The key advantage of the attention mechanism is that it can efficiently handle all pairwise interactions between items in the same enclosure, independent of how those items are expressed or represented in the structure of the data you are working on.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 219,
+    "total_tokens": 253,
+    "cost": 0.0000759,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000759,
+      "upstream_inference_prompt_cost": 0.0000102,
+      "upstream_inference_completions_cost": 0.0000657
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "nousresearch/hermes-3-llama-3.1-70b",
+  "ts": 1776840687806
+}

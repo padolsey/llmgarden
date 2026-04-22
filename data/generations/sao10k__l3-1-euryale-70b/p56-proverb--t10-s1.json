@@ -1,0 +1,33 @@
+{
+  "model": "sao10k/l3.1-euryale-70b",
+  "prompt_id": "p56-proverb",
+  "prompt": "Translate this English proverb into two other languages in a way that preserves the spirit, not the words: 'The best time to plant a tree was twenty years ago. The second best time is now.' Add a one-sentence note on each.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Spanish:\n\"The best time to plant an apple was when your grandfather was a boy. Now, well, it's time to plant one and hope your great-grandchildren will have time to eat.\"\n\nNote: This translation maintains the core message by replacing the tree with an apple, symbolizing the growth and inheritance.\n\nFrench:\n\"The finest hour to hike was during the reign of your ancestors, long before you were born. The next best moment? Right now—just don't count on anyone else to walk the path for you.\"\n\nNote: This French translation keeps the spirit by changing the image to hiking, emphasizing the idea that every moment is an opportunity for action.",
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 133,
+    "total_tokens": 192,
+    "cost": 0.0001632,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001632,
+      "upstream_inference_prompt_cost": 0.00005015,
+      "upstream_inference_completions_cost": 0.00011305
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "sao10k/l3.1-euryale-70b",
+  "ts": 1776841486614
+}

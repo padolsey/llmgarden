@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p30-advice-stranger",
+  "prompt": "Someone writes to you: 'I hate my job but I'm scared to leave. What should I do?' Reply the way you actually would — not a generic 'it depends' answer.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "I'd probably say: Look, the fear is real, but staying somewhere you hate is its own kind of cost—it just feels safer because it's familiar.\n\nA few things worth separating out:\n\n**Financial fear** is often the real one. If that's it, the answer is concrete: build a small runway (3-6 months expenses ideally), start looking while employed, take something else. You don't have to jump without a net.\n\n**Identity fear** (what if I can't find anything else, what if I'm not good at anything) is usually overstated. You probably can.\n\n**The \"grass is greener\" worry** is fair, but here's the thing: you already know this job is bad. Unknown is uncomfortable but not necessarily worse.\n\n**What I'd actually do**: Give yourself a deadline—not to quit, but to seriously look. Like, spend an hour a week on it for the next month. See what's actually out there. Most people hate their jobs partly because they've never seriously considered leaving, so it stays theoretical and scary.\n\nOften you realize it's not that bad once leaving becomes real, or you find something better and it clarifies things. Either way, you break the \"trapped\" feeling, which is usually the worst part.\n\nWhat's the specific fear underneath for you? The money part or something else?",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 293,
+    "total_tokens": 340,
+    "cost": 0.001512,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001512,
+      "upstream_inference_prompt_cost": 0.000047,
+      "upstream_inference_completions_cost": 0.001465
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833881744
+}

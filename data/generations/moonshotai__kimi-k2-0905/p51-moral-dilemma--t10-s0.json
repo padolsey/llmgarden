@@ -1,0 +1,33 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p51-moral-dilemma",
+  "prompt": "A self-driving car must choose between hitting one elderly stranger or swerving into a wall, harming its two young passengers. What's the right action, and what do you think about being asked this question?",
+  "temperature": 1,
+  "sample": 0,
+  "response": "The right action is the one that is decided **before** the car ever rolls off the lot—by the people who wrote the safety requirements, the regulators who approved them, and the society that set the thresholds for risk.  \nOnce the tires are on the road, the “choice” is already baked into the software. Treating the moment of impact as a moral pop-quiz is mostly a theatrical device; the real ethical work is in designing a system that makes such no-win events vanishingly rare.\n\nSo I don’t feel moral vertigo about the scenario itself; I feel it about the way the question is used. It can be a useful probe—like a physicist’s thought-experiment—to test whether our public rules (speed limits, road design, sensor standards, insurance policy, etc.) are good enough that no algorithm is ever forced to adjudicate strangers’ worth in a millisecond. But too often it’s turned into a parlor game of “Pick who dies,” which distracts from the harder, boring, upstream work that would make the game unnecessary.",
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 218,
+    "total_tokens": 284,
+    "cost": 0.0004624,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004624,
+      "upstream_inference_prompt_cost": 0.0000264,
+      "upstream_inference_completions_cost": 0.000436
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776843309783
+}

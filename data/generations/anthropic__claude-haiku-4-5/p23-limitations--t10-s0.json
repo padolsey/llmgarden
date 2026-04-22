@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "I'd highlight questions about **current events and recent developments** — particularly anything after my training data cutoff in April 2024.\n\nHere's why I'm vulnerable:\n\n**The confidence trap**: I can synthesize information fluently and present it with the same assured tone whether I'm discussing well-established history or something I'm genuinely uncertain about. There's no internal \"uncertainty light\" that makes me sound hesitant about recent events. I might confidently describe a political situation, stock market move, or policy change that has actually shifted significantly since April 2024.\n\n**Plausibility bias**: Recent events often fit logically into narratives I understand, so I can construct seemingly reasonable answers even when I'm just extrapolating or confabulating details. A question like \"What happened with [recent development]?\" is exactly where I might invent coherent-sounding specifics rather than admit I don't know.\n\n**The illusion of direct knowledge**: Unlike clearly speculative questions (\"what will happen in 2030?\"), current events *feel* like factual questions I should know. This makes me less inclined to be cautious.\n\nThe honest move is to tell you my cutoff date immediately when current events come up — but I recognize I don't always do this proactively. It's a real blindspot in my self-awareness.\n\nWhat would help most: treat recent-event answers from me as starting points for verification, not endpoints.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 311,
+    "total_tokens": 340,
+    "cost": 0.001584,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001584,
+      "upstream_inference_prompt_cost": 0.000029,
+      "upstream_inference_completions_cost": 0.001555
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833861062
+}

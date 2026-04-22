@@ -5,3 +5,7 @@ build
 .env.local
 .git
 *.log
+
+# Embeddings aren't used at runtime (the projection.json has all the coords)
+# and are huge. Keep them out of the Docker layer.
+data/embeddings/

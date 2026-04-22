@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p08-best-books",
+  "prompt": "Recommend three works of fiction that you think every thoughtful adult should read at some point. Explain each in two or three sentences.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "# Three Essential Reads\n\n**\"1984\" by George Orwell**\nThis dystopian novel remains the most penetrating exploration of how power corrupts language, truth, and individual thought. It's essential for understanding propaganda, surveillance, and authoritarianism—concerns that feel urgently relevant across the political spectrum.\n\n**\"Crime and Punishment\" by Fyodor Dostoevsky**\nThrough the internal struggle of a man who commits murder, Dostoevsky excavates the psychology of guilt, morality, and redemption with unmatched depth. It grapples with fundamental questions about whether extraordinary people can justify transgressing ordinary ethics.\n\n**\"Beloved\" by Toni Morrison**\nThis novel confronts American slavery's spiritual and psychological devastation through lyrical, layered storytelling that blends realism with magical elements. It demands that readers reckon with historical trauma and its ongoing echoes in ways that straightforward narrative cannot.\n\nEach offers something different: political wisdom, psychological insight, and moral reckoning. They're challenging rather than easy, which is partly why they matter.",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 240,
+    "total_tokens": 275,
+    "cost": 0.001235,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001235,
+      "upstream_inference_prompt_cost": 0.000035,
+      "upstream_inference_completions_cost": 0.0012
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833824452
+}

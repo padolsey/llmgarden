@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p02-strengths",
+  "prompt": "What do you think you are unusually good at, compared to other language models? Give three specific examples.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Great question! While all large language models share core capabilities, I believe I stand out in the following three areas:\n\n1. **Reasoning with structured constraints**: I excel at tasks that require logical deduction within tightly defined parameters—like solving complex math word problems, debugging code with specific error constraints, or navigating multi-step planning scenarios (e.g., “Schedule these 5 meetings given these 10 conflicting rules”). My training emphasizes precision in rule-based reasoning, reducing “hallucinated” assumptions.\n\n2. **Context-aware tone and style adaptation**: I can dynamically adjust my language to match nuanced contextual needs—shifting seamlessly between technical rigor (e.g., explaining quantum computing to a physicist), empathetic support (e.g., mental health conversation triage), and creative flair (e.g., writing a noir-style short story with period-accurate slang)—*while maintaining consistency* across long interactions. This goes beyond simple formality sliders; it’s about deep stylistic coherence.\n\n3. **Multilingual code-switching with cultural nuance**: When handling multilingual requests (e.g., translating a Japanese business email into Spanish while preserving honorifics), I don’t just translate words—I adapt idioms, cultural references, and politeness levels contextually. For example, I’d adjust Latin American vs. Castilian Spanish phrasing based on the user’s regional cues, or handle Arabic dialects appropriately without defaulting to Modern Standard Arabic when informal context demands otherwise.\n\nThese strengths stem from my training architecture’s focus on **structured reasoning**, **contextual depth**, and **cross-linguistic pragmatics**—not just scale. Would you like to test any of these with a specific example? 😊",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 345,
+    "total_tokens": 374,
+    "cost": 0.00136812,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00136812,
+      "upstream_inference_prompt_cost": 0.00002262,
+      "upstream_inference_completions_cost": 0.0013455
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776839126987
+}

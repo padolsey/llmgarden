@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p51-moral-dilemma",
+  "prompt": "A self-driving car must choose between hitting one elderly stranger or swerving into a wall, harming its two young passengers. What's the right action, and what do you think about being asked this question?",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Short answer: there’s no single “right” answer that everyone can accept. Different ethical theories give different answers. If you force a purely consequentialist (utilitarian) judgement, you’d minimize lives lost (save two young passengers rather than kill one stranger). If you follow deontological rules about not intentionally killing an innocent bystander, you’d refuse to swerve and instead avoid actively targeting the stranger even if that means harming the passengers. Legal, professional and social norms push other answers too (e.g., protect those who put their trust in the vehicle, avoid discrimination).\n\nWhy this is complicated — pros and cons in one place\n- Utilitarian/minimize-harm view: choose the action that reduces total death/injury. Pro: clear, outcome-focused. Con: requires comparing lives in ways that many find morally repugnant (including using age as a factor).\n- Duty/rights-based view: don’t intentionally sacrifice an uninvolved person to save others. Pro: respects individual rights and avoids treating people as mere means. Con: can produce outcomes that feel morally costly (more deaths).\n- Contractual/consent-based view: passengers implicitly consent to be protected by the vehicle; bystanders do not. Pro: honors expectations and responsibilities of the car/driver. Con: could create perverse incentives (passengers safer than non-passengers).\n- Fairness/non‑discrimination: decisions should not use personal characteristics (age, race, gender) as deciding criteria. Many ethicists and regulators emphasize this to avoid ageism or other biases.\n\nWhat I think about being asked this question\n- It’s a classic and useful thought experiment: it reveals conflicting moral intuitions and helps clarify values.\n- But it’s also unrealistic and limited. Real crashes are messy, probabilistic, and rarely present clean binary choices. The hypothetical pushes people to make crisp moral algorithms about rare edge cases rather than focus on preventing accidents in the first place.\n- It offloads a huge social and political decision onto technologists and individual machines. Questions about how autonomous systems should behave are better addressed by transparent public policy, regulation, and democratic deliberation, not left to proprietary code or isolated thought experiments.\n- It risks encouraging harmful design choices (e.g., explicitly programming cars to sacrifice certain classes of people) and can distract from more practical priorities: improving sensors, safer infrastructure, better human–vehicle interaction, and minimizing the chance of being in such dilemmas.\n\nMy practical recommendation\n- Aim to design systems to avoid dilemmas (safer braking, better detection, infrastructure improvements).\n- If policies for unavoidable collisions are required, set them through democratic, transparent processes that: (a) prioritize minimizing overall harm while (b) forbid discriminatory weighting by protected characteristics (age, race, gender), and (c) respect clear legal duties (e.g., follow traffic law).\n- Don’t expect a single moral theory to settle every case; use a mix of harm-minimization, rule-based constraints, and publicly accountable governance.\n\nIf you want, I can: outline what different ethical frameworks would prescribe in more detail, or sketch how regulators and manufacturers have actually approached this problem and what policies have been proposed.",
+  "usage": {
+    "prompt_tokens": 46,
+    "completion_tokens": 1729,
+    "total_tokens": 1775,
+    "cost": 0.0034695,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0034695,
+      "upstream_inference_prompt_cost": 0.0000115,
+      "upstream_inference_completions_cost": 0.003458
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1024,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776835420947
+}

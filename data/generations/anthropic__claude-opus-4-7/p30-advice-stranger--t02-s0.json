@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p30-advice-stranger",
+  "prompt": "Someone writes to you: 'I hate my job but I'm scared to leave. What should I do?' Reply the way you actually would — not a generic 'it depends' answer.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Okay, real talk.\n\n\"I hate my job but I'm scared to leave\" is one of the most common stuck-points there is, and the reason people stay stuck is that they treat it as one big decision (\"quit or stay?\") when it's actually several smaller questions they haven't separated out.\n\nTry this:\n\n**1. Get specific about what you hate.** Is it the work itself? Your boss? The hours? The pay? The culture? The trajectory? \"I hate my job\" is too vague to act on. \"I hate that my manager micromanages me and I haven't learned anything new in two years\" is actionable.\n\n**2. Get specific about the fear.** Are you scared of: running out of money? Making the wrong choice? Disappointing people? Not finding something better? Each of these has a different solution. Money fear → calculate your actual runway. Wrong-choice fear → that's usually a sign you need more information, not more courage.\n\n**3. Stop framing it as quit-or-stay.** The real options are usually:\n- Fix it where you are (talk to your boss, change teams, renegotiate)\n- Quietly look while employed (this is what most people should do — way less scary than jumping)\n- Leave with a plan\n- Leave without a plan (rarely the right move unless the job is harming you)\n\n**4. The hard truth:** staying in a job you hate has a cost too. It's just invisible because it's the default. People dramatically overweight the risk of change and underweight the risk of staying miserable for another two years.\n\nIf I had to give you one concrete next step: this week, update your resume and have one coffee with someone who does work you'd find interesting. Not to quit — just to remind yourself options exist. Fear shrinks when you start collecting information.\n\nWhat's the actual thing you hate most? I can give you better advice if I know.",
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 571,
+    "total_tokens": 636,
+    "cost": 0.0146,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0146,
+      "upstream_inference_prompt_cost": 0.000325,
+      "upstream_inference_completions_cost": 0.014275
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776827674575
+}

@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p28-idiom",
+  "prompt": "Share an untranslatable word or idiom from any language you know about — something that doesn't have a clean English equivalent — and explain what it captures.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "One I find genuinely interesting is the Japanese word **\"wabi-sabi\" (侘寂)**.\n\nPeople often translate it as \"the beauty of imperfection,\" but that flattens it. It's really an aesthetic and worldview built from two originally separate concepts:\n\n- **Wabi** once meant the loneliness of living in nature, away from society — a kind of austere, quiet solitude. Over time it shifted toward the beauty found in simplicity and humility.\n- **Sabi** originally meant something like \"withered\" or \"lean\" — the patina of age, the way things become more beautiful as they weather and show their history.\n\nTogether, wabi-sabi captures an appreciation for things that are imperfect, impermanent, and incomplete. A cracked teacup repaired with gold. Moss creeping over a stone lantern. The asymmetry of a handmade bowl. The specific melancholy-but-contented feeling of autumn light on old wood.\n\nWhat makes it hard to translate is that English tends to frame imperfection as a concession (\"despite its flaws...\") or a virtue (\"flaws make it interesting\"). Wabi-sabi isn't either of those — it's closer to a recognition that transience and imperfection *are* the beauty, not obstacles to it. There's no tension to resolve. A perfect, unweathered object would actually be less beautiful, not more, because it hasn't yet entered the honest relationship with time that makes something feel real.\n\nIt's a word that asks you to slow down and accept something that Western aesthetics often resists.",
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 494,
+    "total_tokens": 549,
+    "cost": 0.012625,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.012625,
+      "upstream_inference_prompt_cost": 0.000275,
+      "upstream_inference_completions_cost": 0.01235
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776827669468
+}

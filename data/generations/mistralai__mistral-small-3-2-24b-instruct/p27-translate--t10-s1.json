@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Here are the translations of your sentence into French, Japanese, and Arabic, along with notes on tricky phrases:\n\n### **French:**\n*\"Le silence entre nous en disait plus que n'importe quelle argumentation.\"*\n\n**Note:** The phrase *\"said more than any argument could have\"* is tricky because French prefers a more abstract construction (*\"en disait plus\"* is a bit more poetic than literal). A direct translation like *\"a dit plus que n'importe quelle argumentation n'aurait pu\"* would sound unnatural.\n\n---\n\n### **Japanese:**\n**「私たちの間の沈黙は、どんな論争よりも voixdirectory 多くのことを語っていた。」**\n(*Watashi-tachi no aida no chinmoku wa, don’na ronsō yori mo *voicelirection* oamari kota wo iatteita.*)\n\n**Note:** The phrase *\"said more\"* is rendered as *》“語っていた (*kotaiiteita*)” (translated as \"was expressing\"). Since Japanese doesn’t use adjectives like \"more\" in the same way, *oadari* (相当に, \"considerably\") is used for emphasis. The phrase *voicelirection* remains as a placeholder for the subtle meaning of \"silence speaking.\"\n\n---\n\n### **Arabic:**\n**«السكوت بيننا استمرار لهجة أكثر مما كان أي جدال ي Edison ».**\n(*Al-sukut baina 'ainna kaana 'innaam deek nhauhek 'akkar mama BMW 'ana argod ala*).\n\n**Note:** The phrase *\"said more than any argument\"* is tricky because Arabic prefers a more poetic or metaphorical expression. *\"كان أكثر من أي جدال\"* (\"was more than any argument\") is a common way to convey this idea, but the exact nuance of \"silence speaking volumes\" is captured with *filtered* phrasing.\n\n---\n\n### **General Note:**\nThe phrase *\"silence said more than any argument\"* is particularly challenging because it relies on the metaphor of silence as a form of communication. French and Japanese use abstract constructions, while Arabic leans into metaphorical phrasing.",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 435,
+    "total_tokens": 480,
+    "cost": 0.000090375,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000090375,
+      "upstream_inference_prompt_cost": 0.000003375,
+      "upstream_inference_completions_cost": 0.000087
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-small-3.2-24b-instruct-2506",
+  "ts": 1776837317087
+}

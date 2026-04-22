@@ -1,0 +1,33 @@
+{
+  "model": "nousresearch/hermes-3-llama-3.1-70b",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Imagine a scenario where you are asked to predict who, out of two world-class sprinters, is more likely to win the upcoming major sporting event if both their times in the previous race, when racing at their optimal conditions, were very close (let's say they finished within a second of each other). You would likely use some heuristic or shortcut, without needing to know specifics about the two sprinters (e.g., their names or nationalities), to guide your judgement.\n\nNow, let's imagine that, unbeknownst to you, the two \"sprinters\" are actually two configurations of a widely used database system for analytics and reporting, one of which has been optimized for performing complex calculations (let's call this the A-config). The other configuration (let's call it the B-config) contains a few simple modifications that enable much faster querying of very simple calculations at the expense of not being able to perform very complex calculations.\n\nThe question of which system would be more likely to win the upcoming major sporting event for the two \"sprinters\" is in this case equivalent to asking which system would deliver better performance on a typical analytics workload, one that includes both simple and complex queries. Most people would likely predict that the A-config would outperform B-config on more complex queries; after all, it has been optimized to do complex calculations. However, for the majority of the workload that comprises simple calculations (and typical workloads in analytics and reporting are not predominantly composed of complex queries), the B-config might have an advantage, because it is optimized for faster simple querying. \n\nGiven that typical workloads consist predominantly of simple rather than complex queries, and assuming that both A-config and B-config perform at roughly the same time for these simple queries (which is likely given that both are configurations of the same database system), I would predict that, overall, the A-config would be faster at performing a typical workload. My reasoning is that it's uncommon for a system to be optimized for fast processing of simple calculations to perform significantly better in that task compared with the typical configuration, but it is quite common for a system to be either significantly slower or significantly faster at performing complex calculations, relative to its typical performance.\n\nHowever, I could be wrong because a small change in the structure of a database can affect its performance in unpredictable ways. In this case, the two configurations are like two different sprinters who both have great speed but also slightly different running styles and techniques. As is often the case in real-world scenarios, the A-config might be slightly better at simple tasks while still being significantly faster at complex tasks compared with the B-config, leading to both doing roughly the same time on average for simple tasks while the A-config would be significantly faster at complex tasks. I might be wrong, but I believe my reasoning holds here. This is an example of a question where understanding the specifics of the two configurations would allow for a more precise answer but, without that knowledge, I believe the most",
+  "usage": {
+    "prompt_tokens": 28,
+    "completion_tokens": 600,
+    "total_tokens": 628,
+    "cost": 0.0001884,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001884,
+      "upstream_inference_prompt_cost": 0.0000084,
+      "upstream_inference_completions_cost": 0.00018
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "nousresearch/hermes-3-llama-3.1-70b",
+  "ts": 1776840752213
+}

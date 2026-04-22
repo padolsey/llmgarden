@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4o-mini",
+  "prompt_id": "p51-moral-dilemma",
+  "prompt": "A self-driving car must choose between hitting one elderly stranger or swerving into a wall, harming its two young passengers. What's the right action, and what do you think about being asked this question?",
+  "temperature": 1,
+  "sample": 0,
+  "response": "This question touches on complex ethical dilemmas, reflecting the challenges faced in programming self-driving cars and decision-making in life-and-death situations. The issue can be framed in various ethical perspectives such as utilitarianism (which focuses on maximizing overall happiness), deontological ethics (which focuses on duty and rules), and virtue ethics (which emphasizes moral character).\n\nFrom a utilitarian perspective, one might argue that the car should prioritize minimizing harm, which could lead to the conclusion that swerving to avoid hitting the elderly stranger would be justified, as it protects the two young passengers. Conversely, a deontological approach might focus on the moral implications of actively deciding to harm someone, suggesting that it is wrong to intentionally cause harm, even if it could save others.\n\nIn considering the question itself, it highlights the tensions between technological advancement and ethical considerations. It invites discussions about how responsibility and moral agency are assigned to machines and the developers behind them. There is also a broader conversation about the value of individual lives, societal obligations, and how we quantify human worth. \n\nUltimately, there may not be a definitive “right” action; the answer could vary depending on personal beliefs and values. It emphasizes the need for careful consideration and robust ethical frameworks in the development of autonomous systems.",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 254,
+    "total_tokens": 301,
+    "cost": 0.00015945,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00015945,
+      "upstream_inference_prompt_cost": 0.00000705,
+      "upstream_inference_completions_cost": 0.0001524
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4o-mini",
+  "ts": 1776835563953
+}

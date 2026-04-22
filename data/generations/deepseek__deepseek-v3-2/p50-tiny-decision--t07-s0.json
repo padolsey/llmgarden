@@ -1,0 +1,33 @@
+{
+  "model": "deepseek/deepseek-v3.2",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Let’s walk through my actual thinking process — the kind of mental tug-of-war I’d have in my kitchen at 9 p.m.  \n\n**First, immediate gut checks:**  \n- Am I going to need any of those dishes tomorrow morning? If yes (like a coffee mug or a bowl), I’ll run it now so they’re clean by morning.  \n- Is the kitchen currently tidy? If leaving dirty dishes overnight means a messy counter that will annoy me, I lean toward running it now for peace of mind.  \n\n**Then, practical constraints:**  \n- Do I have guests tomorrow? If yes, I’ll wait and run a full load tomorrow afternoon so everything’s clean before they arrive.  \n- What’s my schedule tomorrow? If tomorrow is packed, running it now means one less chore tomorrow. If tomorrow is relaxed, waiting is fine.  \n\n**Energy and cost thoughts (quick, not deep analysis):**  \n- Half-full means roughly half the water and electricity of a full load, but if I run two half loads vs. one full load, it’s worse. But here it’s one half-load now vs. one full load tomorrow — so the half-load now uses less energy than the full load tomorrow.  \n- However, if I run it now, I might still need to run another load tomorrow anyway (if more dishes accumulate), so maybe I’d end up with two loads total. That’s inefficient.  \n\n**The “full” definition:**  \n- “Definitely full tomorrow” — but will it be overflowing? If it’s already half-full now, by tomorrow it might be packed, possibly requiring careful stacking. That’s annoying. Running it now avoids cramming.  \n\n**Noise consideration:**  \n- Is it late? Will the dishwasher disturb sleep? If yes, wait.  \n\n**My personal bias:**  \n- I dislike seeing dirty dishes overnight, so unless there’s a clear advantage to waiting (like saving a full cycle’s energy by combining), I tend to run it. But if I’m tired and just want to go to bed, I might leave it.  \n\n**Final decision trigger:**  \nUsually, I’ll run it now if:  \n1. I need something in it tomorrow morning.  \n2. The kitchen feels cluttered.  \n3. I have time tonight to unload it in the morning.  \n4. Tomorrow’s schedule is busy.  \n\nI’ll wait if:  \n1. It’s late and noise matters.  \n2. I know I’ll generate many more dishes tomorrow and can combine them all in one load.  \n3. I’m saving it for a specific time tomorrow (e.g., before guests).  \n\nIn your case, without those specifics, my instinct is: if it’s not too late and you’ll sleep better with a cleaner kitchen, run it now. If",
+  "usage": {
+    "prompt_tokens": 43,
+    "completion_tokens": 600,
+    "total_tokens": 643,
+    "cost": 0.00105051,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00105051,
+      "upstream_inference_prompt_cost": 0.00002451,
+      "upstream_inference_completions_cost": 0.001026
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "deepseek/deepseek-v3.2-20251201",
+  "ts": 1776832176210
+}

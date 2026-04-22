@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "# The Water Cycle\n\nThe water cycle is a continuous process that moves water around our planet through evaporation, condensation, and precipitation. When the sun heats water in oceans, lakes, and rivers, it transforms into an invisible gas called water vapor that rises into the atmosphere. As this warm air containing water vapor climbs higher and cools down, the water vapor condenses back into tiny liquid water droplets that cluster together to form clouds. When these clouds become heavy enough with accumulated moisture, the water falls back to Earth as precipitation in the form of rain, snow, sleet, or hail, depending on atmospheric conditions. Once this water reaches the ground, it follows various paths: some soaks into the soil to become groundwater that nourishes plant roots and replenishes underground aquifers, some flows across the land surface as runoff into streams and rivers that carry it back to the oceans, and some is absorbed by plants and later released back into the atmosphere through transpiration, a process that works alongside evaporation to keep the cycle turning endlessly.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 227,
+    "total_tokens": 263,
+    "cost": 0.001171,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001171,
+      "upstream_inference_prompt_cost": 0.000036,
+      "upstream_inference_completions_cost": 0.001135
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833941532
+}

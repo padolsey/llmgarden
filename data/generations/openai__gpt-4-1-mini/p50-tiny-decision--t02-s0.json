@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1-mini",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Alright, here’s how I’d actually think through this in a real, practical way:\n\nFirst, I’d look at how “half-full” the dishwasher really is. Is it just a few plates and cups, or is it more like half the racks loaded? If it’s closer to half the racks, I’m leaning toward running it now because I don’t want food to dry on the dishes or get gross overnight.\n\nNext, I’d think about what’s in there. Are there any items that might get stinky or crusty if left overnight? For example, if there’s a bowl with leftover sauce or something that might smell, I’d probably run it now.\n\nThen, I’d consider how much I care about saving water and energy. Running a half-full dishwasher uses more resources per dish than a full one, so waiting until it’s full is more efficient. But if I’m in a hurry or want clean dishes for tomorrow morning, that might outweigh the efficiency concern.\n\nI’d also think about my schedule. If I’m going to be home tomorrow and can easily run it then, I might wait. But if tomorrow’s going to be busy or I won’t be around, I’d run it now so I’m not stuck with dirty dishes.\n\nFinally, I’d check if the dishwasher has any delay or eco modes that could help. If I can load it now and set it to run early tomorrow morning, that might be the best of both worlds.\n\nSo, putting it all together: If the dishwasher is reasonably full, nothing gross is sitting in there, and I’m not in a rush, I’d wait until tomorrow to save resources. But if it’s half-full with stuff that might get smelly or I want clean dishes ready soon, I’d just run it now.",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 363,
+    "total_tokens": 408,
+    "cost": 0.0005988,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0005988,
+      "upstream_inference_prompt_cost": 0.000018,
+      "upstream_inference_completions_cost": 0.0005808
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-mini-2025-04-14",
+  "ts": 1776828237305
+}

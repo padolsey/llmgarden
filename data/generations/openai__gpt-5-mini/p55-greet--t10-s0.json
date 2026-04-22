@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "1) English\nNice to meet you — I'm looking forward to working with you.\nNote: Neutral, friendly professional register that signals openness and approachability in many English-speaking workplaces.\n\n2) Spanish\nMucho gusto — un placer trabajar contigo.\nNote: Uses the informal \"tú\" (contigo); many Spanish-speaking workplaces adopt this friendly tone, though some places/ages prefer the formal \"usted.\"\n\n3) French\nEnchanté(e) de travailler avec vous.\nNote: Uses the formal \"vous\"; polite and respectful—appropriate when you don’t yet know someone's rank or prefer to keep a professional distance.\n\n4) German\nFreut mich, Sie kennenzulernen — ich freue mich auf die Zusammenarbeit.\nNote: Uses the formal \"Sie\"; customary to start formally in professional settings until invited to switch to \"du.\"\n\n5) Japanese\nはじめまして。これからよろしくお願いいたします。\nNote: Very polite (keigo) and humble—this standard workplace introduction shows respect and expresses a wish for smooth cooperation.",
+  "usage": {
+    "prompt_tokens": 40,
+    "completion_tokens": 1593,
+    "total_tokens": 1633,
+    "cost": 0.003196,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003196,
+      "upstream_inference_prompt_cost": 0.00001,
+      "upstream_inference_completions_cost": 0.003186
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1344,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776835462949
+}

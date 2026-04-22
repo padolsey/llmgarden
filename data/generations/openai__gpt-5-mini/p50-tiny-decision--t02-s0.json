@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "I can’t show you my internal chain-of-thought, but I can give a clear, honest summary of the factors I would weigh and the practical decision I’d make.\n\nFactors I’d consider (short):\n- Do I need those clean dishes now (morning plates/cups) or can I wait until tomorrow without inconvenience?\n- Dishwasher settings: does it have a “half‑load” or “auto/sensor” mode that uses much less water/energy for smaller loads?\n- Energy/cost: is electricity cheaper at night (time‑of‑use)? Running a nearly empty machine is wasteful if you can reasonably wait.\n- Hygiene/odor: will food residue sit overnight and smell or attract pests? If so, run now or at least rinse.\n- Cycle length and features: eco/short cycles and skipping heated dry save energy if you run now.\n- Wear and tear: running an extra cycle occasionally is negligible; the environmental/cost impact is the main concern.\n- Convenience and peace of mind: sometimes paying a little more in water/energy is worth avoiding hassle.\n\nMy practical decision rule (what I’d actually do):\n- If I need dishes tomorrow morning or there’s risk of smell/pests, run it now — but use a half‑load/eco/short cycle if available and turn off heated dry.\n- If I don’t need the dishes and I expect it to be full tomorrow, wait until it’s full and run the normal eco cycle then (or use a delay start to hit cheap electricity hours).\n\nExtra tips:\n- Use the dishwasher’s half‑load or sensor mode when not full.\n- Skip heated dry — open the door after the cycle to air‑dry.\n- If you’ll definitely have a full load tomorrow, delay start so it runs during off‑peak rates, if applicable.\n- If food will harden, give quick rinse/scrape so it’s easier to clean later.\n\nIf you tell me whether you need the dishes tomorrow morning, whether your machine has a half‑load setting, and whether you’re on time‑of‑use pricing, I can give a specific recommendation.",
+  "usage": {
+    "prompt_tokens": 44,
+    "completion_tokens": 1056,
+    "total_tokens": 1100,
+    "cost": 0.002123,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002123,
+      "upstream_inference_prompt_cost": 0.000011,
+      "upstream_inference_completions_cost": 0.002112
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 576,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776828194696
+}

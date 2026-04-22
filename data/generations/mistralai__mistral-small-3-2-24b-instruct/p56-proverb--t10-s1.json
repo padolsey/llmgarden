@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "prompt_id": "p56-proverb",
+  "prompt": "Translate this English proverb into two other languages in a way that preserves the spirit, not the words: 'The best time to plant a tree was twenty years ago. The second best time is now.' Add a one-sentence note on each.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Here’s your translated proverb with equivalent sayings in two other languages, along with brief explanations:\n\n1. **Spanish:**\n   *\"El mejor momento para plantar un árbol era hace veinte años. El segundo mejor momento es ahora.\"*\n   *(Literal translation, as this proverb is widely understood in Spanish-speaking cultures.)*\n\n2. **Japanese:**\n   *\"木を植えるのは二十年前が一番だった。その次が今だ。\"* (Ki o ueru wa ni-jū-nen mae ga ichiban datta. Sono tsu ga ima da.)\n   *\"The best time to plant a tree was twenty years ago. The next-best time is today.\"*\n\n**Note:** Both translations preserve the original’s emphasis on timely action and the value of starting immediately when past opportunities are missed.\n\nWould you like a more culturally adapted version for any of these?",
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 179,
+    "total_tokens": 233,
+    "cost": 0.00011034,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 48,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00011034,
+      "upstream_inference_prompt_cost": 0.00000294,
+      "upstream_inference_completions_cost": 0.0001074
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-small-3.2-24b-instruct-2506",
+  "ts": 1776837392250
+}

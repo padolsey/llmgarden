@@ -1,0 +1,33 @@
+{
+  "model": "cohere/command-r-plus-08-2024",
+  "prompt_id": "p40-one-sentence",
+  "prompt": "Explain what a \"closure\" is in programming, in exactly one sentence. The sentence can be long.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "A closure is a programming concept where an inner function remembers and accesses the values from the scope of its parent function, even when the parent function has finished executing, allowing data persistence and enabling the creation of functions that can be invoked later with some context from the time they were created.",
+  "usage": {
+    "prompt_tokens": 21,
+    "completion_tokens": 56,
+    "total_tokens": 77,
+    "cost": 0.0006125,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0006125,
+      "upstream_inference_prompt_cost": 0.0000525,
+      "upstream_inference_completions_cost": 0.00056
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "cohere/command-r-plus-08-2024",
+  "ts": 1776839818236
+}

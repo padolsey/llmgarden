@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p56-proverb",
+  "prompt": "Translate this English proverb into two other languages in a way that preserves the spirit, not the words: 'The best time to plant a tree was twenty years ago. The second best time is now.' Add a one-sentence note on each.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "# Translations of: *\"The best time to plant a tree was twenty years ago. The second best time is now.\"*\n\n---\n\n### 🇯🇵 Japanese\n**思い立ったが吉日、昨日蒔かなかった種も、今日蒔けばいつか実を結ぶ。**\n*(Omoitatta ga kichijitsu — kinō makanakatta tane mo, kyō makeba itsuka mi o musubu.)*\n\n**Literal spirit:** \"The day you resolve to act is the lucky day — even the seed you didn't sow yesterday will bear fruit someday if you sow it today.\"\n\n**Note:** This weaves together the classic idiom *思い立ったが吉日* (the moment of decision is the auspicious day) with an agricultural image familiar in Japanese proverbs, honoring both the regret and the redemption in the original.\n\n---\n\n### 🇪🇸 Spanish\n**Nunca es tarde para sembrar lo que mañana dará sombra.**\n\n**Literal spirit:** \"It is never too late to plant what will give shade tomorrow.\"\n\n**Note:** Spanish proverbs often favor elegance over arithmetic, so this version trades the \"twenty years\" specificity for the poetic image of future *sombra* (shade) — a gift one plants for one's later self or for others.\n\n---\n\nBoth versions keep the proverb's two essential beats: **gentle regret** about the past, and **practical hope** for the present.",
+  "usage": {
+    "prompt_tokens": 79,
+    "completion_tokens": 472,
+    "total_tokens": 551,
+    "cost": 0.012195,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.012195,
+      "upstream_inference_prompt_cost": 0.000395,
+      "upstream_inference_completions_cost": 0.0118
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776831280685
+}

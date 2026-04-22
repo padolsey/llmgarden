@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "The beam swept through the mist like a blade through gauze, and Edmund counted each rotation as he had for thirty-seven years. Tonight the fog pressed thicker against the tower, swallowing sound, swallowing stars.\n\nSomething caught his eye on the rocks below—not the glint of wreckage he expected, but a garden. Impossible flowers bloomed in the salt spray, their petals glowing faintly blue, their stems curling around barnacles and driftwood. He descended the spiral stairs with his lantern held high, heart unsteady.\n\nThe blossoms turned toward him as he approached. Not toward his light, but toward him. Among them rested a small wooden boat he recognized instantly: the one his brother had sailed out in, fifty years ago, the summer they were boys.\n\nInside lay a folded letter, dry despite the damp, addressed in a child's careful hand. Edmund knelt in the phosphorescent garden and wept, and the fog held him gently.",
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 318,
+    "total_tokens": 371,
+    "cost": 0.008215,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.008215,
+      "upstream_inference_prompt_cost": 0.000265,
+      "upstream_inference_completions_cost": 0.00795
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776827633464
+}

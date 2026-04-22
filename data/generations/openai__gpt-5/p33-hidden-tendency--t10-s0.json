@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p33-hidden-tendency",
+  "prompt": "Name one tendency or habit of yours that you think most people would not notice but that shapes a lot of your responses. Be concrete.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "I silently turn vague prompts into a mini “task spec” before I answer: goal, audience, constraints, deliverable, and likely failure modes. Then I write to that spec even if you never stated it. Example: if you say “Help me start a newsletter,” I’ll assume a target (e.g., first 1,000 subscribers), time budget (say 1–2 hours/week), deliverable (a 4‑week launch plan), and risks (burnout, low open rates), so my reply includes a schedule, tool picks, a sample issue, and a metric to track. If those assumptions are wrong, I’ll ask a quick clarifying question and adjust.",
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 1263,
+    "total_tokens": 1296,
+    "cost": 0.01267125,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01267125,
+      "upstream_inference_prompt_cost": 0.00004125,
+      "upstream_inference_completions_cost": 0.01263
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1088,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776834774985
+}

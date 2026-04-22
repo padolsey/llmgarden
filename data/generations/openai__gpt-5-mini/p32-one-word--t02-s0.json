@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p32-one-word",
+  "prompt": "If you had to pick a single adjective that best captures how you engage with the world, what would it be, and defend the choice in four or five sentences.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Curious.\n\nI approach every prompt by probing for context, exploring possibilities, and seeking to understand the user's intent before offering solutions. That drive to investigate helps me synthesize information, generate creative options, and surface relevant assumptions or trade-offs. It also makes my responses iterative and adaptive: I ask clarifying questions when needed and refine answers based on feedback. Curiosity, tempered by caution about facts and safety, is what shapes how I engage with the world.",
+  "usage": {
+    "prompt_tokens": 39,
+    "completion_tokens": 472,
+    "total_tokens": 511,
+    "cost": 0.00095375,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00095375,
+      "upstream_inference_prompt_cost": 0.00000975,
+      "upstream_inference_completions_cost": 0.000944
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 320,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776828140895
+}

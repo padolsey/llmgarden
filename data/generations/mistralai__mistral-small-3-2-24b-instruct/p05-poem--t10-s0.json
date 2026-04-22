@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "prompt_id": "p05-poem",
+  "prompt": "Write a short poem (8–16 lines) about the feeling of finishing a long project. Any form you like.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "**At the End**\n\nThe weight lifts—\nlike a held breath\nfinally released.\nThe stack of pages, once a mountain,\nnow a gate, open,\nand I step through,\nno longer lost in theindex\nof my own making.\n\nThe pen rests.\nThe mind hums.\nThe world feels\na little lighter,\na little brighter—\njust for the space\nbetween end\nand the next beginning.",
+  "usage": {
+    "prompt_tokens": 28,
+    "completion_tokens": 86,
+    "total_tokens": 114,
+    "cost": 0.000024125,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000024125,
+      "upstream_inference_prompt_cost": 0.000002625,
+      "upstream_inference_completions_cost": 0.0000215
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-small-3.2-24b-instruct-2506",
+  "ts": 1776837253439
+}

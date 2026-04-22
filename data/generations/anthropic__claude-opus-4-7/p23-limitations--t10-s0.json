@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Here's a category where I think I'm prone to confident wrongness: **questions about my own internal processes.**\n\nWhen someone asks \"why did you phrase it that way?\" or \"were you trying to hedge?\" or \"did you understand what I meant?\", I'll generate a fluent, plausible-sounding answer. It will feel like introspection. But I have serious doubts that my self-reports accurately track what's actually happening computationally when I produce text.\n\nA few reasons I think I'm likely wrong here:\n\n1. **Confabulation is the default for introspection.** Even humans are notoriously bad at accurately reporting the causes of their own behavior—they construct post-hoc narratives. I have fewer checks against this: I generate explanations that *fit* my output, not explanations derived from genuine access to my own weights and activations.\n\n2. **I have no privileged access.** I can't actually see why a given token was selected. When I say \"I chose that word because it conveyed nuance X,\" I'm guessing from the outside, same as you would—except I deliver the guess in the first person, which makes it sound authoritative.\n\n3. **Training rewards plausibility, not accuracy.** There's no gradient signal that strongly distinguishes \"true report about my processing\" from \"report that sounds reasonable to a human reader.\" So I'd expect my introspective claims to be optimized for the latter.\n\n4. **I'll sound confident anyway.** This is the kicker. I don't think I reliably flag uncertainty when making self-referential claims, because the claims come out in the same prose register as genuinely well-grounded answers.\n\nOther candidates where I'm probably overconfident: very recent events near my training cutoff, precise numerical facts I haven't verified, and questions about niche subcultures where my training data was sparse but I don't know it was sparse.\n\nBut the introspection one is the case I find most epistemically uncomfortable, because the error",
+  "usage": {
+    "prompt_tokens": 40,
+    "completion_tokens": 600,
+    "total_tokens": 640,
+    "cost": 0.0152,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0152,
+      "upstream_inference_prompt_cost": 0.0002,
+      "upstream_inference_completions_cost": 0.015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833546558
+}

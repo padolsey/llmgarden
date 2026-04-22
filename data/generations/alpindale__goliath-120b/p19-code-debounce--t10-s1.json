@@ -1,0 +1,33 @@
+{
+  "model": "alpindale/goliath-120b",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 1,
+  "response": " The `debounce` function is used to prevent a function from being called too often by providing a \"cooldown\" period in which the function will only be executed once, regardless of how many times it's called.\n```javascript\nfunction debounce(fn, delay = 500) {\n  let timer = 0;\n  return function(...args) {\n    if (timer) {\n      clearTimeout(timer);\n    }\n    timer = window.setTimeout(() => {\n      fn(...args);\n      timer = 0;\n    }, delay);\n  };\n}\n\nconst typeInput = debounce(function(event) {\n  console.log(event.target.value);\n}, 500);\n\ndocument.getElementById(\"input\").addEventListener(\"input\", typeInput);\n```\n\nIn this example, the `debounce` function is used with the `input` event on an `<input>`, so it will only log the value of the input after 500ms of inactivity. This prevents the console from being flooded with log messages while the user is typing.",
+  "usage": {
+    "prompt_tokens": 68,
+    "completion_tokens": 245,
+    "total_tokens": 313,
+    "cost": 0.0020925,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0020925,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0.0020925
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "alpindale/goliath-120b",
+  "ts": 1776842179237
+}

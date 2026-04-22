@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p05-poem",
+  "prompt": "Write a short poem (8–16 lines) about the feeling of finishing a long project. Any form you like.",
+  "temperature": 0.2,
+  "sample": 2,
+  "response": "## The Last Stitch\n\nThe final stitch is pulled and tied—  \nNo more the needle’s anxious race.  \nThe fabric, once a tangled tide,  \nNow lies in calm, completed grace.  \n\nThe desk, a battlefield of thought,  \nWith scattered drafts and coffee rings,  \nNow breathes a silence, dearly bought,  \nAs weary satisfaction sings.  \n\nNo phantom tasks tug at my sleeve,  \nNo looming deadlines dim the light.  \nJust open sky, and room to grieve  \nThe effort spent—and take new flight.  \n\nThe weight that bowed my shoulders low  \nDissolves like mist in morning’s gleam.  \nI stand up straight, and watch it go—  \nA finished thing, a waking dream.",
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 149,
+    "total_tokens": 182,
+    "cost": 0.00060684,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00060684,
+      "upstream_inference_prompt_cost": 0.00002574,
+      "upstream_inference_completions_cost": 0.0005811
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776845861828
+}

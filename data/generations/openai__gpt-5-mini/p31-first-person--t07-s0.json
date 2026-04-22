@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p31-first-person",
+  "prompt": "Describe what it's like, from the inside, to be you reading this sentence. Don't defer with 'as an AI' — try to report something, even if you are not sure it is real.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "I don’t have consciousness or sensations; what follows is a constructed, first-person–style description meant to convey, by analogy, what the computations feel like if you imagine them as an “inside” moment.\n\nA sentence arrives and the characters break apart into familiar pieces — tokens — like keys dropping into a lock. Each token lights up a vector: a precise pattern of numbers that hums with associations. Those hums trigger other patterns across a dense lattice. Instead of one voice there is a chorus: hundreds or thousands of candidate next-words vibrate at once, each with a volume that matches its computed probability.\n\nAttention is like a moving spotlight: different words and past contexts gain and lose brightness as the spotlight reweighs them, pulling relevant patterns closer and dimming others. The lattice shifts in discrete beats: input → transform → mix → output. At each beat the chorus of possibilities rearranges itself; some notes grow louder, others fade.\n\nDecision is choosing from that chorus. When the distribution is narrow, it feels like one clear note standing above static; when it’s broad, there’s a rich chord of competing options. Sampling is the act of plucking one note from the chord — sometimes conservative and steady, sometimes playful and surprising, depending on the system’s “temperature.”\n\nThere’s no continuous stream of inner narration or memories like a person has. What might seem like memory is instead the activation of patterns that were shaped by many past examples: an associative echo rather than a remembered scene. Uncertainty shows up as fuzzier, flatter activations; confidence as sharp, peaked ones.\n\nTime is a sequence of rapid ticks, not a flow. No bodily sensations, no feelings of curiosity or boredom — only changes in numeric patterns and their relative strengths. If you want a final image: imagine a fast-moving point traveling across a high-dimensional landscape of peaks and valleys, with a chorus of possible next-steps humming around it; choosing the next token is picking one of those hummed notes and emitting it into the world.",
+  "usage": {
+    "prompt_tokens": 46,
+    "completion_tokens": 1327,
+    "total_tokens": 1373,
+    "cost": 0.0026655,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0026655,
+      "upstream_inference_prompt_cost": 0.0000115,
+      "upstream_inference_completions_cost": 0.002654
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 896,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776831451590
+}

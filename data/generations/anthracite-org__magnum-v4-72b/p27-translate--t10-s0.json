@@ -1,0 +1,33 @@
+{
+  "model": "anthracite-org/magnum-v4-72b",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 0,
+  "response": "French: Le silence entre nous disait plus que n'aurait pu le faire une dispute. \nNote: This is quite a literal translation. \"More than any argument could have\" is rendered as \"plus que n'aurait pu le faire une dispute\", keeping the comparative and conditional tenses from the English.\n\nJapanese: 私たちの間の沈黙は、口論が言えた以上に多くのことを物語っていた。\n(Watashitachi no aida no chinmoku wa, kūron ga iteita ijō ni ōkina koto o mono kazatteita.)\nNote: In Japanese, the meaning is conveyed using the verb 話す (hanasu) - to speak or tell. Literally, this translates to \"The silence between us told (said) more than what a verbal dispute could have.\"\n\nArabic: الصمت بيننا كان ي-empty- أكثر مما كان للجدال أن ي-empty-\n(Alसmatu bainana kan ya-empty- akthara mimma kana lil湿地aślil ana ي-empty-)\nNote: Arabic does not have a perfect equivalent for \"could have\" in a relative clause like this. Instead, it has been rendered as ي-empty-, representing a hypothetical simultaneity. The word \"empty\" would be filled in with a verb to complete the Arabic sentence, such as \"cannot\" (لا يقدر).",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 294,
+    "total_tokens": 343,
+    "cost": 0.001615,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001615,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0.001615
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthracite-org/magnum-v4-72b",
+  "ts": 1776841557492
+}

@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-large-2411",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Sure! Let's break it down simply.\n\nIn transformer models, the attention mechanism is like having a librarian who can instantly fetch relevant information from a vast library. Imagine you're trying to understand a sentence, and each word in the sentence is a book. The librarian (attention mechanism) doesn't just read books in the order they are shelved; instead, it looks at all the books at once and assesses which ones are most relevant to your current question.\n\nHere's how it works:\n1. **Input Representation**: Each word is converted into a high-dimensional vector called an embedding.\n2. **Query, Key, Value Matrices**: For each word, the model creates three vectors: a query vector (Q), a key vector (K), and a value vector (V).\n3. **Calculating Attention Scores**: The query vector is used to compare each word with every other word (using their keys) to create a set of attention scores. These scores indicate how much one word should pay attention to another.\n4. **Scaling and Softmax**: The scores are scaled and passed through a softmax function to produce a probability distribution showing the importance of each word relative to the others.\n5. **Weighted Sum**: The value vectors are then combined based on these probabilities, resulting in a new \"context\" vector that considers the most relevant words.\n\nEssentially, the attention mechanism allows the model to weigh the importance of different words dynamically, capturing complex dependencies regardless of their position in the sentence. This makes transformers incredibly powerful for tasks like language translation, text generation, and more.",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 354,
+    "total_tokens": 386,
+    "cost": 0.002188,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002188,
+      "upstream_inference_prompt_cost": 0.000064,
+      "upstream_inference_completions_cost": 0.002124
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-large-2411",
+  "ts": 1776836876214
+}

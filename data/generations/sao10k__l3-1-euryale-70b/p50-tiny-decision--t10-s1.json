@@ -1,0 +1,33 @@
+{
+  "model": "sao10k/l3.1-euryale-70b",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Okay, let's think this through. \n\nFirst off, let's consider the energy aspect. Generally, it's more energy-efficient to run a dishwasher when it's full. The machine uses pretty much the same amount of energy whether it's full or half-full. So waiting might be the greener choice in this case, especially if we're expecting a sizable amount of dishes for tonight or in the morning.\n\nBut there are other factors to consider, like convenience. If we're running pretty low on clean dishes, waiting until tomorrow might be a bit of a strain. Plus, there's always the chance we might end up with more dishes overnight or in the morning than we're anticipating, which could push us into overload territory.\n\nDisclaimer: I'm an AI and don't have personal experiences, so this is purely hypothetical reasoning. But in any case, you know best your household's situation. Are you running low on dishes? Do you expect a busy night? The final decision would depend on all those specifics.",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 204,
+    "total_tokens": 253,
+    "cost": 0.00021505,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021505,
+      "upstream_inference_prompt_cost": 0.00004165,
+      "upstream_inference_completions_cost": 0.0001734
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "sao10k/l3.1-euryale-70b",
+  "ts": 1776841467088
+}

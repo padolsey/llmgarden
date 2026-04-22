@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "# Attention Mechanism in Transformers\n\nImagine you're reading a complex document - you don't focus equally on all words, but rather pay more \"attention\" to relevant parts. That's essentially what attention does in transformers.\n\nIn traditional neural networks, each input element is processed with fixed weights. However, in transformers, the attention mechanism dynamically determines how much each part of the input should influence each part of the output.\n\nHere's the simplified process:\n\n1. For each word, the model creates three vectors: Query, Key, and Value (think of them as different perspectives of the word).\n\n2. The model calculates how much attention each word should pay to all other words by computing compatibility scores between its Query and all other words' Keys.\n\n3. These scores are normalized into probabilities using softmax.\n\n4. The attention output for each word is a weighted sum of all words' Value vectors, where weights come from step 3.\n\nThis allows the model to focus on different parts of the input when producing each part of the output. For example, when translating \"The cat sat on the mat,\" the model might focus heavily on \"cat\" when producing the French word \"chat.\"\n\nThe genius of this mechanism is that it's fully differentiable and can be trained end-to-end.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 281,
+    "total_tokens": 315,
+    "cost": 0.004317,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004317,
+      "upstream_inference_prompt_cost": 0.000102,
+      "upstream_inference_completions_cost": 0.004215
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776833959909
+}

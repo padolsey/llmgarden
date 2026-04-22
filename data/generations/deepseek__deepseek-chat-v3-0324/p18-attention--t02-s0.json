@@ -1,0 +1,33 @@
+{
+  "model": "deepseek/deepseek-chat-v3-0324",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Imagine you're reading a sentence: to understand each word, you naturally focus on the most relevant words around it—like how \"apple\" makes you think of \"fruit\" or \"pie.\" The **attention mechanism** in transformer models does something similar, but mathematically.\n\nHere’s the gist:  \n1. **Inputs as Vectors**: Words are converted into numerical vectors (like unique IDs with context).  \n2. **Query, Key, Value**: Each word gets three vectors:  \n   - **Query**: \"What am I looking for?\"  \n   - **Key**: \"What do I contain?\"  \n   - **Value**: \"What should I output?\"  \n3. **Scoring Relevance**: For every word, the model calculates a score (dot product) between its *query* and all other words’ *keys*. Higher scores mean stronger relevance.  \n4. **Weighted Sum**: The scores are normalized (softmax) to create weights, then used to blend the *values* of all words. This creates a context-aware output for each word.  \n\n**Why it’s powerful**:  \n- **Parallelism**: Unlike RNNs (which process words sequentially), attention looks at all words at once.  \n- **Context**: It captures long-range dependencies (e.g., linking \"it\" to a noun 20 words back).  \n\nThink of it like a dynamic dictionary where every entry adjusts based on the surrounding text. It’s the core of models like GPT and BERT.",
+  "usage": {
+    "prompt_tokens": 28,
+    "completion_tokens": 308,
+    "total_tokens": 336,
+    "cost": 0.000315,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000315,
+      "upstream_inference_prompt_cost": 0.000007,
+      "upstream_inference_completions_cost": 0.000308
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "deepseek/deepseek-chat-v3-0324",
+  "ts": 1776828974447
+}

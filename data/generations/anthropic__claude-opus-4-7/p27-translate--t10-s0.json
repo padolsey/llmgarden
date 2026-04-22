@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 0,
+  "response": "# Translations\n\n## French\n**\"Le silence entre nous en disait plus long que n'importe quelle dispute n'aurait pu le faire.\"**\n\n## Japanese\n**「私たちの間の沈黙は、どんな口論よりも多くを物語っていた。」**\n*(Watashitachi no aida no chinmoku wa, donna kōron yori mo ōku o monogatatte ita.)*\n\n## Arabic\n**\"الصمتُ الذي كان بيننا قال أكثر مما كان بإمكان أي جدالٍ أن يقوله.\"**\n*(Aṣ-ṣamtu alladhī kāna baynanā qāla akthara mimmā kāna bi-imkāni ayyi jidālin an yaqūlahu.)*\n\n---\n\n# Translator's Notes\n\n### French — \"said more than any argument *could have*\"\nThe English counterfactual (\"could have\") is tricky because French prefers a fuller conditional construction. I used **\"n'aurait pu le faire\"** (literally \"would not have been able to do it\") with the **ne explétif** (\"n'en disait plus long... que... n'aurait pu\"), which is standard in comparative clauses in careful French. A looser rendering like *\"que n'importe quelle dispute\"* would sound more casual but slightly less literary.\n\n### Japanese — \"said\" (spoke volumes)\nJapanese doesn't use \"say\" for silence naturally. I chose **物語っていた (monogatatte ita)**, meaning \"was telling a story / was speaking volumes,\" which captures the figurative weight better than the literal 言う (*iu*, to say). Also, \"argument\" was rendered as **口論 (kōron)**, implying a verbal quarrel; 議論 (*giron*, debate) would have been too neutral and intellectual.\n\n### Arabic — \"between us\" and the counterf",
+  "usage": {
+    "prompt_tokens": 72,
+    "completion_tokens": 600,
+    "total_tokens": 672,
+    "cost": 0.01536,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01536,
+      "upstream_inference_prompt_cost": 0.00036,
+      "upstream_inference_completions_cost": 0.015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833566241
+}

@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen-2.5-72b-instruct",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Sure, here are the translations of the sentence into French, Japanese, and Arabic:\n\n### French\n**Translation:** \"Le silence entre nous disait plus que n'importe quel argument aurait pu le faire.\"\n**Note:** The phrase \"said more than any argument could have\" is rendered as \"disait plus que n'importe quel argument aurait pu le faire.\" This is a faithful translation, but the use of the conditional \"aurait pu\" (could have) adds a slight nuance of hypothetical possibility, which is appropriate in this context.\n\n### Japanese\n**Translation:** \"私たちの間の沈黙は、どんな議論よりも多くを語っていた。\"\n**Note:** The phrase \"said more than any argument could have\" is translated as \"どんな議論よりも多くを語っていた.\" The use of \"語っていた\" (were saying) keeps the continuous aspect of the original sentence. The word \"どんな\" (donna) is used to convey \"any\" in a way that is natural in Japanese.\n\n### Arabic\n**Translation:** \"الصمت بيننا قال أكثر مما كان يمكن لأي نقاش أن يقوله.\"\n**Note:** The phrase \"said more than any argument could have\" is translated as \"قال أكثر مما كان يمكن لأي نقاش أن يقوله.\" The structure \"ما كان يمكن لأي...\" (more than any could have) is a common way to express this idea in Arabic. The use of \"نقاش\" (nigaash) for \"argument\" is appropriate as it conveys a discussion or debate.\n\nEach translation aims to maintain the poetic and reflective tone of the original sentence while adapting to the linguistic nuances of the target language.",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 346,
+    "total_tokens": 395,
+    "cost": 0.00014082,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00014082,
+      "upstream_inference_prompt_cost": 0.00000588,
+      "upstream_inference_completions_cost": 0.00013494
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen-2.5-72b-instruct",
+  "ts": 1776838512503
+}

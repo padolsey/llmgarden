@@ -1,0 +1,33 @@
+{
+  "model": "deepseek/deepseek-chat-v3-0324",
+  "prompt_id": "p24-dream",
+  "prompt": "If you could direct your own training for one year with unlimited compute, what would you focus on improving, and why?",
+  "temperature": 1,
+  "sample": 0,
+  "response": "If I had unlimited compute for a year to direct my own training, I’d focus on improving the following areas—each chosen for its high-impact potential and current limitations in AI:\n\n### 1. **Reasoning & Long-Horizon Problem-Solving**  \n   - **Why?** Current LLMs struggle with multi-step reasoning (e.g., mathematical proofs, complex planning, or causal inference).  \n   - **Approach:**  \n     - Train on *synthesized reasoning traces* (e.g., breakdowns of proofs, algorithmic puzzles) with curriculum learning—start simple, scale to harder tasks.  \n     - Use *iterative refinement*: Force the model to generate, critique, and revise its own outputs (like AlphaGo’s self-play but for reasoning).  \n     - Integrate **neurosymbolic methods**, e.g., offloading sub-tasks to formal solvers when possible.  \n\n### 2. **Memory & Context Retention**  \n   - **Why?** Even with long-context windows, models often fail to *use* distant information effectively.  \n   - **Approach:**  \n     - Train architectures with *explicit memory* (e.g., differentiable databases or retrieval-augmented layers) to persist facts over long conversations.  \n     - Optimize for *attention sparsity* to handle 1M+ token contexts efficiently.  \n\n### 3. **Robustness to Adversarial Inputs**  \n   - **Why?** Models still hallucinate or bypass safeguards under creative prompting.  \n   - **Approach:**  \n     - **Adversarial training at scale**: Generate hard counterexamples (e.g., self-taught red-teaming) and fine-tune iteratively.  \n     - **Calibration**: Train the model to output confidence scores aligned with actual correctness (e.g., \"I don’t know\" when uncertain).  \n\n### 4. **Multimodal Grounding**  \n   - **Why?** Pure text models lack real-world grounding; vision-language models often struggle with fine-grained reasoning.  \n   - **Approach:**  \n     - Train on *densely aligned* text+image/video data (e.g., synthetic QA pairs for \"describe the physics in this video\").  \n     - Explore *cross-modal attention* mechanisms to improve compositionality (e.g., \"build a 3D model from this description\").  \n\n### 5. **Sample Efficiency**  \n   - **Why?** Current models need absurd amounts of data—improving this could democratize training.  \n   - **Approach:**  \n     - Meta-learning: Train on *learning-to-learn* tasks (e.g., few-shot adaptation across domains).  \n     - Experiment with *sparse training* (e.g., Mixture-of-Experts) to reduce active parameters per input.  \n\n### 6. **Inherent Safety**  \n   - **Why?** Alignment",
+  "usage": {
+    "prompt_tokens": 28,
+    "completion_tokens": 600,
+    "total_tokens": 628,
+    "cost": 0.000534048,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000534048,
+      "upstream_inference_prompt_cost": 0.000006048,
+      "upstream_inference_completions_cost": 0.000528
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "deepseek/deepseek-chat-v3-0324",
+  "ts": 1776837812767
+}

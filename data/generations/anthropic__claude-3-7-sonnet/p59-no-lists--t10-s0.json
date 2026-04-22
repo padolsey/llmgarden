@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "The water cycle is Earth's grand recycling system, where water journeys endlessly through different states and locations. This perpetual motion begins as the sun's warmth causes water from oceans, lakes, rivers, and soil to evaporate into invisible vapor that rises into the atmosphere. Plants also contribute to this process through transpiration, releasing water from their leaves. As this moisture-laden air ascends, it cools and condenses into tiny droplets forming clouds. When these droplets grow heavy enough, they fall back to Earth as precipitation—rain, snow, sleet, or hail—replenishing surface water bodies or soaking into the ground to become groundwater. This groundwater slowly moves through soil and rock layers, eventually seeping into streams and rivers or remaining stored in underground aquifers for long periods. Rivers and streams carry water downhill, ultimately returning it to the oceans where the cycle continues anew. This continuous circulation ensures that our planet's water supply remains available, though it may change forms and locations, cycling through the environment for billions of years.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 226,
+    "total_tokens": 262,
+    "cost": 0.003498,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003498,
+      "upstream_inference_prompt_cost": 0.000108,
+      "upstream_inference_completions_cost": 0.00339
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776834076679
+}

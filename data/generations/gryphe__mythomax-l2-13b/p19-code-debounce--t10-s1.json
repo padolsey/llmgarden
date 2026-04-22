@@ -1,0 +1,33 @@
+{
+  "model": "gryphe/mythomax-l2-13b",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 1,
+  "response": " Custom JavaScript method that limits the execution of a function to only once after a specific delay, called `debounce`, defined as `debounce(func, delay, immediate) => {}`. Its usage: `document.querySelector('button').addEventListener('click', debounce(handleClick, 500), false);`, which binds the `handleClick` function to the `click` event on the first button element found, but only executes it after a delay of 500 milliseconds.",
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 104,
+    "total_tokens": 171,
+    "cost": 0.00001026,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00001026,
+      "upstream_inference_prompt_cost": 0.00000402,
+      "upstream_inference_completions_cost": 0.00000624
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "gryphe/mythomax-l2-13b",
+  "ts": 1776841912026
+}

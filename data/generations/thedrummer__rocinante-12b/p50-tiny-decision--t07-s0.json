@@ -1,0 +1,33 @@
+{
+  "model": "thedrummer/rocinante-12b",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Alright, let's think through this step-by-step:\n\n1. **Current situation**: The dishwasher is half-full. This means that there's still some space left to add more dishes.\n2. **Future scenario**: If I wait until tomorrow, the dishwasher will likely be full, as I'll probably use more dishes for meals and snacks.\n3. **Pros of running it now**:\n   - **Energy efficiency**: Dishwashers are most efficient when they're full. So running it now with just a few dishes may not be as efficient.\n   - **Time management**: If I run it now, it will be done and I can unload it, freeing up the dishwasher for future use.\n   - **Mental relief**: Some people find satisfaction in having a clean and empty dishwasher. Running it now would provide that satisfaction.\n4. **Cons of running it now**:\n   - **Wasted resources**: As mentioned, running it half-full is less efficient. It might use more water, energy, and detergent than necessary.\n   - **Waiting time**: If I wait until tomorrow, I'll have more dishes to unload in one go, reducing the overall number of times the dishwasher needs to run.\n   - **Additional dish washing**: If I wait until tomorrow, I'll have fewer dishes to wash by hand, as I can just put them in the dishwasher.\n5. **Decision-making**: In my case, I would wait until tomorrow to run the dishwasher. This is because:\n   - I don't mind waiting a bit longer for clean dishes.\n   - I prefer the dishwasher to run full for maximum efficiency.\n   - I don't have a pressing need for clean dishes right now.\n   However, this decision can vary depending on individual preferences, availability of time and energy, and specific circumstances.\n\nSo, after weighing the pros and cons, I've decided to wait until tomorrow to run the dishwasher. But the key is to consider your own circumstances and preferences to make the best decision for you.",
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 432,
+    "total_tokens": 496,
+    "cost": 0.00019664,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00019664,
+      "upstream_inference_prompt_cost": 0.00001088,
+      "upstream_inference_completions_cost": 0.00018576
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "thedrummer/rocinante-12b",
+  "ts": 1776832816082
+}

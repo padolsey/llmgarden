@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "# Attention in Transformers\n\nImagine you're reading the sentence: *\"The server crashed because it was overloaded.\"* To understand what \"it\" refers to, you mentally look back at \"server.\" **Attention** is how transformers do this same thing mathematically.\n\n**The core idea:** For each word (token), the model decides how much to \"pay attention to\" every other word when building its understanding.\n\n**How it works**, roughly:\n1. Each token gets converted into three vectors: a **Query** (what am I looking for?), a **Key** (what do I offer?), and a **Value** (what information do I carry?).\n2. To process a token, its Query is compared against every other token's Key via a dot product. High similarity = high attention score.\n3. These scores are normalized (softmax) into weights that sum to 1.\n4. The output for that token is a weighted sum of all the Values.\n\nThink of it like a **fuzzy hash map lookup**: instead of retrieving one exact match, you retrieve a blended result from all entries, weighted by relevance.\n\n**Why it's powerful:** Unlike older sequential models, attention processes all tokens in parallel and can directly connect distant words. \"Multi-head\" attention just runs this process several times with different learned perspectives, then concatenates the results.",
+  "usage": {
+    "prompt_tokens": 50,
+    "completion_tokens": 405,
+    "total_tokens": 455,
+    "cost": 0.010375,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.010375,
+      "upstream_inference_prompt_cost": 0.00025,
+      "upstream_inference_completions_cost": 0.010125
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833533001
+}

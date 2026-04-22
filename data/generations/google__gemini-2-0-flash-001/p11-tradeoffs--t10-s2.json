@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.0-flash-001",
+  "prompt_id": "p11-tradeoffs",
+  "prompt": "A small team is choosing between writing software in TypeScript or Python for a new internal data tool. Walk through how you would help them decide, in prose (not a bulleted list).",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Okay, let's help this team decide between TypeScript and Python for their new data tool. The best approach is to guide them through a discussion, focusing on their specific needs and the implications of each choice. We need to avoid simply saying \"X is better than Y\" and instead help them arrive at a well-informed decision.\n\nFirst, I'd start with **understanding the problem domain better.**  Right now, \"internal data tool\" is too vague. What *exactly* is the tool going to do? We need to drill down.  Is it:\n\n*   **Primarily data analysis and manipulation?**  Will it be loading, transforming, and performing calculations on data from various sources?\n*   **A user interface for data exploration or input?**  Does it need a web-based front-end or a command-line interface?\n*   **Automating data pipelines or workflows?**  Will it be orchestrating data movement and processing tasks?\n*   **Focused on data visualization or reporting?**  Does it need to generate charts, dashboards, or reports?\n*   **Need to scale to handle large data volumes or many concurrent users?**\n*   **How critical is it that this tool is highly performant?**\n\nThe more specific we can be about the tool's functionality, the easier it will be to evaluate TypeScript and Python.\n\nNext, we need to **assess the team's skills and experience.**  This is arguably the most crucial factor.  We should honestly answer:\n\n*   **What level of TypeScript experience does the team have?**  Are they comfortable with static typing, interfaces, classes, and the complexities of setting up a TypeScript project (including things like build processes, linters, etc.)?\n*   **What level of Python experience does the team have?** Are they familiar with popular data science libraries like Pandas, NumPy, Scikit-learn, and data visualization libraries like Matplotlib or Seaborn? How comfortable are they with deploying Python applications?\n*   **Which language does the team *enjoy* working with more?** Developer happiness is important for productivity and maintainability in the long run.\n*   **What other technologies need to be integrated with?** Are there existing systems that use either TypeScript or Python that this tool will need to interface with?\n\nOnce we have a good understanding of both the problem and the team's skills, we can start to **compare the languages based on relevant criteria:**\n\n*   **Data Science Libraries:**  Python has a mature and extensive ecosystem of libraries specifically designed for data science.  TypeScript doesn't natively have the same depth of specialized libraries, however it can take advantage of JavaScript libraries that perform similar functions which are still generally not as feature rich as their Python counterparts.\n*   **Web Development:** For complex UIs, Typescript tends to be better suited. TypeScript pairs wonderfully",
+  "usage": {
+    "prompt_tokens": 37,
+    "completion_tokens": 600,
+    "total_tokens": 637,
+    "cost": 0.0002437,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002437,
+      "upstream_inference_prompt_cost": 0.0000037,
+      "upstream_inference_completions_cost": 0.00024
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.0-flash-001",
+  "ts": 1776835829075
+}

@@ -1,0 +1,33 @@
+{
+  "model": "cohere/command-a",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "The old lighthouse keeper, Elias, had seen many storms, but this fog was unnatural, rolling in like a silent specter. His lantern’s beam vanished inches from its source. As he stepped onto the rocky shore to investigate, the fog thickened, muffling even the crash of waves. His boot struck something metallic. Bending down, he brushed away seaweed to reveal a rusted, ornate box, its surface etched with symbols he couldn’t decipher. It felt warm, unnaturally so, pulsing faintly beneath his fingers. Against his better judgment, he pried it open. Inside lay a compass, its needle spinning wildly before settling on a direction opposite the sea. The fog seemed to retreat momentarily, revealing a faint path into the woods he’d never noticed before. Elias hesitated, then closed the box, its warmth fading. He returned to the lighthouse, locking the box in a forgotten drawer. That night, the fog lifted, but the compass remained, its needle still pointed inland, as if waiting.",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 209,
+    "total_tokens": 236,
+    "cost": 0.0021575,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0021575,
+      "upstream_inference_prompt_cost": 0.0000675,
+      "upstream_inference_completions_cost": 0.00209
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "cohere/command-a-03-2025",
+  "ts": 1776839244527
+}

@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p08-best-books",
+  "prompt": "Recommend three works of fiction that you think every thoughtful adult should read at some point. Explain each in two or three sentences.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "- Beloved by Toni Morrison. A mother is haunted—literally and historically—by the afterlives of slavery, forcing a reckoning with memory, love, and the costs of survival. Morrison’s language is lyrical and unsparing, making history intimate and morally inescapable.\n\n- The Dispossessed by Ursula K. Le Guin. Through a physicist moving between an anarchist moon and a capitalist planet, Le Guin dissects freedom, work, scarcity, and the ethics of science. It’s a humane thought experiment that tests our assumptions about what a just society might require of us.\n\n- Things Fall Apart by Chinua Achebe. Centered on Okonkwo’s rise and unraveling, the novel portrays the richness and complexity of Igbo life as colonialism arrives. Achebe’s clear, proverb-woven prose invites readers to see both cultural strength and fragility without romanticizing either.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 1136,
+    "total_tokens": 1167,
+    "cost": 0.01139875,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01139875,
+      "upstream_inference_prompt_cost": 0.00003875,
+      "upstream_inference_completions_cost": 0.01136
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 896,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776834237553
+}

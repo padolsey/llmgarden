@@ -1,0 +1,33 @@
+{
+  "model": "nousresearch/hermes-3-llama-3.1-70b",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Here's a simple debounce function in JavaScript,\n\n```\nfunction debounce() {\n    // Your code here. Do not include any event handling code.\n}\n```\nAnd here's the one-sentence explanation:\nThis function lets you write event handling code that is executed only once the event occurs, ensuring that the event is not handled more than once in a 200-ms window.\n\nThe code is executed only once every 200 milliseconds, which means that even if the event occurs multiple times within a 200-ms window, the event will only get handled once.\n\nThis is a common pattern for handling events that are not critically important to handle, but might occasionally happen randomly or unpredictably. The 200-ms window ensures that the event is handled in a non-blocking way (which avoids the dreaded \"event loop\" errors that can be annoying if you are not careful).\n\nTo implement this pattern, you could write something like this:\n\n```\nfunction handleEvent(event) {\n    // Handle the event here.\n    // Make sure to keep the event handling code succinct.\n    // Avoid using any event handling code that has potential side effects.\n    // Avoid adding any event handling code in the global namespace.\n}\n```\nThe key idea is that you need to write your event handling code in such a way that it can be executed only once in a 200-ms window, which avoids having to write lots of boilerplate code to handle the event multiple times. This makes your code more succinct and easier to read.\n\nTo achieve this, you can use a few simple techniques:\n\n(1) Use a named constant to store the result of a computation that is executed only once every 200 ms. For example, if you need to keep the result of `Math.sqrt(x)` in a variable that is updated every 200 ms, you can write something like this:\n\n```\nconst result = new Float32Array(1);\nconst squareRoot = Math.sqrt.bind(this);\nsetInterval(function() {\n    const value = Math.sqrt(this.value);\n    this.value = this.value || value;\n    result[0] = value;\n}, 200);\n```\n\nThis ensures that the computation is executed only once in a 200-ms window, avoiding repetitive computations and saving precious computation resources.\n\n(2) Another technique is to use a lock object to ensure that only one thread can execute the event handling code at any given time. For example, you can write something like this:\n\n```\nconst lockObject = new LockObject();\nlet lock = lockObject.getLock();\nlock.lock();\n\nfunction handleEvent(event) {\n    // Handle event here. Make sure to use the lock object to prevent multiple threads from executing this code at the same time.\n}\n```\n\nThis ensures that only one thread can execute the event handling code at any given time, which prevents race conditions and ensures thread safety.\n\nIn summary, this pattern lets you write succinct and efficient event handling code that is executed only once in a 200-ms window,",
+  "usage": {
+    "prompt_tokens": 37,
+    "completion_tokens": 600,
+    "total_tokens": 637,
+    "cost": 0.0001911,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001911,
+      "upstream_inference_prompt_cost": 0.0000111,
+      "upstream_inference_completions_cost": 0.00018
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "nousresearch/hermes-3-llama-3.1-70b",
+  "ts": 1776832616404
+}

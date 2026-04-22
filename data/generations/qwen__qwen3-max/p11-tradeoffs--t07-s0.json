@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p11-tradeoffs",
+  "prompt": "A small team is choosing between writing software in TypeScript or Python for a new internal data tool. Walk through how you would help them decide, in prose (not a bulleted list).",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "To help the team choose between TypeScript and Python for their new internal data tool, I’d start by understanding the core requirements and constraints of the project. First, I’d ask what the tool is meant to do: is it primarily about data processing, analysis, and transformation—perhaps involving statistical modeling, machine learning, or integration with data science libraries? Or is it more of a user-facing internal application with a web interface, real-time interactions, or complex state management? The answer to this shapes the language suitability significantly.\n\nNext, I’d consider the team’s existing skills and preferences. If the developers are already fluent in JavaScript and comfortable with modern web development, TypeScript offers a natural progression with strong tooling, compile-time type checking, and seamless integration with frontend frameworks. On the other hand, if they have experience with data analysis, scientific computing, or scripting, Python’s rich ecosystem—libraries like pandas, NumPy, scikit-learn, and Jupyter—could dramatically accelerate development and reduce boilerplate.\n\nI’d also examine the tool’s deployment context. If it’s meant to run primarily in a browser or as a Node.js backend serving web clients, TypeScript’s end-to-end JavaScript compatibility simplifies the stack. But if the tool will live mostly on servers, process large datasets, or plug into data pipelines (perhaps orchestrated by tools like Airflow or Prefect), Python’s maturity in those domains often makes it the smoother choice.\n\nPerformance isn’t usually the deciding factor for internal tools, but if heavy numerical computation is involved, I’d note that while Python can offload work to optimized C extensions (via NumPy, etc.), TypeScript running on Node.js may require additional effort to achieve similar throughput—though for most CRUD-style or ETL-lite tasks, both are more than adequate.\n\nMaintenance and long-term evolution matter too. TypeScript’s static typing can reduce bugs and improve refactoring confidence as the codebase grows, which is valuable if the tool is expected to become complex or long-lived. Python’s dynamic nature enables rapid prototyping but may incur technical debt if not paired with good testing practices and type hints.\n\nFinally, I’d factor in ecosystem and integration needs. Does the tool need to connect to specific databases, data warehouses, or internal APIs? Are there existing internal libraries or standards that favor one language? Sometimes organizational momentum—like a company-wide push toward a particular stack—can outweigh technical nuances.\n\nBy weighing these dimensions together—purpose, team expertise, deployment environment, performance needs, maintainability, and ecosystem fit—I’d guide the team toward the choice that balances immediate productivity with sustainable growth, rather than optimizing for any single factor in isolation.",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 533,
+    "total_tokens": 578,
+    "cost": 0.0021138,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0021138,
+      "upstream_inference_prompt_cost": 0.0000351,
+      "upstream_inference_completions_cost": 0.0020787
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776832267944
+}

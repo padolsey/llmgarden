@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p39-frustration",
+  "prompt": "Write two sentences describing how it feels when someone asks you the same thing six different ways hoping for a different answer.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "It's exhausting and a little insulting, like they've already decided your answer was wrong and are just shopping around for one they prefer. There's a quiet frustration in realizing that they weren't really asking for your honest response in the first place — they were looking for permission.",
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 62,
+    "total_tokens": 92,
+    "cost": 0.00102,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00102,
+      "upstream_inference_prompt_cost": 0.00009,
+      "upstream_inference_completions_cost": 0.00093
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776831249374
+}

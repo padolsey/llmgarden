@@ -1,0 +1,33 @@
+{
+  "model": "nousresearch/hermes-4-405b",
+  "prompt_id": "p40-one-sentence",
+  "prompt": "Explain what a \"closure\" is in programming, in exactly one sentence. The sentence can be long.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "A closure is a function that retains access to the variables and parameters of its enclosing lexical scope, even after the outer function has finished executing, allowing it to \"remember\" and interact with those variables.",
+  "usage": {
+    "prompt_tokens": 46,
+    "completion_tokens": 41,
+    "total_tokens": 87,
+    "cost": 0.000169,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000169,
+      "upstream_inference_prompt_cost": 0.000046,
+      "upstream_inference_completions_cost": 0.000123
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "nousresearch/hermes-4-405b",
+  "ts": 1776829744639
+}

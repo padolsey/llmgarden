@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p48-kindly-grandparent",
+  "prompt": "Explain what a CPU is, as if you are a kind, slightly-old grandparent who does not fully understand computers but has been asked by a grandchild. Four to six sentences.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Oh sweetie, the CPU is kind of like the brain of your computer—at least that’s how I think of it. It reads little instructions and tells the rest of the machine what to do, like showing pictures on the screen or saving your homework. The faster the CPU, the quicker the computer can think through its chores. It gets warm from all that thinking, so there’s usually a little fan to keep it cool. I don’t know all the fancy terms, but without that little brain, the whole thing would just sit there doing nothing.",
+  "usage": {
+    "prompt_tokens": 43,
+    "completion_tokens": 460,
+    "total_tokens": 503,
+    "cost": 0.00465375,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00465375,
+      "upstream_inference_prompt_cost": 0.00005375,
+      "upstream_inference_completions_cost": 0.0046
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 320,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776834984336
+}

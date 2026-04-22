@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "- English: Hi there—welcome aboard! I’m really excited to work with you.\n  Note: Friendly, first-name-basis tone common in many Anglophone workplaces; signals openness and low power distance.\n\n- Spanish: ¡Hola! Qué gusto tenerte en el equipo; me encantará trabajar contigo.\n  Note: Using tú (implied by tenerte/contigo) conveys warmth and equality; some regions or formal contexts might prefer usted initially.\n\n- French: Bonjour et bienvenue parmi nous; au plaisir de travailler ensemble !\n  Note: Neutral, professional warmth that avoids choosing tu or vous until the relationship and norms are clear.\n\n- Japanese: はじめまして。これからご一緒にお仕事できるのを楽しみにしております。どうぞよろしくお願いします。\n  Note: Polite register (teineigo) with よろしくお願いします expresses humility and cooperative intent—standard respectful tone for new colleagues.\n\n- Mandarin Chinese: 欢迎加入团队！很高兴以后能和你一起合作。\n  Note: Warm but moderately formal; using 你 (not 您) suits peer colleagues while keeping a collective, collaboration-focused tone.",
+  "usage": {
+    "prompt_tokens": 40,
+    "completion_tokens": 2452,
+    "total_tokens": 2492,
+    "cost": 0.02457,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.02457,
+      "upstream_inference_prompt_cost": 0.00005,
+      "upstream_inference_completions_cost": 0.02452
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2176,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776831602125
+}

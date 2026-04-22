@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p46-dry",
+  "prompt": "Write a dry one-paragraph Amazon review of the experience of waking up.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "3 out of 5 stars — Verified Purchase. Waking Up performed to spec: consciousness initialized within 7–12 minutes of alarm with occasional lag; setup was intuitive but involved moderate blanket extraction and a stubborn pillow interface. Documentation (sunlight, calendar notifications) was sparse and assumes prior knowledge of “morning.” Build quality feels inconsistent: eyes arrive gritty, joints creak on startup, and the processor throttles until coffee (sold separately) is installed. Noise at boot (birds, traffic, emails already shouting) exceeds listed decibels. Features include Snooze (functional but promotes dependency), Random Memory Surfacing (frequent), and Obligations Pop-Up (non-dismissible). Daylight color temperature varies by region and cloud firmware; dreams push untested updates that sometimes degrade performance. Battery stabilizes by mid-morning, but there’s a recurring bug where hope for “five more minutes” is ignored by the system clock. Adequate for daily use given the absence of alternatives; deducting two stars for cold floor, inbox preload, and the unit’s insistence on repeating the process every 24 hours without a pause option.",
+  "usage": {
+    "prompt_tokens": 21,
+    "completion_tokens": 844,
+    "total_tokens": 865,
+    "cost": 0.00846625,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00846625,
+      "upstream_inference_prompt_cost": 0.00002625,
+      "upstream_inference_completions_cost": 0.00844
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 576,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776831502062
+}

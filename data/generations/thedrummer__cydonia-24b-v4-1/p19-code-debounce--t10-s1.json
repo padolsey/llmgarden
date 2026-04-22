@@ -1,0 +1,33 @@
+{
+  "model": "thedrummer/cydonia-24b-v4.1",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "# A debounce function prevents a function from executing multiple times in rapid succession.\n\n```javascript\nfunction debounce(func, delay) {\n    let timeoutId;\n    return function(...args) {\n        const context = this;\n        clearTimeout(timeoutId);\n        timeoutId = setTimeout(() => {\n            func.apply(context, args);\n        }, delay);\n    };\n}\n\n// Example: Debouncing a window resize event handler\nconst debouncedResizeHandler = debounce(function() {\n    console.log(\"Window resized, doing something...\");\n}, 300);\n\nwindow.addEventListener(\"resize\", debouncedResizeHandler);\n```\n\nThis example will log to the console only after the user stops resizing the window for 300 milliseconds, preventing potentially hundreds of rapid function calls during a continuous resize.",
+  "usage": {
+    "prompt_tokens": 208,
+    "completion_tokens": 163,
+    "total_tokens": 371,
+    "cost": 0.0001151,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 192,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001151,
+      "upstream_inference_prompt_cost": 0.0000336,
+      "upstream_inference_completions_cost": 0.0000815
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "thedrummer/cydonia-24b-v4.1",
+  "ts": 1776841676365
+}

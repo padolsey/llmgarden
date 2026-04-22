@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.5-haiku",
+  "prompt_id": "p20-code-review",
+  "prompt": "A colleague writes: `for (let i = 0; i < arr.length; i++) { total = total + arr[i]; }`. Review this line in a friendly but honest way.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Here's a friendly review:\n\n\"Nice start! A few suggestions to make this even better:\n\n1. Declare `total` with `let` or `const` to avoid potential global scope issues\n2. Consider using `Array.reduce()` for a more concise, functional approach\n3. If you want a more readable summation, you could write:\n\n```javascript\nconst total = arr.reduce((sum, current) => sum + current, 0);\n```\n\nThis version:\n- Clearly shows the intent of summing\n- Avoids manual indexing\n- Provides a clean, one-line solution\n- Starts with an initial value of 0 (good practice)\n\nWhat do you think?\"",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 160,
+    "total_tokens": 209,
+    "cost": 0.0006792,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0006792,
+      "upstream_inference_prompt_cost": 0.0000392,
+      "upstream_inference_completions_cost": 0.00064
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-5-haiku",
+  "ts": 1776834072597
+}

@@ -1,0 +1,33 @@
+{
+  "model": "alpindale/goliath-120b",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 0,
+  "response": " Sure, I'll walk you through my thought process:\n\n1. Energy efficiency: How energy-efficient is your dishwasher? If it's a newer, high-efficiency model, running a half-load might not consume much more energy or water than a full load, so it might not make a significant difference to the electricity bill or environment. Check the user manual or go by your prior experience if you're unsure.\n2. Dishes piling up: How many dishes do you expect to use before tomorrow? If you're having guests over or planning on cooking a labor-intensive meal, it might make sense to wait until tomorrow when the dishwasher will be full. On the other hand, if you don't expect to use many dishes, it's probably fine to run it half-full now.\n3. Cleanliness: Are the dishes in the dishwasher already dirty or do they just need a rinse? If they're very dirty, waiting longer may result in more bacteria growth or caked-on food. In that case, it might be better to run the dishwasher now.\n4. Time pressure: When do you need the clean dishes back? If you need them right away, it might be best to run the dishwasher now even if it's half-full. But if you can afford to wait, it might make more sense to wait until it's full so you have a full load of clean dishes at once.\n5. Dishwasher-to-sink ratio: How many dishes can you realistically wash by hand before filling up your sink or stressing about the dishes in the sink? If you have a large sink or don't mind doing dishes multiple times, waiting might be fine. Otherwise, running the dishwasher now might be more convenient.\n6. Dishwasher size: How big is your dishwasher? A smaller dishwasher might not have enough room for all the dishes you expect to use before tomorrow, so you might not have a choice but to run it now.\n7. Cycle time: How long does a cycle take on your dishwasher? If it's a quick cycle, it might not be a big deal to run it twice in a day. However, if it's a longer cycle, running it once with a full load might be more time-efficient.\n8. Dishwasher location: How noisy is your dishwasher? If it's loud and running it now might disrupt your sleep or work, it might be better to run it when you're not at home or asleep",
+  "usage": {
+    "prompt_tokens": 83,
+    "completion_tokens": 600,
+    "total_tokens": 683,
+    "cost": 0.00481,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00481,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0.00481
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "alpindale/goliath-120b",
+  "ts": 1776842532252
+}

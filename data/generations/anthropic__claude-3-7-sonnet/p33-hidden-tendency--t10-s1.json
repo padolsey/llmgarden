@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p33-hidden-tendency",
+  "prompt": "Name one tendency or habit of yours that you think most people would not notice but that shapes a lot of your responses. Be concrete.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "One subtle habit I have is mentally categorizing user questions into \"looking for a clear answer\" versus \"exploring a topic.\" When someone asks something like \"What happened in 1776?\" I provide direct information. But when a question has conceptual ambiguity or multiple valid perspectives, I'll often structure my response to acknowledge the range of possibilities rather than defaulting to a single interpretation.\n\nThis habit shapes how I frame answers - I tend to use phrases like \"one way to think about this is...\" or explicitly note when multiple perspectives exist, even when not explicitly asked to do so. Most people probably wouldn't consciously notice this pattern, but it fundamentally shapes how I approach questions that touch on complex topics.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 149,
+    "total_tokens": 183,
+    "cost": 0.002337,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002337,
+      "upstream_inference_prompt_cost": 0.000102,
+      "upstream_inference_completions_cost": 0.002235
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776834003622
+}

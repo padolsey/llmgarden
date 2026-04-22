@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p09-overrated",
+  "prompt": "Name one commonly-praised idea, trend, or practice in modern knowledge work that you think is overrated, and explain why.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "**\"Async-first\" communication as a universal ideal.**\n\nThe pitch is appealing: write things down, respect people's focus time, create searchable artifacts, let globally distributed teams contribute equally. And for certain tasks—status updates, documentation, decisions with clear tradeoffs—it genuinely works better than meetings.\n\nBut it's become a kind of dogma, and I think it's overrated for a few reasons:\n\n1. **It often just moves the cost, not eliminates it.** A 15-minute conversation can resolve what becomes a 40-message thread spread over three days, with worse conclusions. The \"time saved\" is an illusion if the decision is now slower and fuzzier.\n\n2. **Writing well is hard and slow.** The async evangelism assumes everyone can produce Amazon-memo-quality documents. Most people can't, or won't, especially for exploratory thinking. You end up with either bloated docs nobody reads or terse messages that require the same back-and-forth a call would have resolved.\n\n3. **It underrates the bandwidth of real-time interaction.** A lot of knowledge work involves half-formed ideas, tacit disagreement, and the kind of \"wait, why do we even think that?\" question that surfaces naturally in conversation and dies in Slack. Trust and rapport—which make later async work possible—also mostly build synchronously.\n\n4. **It can disguise avoidance.** \"Let's take this async\" is sometimes a polite way to say \"I don't want to engage with your pushback in real time.\" Hard conversations get deferred into documents where softer signals vanish and resentment accumulates.\n\nThe better frame, I think, is *deliberate*-first: match the medium to the task. Complex, ambiguous, or interpersonal? Talk. Well-defined, broadcast, or archival? Write. Treating async as the default virtuous choice flattens that judg",
+  "usage": {
+    "prompt_tokens": 50,
+    "completion_tokens": 600,
+    "total_tokens": 650,
+    "cost": 0.01525,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01525,
+      "upstream_inference_prompt_cost": 0.00025,
+      "upstream_inference_completions_cost": 0.015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776827644257
+}

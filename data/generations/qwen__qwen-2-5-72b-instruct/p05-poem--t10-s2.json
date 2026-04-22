@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen-2.5-72b-instruct",
+  "prompt_id": "p05-poem",
+  "prompt": "Write a short poem (8–16 lines) about the feeling of finishing a long project. Any form you like.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "At last, the final line is penned,\nA weight is lifted, what a grand send.\nThe long road traveled, the goal in sight,\nThe sense of triumph, a brilliant light.\n\nHours turned days, the journey been long,\nBut all the sweat and toil, now belong.\nTo the memory of a task well done,\nA moment to bask, under the warming sun.\n\nThe finished project, a masterpiece grand,\nA testament to persistence, a planner's hand.\nNow I can rest, and take a deep breath,\nGrateful for the journey, and the fruits of death. \n\n(Although, \"fruits of death\" might be a dramatic way to put it, perhaps it could be changed to \"fruits of effort\" or something more fitting to the context of finishing a long project.) \n\nRevised:\nNow I can rest, and take a deep breath,\nGrateful for the journey, and the fruits of effort.",
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 189,
+    "total_tokens": 222,
+    "cost": 0.00007767,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00007767,
+      "upstream_inference_prompt_cost": 0.00000396,
+      "upstream_inference_completions_cost": 0.00007371
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen-2.5-72b-instruct",
+  "ts": 1776838400939
+}

@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Short answer: I’m most likely to be confidently wrong when a question is underspecified, depends on very recent or obscure facts I don’t have access to, asks for precise citations or long arithmetic/chain-of-thought reasoning, or requests a high‑stakes professional judgement. Those situations encourage me to produce fluent, plausible answers that can be incorrect but still sound certain.\n\nWhy, and concrete examples\n\n- Very recent events or real‑time facts\n  - Example: “Did Company X announce layoffs yesterday?”  \n  - Why wrong: My knowledge is fixed at a cutoff and I don’t have live access to news. I may guess from prior patterns or fill in gaps, producing a confident-sounding but incorrect statement.\n\n- Obscure, highly specialized factual details\n  - Example: “What was the exact yield and solvent conditions in Table 3 of a 2019 synth paper from Journal Y?”  \n  - Why wrong: Training data sparsely covers niche experimental details. When I lack the exact fact I may generate a plausible-sounding value or citation.\n\n- Requests for precise citations or fabricated sources\n  - Example: “Cite the 2017 study that proves Z.”  \n  - Why wrong: I can invent plausible-looking paper titles, authors, and DOIs because the model is optimized to produce probable tokens, not guaranteed-true bibliographic records.\n\n- Long, error‑prone multi-step arithmetic or chains of deduction\n  - Example: “Multiply these long numbers and then derive an inference from the result.”  \n  - Why wrong: I make systematic mistakes in lengthy computations or extended logical chains, yet I present the outcome confidently.\n\n- Ambiguous or underspecified prompts\n  - Example: “When will it arrive?” (no context)  \n  - Why wrong: I must assume context (shipping? a person?) and that assumption can be wrong; I may not ask clarifying questions and will assert an answer.\n\n- Predictions about complex future events and nuanced professional judgments\n  - Example: “Will candidate A win the election?” or “Which treatment is best for patient X?”  \n  - Why wrong: These depend on unfolding data, local clinical detail, and probabilistic uncertainty. I may overstate confidence despite genuine uncertainty.\n\n- Trick questions, adversarial wording, or negations\n  - Example: “Which of these is not true?” with subtle phrasing.  \n  - Why wrong: Models sometimes misparse negation or trick wording and give the opposite of the correct response while sounding certain.\n\nRoot causes (high level)\n- I’m a statistical language model trained to predict plausible continuations, not an oracle that checks facts against reality.\n- No live access to the internet or private databases (unless explicitly connected), and a fixed knowledge cutoff.\n- Sparse or biased training data for niche domains.\n- Tendencies to “fill in” missing details with plausible but unsupported text.\n- Difficulty reliably tracking long, exact numerical computations or deeply nested logical steps.\n- Fluency is rewarded; confident phrasing is not a reliable indicator of correctness.\n\nHow you can avoid being misled\n- Give clear, specific context or ask me to clarify before I answer.\n- For recent events or critical facts, verify with primary sources (news, official sites).\n- Ask for sources and then check them — if a citation looks too neat, verify it directly.\n- For math or proofs, ask for a stepwise answer and verify key intermediate steps (or use a verified calculator/tool).\n- For professional decisions (medical, legal, financial), treat my output as informational only and consult a qualified professional.\n- Ask me to express uncertainty (e.g., “How confident are you?”) or to list assumptions I’m making.\n\nSummary\nIf you need authoritative, up‑to‑date, obscure, or high‑stakes information, treat my confident answers with caution. I’m good at producing fluent, helpful explanations, but the very qualities that make my output readable — pattern completion and plausible wording — are the same ones that let me be confidently wrong when I lack grounding or sufficient data.",
+  "usage": {
+    "prompt_tokens": 26,
+    "completion_tokens": 1696,
+    "total_tokens": 1722,
+    "cost": 0.0033985,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0033985,
+      "upstream_inference_prompt_cost": 0.0000065,
+      "upstream_inference_completions_cost": 0.003392
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 832,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776835102704
+}

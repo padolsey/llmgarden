@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "I'd start by noticing what's actually bugging you about this decision—which suggests it's not obvious, so something's in tension.\n\nHalf-full now means: water and energy used on partially empty space (waste), but also the dishes are *done* and not sitting around. Tomorrow means: more efficient fill rate, but you're living with dirty dishes in your kitchen tonight. Which one actually matters more to you right now?\n\nThen I'd get concrete about the \"definitely full tomorrow\" part. Will it actually be full? Be honest—I'd think about whether tomorrow-you will have genuinely committed to not running it, or if you'll cave when you need a bowl. If there's doubt, that's worth factoring in.\n\nThe environmental/efficiency angle is real but probably not the main driver here (most people don't dishwasher-optimize that precisely). So I'd let that be secondary unless you actually care about that stuff.\n\nWhat I'd actually be thinking: *How much does it bother me to see dirty dishes in the sink right now versus how much does it bother me to waste water/electricity?* And then: *Am I just looking for permission to run it now?*\n\nMy guess is you'd benefit more from just deciding which annoys you less, rather than trying to optimize perfectly. If the half-full dishwasher running feels slightly wasteful but the sink full of dishes feels actively frustrating, run it now. The difference between \"slightly wasteful\" and \"optimal\" probably matters less than you being satisfied with the decision.\n\nWhat's actually making you hesitate?",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 343,
+    "total_tokens": 392,
+    "cost": 0.001764,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001764,
+      "upstream_inference_prompt_cost": 0.000049,
+      "upstream_inference_completions_cost": 0.001715
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833922329
+}

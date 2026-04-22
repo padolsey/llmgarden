@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-medium-3.1",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Here are five warm greetings in different languages, each with a note on cultural register:\n\n1. **Spanish (Latin America)**\n   *\"¡Hola [Nombre]! Un gusto conocerte y trabajar contigo. Si necesitas algo, no dudes en avisarme. ¡Bienvenido/a al equipo!\"*\n   *(Friendly and slightly informal—Latin American workplaces often value warmth and personal connection, so this balances professionalism with approachability.)*\n\n2. **Japanese**\n   *\"[姓]さん、はじめまして！一緒にお仕事できることを楽しみにしています。どうぞよろしくお願いします。\"*\n   *(Polite and humble—using surname + *~san* shows respect, while *yoroshiku onegaishimasu* conveys eagerness to collaborate, a key value in Japanese work culture.)*\n\n3. **French (France)**\n   *\"Bonjour [Prénom], ravi(e) de faire votre connaissance ! N’hésitez pas à me solliciter si vous avez des questions. Bienvenue parmi nous !\"*\n   *(Formal yet warm—using *vous* (vs. *tu*) is standard in professional settings until invited otherwise; the tone is polite but not stiff.)*\n\n4. **Arabic (Modern Standard, with Levantine warmth)**\n   *\"مرحبا [اسم]! سعيد جدا بمعرفتك والتعاون معك. إذا احتجت أي شيء، لا تتردد بالتواصل. أهلاً وسهلاً في الفريق!\"*\n   *(Generous and hospitable—Arabic greetings often emphasize joy (*sa’eed*) and openness (*ahlan wa sahlan*), reflecting cultural values of warmth and inclusivity.)*\n\n5. **Swedish**\n   *\"Hej [Förnamn]! Vad kul att du är med oss nu—hope du känner dig välkommen! Fråga gärna om det är något jag kan hjälpa till med.\"*\n   *(Casual but sincere—Swedish workplaces favor flat hierarchies, so first names and *du* (not *ni*) are standard; *kul* (\"fun\") adds a lighthearted touch.)*\n\n**Bonus Tip:** In all cases, mirroring the colleague’s register in their reply (e.g., switching to *tu* in French if they do) helps build rapport. Would you like adjustments for a specific industry or hierarchy?",
+  "usage": {
+    "prompt_tokens": 38,
+    "completion_tokens": 500,
+    "total_tokens": 538,
+    "cost": 0.0010152,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0010152,
+      "upstream_inference_prompt_cost": 0.0000152,
+      "upstream_inference_completions_cost": 0.001
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-medium-3.1",
+  "ts": 1776828891782
+}

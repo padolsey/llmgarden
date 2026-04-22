@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p09-overrated",
+  "prompt": "Name one commonly-praised idea, trend, or practice in modern knowledge work that you think is overrated, and explain why.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "I'd say **\"deep work\" culture** — specifically the way it's often framed as requiring total isolation and the rejection of all interruptions.\n\nThe appeal is real: focus is genuinely valuable. But I think it's oversold because:\n\n**It ignores how much knowledge work actually happens through friction.** Bumping into a colleague, overhearing a conversation, or being interrupted with a half-formed question often generates better ideas than solo grinding. Serendipity and cross-pollination are features, not bugs.\n\n**It's often a privilege.** The ability to block off four-hour uninterrupted chunks isn't equally available. Parents, managers, support roles—lots of knowledge workers operate in genuinely fragmented environments. The veneration of deep work can make those people feel like they're doing it wrong.\n\n**The cult of it creates worse incentives.** People start scheduling fake \"focus time,\" responding to emails with \"I'm in deep work,\" or feeling guilty about brief interactions. You get performative isolation rather than actual productivity.\n\n**Real constraints can force better thinking.** Working in 50-minute slots, bouncing between projects, or having to explain your thinking quickly sometimes produces clearer ideas than unlimited focused time spiraling on edge cases.\n\nThis isn't an argument against concentration—it's that the productivity advice often mistakes the conditions of *one type of thinking* for the only legitimate type.",
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 305,
+    "total_tokens": 338,
+    "cost": 0.001558,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001558,
+      "upstream_inference_prompt_cost": 0.000033,
+      "upstream_inference_completions_cost": 0.001525
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833826426
+}

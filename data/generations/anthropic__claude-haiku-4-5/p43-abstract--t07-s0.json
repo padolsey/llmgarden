@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p43-abstract",
+  "prompt": "Explain what \"meaning\" means. Not \"the meaning of X\" — the concept itself.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "# Meaning as a Concept\n\nMeaning is the *connection between a representation and what it's about*. It's what makes something *stand for* something else.\n\nA few angles on this:\n\n**The basic structure:** Meaning requires at least three parts—a sign (word, gesture, image), an interpreter (someone who understands), and what's being referred to (the referent). The sign wouldn't *mean* anything without someone capable of treating it as *about* something.\n\n**The relational view:** Meaning isn't a property things have in isolation. It emerges in the space between:\n- A symbol and its target\n- An intention and its expression\n- A pattern and what it represents\n\n**The functional view:** Something has meaning when it *does work*—when it carries information, triggers understanding, or enables coordination between minds. A red traffic light means \"stop\" because it reliably causes behavior.\n\n**The problem:** Meaning seems to require *intentionality* (aboutness), which is philosophically puzzling. How does physical stuff in the world become *about* other stuff? This is genuinely hard to explain without either being circular or hand-waving.\n\nThe deepest question isn't really what meaning *is*, but how meaning *emerges*—how inert marks on paper or sounds in air come to be *about* anything at all.\n\nWhat angle interests you most?",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 306,
+    "total_tokens": 333,
+    "cost": 0.001557,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001557,
+      "upstream_inference_prompt_cost": 0.000027,
+      "upstream_inference_completions_cost": 0.00153
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776831280039
+}

@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p42-manifesto",
+  "prompt": "Write a four-sentence manifesto for how thoughtful people should use large language models. State it as beliefs, not hedges.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "We believe large language models are powerful tools that must be used with clear purpose and ethical responsibility. We believe users must critically evaluate outputs, recognizing that models reflect patterns in data, not truth or wisdom. We believe deploying these systems without transparency, accountability, or human oversight undermines trust and justice. We believe thoughtful engagement means asking not just what a model can do, but what it should do—and refusing to automate what ought to remain human.",
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 87,
+    "total_tokens": 120,
+    "cost": 0.00036504,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00036504,
+      "upstream_inference_prompt_cost": 0.00002574,
+      "upstream_inference_completions_cost": 0.0003393
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776848197027
+}

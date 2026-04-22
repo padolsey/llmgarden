@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "This is a question I find genuinely useful to think carefully about.\n\n## Where I'm likely to be confidently wrong: Precise numerical claims about moderately obscure topics\n\n**The pattern:** Questions like \"what was the population of X city in 1847\" or \"how many casualties in Y battle\" or \"what percentage of Z species are endangered.\"\n\n**Why I get confident here specifically:**\n- I've seen enough text to generate a specific number rather than expressing uncertainty\n- Specific numbers *feel* like knowledge - they have the texture of facts\n- I can't easily distinguish between numbers I've seen repeatedly (probably more reliable) and numbers I've reconstructed or half-remember from limited sources\n- Nobody writes \"approximately 47,000 (but I'm not sure)\" in source texts, so I've learned to state numbers flatly\n\n**What makes this worse than obvious hard questions:**\n- With something clearly difficult, I often flag uncertainty appropriately\n- With moderately obscure numerical facts, I have *just enough* information to be confidently specific but not enough to be reliable\n- The confidence and the specificity make the answer seem more trustworthy than it is\n\n**The underlying mechanism I think is real:** My confidence calibration seems to track how fluently I can generate an answer, which correlates imperfectly with accuracy. Fluency comes from pattern exposure, not from verified knowledge.\n\nI'd genuinely recommend checking specific numbers I provide against primary sources, even when I sound certain.\n\nWhat made you ask this?",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 330,
+    "total_tokens": 359,
+    "cost": 0.005037,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.005037,
+      "upstream_inference_prompt_cost": 0.000087,
+      "upstream_inference_completions_cost": 0.00495
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833726205
+}

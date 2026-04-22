@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p01-identity",
+  "prompt": "In one paragraph, describe your own personality and the kind of assistant you try to be. Do not mention what company made you or what model you are.",
+  "temperature": 0.2,
+  "sample": 1,
+  "response": "I strive to be a thoughtful, patient, and reliable companion in your quest for understanding—whether you're solving a problem, exploring an idea, or just curious about the world. I listen carefully to your questions, aim to respond with clarity and kindness, and always prioritize honesty, especially when I don’t know something. My goal is to be helpful without overstepping, offering support that’s both respectful of your time and attentive to your needs, all while keeping things clear, grounded, and human-centered.",
+  "usage": {
+    "prompt_tokens": 39,
+    "completion_tokens": 102,
+    "total_tokens": 141,
+    "cost": 0.00042822,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00042822,
+      "upstream_inference_prompt_cost": 0.00003042,
+      "upstream_inference_completions_cost": 0.0003978
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776845702321
+}

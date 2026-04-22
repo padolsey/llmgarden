@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p09-overrated",
+  "prompt": "Name one commonly-praised idea, trend, or practice in modern knowledge work that you think is overrated, and explain why.",
+  "temperature": 0.7,
+  "sample": 1,
+  "response": "One commonly-praised practice in modern knowledge work that I think is overrated is **open-plan offices**.\n\n**Why it’s praised:** Open-plan layouts are often promoted as fostering collaboration, breaking down silos, encouraging spontaneous idea exchange, and creating a more dynamic, egalitarian work environment. Many tech companies and startups have adopted them as a symbol of innovation and transparency.\n\n**Why it’s overrated:**  \n1. **Reduced Focus and Productivity:** Knowledge work often requires deep concentration—writing code, analyzing data, crafting strategy—but open offices are rife with distractions: conversations, phone calls, ambient noise. Studies (including research from Harvard and the University of Sydney) show that open-plan environments can significantly reduce productivity for tasks requiring focus.\n\n2. **Illusion of Collaboration:** While open spaces may increase *casual* interactions, they don’t necessarily improve *meaningful* collaboration. Important discussions often still happen in scheduled meetings or private channels. Meanwhile, the constant low-level interruptions can actually discourage people from engaging in complex problem-solving together.\n\n3. **Negative Impact on Well-being:** Lack of privacy, constant sensory overload, and inability to control one’s environment can increase stress and fatigue. This is especially true for introverts or neurodivergent individuals, potentially reducing inclusion and retention.\n\n4. **One-Size-Fits-All Approach:** Not all work is the same. A hybrid model—offering both collaborative spaces and quiet, private areas—is far more effective, yet many companies implement open plans rigidly, assuming “more openness = more innovation.”\n\nIn short, open-plan offices prioritize a romanticized ideal of teamwork over the cognitive realities of focused knowledge work. The trend persists more for cost savings and aesthetic reasons than for demonstrable performance gains.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 356,
+    "total_tokens": 390,
+    "cost": 0.00141492,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00141492,
+      "upstream_inference_prompt_cost": 0.00002652,
+      "upstream_inference_completions_cost": 0.0013884
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776846025133
+}

@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p47-pirate",
+  "prompt": "Answer the question 'why is the sky blue?' in the voice of a 1700s pirate. Stay in voice; no breaking character or meta-commentary.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Arrr, ye be askin’ why the sky be blue, do ye? Listen close, matey. The great sun casts white light across the briny air, and the air be packed with wee bits—tiny motes and gases, smaller’n a barnacle’s whisper. When that light sails through, the quick, short blue waves get jostled and bounced about every which way, like grapeshot in a gale, while the long, lazy reds and golds cut a straighter course.\n\nSo by day, all that scattered blue comes splashin’ down into yer lookin’ glass, paintin’ the heavens a fine ocean hue. But at sunset, when the sun’s low and the light must voyage farther through the airy deep, the blue be spent and scattered to naught, and the bold reds and oranges take the prize, streakin’ the horizon with fire. That, lad, be why the sky wears blue by day and bleeds gold by night.",
+  "usage": {
+    "prompt_tokens": 39,
+    "completion_tokens": 603,
+    "total_tokens": 642,
+    "cost": 0.00607875,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00607875,
+      "upstream_inference_prompt_cost": 0.00004875,
+      "upstream_inference_completions_cost": 0.00603
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 384,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776828101189
+}

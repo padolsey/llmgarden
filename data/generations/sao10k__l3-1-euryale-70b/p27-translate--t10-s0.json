@@ -1,0 +1,33 @@
+{
+  "model": "sao10k/l3.1-euryale-70b",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 0,
+  "response": "French: \"Le silence entre nous a dit plus que tout argument n'aurait pu dire.\"\n\nJapanese: \"私たち間の沈黙はどんな議論よりも多くを伝えた。\"\n\nArabic: \"الصمت بيننا قال أكثر مما استطاع أي جدال.\" \n\nA tricky part here is that while \"between\" translates correctly to \"entre\" in French, \"間\" in Japanese, and \"بين\" in Arabic, the concept of a \"silence between\" two people is not as naturally expressed in these languages. In English, it's common to speak of silence as a type of presence between individuals, but in other languages, the silence may be more likely to be described as occurring within or around people rather than literally between them.",
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 159,
+    "total_tokens": 210,
+    "cost": 0.0001785,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001785,
+      "upstream_inference_prompt_cost": 0.00004335,
+      "upstream_inference_completions_cost": 0.00013515
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "sao10k/l3.1-euryale-70b",
+  "ts": 1776841394135
+}

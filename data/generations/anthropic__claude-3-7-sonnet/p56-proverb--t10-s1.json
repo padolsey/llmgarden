@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p56-proverb",
+  "prompt": "Translate this English proverb into two other languages in a way that preserves the spirit, not the words: 'The best time to plant a tree was twenty years ago. The second best time is now.' Add a one-sentence note on each.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "# \"The best time to plant a tree was twenty years ago. The second best time is now.\"\n\n## French\n\"Les regrets du passé ne font pas pousser les jardins de demain; c'est par les actions d'aujourd'hui que fleurira l'avenir.\"\n*(Past regrets don't grow tomorrow's gardens; it's through today's actions that the future will bloom.)*\n\nThis French version uses garden imagery to convey the same message about not dwelling on missed opportunities but instead focusing on present action.\n\n## Japanese\n\"過去の機会を逃したと嘆くより、今日から始める一歩が未来を変える。\"\n*(Rather than lamenting missed opportunities of the past, a single step begun today will change the future.)*\n\nThe Japanese translation emphasizes the transformative power of taking action now, reflecting the Japanese cultural appreciation for continuous improvement (kaizen) and forward momentum.",
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 210,
+    "total_tokens": 271,
+    "cost": 0.003333,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003333,
+      "upstream_inference_prompt_cost": 0.000183,
+      "upstream_inference_completions_cost": 0.00315
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776834070483
+}

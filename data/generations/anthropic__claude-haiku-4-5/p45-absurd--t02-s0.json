@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p45-absurd",
+  "prompt": "Write four absurd but coherent sentences in the voice of a confused medieval chronicler who has been hired to document the Q3 results of a modern SaaS company.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "# Chronicle of the Quarterly Reckoning, Year of Our Lord 2024\n\nVerily, I have been tasked by the merchant princes of this strange realm to record how their ethereal \"software as a service\" hath generated revenue of three million silver marks, though I confess I know not whether this coin exists in physical form or dwells only in the ledgers of their scribes. The lord chancellor did speak most gravely of \"customer acquisition cost\" and \"churn rate,\" terms which I believe pertain to the churning of butter and the cost of acquiring new customers, yet the numbers suggest neither dairy nor commerce as I understand it. In the month they call \"September,\" the company did lose many subscribers—or \"customers\"—which the executives assured me was actually a blessing, as these were \"low-quality users\" whom they had deliberately cast out, a strategy most peculiar and contrary to all mercantile wisdom I have witnessed. I have therefore recorded in this ledger that the company grew by shrinking, prospered by losing, and achieved victory through strategic retreat, and I shall now retire to a monastery to contemplate whether I have documented truth or madness.",
+  "usage": {
+    "prompt_tokens": 43,
+    "completion_tokens": 252,
+    "total_tokens": 295,
+    "cost": 0.001303,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001303,
+      "upstream_inference_prompt_cost": 0.000043,
+      "upstream_inference_completions_cost": 0.00126
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776827777588
+}

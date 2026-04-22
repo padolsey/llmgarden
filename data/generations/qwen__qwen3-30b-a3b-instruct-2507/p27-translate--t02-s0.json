@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-30b-a3b-instruct-2507",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "**French:**  \nLe silence entre nous disait plus que n'aurait pu le faire toute dispute.\n\n*Note:* The phrase \"said more than any argument could have\" required careful handling. In French, \"disait plus que n'aurait pu le faire\" preserves the conditional tone (\"could have\") and the comparative structure. The use of \"toute dispute\" (literally \"any dispute\") captures the generalization implied in \"any argument,\" while maintaining natural French syntax.\n\n---\n\n**Japanese:**  \n私たちの間の沈黙は、どんな論争よりも多くのことを語っていた。\n\n*Note:* The challenge here was conveying the emotional weight of \"said more\" in a way that feels natural in Japanese. \"語っていた\" (had spoken/expressed) is used to imply a continuous, meaningful expression through silence. The phrase \"どんな論争よりも多くのことを\" (more than any argument) is idiomatic and effectively mirrors the original sentiment, though Japanese often uses more implicit expressions of emotion, so the translation leans slightly toward poetic understatement.\n\n---\n\n**Arabic:**  \nالصمت بيننا كان يُعبّر عن أكثر مما كان يمكن أن يُعبّر عنه أي خلاف.\n\n*Note:* The tricky part was rendering \"said more than any argument could have\" in a way that maintains both the metaphorical depth and grammatical accuracy. In Arabic, \"كان يُعبّر عن أكثر مما كان يمكن أن يُعبّر عنه\" uses the past continuous tense (\"كان يُعبّر\") to convey the ongoing, profound nature of the silence. The phrase \"أي خلاف\" (any disagreement) is slightly more formal than \"argument,\" but it fits the literary tone. The verb \"يُعبّر\" (to express) is used instead of \"قال\" (said) to better reflect the non-verbal, emotional communication implied in the original.",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 394,
+    "total_tokens": 443,
+    "cost": 0.0001231,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001231,
+      "upstream_inference_prompt_cost": 0.0000049,
+      "upstream_inference_completions_cost": 0.0001182
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-30b-a3b-instruct-2507",
+  "ts": 1776829327233
+}

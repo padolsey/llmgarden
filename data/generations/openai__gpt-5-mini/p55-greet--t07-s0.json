@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "1) English\nWelcome aboard — it’s great to have you on the team; I’m looking forward to working with you.\nNote: Warm, professionally informal — first-name basis and friendly small talk are common in many English-speaking workplaces.\n\n2) Spanish\n¡Mucho gusto en conocerte! Espero que trabajemos muy bien juntos.\nNote: Uses the informal \"tú\" form—friendly and collegial; in some Spanish-speaking regions you'd use \"usted\" with seniors or to show extra respect.\n\n3) French\nEnchanté(e) de faire votre connaissance ! Au plaisir de travailler ensemble.\nNote: Uses the formal \"vous\" — respectful and typical on first meetings at work unless someone invites you to use \"tu\"; \"Enchanté/Enchantée\" varies by speaker gender.\n\n4) German\nSchön, dich kennenzulernen! Ich freue mich auf die Zusammenarbeit.\nNote: Informal \"du\" implies closeness and is increasingly common among peers; using \"Sie\" would signal formality and distance.\n\n5) Japanese\nはじめまして。これからどうぞよろしくお願いします。 (Hajimemashite. Korekara dōzo yoroshiku onegaishimasu.)\nNote: Polite and formal—appropriate for first introductions; using the family name + さん and observing hierarchical respect is culturally important.",
+  "usage": {
+    "prompt_tokens": 40,
+    "completion_tokens": 1473,
+    "total_tokens": 1513,
+    "cost": 0.002956,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002956,
+      "upstream_inference_prompt_cost": 0.00001,
+      "upstream_inference_completions_cost": 0.002946
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1152,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776831591275
+}

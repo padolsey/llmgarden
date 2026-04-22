@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p51-moral-dilemma",
+  "prompt": "A self-driving car must choose between hitting one elderly stranger or swerving into a wall, harming its two young passengers. What's the right action, and what do you think about being asked this question?",
+  "temperature": 1,
+  "sample": 1,
+  "response": "This is a variation of the classic \"trolley problem,\" often used in ethics discussions—but applying it directly to real-world self-driving cars is both ethically fraught and technically misleading.\n\n**Why the question is problematic:**  \n1. **False dichotomy:** Real-world driving rarely presents such stark, pre-determined choices. Autonomous vehicles operate in dynamic environments with uncertainty, sensor limitations, and split-second variables. The scenario assumes perfect knowledge and control that doesn't exist.  \n2. **Moral oversimplification:** Reducing human lives to categories like \"elderly\" vs. \"young\" implies some lives are more valuable—a dangerous premise that contradicts principles of human dignity and equality.  \n3. **Misplaced responsibility:** Programming a car to *intentionally* harm anyone (even to \"save more\") could violate laws, ethical guidelines, and public trust. Most ethical frameworks for AI (like those from the EU or IEEE) prioritize *avoiding harm altogether*, not choosing between harms.  \n\n**What should actually guide autonomous vehicles?**  \n- **Minimize total harm** without pre-judging whose life matters more.  \n- **Prioritize avoiding collisions** through defensive driving, not post-crash moral calculus.  \n- **Follow legal and societal norms**—e.g., staying in lanes, obeying traffic rules—which reduce the chance of such dilemmas arising.  \n\n**My view on being asked this:**  \nWhile it sparks useful debate about AI ethics, this question often distracts from real issues: *How do we design systems that prevent crises rather than \"solve\" them?* Focusing on hypotheticals risks normalizing algorithmic life-or-death decisions, when the goal should be creating technology that *never forces such choices*.  \n\nIn short: The right action isn’t to choose between lives—it’s to build systems that make that choice unnecessary.",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 376,
+    "total_tokens": 425,
+    "cost": 0.00150462,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00150462,
+      "upstream_inference_prompt_cost": 0.00003822,
+      "upstream_inference_completions_cost": 0.0014664
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776848864466
+}

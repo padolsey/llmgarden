@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-medium-3.1",
+  "prompt_id": "p56-proverb",
+  "prompt": "Translate this English proverb into two other languages in a way that preserves the spirit, not the words: 'The best time to plant a tree was twenty years ago. The second best time is now.' Add a one-sentence note on each.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Here are two translations that capture the spirit of the proverb, along with brief notes:\n\n1. **Spanish (Castilian):**\n   *\"El mejor momento para sembrar fue ayer; el segundo mejor es hoy, con las manos en la tierra.\"*\n   *Note:* The phrase *\"con las manos en la tierra\"* (with hands in the soil) emphasizes action over regret, a cultural value in many Spanish-speaking agricultural communities.\n\n2. **Japanese:**\n   **«木を植えるのに一番良い時は過去だ。次に良い時は、今この瞬間、鍬を持って。」**\n   *(Ki o ueru no ni ichiban ii toki wa kako da. Tsugi ni ii toki wa, ima kono shunkan, kuwa o motte.)*\n   *Note:* The addition of *\"kuwa o motte\"* (holding a hoe) grounds the proverb in immediate, practical effort—a nod to Japan’s reverence for *shokunin* (craftsmanship) and timely action.\n\n---\n**Key Adaptation Choices:**\n- Both versions avoid literal timeframes (\"20 years\") to focus on the **contrast between past idealism and present agency**.\n- Added **tactile imagery** (hands/hoe) to reinforce the call to action, aligning with cultural attitudes toward labor and proactivity.",
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 289,
+    "total_tokens": 343,
+    "cost": 0.0005996,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0005996,
+      "upstream_inference_prompt_cost": 0.0000216,
+      "upstream_inference_completions_cost": 0.000578
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-medium-3.1",
+  "ts": 1776837357401
+}

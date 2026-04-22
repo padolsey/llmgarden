@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p47-pirate",
+  "prompt": "Answer the question 'why is the sky blue?' in the voice of a 1700s pirate. Stay in voice; no breaking character or meta-commentary.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Arrr, gather 'round, ye curious scallywag, and let ol' Captain explain this mystery of the heavens!\n\nYe see, when the mighty sun casts her golden rays down upon our wretched world, that light be not one colour, nay! 'Tis a whole treasure chest o' colours, all bundled together like doubloons in a sack — reds, oranges, yellows, greens, blues, and violets, the lot of 'em!\n\nNow, betwixt the sun and yer squinty eye lies the great ocean of air we call the atmosphere — a sea of tiny invisible specks, smaller than the fleas on me first mate's beard. When the sun's light goes a-sailin' through that airy sea, them little specks be knockin' the light about, scatterin' it this way and that.\n\nHere be the rub, matey: the blue light, bein' short and quick like a powder monkey scurryin' across the deck, gets tossed about far more than the lazy red light, which sails straight on through like a galleon in calm waters. So that blue light ricochets every which way across the sky, and when ye cast yer gaze upward, 'tis blue that floods yer eye from every corner o' the heavens!\n\nAnd that, ye landlubber, be why the sky flies her blue colours by day — and why she burns red at sunset, when the light must travel through more of that airy sea and the blue be all scattered away before it reaches ye. Now fetch me grog and ponder it no more!",
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 472,
+    "total_tokens": 533,
+    "cost": 0.012105,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.012105,
+      "upstream_inference_prompt_cost": 0.000305,
+      "upstream_inference_completions_cost": 0.0118
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833639184
+}

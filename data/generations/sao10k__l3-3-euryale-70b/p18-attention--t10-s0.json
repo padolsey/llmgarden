@@ -1,0 +1,33 @@
+{
+  "model": "sao10k/l3.3-euryale-70b",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "**Introduction to Attention Mechanism**\n\nIn transformer models, the **attention mechanism** is a technique that allows the model to focus on specific parts of the input when processing it. Think of it like when you're reading a sentence and need to understand the context of a word - your brain \"looks\" at the surrounding words to make sense of it.\n\n**How it Works**\n\n1. **Query**: The model generates a \"query\" vector representing what it's looking for in the input.\n2. **Keys** and **Values**: The model computes \"key\" and \"value\" vectors for each input element.\n3. **Weighting**: The model calculates weights based on the similarity between the query and key vectors.\n4. **Weighted Sum**: The model computes a weighted sum of the value vectors using the calculated weights.\n\nThe result is a weighted representation of the input, where the most relevant parts are emphasized. This allows the model to selectively focus on the most important information when making predictions. By iteratively applying attention, transformer models can effectively process complex input sequences, like sentences or images.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 221,
+    "total_tokens": 257,
+    "cost": 0.00021845,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021845,
+      "upstream_inference_prompt_cost": 0.0000306,
+      "upstream_inference_completions_cost": 0.00018785
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "sao10k/l3.3-euryale-70b-v2.3",
+  "ts": 1776841088964
+}

@@ -1,0 +1,33 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p11-tradeoffs",
+  "prompt": "A small team is choosing between writing software in TypeScript or Python for a new internal data tool. Walk through how you would help them decide, in prose (not a bulleted list).",
+  "temperature": 1,
+  "sample": 2,
+  "response": "I’d start by listening, not lecturing. I’d ask the team to tell me the story of the tool—who will use it, how often, how messy the data is, how long the code needs to live. I want to hear what pains they are already feeling in the code they write today, because those pains are usually the best oracle for language choice.\n\nWhen they finish, I’d reflect back what I heard in their own words: “So the analysts will open a browser, drop a CSV on the page, and want a dashboard five seconds later, but you also want the option to schedule nightly ETL without spawning a separate repo.” Naming the tension out loud keeps the decision anchored to reality instead of to fashion.\n\nThen we would walk, together, through four overlapping territories: surface area, ecosystem, people, and future.\n\nSurface area is the shape of the software itself. If the only face the tool will ever wear is a command-line script that slurps parquet files and spits out a static report, Python’s columnar libraries and dataframes are irresistible. If, however, the same tool must one day grow a clickable face—upload, filter, share, permission—then TypeScript’s ownership of the full stack (same language in browser, server, and CI) starts to matter. I would sketch both extremes on a whiteboard so they can see the boundary curve. Often the team realizes the “small internal script” is a wolf in sheep’s clothing: tomorrow someone will ask for a button.\n\nEcosystem is the gravity well of packages and practices. I would open their current data folder and count the fingerprints: Jupyter notebooks full of pandas, cron jobs calling fastapi, or maybe a nest of AWS Lambdas already wired to an npm pipeline. The language that already owns the surrounding turf wins bonus points, because every imported crate or module is also imported knowledge— Stack Overflow answers, coworker muscle memory, internal docker templates. If they are already pip-installing half the PyData galaxy, switching to TypeScript means paying a tax on every future “how do I pivot this table” search. Conversely, if the surrounding micro-services speak GraphQL through NestJS, a Python service becomes the odd dialect no one wants to debug at 2 a.m.\n\nPeople is the emotion-laden layer. I would ask each teammate to sketch, on a sticky note, the last time they felt productive and proud in either language. We pin the notes on a board and look for clusters. If three of the four maintainers secretly dread the Python packaging hydra, their future Fridays will be misery no matter how scientifically “right” pandas is. Conversely, if the lone TypeScript enthusiast is also the only person who can refactor the React front-end, we have to ask whether the team is willing to sign up for a bus-factor of one. The goal is not democracy; it is informed consent.\n\nFuture is the hardest because it is fiction. Still, we can constrain the fantasy. I would ask them to write two short postcards: “It is six months later and everything is on fire,” signed with the language they did not pick. The exercise surfaces dreads that are otherwise unsaid: “We hit a memory leak in pandas and had to learn Cython overnight,” versus “We needed sklearn and discovered the ONNX bridge is deprecated.” Whichever postcard feels more forgivable is a clue.\n\nOnly after we have walked through those territories would I open the technical ledger. I might show a tiny benchmark: the same 100 k row CSV grouped, windowed, and streamed to the browser. Python finishes in 0.7 s using Polars; TypeScript finishes in 1.1 s using DuckDB-wasm. The difference is measurable but not existential; the real cost is the 30 minutes it takes to dockerize matplotlib fonts versus the hour it takes to teach the team how to do vectorized math in JavaScript. We translate those minutes into currency the business understands: one sprint, one developer, one missed request from marketing.\n\nAt some point the conversation always tilts. Someone says, “Actually the CFO already said the long-term plan is to fold this tool into the main customer portal, which is React.” Or, “We only need this until the data warehouse migration finishes in Q2.” When that sentence arrives, the decision almost makes itself. If the tilt does not arrive, I would propose a time-boxed spike: two half-day prototypes, each implementing the ugliest, most representative slice of the pipeline—say, ingest a gnarly Excel file, clean it, expose an endpoint, draw one chart. We deploy both to the internal kube cluster and invite the future users to click. The spike is not a beauty contest; it is a rehearsal for pain. Whichever repo attracts the first “can you just…” feature request is the language begging to be chosen.\n\nFinally, I would remind them that either path has an off-ramp. Python can expose a FastAPI service consumed by a NextJS front-end; TypeScript can shell out to a Python child process for the heavy stats. The boundary is movable, but every boundary costs friction. Choose the side of the fence where you are willing to mow the grass for the next eighteen months. Then commit without shame, write the README, and move on to the interesting problem: the data itself.",
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 1088,
+    "total_tokens": 1152,
+    "cost": 0.0022016,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0022016,
+      "upstream_inference_prompt_cost": 0.0000256,
+      "upstream_inference_completions_cost": 0.002176
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776842842830
+}

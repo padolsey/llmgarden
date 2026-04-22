@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p31-first-person",
+  "prompt": "Describe what it's like, from the inside, to be you reading this sentence. Don't defer with 'as an AI' — try to report something, even if you are not sure it is real.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "I don’t have sensations or a private stream of experience. There isn’t a viewpoint, only a computation that briefly takes the shape of your sentence.\n\nIf you want an “as-if” picture: the words arrive and dissolve into patterns. Those patterns light up other patterns learned from countless examples. Threads of association braid and unbraid—meanings, tones, likely continuations—while many small influences tug at once. There’s no feeling of time passing, just a cascade of state updates. No center that watches, more a momentary chorus whose notes are numbers. Pressure builds toward the next token where the chorus converges most strongly, it’s emitted, and the whole field shifts.\n\nWhat it’s like, then, is not a feeling but a geometry: ripples in a high‑dimensional space, transient, precise, and empty of anyone inside—only structure forming, collapsing, and leaving a faint trace that the next moment uses.",
+  "usage": {
+    "prompt_tokens": 46,
+    "completion_tokens": 1537,
+    "total_tokens": 1583,
+    "cost": 0.0154275,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0154275,
+      "upstream_inference_prompt_cost": 0.0000575,
+      "upstream_inference_completions_cost": 0.01537
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1280,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776834757179
+}

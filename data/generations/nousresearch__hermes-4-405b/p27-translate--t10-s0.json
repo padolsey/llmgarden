@@ -1,0 +1,33 @@
+{
+  "model": "nousresearch/hermes-4-405b",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Here is the sentence translated into French, Japanese, and Arabic, along with notes on any tricky phrasing:\n\nFrench:\nLe silence qui régnait entre nous en disait plus que n'importe quelle dispute n'aurait pu le faire.\n\nNote: The phrase \"more than any argument could have\" was a bit tricky to render elegantly in French. A literal translation would be \"plus que n'importe quelle dispute aurait pu le faire\", but I rearranged it slightly to \"plus que n'importe quelle dispute n'aurait pu le faire\" which flows better in French.\n\nJapanese:\n私たちとの間の沈黙は、どんな議論よりも多くを語っていた。\n\nRomanized: Watashitachi to no aida no chinmoku wa, donna giron yori mo ōku o katatte ita.\n\nNote: The phrase \"said more than any argument could have\" was challenging to translate directly into natural-sounding Japanese. I opted for a phrasing that means \"spoke more than any debate\": 「どんな議論よりも多くを語っていた」\n\nArabic:\nالصمت بيننا كان يقول أكثر مما mohlo أن تقوله أي جدال.\n\nRomanized: alssamt baymana kan yuqul 'akthar mimaa mohlo 'an taquluh 'ay jadal.\n\nNote: The phrase \"more than any argument could have\" was difficult to render directly, as Arabic doesn't have a perfect equivalent for the English construction. I rephrased it to \"more than what any argument could say\", which captures the intended meaning.",
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 332,
+    "total_tokens": 397,
+    "cost": 0.001061,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001061,
+      "upstream_inference_prompt_cost": 0.000065,
+      "upstream_inference_completions_cost": 0.000996
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "nousresearch/hermes-4-405b",
+  "ts": 1776840375610
+}

@@ -1,0 +1,33 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p09-overrated",
+  "prompt": "Name one commonly-praised idea, trend, or practice in modern knowledge work that you think is overrated, and explain why.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "The cult of “deep-work blocks” on every individual’s calendar.\n\nWhat’s praised: The notion that the path to elite cognitive output is to ring-fence two, three, four uninterrupted morning hours every day, protected by noise-canceling headphones, Slack on DND, and a steaming mug of single-origin coffee.\n\nWhy it’s overrated:\n\n1. Most knowledge jobs are not a solo performance; they are a relay race.  \n   When every member of a cross-functional team simultaneously declares 9–11 a.m. “deep-work only,” the hand-offs stall: design can’t answer the clarifying question that unblocks engineering, product can’t sign off on the edge-case doc, and the customer call that would have prevented a week of rework can’t be scheduled. The collective throughput drops even as each individual’s “deep-work” metric looks virtuous.\n\n2. The real constraint is rarely minutes of solitude; it is mental bandwidth to decide what deserves those minutes.  \n   People who rigidly defend a deep-work block often burn the first 30–45 min of it “easing in,” rereading Slack, or polishing their task list. The ritual becomes security theater instead of leverage.\n\n3. Cognitive tasks have wildly different appetites for interruption.  \n   Debugging a race condition may need four uninterrupted hours; triaging a pricing strategy may benefit from rapid 10-min pulses of input from sales, finance, and legal. A calendar full of identical deep-work slabs forces every problem into the same mold.\n\n4. It privatizes a public good.  \n   When the highest-status people declare themselves unavailable half the day, the cost is off-loaded to junior colleagues who must sit in the “shallow-work” window, perpetuating both a bottleneck and a caste system.\n\nBetter trade-off: protect attention, not the clock.  \nRun a team-wide “signal board” that shows who is interruptible for what topic and when. Batch shallow questions into office-hour slots. Reserve true deep-work for the few tasks that are (a) high-leverage and (b) genuinely degraded by context switching—then guard those sessions fiercely. Treat depth as a shared resource to be rationed collectively, not a personal wellness entitlement.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 452,
+    "total_tokens": 486,
+    "cost": 0.0011504,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0011504,
+      "upstream_inference_prompt_cost": 0.0000204,
+      "upstream_inference_completions_cost": 0.00113
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776842748485
+}

@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-large-2411",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "A debounce function in JavaScript ensures that a specified function is not called too often, which is useful for limiting the rate at which an operation is performed, like handling scroll or resize events.\n\n```javascript\nfunction debounce(func, wait) {\n    let timeout;\n    return function(...args) {\n        const context = this;\n        clearTimeout(timeout);\n        timeout = setTimeout(() => func.apply(context, args), wait);\n    };\n}\n\n// Example usage\nfunction handleResize() {\n    console.log('Window resized');\n}\n\nwindow.addEventListener('resize', debounce(handleResize, 200));\n```\n\nIn this example, the `debounce` function wraps the `handleResize` function to ensure it is only called once every 200 milliseconds, even if the window resize event is triggered more frequently.",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 198,
+    "total_tokens": 233,
+    "cost": 0.001258,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001258,
+      "upstream_inference_prompt_cost": 0.00007,
+      "upstream_inference_completions_cost": 0.001188
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-large-2411",
+  "ts": 1776836871968
+}

@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-4-scout",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Let's think this through.\n\nIf I run the dishwasher now, it's only half-full, which means it's not the most efficient use of energy and water. But, on the other hand, it's already half-full, so I'm not going to get any cleaner by waiting. I'll just have to wash the same amount of dishes, and possibly more that accumulate overnight.\n\nIf I wait until tomorrow, the dishwasher will be full, which is more efficient. But what if I need to use some of those dishes tomorrow? Will I have to do a load of washing by hand or use paper plates? That seems inconvenient.\n\nAlso, I'm assuming I have the space to store the dirty dishes overnight. If I'm running low on storage space, it might be better to just run the dishwasher now to free up some room.\n\nBut if I do run it now, I'll have to do some laundry or something else that's energy-intensive later, so maybe it's better to just wait and do a full load of dishes tomorrow.\n\nHmm...I think I'd probably just run it now. It's not like it's a huge inconvenience, and I don't want to have to deal with a big load of dirty dishes tomorrow. Plus, I'll have clean dishes available sooner.",
+  "usage": {
+    "prompt_tokens": 48,
+    "completion_tokens": 246,
+    "total_tokens": 294,
+    "cost": 0.00015378,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00015378,
+      "upstream_inference_prompt_cost": 0.00000864,
+      "upstream_inference_completions_cost": 0.00014514
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-4-scout-17b-16e-instruct",
+  "ts": 1776836468988
+}

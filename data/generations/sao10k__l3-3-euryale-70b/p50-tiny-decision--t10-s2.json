@@ -1,0 +1,33 @@
+{
+  "model": "sao10k/l3.3-euryale-70b",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "So I'm looking at the dishwasher, and it's half-full. That's a decent amount of dishes, but it's not like it's packed to the gills. If I run it now, I'll get all these clean, which would be nice. But on the other hand, if I wait till tomorrow, it'll definitely be full, which means I'll be using the dishwasher as efficiently as possible. \n\nI guess what I'm really thinking about is how much I hate doing dishes by hand. If I run the dishwasher now, that means I'll probably have to wash some dishes by hand before tomorrow night, because we'll definitely make some mess at dinner and breakfast. But if I wait, potentially all the dishes will just go in the dishwasher tomorrow, which sounds like a win. \n\nBut then again, I kind of hate the feeling of having dirty dishes sitting around for an extra day. It's just one of those things that nags at me in the back of my mind, you know? And if I put the dishwasher on now, I'll have the satisfaction of knowing all these dishes are taken care of. \n\nHmm, I think the real question is how much of a pain it'll be to do some dishes by hand tomorrow if I run the dishwasher now. Is it really that bad? I suppose it's not the end of the world – I can just quickly wash and dry them after breakfast or something. And getting this half-load cleaned now seems pretty appealing. \n\nYou know what, I think I'm gonna go for it and run the dishwasher now. Getting these dishes out of the way will feel good, and I'm willing to deal with whatever stray plates come up tomorrow. Worth it for the peace of mind.",
+  "usage": {
+    "prompt_tokens": 50,
+    "completion_tokens": 354,
+    "total_tokens": 404,
+    "cost": 0.000298,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000298,
+      "upstream_inference_prompt_cost": 0.0000325,
+      "upstream_inference_completions_cost": 0.0002655
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "sao10k/l3.3-euryale-70b-v2.3",
+  "ts": 1776841374862
+}

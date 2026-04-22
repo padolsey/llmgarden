@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-medium-3.1",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Here’s how I’d actually think through it in real time, weighing the messy, practical trade-offs:\n\n1. **The Immediate Hassle Factor**\n   - If I run it now, I have to:\n     - Scrape/rinses the half-full load (annoying if I’m tired or in the middle of something).\n     - Unload the clean dishes later tonight or tomorrow morning (which might block the sink if I need it).\n     - Listen to the dishwasher hum for an hour (if that bugs me).\n   - If I wait:\n     - I’ll have to hand-wash or stack the dirty dishes overnight (gross if they’re greasy or smelly).\n     - The sink might get cluttered, which stresses me out if I’m cooking tomorrow.\n\n2. **The \"Full Load\" Guilt vs. Reality**\n   - *Ideally*, waiting for a full load saves water/energy. But:\n     - Is tomorrow’s \"definitely full\" actually guaranteed? Or will I end up with a half-full load *then* too?\n     - If I’m using the dishwasher daily anyway, the marginal savings of waiting might be tiny (modern dishwashers use ~3–5 gallons per load, whether full or half).\n     - If I *don’t* run it now, will I forget and let dishes pile up for days? (Ask me how I know.)\n\n3. **The Tomorrow-Me Problem**\n   - Future-me is lazy. If I leave dishes overnight:\n     - Will I actually load the rest tomorrow, or will \"full\" become \"overflowing\"?\n     - Will tomorrow’s dishes be worse (e.g., dried-on food that needs soaking)?\n   - But if I run it now, tomorrow-me gets a fresh empty dishwasher—no pre-loading required. That’s a nice gift.\n\n4. **The Smell/Test**\n   - Sniff the dishes currently in the dishwasher. If they’re starting to whiff (e.g., fish, dairy, or anything that’ll get funky overnight), run it now. Life’s too short for stinky kitchens.\n   - If they’re just plates with dry crumbs, they can probably wait.\n\n5. **The Energy Timing Hack**\n   - If I’m on time-of-use electricity rates, is now a cheaper time to run it (e.g., overnight off-peak)? If so, maybe wait and set it to run at 2 AM.\n   - If not, the energy difference is likely negligible unless I’m *very* close to a full load.\n\n6. **The Psychological Win**\n   - Sometimes I run it half-full just to feel like I’ve \"accomplished\" a chore. If I’m in a cleaning mood, I’ll lean toward doing it now.\n   - If I’m overwhelmed, I’ll procrastinate and tell",
+  "usage": {
+    "prompt_tokens": 44,
+    "completion_tokens": 600,
+    "total_tokens": 644,
+    "cost": 0.0012176,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0012176,
+      "upstream_inference_prompt_cost": 0.0000176,
+      "upstream_inference_completions_cost": 0.0012
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-medium-3.1",
+  "ts": 1776837320983
+}

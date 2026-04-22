@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p54-menu",
+  "prompt": "Design a three-course menu for a rainy Sunday lunch for two people who have known each other a long time. Dishes only — no explanation.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "# Rainy Sunday Lunch for Two\n\n**First Course**\nButternut squash soup with sage brown butter and crusty bread\n\n**Main Course**\nBeef and ale pie with creamed celery root and roasted root vegetables\n\n**Dessert**\nChocolate and raspberry tart with crème fraîche",
+  "usage": {
+    "prompt_tokens": 38,
+    "completion_tokens": 73,
+    "total_tokens": 111,
+    "cost": 0.000403,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000403,
+      "upstream_inference_prompt_cost": 0.000038,
+      "upstream_inference_completions_cost": 0.000365
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833931265
+}

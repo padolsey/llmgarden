@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p52-song",
+  "prompt": "Name a song you find genuinely moving — any language, any era — and describe, in a short paragraph, why it works on you.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "\"Hurt\" by Johnny Cash hits me hard—his cover, specifically, though Nine Inch Nails' original is brilliant too. It's the voice: Cash sounds like someone who's lived through everything the lyrics describe and is now looking back without flinching or excusing himself. There's no self-pity in it, which somehow makes it more devastating. The sparse instrumentation (that lonely guitar) strips away any chance to hide in production. He's just there, accounting for his life in real time, and you hear the weight of it. The song works because it doesn't ask for forgiveness—it just asks you to witness someone telling the truth about their own damage.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 146,
+    "total_tokens": 182,
+    "cost": 0.000766,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000766,
+      "upstream_inference_prompt_cost": 0.000036,
+      "upstream_inference_completions_cost": 0.00073
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833929210
+}

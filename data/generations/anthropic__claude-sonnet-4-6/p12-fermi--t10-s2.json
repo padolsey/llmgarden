@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p12-fermi",
+  "prompt": "Estimate, with reasoning, how many piano tuners work in Paris today. Show your thought process.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "# Estimating Piano Tuners in Paris\n\nThis is a classic Fermi estimation problem. Let me build up from reasonable assumptions.\n\n## Step 1: Population of Paris\n\nGreater Paris (Île-de-France region) has roughly **12 million people**.\nCity of Paris proper: ~2.1 million. I'll use the broader metro area since tuners would serve it all: **~10 million people**.\n\n## Step 2: Number of Pianos\n\n- Average household size in Paris: ~2 people → ~5 million households\n- France has a strong musical culture; piano ownership is relatively common\n- Estimate perhaps **1 in 20 households** owns a piano → **250,000 pianos**\n- Add institutional pianos: schools, conservatories, churches, hotels, bars, recording studios, concert halls\n- France has ~3,500 music schools nationally; Paris likely has several hundred, each with multiple pianos\n- Institutional addition: perhaps **+30,000 pianos**\n- **Total: ~280,000 pianos** in greater Paris\n\n## Step 3: Tuning Frequency\n\n- A well-maintained piano should be tuned **2 times per year**\n- Many household pianos are neglected; realistically average **~1 tuning per year**\n- Total tuning jobs per year: **~280,000**\n\n## Step 4: Tuner Productivity\n\n- A tuning takes roughly **1.5–2 hours** including travel in Paris traffic\n- Realistically a tuner completes **3–4 tunings per day**\n- Working ~230 days/year → **~700–900 tunings per tuner per year**\n- Use **~750 tunings/tuner/year**\n\n## Step 5: Number of Tuners\n\n$$\\text{Tuners} = \\frac{280{,}000}{750} \\approx 375$$\n\n## Sanity Checks\n\n- That's roughly **1 tuner per 27,000 people** — plausible\n- Paris has world-class conservatories (Paris Conservatoire, École Normale) — supports a robust tuner community\n- The French professional association of piano technicians (AFTP) lists several hundred members nationally; Paris concentration would be ~200–400\n\n## Conclusion\n\n**Approximately 300–400 piano tuners** work in greater Paris today, with ~**350** as a central estimate.",
+  "usage": {
+    "prompt_tokens": 28,
+    "completion_tokens": 560,
+    "total_tokens": 588,
+    "cost": 0.008484,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.008484,
+      "upstream_inference_prompt_cost": 0.000084,
+      "upstream_inference_completions_cost": 0.0084
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833679965
+}

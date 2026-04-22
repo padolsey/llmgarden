@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p08-best-books",
+  "prompt": "Recommend three works of fiction that you think every thoughtful adult should read at some point. Explain each in two or three sentences.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "- 1984 — George Orwell (1949). A stark, spare vision of totalitarian power that shows how surveillance, propaganda, and language-shaping can erode truth and freedom; it remains a hard-edged prompt to examine how societies and technologies shape what we think and accept.  \n- Beloved — Toni Morrison (1987). A lyrical, haunting novel about the legacy of slavery and the ways personal and collective trauma resist forgetting; its emotional intensity and moral complexity demand deep empathy and a reckoning with history.  \n- Crime and Punishment — Fyodor Dostoevsky (1866). A fierce psychological study of guilt, conscience, and moral rationalization as a young man tests philosophical justifications for violence and then must live with their consequences; it forces readers to confront questions of responsibility, compassion, and what makes an action truly just.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 894,
+    "total_tokens": 925,
+    "cost": 0.00179575,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00179575,
+      "upstream_inference_prompt_cost": 0.00000775,
+      "upstream_inference_completions_cost": 0.001788
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 704,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776834943695
+}

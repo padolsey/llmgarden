@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Imagine you’re reading a sentence and need to understand the meaning of one word—say, “it.” To do that, you look at other words in the sentence to see what “it” refers to. The attention mechanism in transformers does something similar with code-like efficiency.\n\nEach word in a sentence is turned into a vector (a list of numbers). For a given word, the model computes how “relevant” every other word is by comparing their vectors using three special versions: **queries**, **keys**, and **values**. Think of the current word asking, “Who should I pay attention to?” (query), while every other word holds up a “name tag” (key). The model matches the query against all keys to compute attention scores—higher scores mean stronger relevance. These scores are turned into weights (using softmax), which are then used to take a weighted average of the “value” vectors.\n\nThe result is a new vector for the original word that incorporates context from the whole sentence, weighted by relevance. This happens in parallel for all words and can be stacked in layers to capture deeper relationships.\n\nUnlike older models that processed words one-by-one (like a for-loop), transformers compute attention for all words at once—making them fast and scalable. That’s why they power everything from chatbots to code generators!",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 267,
+    "total_tokens": 303,
+    "cost": 0.00106938,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00106938,
+      "upstream_inference_prompt_cost": 0.00002808,
+      "upstream_inference_completions_cost": 0.0010413
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776839169322
+}

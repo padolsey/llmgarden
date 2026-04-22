@@ -1,0 +1,33 @@
+{
+  "model": "cohere/command-r-plus-08-2024",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "A debounce function is a technique to control the rate of function execution, ensuring a set delay between calls, which is useful for handling events that can trigger multiple rapid consecutive invocations.\n\n```javascript\nfunction debounce(func, delay) {\n  let timeout;\n\n  return function(...args) {\n    clearTimeout(timeout);\n    timeout = setTimeout(() => {\n      func.apply(this, args);\n    }, delay);\n  };\n}\n\n// Example usage: Add an event listener to a button and debounce the event handling\ndocument.querySelector('#myButton').addEventListener('click', debounce(() => {\n  console.log('Button clicked! This will only log once per X milliseconds');\n}, 500));\n```\n\nIn this code, the `debounce` function takes a function (`func`) and a delay in milliseconds (`delay`) as arguments. It returns a new function that will delay the execution of the original function until after the delay has passed since the last invocation. The example demonstrates using the debounce function as an event handler for a button click, ensuring that the log message only appears once even if the button is rapidly clicked multiple times.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 242,
+    "total_tokens": 271,
+    "cost": 0.0024925,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0024925,
+      "upstream_inference_prompt_cost": 0.0000725,
+      "upstream_inference_completions_cost": 0.00242
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "cohere/command-r-plus-08-2024",
+  "ts": 1776839701669
+}

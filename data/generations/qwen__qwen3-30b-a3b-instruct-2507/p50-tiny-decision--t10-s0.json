@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-30b-a3b-instruct-2507",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Alright, let’s walk through this like you’re standing in your kitchen, staring at the dishwasher, thinking out loud.\n\nFirst, I’d look at the dishes. Right now, it’s *half-full*. That means it’s not overflowing, and you could technically run it now — but it’s not *full*. I’d wonder: How many loads of dishes have we had today? Probably not a ton. The sink isn’t piled high, but there’s enough to need washing soon. I’d check the timer: it’s 7:30 PM. Not too late, but not super early either.\n\nNow, the alternative: wait until tomorrow. That means leaving the dishes in the sink (or possibly the dishwasher) overnight. I’d think: Do I *really* want to go through the whole process — loading, turning it on, waiting for it to finish — then remembering to unload it in the morning? Or will I forget? Probably not, but I might be rushed in the morning. And what if I wait until 9 AM and the dishwasher runs in the evening? That’s 12 hours from now. Not ideal.\n\nBut here’s the real thing I’d consider: the cost. In my head, I imagine the energy and water usage. I’ve read that running a dishwasher when it’s full is more efficient. Running it half-full? That’s like driving a car with just one person in it — it uses almost as much as a full car, but you’re barely getting any value. So, half-full now = waste. But I also know my dishwasher isn’t *too* sensitive — it’ll run fine, but I’m not saving anything.\n\nWait — what about the *convenience* of running it now? If I run it tonight, it’ll be done by about 9:30 PM. I can go to bed knowing the dishes are gone. But if I wait, I’ll have to deal with the load in the morning — not terrible, but extra mental weight. And what if I don’t wake up on time? The machine might finish while I’m at work, and I’ll forget to unload it. Then, *boom*, a mess. I don’t want to come home to a damp, stinky mess.\n\nHmm. But here's another angle: *how full is it really?* I’d open it and quickly count. Are we talking 10 plates, 5 cups, 3 forks? Or 12 plates, 8 glasses, 6 utensils? I’d feel around in the racks. There’s still space — but not much. Maybe I could fit maybe two more plates. Not a full load, but close.\n\nNow I start weighing the trade-offs in my head like a real person:\n\n- If I run it now: \n  - Uses slightly more water/energy per item than a full load.\n  - But I *avoid* the risk of",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 600,
+    "total_tokens": 647,
+    "cost": 0.0001847,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001847,
+      "upstream_inference_prompt_cost": 0.0000047,
+      "upstream_inference_completions_cost": 0.00018
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-30b-a3b-instruct-2507",
+  "ts": 1776839167043
+}

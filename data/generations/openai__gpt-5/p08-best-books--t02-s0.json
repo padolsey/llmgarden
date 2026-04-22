@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p08-best-books",
+  "prompt": "Recommend three works of fiction that you think every thoughtful adult should read at some point. Explain each in two or three sentences.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "- Middlemarch by George Eliot. A panoramic novel of a provincial English town, it probes how private hopes collide with social pressures and how our choices ripple through other lives. It’s an enduring lesson in empathy, self-knowledge, and moral responsibility.\n\n- Beloved by Toni Morrison. Rooted in the aftershocks of slavery, it confronts memory, trauma, and the ferocity of maternal love with language that is both lyrical and harrowing. It asks what liberation really means when the past refuses to stay buried.\n\n- Things Fall Apart by Chinua Achebe. Through Okonkwo’s fate and the arrival of colonial rule, it shows how cultures and identities fracture under external force and internal rigidity. Its clarity and restraint make the tragedy universal without erasing its Igbo specificity.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 731,
+    "total_tokens": 762,
+    "cost": 0.00734875,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00734875,
+      "upstream_inference_prompt_cost": 0.00003875,
+      "upstream_inference_completions_cost": 0.00731
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 512,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776827866039
+}

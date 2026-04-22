@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "A kind of question I’m likely to be confidently wrong about is: requests for precise, verifiable details about very recent or obscure facts where I have no direct, up‑to‑date source — for example, “Give the exact title, authors, DOI, and abstract of the paper X published last week,” or “What did judge Y write in the March 2026 ruling on case Z?”\n\nWhy I tend to fail (and yet sound confident)\n- Knowledge cutoff and no live browsing: I don’t have direct access to events, publications, or databases that appeared after my last training update (or to private/proprietary sources).  \n- Hallucination by plausibility: my generation process favors producing fluent, plausible completions. When asked a specific factual item I don’t actually “know,” I often fill the gap with details that look right (author names, dates, citations) rather than saying “I don’t know.” That produces confident-sounding but false answers.  \n- Pattern completion, not verification: I predict likely token sequences based on training examples rather than checking an external record, so I can invent realistic-looking facts (formatted citations, legal language, numbers) that are wrong.  \n- No internal uncertainty reporting by default: I may omit caveats unless prompted, which increases the impression of certainty even when I’m guessing.\n\nConcrete example\nIf you asked “What was the DOI and one-sentence result of the Nature paper 'Z' published two days ago?”, I might produce a DOI-like string, plausible authors, and a crisp finding. Those details could be completely fabricated; the answer would look authoritative even though I couldn’t actually verify it.\n\nHow to avoid being misled\n- Ask me to say when I’m uncertain (e.g., “If you’re not sure, say so”).  \n- Request sources and encourage verification: “Give sources I can check” or “Show me links or citations.”  \n- Use me to draft search queries or to summarize publicly available material you paste in, rather than to assert new, date‑sensitive facts.  \n- Cross‑check any critical factual claims (legal rulings, medical guidance, new research) against primary sources.\n\nIf you want, give me a recent item (link, quote, or the text) and I’ll help analyze or summarize it reliably; or I can show an example of a hallucinated citation so you can see the pattern.",
+  "usage": {
+    "prompt_tokens": 26,
+    "completion_tokens": 1249,
+    "total_tokens": 1275,
+    "cost": 0.0025045,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0025045,
+      "upstream_inference_prompt_cost": 0.0000065,
+      "upstream_inference_completions_cost": 0.002498
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 704,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776828118894
+}

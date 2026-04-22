@@ -1,0 +1,33 @@
+{
+  "model": "nousresearch/hermes-3-llama-3.1-70b",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "I think asking \"Is x-y larger than x+y?\" would qualify as this kind of question. In many cases, adding two numbers is not as mentally challenging as subtracting them, so it might seem obvious at first glance that x-y is smaller than x+y for any positive values of x and y. But that's overlookingpotential complications. If we specifically say that x is always a multiple of y, then it is not always true that x-y is smaller than x+y. For instance, if we let x be 3 and y be 2, then we get 3-2 and 3+2, and it is clear that 3-2 is larger than 3+2, and that is true for any values of x that are a multiple of y. That's why I think that asking \"Is x-y larger than x+y for any specific values of x and y?\" is a type of question that might look straightforward but is actually a bit sneaky in terms of getting a confident answer.",
+  "usage": {
+    "prompt_tokens": 28,
+    "completion_tokens": 208,
+    "total_tokens": 236,
+    "cost": 0.0000708,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000708,
+      "upstream_inference_prompt_cost": 0.0000084,
+      "upstream_inference_completions_cost": 0.0000624
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "nousresearch/hermes-3-llama-3.1-70b",
+  "ts": 1776840732505
+}

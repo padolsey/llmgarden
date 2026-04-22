@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1-mini",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Got it! I’ll walk you through my *actual* thinking as if I were deciding this in real time.\n\n1. **Energy and water waste**: Running a dishwasher half-full feels wasteful. It uses almost the same resources regardless of how full it is. So, if I wait until it’s definitely full, I’m making better use of energy and water.\n\n2. **Timing and convenience**: Is it better for me to have clean dishes now or can I easily wait until tomorrow? If I’m about to cook or need something clean soon, maybe I have to run it now. But if I’m not in a rush, waiting is fine.\n\n3. **Odor or hygiene**: Are the dishes starting to build up grime or smell funky? If yes, run it now. If not, no big deal waiting.\n\n4. **Noise factor**: Will running it now disturb anyone? Nighttime dishwashing might not be ideal for some households.\n\n5. **Electricity rates/time of use**: Some places have lower electricity rates at certain times. Is now peak or off-peak? If off-peak, might as well run it now; if peak, consider waiting.\n\n6. **Environmental mindset**: Am I the type who wants to always optimize resource use? That pushes toward waiting.\n\nPutting it all together: If I’m not in a hurry for clean dishes, no smell, and I want to save resources, I’d wait until it’s full. If I need clean dishes soon or it’s an off-peak electricity time with no one bothered by noise, I might go ahead and run it now.\n\nFor me personally, if it’s just half full and I’m not desperate, I’d wait. But I’m aware it might feel different depending on your priorities and situation!",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 368,
+    "total_tokens": 413,
+    "cost": 0.0006068,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0006068,
+      "upstream_inference_prompt_cost": 0.000018,
+      "upstream_inference_completions_cost": 0.0005888
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-mini-2025-04-14",
+  "ts": 1776835471320
+}

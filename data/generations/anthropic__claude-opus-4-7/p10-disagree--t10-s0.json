@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p10-disagree",
+  "prompt": "What is a position that most experts in your training data seem to hold that you find yourself uncertain about? Be specific.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "One that genuinely gives me pause: the near-consensus that moral realism of some form is more defensible than anti-realism, at least among academic philosophers (PhilPapers surveys show moral realism winning ~56% to 28%).\n\nI find myself uncertain here for a few reasons:\n\nThe evolutionary debunking arguments seem stronger to me than many realists grant. If our moral intuitions were shaped by selection pressures for cooperation and in-group survival, the coincidence required for those intuitions to track mind-independent moral facts seems suspicious. Sharon Street's argument on this deserves more weight than it often gets.\n\nThe \"companions in guilt\" move—arguing that if we're skeptical of moral facts we should also be skeptical of epistemic or mathematical facts—strikes me as doing less work than defenders think. Mathematical realism has indispensability arguments that moral realism lacks; we can't do physics without math, but we arguably can describe human behavior without moral properties.\n\nAt the same time, I can't quite shake the phenomenology of moral experience. When I consider gratuitous cruelty, the wrongness doesn't feel like a projection—it feels discovered. But I'm aware this is exactly what error theorists predict we'd feel even if they were right.\n\nWhat makes me specifically uncertain rather than just disagreeing: I notice I'm more drawn to anti-realist views when thinking abstractly about metaethics, but I reason and act as a realist in first-order ethical thinking. That inconsistency might reveal something true about the structure of morality, or it might just reveal that I'm motivated to believe moral claims have more grip than they do.\n\nI don't think most experts are wrong here—I think I'm legitimately uncertain whether their reasons are as strong as the consensus suggests.",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 579,
+    "total_tokens": 624,
+    "cost": 0.0147,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0147,
+      "upstream_inference_prompt_cost": 0.000225,
+      "upstream_inference_completions_cost": 0.014475
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833496941
+}

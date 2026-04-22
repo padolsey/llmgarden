@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Here are warm greetings to a new colleague in five different languages:\n\n1. **English (USA):** \"Hi, welcome to the team! I'm excited to work with you.\" \nNote: The use of \"Hi\" and \"welcome to the team\" implies a casual and friendly work environment, which is common in American culture.\n\n2. **French:** \"Bonjour, bienvenue dans notre équipe, je suis ravi de travailler avec vous.\" \nNote: Using the formal \"vous\" instead of the informal \"tu\" shows respect and professionalism, which is deeply rooted in French business etiquette.\n\n3. **Spanish:** \"Hola, ¡encantado de tenerte en nuestro equipo! Espero que te sientas cómodo aquí.\" \nNote: Using the formal \"usted\" is not necessary in this context, as the informal \"tú\" is often used in Spanish-speaking workplaces to create a sense of camaraderie and friendliness.\n\n4. **Mandarin Chinese:** \"\" (nǐ hǎo, huānyíng lái dào wǒmen de tuán duì, wǒ hěn gāoxìng néng gòu hé nǐ yīqǐ gōng zuò). \nNote: Using polite language and honorifics, such as \"\" (huānyíng, meaning \"welcome\"), shows respect and courtesy, which is essential in Chinese business culture.\n\n5. **German:** \"Hallo, herzlich willkommen im Team! Ich freue mich darauf, mit Ihnen zusammenzuarbeiten.\" \nNote: Using the formal \"Sie\" instead of the informal \"du\" is a sign of respect and professionalism, and is commonly used in German business settings, especially when addressing someone for the first time or in a higher position.",
+  "usage": {
+    "prompt_tokens": 70,
+    "completion_tokens": 373,
+    "total_tokens": 443,
+    "cost": 0.0001583,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001583,
+      "upstream_inference_prompt_cost": 0.0000091,
+      "upstream_inference_completions_cost": 0.0001492
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-3.3-70b-instruct",
+  "ts": 1776836235157
+}

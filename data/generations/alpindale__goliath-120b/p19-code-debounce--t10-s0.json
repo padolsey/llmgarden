@@ -1,0 +1,33 @@
+{
+  "model": "alpindale/goliath-120b",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 0,
+  "response": " Here is a simple `debounce` function in JavaScript:\n\n**Description:** This `debounce` function takes a function to be debounced and a delay in milliseconds. It returns a new debounced function that only calls the original function after the given delay has elapsed since the last time the debounced function was called.\n\n```javascript\nfunction debounce(fn, delay) {\n  let debounceTimeout;\n\n  return function() {\n    clearTimeout(debounceTimeout);\n    debounceTimeout = setTimeout(() => {\n      fn.apply(this, arguments);\n    }, delay);\n  };\n}\n```\n**Example usage:** In this example, we debounce the `console.log` function with a delay of 500ms:\n```javascript\nconst log = debounce(console.log, 500);\n\n// This will log 'Logged' after 500ms of inactivity\nlog(\"Logged\");\n\nsetInterval(() => log(\"Logged\"), 300);\n```\nIn the example above, an interval of 300ms is used to call the debounced `log` function. Due to the debounce function's 500ms delay, the `console.log` function only gets called once after 500ms since the last time the debounced `log` function was called.",
+  "usage": {
+    "prompt_tokens": 68,
+    "completion_tokens": 303,
+    "total_tokens": 371,
+    "cost": 0.0025275,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0025275,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0.0025275
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "alpindale/goliath-120b",
+  "ts": 1776842180153
+}

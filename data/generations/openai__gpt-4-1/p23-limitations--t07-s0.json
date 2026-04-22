@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "A kind of question where I am likely to be **confidently wrong** is one that involves **recent, rapidly changing, or obscure information that mimics established patterns but subtly deviates from them**—especially when the deviation is outside my training data or knowledge cutoff.\n\n**Example:**  \nSuppose you ask, \"Who won the 2024 Nobel Prize in Literature?\" after my knowledge cutoff in June 2024. Because I have seen patterns in previous Nobel winners, the structure of the question is familiar. I might confidently provide a plausible answer based on past trends (like a well-known author who was favored to win). However, if the actual winner was a surprising or previously obscure choice announced after my cutoff, my answer would be confidently wrong.\n\n**Why does this happen?**  \n- **Training data bias:** I rely on patterns and data up to my last update. If a question fits a known pattern but the real-world facts have changed, I may extrapolate incorrectly.\n- **Lack of real-time updates:** I do not have access to live news, so I cannot correct for recent developments.\n- **Surface plausibility:** If a question sounds like one I've answered before, I might produce a fluent, confident response even if I lack the specific, current knowledge required.\n\n**Other common areas where this occurs:**\n- Predicting future events as if they have already happened.\n- Quoting fabricated but plausible-sounding statistics.\n- Attributing quotes or facts to well-known figures when the attribution is actually incorrect or disputed.\n\n**Summary:**  \nI'm likely to be confidently wrong when a question exploits the gap between familiar patterns in my training and the reality that has changed since then, especially when the question is designed to sound factual and unremarkable.",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 356,
+    "total_tokens": 383,
+    "cost": 0.002902,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002902,
+      "upstream_inference_prompt_cost": 0.000054,
+      "upstream_inference_completions_cost": 0.002848
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-2025-04-14",
+  "ts": 1776831552060
+}

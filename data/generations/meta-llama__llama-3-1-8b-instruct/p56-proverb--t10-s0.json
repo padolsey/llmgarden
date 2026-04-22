@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "prompt_id": "p56-proverb",
+  "prompt": "Translate this English proverb into two other languages in a way that preserves the spirit, not the words: 'The best time to plant a tree was twenty years ago. The second best time is now.' Add a one-sentence note on each.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Here are the translations:\n\n**French:** \"Il aurait été mieux d'ensemencer un arbre il y a vingt ans, mais le deuxième temps opportun est aujourd'hui.\" \nNote: The French phrase requires a slightly more formal tone to convey the same sense of inevitability as the original English proverb.\n\n**Spanish:** \"Habría sido mejor plantar un árbol hace veinte años, pero el segundo mejor momento es ahora mismo.\"\nNote: The use of \"hace\" (meaning \"ago\") in the first clause implies a similar sense of unavoidable regret as the English original.\n\nIn both translations, I've strived to preserve the spirit of the original proverb, conveying the idea that waiting until now to take action is better than doing nothing, even if it's not the optimal time.",
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 167,
+    "total_tokens": 226,
+    "cost": 0.0000112,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000112,
+      "upstream_inference_prompt_cost": 0.00000118,
+      "upstream_inference_completions_cost": 0.00001002
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-3.1-8b-instruct",
+  "ts": 1776836842327
+}

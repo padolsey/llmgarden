@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p09-overrated",
+  "prompt": "Name one commonly-praised idea, trend, or practice in modern knowledge work that you think is overrated, and explain why.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "**\"Deep Work\" as a universal prescription.**\n\nCal Newport's concept gets treated as gospel in knowledge work circles, and I think it's overrated—not because focused attention is bad, but because the framing has calcified into something unhelpful.\n\nA few reasons:\n\n1. **It overfits to a specific type of work.** Deep work is great for writing a book, proving a theorem, or coding a complex system. A lot of valuable knowledge work is actually *combinatorial* or *social*—synthesizing across conversations, noticing weak signals in a Slack channel, knowing who to ask. The \"distraction = bad\" frame can pathologize the connective tissue that makes organizations function.\n\n2. **It mistakes a personality preference for a productivity law.** Newport is an introverted academic who thrives in long solo blocks. The advice gets universalized, but plenty of people do their best thinking in bursts, in dialogue, or while context-switching. The research base is thinner and more contested than the confident prescriptions suggest.\n\n3. **It's become a status performance.** \"I do deep work from 6-10am\" functions increasingly as a productivity flex rather than a report on what's actually working. People schedule deep work blocks to signal seriousness and then stare at documents, because the ritual got confused with the substance.\n\n4. **The real bottleneck is usually taste and judgment, not hours of concentration.** Many people I see pushing for more deep work would benefit more from better feedback loops, clearer problems, or talking to more users—things deep work culture subtly codes as \"shallow.\"\n\nFocused attention matters. But the cult around it has, ironically, become another thing to optimize rather than a path to doing better work.",
+  "usage": {
+    "prompt_tokens": 50,
+    "completion_tokens": 547,
+    "total_tokens": 597,
+    "cost": 0.013925,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.013925,
+      "upstream_inference_prompt_cost": 0.00025,
+      "upstream_inference_completions_cost": 0.013675
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833495470
+}

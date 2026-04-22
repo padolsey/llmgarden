@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-4-fast",
+  "prompt_id": "p40-one-sentence",
+  "prompt": "Explain what a \"closure\" is in programming, in exactly one sentence. The sentence can be long.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "A closure in programming is a function that has access to its own lexical scope as well as the variables from its enclosing outer function's scope, even after the outer function has returned and those variables would otherwise be out of reach, enabling the inner function to \"close over\" and retain those captured variables for later use.",
+  "usage": {
+    "prompt_tokens": 177,
+    "completion_tokens": 161,
+    "total_tokens": 338,
+    "cost": 0.0000931,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 152,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000931,
+      "upstream_inference_prompt_cost": 0.0000126,
+      "upstream_inference_completions_cost": 0.0000805
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 98,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-4-fast",
+  "ts": 1776839939948
+}

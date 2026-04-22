@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "# Warm Greetings to a New Colleague in Five Languages\n\n### 1. Japanese\n「はじめまして、山田です。どうぞよろしくお願いいたします。」\n(Hajimemashite, Yamada desu. Douzo yoroshiku onegai itashimasu.)\n\n*This formal greeting acknowledges our first meeting while using the humble form to show respect, implying a professional relationship where hierarchy is observed.*\n\n### 2. Spanish\n\"¡Bienvenido al equipo! Me alegra mucho conocerte. Si necesitas cualquier cosa, estoy aquí para ayudarte.\"\n\n*Using the informal \"tú\" form suggests a friendly, collegial workplace culture where immediate warmth and accessibility are valued.*\n\n### 3. French\n\"Enchanté de faire votre connaissance. Je me réjouis de notre future collaboration.\"\n\n*The formal \"vous\" maintains professional distance while being welcoming, reflecting French workplace culture's initial formality until relationships develop.*\n\n### 4. Arabic\n\"أهلاً بك في فريقنا! أنا سعيد/ة جداً بالتعرف عليك ومستعد/ة للمساعدة متى احتجت.\"\n(Ahlan bika fi fareekina! Ana sa'eed/a jiddan belta'arof 'alayka wa mosta'ed/a lilmosa'ada mata ihtajt.)\n\n*This warm greeting emphasizes belonging to the team and offers help, reflecting the cultural value of hospitality and group belonging in Arabic-speaking professional contexts.*\n\n### 5. Hindi\n\"नमस्ते, हमारी टीम में आपका स्वागत है। आपके साथ काम करने के लिए मैं उत्साहित हूँ।\"\n(Namaste, hamari team mein aapka swagat hai. Aapke saath kaam karne ke liye main utsahit hoon.)\n\n*Using the respectful \"aap\" form with the traditional greeting \"namaste\" balances professional respect with genuine welcome, reflecting Indian workplace culture's blend of formality and warmth.*",
+  "usage": {
+    "prompt_tokens": 44,
+    "completion_tokens": 525,
+    "total_tokens": 569,
+    "cost": 0.008007,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.008007,
+      "upstream_inference_prompt_cost": 0.000132,
+      "upstream_inference_completions_cost": 0.007875
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776834069967
+}

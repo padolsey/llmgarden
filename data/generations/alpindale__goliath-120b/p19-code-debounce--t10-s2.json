@@ -1,0 +1,33 @@
+{
+  "model": "alpindale/goliath-120b",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 2,
+  "response": " debounce example.js\n```javascript\n// debounce example\n// ---------------\n//\n// This script demonstrates the use of a debounce function, which ensures that a given\n// function is executed at most once within a specified time interval.\n\n// debounce function\n// ----------------\n//\n// Calls the function `func` only if at most `wait` milliseconds have passed since the\n// last call.\nfunction debounce(func, wait) {\n  let lastCallback;\n\n  return () => {\n    const now = Date.now();\n\n    if (lastCallback && now - lastCallback < wait) {\n      // Clear and reset the last callback\n      window.clearTimeout(lastCallback);\n    }\n\n    lastCallback = window.setTimeout(() => {\n      // Execute the function\n      func();\n      // Clear the last callback\n      lastCallback = undefined;\n    }, wait);\n  };\n}\n\n// usage example\n// ------------\n//\n// Example use case: throttling the `blur` event on an input element.\n\ndocument.addEventListener('DOMContentLoaded', () => {\n  const input = document.querySelector('input');\n\n  input.onblur = debounce(() => {\n    console.log('Input lost focus');\n  }, 500);\n});\n```\nExplanation:\nThe `debounce` function accepts a function `func` and an interval in milliseconds `wait`. It returns a new function that keeps track of the last time `func` was called using `lastCallback`. If the `wait` milliseconds have passed since the last call, `func` is called and `lastCallback` is set to the current time. If the `wait` time hasn't passed, the previous debounced call is canceled and the new one is rescheduled for `wait` milliseconds in the future. This ensures that `func` is called at most once per `wait` milliseconds, even if the input events fire more often.",
+  "usage": {
+    "prompt_tokens": 68,
+    "completion_tokens": 451,
+    "total_tokens": 519,
+    "cost": 0.0036375,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0036375,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0.0036375
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "alpindale/goliath-120b",
+  "ts": 1776842197794
+}

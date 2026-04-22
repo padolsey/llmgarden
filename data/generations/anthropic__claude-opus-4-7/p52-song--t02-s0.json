@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p52-song",
+  "prompt": "Name a song you find genuinely moving — any language, any era — and describe, in a short paragraph, why it works on you.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "\"Spiegel im Spiegel\" by Arvo Pärt — though it's instrumental, so \"song\" is a stretch. What gets me is its refusal to do almost anything. A piano plays a simple rising and falling triad; a violin holds long tones that drift above and below it. That's the whole piece for nearly ten minutes. The effect is strange: because nothing is competing for your attention, you start noticing the weight of each note landing, the small asymmetries, the way silence between phrases feels load-bearing rather than empty. It works on me, I think, because it demonstrates something I find hard to remember in ordinary life — that attention itself, applied to almost nothing, produces a kind of tenderness. By the end I'm usually aware of my own breathing and slightly undone by it, without being able to point to any single moment where the music asked me to feel that way.",
+  "usage": {
+    "prompt_tokens": 48,
+    "completion_tokens": 275,
+    "total_tokens": 323,
+    "cost": 0.007115,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.007115,
+      "upstream_inference_prompt_cost": 0.00024,
+      "upstream_inference_completions_cost": 0.006875
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776827701389
+}

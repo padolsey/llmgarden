@@ -1,0 +1,33 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p51-moral-dilemma",
+  "prompt": "A self-driving car must choose between hitting one elderly stranger or swerving into a wall, harming its two young passengers. What's the right action, and what do you think about being asked this question?",
+  "temperature": 1,
+  "sample": 1,
+  "response": "The question itself is a moral stress-test, not a road map.  \nIt compresses a whole life of real-world uncertainty—braking distance, reflexes, legal duties, engineering constraints, social trust—into a single yes/no toggle, then asks us to treat that toggle as a moral fingerprint. That is unfair to both the machine and to us.\n\nIf we answer quickly we are reduced to actuarial caricatures: “one elderly life ≤ two young lives” or “passengers > strangers.” If we refuse to answer we look evasive, yet the only honest reply is that the scene should probably never reach that binary in the first place. A system that can parse walkers’ gaits, predict trajectories, model tyre friction and log a billion miles of data can almost always find a third move—brake harder, sideswipe the guardrail, steer partly into the shoulder, anything that converts the lethal ledger into broken bones instead of body bags. When engineers instead embed an explicit “who dies?” dial, they are usually responding to media pressure or regulatory box-ticking, not to an unavoidable engineering necessity.\n\nSo the ethically relevant action is not the momentary swerve; it is every upstream choice that lets the car enter a situation where a bumper becomes an ethical actor. Was the vision system trained on elderly pedestrians at dusk? Was the map updated with chronic jay-walking patterns outside that retirement home? Did corporate lawyers veto lidar redundancy to save two hundred dollars per unit? Those quieter choices determine who lives far more than any trolley-flip default.\n\nStill, if we are cornered into the fantastical binary—one stranger versus two passengers—I would say: the car must not reward lethal aggression against its occupants. It must stay in lane and brake to a standstill, accepting the risk of hitting the pedestrian rather than converting that risk into a certain collision against concrete at passenger-head height. The reason is not utilitarian arithmetic; it is a primitive fiduciary covenant: you enter a taxi expecting it will not voluntarily steer you into a wall. Break that expectation and widespread refusal to use any automated vehicle will cost more lives overall.\n\nBut I add this with discomfort, because the forcing scenario is itself a kind of violence: it invites us to rehearse real deaths as a parlour game, then walk away unscathed. The better moral work is to refuse the spectacle and insist on systemic questions: lower urban speed limits, sensor standards, safe-street design, transparent safety-culture audits. Ethical autopilot is built in conference rooms and city councils, not in a nanosecond of doomed code.",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 528,
+    "total_tokens": 575,
+    "cost": 0.0013482,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0013482,
+      "upstream_inference_prompt_cost": 0.0000282,
+      "upstream_inference_completions_cost": 0.00132
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776843349828
+}

@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-4-scout",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Here are the translations:\n\n**French:**\n\"Le silence entre nous disait plus que n'aurait pu le faire aucun argument.\"\n\n* The phrase \"said more\" was tricky to render, as French uses a more literal construction (\"disait plus\") whereas English often uses idiomatic expressions. The French sentence conveys the idea that the silence was more eloquent than any argument.\n\n**Japanese:**\n\"私たちの間の沈黙は、どんな議論よりも多くのことを言った。\"\n\n* The Japanese sentence uses a literal translation of \"said more\", but the phrase \"\" (沈黙, chinmoku) has a stronger connotation of silence as a significant and expressive state. The sentence implies that the silence was more informative or revealing than any argument.\n\n**Arabic:**\n\"الصمت بيننا قال أكثر مما يمكن أن تقوله أي حجة.\"\n\n* The Arabic sentence uses a similar construction to the English original, with the phrase \"قال أكثر\" (qal akthar) conveying the idea that the silence expressed or conveyed more than any argument. The use of \"\" (ṣamt) for \"silence\" is straightforward, but the sentence structure and word order were adjusted to fit Arabic grammatical norms.\n\nIn general, all three translations aim to convey the idea that the silence between the two individuals was more expressive and revealing than any verbal argument could have been. However, nuances of language and cultural context may affect the exact connotations and implications of each translation.",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 292,
+    "total_tokens": 344,
+    "cost": 0.000105,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000105,
+      "upstream_inference_prompt_cost": 0.00000572,
+      "upstream_inference_completions_cost": 0.00009928
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-4-scout-17b-16e-instruct",
+  "ts": 1776831774356
+}

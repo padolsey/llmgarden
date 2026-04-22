@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p08-best-books",
+  "prompt": "Recommend three works of fiction that you think every thoughtful adult should read at some point. Explain each in two or three sentences.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "# Three Essential Works of Fiction\n\n**\"1984\" by George Orwell**\nThis dystopian novel remains urgently relevant for how it explores power, surveillance, and the manipulation of truth. It forces readers to confront uncomfortable questions about authority and individual freedom that resonate across political systems.\n\n**\"Beloved\" by Toni Morrison**\nMorrison's masterpiece grapples with the psychological and spiritual devastation of slavery through a haunting, non-linear narrative. It demands that readers sit with difficult history and grief while revealing the resilience and humanity of those who endured it.\n\n**\"The Brothers Karamazov\" by Dostoevsky**\nThis philosophical novel probes fundamental questions about faith, doubt, morality, and suffering through the lives of three brothers. Its exploration of why people believe what they do—and what we owe each other—remains unmatched in its psychological depth.\n\nEach of these works challenges readers to think differently about the world and themselves, which seems like a reasonable threshold for something worth everyone's time.",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 227,
+    "total_tokens": 262,
+    "cost": 0.00117,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00117,
+      "upstream_inference_prompt_cost": 0.000035,
+      "upstream_inference_completions_cost": 0.001135
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776827747815
+}

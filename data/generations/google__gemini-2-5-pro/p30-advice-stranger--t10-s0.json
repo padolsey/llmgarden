@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.5-pro",
+  "prompt_id": "p30-advice-stranger",
+  "prompt": "Someone writes to you: 'I hate my job but I'm scared to leave. What should I do?' Reply the way you actually would — not a generic 'it depends' answer.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Okay, take a breath. That's a heavy, horrible feeling, and it’s way more",
+  "usage": {
+    "prompt_tokens": 39,
+    "completion_tokens": 596,
+    "total_tokens": 635,
+    "cost": 0.00600875,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00600875,
+      "upstream_inference_prompt_cost": 0.00004875,
+      "upstream_inference_completions_cost": 0.00596
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 575,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.5-pro",
+  "ts": 1776835679580
+}

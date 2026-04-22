@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-3-mini",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Transformers are a type of AI model popular for tasks like language translation or text generation. At their core, they process sequences of data (like words in a sentence) without relying on traditional step-by-step processing.\n\nThe attention mechanism is a key innovation that lets the model \"focus\" on the most relevant parts of the input. Imagine you're a software engineer debugging code: instead of reading every line equally, you quickly scan and prioritize the ones related to the bug. Attention works similarly—it calculates scores for each element in the input (e.g., words) to determine how much weight or importance to give it when generating an output.\n\nFor example, when translating \"The cat sat on the mat\" to another language, attention helps the model connect \"sat\" with \"mat\" by assigning higher importance to those words relative to others. This is done using vector math: the model computes attention scores based on relationships between input elements, then uses those scores to weigh and combine information.\n\nThis makes transformers efficient and powerful, as they can handle long-range dependencies in data without forgetting earlier parts. In essence, attention is like a dynamic spotlight in your code editor, highlighting what's most relevant on the fly. (Word count: 198)",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 626,
+    "total_tokens": 658,
+    "cost": 0.000321925,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 3,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000321925,
+      "upstream_inference_prompt_cost": 0.000008925,
+      "upstream_inference_completions_cost": 0.000313
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 381,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-3-mini",
+  "ts": 1776840099439
+}

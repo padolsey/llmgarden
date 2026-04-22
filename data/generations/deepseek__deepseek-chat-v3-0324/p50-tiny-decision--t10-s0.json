@@ -1,0 +1,33 @@
+{
+  "model": "deepseek/deepseek-chat-v3-0324",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Here’s exactly how my brain thrashs through this in real time, without a framework:\n\n1. **Immediate annoyance check**:  \n   *Do I hate the idea of half-full dishes clattering around?* If yes, run it full now. If not, move on.  \n\n2. **Morning energy prediction**:  \n   Am I likely to wake up tomorrow and think *\"Ugh, I don’t want to deal with loading/unloading dishes before coffee\"*?  \n   If yes, do it now. If I'm a morning dishwasher person, wait.  \n\n3. **Sound sensitivity timing**:  \n   If it's late and the noise bugs housemates/partner/me, I wait. If daytime, noise doesn’t matter.  \n\n4. **Dish math**:  \n   Will I realistically generate enough dirty dishes by tomorrow to *over*flow it? If yes, wait. If it’s just \"full\" but manageable, run it now to avoid tomorrow’s chore.  \n\n5. **Secret third option**:  \n   Sometimes I’ll hand-wash tonight’s problem dishes instead of running the machine, just to punt the decision.  \n\n**Final move**: Usually boils down to whether future-me will be more annoyed by the sound tonight or the chore tomorrow.  \n(My squeeze point is noise after 10pm → I’ll wait.)  \n\nNo flowchart, just vibes.",
+  "usage": {
+    "prompt_tokens": 42,
+    "completion_tokens": 294,
+    "total_tokens": 336,
+    "cost": 0.0002443,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 2,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002443,
+      "upstream_inference_prompt_cost": 0.0000091,
+      "upstream_inference_completions_cost": 0.0002352
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "deepseek/deepseek-chat-v3-0324",
+  "ts": 1776838031283
+}

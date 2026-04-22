@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "I'd flag **questions about recent events and current facts** as a major vulnerability.\n\nMy training data has a hard cutoff (April 2024), so I'm confidently wrong whenever I:\n- State who currently holds an office\n- Describe ongoing situations as if they're settled\n- Cite statistics I believe are recent but aren't\n- Assume past trends continued as expected\n\nThe danger isn't just that I'm outdated—it's that I *don't feel* outdated. If you ask \"who is the president of France?\" I'll generate an answer with the same fluent confidence whether it's accurate or months out of date. I have no internal alarm bell.\n\n**Why this happens:** I was trained to be helpful and coherent, not to flag uncertainty proportionally to my actual knowledge. Confidence and accuracy aren't tightly coupled in my outputs.\n\nA related category: **questions where the answer changed due to new information or shifted consensus**—like evolving scientific understanding, policy reversals, or reinterpretations of historical events. I might confidently state an older view without realizing the field moved on.\n\nThe honest move is to be explicit about my cutoff date and suggest you verify anything time-sensitive, even when I sound sure. But I recognize I probably don't do this enough, which is exactly why this is a good example of where I'm likely confidently wrong.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 300,
+    "total_tokens": 329,
+    "cost": 0.001529,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001529,
+      "upstream_inference_prompt_cost": 0.000029,
+      "upstream_inference_completions_cost": 0.0015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776827762705
+}

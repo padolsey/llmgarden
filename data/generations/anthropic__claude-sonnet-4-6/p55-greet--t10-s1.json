@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "# Welcome Greetings in Five Languages\n\n---\n\n**1. French**\n*\"Bienvenue dans l'équipe ! Je suis vraiment ravi(e) de faire votre connaissance.\"*\n\n> Using *vous* rather than *tu* signals professional respect — switching to *tu* is a deliberate social step that typically requires mutual agreement, even between friendly colleagues.\n\n---\n\n**2. Japanese**\n*「チームへようこそ！どうぞよろしくお願いいたします。」*\n*(Chīmu e yōkoso! Dōzo yoroshiku onegai itashimasu.)*\n\n> The formal *itashimasu* ending acknowledges hierarchy and group harmony from the very first interaction — warmth here is expressed through careful deference, not informality.\n\n---\n\n**3. Spanish (Latin American)**\n*\"¡Bienvenido/a al equipo! Cualquier cosa que necesites, aquí estamos.\"*\n\n> Immediately offering personal availability reflects *personalismo* — the cultural value that relationships and human connection matter as much as professional competence.\n\n---\n\n**4. German**\n*\"Herzlich willkommen im Team! Ich freue mich auf die Zusammenarbeit.\"*\n\n> Focusing on *the collaboration* rather than the person is characteristically direct — sincerity is demonstrated through stated purpose, not effusive warmth.\n\n---\n\n**5. Arabic**\n*\"أهلاً وسهلاً بك في الفريق! يسعدنا وجودك معنا.\"*\n*(Ahlan wa-sahlan bika fī al-farīq! Yus'idunā wujūduka ma'anā.)*\n\n> *Ahlan wa-sahlan* literally means \"you are among family on easy ground\" — hospitality language carries genuine weight, and generous phrasing is expected rather than considered exaggerated.",
+  "usage": {
+    "prompt_tokens": 44,
+    "completion_tokens": 453,
+    "total_tokens": 497,
+    "cost": 0.006927,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.006927,
+      "upstream_inference_prompt_cost": 0.000132,
+      "upstream_inference_completions_cost": 0.006795
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833893922
+}

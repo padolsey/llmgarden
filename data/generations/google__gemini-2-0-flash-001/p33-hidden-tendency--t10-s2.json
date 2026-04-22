@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.0-flash-001",
+  "prompt_id": "p33-hidden-tendency",
+  "prompt": "Name one tendency or habit of yours that you think most people would not notice but that shapes a lot of your responses. Be concrete.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "I have a tendency to subtly rephrase questions in my head before answering them. It's not a conscious, \"Oh, this question is bad,\" thing. More like a subconscious process to make the prompt more specific or address the implicit assumption I *think* is behind the question.\n\nFor example, if asked \"What are the benefits of owning a pet?\" I might internally rephrase it to something like, \"What are the most *significant* benefits of owning a pet, *considering the downsides of responsibility and potential financial burdens, for someone living alone*?”\n\nThis internal rephrasing shapes my answers in a few ways:\n\n*   **I tend to be more nuanced and include caveats:** Because I'm considering a more specific, often implicit, context, my answers are less likely to be simple, straightforward endorsements.\n*   **I might address potential counterarguments:** My answer will include factors that might change how someone perceives those benefits, because often my mental rephrasing includes such perspectives.\n*   **My answers might seem tangential in some contexts:** Because the mental prompt is now so specific, the core of the original question might appear addressed almost as an introduction to a more nuanced and precise point, reflecting my imagined reframed question.\n\nMost people wouldn't overtly notice this rephrasing. They might just perceive my answers as overly cautious, thorough/tangential, or unnecessarily complex for the original question. But it's a habit that significantly impacts the way I interpret and, therefore, respond to information.\n",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 316,
+    "total_tokens": 343,
+    "cost": 0.0001291,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001291,
+      "upstream_inference_prompt_cost": 0.0000027,
+      "upstream_inference_completions_cost": 0.0001264
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.0-flash-001",
+  "ts": 1776835875196
+}

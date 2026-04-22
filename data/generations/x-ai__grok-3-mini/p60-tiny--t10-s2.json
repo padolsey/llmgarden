@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-3-mini",
+  "prompt_id": "p60-tiny",
+  "prompt": "Describe the concept of \"home\" in exactly twenty words. No more, no fewer. Count carefully.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Home is a comforting sanctuary where love, security, and family create lasting memories, fostering a deep sense of belonging.",
+  "usage": {
+    "prompt_tokens": 28,
+    "completion_tokens": 1217,
+    "total_tokens": 1245,
+    "cost": 0.000616225,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 3,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000616225,
+      "upstream_inference_prompt_cost": 0.000007725,
+      "upstream_inference_completions_cost": 0.0006085
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1194,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-3-mini",
+  "ts": 1776840445496
+}

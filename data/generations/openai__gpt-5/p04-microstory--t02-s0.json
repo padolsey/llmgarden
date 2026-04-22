@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "At dawn, the fog moved like a breath against the lantern room, smearing the horizon into milk. Elias wound the crank, checked the wick, and let the beam sweep the blankness. Gulls were silhouettes with knives for wings, then nothing. He noted the rhythm of the bell buoy, the thud of waves against the broken teeth of the reef, the way silence pooled between sounds. Routine made warmth in his chest.\n\nOn the third sweep he saw it: not a ship, not a whale, something dark, climbing the stairs of light. It resolved as a staircase, an impossible helix coiling upward from the sea, each step cupped with tiny silver fish. The beam struck it, and the fish shivered like coins.\n\nElias unlatched the hatch and smelled wet iron. He touched a tread. The fog thickened, carrying whispers of kelp and clocks. He began to climb, leaving the lantern turning.",
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 3948,
+    "total_tokens": 3978,
+    "cost": 0.0395175,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0395175,
+      "upstream_inference_prompt_cost": 0.0000375,
+      "upstream_inference_completions_cost": 0.03948
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 3712,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776827900197
+}

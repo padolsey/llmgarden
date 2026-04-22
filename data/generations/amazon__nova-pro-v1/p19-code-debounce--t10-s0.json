@@ -1,0 +1,33 @@
+{
+  "model": "amazon/nova-pro-v1",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Certainly! Here's a small JavaScript `debounce` function along with a brief example of how to use it:\n\n```javascript\n/*\n * Debounce function to ensure a function is called only once within a specified delay.\n */\nfunction debounce(func, delay) {\n    let debounceTimer;\n    return function(...args) {\n        const context = this;\n        clearTimeout(debounceTimer);\n        debounceTimer = setTimeout(() => func.apply(context, args), delay);\n    };\n}\n\n// Example usage:\nconst handleResize = debounce(() => {\n    console.log('Resize event handled!');\n}, 300);\n\nwindow.addEventListener('resize', handleResize);\n```\n\n**Explanation:** The `debounce` function wraps another function and ensures it is called only once within a specified delay, useful for events like resize or scroll that fire rapidly.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 183,
+    "total_tokens": 212,
+    "cost": 0.0006088,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0006088,
+      "upstream_inference_prompt_cost": 0.0000232,
+      "upstream_inference_completions_cost": 0.0005856
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "amazon/nova-pro-v1",
+  "ts": 1776842465052
+}

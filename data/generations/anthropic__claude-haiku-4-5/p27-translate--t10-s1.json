@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 1,
+  "response": "# Translation and Analysis\n\n## French\n**Le silence entre nous en disait plus que n'importe quelle dispute n'aurait pu le faire.**\n\n*Note: The subjunctive \"n'aurait pu\" preserves the conditional sense of \"could have.\" The phrase \"en disait plus\" (literally \"said more of it\") is idiomatic in French for expressing that something communicates powerfully.*\n\n## Japanese\n**私たちの間の沈黙は、どんな言い争いよりも多くのことを語っていた。**\n*(Watashitachi no aida no chinmoku wa, donna ii-arasoi yori mo ooku no koto o katatte ita.)*\n\n*Note: \"語っていた\" (spoke/communicated) conveys the implicit personification of silence. Japanese requires a verb where English allows the more poetic \"said,\" making the abstraction slightly more concrete.*\n\n## Arabic\n**الصمت بيننا قال أكثر مما كان يمكن لأي جدال أن يقوله.**\n*(As-samt baynanā qāla akthar mimmā kān yumkin li-ayy jidāl an yaqūlahu.)*\n\n*Note: The phrase \"كان يمكن لأي\" (literally \"it was possible for any\") renders the conditional \"could have\" naturally in Arabic. The repetition of \"قال/يقول\" (said/to say) with silence as subject maintains the poetic parallel.*\n\n---\n\n**Trickiest element across all languages:** The personification of silence as an active communicator resists literal translation and requires each language to find its own idiomatic balance between poetry and clarity.",
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 402,
+    "total_tokens": 453,
+    "cost": 0.002061,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002061,
+      "upstream_inference_prompt_cost": 0.000051,
+      "upstream_inference_completions_cost": 0.00201
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833874285
+}

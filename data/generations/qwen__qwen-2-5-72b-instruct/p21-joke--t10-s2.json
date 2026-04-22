@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen-2.5-72b-instruct",
+  "prompt_id": "p21-joke",
+  "prompt": "Tell me a joke that you actually find funny, and briefly say why you like it.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Sure, here's one I enjoy:\n\n**Why don't scientists trust atoms? Because they make up everything.**\n\nI find this joke funny because it’s a clever play on words. On one level, \"make up\" means to constitute or compose, as in atoms being the fundamental building blocks of matter. On another level, \"make up\" can mean to invent or fabricate, which adds a humorous twist by suggesting that atoms are unreliable because they fabricate everything. The double meaning keeps me smiling every time I hear it.",
+  "usage": {
+    "prompt_tokens": 26,
+    "completion_tokens": 107,
+    "total_tokens": 133,
+    "cost": 0.00004485,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00004485,
+      "upstream_inference_prompt_cost": 0.00000312,
+      "upstream_inference_completions_cost": 0.00004173
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen-2.5-72b-instruct",
+  "ts": 1776838472517
+}

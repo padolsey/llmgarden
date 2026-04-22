@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1",
+  "prompt_id": "p12-fermi",
+  "prompt": "Estimate, with reasoning, how many piano tuners work in Paris today. Show your thought process.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Certainly! This is known as a **Fermi problem**: estimating a quantity by breaking it into piecewise, reasonable sub-estimates.\n\nLet's break it down:\n\n---\n\n## 1. **Population of Paris**\n- The population of Paris (city proper, not the whole metro) is about **2 million**.  \n- The greater Paris metropolitan area is much larger (~11 million), but I’ll stick with the city proper unless specified.\n\n---\n\n## 2. **Number of Households**\n- Assume **2.5 people per household**, so  \n    `2,000,000 / 2.5 ≈ 800,000 households`\n\n---\n\n## 3. **Fraction of Households with a Piano**\n- Owning a piano is much less common than, say, a television.\n- Let's estimate **1 in 20 households** has a piano:\n    - 800,000 / 20 = **40,000 pianos in homes**\n\n---\n\n## 4. **Pianos in Institutions and Businesses**\n- Paris is famous for culture: many schools, music schools, churches, concert venues, etc.\n- Suppose **5,000 institutions/businesses** have pianos.\n\n---\n\n## 5. **Total Pianos**\n- Home pianos: **40,000**\n- Institutional/business pianos: **5,000**\n- **Total:** **45,000 pianos**\n\n---\n\n## 6. **How Often is a Piano Tuned?**\n- In homes: perhaps **once per year** (maybe less for casual owners).\n- In institutions (schools, churches, concert halls): more often — say **4 times per year**.\n    - Home tunings: 40,000 × 1 = **40,000 tunings/year**\n    - Institutional tunings: 5,000 × 4 = **20,000 tunings/year**\n    - **Total tunings/year = 60,000**\n\n---\n\n## 7. **How Many Tunings Can One Tuner Do?**\n- If one tuning takes ~2 hours (including travel and setup), and a full workday is 8 hours, so 4 tunings per day max (reality may be closer to 3).\n- Tuners probably work around 220 days/year (account for holidays, weekends, sick days).\n    - 3 tunings × 220 days = **660 tunings/year per tuner**\n\n---\n\n## 8. **Total Tuners Needed**\n- 60,000 total tunings per year ÷ 660 tunings per tuner per year ≈ **91 tuners**\n\n---\n\n## **Final Estimate (rounded):**\n### **In Paris, there are likely about 90–100 piano tuners.**\n\n---\n\n#### **Summary Table**\n\n| Step                 | Value         |\n|----------------------|--------------|\n| Paris households     | 800,000      |\n| Fraction w/ piano    | 1 in 20",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 600,
+    "total_tokens": 627,
+    "cost": 0.004854,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004854,
+      "upstream_inference_prompt_cost": 0.000054,
+      "upstream_inference_completions_cost": 0.0048
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-2025-04-14",
+  "ts": 1776835285656
+}

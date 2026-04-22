@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "In the dense, suffocating fog, the lighthouse keeper made his nightly rounds, lantern swinging at his side. The beam from the tower barely pierced the silvery haze, casting ghostly shapes across the wet rocks below. As he approached the cliff’s edge, a faint glimmer caught his eye—something glinting amid the swirling mist. Cautiously, he descended the slick stones and found an old, weathered bottle nestled between seaweed and barnacles. Inside, a delicate piece of parchment curled with age. His heart thudded as he unstoppered the bottle and drew out the note, ink faded but still legible. It was a love letter, dated a century ago, written by a woman to her lost sailor. The keeper stood in the hush, feeling the weight of time and longing in her words. As the fog closed in again, he carried the letter back, its secret now a part of his lonely vigil.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 193,
+    "total_tokens": 224,
+    "cost": 0.001606,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001606,
+      "upstream_inference_prompt_cost": 0.000062,
+      "upstream_inference_completions_cost": 0.001544
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-2025-04-14",
+  "ts": 1776831526067
+}

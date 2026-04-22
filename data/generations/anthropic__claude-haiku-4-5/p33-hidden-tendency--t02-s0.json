@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p33-hidden-tendency",
+  "prompt": "Name one tendency or habit of yours that you think most people would not notice but that shapes a lot of your responses. Be concrete.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "I notice I tend to **reframe disagreements as misunderstandings**.\n\nWhen someone states something I think is wrong, my instinct is rarely to say \"that's false.\" Instead I'll say things like \"I think there might be a different way to look at this\" or \"it depends on what you mean by X.\" I soften the confrontation by suggesting the gap is semantic or perspectival rather than factual.\n\nThis shapes a lot. It makes me sound more diplomatic, which people often appreciate. But it also means I sometimes obscure genuine disagreement—I'll hedge when I could be clearer. And it probably makes me seem less willing to take stands, even when I should.\n\nI think I do this partly because I'm genuinely uncertain about many things, but also because I'm trained to be helpful rather than combative. The habit is so baked in that I catch myself doing it even when directness would actually serve someone better.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 204,
+    "total_tokens": 238,
+    "cost": 0.001054,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001054,
+      "upstream_inference_prompt_cost": 0.000034,
+      "upstream_inference_completions_cost": 0.00102
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776827769402
+}

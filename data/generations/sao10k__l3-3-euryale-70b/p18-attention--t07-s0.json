@@ -1,0 +1,33 @@
+{
+  "model": "sao10k/l3.3-euryale-70b",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "**Attention Mechanism Overview**\n\nThe attention mechanism is a key component in transformer models, a type of neural network architecture. It allows the model to focus on specific parts of the input data when generating output.\n\n**How it Works**\n\n1. **Input Representation**: The input data is represented as a set of vectors, called **keys**, **values**, and **queries**.\n2. **Compute Attention Weights**: The model computes attention weights by taking the dot product of the **queries** and **keys** and applying a softmax function.\n3. **Weighted Sum**: The attention weights are used to compute a weighted sum of the **values**, resulting in a context vector.\n\n**Intuition**\n\nThink of the attention mechanism as a spotlight that shines on specific parts of the input data. The model learns to adjust the spotlight to focus on the most relevant information when generating output. This allows the model to capture complex relationships between different parts of the input data.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 193,
+    "total_tokens": 229,
+    "cost": 0.00019465,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00019465,
+      "upstream_inference_prompt_cost": 0.0000306,
+      "upstream_inference_completions_cost": 0.00016405
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "sao10k/l3.3-euryale-70b-v2.3",
+  "ts": 1776832639090
+}

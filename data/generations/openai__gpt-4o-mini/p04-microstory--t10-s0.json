@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4o-mini",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "As the sun dipped below the horizon, casting long shadows over the rocky coastline, the lighthouse keeper, Rowan, shuffled along the narrow path, his lantern flickering in the thickening fog. He had performed his nightly rituals for years, but tonight felt different, charged with an unsettling energy. \n\nThe air was heavy, every breath thick with the briny scent of the sea. Suddenly, a shape emerged within the mist—an old canoe, half-sunk in the tidal swirl, its faded paint whispering of forgotten journeys. Rowan approached cautiously, his heart quickening at the sight of a tattered journal bobbing amidst the debris. \n\nGently lifting it, he opened the brittle pages, revealing sketches of distant shores and entries filled with longing. The ink was smudged, but a central sketch caught his eye: a lighthouse eerily similar to his own. As the fog rolled back, revealing the stars, he felt an unseen connection, a haunting reminder of lost voyages, echoing in the night.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 205,
+    "total_tokens": 236,
+    "cost": 0.00012765,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00012765,
+      "upstream_inference_prompt_cost": 0.00000465,
+      "upstream_inference_completions_cost": 0.000123
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4o-mini",
+  "ts": 1776835463175
+}

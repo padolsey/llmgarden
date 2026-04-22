@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "The water cycle is a continuous, natural process through which water moves across the Earth and its atmosphere. It begins when the sun’s warmth causes water from oceans, lakes, rivers, and even moist soil to evaporate into the air as invisible water vapor. As this vapor rises, it cools and condenses into tiny droplets that gather to form clouds. When enough droplets combine and become too heavy to stay aloft, they fall back to the surface as precipitation—rain, snow, sleet, or hail, depending on the temperature. Once on the ground, some of this water soaks into the soil, replenishing underground aquifers, while the rest flows over the land as runoff, eventually making its way back to larger bodies of water. Plants also release water vapor through their leaves in a process called transpiration, adding more moisture to the air and keeping the cycle in motion, endlessly circulating Earth’s most vital resource.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 188,
+    "total_tokens": 224,
+    "cost": 0.00076128,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00076128,
+      "upstream_inference_prompt_cost": 0.00002808,
+      "upstream_inference_completions_cost": 0.0007332
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776839287840
+}

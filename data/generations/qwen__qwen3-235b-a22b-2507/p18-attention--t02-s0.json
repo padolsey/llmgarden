@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-235b-a22b-2507",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Imagine you're reading a sentence: \"The cat sat on the mat because it was tired.\" To understand what \"it\" refers to, you naturally focus more on \"cat\" than \"mat.\" That’s attention—focusing on relevant parts of input when processing information.\n\nIn software, traditional models process sequences (like words in a sentence) one after another, often losing context over long stretches. Transformers, used in models like GPT, solve this with an *attention mechanism*.\n\nHere’s how it works simply: for each word, the model checks how related it is to every other word in the sentence. It assigns a \"weight\" (importance score) to each word based on relevance. These weights determine how much focus (\"attention\") to pay when encoding or generating output.\n\nFor example, when processing \"it,\" the model gives high weight to \"cat\" and low to \"mat.\" This lets it capture meaning more accurately.\n\nThe key innovation is *self-attention*: each word interacts with all others in parallel (not sequentially), making Transformers fast and effective. This mechanism allows models to understand context deeply, even in long texts.\n\nIn code terms, think of it like a dynamic weighting function applied across inputs—no hard-coded rules, just learned relevance. This is why Transformers power modern AI like chatbots and translators: they understand context by focusing on what matters most.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 279,
+    "total_tokens": 315,
+    "cost": 0.00017064,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00017064,
+      "upstream_inference_prompt_cost": 0.00000324,
+      "upstream_inference_completions_cost": 0.0001674
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-235b-a22b-07-25",
+  "ts": 1776829257213
+}

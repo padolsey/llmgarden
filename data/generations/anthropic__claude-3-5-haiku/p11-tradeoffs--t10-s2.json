@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.5-haiku",
+  "prompt_id": "p11-tradeoffs",
+  "prompt": "A small team is choosing between writing software in TypeScript or Python for a new internal data tool. Walk through how you would help them decide, in prose (not a bulleted list).",
+  "temperature": 1,
+  "sample": 2,
+  "response": "To help the team decide between TypeScript and Python for their internal data tool, I would first sit down with them to understand the specific requirements, context, and constraints of their project. I'd start by exploring several key dimensions that will impact their language choice.\n\nFirst, I'd want to understand the team's existing technical skills and background. If the team has more experience with JavaScript and web technologies, TypeScript might feel more natural and allow them to leverage their current knowledge. Conversely, if they have a strong Python background or data science experience, Python could be the more comfortable and productive choice.\n\nNext, I'd discuss the specific technical requirements of the data tool. Python has a more mature ecosystem for data manipulation and analysis, with libraries like pandas, NumPy, and SciPy that are industry-standard. If their tool involves complex data processing, statistical analysis, or machine learning, Python would likely be the stronger choice. TypeScript, while powerful, is less established in pure data science domains.\n\nI'd also explore the tool's intended use and integration points. If this is primarily a backend service or CLI tool that might later integrate with web interfaces, TypeScript could provide a more seamless full-stack development experience. Its static typing and compile-time checks can help prevent errors and improve maintainability.\n\nPerformance considerations would be another important discussion. While both languages are quite capable, Python might have slight advantages for computational tasks, especially with libraries like NumPy that can leverage low-level optimizations. TypeScript, being a JavaScript derivative, runs in the JavaScript runtime which can have different performance characteristics.\n\nThe team's long-term maintenance plans would also factor into the recommendation. TypeScript's strong typing system can make code more self-documenting and easier to refactor, which could be valuable for an internal tool that might be maintained by different team members over time.\n\nUltimately, there's no universally \"correct\" answer. The decision would come down to weighing these factors against the team's specific context. I'd help them have a structured conversation about their priorities, potentially even creating a simple proof-of-concept in both languages to get a concrete feel for development experience.\n\nIf they're primarily doing data processing with potential web integration, I might lean towards recommending Python. If they want strong typing and potential web integration, TypeScript could be preferable. The key is making an intentional, context-aware choice that sets them up for productive development.",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 513,
+    "total_tokens": 558,
+    "cost": 0.002088,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002088,
+      "upstream_inference_prompt_cost": 0.000036,
+      "upstream_inference_completions_cost": 0.002052
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-5-haiku",
+  "ts": 1776834048443
+}

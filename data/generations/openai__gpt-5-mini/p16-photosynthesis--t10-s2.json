@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p16-photosynthesis",
+  "prompt": "Explain photosynthesis to a curious adult non-scientist in around 150 words. Avoid a bulleted list.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Photosynthesis is how plants, algae, and some bacteria turn sunlight into the chemical energy that fuels life. Inside leaf cells are chloroplasts containing chlorophyll, a pigment that captures light. That light energy is used to split water molecules, producing oxygen as a waste product, and to make short-lived energy carriers (ATP and NADPH). In a second set of reactions, those carriers power the conversion of carbon dioxide from the air into simple sugars. Those sugars feed the plant’s growth and metabolism and ultimately enter food chains when animals eat plants or other animals. In short, photosynthesis is a solar-powered factory: it turns light, water, and CO2 into fuel and oxygen, sustaining most ecosystems and influencing Earth’s atmospheric carbon dioxide and oxygen balance.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 718,
+    "total_tokens": 747,
+    "cost": 0.00144325,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00144325,
+      "upstream_inference_prompt_cost": 0.00000725,
+      "upstream_inference_completions_cost": 0.001436
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 512,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776835043757
+}

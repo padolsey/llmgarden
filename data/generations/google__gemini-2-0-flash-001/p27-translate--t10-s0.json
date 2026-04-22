@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.0-flash-001",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Okay, here are the translations with brief notes:\n\n**English:** The silence between us said more than any argument could have.\n\n**French:**\n\n*   **Le silence entre nous en disait plus que n'importe quelle dispute n'aurait pu le faire.**\n\n    *   **Tricky part:** The phrase \"could have\" is tricky.  I used \"n'aurait pu le faire\" which literally translates to \"would not have been able to do it\". This captures the hypothetical \"more than any argument *could have* done.\"  The inclusion of “ne” is required by the relative pronoun “que”.\n\n**Japanese:**\n\n*   **私達の間の沈黙は、どんな議論よりも多くを語っていた。 (Watashitachi no aida no chinmoku wa, donna giron yori mo ooku o katatte ita.)**\n\n    *   **Tricky part:**  Japanese often relies on context.  The direct translation captures the core meaning, but the nuance of \"could have\" is tricky to render precisely. The verb \"katatte ita\" (語っていた) means \"was speaking,\" \"was telling,\" or \"was conveying\", and is a general way to say that the silence said more than any argument could have.\n    *   Alternative translation that is very similar with a subtle adjustment of naturalness: **私達の間には、どんな口論よりも雄弁な沈黙があった。 (Watashitachi no aida niwa, donna koron yori mo yuuben na chinmoku ga atta.)** This translation directly uses the adjective *yuuben* (雄弁), meaning \"eloquent\" or \"expressive\". It is a little more artistic than the previous one.\n\n**Arabic:**\n\n*   **كان الصمت بيننا أبلغ مما كان يمكن لأي جدال أن يقوله.** (Kana al-samtu baynana ablagha mimma kana yumkinu li-ayyi jidali an yaqulahu.)\n\n    *   **Tricky part:** The phrasing to capture \"could have\" is complex. Here I used \"kana yumkinu li-ayyi jidali an yaqulahu\", which translates to \"was it possible for any argument to say what it, the silence, said” or, somewhat more idiomatically, “any argument was able to say it.” To convey the sense of something being superior, I opted for the word “ablagh” (أبلغ), which is in the elative case, and means \"more eloquent/expressive/effective\".\n    *   Alternative translation which is equally grammatically sound:  **الصمت بيننا كان أبلغ من أي نقاش كان يمكن أن يدور بيننا.** (Al-samtu baynana kana ablaghu min ayyi nipaashi kana yumkinu an yaduura baynana.)",
+  "usage": {
+    "prompt_tokens": 41,
+    "completion_tokens": 599,
+    "total_tokens": 640,
+    "cost": 0.0002437,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002437,
+      "upstream_inference_prompt_cost": 0.0000041,
+      "upstream_inference_completions_cost": 0.0002396
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.0-flash-001",
+  "ts": 1776835861351
+}

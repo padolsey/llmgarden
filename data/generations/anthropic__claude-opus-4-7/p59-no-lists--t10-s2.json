@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "The water cycle is the continuous journey water takes as it moves through the Earth's atmosphere, surface, and underground, driven largely by energy from the sun. It begins when solar heat warms oceans, lakes, and rivers, causing liquid water to evaporate and rise into the air as invisible vapor, a process joined by transpiration from plants that release moisture through their leaves. As this vapor ascends, it cools and condenses around tiny particles in the atmosphere, forming the droplets and ice crystals that make up clouds. When these droplets grow heavy enough, they fall back to the ground as precipitation in the form of rain, snow, sleet, or hail, replenishing bodies of water and soaking into the soil. Some of this water flows across the land as runoff, gathering into streams and rivers that eventually return to the sea, while other portions seep deeper to recharge underground aquifers or are taken up by plants and living creatures. From there, the sun once again lifts moisture skyward, and the cycle renews itself endlessly, shaping weather, sustaining ecosystems, and circulating the same ancient water that has existed on Earth for billions of years.",
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 376,
+    "total_tokens": 431,
+    "cost": 0.009675,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.009675,
+      "upstream_inference_prompt_cost": 0.000275,
+      "upstream_inference_completions_cost": 0.0094
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833685042
+}

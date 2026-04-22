@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p16-photosynthesis",
+  "prompt": "Explain photosynthesis to a curious adult non-scientist in around 150 words. Avoid a bulleted list.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Photosynthesis is how plants make their own food using sunlight, and it's the process that ultimately feeds almost every living thing on Earth. Inside the green parts of a plant, especially the leaves, there are tiny structures called chloroplasts that contain a pigment called chlorophyll. Chlorophyll is what gives plants their green color, and more importantly, it captures energy from sunlight.\n\nThe plant pulls water up through its roots and absorbs carbon dioxide from the air through small pores in its leaves. Using the captured solar energy, it rearranges these simple ingredients into sugar, which the plant uses for growth and energy. As a bonus for the rest of us, the process releases oxygen into the air as a byproduct.\n\nSo in a sense, every breath you take and nearly every bite you eat traces back to a leaf quietly turning sunshine into life.",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 281,
+    "total_tokens": 330,
+    "cost": 0.00727,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00727,
+      "upstream_inference_prompt_cost": 0.000245,
+      "upstream_inference_completions_cost": 0.007025
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833524294
+}

@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "The lighthouse keeper stood at the edge of the rocky cliff, peering into the thick fog that shrouded the sea. The beam of the lighthouse sliced through the mist, illuminating nothing but grayness. Suddenly, a dark shape materialized in the distance. As it drew closer, the keeper's eyes widened in surprise. A small, rusty boat emerged from the fog, its wooden hull battered and worn. The keeper's curiosity was piqued as they watched the boat drift closer, its occupant slumped over the side. The keeper's heart quickened as they realized the boat was not empty, but carried a mysterious passenger, shrouded in the same fog that had hidden the vessel. The keeper's routine was about to be disrupted by this unexpected arrival, and they felt a thrill of anticipation mixed with trepidation. The fog swirled, hiding the boat once more, leaving the keeper to wonder.",
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 190,
+    "total_tokens": 250,
+    "cost": 0.0004449,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004449,
+      "upstream_inference_prompt_cost": 0.0000174,
+      "upstream_inference_completions_cost": 0.0004275
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-3.3-70b-instruct",
+  "ts": 1776835901883
+}

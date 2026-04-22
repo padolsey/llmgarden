@@ -1,0 +1,33 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p11-tradeoffs",
+  "prompt": "A small team is choosing between writing software in TypeScript or Python for a new internal data tool. Walk through how you would help them decide, in prose (not a bulleted list).",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "First I would sit with the team and listen for what they mean by “data tool.” If they are going to read a few CSV files once a quarter, run a Pandas notebook, and e-mail a chart to finance, the discussion is already over: Python is the path of least resistance. If, on the other hand, they want a browser-based dashboard that refreshes every five minutes, lets non-technical colleagues click filters, and must still be intelligible to a new hire a year from now, we have a genuine fork in the road.\n\nNext I would ask them to describe the life they expect the code to live. Will it be a single long script that an analyst runs on her laptop, or will it become a service that wakes up at 3 a.m., pulls from a warehouse, and exposes an endpoint? The more the answer leans toward service, the more TypeScript begins to earn its keep. A compiled language with static types whispers certain promises: refactors will not break silently, an interface change in one file will complain loudly in every file that depends on it, and the same discipline that keeps the front-end in check can keep the back-end honest. Python can do all of these things, but only if the team commits to Mypy, Pydantic, strict linters, and a culture that treats type-ignore comments as a code smell. If the team is small and no one is yearning to play type-system cop, that culture is hard to sustain.\n\nThen we would inventory the libraries they already love. If their hearts beat faster at the thought of scikit-learn, PyMC, or any of the other scientific packages that still feel first-class only in Python, we should be honest about the friction of re-implementing those algorithms or wrapping them behind HTTP endpoints. Conversely, if the heaviest lifting is joins and aggregations that BigQuery handles anyway, and the real challenge is turning the result into a snappy React UI, then TypeScript lets them stay in one linguistic universe from database migration to mouse-hover tooltip. The cognitive load of context-switching is a cost we tend to underestimate.\n\nWe would also look around the office—physical or virtual—and ask who will own this code six months from now. If the answer is “whoever is sitting closest to the data scientists,” and those people already dream in Python, inertia is a valid engineering argument. On the other hand, if the company’s road map shows a doubling of front-end engineers and a slow drift of data people toward product analytics, aligning with the larger tribe can be a form of future-proofing. A lonely Python service maintained by JavaScript developers often ends up as a black box that everyone is afraid to restart.\n\nSecurity and operations get their moment too. TypeScript compiles to a single deployable artifact; the type checker catches an entire class of bugs before the container is even built. Python’s dynamism means those same bugs can nap quietly until the",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 600,
+    "total_tokens": 645,
+    "cost": 0.001527,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001527,
+      "upstream_inference_prompt_cost": 0.000027,
+      "upstream_inference_completions_cost": 0.0015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776830433740
+}

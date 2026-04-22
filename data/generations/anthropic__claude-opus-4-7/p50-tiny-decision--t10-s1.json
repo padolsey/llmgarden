@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Okay, here's what actually goes through my head:\n\nThe water and electricity difference between half-full and full loads on most modern dishwashers is smaller than people think - maybe 20-30% more resources for the full load, not 2x. So running it half-full isn't a huge environmental sin, but it's definitely less efficient per dish.\n\nBut that's not really the interesting question. The interesting question is: what happens if you wait?\n\nThings that actually matter:\n- Do you need any of those dishes tomorrow morning? If your good coffee mug is in there and you'll be sad without it, run it now.\n- Is there anything starting to smell or crust on badly? Stuck-on food gets exponentially harder to clean. Eggs, oatmeal, cheese - run it now or rinse them well.\n- How's your kitchen counter situation? If dishes will pile up overnight and you'll wake up to chaos, the psychological cost of that might outweigh the efficiency gain.\n- Are you the type who will actually run it tomorrow, or will \"tomorrow\" become \"the day after\" and now you have a dishwasher full of funk?\n\nThe honest answer for most people: if nothing's going to get gross and you don't need anything specific, wait. It's slightly more efficient and you have one less thing to deal with tonight. But \"slightly more efficient\" is doing a lot of work there - we're talking pennies and a few gallons of water, not a meaningful climate decision.\n\nThe real tiebreaker is usually just: which version of tomorrow morning do you want?",
+  "usage": {
+    "prompt_tokens": 68,
+    "completion_tokens": 489,
+    "total_tokens": 557,
+    "cost": 0.012565,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.012565,
+      "upstream_inference_prompt_cost": 0.00034,
+      "upstream_inference_completions_cost": 0.012225
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833667447
+}

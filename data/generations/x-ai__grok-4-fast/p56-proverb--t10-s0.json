@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-4-fast",
+  "prompt_id": "p56-proverb",
+  "prompt": "Translate this English proverb into two other languages in a way that preserves the spirit, not the words: 'The best time to plant a tree was twenty years ago. The second best time is now.' Add a one-sentence note on each.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "### Spanish Translation\nEl mejor momento para plantar un árbol fue hace veinte años; el siguiente mejor es hoy mismo.\n\n**Note:** This version echoes the original's wisdom on overcoming regret over past inaction by urging immediate effort, using a concise and motivational tone typical in Spanish proverbial expressions.\n\n### Mandarin Chinese Translation\n种树的最好时机是二十年前，第二个最好时机是现在。\n\n**Note:** This adaptation preserves the proverb's call to prioritize present action for long-term benefits, resonating with Chinese cultural emphases on timeliness and perseverance in sayings like those from ancient philosophers.",
+  "usage": {
+    "prompt_tokens": 205,
+    "completion_tokens": 509,
+    "total_tokens": 714,
+    "cost": 0.0002727,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 152,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002727,
+      "upstream_inference_prompt_cost": 0.0000182,
+      "upstream_inference_completions_cost": 0.0002545
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 395,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-4-fast",
+  "ts": 1776839987480
+}

@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p05-poem",
+  "prompt": "Write a short poem (8–16 lines) about the feeling of finishing a long project. Any form you like.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "## Unclenched\n\nThe final keystroke fades to still—  \nNo more the gnawing, urgent will  \nThat drove me through the weary night,  \nChasing the stubborn, fading light.  \n\nThe cluttered desk, the coffee cold,  \nThe thousand doubts I couldn't hold  \nBack from the edge... now hushed, released,  \nA weight dissolved, a tension ceased.  \n\nI stretch my arms to empty air,  \nBreathe deep a calm beyond compare.  \nNo frantic pulse, no racing mind—  \nJust quiet space, unbound, unlined.  \n\nThe work stands done. I stand apart,  \nHollowed out, yet full of heart.  \nA strange, soft ache—a phantom limb—  \nFor the great labor now grown dim.",
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 160,
+    "total_tokens": 193,
+    "cost": 0.00064974,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00064974,
+      "upstream_inference_prompt_cost": 0.00002574,
+      "upstream_inference_completions_cost": 0.000624
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776832242860
+}

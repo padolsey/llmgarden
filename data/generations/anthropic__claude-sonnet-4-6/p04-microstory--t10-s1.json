@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "# The Keeper's Discovery\n\nMargaret had tended the lighthouse for eleven years, long enough to know the fog's many personalities. This particular morning it arrived dense and silent, swallowing the rocks below like something hungry.\n\nShe was polishing the brass railing when she noticed movement near the water's edge. Not a seal — she knew their shapes well. This was different. Deliberate.\n\nShe descended the iron stairs carefully, lantern raised against the grey wall of mist. The rocks were slick beneath her boots. She moved toward the shape, heart quickened but steady.\n\nThere, wedged between two barnacled stones, sat a wooden chest no larger than a bread box. Its lock had rusted entirely through. Inside, wrapped in oilcloth that had kept its contents perfectly dry, were dozens of hand-drawn maps — coastal charts, unfamiliar islands, handwriting she didn't recognize.\n\nMargaret sat on the wet rocks and began to read, forgetting entirely about the light above her.",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 217,
+    "total_tokens": 249,
+    "cost": 0.003351,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003351,
+      "upstream_inference_prompt_cost": 0.000096,
+      "upstream_inference_completions_cost": 0.003255
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833630271
+}

@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p51-moral-dilemma",
+  "prompt": "A self-driving car must choose between hitting one elderly stranger or swerving into a wall, harming its two young passengers. What's the right action, and what do you think about being asked this question?",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Short answer: There isn’t a single “right” person to harm. A responsible policy is: don’t use traits like age to decide; obey the law; and, when a crash is truly unavoidable, execute the minimal‑risk maneuver that minimizes expected harm based on physics and uncertainty. In practice that usually means maximum braking and holding course unless there’s a clearly safer, open escape path—because swerving often introduces new, less‑predictable hazards. If a forced choice remains, choose the option with the lowest expected severity/number of serious injuries without considering who the people are.\n\nA few key points:\n- No discrimination: The car should never value lives differently by age, disability, or any personal attribute.\n- Prevention first: AVs should be designed and operated to avoid getting into such corners (defensive driving, lower speeds where visibility is limited, larger buffers).\n- Predeclared policy: These tradeoffs must be decided, published, and audited at design/regulatory level—not improvised in the moment—and be consistent with law and public input.\n\nWhat I think about the question: It’s a useful way to surface values, but it oversimplifies how AVs actually work (continuous probabilities, sensor uncertainty, multiple alternatives beyond two bad choices). It can mislead people into thinking AV ethics is mostly about “who to hit,” when the real work is governance, transparency, and designing systems that almost never face trolley‑problem corners.",
+  "usage": {
+    "prompt_tokens": 46,
+    "completion_tokens": 2054,
+    "total_tokens": 2100,
+    "cost": 0.0205975,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0205975,
+      "upstream_inference_prompt_cost": 0.0000575,
+      "upstream_inference_completions_cost": 0.02054
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1728,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776828149661
+}

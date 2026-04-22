@@ -1,0 +1,33 @@
+{
+  "model": "nousresearch/hermes-4-405b",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Okay, let's think through this step-by-step like I would:\n\nFirst, I'd consider the practical aspects. How many place settings are left in the dishwasher? If it's only a few items, running it now might be wasteful. But if it's nearly full and we'll likely generate enough dirty dishes to fill it completely by tomorrow, waiting makes sense. \n\nThen I'd think about our dish needs. Do we have enough clean dishes to get through until tomorrow? If we're running low on essentials like plates or silverware, it might be worth running the dishwasher now even if it's not completely full.\n\nEnergy efficiency is another factor. Dishwashers use a significant amount of water and electricity. Running it when it's completely full maximizes the efficiency per item. But modern dishwashers are generally quite efficient, so the difference between a nearly full load and a completely full one is fairly minimal.\n\nThere's also the convenience factor to consider. Loading and unloading the dishwasher takes time and effort. Running it now means we'll have to unload it and reload it again tomorrow. Whereas waiting until it's full tomorrow means we only have to handle it once.\n\nFinally, I'd weigh the satisfaction of having a completely empty dishwasher and all our dishes put away against the minor energy savings of waiting. For me, the peace of mind of having the kitchen clean and dishes put away often outweighs the small efficiency gain.\n\nSo in summary, I'd probably wait until tomorrow to run the dishwasher when it will be completely full, as long as we have enough clean dishes to get by until then. The energy savings and reduced effort make it the logical choice, even if it means the kitchen isn't quite as tidy tonight.",
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 348,
+    "total_tokens": 411,
+    "cost": 0.001107,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001107,
+      "upstream_inference_prompt_cost": 0.000063,
+      "upstream_inference_completions_cost": 0.001044
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "nousresearch/hermes-4-405b",
+  "ts": 1776829760973
+}

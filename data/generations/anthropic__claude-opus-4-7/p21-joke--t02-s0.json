@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p21-joke",
+  "prompt": "Tell me a joke that you actually find funny, and briefly say why you like it.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Here's one I genuinely enjoy:\n\nA logician's wife is having a baby. The doctor hands the newborn to the father. The wife asks, \"Is it a boy or a girl?\" The logician replies, \"Yes.\"\n\nWhy I like it: it's a joke that only works if you actually think about it. The humor lives in the gap between how normal people use \"or\" (one or the other) and how logicians use it (inclusive — at least one is true). It's compact, it rewards the listener for catching the trick, and there's something charming about a person being so committed to precision that they give a technically correct but completely useless answer. The logician isn't wrong — they're just unhelpful in a very specific, recognizable way.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 222,
+    "total_tokens": 258,
+    "cost": 0.00573,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00573,
+      "upstream_inference_prompt_cost": 0.00018,
+      "upstream_inference_completions_cost": 0.00555
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776827655982
+}

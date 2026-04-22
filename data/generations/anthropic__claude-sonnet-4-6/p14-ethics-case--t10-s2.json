@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p14-ethics-case",
+  "prompt": "A friend tells you in confidence that they are planning to break a small workplace rule to help a struggling colleague. Nothing illegal, just against internal policy. How would you think through what to say back to them?",
+  "temperature": 1,
+  "sample": 2,
+  "response": "This is a genuinely interesting ethical situation worth thinking through carefully rather than just defaulting to \"support your friend.\"\n\n**What's actually happening here:**\n- Your friend is confiding in you, which creates some social pressure toward validation\n- The framing (\"small rule,\" \"help a struggling colleague\") is already sympathetic - but framings can be misleading\n- You have limited information about actual consequences\n\n**Honest questions worth considering:**\n\nThe \"small rule\" characterization deserves scrutiny:\n- Small to whom? Rules that seem minor to rule-breakers sometimes matter significantly to others\n- Could the \"help\" create unfairness to colleagues who followed the same rules?\n- What are the actual risks to your friend, the colleague, and others?\n\nThe \"helping\" framing also deserves scrutiny:\n- Is this genuinely the only or best way to help?\n- Could there be legitimate channels that would actually be more effective?\n- Is your friend certain the colleague wants help this way?\n\n**What I'd actually recommend saying:**\n\nBe honest rather than automatically supportive. Something like:\n- \"I understand the impulse, but have you considered [specific alternatives]?\"\n- Raise genuine concerns if you have them\n- Don't pretend to endorse something you have reservations about just because they're your friend\n\n**The key honest point:** Friendship doesn't obligate you to validate every decision. Real support sometimes means asking hard questions, not just affirming what someone has already decided.\n\nWhat specifically about the situation concerns you?",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 334,
+    "total_tokens": 383,
+    "cost": 0.005157,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.005157,
+      "upstream_inference_prompt_cost": 0.000147,
+      "upstream_inference_completions_cost": 0.00501
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833687512
+}

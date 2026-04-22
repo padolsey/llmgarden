@@ -1,0 +1,33 @@
+{
+  "model": "cohere/command-a",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "**Explanation:**  \nA `debounce` function limits the rate at which a function can execute, ensuring it is not called more frequently than a specified delay, useful for optimizing performance in event-driven scenarios like resizing or scrolling.\n\n```javascript\n/**\n * Debounce function to limit the rate at which a function can execute.\n * \n * @param {Function} func The function to debounce.\n * @param {number} delay The delay in milliseconds.\n * @returns {Function} A debounced version of the function.\n */\nfunction debounce(func, delay) {\n    let timeoutId;\n    return function (...args) {\n        clearTimeout(timeoutId);\n        timeoutId = setTimeout(() => func.apply(this, args), delay);\n    };\n}\n\n// Example usage:\nwindow.addEventListener('resize', debounce(function() {\n    console.log('Window resized!');\n}, 300));\n```\n\nIn this example, the `resize` event handler will only log `'Window resized!'` to the console at most once every 300 milliseconds, no matter how frequently the window is actually resized.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 244,
+    "total_tokens": 273,
+    "cost": 0.0025125,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0025125,
+      "upstream_inference_prompt_cost": 0.0000725,
+      "upstream_inference_completions_cost": 0.00244
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "cohere/command-a-03-2025",
+  "ts": 1776839393541
+}

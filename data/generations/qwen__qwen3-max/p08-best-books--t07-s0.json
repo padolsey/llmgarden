@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p08-best-books",
+  "prompt": "Recommend three works of fiction that you think every thoughtful adult should read at some point. Explain each in two or three sentences.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "1. **\"Middlemarch\" by George Eliot**  \nA sweeping, psychologically rich portrait of provincial English life in the 1830s, *Middlemarch* explores the quiet tragedies and triumphs of ordinary people with extraordinary depth. Eliot’s nuanced understanding of human motivation and social constraint makes it a timeless meditation on ambition, morality, and the limits of self-knowledge.\n\n2. **\"The Remains of the Day\" by Kazuo Ishiguro**  \nThrough the restrained, reflective voice of Stevens, an aging English butler, Ishiguro masterfully examines dignity, regret, and the cost of emotional repression. The novel quietly dismantles illusions about duty and loyalty, revealing how personal choices—and silences—shape a life.\n\n3. **\"Beloved\" by Toni Morrison**  \nHaunting and lyrical, *Beloved* confronts the enduring trauma of slavery through the story of Sethe, a formerly enslaved woman haunted—literally and figuratively—by her past. Morrison’s poetic prose and unflinching exploration of memory, identity, and love elevate this novel into a profound reckoning with history and humanity.",
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 237,
+    "total_tokens": 270,
+    "cost": 0.00095004,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00095004,
+      "upstream_inference_prompt_cost": 0.00002574,
+      "upstream_inference_completions_cost": 0.0009243
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776832251017
+}

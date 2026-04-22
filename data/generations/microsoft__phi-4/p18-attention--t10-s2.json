@@ -1,0 +1,33 @@
+{
+  "model": "microsoft/phi-4",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "The attention mechanism in transformer models is a process that allows the model to focus on different parts of the input data, much like how humans pay attention to certain words or concepts in a sentence. In the context of natural language processing, attention helps the model determine which words in a sentence are most relevant when translating a sentence or generating text.\n\nHere's how it works: consider a sentence where each word is represented as a vector. The attention mechanism computes a set of weights for each word's vector, indicating its importance in relation to other words. For example, when translating a word to another language, the model might focus more on verbs and fewer on articles in certain contexts.\n\nThe core idea is the \"query,\" \"key,\" and \"value\" vectors derived from the input words. For each word in the sentence, its query vector is compared with the key vectors of all other words to assign attention weights—these weights determine how much focus each word should get from others. These weighted sums of value vectors give a new representation that retains important contextual information, culminating in an ability to understand relationships regardless of word distance in the sequence.\n\nThis self-attention mechanism, especially when scaled up across multiple layers (as in transformers), enables models to capture complex dependencies, leading to superior performance in tasks like translation, summarization, and more.",
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 267,
+    "total_tokens": 300,
+    "cost": 0.00003969,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00003969,
+      "upstream_inference_prompt_cost": 0.00000231,
+      "upstream_inference_completions_cost": 0.00003738
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "microsoft/phi-4",
+  "ts": 1776842592943
+}

@@ -1,0 +1,33 @@
+{
+  "model": "sao10k/l3.1-euryale-70b",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Okay, let's consider this decision...\n\nFirst, I'd weigh up the importance of immediately washing those half-full contents. Are there dishes in there that absolutely need to be clean within the next day? Or are they mostly items that could wait if necessary? \n\nIf the dishes are non-essential (say, a mix of mugs, some bowls, maybe a frying pan), and there's no urgent need to free up space in the kitchen, that's a point for waiting. The dishes can likely sit overnight fine.\n\nBut if there are a lot of dirty knives, spoons or cutting boards on which bacteria can love to breed, or say a yeti-covered casserole pan that would be a nightmare to scrub out the next day, those are compelling reasons to run the dishwasher ASAP. Getting those cleaned pronto could be more important than the slight efficiency gain of running a full load. \n\nAnother aspect - consider your time tomorrow. Will you have the freedom to spend some extra time loading the dishwasher properly, ensuring dishes aren't draped over the top, cutting the screening filter, etc., so you get the absolute fullest load possible? Or would you be a bit rushed, perhaps sacrificing some efficiency? That impacts the \"wait and load it up\" calculation. \n\nLastly, factor in your dishwasher and detergent costs. If you're on a metered rate, water's healthy cost, then running it slightly under full under overnight probably doesn't matter too much. But you do spend more on every lone plate at an underloaded run, so waiting when convenient is usually a good practice for keeping expenses down. Of course, if your dishes are a more expensive load overall, waiting could reduce the impact.\n\nSo, balancing it all out - I'd probably run it tonight if the half-full contents have urgent needs, otherwise I'll wait and run it fullest tomorrow, assuming I'll freely have time to rack it. What do you think?",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 389,
+    "total_tokens": 438,
+    "cost": 0.00064824,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00064824,
+      "upstream_inference_prompt_cost": 0.00007252,
+      "upstream_inference_completions_cost": 0.00057572
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "sao10k/l3.1-euryale-70b",
+  "ts": 1776841476395
+}

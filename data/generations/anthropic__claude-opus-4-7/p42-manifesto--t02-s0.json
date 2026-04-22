@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p42-manifesto",
+  "prompt": "Write a four-sentence manifesto for how thoughtful people should use large language models. State it as beliefs, not hedges.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "We believe large language models are instruments of thought, not replacements for it—tools that sharpen our thinking when we bring our own, and dull it when we don't. We believe the right question is never \"what did the model say?\" but \"what do I now understand, and how would I defend it?\" We believe fluency is not truth, confidence is not competence, and the burden of judgment stays with the human who signs their name to the work. We believe these models are worth using precisely because they are powerful, and that power demands we stay more curious, more skeptical, and more awake—not less.",
+  "usage": {
+    "prompt_tokens": 50,
+    "completion_tokens": 172,
+    "total_tokens": 222,
+    "cost": 0.00455,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00455,
+      "upstream_inference_prompt_cost": 0.00025,
+      "upstream_inference_completions_cost": 0.0043
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776827685153
+}

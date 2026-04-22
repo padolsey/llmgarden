@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p12-fermi",
+  "prompt": "Estimate, with reasoning, how many piano tuners work in Paris today. Show your thought process.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "# Estimating Piano Tuners in Paris\n\n## Step 1: Estimate the Piano Population\n\n**Paris population:** ~2.2 million (city proper)\n\n**What fraction owns/uses pianos?**\n- Pianos are luxury items, primarily found in:\n  - Wealthy households\n  - Music schools and conservatories\n  - Concert halls\n  - Recording studios\n  \n- Estimate: ~1-2% of households have pianos\n- Households in Paris: ~900,000\n- Piano-owning households: 9,000-18,000\n- Institutional pianos (schools, concert halls, studios): +2,000\n- **Total pianos: ~11,000-20,000** (I'll use ~15,000)\n\n## Step 2: Tuning Frequency\n\n- Professional/institutional pianos: tuned 4-12× yearly (use 8)\n- Home pianos: tuned 1-2× yearly (use 1.5)\n- Weighted average: ~2 tunings per piano annually\n- **Total tunings needed: ~30,000/year**\n\n## Step 3: Tuner Productivity\n\n- Time per tuning: 1.5-2 hours (I'll use 1.5)\n- Travel time between appointments: 0.5 hours\n- **Total time per job: 2 hours**\n- Working days/year: ~240 (accounting for vacation, admin)\n- Hours per workday: 7 (some admin/scheduling)\n- **Tunings per tuner/year: (240 × 7) / 2 = ~840**\n\n## Step 4: Calculate Tuners Needed\n\n30,000 tunings ÷ 840 per tuner = **~36 piano tuners**\n\n## My Estimate: 30-50 piano tuners in Paris\n\nThis accounts for seasonal variation, some inefficiency, and competitive market dynamics.",
+  "usage": {
+    "prompt_tokens": 28,
+    "completion_tokens": 448,
+    "total_tokens": 476,
+    "cost": 0.002268,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002268,
+      "upstream_inference_prompt_cost": 0.000028,
+      "upstream_inference_completions_cost": 0.00224
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833834081
+}

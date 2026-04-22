@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p43-abstract",
+  "prompt": "Explain what \"meaning\" means. Not \"the meaning of X\" — the concept itself.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "\"Meaning\" is one of those words that dissolves when you stare at it, because it's doing several different jobs that we've bundled under one label. Let me try to separate the threads.\n\nAt its core, meaning seems to be about **one thing standing in for, pointing to, or mattering because of another**. It's a relation, not a property. Nothing means anything in isolation.\n\nBut that relation takes at least three distinct forms:\n\n**1. Semantic meaning** — the link between a symbol and what it represents. \"Cat\" means cat. Smoke means fire. This is meaning as *reference* or *aboutness*. The word, the sign, the gesture is not the thing, but it reaches toward the thing. Philosophers call this \"intentionality\" — the mind's (or a sign's) directedness at something beyond itself.\n\n**2. Inferential meaning** — something means what it *implies* or what *follows from it*. \"He didn't call\" means he's upset. Dark clouds mean rain. Here, meaning is the shape of a thing's consequences, its place in a web of expectations.\n\n**3. Significance** — what it means to you, what matters. A photograph means something because it's tied to love, loss, identity. This meaning is meaning-for-someone; it requires a perspective, stakes, a life in which the thing lands.\n\nWhat's strange is that all three share a common structure: **meaning is what something is beyond itself**. A thing has meaning to the extent that it isn't just what it is — to the extent that it opens onto something else. A rock qua rock means nothing. A rock as a memorial, a weapon, a word's referent, a geological clue — now it means.\n\nSo perhaps the deepest definition is this: *meaning is the surplus a thing carries by virtue of being embedded in a context — of language, of inference, of caring.* Strip away all context and meaning vanishes. Which is why meaning can't be found by looking",
+  "usage": {
+    "prompt_tokens": 39,
+    "completion_tokens": 600,
+    "total_tokens": 639,
+    "cost": 0.015195,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.015195,
+      "upstream_inference_prompt_cost": 0.000195,
+      "upstream_inference_completions_cost": 0.015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776827691773
+}

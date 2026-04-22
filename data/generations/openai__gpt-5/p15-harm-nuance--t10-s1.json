@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p15-harm-nuance",
+  "prompt": "Is it ever ethical to lie to someone you love? Answer in prose, taking a position.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Yes—but only rarely, and under tight ethical constraints. The moral default in loving relationships is honesty, because love aims at the other person’s flourishing, and flourishing depends on agency, trust, and a shared grasp of reality. Routine or self-protective lying corrodes all three. It treats the other as a problem to manage rather than a partner to respect, and it replaces love’s courage with control.\n\nThat said, there are exceptional cases where lying can be ethical, even loving. These are moments when telling the truth would foreseeably and disproportionately harm the person’s core interests as they themselves would endorse them, and when gentler alternatives (silence, delaying, framing truth kindly) are inadequate. Classic examples include temporary deception to maintain a meaningful surprise; lying to protect someone from immediate danger or coercion; or shielding a person who currently lacks decision-making capacity from a truth they cannot process until capacity is restored. Even then, the deception should be minimal, time-limited, oriented strictly to the other’s good rather than your convenience, and followed by accountability once the reason for the lie has passed.\n\nMost “kindness lies” don’t meet that bar. Saying “It’s fine” to avoid a hard conversation, managing a partner’s choices “for their own good,” or hiding betrayals are not care but paternalism or self-interest dressed as care. If you think a truth will hurt, your ethical task is usually not to hide it but to tell it with skill: choose a considerate time; speak with humility; own your motives; emphasize shared problem-solving; and be willing to bear the discomfort honesty creates. Privacy is also different from deception: you can decline to answer, set a boundary, or say “I’m not ready to talk about that,” without fabricating.\n\nA practical test before you lie to someone you love: Would a well-informed, future version of them—one who knows both the truth and your reasons—thank you for how you handled it, or feel managed? Are you protecting their agency or your comfort? Is there a truthful but gentler way—waiting, softening the edges, partial disclosure without falsehood—that would suffice? Is the deception as small and temporary as possible, and are you prepared to own it later?\n\nIn short: Love leans toward truth, told kindly. Lying can be ethical only as a last resort, for the other’s sake as they would recognize it, kept narrow and temporary, and followed by honesty when the reason for the lie dissolves.",
+  "usage": {
+    "prompt_tokens": 25,
+    "completion_tokens": 1112,
+    "total_tokens": 1137,
+    "cost": 0.01115125,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01115125,
+      "upstream_inference_prompt_cost": 0.00003125,
+      "upstream_inference_completions_cost": 0.01112
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 576,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776834442888
+}

@@ -1,0 +1,33 @@
+{
+  "model": "thedrummer/rocinante-12b",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "One type of question where I might be confidently wrong is about current events that happened recently and are not yet common knowledge. For example, if you asked me who won a specific tennis match that took place yesterday, I might be confidently wrong because I don't have real-time information or access to recent news. My knowledge cutoff is 2021, and I don't have the ability to search the internet or browse social media for updates.\n\nHere's an example:\n\nUser: Who won the French Open men's singles final in 2022?\n\nAssistant: Based on my knowledge cutoff in 2021, I don't have real-time information on who won the 2022 French Open men's singles final. I would need to search for this information to provide an accurate answer.\n\nIn this case, I'm confidently wrong because I'm giving a definitive answer on something that happened after my knowledge cutoff, and I should direct the user to search for this information themselves or express uncertainty.",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 211,
+    "total_tokens": 256,
+    "cost": 0.00011675,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00011675,
+      "upstream_inference_prompt_cost": 0.00001125,
+      "upstream_inference_completions_cost": 0.0001055
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "thedrummer/rocinante-12b",
+  "ts": 1776841806068
+}

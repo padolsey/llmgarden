@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p56-proverb",
+  "prompt": "Translate this English proverb into two other languages in a way that preserves the spirit, not the words: 'The best time to plant a tree was twenty years ago. The second best time is now.' Add a one-sentence note on each.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "# English to Chinese and Spanish Translation\n\n## Chinese (Mandarin):\n\"错过了最好的时机，把握现在也不迟。\"\n*Note: This adaptation focuses on the Chinese cultural value of not dwelling on missed opportunities but rather emphasizing the importance of present action.*\n\n## Spanish:\n\"Nunca es tarde para comenzar lo que debiste haber empezado hace tiempo.\"\n*Note: This Spanish version captures the essence through the common cultural sentiment that it's never too late to start something worthwhile, even if you should have begun it long ago.*",
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 130,
+    "total_tokens": 191,
+    "cost": 0.002133,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002133,
+      "upstream_inference_prompt_cost": 0.000183,
+      "upstream_inference_completions_cost": 0.00195
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776831376727
+}

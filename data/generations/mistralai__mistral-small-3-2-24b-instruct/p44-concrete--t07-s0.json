@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "prompt_id": "p44-concrete",
+  "prompt": "Describe, with sensory detail, what a Tuesday morning feels like in a small library that is open but has no visitors yet.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "The air in the small library is quiet and cool, carrying the faint scent of aged paper and polished wood. Sunlight filters through the high windows, casting golden rectangles across the worn carpet, where dust motes drift lazily in the stillness. The hum of the ceiling fan is the only sound—steady, rhythmic, like a slow heartbeat.\n\nThe shelves loom tall and silent, their spines a mosaic of colors—cracked leather, faded cloth, glossy modern covers. The scent of ink and glue lingers, faint but unmistakable, mingling with the faint metallic tang of the old radiator, still warm from last night. A single book lies open on a reading table, its pages curled slightly at the edges, as if waiting for someone to turn them.\n\nThe circulation desk is neat, a fresh stack of holds tucked beneath the counter, the computer screen glowing softly. A half-empty mug of cold coffee sits beside it, forgotten. The scent of the morning’s brew still clings to the air, mingling with the quiet earthiness of old books.\n\nOutside, the street is hushed—no footsteps, no chatter. Just the distant murmur of a car passing, the occasional rustle of leaves against the glass. Inside, time seems to stretch, weightless, as if the library itself is holding its breath, savoring the stillness before the day begins.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 285,
+    "total_tokens": 314,
+    "cost": 0.000059175,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000059175,
+      "upstream_inference_prompt_cost": 0.000002175,
+      "upstream_inference_completions_cost": 0.000057
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-small-3.2-24b-instruct-2506",
+  "ts": 1776832035331
+}

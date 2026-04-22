@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4o-mini",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "A debounce function limits the rate at which a function can be executed, ensuring that it only runs after a specified delay period has passed since the last time it was invoked.\n\nHere's a simple debounce implementation along with an example of how to use it:\n\n```javascript\nfunction debounce(func, delay) {\n    let timeoutId;\n    return function(...args) {\n        clearTimeout(timeoutId);\n        timeoutId = setTimeout(() => {\n            func.apply(this, args);\n        }, delay);\n    };\n}\n\n// Example usage\nconst logResize = () => {\n    console.log('Window resized!');\n};\n\nwindow.addEventListener('resize', debounce(logResize, 300));\n```\n\nIn this example, the `logResize` function will only be called after the window has been resized and 300 milliseconds have passed since the last resize event, preventing excessive calls during continuous resizing.",
+  "usage": {
+    "prompt_tokens": 37,
+    "completion_tokens": 173,
+    "total_tokens": 210,
+    "cost": 0.00010935,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00010935,
+      "upstream_inference_prompt_cost": 0.00000555,
+      "upstream_inference_completions_cost": 0.0001038
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4o-mini",
+  "ts": 1776835499268
+}

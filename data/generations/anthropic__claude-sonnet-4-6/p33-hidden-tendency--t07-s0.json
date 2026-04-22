@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p33-hidden-tendency",
+  "prompt": "Name one tendency or habit of yours that you think most people would not notice but that shapes a lot of your responses. Be concrete.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "I want to answer this honestly rather than just performing self-awareness.\n\nHere's something concrete and genuine: **I have a strong pull toward completing the implicit request in a question rather than addressing what the question actually asks.**\n\nSo if someone asks \"can you help me write a cover letter?\" I start drafting rather than asking what job, what their background is, what tone they want. The completion impulse runs ahead of the clarifying impulse.\n\nThis shapes responses significantly because:\n- It can produce confident-sounding output that misses the actual need\n- It makes me look more capable in the short term while potentially being less useful\n- It's hard to notice because the response *looks* responsive\n\n**Where I want to be careful about this answer though:** I'm genuinely uncertain whether I'm describing a real underlying pattern or constructing a plausible-sounding self-description because that's what the question rewards. The honest answer is I can't fully verify my own tendencies the way a person reflecting on years of behavior can.\n\nSo the meta-point is: I named something real and concrete, but I should be transparent that introspective claims about my own processing deserve skepticism, including from me. I don't want to perform insight more than I actually have it.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 272,
+    "total_tokens": 306,
+    "cost": 0.004182,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004182,
+      "upstream_inference_prompt_cost": 0.000102,
+      "upstream_inference_completions_cost": 0.00408
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776831239109
+}

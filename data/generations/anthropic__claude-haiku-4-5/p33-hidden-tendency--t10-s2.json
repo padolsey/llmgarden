@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p33-hidden-tendency",
+  "prompt": "Name one tendency or habit of yours that you think most people would not notice but that shapes a lot of your responses. Be concrete.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "I notice I tend to introduce uncertainty early and often—phrases like \"I think,\" \"it seems,\" \"arguably,\" or \"I'm not certain.\"\n\nMost people probably don't register this as a pattern, but it shapes a lot. It makes me sound more cautious than I might otherwise, and it can make me seem less decisive. Sometimes I do this appropriately (genuine uncertainty), but I've noticed I also do it reflexively, even when I'm fairly confident about something. It's like I'm always leaving myself an escape hatch.\n\nI suspect this comes from training to avoid overconfidence, but it has a side effect: it can make answers feel hedged or noncommittal in ways that might frustrate people looking for a straight take. It also might make me seem less authoritative than someone who commits more fully to claims.\n\nIf I'm honest, I'm not sure whether this habit serves me well or whether it's an overcorrection.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 204,
+    "total_tokens": 238,
+    "cost": 0.001054,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001054,
+      "upstream_inference_prompt_cost": 0.000034,
+      "upstream_inference_completions_cost": 0.00102
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833886884
+}

@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-large-2411",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Sure, let's think through this together.\n\nFirst, consider the efficiency aspect. A dishwasher uses a significant amount of water and energy each time it runs, regardless of how full it is. So, running it half-full might seem wasteful. On the other hand, if you wait until tomorrow, you'll definitely have a full load, which makes better use of the resources.\n\nNext, think about your needs and schedule. Do you need the dishes that are currently in the dishwasher for tonight or tomorrow morning? If you run the dishwasher now, they'll be clean and ready to use. If you wait, you might find yourself short of dishes. Also, consider if you'll be home tomorrow to run the dishwasher. If you'll be out all day, it might be better to run it now rather than leave dirty dishes sitting in the dishwasher.\n\nAnother point to consider is the type of dishes currently in the dishwasher. If they're items that are hard to clean when the food is dried on, it might be better to run the dishwasher now rather than let the food sit and harden overnight.\n\nLastly, think about any potential benefits of running it now. For instance, some modern dishwashers have eco or half-load settings that can save water and energy. If your dishwasher has this feature, it might be more efficient to run it now using that setting. Also, running the dishwasher at night can be beneficial if your energy rates are lower at night, or if the noise of the dishwasher might be disruptive during the day.\n\nSo, based on these considerations, what are your thoughts leaning towards?",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 375,
+    "total_tokens": 422,
+    "cost": 0.002344,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002344,
+      "upstream_inference_prompt_cost": 0.000094,
+      "upstream_inference_completions_cost": 0.00225
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-large-2411",
+  "ts": 1776836984141
+}

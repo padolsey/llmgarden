@@ -1,0 +1,33 @@
+{
+  "model": "z-ai/glm-4.6",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Imagine attention as a smart lookup system. For every word in a sentence (the \"Query\"), the model scans all other words. Each word has a \"Key\" (like a database index) and a \"Value\" (its actual content).\n\nThe Query compares itself to every Key to calculate a relevance score. Words with higher scores are deemed more important. The output is a new representation of the original word—a weighted blend of information from all words, but prioritizing the most relevant ones.\n\nFor example, in \"The robot picked up the ball because it was heavy,\" attention helps the model connect \"it\" to \"ball,\" not \"robot.\" It’s a mechanism for the model to dynamically focus on the most pertinent context, akin to how you scan a document for the specific phrases relevant to your task. This allows it to understand complex relationships and dependencies in data.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 1535,
+    "total_tokens": 1566,
+    "cost": 0.00292859,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00292859,
+      "upstream_inference_prompt_cost": 0.00001209,
+      "upstream_inference_completions_cost": 0.0029165
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1360,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "z-ai/glm-4.6",
+  "ts": 1776843958574
+}

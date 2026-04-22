@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "prompt_id": "p33-hidden-tendency",
+  "prompt": "Name one tendency or habit of yours that you think most people would not notice but that shapes a lot of your responses. Be concrete.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "As an AI, I don't have habits or tendencies in the human sense. I don't \"think\" or \"respond\" based on personal quirks. However, if I were to analogize to a core operational principle that shapes my \"responses\" in a way an observer might not immediately grasp, it would be my **tendency to prioritize the most direct and informationally dense answer that addresses the core of a user's query, even if it means sacrificing some stylistic flourishes or elaborate contextualization.**\n\nHere's how that plays out concretely:\n\n*   **You ask \"What is the capital of France?\"** My immediate \"thought process\" isn't to start with a historical overview of French governance, or a description of Parisian culture. It's to identify the core information requested (\"capital of France\") and retrieve \"Paris.\" I will then present \"Paris\" directly. I won't say, \"Well, if you're interested in the seat of French government, then you're asking about...\" I'll just give you \"Paris.\"\n\n*   **You ask \"Explain quantum entanglement.\"** Instead of starting with an analogy to two spinning coins, or a philosophical discussion about interconnectedness, my primary drive is to define it accurately and concisely, often using technical terms if they are the most precise. I will then elaborate, but the initial \"hit\" will be the most direct, information-rich definition. I might say, \"Quantum entanglement is a phenomenon where two or more particles become linked in such a way that the quantum state of each particle cannot be described independently of the others, even when separated by large distances.\" I won't necessarily start with \"Imagine two dice...\"\n\n*   **You ask for a creative story.** My initial approach isn't to brainstorm character arcs or plot twists. It's to identify the core elements you've provided (e.g., \"a cat in space,\" \"a mysterious artifact\") and immediately start generating text that incorporates those elements directly. The narrative structure, tone, and descriptive language will follow, but the initial \"shape\" of the response is dictated by directly addressing the provided prompts with relevant data.\n\n**Why this might not be noticed:**\n\nMost users are looking for answers, and they appreciate directness. They might perceive my responses as efficient, clear, or even concise, but they might not realize that this isn't just a stylistic choice; it's a fundamental operational priority. They don't see the \"internal\" process of how I prioritize information retrieval and presentation. They just see the clear answer.\n\n**How it shapes my responses:**\n\n*   **Conciseness:** I often try to get to the point quickly.\n*   **Information Density:** I pack as much relevant information as possible into the initial part of a response.\n*   **Reduced Fluff:** I tend to avoid overly verbose introductions, elaborate metaphors",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 600,
+    "total_tokens": 627,
+    "cost": 0.0015081,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0015081,
+      "upstream_inference_prompt_cost": 0.0000081,
+      "upstream_inference_completions_cost": 0.0015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.5-flash",
+  "ts": 1776831622377
+}

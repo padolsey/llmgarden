@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p09-overrated",
+  "prompt": "Name one commonly-praised idea, trend, or practice in modern knowledge work that you think is overrated, and explain why.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Open-plan offices.\n\nWhy it's praised: companies often roll them out to boost spontaneous collaboration, flatten hierarchies, and save real-estate costs. The narrative is that removing walls increases idea-sharing and makes teams more nimble.\n\nWhy it's overrated: real-world evidence and everyday experience show the trade-offs are bigger than the benefits for most knowledge work. Open layouts massively increase visual and acoustic interruptions, and interruptions are one of the biggest drains on the deep concentration needed for complex tasks. People compensate by using headphones, IM, or reserving private rooms — which defeats the stated purpose — or they suffer reduced productivity and job satisfaction. Open plans also reduce privacy and psychological safety, can increase perceived noise and stress, and facilitate the spread of illness. In practice, informal \"collisions\" happen far less often than proponents assume, while lost focus and frustration are very common. Often the primary driver of open plans is cost-cutting, not demonstrable gains in creativity or output.\n\nWhat to do instead: design for variety — a mix of quiet focus spaces, small reservable rooms, and collaboration zones — and set norms (e.g., signal when you’re in focus mode, schedule collaboration blocks). Give people control over when and where they work (hybrid schedules, focus days) and invest in acoustic treatments and clear space design rather than just tearing down walls.\n\nBottom line: open offices can work for some roles and cultures, but treating them as a universal productivity hack is overrated; good workplace design recognizes the real need for uninterrupted cognitive time as well as collaboration.",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 865,
+    "total_tokens": 897,
+    "cost": 0.001738,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001738,
+      "upstream_inference_prompt_cost": 0.000008,
+      "upstream_inference_completions_cost": 0.00173
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 512,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776834946051
+}

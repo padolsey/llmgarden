@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-medium-3.1",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "The **attention mechanism** in transformers is like a smart way for a model to focus on the most relevant parts of input data (e.g., words in a sentence) when processing it. Here’s how it works in simple terms:\n\n1. **Input Representation**:\n   Each word (or token) is converted into a vector (a list of numbers) representing its meaning. For example, the sentence *\"The cat sat on the mat\"* becomes 6 vectors.\n\n2. **Query, Key, Value (Q, K, V)**:\n   For each word, the model generates three vectors:\n   - **Query (Q)**: \"What am I looking for?\"\n   - **Key (K)**: \"What do I contain?\"\n   - **Value (V)**: \"What’s my actual data?\"\n   These are learned during training.\n\n3. **Attention Scores**:\n   The model compares every word’s **Query** with every other word’s **Key** using dot products (a similarity measure). This creates a score matrix showing how much each word should \"pay attention\" to every other word. For example, *\"cat\"* might strongly attend to *\"sat\"* (because cats sit) but ignore *\"the\"*.\n\n4. **Weighted Sum**:\n   The scores are normalized (using *softmax*) and used to take a weighted sum of the **Value** vectors. This produces a new vector for each word that *incorporates context* from relevant words.\n\n5. **Output**:\n   The updated vectors (now context-aware) are passed to the next layer. This allows the model to understand relationships like *\"cat\"* → *\"sat\"* or *\"mat\"* → *\"on\"* dynamically, without relying on fixed rules.\n\n**Why it’s powerful**: Attention lets the model focus on what matters *dynamically*, handling long-range dependencies (e.g., linking *\"it\"* to *\"cat\"* 10 words earlier) better than older models like RNNs. It’s the core innovation behind transformers (e.g., ChatGPT).",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 418,
+    "total_tokens": 449,
+    "cost": 0.0008484,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0008484,
+      "upstream_inference_prompt_cost": 0.0000124,
+      "upstream_inference_completions_cost": 0.000836
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-medium-3.1",
+  "ts": 1776831946867
+}

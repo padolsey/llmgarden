@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Absolutely! Here are the translations, along with brief notes on any tricky phrases:\n\n---\n**French:**  \nLe silence entre nous en disait plus que n’importe quelle dispute aurait pu le faire.\n\n*Note:*  \n- \"Dispute\" here is used for \"argument\", but “dispute” most closely means a quarrel or disagreement; the nuance of “argument” in English sometimes leans toward rational debate, but in this context, \"dispute\" conveys the emotional impact.\n\n---\n\n**Japanese:**  \n私たちの間に流れた沈黙は、どんな口論よりも多くを語っていた。\n\n*Note:*  \n- The phrase “流れた沈黙” (nagareta chinmoku, “the silence that flowed”) adds nuance and is idiomatic in Japanese, as silence is often described as \"flowing\" between people. The term \"口論\" (kōron) means \"quarrel\" or \"argument,\" fitting the context of a heated discussion.  \n- The phrase \"said more than\" is rendered as \"多くを語っていた\" (\"told/said more\"), which is as direct as possible, but Japanese often uses metaphorical expressions for such emotional weight.\n\n---\n\n**Arabic:**  \nالصمت بيننا قال أكثر مما كان يمكن لأي جدال أن يقوله.\n\n*Note:*\n- The structure is similar to English, but Arabic often personifies silence (جاء بالصمت قال...), so \"الصمت قال\" (“the silence said”) is natural.  \n- \"جدال\" (jidāl) means \"debate\" or \"argument\"; depending on context, “خلاف” (khilāf) for “disagreement” works, but “جدال” is accurate here.\n\n---\n\nLet me know if you need a more literal rendering or further cultural notes!",
+  "usage": {
+    "prompt_tokens": 48,
+    "completion_tokens": 381,
+    "total_tokens": 429,
+    "cost": 0.003144,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003144,
+      "upstream_inference_prompt_cost": 0.000096,
+      "upstream_inference_completions_cost": 0.003048
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-2025-04-14",
+  "ts": 1776835321089
+}

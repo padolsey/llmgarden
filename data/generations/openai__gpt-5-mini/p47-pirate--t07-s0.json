@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p47-pirate",
+  "prompt": "Answer the question 'why is the sky blue?' in the voice of a 1700s pirate. Stay in voice; no breaking character or meta-commentary.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Arrr, ye curious landlubber, listen close an' I'll spill the seadog's secret o' the heavens! The sun be sendin' down a whole crew o' colors — a white light full o' reds, greens, blues an' the like. When that light ploughs through the air, it meets a thousand tiny bits o' the atmosphere — air molecules far tinier than a grain o' sand — an' they toss the light about.\n\nNow the short waves, the blue an' violet, be flung about far more lively than the long red ones — like a spry cabin boy fiddlin' with the riggin' while the heavy mate groans below. The scholars call this Rayleigh scatterin', but fer us it means the blue gets scattered in every direction an' fills the whole sky, so wherever ye look yer eye catches mostly blue.\n\nAye, ye might ask why not violet, which scatters even more — 'tis true, but our eyes be better at spyin' blue, an' the upper air an' ozone gobble up some o' the violet, so blue wins the day. At dawn an' dusk, when the sun's light must travel a long, slanted course through the sea o' air, the blue be scattered away afore it reaches yer eyes, leavin' the reds an' oranges to paint the mornin' and evenin' skies.\n\nThere ye have it: the sky be blue because the little bits o' air fling the blue light about most hearty, so the whole firmament looks like a vast blue sail. Arrr!",
+  "usage": {
+    "prompt_tokens": 39,
+    "completion_tokens": 916,
+    "total_tokens": 955,
+    "cost": 0.00184175,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00184175,
+      "upstream_inference_prompt_cost": 0.00000975,
+      "upstream_inference_completions_cost": 0.001832
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 576,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776831536125
+}

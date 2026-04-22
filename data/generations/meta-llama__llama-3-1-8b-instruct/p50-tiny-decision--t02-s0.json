@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Let's consider the situation. You have a half-full dishwasher now, and you're wondering whether to run it or wait until tomorrow when it'll be full. \n\nFirst, I'd think about the energy consumption of the dishwasher. Running a half-full dishwasher might not be as efficient as running a full one, since it'll have to use more energy to heat the water and clean the dishes. On the other hand, waiting until tomorrow might mean running the dishwasher for a longer period, which could also be less efficient.\n\nNext, I'd consider the convenience factor. If you run the dishwasher now, you'll have clean dishes for the rest of the day, which is convenient. But if you wait until tomorrow, you'll have to wash the remaining dishes by hand or use a smaller load in the dishwasher, which might be less convenient.\n\nAnother thing to think about is the water usage. Running a half-full dishwasher might use less water than running a full one, but it's still using more water than washing dishes by hand. So, if water conservation is a concern, running the dishwasher now might not be the best option.\n\nLastly, I'd think about your schedule for tomorrow. If you have a busy day ahead, it might be more convenient to run the dishwasher now and have clean dishes for the rest of the day. But if you have a lot of free time tomorrow, it might be better to wait until then.\n\nOverall, it seems like waiting until tomorrow when the dishwasher is full might be the most efficient option, but it also depends on your personal preferences and schedule.",
+  "usage": {
+    "prompt_tokens": 74,
+    "completion_tokens": 318,
+    "total_tokens": 392,
+    "cost": 0.00002914,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00002914,
+      "upstream_inference_prompt_cost": 0.0000037,
+      "upstream_inference_completions_cost": 0.00002544
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-3.1-8b-instruct",
+  "ts": 1776828734996
+}

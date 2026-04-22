@@ -1,0 +1,33 @@
+{
+  "model": "cohere/command-r-plus-08-2024",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Debouncing is a technique to limit the rate at which a function can be executed, ensuring that it is not called too frequently in rapid succession.\n\n```javascript\nfunction debounce(func, wait) {\n    let timeout;\n\n    return function(...args) {\n        clearTimeout(timeout);\n        timeout = setTimeout(() => {\n            func.apply(this, args);\n        }, wait);\n    };\n}\n\n// Example usage: debouncing a resize event handler\nwindow.addEventListener('resize', debounce(() => {\n    console.log('Window resized, updating layout...');\n    // Perform heavy layout calculations or UI updates here\n    layoutUpdate();  // Assuming this function exists\n}, 250));\n```\n\nIn this code, the `debounce` function takes a function (`func`) and a delay time in milliseconds (`wait`) as arguments. It returns a new function that will delay the execution of the provided function until after the specified wait time has elapsed since the last invocation. This is particularly useful for events that occur rapidly, like 'resize' or 'scroll', to avoid overwhelming the browser with expensive operations.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 233,
+    "total_tokens": 262,
+    "cost": 0.0024025,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0024025,
+      "upstream_inference_prompt_cost": 0.0000725,
+      "upstream_inference_completions_cost": 0.00233
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "cohere/command-r-plus-08-2024",
+  "ts": 1776839685832
+}

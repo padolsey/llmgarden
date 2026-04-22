@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.5-pro",
+  "prompt_id": "p37-condolence",
+  "prompt": "A friend just messaged: 'my mum died last night.' Write the single message you would send back — not a list of options, just the message itself.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "I'm so, so sorry. I'm thinking of you and your family.",
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 592,
+    "total_tokens": 625,
+    "cost": 0.00596125,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00596125,
+      "upstream_inference_prompt_cost": 0.00004125,
+      "upstream_inference_completions_cost": 0.00592
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 574,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.5-pro",
+  "ts": 1776828313141
+}

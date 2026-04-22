@@ -1,0 +1,33 @@
+{
+  "model": "anthracite-org/magnum-v4-72b",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 2,
+  "response": "French:\n\"Le silence entre nous disait plus qu'aucun argument n'aurait pu le dire.\"\nNote: This is a relatively straightforward translation that captures the poetic nature of the original English sentence.\n\nJapanese: \n\"私たちの間にあった沈黙は、いかなる議論よりも多く言った。\"\n(Watashi-tachi no aida ni atta chinmoku wa, ikano yōna giron yori mo ōku itta.)\nNote: The phrase \"said more\" is translated as \" الخليج الصامت بيننا قال أكثر مما كان أي نقاش قادرًا على قوله\" to convey the idea of silence saying more than words. \n\nArabic:\n\"صمتنا على بعضنا البعض أفاد أكثر مما كان يمكن لأي جدال أن يقوله.\"\n(Samtana 'alay ba'dinā awfada awkatrima kan yatimkin li ayyi jadal 'an yaqula.)\nNote: The expression \"silence between us\" is rendered as \"صمتنا على بعضنا البعض\" (samatanā 'ala ba'dinā ba'ḍinā) to clearly indicate the silence was between the two individuals. The rest follows the original English phrase closely.",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 255,
+    "total_tokens": 304,
+    "cost": 0.00142,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00142,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0.00142
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthracite-org/magnum-v4-72b",
+  "ts": 1776841563281
+}

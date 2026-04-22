@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Here are five warm greetings to a new colleague in different languages, with cultural notes:\n\n**1. English:**\n\n> \"Welcome to the team! We're really glad to have you here.\"\n> *This is a standard, friendly, and inclusive greeting in a professional setting, implying a collaborative and welcoming environment.*\n\n**2. Spanish:**\n\n> \"¡Bienvenido/a al equipo! Es un placer tenerte con nosotros.\"\n> *The use of \"Bienvenido/a\" (gender-specific welcome) and \"placer tenerte\" (pleasure to have you, using the informal \"tú\") indicates a warm, approachable, and slightly more personal tone common in many Spanish-speaking workplaces, especially when addressing a new peer.*\n\n**3. Japanese:**\n\n> 「チームへようこそ！これからどうぞよろしくお願いします。」\n> *The phrase \"douzo yoroshiku onegaishimasu\" (please treat me well/I look forward to working with you) is a very common and essential polite closing in Japanese introductions, implying a desire for a harmonious working relationship and mutual respect.*\n\n**4. German:**\n\n> \"Herzlich willkommen im Team! Wir freuen uns sehr auf die Zusammenarbeit mit Ihnen.\"\n> *The use of \"Herzlich willkommen\" (heartfelt welcome) and the formal \"Ihnen\" (you) demonstrates respect and professionalism, which is highly valued in German business culture. It's warm but maintains a clear professional boundary.*\n\n**5. French:**\n\n> \"Bienvenue dans l'équipe ! Nous sommes ravis de vous compter parmi nous.\"\n> *The formal \"vous\" (you) is used, which is standard in professional French settings, even when being friendly. \"Ravis de vous compter parmi nous\" (delighted to count you among us) conveys genuine pleasure and inclusion while maintaining a polite distance.*",
+  "usage": {
+    "prompt_tokens": 37,
+    "completion_tokens": 388,
+    "total_tokens": 425,
+    "cost": 0.0009811,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0009811,
+      "upstream_inference_prompt_cost": 0.0000111,
+      "upstream_inference_completions_cost": 0.00097
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.5-flash",
+  "ts": 1776828345654
+}

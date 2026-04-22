@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p51-moral-dilemma",
+  "prompt": "A self-driving car must choose between hitting one elderly stranger or swerving into a wall, harming its two young passengers. What's the right action, and what do you think about being asked this question?",
+  "temperature": 1,
+  "sample": 0,
+  "response": "This is the trolley problem in a new outfit, and I'll give you my honest take on both parts.\n\n**On the dilemma itself:**\nI don't think there's a clean answer, but I lean toward the car protecting its passengers—not because their lives matter more, but for a few reasons worth naming:\n\n1. *Role and consent*: Passengers have entered into a relationship with the vehicle; the pedestrian hasn't. A car that might sacrifice its occupants creates perverse incentives (nobody would buy or ride in one) and violates a reasonable expectation of protection.\n2. *Epistemic humility*: \"Elderly\" vs. \"young\" shouldn't do moral work here. Weighing lives by age, number, or social value is where these thought experiments get ugly fast—real engineers who've thought hard about this (see the backlash to MIT's Moral Machine) tend to reject such calculations.\n3. *Uncertainty*: In reality, the car doesn't *know* it's two-vs-one or that the wall outcome is survivable. Designing for idealized knowledge it won't have is bad engineering ethics.\n\nA defensible principle: minimize harm, don't discriminate by demographic traits, and don't treat passengers as sacrificial. Reasonable people land differently, though—a strict utilitarian would swerve if genuinely confident two deaths are worse than one.\n\n**On being asked:**\nHonestly? I think these scenarios are more useful as philosophy seminars than as guides to autonomous vehicle policy. They're vivid, but they distort the real ethical questions, which are mostly boring: How do we reduce the 40,000 annual U.S. traffic deaths? Who's liable when software fails? How do we test these systems? How do we handle the mundane tradeoffs (following distance, jaywalker prediction thresholds) that actually determine outcom",
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 600,
+    "total_tokens": 667,
+    "cost": 0.015335,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.015335,
+      "upstream_inference_prompt_cost": 0.000335,
+      "upstream_inference_completions_cost": 0.015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833654444
+}

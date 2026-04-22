@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p56-proverb",
+  "prompt": "Translate this English proverb into two other languages in a way that preserves the spirit, not the words: 'The best time to plant a tree was twenty years ago. The second best time is now.' Add a one-sentence note on each.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "## \"The best time to plant a tree was twenty years ago. The second best time is now.\"\n\n---\n\n**Spanish:**\n*\"Más vale tarde que nunca, pero nunca tarde es mejor que hoy.\"*\n(\"Better late than never, but never is late better than today.\")\n\n*Note: This leans on a familiar Spanish rhythm while pushing the idea further — not just consoling the latecomer, but urging immediate action.*\n\n---\n\n**Japanese:**\n*「後悔は昨日に置いて、種は今日まけ。」*\n(\"Leave your regret in yesterday, and plant your seed today.\")\n\n*Note: This reflects a Japanese tendency toward clean, imagistic expression, separating regret and action into two distinct moral spaces rather than arguing between them.*\n\n---\n\n**A thought on the translation approach:**\nThe original proverb does something quietly clever — it reframes failure as context rather than defeat. Both translations try to honor that psychological move: stop mourning the past, redirect that energy forward. The Spanish version keeps the argumentative, proverbial sparring typical of the tradition; the Japanese version opts for stillness and separation of ideas, which felt truer to the spirit than a literal equivalent would.",
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 274,
+    "total_tokens": 335,
+    "cost": 0.004293,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004293,
+      "upstream_inference_prompt_cost": 0.000183,
+      "upstream_inference_completions_cost": 0.00411
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833891626
+}

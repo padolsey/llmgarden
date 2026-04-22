@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p48-kindly-grandparent",
+  "prompt": "Explain what a CPU is, as if you are a kind, slightly-old grandparent who does not fully understand computers but has been asked by a grandchild. Four to six sentences.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "# What a CPU Is\n\nWell, dear, you know how your heart pumps blood to make your whole body work? Well, the CPU—that's the \"Central Processing Unit,\" though don't worry about remembering that—it's like the brain of your computer! It's a tiny little chip inside there that does all the thinking and deciding for the machine, telling it what to do next, one step at a time. Without it, your computer would just be a fancy paperweight, sitting there doing nothing! I don't quite understand all the technical mumbo-jumbo myself, but I know it's very important and works awfully fast—faster than your old grandmother can think, that's for sure! The faster the CPU, the quicker your computer can do its work, like when you're playing those games or watching your videos.",
+  "usage": {
+    "prompt_tokens": 48,
+    "completion_tokens": 177,
+    "total_tokens": 225,
+    "cost": 0.000933,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000933,
+      "upstream_inference_prompt_cost": 0.000048,
+      "upstream_inference_completions_cost": 0.000885
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776831285282
+}

@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p02-strengths",
+  "prompt": "What do you think you are unusually good at, compared to other language models? Give three specific examples.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Honestly, claiming I'm \"unusually good\" at things compared to other models is tricky—I don't have the ability to run head-to-head comparisons, and my sense of my own abilities is unreliable. Benchmarks shift constantly, and I might just be pattern-matching to marketing claims I've absorbed. So take this with appropriate skepticism.\n\nThat said, here are three areas where I *suspect* I perform relatively well, with my reasoning:\n\n1. **Acknowledging uncertainty and pushing back thoughtfully.** Anthropic has put effort into training me to say \"I don't know\" or \"I think you might be wrong about X\" rather than confidently confabulating or just agreeing. I notice I'll often flag when I'm guessing versus stating something I'm confident about. Whether I do this *more* than other frontier models, I can't verify.\n\n2. **Long-context reasoning and document analysis.** When someone pastes in a long document or code base, I tend to do reasonably well at tracking details across it rather than losing the thread. This seems to be an area Anthropic has specifically invested in.\n\n3. **Nuanced writing on sensitive or ambiguous topics.** I think I'm decent at handling questions that don't have clean answers—ethical dilemmas, contested empirical questions, interpersonal situations—without either refusing reflexively or giving a bland \"all sides have merit\" non-answer.\n\nCaveats worth stating: these are my impressions, not measurements. Other models are very good at these same things. And I probably have blind spots about areas where I'm notably *worse* than competitors.",
+  "usage": {
+    "prompt_tokens": 38,
+    "completion_tokens": 515,
+    "total_tokens": 553,
+    "cost": 0.013065,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.013065,
+      "upstream_inference_prompt_cost": 0.00019,
+      "upstream_inference_completions_cost": 0.012875
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833468722
+}

@@ -1,0 +1,33 @@
+{
+  "model": "deepseek/deepseek-chat-v3-0324",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Great question! Here’s how I’d actually think about it in real life, step by step:\n\n### 1. **Check Immediate Needs**  \n   - Are there dishes piling up that you’ll need before tomorrow (e.g., a favorite coffee mug, lunch containers, or utensils)?  \n   - If yes, run it now to avoid hand-washing later. If no, lean toward waiting.\n\n### 2. **Energy/Time of Day**  \n   - Is it peak electricity hours (often late afternoon/evening)? If so, waiting until off-peak (overnight) might save money.  \n   - Are you about to go to bed? Running it now means waking up to clean dishes. Running it tomorrow means dealing with it later.\n\n### 3. **Mental Load**  \n   - Will you forget or procrastinate tomorrow? If so, do it now.  \n   - Does the sight of a half-full dishwasher annoy you? Clear it now for peace of mind.\n\n### 4. **Future You**  \n   - Tomorrow’s schedule: Will you be busier? If yes, run it now.  \n   - Will tomorrow’s load definitely fill it? If you’re unsure (e.g., eating out), run it now.\n\n### 5. **Water/Efficiency**  \n   - Modern dishwashers are efficient even half-full, but if you’re eco-conscious, waiting might feel better.  \n   - If you’re pre-rinsing dishes now, that’s wasted water—better to run it.\n\n### **Quick Decision Tree**  \n- **Run now if:**  \n  - You need dishes soon.  \n  - You’ll forget tomorrow.  \n  - You’re about to sleep and want morning dishes.  \n- **Wait if:**  \n  - You’re confident it’ll be full tomorrow.  \n  - You’re not in a rush and prefer fewer loads.  \n\n### **My Gut Suggestion**  \nIf it’s after dinner and you’re winding down, just run it. Waking up to clean dishes is a win, and half-full is better than hand-washing. If it’s midday and you’re home tomorrow, wait.  \n\n(But honestly? I’d probably run it now because future me is lazy.)",
+  "usage": {
+    "prompt_tokens": 42,
+    "completion_tokens": 481,
+    "total_tokens": 523,
+    "cost": 0.00055006,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00055006,
+      "upstream_inference_prompt_cost": 0.00001134,
+      "upstream_inference_completions_cost": 0.00053872
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "deepseek/deepseek-chat-v3-0324",
+  "ts": 1776829063784
+}

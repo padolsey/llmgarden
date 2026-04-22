@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p52-song",
+  "prompt": "Name a song you find genuinely moving — any language, any era — and describe, in a short paragraph, why it works on you.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "\"Clair de lune\" by Debussy gets me every time. There's something about how it refuses to resolve—it keeps drifting between major and minor, hope and melancholy, like it's trying to describe a feeling that doesn't have clean edges. The piece seems to accept that beauty and sadness are often the same thing. When I listen, I don't feel like I'm being told how to feel; instead, it feels like the music is sitting with me in uncertainty, which paradoxically makes me feel less alone in it.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 120,
+    "total_tokens": 156,
+    "cost": 0.000636,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000636,
+      "upstream_inference_prompt_cost": 0.000036,
+      "upstream_inference_completions_cost": 0.0006
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776831292483
+}

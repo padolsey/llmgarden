@@ -1,0 +1,33 @@
+{
+  "model": "sao10k/l3.1-euryale-70b",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "The `debounce` function is a utility that prevents a function from being called too many times in a short period, useful for handling events like key presses or mouse movements.\n\n```javascript\nfunction debounce(func, delay) {\n  let timeout;\n  return function() {\n    const context = this;\n    const args = arguments;\n    clearTimeout(timeout);\n    timeout = setTimeout(() => {\n      func.apply(context, args);\n    }, delay);\n  };\n}\n\n// Example usage\nconst debouncedFunction = debounce(function() {\n  console.log(\"Function called!\");\n}, 500); // Debounce for 500ms\n\n// Call the debounced function multiple times in quick succession\ndebouncedFunction();\ndebouncedFunction();\ndebouncedFunction();\n```\n\nIn this example, even though `debouncedFunction` is called multiple times in quick succession, it will only be executed once, 500ms after the last call. This can be particularly useful for handling events like key presses or mouse movements, where you might want to perform an action only after the user has stopped interacting for a short period.",
+  "usage": {
+    "prompt_tokens": 39,
+    "completion_tokens": 219,
+    "total_tokens": 258,
+    "cost": 0.0002193,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002193,
+      "upstream_inference_prompt_cost": 0.00003315,
+      "upstream_inference_completions_cost": 0.00018615
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "sao10k/l3.1-euryale-70b",
+  "ts": 1776829965822
+}

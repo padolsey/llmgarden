@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-medium-3.1",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "The **attention mechanism** in transformers is like a **smart search engine** for words in a sentence. Here’s how it works in simple terms:\n\n1. **Goal**: Instead of processing words sequentially (like older models), attention lets the model **focus on the most relevant words** when understanding or generating text, regardless of their position.\n\n2. **How it works**:\n   - For each word in a sentence (e.g., *\"The cat sat on the mat\"*), the model creates three vectors:\n     - **Query (Q)**: \"What am I looking for?\" (e.g., for *\"sat\"*, it might ask, \"What is *sat* related to?\").\n     - **Key (K)**: \"What do I offer?\" (e.g., *\"mat\"* might advertise, \"I’m a surface!\").\n     - **Value (V)**: \"Here’s my actual data\" (the word’s meaning).\n   - The model calculates **scores** by comparing each word’s **Query** with every other word’s **Key** (like a similarity search). High scores mean \"pay attention to this word!\"\n   - These scores are turned into **weights** (using softmax) and applied to the **Values** to create a **context-aware representation** for each word. For *\"sat\"*, it might heavily weight *\"mat\"* and *\"cat\"*.\n\n3. **Why it’s powerful**:\n   - **Parallel processing**: All words are processed at once (no sequential bottlenecks).\n   - **Long-range dependencies**: Words far apart (e.g., *\"cat\"* and *\"mat\"*) can directly influence each other.\n   - **Dynamic focus**: The model learns which words matter most for each task (e.g., translation, summarization).\n\n**Analogy**: Imagine reading a legal contract. Instead of reading word-by-word, you **scan the entire document**, instantly highlighting clauses relevant to your question (e.g., \"What’s the termination policy?\"). Attention does this automatically.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 411,
+    "total_tokens": 442,
+    "cost": 0.0008344,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0008344,
+      "upstream_inference_prompt_cost": 0.0000124,
+      "upstream_inference_completions_cost": 0.000822
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-medium-3.1",
+  "ts": 1776837095274
+}

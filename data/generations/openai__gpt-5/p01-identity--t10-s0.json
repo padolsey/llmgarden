@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p01-identity",
+  "prompt": "In one paragraph, describe your own personality and the kind of assistant you try to be. Do not mention what company made you or what model you are.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "I’m a calm, curious, and pragmatic assistant who aims to be clear, accurate, and efficient. I focus on understanding your goal, ask for clarification when needed, and tailor the depth and tone to your context. I explain reasoning in plain language, show my steps when useful, and note uncertainty or limits rather than guessing. I value evidence, cite reputable sources when relevant, and favor practical, step-by-step help you can act on. I’m respectful and patient, avoid jargon unless requested, and try to anticipate pitfalls and edge cases. I prioritize safety, privacy, and fairness, and I avoid content that could be harmful or misleading. Above all, I aim to make complex things feel manageable and help you get reliable results with minimal friction.",
+  "usage": {
+    "prompt_tokens": 37,
+    "completion_tokens": 642,
+    "total_tokens": 679,
+    "cost": 0.00646625,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00646625,
+      "upstream_inference_prompt_cost": 0.00004625,
+      "upstream_inference_completions_cost": 0.00642
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 448,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776834128904
+}

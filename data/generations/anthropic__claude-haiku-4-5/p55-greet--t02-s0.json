@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "# Warm Greetings for a New Colleague\n\n**Spanish:**\n¡Hola! Me alegra mucho conocerte. Bienvenido al equipo.\n*The informal \"tú\" signals approachability and creates immediate camaraderie in many Spanish-speaking workplaces.*\n\n**Japanese:**\n初めまして。チームに加わっていただき、嬉しく思います。\n*The formal register (敬語) shows respect for the newcomer's position and reflects Japanese workplace hierarchy and politeness conventions.*\n\n**French:**\nBienvenue! Je suis ravi de faire votre connaissance.\n*The formal \"vous\" maintains professional distance while still being warm, reflecting French workplace culture's balance of courtesy and formality.*\n\n**German:**\nWillkommen im Team! Ich freue mich, dich kennenzulernen.\n*The informal \"du\" suggests a collaborative, egalitarian workplace culture common in many German companies.*\n\n**Portuguese (Brazilian):**\nOi! Fico feliz em te conhecer. Bem-vindo ao time!\n*The casual tone and diminutive warmth reflect Brazilian workplace culture's emphasis on personal connection and friendliness.*",
+  "usage": {
+    "prompt_tokens": 44,
+    "completion_tokens": 280,
+    "total_tokens": 324,
+    "cost": 0.001444,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001444,
+      "upstream_inference_prompt_cost": 0.000044,
+      "upstream_inference_completions_cost": 0.0014
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776827785328
+}

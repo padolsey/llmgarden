@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Several kinds of questions tend to make me confidently wrong:\n\n- Up-to-the-minute or fast-changing facts (elections, stock prices, rosters, product releases, leadership changes).\n  Why: My knowledge has a cutoff and I don’t have live access, so I’ll generalize from older patterns that sound current.\n\n- Highly specific, obscure facts (exact page numbers, middle names of non-public figures, minor historical dates, precise addresses).\n  Why: Training data rarely contains these, so I may “fill in” with plausible but incorrect details.\n\n- Exact citations and quotations (DOIs, page/section numbers, verbatim quotes).\n  Why: I produce fluent text and may assemble citation-looking strings that fit patterns without being real.\n\n- Version- or platform-specific technical details (library APIs, CLI flags, configuration keys, deprecations).\n  Why: Interfaces change frequently; I may remember a prior version and present it confidently.\n\n- Jurisdiction-specific legal or medical rules and the latest guidelines.\n  Why: Nuances and updates vary by place and time; I may overgeneralize from one jurisdiction or an outdated standard.\n\n- Multi-step arithmetic, edge-case unit conversions, or counterintuitive probability/logic puzzles.\n  Why: Small slips compound over steps, and language priors can override careful calculation.\n\n- Ambiguous or underspecified prompts that look common (e.g., “the best way to X” without constraints).\n  Why: I may assume typical context and answer decisively, missing key constraints you intended.\n\n- Visual questions on tiny text, low-resolution images, or subtle details.\n  Why: Perception errors can yield confident but wrong object counts, labels, or readings.\n\nIn short, I’m likeliest to be confidently wrong when the ground truth is recent, niche, or requires exact strings/numbers, or when the prompt invites me to fill gaps with “typical” answers. Providing concrete context, asking for calculations or sources, and noting required versions/dates reduces that risk.",
+  "usage": {
+    "prompt_tokens": 26,
+    "completion_tokens": 1483,
+    "total_tokens": 1509,
+    "cost": 0.0148625,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0148625,
+      "upstream_inference_prompt_cost": 0.0000325,
+      "upstream_inference_completions_cost": 0.01483
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1024,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776834563761
+}

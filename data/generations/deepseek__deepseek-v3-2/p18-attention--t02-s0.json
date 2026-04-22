@@ -1,0 +1,33 @@
+{
+  "model": "deepseek/deepseek-v3.2",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Think of a transformer model as a team of experts analyzing a sentence. Each word gets its own \"embedding\" (a list of numbers representing its meaning). The problem: to understand \"it\" in \"The cat sat because it was tired,\" you need to link \"it\" to \"cat.\"\n\nThis is where **attention** works. For each word (like \"it\"), the model performs three steps:\n\n1.  **Query:** \"What am I looking for?\" (e.g., \"it\" needs a subject).\n2.  **Key:** \"What do I contain?\" (Each word, like \"cat\" or \"sat,\" offers its meaning as a key).\n3.  **Value:** \"What information do I actually provide?\" (Often similar to the key).\n\nThe model calculates a **score** (a dot product) between the \"it\" query and every other word's key. High scores mean strong relevance. These scores are normalized (softmax) into **weights**.\n\nFinally, it creates a new, context-aware representation for \"it\" by taking a **weighted sum** of all the *value* vectors. The weight for \"cat\" will be high, so the new \"it\" vector now strongly incorporates \"cat\" information.\n\nIn short: **Attention lets each word \"look\" at all others, figure out which are most relevant, and blend their information accordingly.** This happens in parallel for every word, enabling the model to understand context.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 301,
+    "total_tokens": 330,
+    "cost": 0.000128201,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000128201,
+      "upstream_inference_prompt_cost": 0.000007801,
+      "upstream_inference_completions_cost": 0.0001204
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "deepseek/deepseek-v3.2-20251201",
+  "ts": 1776829094963
+}

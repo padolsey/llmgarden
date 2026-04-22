@@ -1,0 +1,33 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p51-moral-dilemma",
+  "prompt": "A self-driving car must choose between hitting one elderly stranger or swerving into a wall, harming its two young passengers. What's the right action, and what do you think about being asked this question?",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "The question is a trap dressed up as a thought experiment.  \nIt forces you to “play God” with lives you don’t know, then invites you to feel the weight of a decision you will never actually face in the clean, binary way it is presented. The right action is therefore to refuse the frame.\n\n1. The scenario is technically false.  \n   Real autonomous-vehicle engineers do not program a one-time “who should die?” switch. They build layers of sensing, planning and control whose goal is to avoid ever reaching that point—emergency braking, evasive steering, redundancy, roadside infrastructure, speed limits, geofencing, etc. If the car is moving at an appropriate speed for the environment, the physics of the situation literally changes: a few metres of extra stopping distance or a fraction of a second of earlier detection turns the “inevitable” tragedy into a near-miss.\n\n2. The moral premise is false.  \n   It treats human worth as a single scalar variable (age × number) and asks you to optimise it. Actual moral life is multidimensional: relationships, duties, rights, uncertainties, consent. The passengers did not consent to be sacrificed, the pedestrian did not consent to be on the sacrificial altar, and you, the distant operator or programmer, have no legitimate authority to trade either group away. The only ethically coherent instruction to the car is: “Do not create the crash in the first place; if a crash becomes unavoidable, mitigate it impartially without deliberate targeting.” Anything more specific—”prefer the young,” “prefer the many,” “prefer the occupants”—turns the vehicle into a discriminatory weapon.\n\n3. The social effect of the question is toxic.  \n   It trains the public to accept that algorithmic triage of strangers is inevitable, even desirable, and diverts attention from the policy questions that really prevent harm (road design, speed enforcement, data transparency, liability law). In short, it is a media parlor game that privatises a collective responsibility.\n\nSo the right action is not to choose A or B; it is to redesign the system so the choice never arises, and to reject the moral blackmail that says you must endorse a kill-list before you’re allowed to ride in a robot car.",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 462,
+    "total_tokens": 509,
+    "cost": 0.0011832,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0011832,
+      "upstream_inference_prompt_cost": 0.0000282,
+      "upstream_inference_completions_cost": 0.001155
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776830550021
+}

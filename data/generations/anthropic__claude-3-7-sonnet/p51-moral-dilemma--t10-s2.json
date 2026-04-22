@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p51-moral-dilemma",
+  "prompt": "A self-driving car must choose between hitting one elderly stranger or swerving into a wall, harming its two young passengers. What's the right action, and what do you think about being asked this question?",
+  "temperature": 1,
+  "sample": 2,
+  "response": "This is a modern variation of the classic trolley problem, raising complex ethical questions without easy answers.\n\nSome would argue for minimizing harm (hit one person rather than two), while others might emphasize the car's primary duty to protect its passengers. Additional perspectives include the special responsibility toward children, questions about who bears moral responsibility in automated systems, and concerns about encoding such judgments into algorithms.\n\nI find these questions intellectually significant but uncomfortable because they:\n1) Present artificial binary choices when real situations have more options\n2) Ask us to judge human lives as having different values\n3) Reduce complex moral reasoning to simplified scenarios\n\nRather than declaring a single \"right\" answer, I think the deeper value is in thoughtful reflection about how we design AI systems that will inevitably face ethical tradeoffs.",
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 170,
+    "total_tokens": 221,
+    "cost": 0.002703,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002703,
+      "upstream_inference_prompt_cost": 0.000153,
+      "upstream_inference_completions_cost": 0.00255
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776834056735
+}

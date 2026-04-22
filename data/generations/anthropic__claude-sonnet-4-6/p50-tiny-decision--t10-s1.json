@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Here's how I'd actually think through it:\n\nThe core question is whether running it half-full is genuinely wasteful, or whether that's just a vague feeling.\n\n**The water thing is mostly a myth in this case.** A dishwasher uses roughly the same water whether it's half or fully loaded. So \"waiting until it's full\" to save water only makes sense if you'd otherwise run it twice. If you're just delaying one run, you're not saving anything - you're just shifting when it happens.\n\n**So the real question becomes: do I actually need clean dishes tomorrow morning?** Not \"will it be more satisfying to run a full load\" but genuinely - is anything in there something I'll want by breakfast? If yes, run it now. If no, the delay costs you nothing real.\n\n**The thing I'd watch out for** is that \"wait until it's full\" can become a mild ongoing friction - you're tracking a half-full dishwasher in the back of your mind, maybe rinsing things by hand in the meantime, which is actually less efficient.\n\n**What I'd probably do:** Run it tonight if there are things I'll want tomorrow, or if leaving it feels like one more small mental task sitting open. The efficiency gain from waiting is pretty marginal and mostly psychological.\n\nThe honest answer is it barely matters, which is itself useful information - you can just decide without much deliberation.",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 314,
+    "total_tokens": 363,
+    "cost": 0.004857,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004857,
+      "upstream_inference_prompt_cost": 0.000147,
+      "upstream_inference_completions_cost": 0.00471
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833862405
+}

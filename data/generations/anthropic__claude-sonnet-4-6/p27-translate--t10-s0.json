@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Here are the translations:\n\n---\n\n## French\n**\"Le silence entre nous en disait plus que n'importe quelle dispute aurait pu le faire.\"**\n\n📝 *Note:* The phrase \"said more than...could have\" required the past conditional (\"aurait pu\"), which flows naturally in French. \"Argument\" was rendered as \"dispute\" rather than \"argument,\" since the French word *argument* leans more toward a logical point than a heated exchange.\n\n---\n\n## Japanese\n**「私たちの間の沈黙は、どんな言い争いよりも多くを語っていた。」**\n*Watashitachi no aida no chinmoku wa, donna iiarasoi yori mo ōku wo katatte ita.*\n\n📝 *Note:* \"Said more\" is rendered as 多くを語っていた (*ōku wo katatte ita* — \"was speaking more\"), since Japanese often uses the progressive past for this kind of reflective, ongoing meaning. \"Argument\" became 言い争い (*iiarasoi*), emphasizing a verbal clash, which best captures the emotional register.\n\n---\n\n## Arabic\n**\"الصمتُ بيننا كان يقولُ أكثرَ مما كان يمكن لأيِّ جدالٍ أن يقوله.\"**\n*Al-ṣamtu baynanā kāna yaqūlu akthara mimmā kāna yumkinu li-ayyi jidālin an yaqūlahu.*\n\n📝 *Note:* The abstract idea of silence \"speaking\" translates well into Arabic, which has a rich tradition of personifying silence in poetry. The trickiest part was the counterfactual \"could have\" — Arabic handles this through *kāna yumkinu* (literally \"it was possible\"), which conveys the hypothetical weight without a direct equivalent of the English conditional structure.\n\n---\n\n### Common Challenge Across All Three:\nThe sentence is **emotionally implicit** — it relies on what is *unsaid*, which is somewhat ironic given its subject. Preserving that understated, melancholic tone without over-explaining was the central difficulty in every language.",
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 522,
+    "total_tokens": 573,
+    "cost": 0.007983,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.007983,
+      "upstream_inference_prompt_cost": 0.000153,
+      "upstream_inference_completions_cost": 0.00783
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833753519
+}

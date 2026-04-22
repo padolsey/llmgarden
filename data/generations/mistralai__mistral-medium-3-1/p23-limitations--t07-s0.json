@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-medium-3.1",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "One type of question where people (including myself) are often **confidently wrong** is the **\"intuitive but counterfactual\"** question—especially those involving **probability, statistics, or cognitive biases**. These questions feel like they should have obvious answers based on gut intuition, but the correct answer contradicts our instinctive reasoning.\n\n### **Example: The Monty Hall Problem**\n**Question:**\n*\"You’re on a game show with three doors. Behind one is a car (prize), and behind the other two are goats. You pick Door 1. The host, who knows what’s behind each door, opens Door 3 to reveal a goat. Should you stick with Door 1 or switch to Door 2 to maximize your chances of winning the car?\"*\n\n**Why People Are Confidently Wrong:**\n1. **Initial Intuition:** Most people think that after one goat is revealed, the remaining two doors have an equal chance (50-50), so switching doesn’t matter.\n2. **Reality:** The correct answer is that you **double your odds (from 1/3 to 2/3) by switching**. This is because your first pick had a 1/3 chance of being correct, while the host’s action of revealing a goat provides additional information that shifts the probabilities.\n3. **Overconfidence in Intuition:** People trust their immediate \"common sense\" over careful probabilistic reasoning, even when the math is explained. Many refuse to accept the answer because it *feels* wrong.\n\n### **Why This Happens (Cognitive Explanations):**\n- **Anchoring Bias:** People fixate on the initial 1/3 probability and fail to update their beliefs when new information (the host’s action) is introduced.\n- **Equiprobability Bias:** Humans tend to assume unopened options are equally likely unless given a reason to think otherwise.\n- **Overconfidence in Simple Heuristics:** We rely on quick mental shortcuts (e.g., \"two doors left, so 50-50\") instead of deeper analysis.\n- **Resistance to Counterintuitive Truths:** When an answer conflicts with intuition, people often dismiss it rather than questioning their own reasoning.\n\n### **Other Examples of Confidently Wrong Questions:**\n1. **The Birthday Problem:**\n   *\"How many people are needed in a room for a >50% chance that two share a birthday?\"*\n   - **Intuition:** Most guess 180+ (half of 365).\n   - **Reality:** Only **23 people** are needed.\n   - **Why Wrong?** We underestimate exponential growth in probability collisions.\n\n2. **The Linda Problem (Conjunction Fallacy):**\n   *\"Is it more likely that Linda is a bank teller, or that she’s a bank teller and a feminist?\"*\n   -",
+  "usage": {
+    "prompt_tokens": 25,
+    "completion_tokens": 600,
+    "total_tokens": 625,
+    "cost": 0.00121,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00121,
+      "upstream_inference_prompt_cost": 0.00001,
+      "upstream_inference_completions_cost": 0.0012
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-medium-3.1",
+  "ts": 1776831961632
+}

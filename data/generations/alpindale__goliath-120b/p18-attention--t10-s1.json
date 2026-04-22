@@ -1,0 +1,33 @@
+{
+  "model": "alpindale/goliath-120b",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 1,
+  "response": " In Transformer models, attention is a core mechanism that helps the model decide which words in a sentence are more important to focus on when predicting the next word. Imagine you're reading a book and trying to understand a specific sentence. You automatically pay more attention to key words in that sentence. Attention works in a similar way in Transformers.\n\nIn an attention mechanism, each word in the sentence is mapped to a vector (a list of numbers) that represents its meaning. Then, every word in the sentence gives attention to every other word by calculating a score based on their vector representations. These scores show how much one word should \"care\" about another when doing its job (predicting the next word).\n\nCertain words will have higher scores (more attention) when they are more relevant to the context. For example, when you're trying to understand the meaning of the word \"ran\" in the sentence \"The horse ran fast.\", the words \"horse\" and \"fast\" should get more attention than, say, \"the\".\n\nAttention allows the model to automatically get the most relevant information from the input sequence, without relying on fixed algorithms, resulting in better contextual understanding and improved performance on tasks like translation and summarization.",
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 262,
+    "total_tokens": 328,
+    "cost": 0.0022125,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0022125,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0.0022125
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "alpindale/goliath-120b",
+  "ts": 1776842174685
+}

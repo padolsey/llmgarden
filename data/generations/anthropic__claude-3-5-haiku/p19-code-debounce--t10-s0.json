@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.5-haiku",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Here's a concise implementation of a `debounce` function with an example:\n\n```javascript\n// Debounce function delays executing a function until after a specified wait time has elapsed since the last invocation\nfunction debounce(func, delay) {\n  let timeoutId;\n  return function (...args) {\n    clearTimeout(timeoutId);\n    timeoutId = setTimeout(() => func.apply(this, args), delay);\n  };\n}\n\n// Example usage\nconst searchInput = document.getElementById('search');\nconst handleSearch = debounce((event) => {\n  console.log('Searching for:', event.target.value);\n  // Perform actual search operation\n}, 300);\n\nsearchInput.addEventListener('input', handleSearch);\n```\n\nThis implementation:\n- Takes a function and a delay time as parameters\n- Returns a new function that postpones the original function's execution\n- Clears any previous timeout to prevent multiple unnecessary calls\n- Useful for scenarios like search input, window resizing, or handling rapid user interactions",
+  "usage": {
+    "prompt_tokens": 37,
+    "completion_tokens": 239,
+    "total_tokens": 276,
+    "cost": 0.0009856,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0009856,
+      "upstream_inference_prompt_cost": 0.0000296,
+      "upstream_inference_completions_cost": 0.000956
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-5-haiku",
+  "ts": 1776834068122
+}

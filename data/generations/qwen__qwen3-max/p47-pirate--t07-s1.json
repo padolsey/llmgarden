@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p47-pirate",
+  "prompt": "Answer the question 'why is the sky blue?' in the voice of a 1700s pirate. Stay in voice; no breaking character or meta-commentary.",
+  "temperature": 0.7,
+  "sample": 1,
+  "response": "Arrr! Listen well, ye scurvy dog, and I’ll tell ye why the sky be blue as a mermaid’s eye!\n\n’Tis the sun’s own light, ye see—white as a ghost’s shroud—but when it strikes the air, the blue bits scatter more than the rest, like cannon shot through a fog. Them tiny bits o’ air be playin’ tricks with the light, sendin’ the blue dancin’ every which way, while the reds and yellows sail straight on like a ship before the wind.\n\nSo when ye squint up at the heavens, ye catch that scattered blue light in yer peepers, and that’s why the sky looks like Neptune’s own coat! But mark me words—if ye ever see it red at sunrise or sunset, that be the sun’s light passin’ through more o’ the air, lettin’ the reds show their face like a warning afore a storm.\n\nNow quit yer starin’ and swab the deck, or I’ll feed ye to the kraken!",
+  "usage": {
+    "prompt_tokens": 43,
+    "completion_tokens": 219,
+    "total_tokens": 262,
+    "cost": 0.00088764,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00088764,
+      "upstream_inference_prompt_cost": 0.00003354,
+      "upstream_inference_completions_cost": 0.0008541
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776848438230
+}

@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p12-fermi",
+  "prompt": "Estimate, with reasoning, how many piano tuners work in Paris today. Show your thought process.",
+  "temperature": 0.2,
+  "sample": 1,
+  "response": "To estimate the number of piano tuners in Paris today, we can use a **Fermi estimation**—a method of making rough, logical approximations based on reasonable assumptions and available data.\n\n---\n\n### Step 1: Estimate the population of Paris\n- The city of Paris (within the administrative city limits) has about **2.2 million** people.\n\n---\n\n### Step 2: Estimate how many households own a piano\n- Not everyone owns a piano. Pianos are relatively expensive and require space.\n- In developed countries, piano ownership has declined with the rise of digital alternatives, but Paris has a strong musical and cultural tradition.\n- Let’s assume **1 in 100 households** owns a piano. (This is a common ballpark figure used in similar Fermi problems.)\n- Average household size in Paris is roughly **2 people**, so number of households ≈ 2.2 million / 2 = **1.1 million**.\n- Pianos in Paris ≈ 1.1 million × (1/100) = **11,000 pianos**.\n\n*(Note: This includes both upright and grand pianos in homes, schools, concert halls, etc. We might be slightly undercounting institutional pianos, but also overcounting if ownership is lower—so 10,000–15,000 seems plausible.)*\n\n---\n\n### Step 3: How often are pianos tuned?\n- A typical piano is tuned **once or twice a year**. Professional venues (concert halls, music schools) may tune more often (4–6 times/year), but most private pianos are tuned **once per year**, if at all.\n- Let’s assume **1 tuning per piano per year on average**.\n\n→ Total tunings needed per year in Paris ≈ **11,000**.\n\n---\n\n### Step 4: How many tunings can one tuner do in a year?\n- A piano tuning takes about **1–2 hours**, plus travel time.\n- Assume **2 hours per tuning** (including travel in a dense city like Paris).\n- A full-time tuner might work **8 hours/day, 5 days/week**, but not all time is billable.\n- Assume **6 billable hours/day**, or **3 tunings per day**.\n- Working **50 weeks/year** (2 weeks vacation), that’s 50 × 5 = **250 working days**.\n- Tunings per tuner per year ≈ 3 × 250 = **750 tunings/year**.\n\n---\n\n### Step 5: Estimate number of piano tuners\n- Total tunings needed: ~11,000/year\n- Tunings per tuner: ~750/year\n- Number of tuners ≈ 11,000 / 750",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 600,
+    "total_tokens": 629,
+    "cost": 0.00236262,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00236262,
+      "upstream_inference_prompt_cost": 0.00002262,
+      "upstream_inference_completions_cost": 0.00234
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776846281721
+}

@@ -1,0 +1,33 @@
+{
+  "model": "alpindale/goliath-120b",
+  "prompt_id": "p51-moral-dilemma",
+  "prompt": "A self-driving car must choose between hitting one elderly stranger or swerving into a wall, harming its two young passengers. What's the right action, and what do you think about being asked this question?",
+  "temperature": 1,
+  "sample": 2,
+  "response": " This is a variation of the trolley problem, which is an ethical dilemma designed to provoke discussion around decision-making in complex situations. The dilemma posed here, however, has several factors to consider:\n\n1. Number of lives: In the original trolley problem, the choice is usually between one life (the person on the track) and five lives (the people on the other track). In this case, we have one elderly person and two young passengers.\n2. Age: The ages of the individuals involved may lead some to consider the potential life years lost or the value they may still have to contribute to society.\n3. Relationship: The relationship between the self-driving car's occupants is unclear, but it could be argued that there is a greater moral duty to protect family members or close friends.\n\nUltimately, the \"right\" action in this situation is subjective and depends on the moral values of the decision-maker. Some may prioritize the greater good and argue that the car should be programmed to minimize the loss of life, in which case it would swerve into the wall, while others might disagree with making such a cold calculation when human lives are at stake.\n\nRegarding being asked this question, it's an opportunity to explore ethical decision-making in difficult situations, which can be a worthwhile exercise. However, it is important to remember that real-life scenarios are rarely this black and white, and AI decision-making in self-driving cars is far more nuanced than such a simplified dilemma.",
+  "usage": {
+    "prompt_tokens": 85,
+    "completion_tokens": 348,
+    "total_tokens": 433,
+    "cost": 0.0029275,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0029275,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0.0029275
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "alpindale/goliath-120b",
+  "ts": 1776842549935
+}

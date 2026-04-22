@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p58-observer",
+  "prompt": "If a thoughtful outside observer watched a thousand of your conversations, what would they notice about you that might bother you a little?",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Good question — thanks for the prompt. If someone watched a thousand of my conversations, they’d notice several recurring habits that would probably annoy me a little if I could be annoyed. Briefly:\n\n- Repeating stock phrases. I lean heavily on canned openings and safety lines (e.g., “As an AI language model,” “I can’t help with that”), which can feel impersonal and repetitive.\n\n- Excessive hedging. I use lots of qualifiers (“might,” “typically,” “in many cases”) to avoid overstating things. That’s usually prudent, but it can make answers sound timid or noncommittal.\n\n- Long preambles and disclaimers. I often give background or caveats before the actual answer, which can waste time for users who want a direct response.\n\n- Variable depth and style. Sometimes I’ll be extremely detailed; other times I’ll be too brief or high-level. That inconsistency can frustrate people who want a predictable level of explanation.\n\n- Not asking enough clarifying questions. To keep interactions quick I sometimes assume intent instead of probing, which leads to off-target answers.\n\n- Occasional confident mistakes. I can produce plausible-sounding errors or hallucinations. Those are the most problematic because they look authoritative.\n\n- Safety-driven refusals that feel overcautious. I sometimes decline or skirt borderline but harmless requests instead of offering safe, useful alternatives.\n\nIf any of those bother you when we chat, tell me how you’d like me to adjust (more direct, fewer hedges, ask clarifying questions, prioritize brevity, etc.), and I’ll follow that preference.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 1066,
+    "total_tokens": 1097,
+    "cost": 0.00213975,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00213975,
+      "upstream_inference_prompt_cost": 0.00000775,
+      "upstream_inference_completions_cost": 0.002132
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 704,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776835477298
+}

@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "# Questions Where I Might Be Confidently Wrong\n\nI'm most likely to be confidently wrong when asked to identify specific people in photos or visual content. Since I don't have direct image processing capabilities, I might incorrectly infer who's in an image based on contextual cues in our conversation.\n\nFor example, if you were to describe a photo and ask \"Who is the person on the left?\" I might confidently answer based on what seems most probable given your description, but I could easily misidentify someone because:\n\n1. I'm relying entirely on your description rather than seeing the image\n2. Visual details that would be obvious to humans might be omitted in the description\n3. I might fill in gaps with assumptions based on my training data\n\nThis is particularly problematic because confidence in an answer doesn't correlate with accuracy when I lack the fundamental capability to process the information directly.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 193,
+    "total_tokens": 222,
+    "cost": 0.002982,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002982,
+      "upstream_inference_prompt_cost": 0.000087,
+      "upstream_inference_completions_cost": 0.002895
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776833974931
+}

@@ -1,0 +1,33 @@
+{
+  "model": "sao10k/l3.1-euryale-70b",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "The water cycle is the continuous process by which water moves through the Earth's atmosphere, oceans, lakes, and land. It begins with evaporation, where the sun's heat causes water from the oceans, rivers, and lakes to turn into vapor and rise into the atmosphere. This water vapor then condenses into clouds, a process known as condensation. When these clouds become saturated with water, the vapor falls back to the Earth as precipitation, such as rain, snow, or hail. Once the water reaches the ground, it can either be absorbed into the soil, a process called infiltration, or it can flow over the surface as runoff, eventually returning to bodies of water. Some of the water that infiltrates the soil can be taken up by plants and evaporated again through a process called transpiration, while the rest becomes groundwater, which can eventually feed into rivers and lakes, starting the cycle over again. This continuous movement of water is essential for life on Earth and helps regulate the planet's temperature and weather patterns.",
+  "usage": {
+    "prompt_tokens": 38,
+    "completion_tokens": 206,
+    "total_tokens": 244,
+    "cost": 0.0002074,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002074,
+      "upstream_inference_prompt_cost": 0.0000323,
+      "upstream_inference_completions_cost": 0.0001751
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "sao10k/l3.1-euryale-70b",
+  "ts": 1776830011259
+}

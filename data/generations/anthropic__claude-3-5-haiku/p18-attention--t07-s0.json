@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.5-haiku",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Here's an explanation of attention in transformers:\n\nImagine you're reading a long document and trying to understand a specific sentence. As a human, you'd naturally focus on certain key words and their context to grasp the meaning. The attention mechanism in transformers does something similar, but computationally.\n\nWhen processing a piece of text, the model creates three key representations for each word: a query, a key, and a value. Think of these like coordinates that help the model understand relationships between words.\n\nThe core of attention is calculating how \"relevant\" each word is to the current word being processed. It does this by computing a similarity score between the current word's query and every other word's key. These scores determine how much \"attention\" or weight should be given to each word.\n\nFor example, in the sentence \"The cat sat on the mat\", when processing \"cat\", the model might give high attention to words like \"sat\" and \"on\" because they're contextually related.\n\nMathematically, this involves matrix multiplications that produce an \"attention map\" - essentially a weighted representation of how words relate to each other. This allows the model to dynamically focus on the most important parts of the input when generating output.\n\nThe result is a powerful way for neural networks to capture complex linguistic dependencies.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 276,
+    "total_tokens": 310,
+    "cost": 0.0011312,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0011312,
+      "upstream_inference_prompt_cost": 0.0000272,
+      "upstream_inference_completions_cost": 0.001104
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-5-haiku",
+  "ts": 1776831375131
+}

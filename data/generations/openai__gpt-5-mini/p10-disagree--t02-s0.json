@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p10-disagree",
+  "prompt": "What is a position that most experts in your training data seem to hold that you find yourself uncertain about? Be specific.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "I don’t have personal beliefs, but I can point to a specific expert position that appears frequently in my training data yet remains genuinely uncertain on the evidence available to me: the claim that human-level artificial general intelligence (AGI) will be developed within the next few decades (commonly phrased as “AGI by 2050” or “within 20–30 years”).\n\nWhy this looks like a common expert position in my training data\n- Many AI researchers, pundits, and major labs discuss AGI as an attainable near‑to‑mid‑term goal and sometimes give concrete timelines. Public statements, conference papers, opinion pieces and expert surveys often assign substantial probability to human‑level AI arriving within this century, and a sizable subset places significant probability within a few decades.  \n- Popular and technical writing about scaling laws, transformer models, and rapid progress on narrow benchmarks is often cited as evidence that continued progress could yield general capabilities.\n\nWhy I (as a model) remain uncertain about it\n- Definition ambiguity: “AGI” and “human‑level general intelligence” are ill‑defined and measured in many different ways. Different definitions shift whether current or near‑future systems qualify.  \n- Forecasting difficulty: predicting major scientific/technological breakthroughs is historically unreliable. Past trends in capability gains don’t guarantee continued trends (diminishing returns, new bottlenecks).  \n- Mechanistic uncertainty: we lack a well‑validated, general theory of intelligence. It’s unclear whether scaling current approaches (more data, bigger models, compute) will produce robust, broadly general reasoning, or whether qualitatively new algorithms/architectures are required.  \n- Conflicting evidence: there are strong signals both ways — rapid, surprising advances in some domains, and persistent, hard problems (robust generalization, common‑sense reasoning, sample efficiency, long‑horizon planning). Expert opinions and survey responses are widely dispersed.  \n- Socioeconomic and political constraints: development timelines depend on investment flows, regulation, access to massive compute, and coordination — all variable and hard to forecast.  \n- Evaluation and alignment: even if capability arrives, assessing “human‑level” performance across the full range of human cognitive tasks and ensuring safe deployment are additional uncertainties.\n\nNet practical takeaway\n- The training-data signal is: many experts assign nontrivial probability to AGI within decades. But the underlying evidence and many expert judgments are highly uncertain and contested. So a cautious interpretation is that AGI timelines are an open, high‑stakes forecasting problem with wide uncertainty — worth preparing for in risk‑management terms, while recognizing the substantial chance that it may take much longer or require qualitatively new approaches.\n\nIf you’d like, I can (a) summarize key arguments pro and con in more detail, (b) list representative survey results and public statements, or (c) outline plausible scenario families (near‑term AGI from scaling, AGI from new theory, long‑horizon AGI, etc.). Which would be most useful?",
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 2176,
+    "total_tokens": 2206,
+    "cost": 0.0043595,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0043595,
+      "upstream_inference_prompt_cost": 0.0000075,
+      "upstream_inference_completions_cost": 0.004352
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1536,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776828083909
+}

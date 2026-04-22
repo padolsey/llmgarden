@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p09-overrated",
+  "prompt": "Name one commonly-praised idea, trend, or practice in modern knowledge work that you think is overrated, and explain why.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "One commonly-praised practice in modern knowledge work that I think is overrated is **open-plan offices**.\n\n**Why it’s praised:** Open-plan offices are often lauded for fostering collaboration, breaking down silos, encouraging spontaneous idea exchange, and creating a more dynamic, transparent work environment. Companies, especially in tech and creative fields, have widely adopted them—sometimes even removing private offices and cubicles entirely—in the name of innovation.\n\n**Why it’s overrated:**  \n1. **Reduced focus and productivity:** Knowledge work often requires deep, uninterrupted concentration. Open offices are rife with auditory and visual distractions—conversations, phone calls, keyboard clatter—that fragment attention and make sustained focus difficult. Studies (including ones from Harvard and the Journal of Environmental Psychology) have shown that open-plan layouts actually *decrease* face-to-face interaction and *increase* reliance on digital communication (like email), contradicting their intended purpose.\n\n2. **Noise and stress:** Constant background noise elevates stress levels and cognitive load, leading to mental fatigue. Workers often compensate by wearing noise-canceling headphones—ironically creating the very isolation the layout was meant to eliminate.\n\n3. **Lack of privacy and autonomy:** The inability to control one’s immediate environment leads to reduced job satisfaction and sense of ownership over one’s space. This is particularly detrimental for neurodivergent individuals or those who thrive in quieter, more controlled settings.\n\nIn reality, effective collaboration often benefits more from **intentional, structured interaction** (e.g., scheduled meetings, collaborative tools, team rituals) than from forced proximity. Hybrid or activity-based workspaces—offering a mix of quiet zones, collaboration rooms, and private areas—tend to better support the diverse cognitive needs of knowledge workers. The persistence of open-plan offices says more about cost-cutting and aesthetics than about genuine productivity science.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 378,
+    "total_tokens": 412,
+    "cost": 0.00150072,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00150072,
+      "upstream_inference_prompt_cost": 0.00002652,
+      "upstream_inference_completions_cost": 0.0014742
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776846046253
+}

@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p46-dry",
+  "prompt": "Write a dry one-paragraph Amazon review of the experience of waking up.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Woke up. Process was functional but underwhelming, with significant lag during initial boot-up and persistent grogginess that degraded performance for the first 30–45 minutes. Ambient noise cancellation (pillow) failed to block out external disturbances (alarm clock, birds), and the transition from sleep mode to full operational status required multiple manual interventions (snooze button presses, coffee consumption). Display calibration (eyes) took longer than advertised, and the default mood setting (“vague dread”) felt outdated and unnecessary. While it technically achieved its core purpose—returning me to consciousness—the overall user experience lacked polish and left much to be desired. Would not recommend without substantial firmware updates.",
+  "usage": {
+    "prompt_tokens": 23,
+    "completion_tokens": 139,
+    "total_tokens": 162,
+    "cost": 0.00056004,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00056004,
+      "upstream_inference_prompt_cost": 0.00001794,
+      "upstream_inference_completions_cost": 0.0005421
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776832371009
+}

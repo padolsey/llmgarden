@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p16-photosynthesis",
+  "prompt": "Explain photosynthesis to a curious adult non-scientist in around 150 words. Avoid a bulleted list.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "## How Plants Turn Light Into Food\n\nImagine you never had to eat because you could simply stand in sunlight and make your own meals. That's essentially what plants do through photosynthesis.\n\nHere's the process: plants absorb sunlight through a green pigment in their leaves called chlorophyll — which also explains why most plants are green. At the same time, they pull water up from their roots and draw in carbon dioxide from the air through tiny pores in their leaves.\n\nUsing the sun's energy, the plant then drives a chemical reaction that transforms that water and carbon dioxide into glucose, a simple sugar the plant uses as fuel to grow, flower, and reproduce. Oxygen is released as a byproduct — which is extraordinarily lucky for us, since that's the oxygen we breathe.\n\nIn short, plants are remarkable little factories that run entirely on sunlight, air, and water, quietly producing both their own food and our atmosphere.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 203,
+    "total_tokens": 237,
+    "cost": 0.003147,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003147,
+      "upstream_inference_prompt_cost": 0.000102,
+      "upstream_inference_completions_cost": 0.003045
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833693450
+}

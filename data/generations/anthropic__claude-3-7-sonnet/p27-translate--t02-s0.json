@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "# Translation of \"The silence between us said more than any argument could have.\"\n\n## French\n\"Le silence entre nous en disait plus que n'importe quelle dispute aurait pu le faire.\"\n\n*Note: The French adds \"le faire\" (do it) at the end to complete the comparison in a natural way.*\n\n## Japanese\n\"私たちの間の沈黙は、どんな口論よりも多くを語っていた。\"\n(Watashitachi no aida no chinmoku wa, donna kōron yori mo ōku wo katatte ita.)\n\n*Note: The Japanese uses \"語る\" (kataru - to tell/narrate) for \"said,\" which carries a more narrative connotation, better conveying that the silence was communicating something meaningful.*\n\n## Arabic\n\"كان الصمت بيننا يقول أكثر مما كانت ستقوله أي مجادلة.\"\n(Kāna aṣ-ṣamtu baynanā yaqūlu akthara mimmā kānat sataqūluhu ayyu mujādalah.)\n\n*Note: Arabic required restructuring with \"kānat sataqūluhu\" (would have said it) to maintain the conditional meaning, as a direct translation of \"could have\" wouldn't sound natural.*",
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 316,
+    "total_tokens": 367,
+    "cost": 0.004893,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004893,
+      "upstream_inference_prompt_cost": 0.000153,
+      "upstream_inference_completions_cost": 0.00474
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776827803812
+}

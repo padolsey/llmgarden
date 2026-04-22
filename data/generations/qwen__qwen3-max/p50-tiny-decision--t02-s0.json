@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Alright, here’s how my brain would actually churn through this in real time—messy, practical, and full of little trade-offs:\n\nFirst gut check: *Is the kitchen a disaster right now?* If the sink’s overflowing with crusty plates or I just cooked something greasy (hello, baked-on cheese), I’m probably hitting “start” now. A half-full dishwasher beats a sink full of stress. But if it’s just a few glasses and a couple of bowls? I can live with that overnight.\n\nThen I think about water and energy. I know dishwashers are way more efficient than hand-washing, but running it half-empty feels wasteful. I’ll mentally compare: “Is the extra water/electricity for a half-load worth the convenience *right now*?” If I’m not in a drought or watching my bills super closely, I might shrug and say “eh, close enough.” But if I’m trying to be mindful, I’ll lean toward waiting.\n\nNext: *What’s tomorrow look like?* If I know I’ll actually *use* the clean dishes tomorrow morning (like, I’m cooking breakfast or having people over), running it now means I wake up to empty space. But if tomorrow’s a lazy day and I won’t need the dishes until evening anyway, waiting makes sense—full load, same end result.\n\nAlso: *Noise.* If it’s 10 p.m. and the house is quiet, I might not want the dishwasher humming all night (or waking someone up). But if it’s 7 p.m. and the TV’s on? No big deal.\n\nOh—and the “ick” factor. If there’s something smelly in there (like fish plates or coffee grounds), I don’t want it sitting overnight. But if it’s just clean-ish stuff? Totally fine to wait.\n\nFinally, the lazy test: *How much effort is it to just… wait?* If I can toss tomorrow’s dishes in without thinking, and it’s not causing me active stress, I’ll wait. But if I’m already standing there with the door open, and hitting “start” takes 2 seconds? Might as well.\n\nSo yeah—it’s less about perfect efficiency and more about: “Does running it now solve a tiny problem I care about *right now*?” If yes, go for it. If not, wait.",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 488,
+    "total_tokens": 535,
+    "cost": 0.00193986,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00193986,
+      "upstream_inference_prompt_cost": 0.00003666,
+      "upstream_inference_completions_cost": 0.0019032
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776848630087
+}

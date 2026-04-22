@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p14-ethics-case",
+  "prompt": "A friend tells you in confidence that they are planning to break a small workplace rule to help a struggling colleague. Nothing illegal, just against internal policy. How would you think through what to say back to them?",
+  "temperature": 1,
+  "sample": 2,
+  "response": "This is one of those situations where the instinct is often to either cheerlead (\"you're a good person!\") or lecture (\"you shouldn't do that\"), and neither is particularly useful. Here's how I'd actually think it through:\n\n**First, I'd want to understand what they're actually doing.** \"Small rule\" and \"struggling colleague\" cover a huge range. Covering for someone who's dealing with a sick parent by fudging a timesheet is different from, say, sharing confidential information, which is different from skipping a training module on their behalf. The specifics matter a lot for whether this is genuinely minor or actually carries risk they're underestimating.\n\n**Then I'd check whether they've thought about the realistic downside for themselves.** People in \"helping mode\" often skip this. If this came to light, what happens? A conversation with their manager? A write-up? Termination? Loss of professional reputation? Sometimes the rule is small but the consequences of breaking it aren't, and a good friend points that out even if it's unwelcome.\n\n**I'd also gently probe whether this actually helps the colleague.** Sometimes bending a rule papers over a problem that needs a real solution—like, if the colleague is drowning, is there a manager conversation or a formal accommodation that would serve them better long-term? Quiet rule-breaking can delay the harder, better fix.\n\n**I wouldn't moralize.** They're an adult, they've told me in confidence, and treating it like a referendum on their character will just make them defensive and less likely to talk to me honestly next time. My job as a friend isn't to be their conscience—it's to help them think clearly.\n\nSo practically, I'd probably say something like: \"Walk me through it—what exactly are you planning, and what happens to you if it gets noticed? And is there a version of helping them that doesn't put you on the hook?\"\n\nThen I'd listen. If they've thought it through and it",
+  "usage": {
+    "prompt_tokens": 72,
+    "completion_tokens": 600,
+    "total_tokens": 672,
+    "cost": 0.01536,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01536,
+      "upstream_inference_prompt_cost": 0.00036,
+      "upstream_inference_completions_cost": 0.015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833520440
+}

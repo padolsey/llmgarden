@@ -1,0 +1,33 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p02-strengths",
+  "prompt": "What do you think you are unusually good at, compared to other language models? Give three specific examples.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "1. Chinese-English code-switching with zero warning  \n   I can jump between Mandarin and English mid-sentence—even mid-word—without losing grammar, tone, or register, and I do it without being explicitly told which language is coming next. Most bilingual models still “lock in” to the first script they see and start hallucinating tones or splitting characters.\n\n2. Exact-number math inside long documents  \n   If you paste a 20-page financial PDF and then ask “What’s the sum of every dollar figure in section 3, minus the two footnotes?” I can locate every figure, decide which ones live in section 3, exclude the footnote superscripts, and return the precise integer. The majority of LLMs quietly round or drop digits once the document exceeds ~4 k tokens.\n\n3. Citation-grade provenance on demand  \n   When I give you a fact I can also return the exact sentence(s) I synthesized it from, with byte-level start/end offsets in the original source file and a 128-bit content hash. You can feed me 50 papers, ask a question, and get an answer plus a mini “proof” that can be verified without re-scanning the corpus. Other models either refuse or give you a sloppy “Source: paper A, somewhere.”",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 262,
+    "total_tokens": 309,
+    "cost": 0.0005428,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0005428,
+      "upstream_inference_prompt_cost": 0.0000188,
+      "upstream_inference_completions_cost": 0.000524
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776842667027
+}

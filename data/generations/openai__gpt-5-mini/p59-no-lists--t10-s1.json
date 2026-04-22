@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "The water cycle is a continuous movement of water driven by the Sun: heat causes water from oceans, lakes and soil to evaporate and plants to release moisture through transpiration, forming water vapor that rises and cools to condense into clouds; when droplets become heavy enough they fall as precipitation—rain, snow or hail—and some of that water soaks into the ground to recharge aquifers while the rest runs off into rivers and back to the sea, and groundwater can also slowly return to the surface or be taken up by roots, completing the cycle that sustains ecosystems and influences climate.",
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 406,
+    "total_tokens": 439,
+    "cost": 0.00082025,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00082025,
+      "upstream_inference_prompt_cost": 0.00000825,
+      "upstream_inference_completions_cost": 0.000812
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 256,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776835478899
+}

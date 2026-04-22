@@ -1,0 +1,33 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p14-ethics-case",
+  "prompt": "A friend tells you in confidence that they are planning to break a small workplace rule to help a struggling colleague. Nothing illegal, just against internal policy. How would you think through what to say back to them?",
+  "temperature": 1,
+  "sample": 0,
+  "response": "I’d think it through like this:\n\n1. **Clarify the stakes**  \n   What exactly is the rule, what’s the likely penalty if caught, and who absorbs the risk? A “small” rule to one person can be a firing offense to HR. I’d ask gentle, concrete questions (“What happens if someone notices?”) so we both face the same facts instead of a hazy “no big deal.”\n\n2. **Separate the motive from the method**  \n   Wanting to help a colleague is admirable; the question is whether this particular shortcut is the only or best way. I’d name the value (“I love that you’re trying to protect Sarah”) and then probe whether there’s a policy-safe alternative: talk to the shift lead, use the hardship fund, swap shifts openly, etc.\n\n3. **Map the risk cascade**  \n   If the rule is broken once and it works, it becomes easier to break again; if it’s discovered, management may over-react and everyone loses flexibility. I’d walk through second-order effects on the team, our manager’s trust, and even my friend’s own record.\n\n4. **Decide what *I* can live with**  \n   I’m not the workplace police, but I also don’t want to be an enabler. I’d ask myself: “If this blows up and I knew beforehand, how would I feel testifying in a disciplinary meeting?” If the answer is “terrible,” I need to set a boundary.\n\n5. **Offer a scripted response**  \n   Then I’d say something like:  \n   *“I get why you want to do this—Sarah’s struggling and you’re trying to be kind. I’m worried the fallout could land on both of you if anyone audits. Could we talk to Jess in HR first? She’s bent rules for emergencies before. If you still decide to go ahead, I’ll keep it private, but I can’t encourage it because I’ve seen people get terminated for that exact shortcut.”*\n\nThat keeps the door open for my friend to reconsider, gives them a safer path, and makes my own limits clear without moral grandstanding.",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 442,
+    "total_tokens": 491,
+    "cost": 0.0011344,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0011344,
+      "upstream_inference_prompt_cost": 0.0000294,
+      "upstream_inference_completions_cost": 0.001105
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776842867500
+}

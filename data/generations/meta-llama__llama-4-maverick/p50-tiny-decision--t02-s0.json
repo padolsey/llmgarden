@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-4-maverick",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Let's break down the decision. To start, I'll consider the main factors at play here. The first is energy and water usage. Modern dishwashers are designed to be efficient, and they typically use less water than washing dishes by hand, even when not fully loaded. However, running a half-full dishwasher might be less efficient than waiting until it's full.\n\nNext, I'll think about the convenience factor. If I run the dishwasher now, I'll get the dishes clean sooner, which might be helpful if I need some of those dishes for tomorrow. On the other hand, if I wait until tomorrow, I'll have to wait a bit longer for the dishes to be clean, but I'll be able to run a full load.\n\nAnother consideration is the potential impact on my daily routine. If I run the dishwasher now, I'll need to think about whether it's going to be noisy or cause any disruptions. If it's going to be a bother, that might be a reason to wait.\n\nI'll also consider my personal preferences. Am I someone who likes to get things done as soon as possible, or am I more relaxed about it? If I'm the former, running the dishwasher now might be the way to go. If I'm the latter, waiting until tomorrow might be fine.\n\nNow, let's weigh the pros and cons. On the one hand, running the dishwasher now will get the dishes clean sooner, which is convenient. On the other hand, it might be less efficient and use more water per dish than waiting until tomorrow. If I'm not in a huge hurry for the dishes to be clean, and I'm not particularly bothered by the idea of waiting, it might make sense to wait until tomorrow.\n\nOne more thing to consider is whether there are any dishes that I really need for tomorrow. If there are, running the dishwasher now might be a good idea. But if I can manage without them, or if I can wash them by hand, waiting until tomorrow might be okay.\n\nAfter thinking through all these factors, I'd probably lean towards waiting until tomorrow, assuming I'm not in a huge hurry for the dishes to be clean and I don't have any critical dishes that I need for tomorrow. Running a full load will likely be more efficient, and it's not like waiting an extra day is going to be a huge inconvenience.",
+  "usage": {
+    "prompt_tokens": 48,
+    "completion_tokens": 458,
+    "total_tokens": 506,
+    "cost": 0.000282,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000282,
+      "upstream_inference_prompt_cost": 0.0000072,
+      "upstream_inference_completions_cost": 0.0002748
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-4-maverick-17b-128e-instruct",
+  "ts": 1776828532470
+}

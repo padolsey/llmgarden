@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "The water cycle is nature's continuous journey of water movement across our planet. It begins as the sun's warmth causes water from oceans, lakes, rivers, and even plants to evaporate into water vapor, rising invisibly into the atmosphere. This vapor cools as it reaches higher altitudes, condensing into tiny droplets that form clouds. When these droplets grow heavy enough, they fall back to Earth as precipitation—rain, snow, sleet, or hail—depending on atmospheric temperature. Some precipitation lands directly in bodies of water, while some falls on land where it might flow across the surface as runoff into streams and rivers, eventually reaching lakes or oceans. Other water seeps into the ground, becoming groundwater that moves slowly through soil and rock layers, sometimes emerging as springs or being tapped by plant roots. Plants also participate in the cycle through transpiration, releasing water vapor from their leaves after drawing moisture from the soil. This perpetual circulation of water—from earth to sky and back again—sustains all life on our planet, never creating or destroying water but endlessly recycling the same precious resource through different forms.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 239,
+    "total_tokens": 275,
+    "cost": 0.003693,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003693,
+      "upstream_inference_prompt_cost": 0.000108,
+      "upstream_inference_completions_cost": 0.003585
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776834079556
+}

@@ -1,0 +1,33 @@
+{
+  "model": "anthracite-org/magnum-v4-72b",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Let's consider a few factors:\n\nEnergy efficiency: Running the dishwasher when it's full is generally more energy-efficient than running it half-full. Dishwashers use a significant amount of hot water, so filling it to capacity optimizes resource use.\n\nConvenience: Having access to clean dishes immediately might be convenient, especially if you have plans that require clean dishes. If waiting until tomorrow means dealing with dirty dishes piling up or needing to hand-wash items, it might be better to run the dishwasher now.\n\nWater and detergent usage: Running the dishwasher half-full will still use almost the same amount of water and detergent as a full load. This means you'll be using more resources per dish than if you wait for the dishwasher to be full.\n\nPotential for reusing dishes: If you have dishes that are only slightly dirty or only used for snacks, you might consider rinsing them and reusing them in the meantime. This could help stretch out the time until your next dishwasher load becomes necessary.\n\nBased on these considerations, unless you have a pressing need for clean dishes right now or limited space for dirty dishes, it likely makes the most sense to wait until tomorrow when you have a fuller load. This way, you'll be using resources more efficiently. However, if you've got the dishwasher capacity and need the clean dishes, there's no problem running a half-full load now.",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 277,
+    "total_tokens": 324,
+    "cost": 0.001525,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001525,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0.001525
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthracite-org/magnum-v4-72b",
+  "ts": 1776841653438
+}

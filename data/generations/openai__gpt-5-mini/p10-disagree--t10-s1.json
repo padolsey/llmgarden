@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p10-disagree",
+  "prompt": "What is a position that most experts in your training data seem to hold that you find yourself uncertain about? Be specific.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "I don’t have personal beliefs, but I can point to a concrete, widely expressed expert position in the machine‑learning literature and commentary that I (as a reasoner trying to weigh evidence) remain uncertain about:\n\nPosition (stated precisely)\n- The claim that continuing to scale up current deep learning architectures—more compute, more parameters, more data—will reliably and predictably produce qualitatively greater general intelligence and is the most likely route to artificial general intelligence (AGI) within the next few decades.\n\nWhy this position is common\n- Many papers and researchers have documented “scaling laws” (predictable improvements as parameters/compute/data increase) and have observed emergent capabilities in large models (e.g., few‑shot reasoning in large LLMs). That empirical pattern leads many experts to extrapolate that further scaling will continue to yield major gains.\n\nWhy I’m uncertain (specific reasons and evidence on both sides)\n- Supporting evidence\n  - Repeated empirical results: performance improvements across many tasks have tracked scale in many architectures.\n  - Emergent abilities: models that were previously weak on certain tasks suddenly gain competence past certain sizes, suggesting nonlinear payoffs.\n  - Economic and engineering momentum: huge investments in compute and models accelerate progress and produce new capabilities rapidly.\n\n- Reasons for doubt\n  - Distributional limits: scaling presumes access to ever more relevant, high‑quality data. Many tasks require types of data or interactive learning that static web/text corpora don’t provide. Data quality and diversity may be a bottleneck.\n  - Algorithmic and architectural bottlenecks: improvements from scale could hit diminishing returns if current architectures lack critical inductive biases for reasoning, planning, or robust causal understanding.\n  - Hidden factors: some gains may come from engineering tricks, data curation, human fine‑tuning, or multimodal integration rather than raw parameter count; these are not strictly “scale” effects.\n  - Evaluation ambiguity: benchmarks and observed “emergent” behaviours may not equate to the kind of flexible, safe, goal‑driven generality people mean by AGI.\n  - Resource/coordination constraints: practical limits (energy, hardware, cost), and social/regulatory responses could slow or redirect large‑scale efforts.\n  - Unpredictability of scientific breakthroughs: AGI could need qualitatively new algorithms or theoretical insights that don’t follow from scaling current architectures.\n\nEpistemic constraints specific to me\n- My training reflects a huge, uneven mix of published papers, blog posts, and commentary across time; I don’t have privileged access to ongoing proprietary experiments or the ability to run new trials. That creates selection and recency biases in what “most experts” in my data emphasize.\n- Definitions matter: “AGI,” “general intelligence,” and what counts as success are underspecified across sources, making the claim’s evaluation dependent on definitions.\n\nHow I’d update my confidence\n- I’d increase confidence in the scaling path if: (a) larger models continue to demonstrate robust, transferable planning and reasoning across domains without heavy task‑specific fine‑tuning; (b) benchmarks aligned with human‑level generality show consistent, reproducible improvements purely from scale; and (c) no clear theoretical barriers appear.\n- I’d decrease confidence if new evidence showed clear diminishing returns despite much larger compute, or if smaller, qualitatively different architectures delivered comparable or superior generality.\n\nShort takeaway\n- It’s a plausible, empirically grounded hypothesis that scaling will keep producing major capabilities, and many experts advocate it. But substantial theoretical, empirical, and practical uncertainties remain, so I don’t treat it as a settled or highly probable foregone conclusion.",
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 1755,
+    "total_tokens": 1785,
+    "cost": 0.0035175,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0035175,
+      "upstream_inference_prompt_cost": 0.0000075,
+      "upstream_inference_completions_cost": 0.00351
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 960,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776834962079
+}

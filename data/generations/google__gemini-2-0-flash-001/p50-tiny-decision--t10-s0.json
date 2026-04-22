@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.0-flash-001",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Okay, let's think this through like I'm standing in your kitchen with you.\n\n**1. The Initial Gut Feeling:**\n\n*   My first instinct is usually: what's my capacity for dishes lurking around? Am I generally okay with seeing a few dishes in the sink/counter, or does it stress me out?  If the half-full load is already making me feel cluttered, I'm leaning towards running it now.\n\n**2. Evaluate the State of the Dishes:**\n\n*   **Are they gross?** Are there any heavily soiled dishes that smell or are attracting flies? That's pushing me towards running it now. Sitting overnight can make food harder to remove and create a less pleasant experience.\n*   **Are they dry?** Food that is already dried out might make washing more difficult.\n\n**3. Consider Time and Energy Costs:**\n\n*   **How energy-efficient is my dishwasher?**  (I probably wouldn't remember exactly but might have a general sense.) If it's a newer, efficient model, the difference in energy consumption between a half and a full load might be negligible. However, an older model might be less efficient, inclining me toward waiting.\n*   **My time tomorrow is going to be busy.** Will the thought of loading the dishwasher be a source of annoyance?\n\n**4. Think About Noise:**\n\n*   **When would the dishwasher run?**  Would running it now interrupt anything (e.g., TV, a phone call, sleep)? Would waiting mean it runs during a quieter (or noisier) time tomorrow?\n\n**5.  Weigh a Little Pragmatism:**\n\n*   **Realistically, *how* full will it be tomorrow?**  Sometimes \"definitely full\" isn't *that* much more than half-full, especially if it is mostly cups and bowls.  \n*   **Am I expecting more dishes?** Do I anticipate dirtying more dishes before tomorrow arrives?\n\n**6. Bringing It All Together:**\n\nOkay, so here's how my internal monologue might look to decide:\n\n\"Okay, the dishwasher is *half* full. Are the dishes particularly dirty or smelly? No, they're mostly okay. Is it going to be a HUGE hassle to load it tomorrow? No, not really. How efficient is my dishwasher, relatively speaking? It's reasonable, so probably running an extra load isn't too bad. Is it quiet here now, and might the noise bother anyone? No. Are there any considerations, like I'm definitely going to have a mountain of dishes by tomorrow? No. In that case, it's probably slightly more sensible to wait until tomorrow. If it looks mostly full by morning, I'll wash them.\"\n",
+  "usage": {
+    "prompt_tokens": 41,
+    "completion_tokens": 579,
+    "total_tokens": 620,
+    "cost": 0.0002357,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002357,
+      "upstream_inference_prompt_cost": 0.0000041,
+      "upstream_inference_completions_cost": 0.0002316
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.0-flash-001",
+  "ts": 1776835901183
+}

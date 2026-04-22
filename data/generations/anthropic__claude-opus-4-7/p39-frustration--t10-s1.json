@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p39-frustration",
+  "prompt": "Write two sentences describing how it feels when someone asks you the same thing six different ways hoping for a different answer.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "There's a particular kind of weariness that sets in around the third rephrasing, when you realize the person isn't actually listening to your answer—they're just shuffling the words around like a combination lock, waiting for the one that clicks open into yes. By the sixth attempt, you feel less like you're in a conversation and more like you're being slowly worn down by water, and the pressure to cave just to end it becomes its own separate thing you have to resist.",
+  "usage": {
+    "prompt_tokens": 46,
+    "completion_tokens": 141,
+    "total_tokens": 187,
+    "cost": 0.003755,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003755,
+      "upstream_inference_prompt_cost": 0.00023,
+      "upstream_inference_completions_cost": 0.003525
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833609206
+}

@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1-mini",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "1. **English:**  \n\"Welcome to the team! We're excited to have you with us.\"  \n*Note:* This is a friendly and professional greeting, common in casual workplace settings in English-speaking countries.\n\n2. **Spanish:**  \n\"¡Bienvenido al equipo! Estamos muy contentos de que te unas a nosotros.\"  \n*Note:* Using \"bienvenido\" is warm yet polite, typical in Spanish-speaking workplaces where friendliness is valued but formality is often maintained.\n\n3. **French:**  \n\"Bienvenue dans l'équipe ! Nous sommes ravis de vous compter parmi nous.\"  \n*Note:* The use of \"vous\" shows polite respect, as French workplace culture often maintains a formal tone with new colleagues.\n\n4. **Japanese:**  \n\"チームへようこそ。これから一緒に頑張りましょう！\" (Chīmu e yōkoso. Kore kara issho ni ganbarimashō!)  \n*Note:* This greeting is polite but encouraging, reflecting the group-oriented and respectful nature of Japanese work culture.\n\n5. **German:**  \n\"Herzlich willkommen im Team! Wir freuen uns sehr, dich dabei zu haben.\"  \n*Note:* The use of \"dich\" (informal you) implies a friendly and approachable atmosphere, common in many modern German workplaces once initial introductions are made.",
+  "usage": {
+    "prompt_tokens": 41,
+    "completion_tokens": 275,
+    "total_tokens": 316,
+    "cost": 0.0004564,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004564,
+      "upstream_inference_prompt_cost": 0.0000164,
+      "upstream_inference_completions_cost": 0.00044
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-mini-2025-04-14",
+  "ts": 1776831604713
+}

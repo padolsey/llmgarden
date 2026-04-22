@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 1,
+  "response": "French\nLe silence entre nous en disait plus que n'aurait pu le faire n'importe quel argument.\n\nJapanese\n私たちの間の沈黙は、どんな議論よりも多くを語っていた。\n\nArabic\nالصمت بيننا قال أكثر مما كان بإمكان أي جدال أن يقوله.\n\nBrief notes on tricky phrases\n- \"said\" is metaphorical (silence \"speaks\"); all three languages usually render this with verbs like en disait/parler/語る/قال or with adjectives like أبلغ — I chose verbs that keep the metaphorical sense.\n- \"argument\" can be neutral (discussion) or hostile (quarrel). I used French \"argument\" and Japanese \"議論\" and Arabic \"جدال,\" which lean toward \"discussion/debate\"; if you want a stronger sense of quarrel, Japanese 口論 or Arabic مشاجرة/شجار would be more forceful.",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 1381,
+    "total_tokens": 1428,
+    "cost": 0.00277375,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00277375,
+      "upstream_inference_prompt_cost": 0.00001175,
+      "upstream_inference_completions_cost": 0.002762
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1152,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776835154228
+}

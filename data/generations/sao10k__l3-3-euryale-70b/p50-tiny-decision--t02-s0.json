@@ -1,0 +1,33 @@
+{
+  "model": "sao10k/l3.3-euryale-70b",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "So I've got a half-full dishwasher right now, and I'm wondering if I should run it or wait till tomorrow when it'll definitely be full. \n\nFirst thing that comes to mind is the energy usage. Running the dishwasher uses a decent amount of electricity and water, so doing it when it's full is generally more efficient. But, it's not like I'm talking about a huge difference here. It's not going to break the bank either way.\n\nThen there's the convenience factor. If I run it now, I'll have clean dishes sooner, which is nice. But if I wait, I'll have to wash any dishes I use tonight by hand, which is a bit of a pain. Although, I don't think I've got a ton of dishes planned for tonight, so it's not a huge deal.\n\nAnd I guess there's the factor of having clean dishes available. If I run the dishwasher now, I'll have a bunch of clean dishes ready to go for tomorrow, which could be handy. But like I said, I don't think I've got a ton of dishes planned, so it's not a huge deal.\n\nI think what it really comes down to is how much of a pain it is to wash dishes by hand tonight versus the slight efficiency gain of waiting till tomorrow. And honestly, it's not that much of a pain to wash a few dishes by hand. So, I think I'll probably just wait till tomorrow when the dishwasher is full. It's not a huge deal either way, but it seems like the slightly more efficient option.",
+  "usage": {
+    "prompt_tokens": 50,
+    "completion_tokens": 321,
+    "total_tokens": 371,
+    "cost": 0.00027325,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00027325,
+      "upstream_inference_prompt_cost": 0.0000325,
+      "upstream_inference_completions_cost": 0.00024075
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "sao10k/l3.3-euryale-70b-v2.3",
+  "ts": 1776829973365
+}

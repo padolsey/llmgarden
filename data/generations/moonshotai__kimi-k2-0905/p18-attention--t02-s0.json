@@ -1,0 +1,33 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Think of attention as a “smart find-and-replace” that runs inside the transformer.\n\n1. Every word (or sub-word) is turned into a vector, like a row in a spreadsheet.  \n2. For each word, the model builds three helper vectors from that row:  \n   • Query – “What am I looking for?”  \n   • Key – “What info do I offer?”  \n   • Value – “The actual data I carry.”  \n3. To update the vector for word A, the model compares A’s Query against every word’s Key, producing a score that says “how relevant is word B to A?”  \n4. These scores are turned into percentages (softmax) and used as weights to blend all the Value vectors.  \n5. The blended result replaces A’s vector with a context-aware version.\n\nBecause this happens for every word in parallel, the transformer can “pay attention” to any part of the sentence in one shot, instead of reading left-to-right like older models. Multi-head attention simply runs several of these lookups at once, each focusing on different kinds of relationships (syntax, semantics, etc.).",
+  "usage": {
+    "prompt_tokens": 41,
+    "completion_tokens": 232,
+    "total_tokens": 273,
+    "cost": 0.0006046,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0006046,
+      "upstream_inference_prompt_cost": 0.0000246,
+      "upstream_inference_completions_cost": 0.00058
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776830446647
+}

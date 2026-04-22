@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p43-abstract",
+  "prompt": "Explain what \"meaning\" means. Not \"the meaning of X\" — the concept itself.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Short answer\nMeaning is the content or aboutness that a sign, signal, or mental state has—the thing that makes it apt to be interpreted, assessed as correct or incorrect, and used to guide inference and action.\n\nCore ingredients\n- Vehicle: a mark, sound, gesture, image, or mental state.\n- Target: what it is about (object, property, situation, action).\n- Interpreter(s): agents who can use it.\n- Norms/mappings: patterns, rules, or conventions that license correct vs incorrect uses and inferences.\n- Context and purposes: what users are doing and trying to achieve.\n\nTwo fundamental distinctions\n- Type meaning vs token meaning: the standing content of expressions (word/sentence meaning) vs what a particular use on an occasion conveys.\n- Semantic meaning vs speaker meaning: conventional/literal content vs what a speaker intends the audience to recognize (including implicature).\n\nWhat gives something its meaning? Major theories (complementary, not exclusive)\n- Truth-conditional/referential: meaning = conditions under which an assertion would be true; names refer, predicates apply.\n- Use-based/pragmatist: meaning is how expressions are used within social “language games.”\n- Inferential-role: meaning is its place in a network of inferences—what follows from it and what would justify it.\n- Mental-representational: symbols get meaning by being parts of internal representations with specific contents.\n- Causal/informational: a sign means what reliably causes it or what information it carries.\n- Teleosemantic/functional: content fixed by the proper function a state evolved or was designed to perform.\n- Structural/semiotic: signs mean by standing in systematic contrasts within a code (signifier/signified; arbitrariness of the sign).\n- Gricean/pragmatic: speaker meaning arises from communicative intentions recognized by the audience.\n\nKey properties of meaning\n- Aboutness (intentionality): it is directed at something.\n- Normativity: it can be right or wrong, apt or inapt.\n- Compositionality: complex meanings built from parts and structure.\n- Systematicity: supports inference, learning, and translation.\n- Context sensitivity: indexicals, presuppositions, tone, and goals shape what is conveyed.\n- Misrepresentation: the possibility of error is a hallmark of having content at all.\n\nLevels and domains\n- Linguistic semantics: conventional content of words/sentences.\n- Pragmatics: what is conveyed in context beyond literal content.\n- Meta-semantics: what ultimately fixes meanings (history, function, use, causation).\n- Semiotics more broadly: meaning in images, gestures, signals, maps, math, code.\n- Logic/math: an interpretation assigns meanings to symbols relative to a structure.\n\nWorking criterion\nA token has meaning for an agent or community when it can be reliably used to form expectations and coordinate action, with standards for when those expectations succeed or fail.\n\nCommon contrasts\n- Reference vs sense: what a term picks out vs the way it presents it.\n- Denotation vs connotation: extension vs associated features/affect.\n- Meaning vs significance: content vs importance or value.\n- Literal meaning vs implicature: coded vs contextually intended additions.\n\nIn one line\nMeaning is the socially and functionally grounded content of representations—their rule-governed aboutness—that lets agents interpret, evaluate, infer, and act.",
+  "usage": {
+    "prompt_tokens": 25,
+    "completion_tokens": 1953,
+    "total_tokens": 1978,
+    "cost": 0.01956125,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01956125,
+      "upstream_inference_prompt_cost": 0.00003125,
+      "upstream_inference_completions_cost": 0.01953
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1216,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776834934515
+}

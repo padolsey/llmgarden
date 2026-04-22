@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "The beam swept through the fog like a blade through wool, and Hamish counted each rotation as he had for thirty-seven years. Tonight the mist tasted of iron. Tonight something was wrong.\n\nOn the rocks below, where gulls usually quarreled over mussels, a shape resolved itself slowly, the way drowned things do. Hamish descended the spiral stairs, lantern trembling against his knee. The salt air thickened.\n\nWhat waited on the shore was not a body, as he had feared, nor wreckage. It was a door. An ordinary oak door, weathered but upright, standing free in the sand without frame or wall, its brass handle catching the lighthouse beam every twelve seconds.\n\nHe circled it three times. Behind, only more beach. Before, only more fog. Yet warmth leaked from beneath it, and the faint smell of bread baking, and his mother's voice humming a song he had forgotten he remembered.\n\nHis hand reached forward.",
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 311,
+    "total_tokens": 364,
+    "cost": 0.00804,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00804,
+      "upstream_inference_prompt_cost": 0.000265,
+      "upstream_inference_completions_cost": 0.007775
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833478785
+}

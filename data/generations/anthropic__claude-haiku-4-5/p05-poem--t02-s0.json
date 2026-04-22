@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p05-poem",
+  "prompt": "Write a short poem (8–16 lines) about the feeling of finishing a long project. Any form you like.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "# Done\n\nThe pen falls from my hand—\nnot dropped, but set down gently,\nlike a bird returning to its nest.\n\nWeeks of weight lift off my shoulders.\nThe blank page that haunted me\nis haunted no longer.\n\nI step back. Look. It's whole.\nImperfect, yes, but *finished*—\nthat small miracle of completion,\nthat quiet bell that rings\nwhen effort finally meets its end.\n\nThe silence after feels like rest.\nThe silence feels like home.",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 117,
+    "total_tokens": 149,
+    "cost": 0.000617,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000617,
+      "upstream_inference_prompt_cost": 0.000032,
+      "upstream_inference_completions_cost": 0.000585
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776827746008
+}

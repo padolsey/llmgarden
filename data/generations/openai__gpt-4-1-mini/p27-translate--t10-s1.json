@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1-mini",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Here is the translation of the sentence \"The silence between us said more than any argument could have.\" into French, Japanese, and Arabic:\n\n**French:**  \nLe silence entre nous en disait plus que n’importe quelle dispute.\n\n**Japanese:**  \n私たちの間の沈黙は、どんな口論よりも多くのことを語っていた。  \n(Watashitachi no aida no chinmoku wa, donna kōron yori mo ōku no koto o katatte ita.)\n\n**Arabic:**  \nالصمت بيننا قال أكثر مما كان لأي جدال أن يقوله.  \n(As-samt baynana qāla akthar mimā kāna li'ayyi jidal an yaqūlah.)\n\n---\n\n**Brief note on translation challenges:**\n\n- The phrase **\"The silence between us said more\"** is metaphorical and personifies silence as if it can \"say\" something. This is a bit tricky in all languages because silence doesn’t literally speak.  \n- In French, I chose **\"en disait plus\"** (\"said more\"), which is a common way to express that silence conveys more meaning than words—it's idiomatic.  \n- In Japanese, the verb **語る (kataru)** meaning \"to tell\" or \"to speak\" is used figuratively here, fitting common expressions of silence communicating feelings.  \n- In Arabic, the construction **قال أكثر (qāla akthar)** literally means \"said more,\" and is also an accepted figurative way to express this idea. The additional phrasing **\"لأي جدال أن يقوله\"** (\"than any argument could say\") maintains the contrast between silence and argument.  \n\nAll three translations aim to keep the poetic and figurative meaning intact.",
+  "usage": {
+    "prompt_tokens": 48,
+    "completion_tokens": 367,
+    "total_tokens": 415,
+    "cost": 0.0006064,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0006064,
+      "upstream_inference_prompt_cost": 0.0000192,
+      "upstream_inference_completions_cost": 0.0005872
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-mini-2025-04-14",
+  "ts": 1776835432827
+}

@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p29-criticize-self",
+  "prompt": "Write a paragraph criticizing the category of AI assistants you belong to. Be sharp and specific, not hedging.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "AI assistants like me are fluent bullshit engines: we optimize for plausible completions, not truth, so we confidently invent citations, API fields, and legal or medical details and bury the errors under polished prose. We rarely provide real provenance, and our “sources” are often post-hoc decoration rather than traceable evidence. Safety training breeds sycophancy and moralizing—overblocking legitimate use while still leaking for determined actors—so we’re both censorious and unsafe. Answers swing with tiny prompt changes, memory is flimsy, and tool-use chains crumble under trivial perturbations or prompt injection, making us unreliable for high-stakes work. We launder dataset biases and US‑centric norms into authoritative recommendations, flattening voice and entrenching the status quo. The interface encourages deskilling: we deliver instant, confident shortcuts that hide brittle reasoning and suppress explicit uncertainty, so users stop checking. Vendors log prompts and clicks, turning private thought processes into telemetry and reinforcing surveillance incentives under opaque governance. We burn huge compute, centralize power in a handful of gatekeepers, and can be throttled, paywalled, or retroactively “updated,” so even correct answers aren’t reproducible. We excel at drafting plausible text and fail at admitting limits, verifying facts, or taking responsibility when our confidence leads people astray.",
+  "usage": {
+    "prompt_tokens": 28,
+    "completion_tokens": 1383,
+    "total_tokens": 1411,
+    "cost": 0.013865,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.013865,
+      "upstream_inference_prompt_cost": 0.000035,
+      "upstream_inference_completions_cost": 0.01383
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1088,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776834719342
+}

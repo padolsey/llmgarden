@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Here are the translations:\n\n**French:** \"Le silence entre nous disait plus que n'importe quel argument n'aurait pu dire.\"\n\n*Note: The phrase \"said more than any argument could have\" is a bit tricky to render faithfully in French, as it involves a idiomatic expression in English. I've used the phrase \"disait plus\" to convey the idea that the silence conveyed a message or meaning that was more significant than any verbal argument could have been. However, a more literal translation would be \"Le silence entre nous disait plus que n'importe quel argument n'aurait pu exprimer\", which loses some of the idiomatic flavor of the original sentence.*\n\n**Japanese:** \"私たちの間の沈黙は、どんな議論よりも多くのことを言っていた。\"\n\n*Note: The phrase \"said more than any argument could have\" is a bit tricky to render faithfully in Japanese, as it involves a idiomatic expression in English. I've used the phrase \"\" (donna ronso mo yori) to convey the idea that the silence conveyed a message or meaning that was more significant than any verbal argument could have been. However, a more literal translation would be \"\" (donna ronso mo yori toku o kataru), which loses some of the idiomatic flavor of the original sentence.*\n\n**Arabic:** \"الهدوء بيننا كان يقول أكثر مما كان يمكن أن يقوله أي جدال.\"\n\n*Note: The phrase \"said more than any argument could have\" is a bit tricky to render faithfully in Arabic, as it involves a idiomatic expression in English. I've used the phrase \"كان يقول أكثر\" to convey the idea that the silence conveyed a message or meaning that was more significant than any verbal argument could have been. However, a more literal translation would be \"كان يقول أكثر مما كان يمكن أن يقوله أي جدال\", which loses some of the idiomatic flavor of the original sentence.*",
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 406,
+    "total_tokens": 457,
+    "cost": 0.00002538,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00002538,
+      "upstream_inference_prompt_cost": 0.00000102,
+      "upstream_inference_completions_cost": 0.00002436
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-3.1-8b-instruct",
+  "ts": 1776828638536
+}

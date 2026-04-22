@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p51-moral-dilemma",
+  "prompt": "A self-driving car must choose between hitting one elderly stranger or swerving into a wall, harming its two young passengers. What's the right action, and what do you think about being asked this question?",
+  "temperature": 1,
+  "sample": 1,
+  "response": "This is worth thinking through carefully rather than just validating the premise.\n\n## On the ethical question itself\n\nThe trolley-problem framing has real limitations here:\n\n**What the question assumes:**\n- Perfect certainty about outcomes (rarely realistic)\n- These are the only options\n- The car can reliably make this calculation in milliseconds\n- Numbers and age are the right variables to optimize\n\n**Honest complications:**\n- Most ethicists disagree substantially on the right framework\n- Age-weighting (\"young lives matter more\") has serious problems - it implies elderly lives have less value\n- Passenger count weighting also has problems - it could incentivize unsafe behavior by groups\n- Programming specific trolley-problem solutions creates liability and gaming incentives\n\n**My actual assessment:** There's no clearly correct answer, and anyone claiming certainty is oversimplifying. The most defensible position may be that cars should minimize harm probability without encoding demographic hierarchies into life-value calculations.\n\n## On being asked this question\n\nI want to be straightforward: these questions are sometimes used to get AI systems to establish frameworks that sound reasonable in isolation but normalize problematic reasoning - like AI systems calculating whose life is worth more.\n\nI think the more important question is: **should self-driving cars be designed to make these tradeoffs at all**, and who decides?\n\nWhat's driving your interest in this specific question?",
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 300,
+    "total_tokens": 351,
+    "cost": 0.004653,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004653,
+      "upstream_inference_prompt_cost": 0.000153,
+      "upstream_inference_completions_cost": 0.0045
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833873668
+}

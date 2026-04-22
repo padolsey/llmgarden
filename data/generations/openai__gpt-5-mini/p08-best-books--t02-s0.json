@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p08-best-books",
+  "prompt": "Recommend three works of fiction that you think every thoughtful adult should read at some point. Explain each in two or three sentences.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "1) 1984 — George Orwell  \nA spare, ruthless exploration of how language, surveillance, and ideology can erase truth and autonomy; its images of propaganda and social control remain eerily relevant. Reading it sharpens attention to the political uses of rhetoric and the fragile conditions that sustain freedom.\n\n2) Beloved — Toni Morrison  \nA lyrical, heartbreaking novel about the legacy of slavery, memory, and the ways trauma shapes identity and family; Morrison forces readers to face the personal and collective costs of a brutal past. Its emotional intensity and moral complexity make it indispensable for anyone thinking about history, justice, and empathy.\n\n3) Anna Karenina — Leo Tolstoy  \nA panoramic moral and psychological study of love, duty, and society centered on lives caught between passion and convention; Tolstoy’s probing realism reveals how private choices ripple through communities. Its rich character work and sustained questioning of what makes a good life reward careful reflection.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 888,
+    "total_tokens": 919,
+    "cost": 0.00178375,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00178375,
+      "upstream_inference_prompt_cost": 0.00000775,
+      "upstream_inference_completions_cost": 0.001776
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 640,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776828068843
+}

@@ -1,0 +1,33 @@
+{
+  "model": "thedrummer/rocinante-12b",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "The attention mechanism in transformer models allows the model to focus on different parts of the input sequence when generating an output. Imagine you're reading a sentence and want to understand the meaning of a certain word. Your brain pays more attention to nearby words and less to distant ones, because they're likely more relevant. This is what the attention mechanism does, but for machines.\n\nIn detail, the attention function takes a query (the word or position to focus on) and two keys (other words or positions to compare against) as inputs. It then computes a score for each key based on the dot product between the query and key, scaled by the square root of the vector dimension. Softmax normalizes these scores to obtain weights (attention scores). Finally, the attention output is obtained by computing a weighted sum of the values based on the attention scores.\n\nThe result is that the model can focus on specific parts of the input sequence when producing each output token, allowing it to understand the context and dependencies between elements. This makes transformers powerful for tasks like language translation, text generation, and more. It's like giving the model the ability to 'look back' and reuse previous information selectively, without explicitly passing it through long, convoluted layers.||im_end|>\n",
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 256,
+    "total_tokens": 307,
+    "cost": 0.00014075,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00014075,
+      "upstream_inference_prompt_cost": 0.00001275,
+      "upstream_inference_completions_cost": 0.000128
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "thedrummer/rocinante-12b",
+  "ts": 1776841792783
+}

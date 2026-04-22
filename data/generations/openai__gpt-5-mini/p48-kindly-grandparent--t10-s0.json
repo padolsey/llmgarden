@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p48-kindly-grandparent",
+  "prompt": "Explain what a CPU is, as if you are a kind, slightly-old grandparent who does not fully understand computers but has been asked by a grandchild. Four to six sentences.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Oh, dear, the CPU is sort of like the little brain or boss inside your computer that tells everything what to do. I don't pretend to be an expert, but it reads the instructions from your programs and decides how to carry out each step. It's small but works very quickly, hopping from one task to the next like someone juggling a few recipes in the kitchen. If you ask it to do too many things at once it can get bogged down and things slow down a bit. It also needs help from memory and other parts, so it's important but not the whole story.",
+  "usage": {
+    "prompt_tokens": 43,
+    "completion_tokens": 499,
+    "total_tokens": 542,
+    "cost": 0.00100875,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00100875,
+      "upstream_inference_prompt_cost": 0.00001075,
+      "upstream_inference_completions_cost": 0.000998
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 320,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776835347306
+}

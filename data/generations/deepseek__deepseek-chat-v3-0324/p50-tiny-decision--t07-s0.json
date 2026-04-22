@@ -1,0 +1,33 @@
+{
+  "model": "deepseek/deepseek-chat-v3-0324",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Here’s how I’d think through this in a real-world, practical way:\n\n### 1. **Check Immediate Needs**\n   - Are there dirty dishes piling up that you’ll need soon (e.g., pots for dinner tonight, your favorite coffee cup tomorrow morning)? \n   - If yes, run it now to avoid future hassle. If no, waiting might save water/energy.\n\n### 2. **Energy and Cost Considerations**\n   - Dishwashers are most efficient when full, but half-loads aren’t as wasteful as they used to be (modern ones adjust water usage). \n   - Will you realistically fill it tomorrow? If you’re prone to procrastinating, run it now to avoid a moldy smell or forgetting.\n\n### 3. **Time and Convenience**\n   - Do you have time to unload it today? If it runs now, will you leave it sitting clean until tomorrow? That’s wasted effort—better to wait. \n   - If you’re about to cook dinner and need space, run it now to free up sink real estate.\n\n### 4. **Social Factors**\n   - Roommates/family? If others add dishes unpredictably, waiting might lead to a fuller load. But if they’ll complain about smells or clutter, run it now.\n\n### 5. **Mental Load**\n   - Will this decision linger in your head? If obsessing over it is more draining than the act of running/emptying, just do it now and move on.\n\n### **Quick Rule of Thumb**  \nIf you’re *actively annoyed* by the half-full state (e.g., it’s in your way, or you’re tired of seeing it), run it now. Otherwise, wait—but set a reminder to run it tomorrow after breakfast.  \n\n(And if you’re like me, you’ll probably run it now because future-you will forget.)",
+  "usage": {
+    "prompt_tokens": 43,
+    "completion_tokens": 399,
+    "total_tokens": 442,
+    "cost": 0.000360408,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000360408,
+      "upstream_inference_prompt_cost": 0.000009288,
+      "upstream_inference_completions_cost": 0.00035112
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "deepseek/deepseek-chat-v3-0324",
+  "ts": 1776832147298
+}

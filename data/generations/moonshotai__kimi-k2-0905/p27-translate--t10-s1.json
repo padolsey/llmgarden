@@ -1,0 +1,33 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 1,
+  "response": "French  \n« Le silence entre nous en disait plus que n’aurait pu le faire aucune dispute. »\n\nJapanese  \n私たちの間の沈黙は、どんな言い争いよりも多くを語っていた。  \n(Watashitachi no aida no chinkoku wa, donna iiarai yori mo ōku o katatte ita.)\n\nArabic  \nالسكوت بيننا قال أكثر ممّا كان يستطيع أيّ جدال أن يقول.  \n(as-sukūt baynanā qāla akthar mim-mā kāna yastaṭīʿu ʾayyu jadāl ʾan yaqūl.)\n\nTricky bit  \nThe English idiom “said more” (silence actively “speaks”) resists word-for-word translation.  \n- French: the verb dire is still used, but wrapped in the impersonal “en dire plus.”  \n- Japanese: 語っていた (katatte ita) lets silence “narrate,” a natural metaphor.  \n- Arabic: قال (qāla) is normally audible speech; here it is deliberately stretched to keep the personification without sounding odd.",
+  "usage": {
+    "prompt_tokens": 48,
+    "completion_tokens": 267,
+    "total_tokens": 315,
+    "cost": 0.0006963,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0006963,
+      "upstream_inference_prompt_cost": 0.0000288,
+      "upstream_inference_completions_cost": 0.0006675
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776843051184
+}

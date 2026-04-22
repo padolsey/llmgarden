@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-235b-a22b-2507",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Okay, let’s think this through like a real person deciding what to do right now.\n\nFirst, I’d look at the dishwasher. Half-full. That means half the dishes are clean and put away, half are dirty and waiting. The dirty ones are probably from dinner tonight—maybe a couple plates, glasses, a pot, a fork stuck to the counter. Not a ton, but not nothing.\n\nNow, the question: run it now, or wait?\n\nIf I run it now, I use water, electricity, and detergent. That’s some cost—maybe 20–30 cents, depending. But the benefit? The dishwasher is empty tomorrow morning. I start fresh. No stacking dishes on the counter overnight. No risk of someone trying to use a dirty plate because they can’t find a clean one. No mildew smell if something wet sits too long. And I won’t have to think about it tomorrow—I can just load new dishes as they come.\n\nBut if I wait until tomorrow, it’ll be full. That’s more efficient—same energy and water, but twice as much cleaning. So it’s better for the planet, cheaper per dish. Plus, I might save that 30 cents tonight.\n\nBut… waiting means I have to deal with the mess. Where do tonight’s dishes go? On the counter? In the sink? That’s annoying. What if I forget to run it tomorrow? Then I wake up to a full sink and a full dishwasher, and now I’m behind. Or worse—I run it tomorrow but it’s already full, so anything from breakfast has to wait again. That’s two cycles in two days. That’s *less* efficient.\n\nAlso, what’s the actual inconvenience? Running it now takes zero effort—just press start. It’ll run while I sleep. I don’t have to be there. So the cost is just the utility, not my time.\n\nBut maybe the dishwasher is loud? Does it wake someone up? If so, maybe I wait. But most modern ones are quiet. And if it finishes by morning, the clean dishes are dry and ready.\n\nIs there food stuck on anything? If yes, better to run it soon so it doesn’t harden. Otherwise, I’ll have to scrape or rinse later anyway.\n\nSo really, the real trade-off isn’t just cost or efficiency. It’s: *Do I want to wake up to a clean, empty dishwasher, or a growing pile of dishes and one more thing to manage tomorrow?*\n\nFor me, most nights, I’d run it now. Not because it’s perfectly efficient, but because it keeps the rhythm of the kitchen smooth. It’s a tiny bit of effort today to avoid friction tomorrow. It’s like brushing your teeth at night—not strictly urgent, but it makes the next day easier.\n\nBut if I *know* tomorrow’s breakfast will fill it right up, and I can stash the current dishes without hassle,",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 600,
+    "total_tokens": 647,
+    "cost": 0.00035223,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00035223,
+      "upstream_inference_prompt_cost": 0.00000423,
+      "upstream_inference_completions_cost": 0.000348
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-235b-a22b-07-25",
+  "ts": 1776832230671
+}

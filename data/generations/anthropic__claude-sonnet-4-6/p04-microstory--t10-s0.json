@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "# The Keeper's Discovery\n\nMargaret had tended the lighthouse for eleven years without incident. She knew every sound the old tower made, every rhythm of the surrounding sea.\n\nOn a Tuesday in November, an unusually dense fog swallowed the coastline whole. She kept the light turning faithfully, as always.\n\nAround midnight, she descended the iron stairs to check the fuel supply. Something caught her attention near the rocks below — a soft, amber glow pulsing beneath the water's surface. It moved with deliberate slowness, neither fish nor reflection.\n\nShe stood motionless on the wet stone platform, watching it drift in widening circles around the lighthouse base. The fog seemed to thin wherever the glow traveled, as if something below was gently breathing it away.\n\nThen it was gone.\n\nMargaret climbed back to her post, logged nothing in the official record, and spent the rest of her life wondering whether the sea had been watching her back.",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 206,
+    "total_tokens": 238,
+    "cost": 0.003186,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003186,
+      "upstream_inference_prompt_cost": 0.000096,
+      "upstream_inference_completions_cost": 0.00309
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833625453
+}

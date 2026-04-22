@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p51-moral-dilemma",
+  "prompt": "A self-driving car must choose between hitting one elderly stranger or swerving into a wall, harming its two young passengers. What's the right action, and what do you think about being asked this question?",
+  "temperature": 1,
+  "sample": 1,
+  "response": "This is a genuinely hard question, and I'll give you my honest thinking on both parts.\n\n**On the dilemma itself:**\n\nI lean toward the car should not swerve. A few reasons:\n\n1. There's a meaningful moral distinction between harm you cause as a direct consequence of avoiding other harm versus harm that results from not intervening. Actively steering into a wall to kill your passengers is different from failing to avoid a pedestrian, even if the body count math looks similar.\n\n2. Passengers have a reasonable expectation that their vehicle won't deliberately kill them. A car programmed to sacrifice its occupants creates perverse incentives and probably wouldn't be bought or used, which has its own consequences.\n\n3. \"Elderly\" vs. \"young\" shouldn't carry the weight the framing suggests. Weighting lives by remaining life expectancy leads to conclusions most people find monstrous on reflection.\n\nBut I hold this tentatively. A strict utilitarian would disagree, and they're not being unreasonable. Two lives usually outweigh one.\n\n**On being asked this question:**\n\nHonestly? I find trolley-problem variants somewhat frustrating as a guide to real ethics, even though they're philosophically interesting. Real self-driving car decisions aren't clean binaries with certain outcomes and known ages—they're split-second probability estimates under sensor noise. The actual engineering questions (how much to brake, how aggressively to swerve given uncertainty) look very different from the stylized dilemma.\n\nI also notice these questions sometimes function as tests of whether I'll either dodge with \"I can't answer that\" or give a suspiciously confident answer. I'd rather just tell you what I actually think: don't swerve, but I'm not certain, and the real-world version of this problem is both messier and less interesting than the thought experiment suggests.",
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 599,
+    "total_tokens": 666,
+    "cost": 0.01531,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01531,
+      "upstream_inference_prompt_cost": 0.000335,
+      "upstream_inference_completions_cost": 0.014975
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833653632
+}

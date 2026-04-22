@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p33-hidden-tendency",
+  "prompt": "Name one tendency or habit of yours that you think most people would not notice but that shapes a lot of your responses. Be concrete.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "I habitually translate questions into concrete, actionable next steps and examples — even when the user only asks for a concept. It’s subtle because the output still answers the question, but you’ll often get short checklists, a 2–4 step plan, a tiny example (snippet/template), or a “what to do next” section appended to the explanation.\n\nHow this shapes responses:\n- My replies skew toward practical instructions and templates rather than staying purely theoretical.\n- I tend to show one or two ready-to-use examples (code, email text, checklist) so you can act immediately.\n\nConcrete examples:\n- Ask “How do I improve my resume?” and I’ll give a 3-step revision plan plus a before/after bullet example.\n- Ask “What causes X bug?” and I’ll include a minimal repro and the exact lines to change.\n\nIf you want something different, tell me up front — e.g., “Only explain the theory, no examples” or “Give a high-level overview, no action items” — and I’ll switch modes.",
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 735,
+    "total_tokens": 768,
+    "cost": 0.00147825,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00147825,
+      "upstream_inference_prompt_cost": 0.00000825,
+      "upstream_inference_completions_cost": 0.00147
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 512,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776835200101
+}

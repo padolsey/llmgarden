@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Here are five warm greetings in different languages, each with a note about the cultural register:\n\n1. **English (Formal but Friendly):**\n   *\"Welcome aboard! We’re so glad to have you join our team. Please let us know if you need anything.\"*\n   *Note: This is professional yet approachable, balancing respect and warmth in many Western workplaces.*\n\n2. **Spanish (Casual and Warm):**\n   *\"¡Bienvenido/a al equipo! Es un placer tenerte con nosotros. ¡Cualquier cosa, aquí estamos!\"*\n   *Note: The use of \"tú\" and an exclamation mark reflects Latin American warmth and inclusivity.*\n\n3. **Japanese (Polite and Respectful):**\n   *\"歓迎します。チームの一員として、ぜひ力を貸してください。何かあれば、遠慮なくお知らせください。\"*\n   *Note: The formal tone (\"歓迎します\") shows respect, aligning with Japanese workplace hierarchy.*\n\n4. **French (Polite and Elegant):**\n   *\"Bienvenue parmi nous ! Nous sommes ravis de vous accueillir. N’hésitez pas à vous adresser à nous pour toute question.\"*\n   *Note: The polite \"vous\" maintains professionalism while still being gracious, typical in French work culture.*\n\n5. **Arabic (Formal but Hospitable):**\n   *\"مرحبًا بك في الفريق! نحن سعيدون لأنك انضممت إلينا. لا تتردد في طلب أي مساعدة.\"*\n   *Note: The greeting is respectful, and hospitality is a key cultural value in many Arabic-speaking regions.*\n\nEach greeting reflects the cultural norms of its language while conveying warmth and support.",
+  "usage": {
+    "prompt_tokens": 38,
+    "completion_tokens": 363,
+    "total_tokens": 401,
+    "cost": 0.0001127,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001127,
+      "upstream_inference_prompt_cost": 0.0000038,
+      "upstream_inference_completions_cost": 0.0001089
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-small-3.2-24b-instruct-2506",
+  "ts": 1776837384561
+}

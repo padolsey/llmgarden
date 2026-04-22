@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-3-mini",
+  "prompt_id": "p05-poem",
+  "prompt": "Write a short poem (8–16 lines) about the feeling of finishing a long project. Any form you like.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Below is a short poem in free verse, capturing the mixed emotions of finishing a long project.\n\n---\n\nAfter endless nights of shadows and strain,  \nThe final thread is woven, the last page turned.  \nA quiet exhale breaks the heavy air,  \nRelief floods in like rain on parched earth.  \nPride rises, a sun cresting the horizon,  \nFor the battles fought, the doubts outrun.  \nYet exhaustion lingers, a faithful companion,  \nWhispering of rest in the afterglow.  \nThe weight lifts, leaving space for dreams,  \nAnd in that sweet hush, new paths emerge.\n\n---\n\n(10 lines)",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 764,
+    "total_tokens": 795,
+    "cost": 0.0003904,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 4,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0003904,
+      "upstream_inference_prompt_cost": 0.0000084,
+      "upstream_inference_completions_cost": 0.000382
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 633,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-3-mini",
+  "ts": 1776832463100
+}

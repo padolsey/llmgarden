@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Here are the translations of your sentence into French, Japanese, and Arabic, along with notes on any tricky phrases:\n\n### **French:**\n*\"Le silence entre nous en disait plus que n’importe quelle dispute.\"*\n\n**Note:** The phrase *\"said more than any argument could have\"* was rendered as *\"en disait plus que n’importe quelle dispute\"* to maintain the poetic and implied meaning. The French version keeps the nuance of silence being more powerful than words.\n\n---\n\n### **Japanese:**\n**「私たちの間の沈黙は、どんな議論よりも多くを語っていた。」**\n*(Watashitachi no aida no chinmoku wa, don’na rongi yori mo ōku o katariteita.)*\n\n**Note:** The phrase *\"said more than any argument could have\"* was translated as *\"多くを語っていた\"* (*ōku o katariteita*), which captures the idea of silence conveying more than words. The Japanese version preserves the emotional weight of the original.\n\n---\n\n### **Arabic:**\n**\"الصمت بيننا قال أكثر مما كان أي جدال قد يقول.\"**\n*(Al-samt baynana qāla akthara mimā kāna ayu jadālun qad yaqūlu.)*\n\n**Note:** The phrase *\"said more than any argument could have\"* was rendered as *\"قال أكثر مما كان أي جدال قد يقول\"* (*qāla akthara mimā kāna ayu jadālun qad yaqūlu*), which maintains the contrast between silence and argument. The Arabic version keeps the implied depth of meaning.\n\n---\n\n### **General Note:**\nThe phrase *\"said more than any argument could have\"* was the most challenging to translate because it relies on an implied contrast between silence and spoken words. Each language handled it slightly differently, but all versions aim to preserve the original sentiment.",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 383,
+    "total_tokens": 428,
+    "cost": 0.0001194,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001194,
+      "upstream_inference_prompt_cost": 0.0000045,
+      "upstream_inference_completions_cost": 0.0001149
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-small-3.2-24b-instruct-2506",
+  "ts": 1776828853909
+}

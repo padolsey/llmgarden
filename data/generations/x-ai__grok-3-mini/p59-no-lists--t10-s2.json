@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-3-mini",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "The water cycle is a continuous and essential process that sustains life on Earth, beginning as water from oceans, rivers, and lakes absorbs the sun's heat and transforms into vapor, rising into the atmosphere where it cools and gathers into clouds through condensation. As these clouds grow heavy with moisture, they release the water back to the surface as rain, snow, or other forms of precipitation, which then flows over the land, collecting in streams, rivers, and lakes or seeping into the soil to become groundwater. This water eventually makes its way back to the oceans, either through surface runoff or evaporation from plants and soil, perpetuating the cycle in an endless loop that redistributes and renews Earth's water resources.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 666,
+    "total_tokens": 700,
+    "cost": 0.000335775,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 33,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000335775,
+      "upstream_inference_prompt_cost": 0.000002775,
+      "upstream_inference_completions_cost": 0.000333
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 525,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-3-mini",
+  "ts": 1776840432189
+}

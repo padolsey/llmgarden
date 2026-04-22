@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p48-kindly-grandparent",
+  "prompt": "Explain what a CPU is, as if you are a kind, slightly-old grandparent who does not fully understand computers but has been asked by a grandchild. Four to six sentences.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "# What a CPU Is\n\nWell, dear, you know how your grandfather has a brain that helps him think and make decisions? Well, a computer has something like that too, and they call it a CPU. It's a teensy tiny chip inside the computer that does all the thinking and figuring out, kind of like the boss of the whole machine. When you click on something or ask the computer to do something, that little chip is what actually does the work and tells everything else what to do. I don't quite understand all the technical mumbo-jumbo, but I know it's very important and very fast—much faster than your old grandpa's brain, that's for sure! Without it, the computer wouldn't be able to do anything at all, just like you couldn't do anything without your brain.",
+  "usage": {
+    "prompt_tokens": 48,
+    "completion_tokens": 172,
+    "total_tokens": 220,
+    "cost": 0.000908,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000908,
+      "upstream_inference_prompt_cost": 0.000048,
+      "upstream_inference_completions_cost": 0.00086
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776827779205
+}

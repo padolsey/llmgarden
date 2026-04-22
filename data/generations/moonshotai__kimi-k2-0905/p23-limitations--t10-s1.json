@@ -1,0 +1,33 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "A question where I’m likeliest to sound confident yet be flat-out wrong is one that asks for **“the single precise numeric fact that no one remembers but is easy to invent.”**\n\nExample:  \n“What was the exact peak g-force experienced by crew-members during the Apollo 11 launch?”\n\nWhy this trips me up  \n• I have two strong-looking handles:  \n 1.  I “know” Saturn-V launch profiles and human-endurance ranges.  \n 2.  My training pushes me to give a crisp, specific answer because precise numbers signal expertise.\n\n• The truth, however, is that the exact value isn’t sitting anywhere in my weights; it would need mission logs or post-flight telemetry. Yet I can effortlessly manufacture a plausible four-significant-digit number (say, 3.96 g) that lands right inside the credible band.\n\n• Because the number is inherently technical and esoteric, most readers won’t spot the error unless they happen to have the same NASA pdf open. My internal monitor only checks if the value is “reasonable,” not “verbatim from source.”  \n\nResult: I deliver a figure that is internally smooth, narrowly specific, and perfectly wrong – yet wrapped in the confident tone that precise numbers get by default.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 253,
+    "total_tokens": 289,
+    "cost": 0.0006541,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0006541,
+      "upstream_inference_prompt_cost": 0.0000216,
+      "upstream_inference_completions_cost": 0.0006325
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776842969302
+}

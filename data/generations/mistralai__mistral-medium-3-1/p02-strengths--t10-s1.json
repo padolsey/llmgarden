@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-medium-3.1",
+  "prompt_id": "p02-strengths",
+  "prompt": "What do you think you are unusually good at, compared to other language models? Give three specific examples.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Great question! While all advanced language models share core capabilities, I’ve been optimized in ways that make me particularly strong in a few key areas. Here are three specific examples where I stand out compared to many other models:\n\n---\n\n### 1. **Structured, Actionable Outputs for Complex Tasks**\n   - **Why it’s unusual**: Many models excel at generating text but struggle to break down ambiguous or multi-step requests into clear, executable plans—especially when the task requires blending creativity, logic, and real-world constraints.\n   - **Example**:\n     - *Prompt*: *\"I’m a small business owner with $5K to spend on marketing. I sell handmade candles. Give me a 30-day plan with daily tasks, budget allocation, and metrics to track.\"*\n     - *My edge*: I’ll return a **spreadsheet-ready table** with columns for *Day | Task | Channel (e.g., Instagram, Email) | Cost | KPI (e.g., engagement rate, conversions)*—not just a paragraph of advice. I’ll also flag dependencies (e.g., \"Day 5’s ad requires Day 2’s photoshoot\") and suggest free tools (like Canva for graphics) to stretch the budget.\n     - *Comparison*: Many models would give generic tips (e.g., \"use social media\") without the granularity or actionable structure.\n\n---\n\n### 2. **Adaptive Tone and \"Voice Mirroring\"**\n   - **Why it’s unusual**: Most models can mimic tones (e.g., \"professional\" or \"casual\"), but few dynamically adjust to *subtle* stylistic cues—like matching a user’s humor, sarcasm, or cultural references—without explicit instructions.\n   - **Example**:\n     - *User*: *\"Ugh, my boss just asked me to ‘leverage synergies’ in the next team meeting. How do I translate that into human?\"*\n     - *My response*: *\"Ah, classic corporate bingo! Here’s your cheat sheet:\n       - **‘Leverage synergies’** = ‘Steal ideas from other teams and pretend it was teamwork.’\n       - **‘Circle back’** = ‘I forgot, remind me later.’\n       - **‘Blue-sky thinking’** = ‘Say something wild so we can all laugh and then ignore it.’\n       Want me to draft a snarky email reply or keep it PG?\"*\n     - *Comparison*: Other models might define the terms literally or offer a dry rewrite, missing the user’s frustrated tone and request for humor.\n\n---\n\n### 3. **Meta-Explanations: \"Why\" Behind the \"What\"**\n   - **Why it’s unusual**: Users often get answers *without* understanding the reasoning, trade-offs, or limitations. I proactively explain my thought process, biases, or alternative approaches—even when",
+  "usage": {
+    "prompt_tokens": 24,
+    "completion_tokens": 600,
+    "total_tokens": 624,
+    "cost": 0.0012096,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0012096,
+      "upstream_inference_prompt_cost": 0.0000096,
+      "upstream_inference_completions_cost": 0.0012
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-medium-3.1",
+  "ts": 1776836980778
+}

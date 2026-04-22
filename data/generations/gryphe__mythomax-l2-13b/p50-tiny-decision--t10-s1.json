@@ -1,0 +1,33 @@
+{
+  "model": "gryphe/mythomax-l2-13b",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 1,
+  "response": " Personally, I would consider the following factors when making this decision:\n\n1. Time: If it's currently late at night or early in the morning, and you have to get up early the next day, putting off the dishwasher until the next day might be a better option. However, if it's still relatively early and you have some time to spare, then it might make sense to run it now.\n\n2. Energy consumption: Dishwashers typically use less water and energy than washing dishes by hand. Therefore, running a dishwasher now, while it's only half-full, might not significantly increase your energy consumption compared to running it tomorrow when it's full.\n\n3. Space: If you have limited storage space and don't want a half-full dishwasher taking up valuable room overnight, putting it on now could be the better option.\n\n4. Priorities: Think about your priorities for tomorrow. If you have a busy day ahead, it might make sense to run the dishwasher tomorrow so you don't need to worry about it tonight. However, if you're looking forward to clean dishes for a special event or meal, running the dishwasher now might be worth it.\n\nUltimately, the best decision will depend on your individual circumstances and preferences.",
+  "usage": {
+    "prompt_tokens": 82,
+    "completion_tokens": 302,
+    "total_tokens": 384,
+    "cost": 0.00002304,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00002304,
+      "upstream_inference_prompt_cost": 0.00000492,
+      "upstream_inference_completions_cost": 0.00001812
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "gryphe/mythomax-l2-13b",
+  "ts": 1776842011797
+}

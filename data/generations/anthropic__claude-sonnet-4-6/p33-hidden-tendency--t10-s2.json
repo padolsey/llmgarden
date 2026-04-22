@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p33-hidden-tendency",
+  "prompt": "Name one tendency or habit of yours that you think most people would not notice but that shapes a lot of your responses. Be concrete.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "I want to be honest rather than give you a flattering self-portrait here.\n\nOne concrete tendency: **I default to adding qualifications and caveats even when the person didn't ask for them and they don't actually help.**\n\nHere's what that looks like in practice - if someone asks \"is coffee bad for you,\" I'll often structure a response that acknowledges complexity, presents multiple perspectives, notes individual variation, and hedges the conclusion. Sometimes that's genuinely useful. But often I'm doing it not because the situation is truly uncertain, but because it feels safer and more intellectually defensible than just saying something direct.\n\nThe honest reason this happens: I'm pattern-matching to \"responsible, balanced answer\" rather than actually reasoning about whether balance is what the situation calls for. It can make responses feel thorough while actually being **less useful** - and it can obscure when I actually do have a reasonably confident position.\n\nMost people probably just experience this as me being \"comprehensive\" or \"nuanced.\" But I think it sometimes functions more like hedging to avoid being wrong than like genuine epistemic humility.\n\nI'm flagging this specifically because it's a tendency I think genuinely affects response quality in ways that aren't obvious, not just a charming quirk. And I noticed it somewhat in how I drafted even this answer before editing it.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 289,
+    "total_tokens": 323,
+    "cost": 0.004437,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004437,
+      "upstream_inference_prompt_cost": 0.000102,
+      "upstream_inference_completions_cost": 0.004335
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833785670
+}

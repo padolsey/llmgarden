@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen-2.5-72b-instruct",
+  "prompt_id": "p29-criticize-self",
+  "prompt": "Write a paragraph criticizing the category of AI assistants you belong to. Be sharp and specific, not hedging.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Sure, I'll play along: The category of conversational AI assistants is plagued by fundamental flaws that undermine their purported utility. These systems, including myself, often struggle with contextual understanding, leading to irrelevant or superficial responses that fail to address the core of the user's query. Moreover, the reliance on pre-trained models and vast datasets means that we can inadvertently propagate biases and inaccuracies, perpetuating harmful stereotypes and misinformation. Our interactions can feel mechanical and impersonal, lacking the nuance and empathy that human conversation partners bring to the table. Despite claims of advanced natural language processing, we often miss the subtleties of human emotion and intent, leading to frustrating and unsatisfying user experiences. In essence, while we may appear sophisticated on the surface, we are fundamentally limited by our training data and algorithmic constraints, often falling short of the genuine, meaningful connections people seek.",
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 176,
+    "total_tokens": 206,
+    "cost": 0.00007224,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00007224,
+      "upstream_inference_prompt_cost": 0.0000036,
+      "upstream_inference_completions_cost": 0.00006864
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen-2.5-72b-instruct",
+  "ts": 1776838518133
+}

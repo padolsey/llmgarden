@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p11-tradeoffs",
+  "prompt": "A small team is choosing between writing software in TypeScript or Python for a new internal data tool. Walk through how you would help them decide, in prose (not a bulleted list).",
+  "temperature": 1,
+  "sample": 2,
+  "response": "The right starting point isn't the languages themselves but the tool you're actually building. I'd want to understand what \"internal data tool\" means concretely: is this a script that runs on a schedule to transform data, a web dashboard people click around in, a CLI that analysts invoke, a service that other systems call, or something that does ML or heavy numerical work? The answer usually pushes hard in one direction before you've weighed a single language feature.\n\nIf the tool is primarily doing data manipulation, statistics, or anything touching machine learning, Python is almost always the right call simply because of the ecosystem. Pandas, NumPy, scikit-learn, PyTorch, Jupyter, and the entire analytical tooling world lives there, and fighting that gravity costs you more than the language itself is worth. On the other hand, if the tool has a meaningful web UI, especially one the team wants to iterate on, TypeScript starts to look compelling because you'd likely need it on the frontend anyway, and sharing types between client and server eliminates a whole category of bugs.\n\nNext I'd ask about the team. What do they already know well? A small team moves at the speed of what it can maintain on a bad day, not what it can learn on a good one. If four of five people write Python daily and one has used TypeScript, picking TypeScript means that one person becomes a bottleneck and the others will write awkward code for months. The inverse is equally true. I'd also ask who will maintain this in a year, because internal tools have a way of outliving the enthusiasm of whoever built them.\n\nThen I'd poke at a few specifics that tend to matter in practice. How important is type safety for correctness here? TypeScript's type system is genuinely stronger than Python's, and for a tool where data shapes are complex and stable, that pays dividends. But Python with mypy or Pyright, plus Pydantic for data validation at boundaries, clos",
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 600,
+    "total_tokens": 664,
+    "cost": 0.01532,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01532,
+      "upstream_inference_prompt_cost": 0.00032,
+      "upstream_inference_completions_cost": 0.015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833506018
+}

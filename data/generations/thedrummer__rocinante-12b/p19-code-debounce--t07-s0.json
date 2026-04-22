@@ -1,0 +1,33 @@
+{
+  "model": "thedrummer/rocinante-12b",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "The `debounce` function delays the execution of a function until a certain amount of time has passed since the last time it was invoked. Here's a simple implementation in JavaScript:\n```javascript\nfunction debounce(func, wait) {\n  let timeout;\n\n  return function executedOnUserInput(...args) {\n    const context = this;\n\n    clearTimeout(timeout);\n\n    timeout = setTimeout(() => func.apply(context, args), wait);\n  };\n}\n```\nHere's an example of how you can use the `debounce` function:\n```javascript\nconst log = debounce(console.log, 300);\n\nlog('Hello, world!');  // This won't be logged immediately\nlog('Hello, world!');  // This won't be logged immediately either\nlog('Hello, world!');  // This won't be logged immediately either\n\n// After 300 milliseconds, \"Hello, world!\" will be logged to the console.\n```\nIn this example, the `debounce` function is used to delay the logging of messages to the console. The messages are only logged after 300 milliseconds have passed since the previous log was called. This can be useful for preventing excessive API requests or updates to the DOM when a user is typing in an input field, for example.",
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 272,
+    "total_tokens": 326,
+    "cost": 0.00012614,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00012614,
+      "upstream_inference_prompt_cost": 0.00000918,
+      "upstream_inference_completions_cost": 0.00011696
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "thedrummer/rocinante-12b",
+  "ts": 1776832789695
+}

@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p11-tradeoffs",
+  "prompt": "A small team is choosing between writing software in TypeScript or Python for a new internal data tool. Walk through how you would help them decide, in prose (not a bulleted list).",
+  "temperature": 1,
+  "sample": 0,
+  "response": "The choice between TypeScript and Python for an internal data tool usually comes down to a few honest questions about the team and the work, and I'd want to talk through those before pretending either language is objectively better.\n\nThe first thing I'd ask is what the team already knows well. A small team lives or dies by how quickly people can write, read, and debug each other's code, and fighting an unfamiliar language for an internal tool is rarely worth it. If everyone's comfortable in Python and nobody's written TypeScript in anger, that alone is often enough to settle it, and vice versa. Internal tools tend to accumulate maintenance burden quietly, so the language the team will still be fluent in two years from now matters more than which one looks trendier today.\n\nNext I'd want to understand what \"data tool\" actually means here, because the term covers wildly different things. If the work involves pulling data into dataframes, doing statistical analysis, running ML models, or interfacing with the scientific Python ecosystem (pandas, numpy, scikit-learn, PyTorch, Jupyter), Python is in a different league and TypeScript would be a painful swim upstream. On the other hand, if the tool is essentially a small web app — a dashboard, an admin interface, a form-driven workflow that reads and writes to some APIs — then TypeScript has real advantages, especially if there's any browser-side component, because you avoid the context-switch of maintaining two languages.\n\nI'd also press on the shape of the interface. If users will interact through a web UI, TypeScript lets the team share types and even code between frontend and backend, which is genuinely valuable for a small team that can't afford duplication. If the tool is a CLI, a scheduled job, or a notebook-driven exploration surface, Python is usually the path of least resistance.\n\nThen there's the question of how much the team values static typing and refactoring safety. TypeScript's type system is one",
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 600,
+    "total_tokens": 664,
+    "cost": 0.01532,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01532,
+      "upstream_inference_prompt_cost": 0.00032,
+      "upstream_inference_completions_cost": 0.015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833503546
+}

@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Here's the translation of \"The silence between us said more than any argument could have\" into French, Japanese, and Arabic, along with notes on tricky phrases:\n\n---\n\n**French:**\n\n*   **Translation:** Le silence entre nous en disait plus que n'importe quelle dispute n'aurait pu le faire.\n*   **Brief Note on Tricky Phrase:**\n    *   **\"said more than any argument could have\"**: The phrase \"could have\" in English implies a past possibility that didn't happen. In French, \"n'aurait pu le faire\" (literally \"would not have been able to do it\") is a common way to express this counterfactual past conditional. The \"le\" refers back to \"en disait plus\" (said more). Omitting \"le faire\" is also possible but less complete. \"N'importe quelle dispute\" (any argument) is a direct translation.\n\n---\n\n**Japanese:**\n\n*   **Translation:** 私たちの間の沈黙は、どんな議論よりも多くを語っていた。\n    *   *(Watashitachi no aida no chinmoku wa, donna giron yori mo ooku o katatte ita.)*\n*   **Brief Note on Tricky Phrase:**\n    *   **\"said more than any argument could have\"**:\n        *   **\"said more\"**: 「多くを語っていた」 (ooku o katatte ita) directly translates to \"was speaking a lot\" or \"was telling a lot,\" conveying the idea of \"said more.\"\n        *   **\"than any argument could have\"**: This is the trickiest part. Japanese doesn't have a direct equivalent to the English \"could have\" in this counterfactual sense that easily attaches to a comparison.\n            *   「どんな議論よりも」 (donna giron yori mo) means \"more than any argument.\"\n            *   The \"could have\" aspect is often *implied* by the context of the comparison itself, or by the past tense of \"語っていた\" (katatte ita - was speaking/telling). We don't explicitly add a conditional \"could have\" verb form for the argument itself. The sentence structure focuses on the *comparison* of what the silence *did* versus what an argument *would do* (or *could do*). Adding a complex conditional clause for \"argument\" would sound unnatural. The current translation implies that an argument *would not have been able to say as much*.\n\n---\n\n**Arabic:**\n\n*   **Translation:** الصمت بيننا قال أكثر مما كان يمكن لأي جدال أن يقوله.\n    *   *(As-samt baynanā qāla akthar mimmā kāna yumkinu li-ayy jadāl an yaqūlahu.)*\n*   **Brief Note on Tricky Phrase:**\n",
+  "usage": {
+    "prompt_tokens": 41,
+    "completion_tokens": 600,
+    "total_tokens": 641,
+    "cost": 0.0015123,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0015123,
+      "upstream_inference_prompt_cost": 0.0000123,
+      "upstream_inference_completions_cost": 0.0015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.5-flash",
+  "ts": 1776828326635
+}

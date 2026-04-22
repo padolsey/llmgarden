@@ -1,0 +1,33 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 0,
+  "response": "French  \n« Le silence entre nous en disait plus que n’importe quelle dispute. »  \nNote: “said more than any argument” becomes “en disait plus que n’importe quelle dispute”; the verb “en dire” keeps the idea of “speaking/communicating,” while “dispute” is the closest natural equivalent for “argument” in the sense of a verbal fight.\n\nJapanese  \n私たちの間の沈黙が、どんな口論よりも多くを語っていた。  \nNote: 口論 (kōron) is a common noun for “verbal argument,” but the real work is done by 多くを語っていた (ōku o katatte ita), literally “was saying much,” to convey that the silence communicated more than any words.\n\nArabic  \nالسكوت بين قولَيْنا أكثرُ تعبيرًا من أيةِ جدال.  \nNote: السكوت بين قولَيْنا literally means “the silence between our two sayings,” a compact way to express “between us.” جدال is the standard word for “argument/disputation,” but the tricky part was keeping the comparative “more expressive than any argument” within Arabic’s compact phrasing without sounding stilted.",
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 275,
+    "total_tokens": 342,
+    "cost": 0.000892,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000892,
+      "upstream_inference_prompt_cost": 0.000067,
+      "upstream_inference_completions_cost": 0.000825
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776843027395
+}

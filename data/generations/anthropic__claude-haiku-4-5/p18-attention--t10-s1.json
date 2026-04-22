@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "# Attention Mechanism Explained\n\nThink of attention like a search engine for context.\n\n## The Problem\nWhen processing text, transformers need to understand how words relate to each other. A simple left-to-right scan misses long-range connections. \"The bank executive walked into the river bank\" — which \"bank\" matters depends on understanding both words simultaneously.\n\n## The Solution\nAttention lets each word \"look at\" every other word in a sentence and decide what's relevant:\n\n1. **Query**: \"I'm processing this word, what should I pay attention to?\"\n2. **Key**: Every other word says \"here's what I am\"\n3. **Value**: Every other word says \"here's my information\"\n\nThe model computes similarity scores between the query and all keys, creating weights. High weights = \"pay attention to this word.\" Low weights = \"ignore this.\"\n\n## The Math (Simplified)\n```\nOutput = weighted_sum(all_values, weights)\n```\n\nWhere weights come from: how similar is the current word to each other word?\n\n## Why It Works\n- All words are processed in parallel (fast!)\n- Long-distance relationships are captured directly\n- The model learns what patterns matter for the task\n\nThis is fundamentally why transformers work so well for language.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 285,
+    "total_tokens": 319,
+    "cost": 0.001459,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001459,
+      "upstream_inference_prompt_cost": 0.000034,
+      "upstream_inference_completions_cost": 0.001425
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833851644
+}

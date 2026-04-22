@@ -1,0 +1,33 @@
+{
+  "model": "deepseek/deepseek-chat-v3-0324",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "In a transformer model, the *attention mechanism* acts like a smart highlighting tool that helps the model focus on the most relevant parts of input data when making predictions. Imagine you're reading a sentence—your brain naturally pays more attention to key words for understanding. Transformers do the same computationally.\n\nHere's how it works in simple terms:\n\n1. **Input Representation**: Words (or tokens) are converted into numerical vectors called embeddings, capturing their meaning.  \n\n2. **Query, Key, Value**: Each word generates three vectors:  \n   - **Query**: Represents what the word is \"looking for.\"  \n   - **Key**: Represents what the word \"contains.\"  \n   - **Value**: Holds the actual content to be weighted.  \n\n3. **Attention Scores**: For each word, the model calculates how much it should \"pay attention\" to other words by comparing its query to their keys (using dot products). High scores mean stronger relevance.\n\n4. **Weighted Sum**: The scores normalize to probabilities (using softmax), then multiply the values of the words. This creates a new contextual vector blending the most important information from all words.\n\n**Why it matters**: Instead of processing words sequentially (like older models), transformers weigh all words simultaneously, capturing long-range dependencies efficiently. This enables parallelization and better performance in tasks like translation or text generation.  \n\nThink of it like a team meeting where everyone speaks at once, but you dynamically tune into the most relevant voices.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 303,
+    "total_tokens": 332,
+    "cost": 0.000272904,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000272904,
+      "upstream_inference_prompt_cost": 0.000006264,
+      "upstream_inference_completions_cost": 0.00026664
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "deepseek/deepseek-chat-v3-0324",
+  "ts": 1776837758867
+}

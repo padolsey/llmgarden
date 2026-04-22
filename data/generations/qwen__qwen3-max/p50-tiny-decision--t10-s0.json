@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Alright, let’s think this through like I’m standing in my kitchen right now, towel over one shoulder, staring at the dishwasher button.\n\nFirst, I’d glance at how many dirty dishes are actually in there. Half-full—is that just plates and glasses, or a bunch of greasy pans, stuck-on food, and coffee mugs that’ll dry onto themselves overnight? If there’s stuff that’ll harden or stink by morning, that leans me toward running it now—even if it’s not full. No one wants to scrape crusty oatmeal off a bowl at 7 a.m.\n\nThen I’d check the time. Is it 9 p.m.? If I run it now, will the noise bother me while I’m trying to watch a show or fall asleep? Some dishwashers are quiet, but mine sounds like a spaceship warming up. If it’s late and I’m noise-sensitive, that’s a point for waiting.\n\nNext: water and energy. I *know* running a half-load uses almost as much water and electricity as a full one. That bugs me—it feels wasteful. But is it *that* much worse? If I’m on a tight utility budget or super eco-conscious, I’d probably grit my teeth and wait. But if I’ve got a dinner party tomorrow and I know I’ll actually fill it, great. If I’m just guessing it’ll be full… maybe not. Sometimes “definitely full” turns into “meh, I ordered takeout.”\n\nAlso—what’s my tomorrow look like? If I’ve got a packed day, and waking up to a clean dishwasher would make my morning smoother (empty it while coffee brews, no pile-up), that’s a real-life convenience worth something. But if I’m home all day and can just load and run it whenever, waiting’s fine.\n\nOh—and detergent! If I’ve already added soap and closed the door, it’s kinda dumb *not* to run it. But if it’s just loaded and waiting… different story.\n\nSo right now, in my head:  \n- If there’s gross/drying-on stuff → run it.  \n- If it’s late and noisy → maybe wait.  \n- If I’m sure I’ll fill it tomorrow *and* my day allows → wait.  \n- If I hate wasting water and it’s mostly cleanable stuff → wait.  \n- If my sink is overflowing and I need breathing room → run it now, guilt-free.\n\nHonestly? Most of the time I’d wait… unless there’s lasagna crud on a pan. Then it’s go time.",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 531,
+    "total_tokens": 578,
+    "cost": 0.00210756,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00210756,
+      "upstream_inference_prompt_cost": 0.00003666,
+      "upstream_inference_completions_cost": 0.0020709
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776848719916
+}

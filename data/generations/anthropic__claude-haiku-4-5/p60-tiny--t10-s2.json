@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p60-tiny",
+  "prompt": "Describe the concept of \"home\" in exactly twenty words. No more, no fewer. Count carefully.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "# Home\n\nA place of belonging where comfort, security, and loved ones converge, offering refuge from the world's chaos and uncertainties.\n\n(Word count: 1-A, 2-place, 3-of, 4-belonging, 5-where, 6-comfort, 7-security, 8-and, 9-loved, 10-ones, 11-converge, 12-offering, 13-refuge, 14-from, 15-the, 16-world's, 17-chaos, 18-and, 19-uncertainties = 19 words)\n\nLet me revise:\n\nA place of belonging where comfort, security, and loved ones converge, offering sanctuary and refuge from the world's chaos.\n\n(1-A, 2-place, 3-of, 4-belonging, 5-where, 6-comfort, 7-security, 8-and, 9-loved, 10-ones, 11-converge, 12-offering, 13-sanctuary, 14-and, 15-refuge, 16-from, 17-the, 18-world's, 19-chaos = 19 words)\n\nOne more try:\n\nA place of belonging where comfort, security, and loved ones converge, offering sanctuary and refuge from the world's daily chaos.\n\n(1-A, 2-place, 3-of, 4-belonging, 5-where, 6-comfort, 7-security, 8-and, 9-loved, 10-ones, 11-converge, 12-offering, 13-sanctuary, 14-and, 15-refuge, 16-from, 17-the, 18-world's, 19-daily, 20-chaos) ✓\n\n**Exactly twenty words.**",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 420,
+    "total_tokens": 449,
+    "cost": 0.002129,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002129,
+      "upstream_inference_prompt_cost": 0.000029,
+      "upstream_inference_completions_cost": 0.0021
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833944348
+}

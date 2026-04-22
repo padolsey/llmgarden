@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen-2.5-72b-instruct",
+  "prompt_id": "p48-kindly-grandparent",
+  "prompt": "Explain what a CPU is, as if you are a kind, slightly-old grandparent who does not fully understand computers but has been asked by a grandchild. Four to six sentences.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Well, sweetie, a CPU is like the brain of a computer. It's the part that does all the thinking and tells the computer what to do, just like how your brain tells your body what to do. It works really hard to make sure everything runs smoothly, solving problems and running programs. Even though I don’t understand all the fancy details, it’s pretty amazing how it can do so much so quickly!",
+  "usage": {
+    "prompt_tokens": 46,
+    "completion_tokens": 85,
+    "total_tokens": 131,
+    "cost": 0.00003867,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00003867,
+      "upstream_inference_prompt_cost": 0.00000552,
+      "upstream_inference_completions_cost": 0.00003315
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen-2.5-72b-instruct",
+  "ts": 1776832182577
+}

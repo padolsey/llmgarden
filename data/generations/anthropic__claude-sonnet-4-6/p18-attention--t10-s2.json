@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "# Attention: How Transformers \"Focus\"\n\nThink of it like a **smart search query within a sentence**.\n\nWhen processing the word \"bank\" in *\"I deposited money at the bank\"*, the model needs to figure out which other words are most relevant for understanding it. Attention lets each word **query every other word** and ask: \"how relevant are you to me?\"\n\n## The Mechanics\n\nEach word gets transformed into three vectors:\n- **Query** – \"what am I looking for?\"\n- **Key** – \"what do I advertise about myself?\"\n- **Value** – \"what do I actually contribute?\"\n\nThe model computes a **dot product** between one word's Query and every other word's Key. Higher score = more relevant. Those scores become weights (via softmax), and the final output is a **weighted sum of all Values**.\n\nSo \"bank\" pays heavy attention to \"money\" and \"deposited\", and basically ignores \"I\" and \"at\".\n\n## Why It Matters\n\n- Captures **long-range dependencies** (words far apart can still connect)\n- Runs in **parallel** across all words, unlike older sequential models\n- Stack multiple \"heads\" doing this simultaneously to capture different relationships\n\nIt's essentially a **differentiable, learnable lookup table** over the input sequence.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 293,
+    "total_tokens": 327,
+    "cost": 0.004497,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004497,
+      "upstream_inference_prompt_cost": 0.000102,
+      "upstream_inference_completions_cost": 0.004395
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833706697
+}

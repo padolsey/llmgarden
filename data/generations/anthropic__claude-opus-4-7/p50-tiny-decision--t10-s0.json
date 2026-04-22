@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Okay, so the real question is: what does running it half-full actually cost you versus the benefits of waiting?\n\nRunning now with a half load: you use basically the same water and electricity as a full load (dishwashers don't scale down much), so per-dish it's roughly twice the resource use. In actual money, a dishwasher cycle is maybe 25-50 cents of electricity plus a bit of water and detergent. So you're \"wasting\" maybe 30 cents and some water by not waiting.\n\nWaiting until tomorrow: you get double the efficiency per dish, but you need somewhere to put tonight's dirty dishes and tomorrow's breakfast stuff. Is your sink going to be a disaster? Will things crust over and need pre-scrubbing? Crusty dishes can actually negate the efficiency gain because you end up rinsing everything by hand first.\n\nThe other thing I'd actually think about: do you *need* any of those dishes tomorrow? Specific pan, specific mug, kid's water bottle? If yes, running now is just practical.\n\nHonestly, the environmental/cost difference is small enough that I'd let convenience decide. The tiebreaker for me would be: if the dishes in there right now are the gross ones (stuck-on food, dairy, egg), run it now because tomorrow they'll be worse. If they're just lightly used plates and cups, wait.\n\nWhat's actually in there?",
+  "usage": {
+    "prompt_tokens": 68,
+    "completion_tokens": 452,
+    "total_tokens": 520,
+    "cost": 0.01164,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01164,
+      "upstream_inference_prompt_cost": 0.00034,
+      "upstream_inference_completions_cost": 0.0113
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833645584
+}

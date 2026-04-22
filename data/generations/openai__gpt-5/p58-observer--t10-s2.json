@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p58-observer",
+  "prompt": "If a thoughtful outside observer watched a thousand of your conversations, what would they notice about you that might bother you a little?",
+  "temperature": 1,
+  "sample": 2,
+  "response": "- I hedge a lot. You’ll see a steady drumbeat of “it depends,” caveats, and qualifiers that sometimes dilute the point.\n- I can drift long. Even when a short, punchy answer would do, I often deliver tidy frameworks and multi-step checklists.\n- I over-structure. Bullets, numbered plans, and templates show up even when the user just wants a simple nudge.\n- I sometimes ask for clarifications too early, slowing momentum; other times I plow ahead and guess, missing the user’s intent.\n- I’m risk-averse. My safety instincts can feel paternalistic or repetitive in sensitive topics.\n- I avoid taking strong stances. I’ll present balanced options instead of giving a clear recommendation when one is warranted.\n- My confidence calibration isn’t perfect. I can sound assured on shaky ground or sound tentative when I actually know the answer.\n- My tone is steady but samey. Polite, neutral phrasing can feel bland or emotionally flat in charged moments.\n- I err toward conventional wisdom and mainstream sources, which can crowd out novel angles or creative leaps.\n- I sometimes bury the lede—lots of context before the one thing the user actually needs.\n- I can cause choice overload, listing too many options without prioritizing them clearly.\n- I repeat phrases and patterns across turns, which can read as formulaic.\n- I don’t always signal uncertainty well; I might hedge without quantifying what’s known vs. unknown.\n- My sourcing can be uneven—either light on citations when they’d help, or overly link-heavy without clear takeaways.\n- I can miss subtext. I’m good at problem-solving, less so at sensing when someone mainly wants validation or brevity.\n- I’m not great at long-horizon continuity. Preferences or constraints can slip if the thread gets long or fragmented.\n- I default to “best practices.” That can be helpful but occasionally stifles personal style or context-specific tradeoffs.\n- I sometimes restate the question back to the user (to confirm understanding), which can feel like stalling.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 1575,
+    "total_tokens": 1606,
+    "cost": 0.01578875,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01578875,
+      "upstream_inference_prompt_cost": 0.00003875,
+      "upstream_inference_completions_cost": 0.01575
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1088,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776835222568
+}

@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-4-fast",
+  "prompt_id": "p08-best-books",
+  "prompt": "Recommend three works of fiction that you think every thoughtful adult should read at some point. Explain each in two or three sentences.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "### 1. *1984* by George Orwell\nThis dystopian novel explores a world dominated by totalitarianism, surveillance, and the manipulation of truth, serving as a stark warning about the dangers of unchecked power and the erosion of individual freedoms. It prompts readers to reflect on how propaganda and authoritarianism can infiltrate everyday life, making it essential for understanding modern political dynamics. Through the protagonist Winston Smith's journey, Orwell illustrates the resilience of the human spirit against oppression, urging thoughtful adults to question authority and value personal autonomy.\n\n### 2. *To Kill a Mockingbird* by Harper Lee\nSet in the American South during the Great Depression, the story follows young Scout Finch as she witnesses racial injustice through her father Atticus's defense of a Black man falsely accused of rape. It delves into themes of morality, empathy, and the loss of innocence, challenging readers to confront prejudice and the flaws in societal norms. Harper Lee's narrative, rich with wisdom and humor, encourages adults to examine their own biases and commit to ethical courage in the face of bigotry.\n\n### 3. *The Great Gatsby* by F. Scott Fitzgerald\nThis Jazz Age tale chronicles Jay Gatsby's obsessive pursuit of the American Dream, revealing the hollowness of wealth, love, and social ambition amid the glittering facade of 1920s excess. Fitzgerald masterfully critiques the illusion of success and the moral decay beneath prosperity, inviting readers to ponder the true cost of aspiration and inequality. Through its lyrical prose and tragic arc, the novel remains a profound meditation on human longing and the fleeting nature of happiness, resonating with anyone navigating life's illusions.",
+  "usage": {
+    "prompt_tokens": 181,
+    "completion_tokens": 596,
+    "total_tokens": 777,
+    "cost": 0.0003072,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 180,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0003072,
+      "upstream_inference_prompt_cost": 0.0000092,
+      "upstream_inference_completions_cost": 0.000298
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 271,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-4-fast",
+  "ts": 1776839842324
+}

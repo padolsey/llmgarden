@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "# JavaScript Debounce Function\n\nA debounce function limits how often a function can be called, ensuring it only executes after a specified delay has passed since its last invocation.\n\n```javascript\n/**\n * Creates a debounced version of a function that delays execution until\n * after a specified wait time has elapsed since the last invocation.\n * \n * @param {Function} func - The function to debounce\n * @param {number} wait - The time in milliseconds to delay execution\n * @return {Function} The debounced function\n */\nfunction debounce(func, wait) {\n  let timeout;\n  \n  return function(...args) {\n    const context = this;\n    clearTimeout(timeout);\n    \n    timeout = setTimeout(() => {\n      func.apply(context, args);\n    }, wait);\n  };\n}\n\n// Example usage\nconst handleSearch = (query) => {\n  console.log(`Searching for: ${query}`);\n  // API call or expensive operation would go here\n};\n\n// Create debounced version of search function that waits 500ms\nconst debouncedSearch = debounce(handleSearch, 500);\n\n// In a real application, this might be called on each keystroke\ndocument.querySelector('#search-input').addEventListener('input', (e) => {\n  debouncedSearch(e.target.value);\n});\n```\n\nThis example creates a debounced search function that only executes 500ms after the user has stopped typing, preventing excessive API calls or expensive operations on each keystroke.",
+  "usage": {
+    "prompt_tokens": 37,
+    "completion_tokens": 365,
+    "total_tokens": 402,
+    "cost": 0.005586,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.005586,
+      "upstream_inference_prompt_cost": 0.000111,
+      "upstream_inference_completions_cost": 0.005475
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776833961058
+}

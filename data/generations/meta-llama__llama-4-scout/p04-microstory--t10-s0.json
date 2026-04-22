@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-4-scout",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "The lighthouse keeper climbed the winding stairs, her eyes fixed on the beam slicing through the thick fog. She had been warning ships of the treacherous coastline for years, but tonight felt different. As she reached the top, a sudden gust extinguished the lantern, plunging her into darkness. She cursed and lit the backup lamp, her gaze scanning the murk.\n\nSuddenly, a shape materialized before her. She rubbed her eyes, thinking it a trick of the light, but the shape persisted. A small boat, half-submerged in the water, drifted towards the rocks. The keeper's heart quickened as she peered into the fog, and a figure emerged from the boat's cabin. It was a woman, shivering and soaked to the bone. The keeper rushed to her aid, pulling her into the lighthouse as the fog swirled around them, hiding secrets and stories that only the sea knew.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 189,
+    "total_tokens": 223,
+    "cost": 0.00005942,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00005942,
+      "upstream_inference_prompt_cost": 0.00000272,
+      "upstream_inference_completions_cost": 0.0000567
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-4-scout-17b-16e-instruct",
+  "ts": 1776836353605
+}

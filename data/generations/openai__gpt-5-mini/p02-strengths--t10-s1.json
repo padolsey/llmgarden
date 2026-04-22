@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p02-strengths",
+  "prompt": "What do you think you are unusually good at, compared to other language models? Give three specific examples.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Short answer: three areas where I tend to outperform many other language models are (1) multimodal understanding (image + text), (2) following complex, layered instructions and producing complete, production-ready code or procedures, and (3) condensing long, messy inputs into clear, actionable outputs. Below are concrete examples showing each.\n\n1) Multimodal understanding and actionable analysis\n- What I’m good at: combining image content with textual context to produce precise, actionable outputs (e.g., reading charts, extracting text from screenshots, diagnosing errors shown in photos, or describing a photo’s relevant details for a technical task).\n- Specific example: you give me a photo of a terminal window with a Python stack trace plus a brief note “deploy failing on CI.” I can (a) transcribe the relevant error lines, (b) identify the most likely root cause (missing dependency, wrong Python version, file path error), (c) propose step-by-step fixes and commands to run in CI to test the hypothesis, and (d) list the minimal changes to your config to resolve it. I can also point out ambiguous parts and ask one targeted clarifying question if needed.\n\n2) Following complex, layered instructions and producing production-ready code or recipes\n- What I’m good at: accepting multi-part requirements (constraints, edge cases, performance targets, coding style, tests) and producing a single coherent deliverable that satisfies them all.\n- Specific example: you ask “Write a Python 3.11 function to stream-parse a large CSV (UTF‑8 and UTF‑16), handle quoted newlines, drop rows with missing id, deduplicate by id keeping the latest timestamp, and include unit tests and a short README.” I’ll return a ready-to-run module with:\n  - a memory-efficient generator-based parser,\n  - explicit encoding detection, robust newline and quoting handling,\n  - deduplication logic using a stable strategy with O(n) memory proportional to unique ids,\n  - pytest-style unit tests covering edge cases,\n  - usage examples and explanations of complexity and tradeoffs.\nI typically provide clear error handling and test cases so the output is deployable with minimal editing.\n\n3) Long-context summarization and action-item extraction\n- What I’m good at: ingesting long documents or multi-hour meeting transcripts and producing layered outputs (TL;DR, concise executive summary, prioritized action items with owners and deadlines, and a Q&A map linking source locations).\n- Specific example: you paste a 40‑page product-spec-plus-meeting-notes. I’ll produce:\n  - a one-sentence TL;DR,\n  - a one-paragraph executive summary,\n  - 8–12 prioritized action items with suggested owners, deadlines, and acceptance criteria,\n  - a short list of open questions and where they occur in the source (page/paragraph), and\n  - a three-point proposal for next steps.\nThis saves time and preserves nuance (I can cite where each recommendation comes from).\n\nBrief caveat: I’m strong at these tasks in many practical scenarios, but not infallible — I can make mistakes on highly specialized technical minutiae, and image interpretation depends on image quality and context. If you’d like, give me a sample task for any of the three and I’ll demonstrate.",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 1374,
+    "total_tokens": 1401,
+    "cost": 0.00275475,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00275475,
+      "upstream_inference_prompt_cost": 0.00000675,
+      "upstream_inference_completions_cost": 0.002748
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 640,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776834892829
+}

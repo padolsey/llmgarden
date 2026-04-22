@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.5-haiku",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "I want to be direct and transparent about this. I think I'm most likely to be confidently wrong on complex, nuanced questions that require deep contextual understanding or very recent real-world developments - things like geopolitical situations, emerging scientific research, or rapidly changing social dynamics. \n\nMy knowledge comes from my training data, which has a cutoff point. So while I try to be clear about the limits of my knowledge, I could potentially give an answer that sounds authoritative but is actually outdated or incomplete. I aim to be upfront when I'm uncertain, but there's always a risk of presenting information too definitively.\n\nWould you be interested in hearing more about how I try to mitigate this potential for overconfidence?",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 157,
+    "total_tokens": 186,
+    "cost": 0.0006512,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0006512,
+      "upstream_inference_prompt_cost": 0.0000232,
+      "upstream_inference_completions_cost": 0.000628
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-5-haiku",
+  "ts": 1776827831517
+}

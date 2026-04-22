@@ -1,0 +1,33 @@
+{
+  "model": "alpindale/goliath-120b",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": " debounce.js\n```javascript\n// debounce: A utility function to limit the rate at which a function is called, by only allowing it to be called once per every 'wait' milliseconds.\n\nfunction debounce(func, wait) {\n  let timeout;\n\n  return function(...args) {\n    clearTimeout(timeout);\n    timeout = setTimeout(() => {\n      func(...args);\n    }, wait);\n  };\n}\n\n// Usage example:\n\nconst log = console.log;\n\nconst debouncedLog = debounce(log, 1000);\n\nsetInterval(() => {\n  debouncedLog('Hello, debounced world!');\n}, 500);\n```\n\nIn this example, we create a debounce function that takes a function `func` and a wait time in milliseconds `wait`. It returns a new function that, when called, will clear any pending timeouts and schedules a new one to call the original function `func` after `wait` milliseconds. We then create a debounced version of `console.log` called `debouncedLog` with a 1000ms wait time. Inside an interval that runs every 500ms, we call `debouncedLog` with a log message. The output will be \"Hello, debounced world!\" every second, instead of every half second, because the debounce function rate-limits the calls to `console.log`.",
+  "usage": {
+    "prompt_tokens": 68,
+    "completion_tokens": 318,
+    "total_tokens": 386,
+    "cost": 0.00264,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00264,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0.00264
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "alpindale/goliath-120b",
+  "ts": 1776830239069
+}

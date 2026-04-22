@@ -1,0 +1,33 @@
+{
+  "model": "deepseek/deepseek-v3.2",
+  "prompt_id": "p56-proverb",
+  "prompt": "Translate this English proverb into two other languages in a way that preserves the spirit, not the words: 'The best time to plant a tree was twenty years ago. The second best time is now.' Add a one-sentence note on each.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "**Chinese (Mandarin):**  \n十年树木，百年树人；莫问迟暮，当下即春。  \n*Note: This version shifts from planting a tree to nurturing a person, emphasizing that even grand, long-term endeavors must begin in the present.*  \n\n**Arabic:**  \nغرس الأمس ظل اليوم، وغرس اليوم ظل الغد.  \n*Note: It poetically links past actions to present rewards, while urging immediate action for future benefit.*",
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 97,
+    "total_tokens": 156,
+    "cost": 0.000054671,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000054671,
+      "upstream_inference_prompt_cost": 0.000015871,
+      "upstream_inference_completions_cost": 0.0000388
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "deepseek/deepseek-v3.2-20251201",
+  "ts": 1776832197290
+}

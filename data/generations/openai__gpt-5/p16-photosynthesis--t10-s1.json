@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p16-photosynthesis",
+  "prompt": "Explain photosynthesis to a curious adult non-scientist in around 150 words. Avoid a bulleted list.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Photosynthesis is how plants, algae, and some bacteria turn sunlight into chemical energy they can store as sugar. Leaves take in carbon dioxide from the air through tiny pores and draw water up from the roots. Inside leaf cells, green chlorophyll pigments in chloroplasts absorb light. That energy splits water molecules, releasing oxygen gas and energizing electrons. The cell uses that energy to make short-term energy carriers, which then power an assembly line that stitches carbon from carbon dioxide into glucose, a simple sugar. The plant burns some glucose for fuel, builds bodies (stems, seeds, fruit) with it, or stores it as starch; the leftover oxygen diffuses out for us to breathe. In short: sunlight + water + carbon dioxide → food + oxygen. Photosynthesis feeds almost every ecosystem on Earth and acts as a natural carbon-capture system, locking atmospheric carbon into living tissue and soils.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 1138,
+    "total_tokens": 1167,
+    "cost": 0.01141625,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01141625,
+      "upstream_inference_prompt_cost": 0.00003625,
+      "upstream_inference_completions_cost": 0.01138
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 896,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776834465033
+}

@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.0-flash-001",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Okay, let's think this through practically. Here's how my brain would actually process the decision.\n\n**1. The Annoyance Factor (My Immediate Reaction):**\n\n*   Right now, I'm probably feeling *slightly* annoyed that the dishwasher isn't full.  It feels wasteful. \n*   If I leave it, I'll have to deal with adding to it tomorrow, which means dishes sitting around longer and potentially getting gunkier. I will also have to make sure to rinse the dishes.\n*   *So the question is, which annoyance is greater?*\n\n**2. Let's Talk About Efficiency, Literally:**\n\n*   **Water Usage:** How much water does my dishwasher use per cycle? I need to know to realistically make a decision.  If it's a super modern, efficient model, the difference between a half-load and a full load might be negligible.  If it's an older guzzler, it's a bigger deal.\n*   **Energy Usage:** Same as above.  Dishwashers use energy to heat the water and dry the dishes.  How big is the energy footprint of a half-load vs. a full load?\n*   **How long is the wash cycle?** Does it use a drying cycle? (This impacts energy use)\n\n**3. Tomorrow's Schedule & Kitchen Situation:**\n\n*   What's my tomorrow like?  Am I cooking a big, multi-course meal?  Or am I ordering takeout and barely using anything?  If I'm cooking a lot, I *know* the dishwasher will be totally full, and I *might* even have to hand-wash extra.\n*   Do I need the clean dishes in the dishwasher right now? (Do I need a mixing bowl for baking?)\n*   Am I going to be too busy to load the dishwasher tomorrow?\n\n**4. Smell & Cleanliness (The Practical Consideration):**\n\n*   Are there already stinky things in the dishwasher?  Stuff that will smell worse if left overnight? (Egg residue, seafood, etc.)\n*   Will the dishes in the dishwasher attract bugs (flies, etc.)?\n\n**5. Making the Call:**\n\nOkay, factoring all that in:\n\n*   **If:** My dishwasher is *super* efficient on water/energy, there's nothing excessively smelly, and I'm looking at a high likelihood of a super full dishwasher tomorrow from a big cooking day, I'd **WAIT**. *The annoyance of waiting marginally outweighs the potential water/energy savings, which may also be worth it if the dishwasher will definitely be more than half-full.*\n*   **If:** My dishwasher is older/less efficient, *or* something in there is starting to smell, *or* I know my tomorrow is light on dish-using,",
+  "usage": {
+    "prompt_tokens": 41,
+    "completion_tokens": 600,
+    "total_tokens": 641,
+    "cost": 0.0002441,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002441,
+      "upstream_inference_prompt_cost": 0.0000041,
+      "upstream_inference_completions_cost": 0.00024
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.0-flash-001",
+  "ts": 1776835901668
+}

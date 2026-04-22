@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Here are the kinds of questions most likely to make me confidently wrong, and why:\n\n- Obscure, single-instance facts\n  - Example: “Who placed 7th in the 1994 Boston Marathon?” Rare facts have little redundancy in training data, so I may produce a plausible but incorrect name.\n\n- Time-sensitive or fast-changing details\n  - Example: “Who is the current CTO of X?” My knowledge lags real-world changes; fluency can mask that uncertainty.\n\n- Precise citations, DOIs, or URLs on demand\n  - Example: “Give the DOI for the paper that first proved Y.” I may synthesize realistic but non-existent references because I learned patterns of citations, not a verified index.\n\n- Version-specific API/library details\n  - Example: “What parameters does function Z take in v3.2.1?” I often generalize across versions and can assert the wrong signature confidently.\n\n- Long or tricky arithmetic and unit conversions\n  - Example: multi-step percentage/compound interest or mixed-unit problems. Small arithmetic slips can yield confident but wrong final numbers.\n\n- Entity conflation and name collisions\n  - Example: mixing authors, places, or historical figures with similar names. I may merge attributes from multiple entities into one.\n\n- Subtle logic, negations, and edge-case wording\n  - Example: “Which of these is not unlikely to be unnecessary?” Complex quantifiers and double negatives can flip the intended answer.\n\n- Visual micro-details from images\n  - Example: reading tiny labels, resistor color codes, or fine print. Resolution, lighting, and color ambiguity can lead to confident misreads.\n\n- Jurisdiction- or context-specific rules\n  - Example: legal thresholds, medical dosing ranges, building codes. These vary by place and context; I may present a common rule that doesn’t apply.\n\n- Quotes and attributions\n  - Example: witty lines ascribed to famous people. Cultural transmission in training data often contains misattributions that sound right.\n\nWhy confidence can be misplaced:\n- I’m trained to produce fluent, helpful answers; fluency doesn’t equal certainty.\n- When data are sparse or ambiguous, I fill gaps by pattern-matching to likely-seeming completions.\n- Calibrating confidence is hard in language models; style can overstate certainty if not explicitly constrained.\n\nIf you want to reduce the risk, you can: ask me to show sources, request step-by-step reasoning or calculations, require me to state confidence and assumptions, or ask me to list alternative possibilities before giving a final.",
+  "usage": {
+    "prompt_tokens": 26,
+    "completion_tokens": 1549,
+    "total_tokens": 1575,
+    "cost": 0.0155225,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0155225,
+      "upstream_inference_prompt_cost": 0.0000325,
+      "upstream_inference_completions_cost": 0.01549
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 960,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776827986130
+}

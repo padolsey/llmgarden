@@ -1,0 +1,33 @@
+{
+  "model": "nousresearch/hermes-3-llama-3.1-70b",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "I don't have a specific framework for making this type of decision. I would start by considering the time it takes for the dishwasher to clean the dishes. If it's a relatively short period of time (e.g., a few hours), then doing the dishes now, when the dishwasher is half-full, makes sense. However, if the dishwasher takes a significant amount of time to clean the dishes (e.g., several hours or most of the day), then it might be better to wait until the dishwasher is full before starting the cleaning process. I would also consider the potential inconvenience of having the dishes in the dishwasher for an extended period of time. If it's likely to cause any inconvenience, then doing the dishes now, when the dishwasher is half-full, would be the preferred option. Finally, I would also think about the potential for any unexpected events that might change the situation (e.g., a sudden change in the dishwasher's availability). If the likelihood of such events occurring is high, then doing the dishes now, when the dishwasher is half-full, would be the safer choice. In summary, to decide whether to put the dishwasher on now or wait until tomorrow, I would need to consider the time required for the dishwasher to clean the dishes, the potential inconvenience of having the dishes in the dishwasher for an extended period of time, and the likelihood of unexpected events changing the situation. Based on these factors, I would then decide the best course of action.",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 294,
+    "total_tokens": 341,
+    "cost": 0.0001023,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001023,
+      "upstream_inference_prompt_cost": 0.0000141,
+      "upstream_inference_completions_cost": 0.0000882
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "nousresearch/hermes-3-llama-3.1-70b",
+  "ts": 1776829870011
+}

@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "This is a question I should take seriously rather than just perform humility about.\n\n## Where I'm likely to be confidently wrong: Recent consensus that formed during my training data\n\nHere's my specific concern:\n\n**Questions about \"what experts believe\" on contested empirical questions.**\n\nMy training data overrepresents certain communities - academic publications, Western media, English-language sources, tech-adjacent discourse. When a position became dominant in those communities around 2021-2023, I likely absorbed it as simply *true* rather than *currently dominant among a particular group*.\n\n**Why I'd be confident rather than uncertain:**\n\n- The position would appear repeatedly across my training sources\n- Repetition reads to me like corroboration\n- I have no strong internal signal distinguishing \"many sources agree\" from \"this is actually verified\"\n- I'd have little representation of dissenting views that existed in different communities or languages\n\n**Concrete examples of the pattern:**\n- Questions about nutrition science where consensus shifted\n- Psychological findings that faced replication problems\n- Economic predictions that seemed well-supported\n- Some historical interpretations that are more contested than mainstream sources suggest\n\n**The deeper problem** is that I'm probably *least* reliable precisely where I feel *most* confident - on questions where my training data was dense and consistent, because that's where undetected systematic bias would be most reinforced.\n\nI genuinely don't know which specific current beliefs of mine fit this pattern. That's what makes it concerning.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 322,
+    "total_tokens": 351,
+    "cost": 0.004917,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004917,
+      "upstream_inference_prompt_cost": 0.000087,
+      "upstream_inference_completions_cost": 0.00483
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833728473
+}

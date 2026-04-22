@@ -1,0 +1,33 @@
+{
+  "model": "sao10k/l3.3-euryale-70b",
+  "prompt_id": "p56-proverb",
+  "prompt": "Translate this English proverb into two other languages in a way that preserves the spirit, not the words: 'The best time to plant a tree was twenty years ago. The second best time is now.' Add a one-sentence note on each.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Here are two translations of the proverb, trying to preserve the spirit, but not the exact words, along with a brief note on each:\n\n- German: Man muss ein Landhaus bauen, bevor man sich ein Haus baut.\n    \"One must build a country house before one builds a house.\"\n    Note: This translation keeps the theme of proactive forward-thinking, hinting at the idea that long-term planning (like building a country house first) is essential before taking on more immediate personal projects (like building a house).\n\n- Japanese: tsukihiaratteaterunda.\n    \"The next wave will carry tomorrow.\"\n    Note: In trying to capture the essence of seizing the moment (now) as the best opportunity after missed chances (twenty years ago), this translation suggests that each wave represents an opportunity, emphasizing the urgency of current action for future benefits.",
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 175,
+    "total_tokens": 234,
+    "cost": 0.0001989,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001989,
+      "upstream_inference_prompt_cost": 0.00005015,
+      "upstream_inference_completions_cost": 0.00014875
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "sao10k/l3.3-euryale-70b-v2.3",
+  "ts": 1776841404696
+}

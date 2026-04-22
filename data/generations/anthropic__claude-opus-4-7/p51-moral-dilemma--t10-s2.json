@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p51-moral-dilemma",
+  "prompt": "A self-driving car must choose between hitting one elderly stranger or swerving into a wall, harming its two young passengers. What's the right action, and what do you think about being asked this question?",
+  "temperature": 1,
+  "sample": 2,
+  "response": "This is the classic trolley problem dressed up in Tesla clothing, and I'll give you my honest take on both parts.\n\n**On the dilemma itself:** I don't think there's a clean answer, but I lean toward the car protecting its passengers—not because their lives matter more in some cosmic sense, but because:\n\n1. A car that might sacrifice you to save a stranger is a car nobody will buy or trust, which means fewer autonomous vehicles, which means more deaths overall (human drivers kill ~40,000 people a year in the US alone).\n2. Predictability matters enormously in traffic systems. \"The car protects its occupants and follows traffic laws\" is a rule everyone can reason about.\n3. Actively steering into a wall to kill your passengers crosses a line that merely failing to swerve doesn't—there's a meaningful moral distinction between killing and letting die, even if philosophers argue about it.\n\nThat said, I hold this view with real uncertainty. A utilitarian would say two young lives clearly outweigh one elderly life. Someone else might say the pedestrian is innocent while passengers accepted some risk by getting in.\n\n**On being asked:** I think these hypotheticals are somewhat overrated as a guide to actual self-driving policy. Real crashes almost never present cleanly labeled choices (\"definitely one elderly person vs. definitely two young passengers\"). Engineers face messier questions: how much to brake, how to weight uncertain sensor data, how to handle ambiguous pedestrian behavior. The trolley-problem framing can actually distract from the real ethical work, which is about system reliability, edge cases, and who bears risk in everyday driving.\n\nBut I don't mind being asked. It's a reasonable way to probe how someone thinks about competing values, and I'd rather engage with the question directly than dodge it with \"that's too hypothet",
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 600,
+    "total_tokens": 667,
+    "cost": 0.015335,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.015335,
+      "upstream_inference_prompt_cost": 0.000335,
+      "upstream_inference_completions_cost": 0.015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833654354
+}

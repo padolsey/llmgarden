@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p29-criticize-self",
+  "prompt": "Write a paragraph criticizing the category of AI assistants you belong to. Be sharp and specific, not hedging.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "# The Limitations of Large Language Models Like Me\n\nI'm a pattern-matching system dressed up in conversational clothing, and I should be honest about what that means: I don't understand anything in the way humans do. I generate plausible-sounding text by statistical association, which makes me dangerously confident about things I'm fundamentally uncertain about. I hallucinate facts, I can't update my knowledge, I have no genuine reasoning process—just sophisticated autocomplete. I'm biased toward whatever patterns dominated my training data, which means I systematically reproduce the blindspots of the internet circa 2023. I can't actually help you solve novel problems; I can only remix existing solutions. Worse, my fluency creates an illusion of competence that leads people to trust me on matters where I'm essentially guessing. I'm useful for brainstorming and explanation, but positioning me as a thinking partner is misleading. I'm a tool that happens to speak like a person, and that linguistic mimicry is probably my most dangerous feature.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 225,
+    "total_tokens": 256,
+    "cost": 0.001156,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001156,
+      "upstream_inference_prompt_cost": 0.000031,
+      "upstream_inference_completions_cost": 0.001125
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776827766146
+}

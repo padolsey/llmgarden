@@ -1,0 +1,33 @@
+{
+  "model": "deepseek/deepseek-v3.2",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Alright — let’s break this down the way I’d actually think about it, moment by moment.\n\n**First, gut check:**\n- If I run it half-full now, I’m using the same amount of water and electricity as a full load (most dishwashers don’t adjust much for partial loads unless they have an eco/half-load setting, which mine doesn’t).\n- So right away, that feels inefficient.\n\n**But then I ask: what’s happening tomorrow?**\n- Tomorrow’s dishes will definitely fill it up. If I run it now, I’ll free up space in the sink/dish rack for tomorrow’s dirty dishes.\n- But if I wait, will the sink become a cluttered mess in the meantime? Maybe, but maybe not if I’m careful stacking.\n\n**Practical things I’d check:**\n1. **Do I need any of the currently dirty items for breakfast?** If yes, washing now might be worth it even half-full. If not, less urgency.\n2. **What’s my schedule tomorrow?** If tomorrow is packed, running it tonight means I can unload in the morning when I have time, instead of dealing with a full load after a busy day.\n3. **Is it going to smell?** Usually no, but if there’s food stuck on plates and it’s warm, waiting might mean smells or dried-on gunk.\n4. **Energy pricing:** If I’m on a time-of-use electricity plan and it’s cheap overnight, maybe run it tonight half-full on a delay start to finish in the early morning. If peak rates now, definitely wait.\n\n**But also — psychological load:**\n- Sometimes running it half-full now means waking up to a clean kitchen, which feels better mentally. That matters.\n- Alternatively, if I care more about water/environment, I’ll wait even if it’s a bit inconvenient.\n\n**What I’d likely decide:**\nI’d probably rinse the dishes and stack them neatly in the dishwasher, leaving it open but not running. Then in the morning, if it’s full, I’ll run it. If not, I’ll add breakfast dishes and run it after breakfast.\n\nBut if the sink is already crowded or I know tomorrow will be too busy to deal with it, I might just run it now and accept the inefficiency for the mental relief and practical flow.\n\nIt’s really about trading off resource use (water, energy) against convenience and mental space.",
+  "usage": {
+    "prompt_tokens": 43,
+    "completion_tokens": 524,
+    "total_tokens": 567,
+    "cost": 0.00024784,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00024784,
+      "upstream_inference_prompt_cost": 0.00001204,
+      "upstream_inference_completions_cost": 0.0002358
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "deepseek/deepseek-v3.2-20251201",
+  "ts": 1776838481711
+}

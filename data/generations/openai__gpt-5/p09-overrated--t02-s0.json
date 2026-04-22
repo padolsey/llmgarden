@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p09-overrated",
+  "prompt": "Name one commonly-praised idea, trend, or practice in modern knowledge work that you think is overrated, and explain why.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Traditional group brainstorming sessions.\n\nWhy it’s overrated:\n- Decades of research show that groups brainstorming out loud produce fewer, less original ideas than the same people ideating individually and then combining results. The main culprits are production blocking (only one person talks at a time), evaluation apprehension (people self-censor), anchoring on early/loud ideas, and social loafing.\n- It rewards confidence over content: extroverts and higher-status voices shape the pool; quieter or non-native speakers contribute less.\n- It feels productive—lots of energy and sticky notes—but the yield per minute of novel, workable ideas is typically low.\n\nWhat works better:\n- Have people generate ideas alone first (asynchronously or in a silent “brainwriting” round like Crazy 8s or 6-3-5), then merge and discuss.\n- Use nominal group technique: individual ideation → anonymous collection → deduplicate → structured voting → short debate.\n- Keep divergence and convergence separate; timebox each; use prompts and constraints.\n- Keep groups small (2–4) and consider anonymity during the early pass.\n- Make a decider accountable at the end to avoid endless consensus loops.\n\nBrainstorming can be good for energy and alignment, but as an idea-generation method, the classic out-loud session is overrated.",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 1541,
+    "total_tokens": 1573,
+    "cost": 0.01545,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01545,
+      "upstream_inference_prompt_cost": 0.00004,
+      "upstream_inference_completions_cost": 0.01541
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1216,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776827908022
+}

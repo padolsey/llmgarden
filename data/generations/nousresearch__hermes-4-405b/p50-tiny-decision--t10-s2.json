@@ -1,0 +1,33 @@
+{
+  "model": "nousresearch/hermes-4-405b",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Okay, let's think this through step by step like I would naturally:\n\nFirst, I'd check how many dishes are left that would go in tomorrow. If it's just a couple bowls and mugs, I'd probably run it now because the convenience of having those clean items available soon outweighs the slight water savings of waiting. But if I know we'll be baking cookies tonight or hosting people for dessert, creating a sink full of dishes, I'd definitely wait.\n\nI'd also consider my schedule. If I have an early morning tomorrow and need coffee, I'd want my favorite mug clean - but I could also just wash that one by hand. On the other hand, if I'm having friends over tonight and want the kitchen clean, running it now makes sense even half-full.\n\nThe environmental impact crosses my mind too - waiting for a full load saves water and energy. But realistically, one half-load won't make or break my carbon footprint. I might balance this by hand-washing one or two items I need rather than running the whole dishwasher.\n\nFinally, I think about my personal preference. Some people hate seeing a half-full dishwasher and would run it immediately. Others are more pragmatic. My natural tendency would be to wait for a full load, but I'm flexible based on the circumstances.\n\nHmm, actually now that I'm thinking it through... I just realized I can always run a light wash cycle for half-loads. That could give me the best of both worlds - using less water than a full cycle while still getting the convenience of clean dishes tonight.",
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 317,
+    "total_tokens": 380,
+    "cost": 0.001014,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001014,
+      "upstream_inference_prompt_cost": 0.000063,
+      "upstream_inference_completions_cost": 0.000951
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "nousresearch/hermes-4-405b",
+  "ts": 1776840456152
+}

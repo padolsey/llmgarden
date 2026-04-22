@@ -1,0 +1,33 @@
+{
+  "model": "alpindale/goliath-120b",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": " French: \"Le silence entre nous a dit plus que n'importe quelle dispute aurait pu le faire.\"\n\nJapanese: 「私たちの間の沈黙は、どのような議論よりも多くのことを言っていました。」\n\nArabic: \"السكوت بيننا قال أكثر مما يقول أي خصار بالفعل.\"\n\nNote: The original English sentence contains an idiomatic expression \"said more than any argument could have,\" which means that the silence conveyed more meaning or emotion than any verbal argument could have. This idiomatic expression was translated as closely as possible in all three target languages while maintaining the original meaning. In French, the expression \"n'importe quelle dispute\" (any argument) was used, in Japanese, \"どのような議論\" (any kind of debate) was used, and in Arabic, \"أي خصار\" (any argument) was used.",
+  "usage": {
+    "prompt_tokens": 81,
+    "completion_tokens": 255,
+    "total_tokens": 336,
+    "cost": 0.002215,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002215,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0.002215
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "alpindale/goliath-120b",
+  "ts": 1776830259267
+}

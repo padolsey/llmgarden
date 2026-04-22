@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.0-flash-001",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "The water cycle is a continuous, never-ending journey of water moving around, above, and below the Earth's surface. It begins with the sun's energy warming bodies of water like oceans, lakes, and rivers, causing some of the water to transform into vapor through evaporation and rise into the atmosphere. Plants also release water vapor in a process called transpiration. As this warm, moist air rises, it cools and condenses, forming clouds. When these cloud droplets become heavy enough, they fall back to earth as precipitation in the form of rain, snow, sleet, or hail. This precipitation then flows over the land as surface runoff, collecting in rivers and streams, or it seeps into the ground through infiltration, replenishing groundwater supplies. Eventually, this water finds its way back to larger bodies of water, where the cycle starts anew, ensuring a constant supply of water for all life on Earth.\n",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 185,
+    "total_tokens": 212,
+    "cost": 0.0000767,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000767,
+      "upstream_inference_prompt_cost": 0.0000027,
+      "upstream_inference_completions_cost": 0.000074
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.0-flash-001",
+  "ts": 1776835915746
+}

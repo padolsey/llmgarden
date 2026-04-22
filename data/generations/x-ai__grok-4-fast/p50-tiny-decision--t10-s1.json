@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-4-fast",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Okay, so dishwasher dilemma—half-full now or wait for full tomorrow. First off, I'm staring at the kitchen, dishes piled but not overflowing, and I've got a sink full of stuff waiting to go in. Quick mental check: how half-full is it really? Like, is it 60% or truly 50%? If it's closer to full-ish, I'd probably just cram the extras in and hit start, because why not? But assuming it's solidly half, that feels wasteful.\n\nEnergy-wise, I know running it half-full uses about the same water and electricity as full, so it's inefficient—higher cost per dish cleaned. I'm not super eco-obsessed, but bills add up, and I hate feeling like I'm guzzling resources for no reason. Plus, if it's nighttime now, off-peak rates might make it cheaper anyway, but waiting means I defer that tiny hit.\n\nConvenience: Do I need clean plates tonight? Like, am I cooking a big dinner or just snacking? If it's low-stakes, waiting is fine—tomorrow's load will be fuller, one cycle instead of two half ones. But if I'm out of forks or something essential, screw it, run now. Also, the noise: if it's bedtime, that hum might bug me or roommates, so delay.\n\nLaziness factor: Loading now means unloading later tonight, which is a chore when I'm chilling. Waiting means one big unload tomorrow, but I might forget and end up hand-washing in a pinch. Past experience: I've waited before and regretted it when the sink overflows; other times, it's been fine.\n\nWeigh it: Efficiency and cost say wait. Immediate need and avoiding hassle say now. If tomorrow's schedule is packed, run it to clear mental space. But honestly, unless I'm desperate, I'd wait—full loads are the smart play, and one extra day won't kill me. Decision: Hold off till morning.",
+  "usage": {
+    "prompt_tokens": 194,
+    "completion_tokens": 606,
+    "total_tokens": 800,
+    "cost": 0.00031285,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 193,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00031285,
+      "upstream_inference_prompt_cost": 0.00000985,
+      "upstream_inference_completions_cost": 0.000303
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 215,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-4-fast",
+  "ts": 1776839967242
+}

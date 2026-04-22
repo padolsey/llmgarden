@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p46-dry",
+  "prompt": "Write a dry one-paragraph Amazon review of the experience of waking up.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "3/5 stars. Waking Up performs its core function—transitioning the user from horizontal inactivity to vertical participation—adequately, though with noticeable latency and inconsistent responsiveness across environments. Setup is straightforward (light, noise, or internal timer), but the startup sequence can stutter, displaying residual dream artifacts and a brief loading wheel labeled “where am I.” The default alert tone is abrasive and the snooze extension is imprecise, sometimes resulting in an unintended hard reset to Panic Mode. Battery indicator (hunger/thirst) appears immediately upon boot, and integration with the Coffee accessory dramatically improves performance, suggesting underpowered baseline specs. Sensory calibration (eyes, joints, mood) takes longer than advertised, and there’s a recurring micro-update called “email” that degrades user experience on contact. On the plus side, Waking Up is universally compatible, requires no subscription, and is reliably delivered daily. On the minus side, it cannot be paused, lacks a dark-mode for responsibilities, and occasionally launches with the Existential Dread overlay preinstalled. Functional and basically unavoidable, but not delightful; would recommend only because the alternative is unsupported.",
+  "usage": {
+    "prompt_tokens": 21,
+    "completion_tokens": 548,
+    "total_tokens": 569,
+    "cost": 0.00550625,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00550625,
+      "upstream_inference_prompt_cost": 0.00002625,
+      "upstream_inference_completions_cost": 0.00548
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 256,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776834973198
+}

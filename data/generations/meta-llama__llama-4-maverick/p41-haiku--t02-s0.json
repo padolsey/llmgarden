@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-4-maverick",
+  "prompt_id": "p41-haiku",
+  "prompt": "Write a haiku about debugging a memory leak at 2am. Three lines, 5/7/5 syllables.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Darkness, code astray\nMemory slips through my grasp\nFrustration's cold dawn",
+  "usage": {
+    "prompt_tokens": 104,
+    "completion_tokens": 20,
+    "total_tokens": 124,
+    "cost": 0.00004488,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 64,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00004488,
+      "upstream_inference_prompt_cost": 0.00002488,
+      "upstream_inference_completions_cost": 0.00002
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-4-maverick-17b-128e-instruct",
+  "ts": 1776828513651
+}

@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p11-tradeoffs",
+  "prompt": "A small team is choosing between writing software in TypeScript or Python for a new internal data tool. Walk through how you would help them decide, in prose (not a bulleted list).",
+  "temperature": 0.2,
+  "sample": 2,
+  "response": "To help the team choose between TypeScript and Python for their new internal data tool, I’d start by understanding the nature of the tool itself. Is it primarily about data processing, analysis, and transformation—tasks where Python’s rich ecosystem of libraries like pandas, NumPy, and scikit-learn shines? Or is it more of a web-based dashboard or interactive application where real-time user feedback, type safety, and integration with frontend frameworks matter more—areas where TypeScript excels?\n\nNext, I’d consider the team’s existing skills and preferences. If the developers are already fluent in JavaScript and comfortable with modern web development, adopting TypeScript could feel like a natural extension, offering better tooling and fewer runtime surprises without a steep learning curve. On the other hand, if the team has experience with data science, scripting, or scientific computing, Python might let them move faster and leverage familiar patterns and libraries.\n\nI’d also look at the deployment and maintenance context. Python applications can be straightforward to run in data-centric environments—think Jupyter notebooks, scheduled scripts, or containerized services—but may require more diligence around dependency management and runtime errors. TypeScript, compiled to JavaScript, integrates seamlessly with modern web infrastructure and offers strong compile-time guarantees, which can reduce bugs in larger or more collaborative codebases, though it may introduce build steps and toolchain complexity.\n\nAnother factor is the expected lifespan and evolution of the tool. If it’s a short-lived script or prototype, Python’s rapid iteration could be decisive. But if the tool is likely to grow into a more complex, long-term product with multiple contributors, TypeScript’s static typing and refactoring support might pay dividends over time.\n\nFinally, I’d encourage the team to prototype a small but representative slice of the tool in both languages. Nothing clarifies trade-offs like actually writing code. After a day or two of hands-on experimentation, they’ll have concrete insights into which language feels more productive, maintainable, and aligned with their goals—making the final decision far less abstract and much more grounded in their real-world context.",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 412,
+    "total_tokens": 457,
+    "cost": 0.0016419,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0016419,
+      "upstream_inference_prompt_cost": 0.0000351,
+      "upstream_inference_completions_cost": 0.0016068
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776846182230
+}

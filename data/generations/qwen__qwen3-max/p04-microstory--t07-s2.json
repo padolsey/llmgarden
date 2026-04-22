@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 0.7,
+  "sample": 2,
+  "response": "Every night, Elias climbed the spiral stairs, lit the lamp, and watched the sea swallow the sun. The fog this evening was thicker than usual—wool-thick, muffling the crash of waves and the cry of gulls. As he scanned the horizon, a shape emerged from the gray: not a ship, but something low and angular, drifting toward the rocks. He raised his spyglass. It was a wooden chest, bound in iron, lashed with rope gone green with age. Curiosity tugged harder than caution. He rowed out, the fog curling around his skiff like smoke. The chest was heavier than it looked. Back in the lantern room, he pried it open. Inside lay a single, salt-crusted journal, its pages filled with sketches of stars and strange sea creatures, and a locket containing a faded portrait of a woman who looked eerily like his long-lost sister. The fog outside deepened, as if guarding a secret it had just returned.",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 205,
+    "total_tokens": 240,
+    "cost": 0.0008268,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0008268,
+      "upstream_inference_prompt_cost": 0.0000273,
+      "upstream_inference_completions_cost": 0.0007995
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776845850748
+}

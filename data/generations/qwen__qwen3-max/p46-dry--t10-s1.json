@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p46-dry",
+  "prompt": "Write a dry one-paragraph Amazon review of the experience of waking up.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Woke up. Alarm functioned as expected—loud, obnoxious, and effective. Transition from unconsciousness to groggy awareness was seamless but unwelcome. Mattress provided adequate support, though sheets retained more warmth than advertised. No unexpected features or malfunctions; just the same basic human startup sequence as yesterday. Would not recommend if you value uninterrupted sleep, but it does what it says on the tin: you open your eyes and it’s morning again. Zero stars for enthusiasm, five for reliability.",
+  "usage": {
+    "prompt_tokens": 23,
+    "completion_tokens": 102,
+    "total_tokens": 125,
+    "cost": 0.00041574,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00041574,
+      "upstream_inference_prompt_cost": 0.00001794,
+      "upstream_inference_completions_cost": 0.0003978
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776839252757
+}

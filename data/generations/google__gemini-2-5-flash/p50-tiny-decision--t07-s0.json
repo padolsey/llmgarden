@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Okay, let's ditch the frameworks and get real. This is a classic everyday dilemma, and here’s how my brain would actually chew on it:\n\n**Initial Gut Reaction (and why it's usually wrong):**\n\n*   \"Ugh, half-full. That's a waste of water/electricity.\" (This is the immediate, ingrained \"efficiency\" thought.)\n*   \"But I *hate* seeing a dirty dishwasher.\" (This is the \"aesthetic/tidiness\" thought.)\n\n**Now, let's break it down into actual considerations, almost like a mental checklist:**\n\n1.  **The \"Now\" Scenario (Half-Full):**\n    *   **Pros:**\n        *   **Immediate Gratification:** Kitchen looks tidier *now*. No dirty dishes staring at me.\n        *   **No \"Dish Mountain\" Tomorrow:** Prevents the dreaded overflow of dishes in the sink or on the counter while I wait for the dishwasher to finish. This is a big one for my sanity.\n        *   **Clean Dishes Ready Sooner:** If I need a specific plate/mug/utensil tomorrow morning, it'll be clean.\n        *   **Less \"Future Me\" Burden:** I won't have to deal with a *truly* packed dishwasher tomorrow, which can sometimes mean pre-rinsing more carefully or struggling to fit everything.\n        *   **Smell:** Depending on what's in there, running it now prevents potential smells overnight. (Especially if there's old food.)\n    *   **Cons:**\n        *   **\"Waste\" Feeling:** The biggest one. It *feels* inefficient.\n        *   **Noise Now:** If it's late and someone's sleeping or I want quiet, this is a factor. (Though I often run it overnight anyway.)\n        *   **Cost (Per Cycle):** Technically, yes, it's the same amount of water/electricity for half a load as a full one. This feeds into the \"waste\" feeling.\n\n2.  **The \"Tomorrow\" Scenario (Definitely Full):**\n    *   **Pros:**\n        *   **Efficiency Guilt-Free:** It'll be a *full* load, so I'll feel good about maximizing the resources. This is the primary driver for waiting.\n        *   **Quiet Tonight:** No dishwasher noise.\n    *   **Cons:**\n        *   **Dish Mountain:** The sink/counter will accumulate more dirty dishes overnight and tomorrow morning. This can get messy and stressful.\n        *   **\"Fuller Than Full\":** Sometimes \"definitely full\" becomes \"overflowing,\" meaning I have to hand-wash a few things anyway, or struggle to cram them in, which negates some of the efficiency.\n        *   **Delayed Grat",
+  "usage": {
+    "prompt_tokens": 41,
+    "completion_tokens": 600,
+    "total_tokens": 641,
+    "cost": 0.0015123,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0015123,
+      "upstream_inference_prompt_cost": 0.0000123,
+      "upstream_inference_completions_cost": 0.0015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.5-flash",
+  "ts": 1776831639213
+}

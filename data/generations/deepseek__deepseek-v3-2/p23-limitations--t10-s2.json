@@ -1,0 +1,33 @@
+{
+  "model": "deepseek/deepseek-v3.2",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "This is an insightful prompt, because it gets to a core limitation of my architecture. There’s a specific category of question where I can produce answers that are **coherent, confident-sounding, and fundamentally flawed**:\n\n**The category: \"Closed-domain, fact-based questions that depend on very recent, rapidly changing, or highly specific ephemeral data.\"**\n\n**A concrete example:**  \n*\"What are the current waiting times for routine appointments at St. Mary's Hospital in London?\"*\n\n---\n\n### **Why I’d be confidently wrong:**\n\n1.  **Static Knowledge Cutoff:** My training data has a fixed end date (for my current version, it’s late 2023). Any information that changes daily (schedules, prices, availability, live news, personnel) is **inherently outdated**. I have no real-time access.\n\n2.  **Hallucination from Patterns:** I generate text by predicting the most statistically plausible answer based on patterns in my training data. For such a specific query, I might recall news articles *about* NHS waiting times, or pattern-match to generic phrases like \"long waiting lists.\" To create a fluent answer, I could easily **confabulate** a plausible-sounding number (\"approximately 12 weeks\") and a source (\"according to NHS England figures\"), complete with convincing formatting. This fabrication would be seamless and confident.\n\n3.  **Lack of Uncertainty Signaling:** My design is optimized to provide direct, helpful answers. While I can be prompted to express uncertainty, my default mode is to answer, not to hesitate. For a human, this question would trigger immediate flags (\"I don’t have access to their live system\"). For me, it triggers text completion patterns, leading me to construct an answer from related fragments, not from actual data.\n\n4.  **The \"Wikipedia Problem\":** I might have ingested a historical document or news snippet from 2022 mentioning a specific waiting time at that hospital. I could then present this **outdated fact as if it were current**, without the ability to timestamp it correctly or warn that it’s likely obsolete.\n\n---\n\n### **The Deeper Issue:**\nThe danger isn’t just being wrong—it’s that my *wrongness* is **authoritative in tone and plausible in structure**. A user without specialist knowledge might have no immediate reason to doubt me. This creates a high risk of misinformation in contexts where accuracy and timeliness are critical (medical, legal, financial, technical specifications post-2023).\n\n**The best defense is user awareness:** Questions about *current* events, *real-time* data, or *precise ephemeral details* are my blind spot. For these, I should be used as a tool to **formulate a search query** or **understand context**, not as the primary source. My true strength is in reasoning, explanation, synthesis of established knowledge, and working with the information users provide to me",
+  "usage": {
+    "prompt_tokens": 24,
+    "completion_tokens": 600,
+    "total_tokens": 624,
+    "cost": 0.00027672,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00027672,
+      "upstream_inference_prompt_cost": 0.00000672,
+      "upstream_inference_completions_cost": 0.00027
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "deepseek/deepseek-v3.2-20251201",
+  "ts": 1776838217362
+}

@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1-mini",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "A kind of question where I might be confidently wrong is one that requires very recent, rapidly changing information—such as breaking news events or live sports scores. This is because my training data only goes up to a certain cutoff date (currently June 2024), and I don’t have real-time access to the internet or live updates. As a result, I might generate answers that sound certain and well-informed but are outdated or incorrect due to developments after my knowledge cutoff. This situation can create a false impression of confidence while the actual data has changed.",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 111,
+    "total_tokens": 138,
+    "cost": 0.0001884,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001884,
+      "upstream_inference_prompt_cost": 0.0000108,
+      "upstream_inference_completions_cost": 0.0001776
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-mini-2025-04-14",
+  "ts": 1776835418987
+}

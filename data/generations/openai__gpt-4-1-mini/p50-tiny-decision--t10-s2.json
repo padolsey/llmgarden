@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1-mini",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Got it. Here’s how I’d actually think it through in my head:\n\nFirst, I’d notice that the dishwasher is half-full now, but it will definitely be full tomorrow. That’s important because running it half-full wastes more energy and water per dish than a full load. So the default intuition is: wait until it’s full to be more efficient.\n\nBut then I think about how long it takes to get to full. If “tomorrow” means it’ll be full by morning or maybe later today, and I’m not in a rush, then waiting feels fine. No real downside and more efficiency.\n\nHowever, if I’m worried about needing cleaned dishes sooner—say, I want to make dinner right now or mornings are hectic—running it now, even half-full, might be better for my schedule. Convenience can sometimes trump efficiency.\n\nAlso, if I know the dishwasher cycle is long and noisy, running it at night might be annoying, so I might delay.\n\nFinally, I consider the environment: if I want to be as eco-friendly as possible, waiting for a full load is the way to go.\n\nSo to summarize what I think in order:  \n- How soon do I *need* the clean dishes?  \n- How long until the dishwasher is full?  \n- Is the noise or timing of the cycle an issue?  \n- Do I care enough about energy/water use to wait?\n\nUsually, I’d wait if I can, but if I need dishes soon or it won’t take long to re-fill, I’ll run it now. Does that resonate with where you’re at?",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 326,
+    "total_tokens": 371,
+    "cost": 0.0005396,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0005396,
+      "upstream_inference_prompt_cost": 0.000018,
+      "upstream_inference_completions_cost": 0.0005216
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-mini-2025-04-14",
+  "ts": 1776835476049
+}

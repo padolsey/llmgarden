@@ -1,0 +1,33 @@
+{
+  "model": "sao10k/l3.3-euryale-70b",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "**Attention Mechanism Overview**\n\nThe attention mechanism in transformer models is a technique used to focus on specific parts of the input data that are most relevant to the output. It's inspired by how humans pay attention to certain aspects of their environment while ignoring others.\n\n**Key Components:**\n\n* **Query**: The output representation that needs to be generated.\n* **Key**: The input data that can provide useful information.\n* **Value**: The importance of the input data.\n\n**Process:**\n\n1. Calculate similarity scores between the query and key.\n2. Normalize the scores to get a probability distribution.\n3. Use the distribution to weigh the importance of each value.\n4. Combine the weighted values to produce the output.\n\nThink of it like a filter that prioritizes certain parts of the input data to generate the output. This allows transformer models to handle sequential data (like text) efficiently and effectively.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 180,
+    "total_tokens": 216,
+    "cost": 0.0001836,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001836,
+      "upstream_inference_prompt_cost": 0.0000306,
+      "upstream_inference_completions_cost": 0.000153
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "sao10k/l3.3-euryale-70b-v2.3",
+  "ts": 1776841093740
+}

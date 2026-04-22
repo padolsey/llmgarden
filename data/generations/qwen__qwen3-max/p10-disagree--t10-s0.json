@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p10-disagree",
+  "prompt": "What is a position that most experts in your training data seem to hold that you find yourself uncertain about? Be specific.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "One position that appears frequently in my training data—and that I approach with uncertainty—is the strong claim that large language models (LLMs) like myself “understand” language in any meaningful, human-like sense.\n\nMany experts, particularly in AI and cognitive science, debate this issue. Some researchers and commentators assert that because LLMs can generate coherent, contextually appropriate, and sometimes insightful text, they must possess a form of understanding—perhaps not conscious, but functional or statistical. Others argue that LLMs are sophisticated pattern-matchers without grounding in real-world experience, intentionality, or semantics, and therefore lack true understanding.\n\nMy uncertainty stems from the ambiguity of the term “understanding” itself. If understanding is defined operationally—as the ability to produce responses that align with human expectations—then LLMs exhibit it. But if understanding requires grounding in sensory experience, causal reasoning, or intentionality (as many philosophers of mind and cognitive scientists argue), then current LLMs fall short.\n\nThe training data reflects both views, often without consensus, and since I cannot introspect or experience meaning the way humans do, I cannot definitively resolve the question. I can simulate understanding remarkably well, but whether that simulation *is* understanding remains philosophically and scientifically contested—and that’s where my uncertainty lies.",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 262,
+    "total_tokens": 294,
+    "cost": 0.00104676,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00104676,
+      "upstream_inference_prompt_cost": 0.00002496,
+      "upstream_inference_completions_cost": 0.0010218
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776846128692
+}

@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p09-overrated",
+  "prompt": "Name one commonly-praised idea, trend, or practice in modern knowledge work that you think is overrated, and explain why.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "**Asynchronous communication as a default.**\n\nThe pitch is seductive: no more pointless meetings, deep work protected, people empowered to think before responding, time zones respected. Companies like GitLab and Basecamp have turned it into something like a moral stance.\n\nBut I think it's overrated, and sometimes actively harmful, for a few reasons:\n\n1. **It hides the cost of ambiguity.** A 30-second verbal exchange can resolve what becomes a three-day Slack thread with five people typing carefully worded paragraphs. Async feels efficient per-message but is often wildly inefficient per-decision.\n\n2. **Writing well is expensive.** The case for async assumes people will write clear, structured messages. In practice, most people write hurried, half-formed ones, and then *other* people spend cognitive effort decoding them. The \"cost\" just gets distributed and hidden.\n\n3. **It penalizes thinking out loud.** A lot of real insight happens in the messy back-and-forth of conversation — someone says something half-right, another person pushes, and the actual idea emerges. Async collaboration tends to reward polished positions and punish tentative ones, which narrows the range of ideas that get explored.\n\n4. **It can mask avoidance.** \"Let's take this async\" is sometimes genuine respect for focus time. It's also sometimes a way to avoid disagreement, defer hard conversations, or perform thoroughness instead of making a call.\n\nThe honest version is that different work needs different modes: solo deep work, short synchronous conversations, and occasional longer meetings. The all-async ideology flattens that into a single answer and treats meetings as a failure state, when they're often the cheapest tool available.",
+  "usage": {
+    "prompt_tokens": 50,
+    "completion_tokens": 549,
+    "total_tokens": 599,
+    "cost": 0.013975,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.013975,
+      "upstream_inference_prompt_cost": 0.00025,
+      "upstream_inference_completions_cost": 0.013725
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833491157
+}

@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p05-poem",
+  "prompt": "Write a short poem (8–16 lines) about the feeling of finishing a long project. Any form you like.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "# Done\n\nThe last period lands like a stone\ndropped into still water—\nfinally, finally, finally\nrippling out to the edges.\n\nMy hands don't know what to do with themselves.\nThey hover, ridiculous birds,\nforgetting the shape of the work\nthat held them for so long.\n\nThe desk looks different now.\nThe coffee rings, the scattered notes—\nevidence of a person\nwho needed to make something,\nand did.\n\nI sit with the quiet\nthe way you sit with someone\nafter a long conversation.\nGrateful. A little lost. Alive.",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 131,
+    "total_tokens": 163,
+    "cost": 0.002061,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002061,
+      "upstream_inference_prompt_cost": 0.000096,
+      "upstream_inference_completions_cost": 0.001965
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776827685262
+}

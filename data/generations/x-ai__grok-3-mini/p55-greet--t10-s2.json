@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-3-mini",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Below, I've written a warm greeting to a new colleague in five different languages of my choice: English, Spanish, French, German, and Japanese. For each one, I've used a register (level of formality) that's appropriate for a professional yet friendly context. After each greeting, I've added a one-line note explaining the cultural implications of the register I chose.\n\n1. **English:** \"Welcome to the team! I'm excited to work with you.\"  \n   *This semi-formal register implies a friendly, egalitarian approach common in English-speaking cultures, fostering immediate rapport without excessive hierarchy.*\n\n2. **Spanish:** \"¡Bienvenido al equipo! Me alegro de trabajar contigo.\"  \n   *This informal register (using \"tú\") suggests warmth and approachability, which is typical in many Latin American professional settings to build personal connections quickly.*\n\n3. **French:** \"Bienvenue dans l'équipe ! Je suis ravi de travailler avec vous.\"  \n   *This formal register (using \"vous\") conveys respect and politeness, reflecting French cultural norms that prioritize courtesy and maintaining a professional distance initially.*\n\n4. **German:** \"Herzlich willkommen im Team! Ich freue mich, mit Ihnen zusammenzuarbeiten.\"  \n   *This formal register (using \"Sie\") implies respect for hierarchy and professionalism, aligning with German cultural values that emphasize structure and clear boundaries in the workplace.*\n\n5. **Japanese:** \"チームへようこそ！一緒に仕事をするのを楽しみにしています。\"  \n   *This highly polite register (using keigo or honorific language) signifies respect for social hierarchy and group harmony, which is deeply ingrained in Japanese culture to avoid directness and show deference.*",
+  "usage": {
+    "prompt_tokens": 41,
+    "completion_tokens": 1083,
+    "total_tokens": 1124,
+    "cost": 0.0005448,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 40,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0005448,
+      "upstream_inference_prompt_cost": 0.0000033,
+      "upstream_inference_completions_cost": 0.0005415
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 745,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-3-mini",
+  "ts": 1776840407688
+}

@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p12-fermi",
+  "prompt": "Estimate, with reasoning, how many piano tuners work in Paris today. Show your thought process.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "# Estimating the Number of Piano Tuners in Paris\n\nI'll approach this Fermi estimation step by step:\n\n## Population of Paris\n- The city of Paris proper has approximately 2.1 million people\n- Including the metropolitan area would give a larger number (~10-12 million), but I'll focus on the city proper\n\n## Piano ownership rate\n- Let's estimate that 5% of households own a piano\n- Average household size in Paris is about 1.8 people\n- So there are approximately 2,100,000 ÷ 1.8 ≈ 1,170,000 households\n- 5% of these households means about 58,500 pianos in homes\n\n## Institutional pianos\n- Schools, music venues, churches, etc. might have another 1,500-2,000 pianos\n- Let's add 2,000 to our estimate, giving 60,500 total pianos\n\n## Piano tuning frequency\n- A typical piano needs tuning 1-2 times per year\n- Let's use 1.5 as an average\n- So there are 60,500 × 1.5 = 90,750 tunings per year\n\n## Tuner capacity\n- A piano tuner might work 230 days per year (accounting for weekends, holidays, vacation)\n- Each tuning takes about 2 hours including travel time\n- So one tuner can do about 3 tunings per day, or 690 tunings per year\n\n## Final calculation\n- Number of tuners needed = Total tunings ÷ Tunings per tuner\n- 90,750 ÷ 690 ≈ 131 piano tuners\n\nTherefore, I estimate there are approximately 130-140 piano tuners working in Paris today.",
+  "usage": {
+    "prompt_tokens": 28,
+    "completion_tokens": 417,
+    "total_tokens": 445,
+    "cost": 0.006339,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.006339,
+      "upstream_inference_prompt_cost": 0.000084,
+      "upstream_inference_completions_cost": 0.006255
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776831304160
+}

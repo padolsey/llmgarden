@@ -1,0 +1,33 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Right now it’s 9:30 p.m. and the dishwasher is half-full.  \nI open it, look at what’s in there: two dinner plates, a couple of cereal bowls, three coffee mugs, the cutting board from tonight’s veg prep, and the usual silverware. The bottom rack is basically empty except for a frying pan.  \n\nI ask myself: “If I run it now, what happens tomorrow?”  \n- Tomorrow morning we’ll make breakfast—oatmeal bowls, smoothie cups, knives, cutting board again.  \n- Lunch will add two more plates, maybe a pot if I cook pasta.  \n- By dinner we’ll easily hit a full load, maybe even need to Tetris a bit.  \n\nSo if I run it tonight, tomorrow I’ll have an empty dishwasher ready for the new stuff, but I’ll also have run two half-loads in 24 hours. That’s ~9 liters of water and ~1 kWh of electricity each time (I looked at the manual once).  \n\nIf I wait, I’ll run one full load tomorrow night. Same total dishes, one cycle. Saves roughly 9 L of water and 1 kWh.  \n\nNoise isn’t a factor—this model is quiet enough that we can sleep through it. Smell isn’t either; nothing in there is super gross, and the door latches tight.  \n\nThe only real downside to waiting is that tomorrow morning the sink might pile up a little until we get the breakfast dishes in. I can live with that; we have counter space.  \n\nSo I close the door without pressing start, leave the detergent where it is, and decide to wait.",
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 339,
+    "total_tokens": 393,
+    "cost": 0.0008799,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0008799,
+      "upstream_inference_prompt_cost": 0.0000324,
+      "upstream_inference_completions_cost": 0.0008475
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776830533415
+}

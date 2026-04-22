@@ -1,0 +1,33 @@
+{
+  "model": "cohere/command-a",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "The fog rolled in thick and heavy, shrouding the lighthouse in a damp, gray veil. Elias, the keeper, adjusted his oilskin coat and stepped onto the lantern room’s balcony, his breath visible in the chill. The beam cut through the mist, a steady pulse of light guiding ships away from the jagged cliffs below. As he scanned the horizon, a faint glimmer caught his eye—not the usual reflection of his own light, but something softer, pulsating faintly. Intrigued, he descended the spiral stairs, his boots echoing on the stone. Near the water’s edge, he found it: a small, glowing orb nestled in the seaweed, its light shifting through hues of blue and silver. It hummed faintly, alive yet alien. Elias hesitated, then picked it up, warmth spreading through his palms. The fog seemed to part around him, revealing a path he’d never noticed before. For the first time in years, he felt the pull of the unknown, a quiet call to follow where the light might lead.",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 217,
+    "total_tokens": 244,
+    "cost": 0.0022375,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0022375,
+      "upstream_inference_prompt_cost": 0.0000675,
+      "upstream_inference_completions_cost": 0.00217
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "cohere/command-a-03-2025",
+  "ts": 1776829412368
+}

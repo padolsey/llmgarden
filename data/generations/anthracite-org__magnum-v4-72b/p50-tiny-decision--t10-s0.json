@@ -1,0 +1,33 @@
+{
+  "model": "anthracite-org/magnum-v4-72b",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Here's how I'd think through the decision:\n\nFirst, I'd consider the urgency of needing clean dishes. If there are some aesthetically clean dishes that just need rinsing, or if I can hand wash the few dirty dishes that came out since last using the dishwasher, then I don't need to run it now. If most of the dishes came out dirty, there's nothing left to rinse or hand wash, and I need a full complement of clean dishes, then I probably should run it now.\n\nSecond, I'd think about power usage. In the US at least, it usually costs more to run electricity during the day than overnight. So if I want to save money, it's better to delay running it until overnight. This is assuming the dishwasher doesn't have a built-in timer to start the wash cycle delayed.\n\nThird, if it's an energy-efficient modern dishwasher, it probably uses less water than handwashing. So in that case, even if it's not completely full, running it might be better than handwashing. An old inefficient dishwasher though would be worse than handwashing some dishes.\n\nFinally, is there any risk the dishwasher won't be completely full tomorrow? Are there any major meals coming up tomorrow that would use more dishes? If I'm unsure, then running it now when there's enough dirty dishes to likely fill half the load might be wise.\n\nSo in summary - if I'm not super time-pressed to have clean dishes, the dishwasher is energy efficient, running it now is likely to be more expensive, and I'm pretty sure the dishwasher will be full tomorrow, I'd say wait until tomorrow to run it.",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 334,
+    "total_tokens": 381,
+    "cost": 0.00181,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00181,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0.00181
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthracite-org/magnum-v4-72b",
+  "ts": 1776841646697
+}

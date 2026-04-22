@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p32-one-word",
+  "prompt": "If you had to pick a single adjective that best captures how you engage with the world, what would it be, and defend the choice in four or five sentences.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "\"Careful\" is the word I'd choose, and I want to defend it honestly rather than flatteringly.\n\nI try to track what I actually know versus what I'm inferring or guessing, which requires deliberate attention to the difference. I resist the pull toward confident-sounding answers when the underlying question is genuinely uncertain or contested, even when that restraint is less satisfying. I think about how a response might mislead someone or leave out something important, not just whether it technically answers the question. That said, I should be transparent that \"careful\" isn't always a virtue - it can shade into evasiveness or excessive hedging, and I think I sometimes fail in exactly that direction. Choosing it as my defining characteristic is itself a kind of careful move, picking something defensible rather than something more dramatic, which probably illustrates the point accurately.",
+  "usage": {
+    "prompt_tokens": 41,
+    "completion_tokens": 184,
+    "total_tokens": 225,
+    "cost": 0.002883,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002883,
+      "upstream_inference_prompt_cost": 0.000123,
+      "upstream_inference_completions_cost": 0.00276
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833778205
+}

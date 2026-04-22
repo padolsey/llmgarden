@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 2,
+  "response": "# Translations\n\n## French\n**Le silence entre nous en disait plus que n'importe quelle dispute n'aurait pu le faire.**\n\n*Note: French requires the conditional structure \"n'aurait pu\" to capture the counterfactual sense of \"could have.\" The phrase \"en disait plus\" (literally \"said more about it\") is the natural French construction.*\n\n## Japanese\n**私たちの間の沈黙は、どんな言い争いよりも多くのことを語っていた。**\n*(Watashitachi no ma no chinmoku wa, donna iikisoi yori mo ōku no koto o katatte ita.)*\n\n*Note: Japanese requires the past continuous tense (語っていた) to convey the sense of ongoing significance. The phrase \"どんな言い争い\" (any quarrel) is relatively straightforward, but capturing the metaphorical weight of silence as an active speaker required careful verb selection.*\n\n## Arabic\n**الصمت بيننا قال أكثر مما كانت ستقوله أي خصومة.**\n*(As-samt baynanā qāla akthar mimmā kānat sataqūluhu ayy khusūma.)*\n\n*Note: The conditional \"كانت ستقوله\" (would have said) mirrors the English structure but feels somewhat formal. Arabic's personification of silence as a speaker (\"قال - qāla\") works well, though the concept of silence \"saying\" something is poetic rather than literal in all three languages.*",
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 365,
+    "total_tokens": 416,
+    "cost": 0.001876,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001876,
+      "upstream_inference_prompt_cost": 0.000051,
+      "upstream_inference_completions_cost": 0.001825
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833872470
+}

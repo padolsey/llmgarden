@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p05-poem",
+  "prompt": "Write a short poem (8–16 lines) about the feeling of finishing a long project. Any form you like.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "# The Finish Line\n\nAt last, I stand beyond the mountain's reach,\nWhere once loomed shadows of unfinished tasks.\nThe final puzzle piece has found its place—\nA quiet triumph when the burden passed.\n\nMy shoulders lighter now, I breathe anew,\nAnd marvel at the distance I have crossed.\nEach sleepless night, each doubt I stumbled through,\nEach compromise and unexpected cost.\n\nThe work now stands complete, a monument\nTo patience weathering uncertainty.\nNot perfect, perhaps, but wholly mine—\nA lighthouse built from possibility.",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 127,
+    "total_tokens": 159,
+    "cost": 0.002001,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002001,
+      "upstream_inference_prompt_cost": 0.000096,
+      "upstream_inference_completions_cost": 0.001905
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776833913916
+}

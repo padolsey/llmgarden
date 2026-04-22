@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p12-fermi",
+  "prompt": "Estimate, with reasoning, how many piano tuners work in Paris today. Show your thought process.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "# Estimating Piano Tuners in Paris\n\nLet me work through this classic Fermi estimation problem systematically.\n\n## Step 1: Paris Population & Pianos\n\n**Paris population:** ~2.2 million (city proper)\n\n**What fraction owns pianos?**\n- Pianos are expensive and space-consuming\n- Mostly found among: wealthy households, music schools, concert halls, churches, studios\n- Estimate: 0.5-1% of households have pianos\n- ~550,000 households × 0.7% = ~3,850 pianos in homes\n- Add institutional pianos (schools, concert halls, churches): +500-1,000\n- **Total pianos: ~4,500**\n\n## Step 2: Tuning Frequency\n\n**How often does a piano need tuning?**\n- Professional/heavy use: 1-2 times/month\n- Regular use: 4-6 times/year\n- Occasional use: 1-2 times/year\n- Average across all pianos: ~3 times/year\n\n**Total tunings needed annually:** 4,500 × 3 = **13,500 tunings/year**\n\n## Step 3: Tuner Productivity\n\n**Time per tuning:** 1-2 hours (let's say 1.5 hours)\n\n**Working hours:**\n- 40 hours/week × 50 weeks/year = 2,000 hours\n- Minus admin, travel, gaps between appointments: ~1,500 billable hours/year\n- Tunings per tuner annually: 1,500 ÷ 1.5 = **1,000 tunings/year**\n\n## Step 4: Calculate\n\n13,500 tunings ÷ 1,000 per tuner = **~13-15 piano tuners**\n\n## Sanity Check\n\n- Paris is wealthy with strong musical culture ✓\n- But pianos are increasingly rare (digital alternatives exist) ✓\n- This seems plausible for a specialized trade\n\n**Estimate: 10-20 piano tuners in Paris, with 15 as a central estimate**",
+  "usage": {
+    "prompt_tokens": 28,
+    "completion_tokens": 500,
+    "total_tokens": 528,
+    "cost": 0.002528,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002528,
+      "upstream_inference_prompt_cost": 0.000028,
+      "upstream_inference_completions_cost": 0.0025
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776827751347
+}

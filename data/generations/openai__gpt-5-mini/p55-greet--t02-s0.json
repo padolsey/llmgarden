@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "- English: \"Welcome to the team! I'm looking forward to working with you.\"\n  - Note: Friendly but professional — standard workplace English that balances approachability with respect.\n\n- Spanish: \"¡Bienvenido/a al equipo! Es un placer trabajar contigo.\"\n  - Note: I used 'contigo' (tú) for a warm, collegial tone; in more formal situations you might use 'usted' instead.\n\n- French: \"Bienvenue dans l'équipe ! C'est un plaisir de travailler avec vous.\"\n  - Note: Uses 'vous' (formal/respectful) — appropriate until you know whether to switch to the familiar 'tu'.\n\n- German: \"Herzlich willkommen im Team! Ich freue mich darauf, mit Ihnen zusammenzuarbeiten.\"\n  - Note: Formal register with 'Ihnen' (Sie) conveys professional respect; many workplaces only switch to 'du' after mutual agreement.\n\n- Japanese: \"はじめまして。チームへようこそ。どうぞよろしくお願いします。\"\n  - Note: Polite, humble phrasing (desu/masu) is standard for first-time workplace introductions and shows respect.",
+  "usage": {
+    "prompt_tokens": 40,
+    "completion_tokens": 1610,
+    "total_tokens": 1650,
+    "cost": 0.00323,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00323,
+      "upstream_inference_prompt_cost": 0.00001,
+      "upstream_inference_completions_cost": 0.00322
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1344,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776828214283
+}

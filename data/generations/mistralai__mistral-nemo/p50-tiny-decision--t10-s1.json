@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-nemo",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Sure, I'd be happy to walk you through my thought process on this, without using a specific framework.\n\n1. **Current Status Check**: I first look at the dishwasher. It's currently half-full, which means it has enough dishes for one good cycle, but it's not overflowing.\n\n2. **Immediate Needs**: I consider what dishes we'll use today and how many we might add to the half-full load. If it's a typical day, I estimate that we'll probably add another half-load or so.\n\n3. **Time Commitment**: I think about how much time I have now versus in the morning. If I start the dishwasher now, it will run for about two hours, and I'll have to unload it and reload it in the morning. If I wait, I'll only have to unload and reload once.\n\n4. **Energy Efficiency**: I consider whether it's more energy-efficient to run a half-empty cycle now or wait for a full load tomorrow. I know that modern dishwashers are designed to be efficient, but most still use less energy when they're fully loaded.\n\n5. **Personal Preference**: I think about my personal preference. I prefer having an empty dishwasher in the morning, so I don't have to think about it while getting ready for work. But I also don't want to add more dishes to the current half-load and potentially have to run two cycles tomorrow.\n\n6. **Future Dishes**: I consider what tomorrow might bring. If we're having a dinner party or will be using a lot of dishes for any reason, I might decide to wait to avoid having to run multiple cycles.\n\n7. **Balancing Act**: I weigh these factors against each other. In this case, I decide that it's not a big deal to run the dishwasher now because it's not completely empty, I have the time, and even if I have to run it again tomorrow, the additional energy and water usage will be minimal.\n\n8. **Decision**: Based on all these considerations, I decide to put the dishwasher on now.",
+  "usage": {
+    "prompt_tokens": 46,
+    "completion_tokens": 434,
+    "total_tokens": 480,
+    "cost": 0.00001828,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00001828,
+      "upstream_inference_prompt_cost": 9.2e-7,
+      "upstream_inference_completions_cost": 0.00001736
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-nemo",
+  "ts": 1776837650821
+}

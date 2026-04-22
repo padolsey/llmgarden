@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Here are the translations:\n\n---\n\n## French\n**« Le silence entre nous en disait plus que n'importe quelle dispute aurait pu le faire. »**\n\n📝 *Note:* The phrase \"said more\" required \"en disait plus\" — the pronoun **en** is necessary in French to refer back to the implicit idea being communicated. Dropping it would sound unnatural.\n\n---\n\n## Japanese\n**「私たちの間の沈黙は、どんな言い争いよりも多くを語っていた。」**\n*(Watashitachi no aida no chinmoku wa, donna iiarasoi yori mo ōku wo katatte ita.)*\n\n📝 *Note:* \"Argument\" was rendered as **言い争い** (*iiarasoi*, a verbal quarrel) rather than **議論** (*giron*, a logical debate), to preserve the emotional and interpersonal tension of the original.\n\n---\n\n## Arabic\n**«الصمتُ بيننا قالَ أكثرَ مما كانَ يمكنُ لأيِّ جدالٍ أن يقولَه.»**\n*(Al-ṣamtu baynanā qāla akthara mimmā kāna yumkinu li-ayyi jidālin an yaqūlah.)*\n\n📝 *Note:* The subjunctive construction \"could have\" required a circumlocution using **كان يمكن** (*kāna yumkinu*, \"it was possible\") followed by a subjunctive verb, since Arabic handles hypothetical past ability differently than English.\n\n---\n\n### Common Challenge Across All Three:\nThe original sentence **personifies silence** — giving it the ability to \"speak.\" All three languages accommodate this metaphor, but each required careful verb tense and modal handling to preserve both the **poetic tone** and the sense of **unrealized potential** in \"could have.\"",
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 465,
+    "total_tokens": 516,
+    "cost": 0.007128,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.007128,
+      "upstream_inference_prompt_cost": 0.000153,
+      "upstream_inference_completions_cost": 0.006975
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776827733988
+}

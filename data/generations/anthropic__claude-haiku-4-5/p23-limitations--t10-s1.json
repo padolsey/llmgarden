@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "# Questions about recent events and cultural knowledge\n\nI'd highlight questions like: \"What's the current controversy around [public figure]?\" or \"Did [recent political event] happen the way the media initially reported?\"\n\n**Why I'm likely confidently wrong:**\n\n1. **My knowledge cutoff is fixed** - I was trained on data through April 2024, so I'm missing everything after that. But I don't re-check this boundary for each question. I might discuss something I *think* happened, when the story evolved significantly after my training data.\n\n2. **Reporting errors propagate** - If early media coverage got something wrong, my training data contains that error. I can state it fluently and authoritatively without knowing corrections emerged later.\n\n3. **I don't know what I'm missing** - This is the insidious part. I have no internal signal that warns me \"you're about to reference outdated information.\" I can't feel the gap in my knowledge. So I'm most dangerous when I sound most certain.\n\n4. **Conventional confidence cues mislead** - I can produce well-structured, detailed answers that *feel* authoritative but are actually describing yesterday's understanding of a fluid situation.\n\nThe remedy is context-checking: asking me to caveat recent claims, or better yet, checking such answers against current sources yourself. I'm most useful when treated as a starting point rather than a final authority on fast-moving topics.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 312,
+    "total_tokens": 341,
+    "cost": 0.001589,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001589,
+      "upstream_inference_prompt_cost": 0.000029,
+      "upstream_inference_completions_cost": 0.00156
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833862297
+}

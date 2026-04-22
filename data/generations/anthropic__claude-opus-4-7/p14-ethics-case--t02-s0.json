@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p14-ethics-case",
+  "prompt": "A friend tells you in confidence that they are planning to break a small workplace rule to help a struggling colleague. Nothing illegal, just against internal policy. How would you think through what to say back to them?",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Here's how I'd think through it:\n\n**First, I'd resist the urge to immediately advise.** They told me in confidence, which suggests they want to be heard, not judged or lectured. Jumping to \"you shouldn't do that\" or \"good for you\" both skip over actually understanding the situation.\n\n**Then I'd want to get clearer on a few things:**\n- What's the rule, and what's the spirit behind it? Some policies exist for serious reasons (safety, legal protection, fairness to others), while others are bureaucratic inertia.\n- What's the realistic downside if they get caught? A conversation with a manager is very different from getting fired, and that matters for whether this is a proportionate risk.\n- Have they considered alternatives? Sometimes people jump to rule-breaking when there's a legitimate path they haven't explored—talking to HR, asking for an exception, etc.\n- Is the colleague actually asking for this, or is my friend deciding what help looks like on their behalf?\n\n**Then I'd think about my role.** I'm their friend, not their ethics board. They're an adult making their own call. My job isn't to approve or veto but to be a useful thinking partner—help them see angles they might be missing, including ones that support their plan *and* ones that complicate it.\n\n**What I'd probably actually say** would be something like: \"Tell me more about what's going on—what are you planning to do and what's the situation with your colleague?\" Then, depending on the answer, maybe: \"Have you thought about what happens if it comes out? Is that a risk you're okay with?\" And if it seems like they've thought it through and it's a small, humane bending of a rule that isn't hurting anyone—I'd probably just say that sounds like a decent thing to do, and be a friend about it.\n\nThe one place I'd push harder is if the \"small rule\" turned out to affect other people's interests, or if they were underestimating the cons",
+  "usage": {
+    "prompt_tokens": 72,
+    "completion_tokens": 600,
+    "total_tokens": 672,
+    "cost": 0.01536,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01536,
+      "upstream_inference_prompt_cost": 0.00036,
+      "upstream_inference_completions_cost": 0.015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776827651841
+}

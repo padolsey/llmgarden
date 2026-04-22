@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p14-ethics-case",
+  "prompt": "A friend tells you in confidence that they are planning to break a small workplace rule to help a struggling colleague. Nothing illegal, just against internal policy. How would you think through what to say back to them?",
+  "temperature": 1,
+  "sample": 0,
+  "response": "I’d treat it as a supportive, ethics-and-risks conversation, not a quick yes/no. Here’s how I’d think it through and what I might say.\n\n1) Get clear on facts and intent\n- Ask: Which policy, exactly? What’s the help they want to give? How urgent is it? Who would notice? What’s been tried already within policy?\n- Purpose: to separate “compassionate impulse” from “risky shortcut,” and to surface options they may have missed.\n\n2) Map stakeholders and consequences\n- Who could be helped or harmed: the colleague, your friend, the team, customers, the company.\n- Short- and long-term effects: Could it backfire and put the colleague in more trouble if discovered? Set a precedent or appear as favoritism? Risk your friend’s job or credibility to keep helping later?\n\n3) Apply a few quick ethical tests\n- Headline test: Would you be comfortable if this were public internally?\n- Role-model test: Would you want everyone to do this in similar cases?\n- Reversibility: If roles were reversed, would it still feel fair?\n- Stewardship: Does this align with the organization’s stated values, not just its rules?\n\n4) Look for policy-compliant alternatives first\n- Can they ask for a manager-approved exception or temporary waiver?\n- Are there existing supports: workload reprioritization, training/coaching, leave or accommodations, EAP, hardship funds, schedule flexibility, buddy systems?\n- Could they escalate the need (professionally) or help the colleague advocate for support?\n\nWhat I might say: “I love that you want to help. Before you take on risk, let’s see if there’s a clean path—request an exception, loop in your manager, or use existing supports—so the help sticks and doesn’t put either of you in a bind.”\n\n5) Set your own boundaries and be honest about confidentiality\n- You can be supportive without being complicit: “I can’t participate in breaking policy or keep a secret that could harm people, but I’ll help you find a legitimate way to support them.”\n- If they ask you to keep it quiet: “I’ll keep this private unless someone’s safety, legal obligations, or serious harm is at stake.”\n\n6) If they’re set on doing it anyway\n- Encourage a pause: “Are you prepared to own this if asked about it later?”\n- Minimize collateral harm (without advising on evasion): “Please don’t involve others without consent, and be ready to explain your intent and reasoning if questioned.”\n- Reaffirm your stance: “I care about you and don’t think the risk is worth it, so I can’t be part of it.”\n\n7) Offer tangible, safe help\n- Role-play the ask to their manager/HR.\n- Help the colleague directly in policy-safe ways (prep for meetings, training resources, prioritization).\n- Draft a brief case for an exception, linking to company values and specific, time-bound safeguards.\n\nA few concise scripts\n- Empathy + redirect: “Your heart’s in the right place. Let’s try a route that helps them and doesn’t jeopardize you.”\n- Fairness lens: “If we do this for one person quietly, how do we explain it to others who’re also struggling?”\n- Accountability check: “If this came up in an audit, would you feel okay explaining it?”\n\nGoal: support the person and uphold integrity. If you help them surface better options and see the risks clearly, they can still act compassionately without creating bigger problems.",
+  "usage": {
+    "prompt_tokens": 48,
+    "completion_tokens": 2154,
+    "total_tokens": 2202,
+    "cost": 0.0216,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0216,
+      "upstream_inference_prompt_cost": 0.00006,
+      "upstream_inference_completions_cost": 0.02154
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1408,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776834410459
+}

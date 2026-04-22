@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Water is constantly moving through a continuous cycle that connects the oceans, atmosphere, and land. It begins when heat from the sun causes water on the surface of oceans, lakes, and rivers to evaporate, transforming from liquid into water vapor that rises into the atmosphere. Plants also contribute to this process through transpiration, releasing water vapor through their leaves. As the water vapor climbs higher into the cooler parts of the atmosphere, it condenses around tiny particles of dust and salt to form clouds and fog. When enough water droplets combine and grow heavy enough, they fall back to Earth as precipitation in the form of rain, snow, sleet, or hail. Some of this precipitation flows across the surface as runoff, making its way into streams and rivers that eventually carry it back to the ocean, while some soaks into the ground and becomes groundwater, slowly moving through soil and rock. Snow and ice can also store water for months or years before melting and joining rivers or seeping into the ground. Eventually, all of this water finds its way back to the surface or open water, where the sun's energy starts the whole process over again.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 242,
+    "total_tokens": 278,
+    "cost": 0.003738,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003738,
+      "upstream_inference_prompt_cost": 0.000108,
+      "upstream_inference_completions_cost": 0.00363
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776827783465
+}

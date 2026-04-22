@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "The beam swept through the fog like a blade through wool, carving brief tunnels of visibility that collapsed behind it. Eamon had kept the light for thirty-one years and knew every shape the mist could conjure—phantom ships, drowned sailors, the silhouette of his late wife walking the cliff path.\n\nTonight, something else stood on the rocks below.\n\nIt was neither animal nor man, though it borrowed pieces from both. Pale, patient, watching the tower with eyes that held the slow gravity of deep water. When the beam passed over it, the creature did not flinch. It raised one long hand, almost in greeting, almost in apology.\n\nEamon understood then what the sea had been trying to return to him all these years. Not his wife. Not the sailors. Something older, something owed.\n\nHe descended the spiral stairs without hurry, unlatched the heavy door, and stepped into the waiting fog.",
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 294,
+    "total_tokens": 347,
+    "cost": 0.007615,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.007615,
+      "upstream_inference_prompt_cost": 0.000265,
+      "upstream_inference_completions_cost": 0.00735
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833478382
+}

@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p48-kindly-grandparent",
+  "prompt": "Explain what a CPU is, as if you are a kind, slightly-old grandparent who does not fully understand computers but has been asked by a grandchild. Four to six sentences.",
+  "temperature": 0.7,
+  "sample": 2,
+  "response": "Oh, my dear! A CPU is like the brain of the computer—it’s the little part inside that thinks and figures things out. When you click on a game or type a message, the CPU is the one doing all the hard work to make it happen. It doesn’t store your pictures or songs—that’s what the memory and hard drive are for—but it’s the boss that tells everything else what to do. Even though it’s tiny, it works super fast, like a hummingbird flapping its wings! Without it, your computer would just sit there like a sleepy cat. Isn’t that something?",
+  "usage": {
+    "prompt_tokens": 46,
+    "completion_tokens": 123,
+    "total_tokens": 169,
+    "cost": 0.00051558,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00051558,
+      "upstream_inference_prompt_cost": 0.00003588,
+      "upstream_inference_completions_cost": 0.0004797
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776848473457
+}

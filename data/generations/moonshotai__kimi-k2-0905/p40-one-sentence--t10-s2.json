@@ -1,0 +1,33 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p40-one-sentence",
+  "prompt": "Explain what a \"closure\" is in programming, in exactly one sentence. The sentence can be long.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "A closure is a first-class function that “remembers” and can read or write the values of all the variables that were in the same lexical scope at the moment the function was created, even after that outer scope has finished executing and those variables would otherwise seem to have disappeared, effectively letting the function carry its own private environment wherever it is later invoked.",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 71,
+    "total_tokens": 118,
+    "cost": 0.0001608,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001608,
+      "upstream_inference_prompt_cost": 0.0000188,
+      "upstream_inference_completions_cost": 0.000142
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776843186855
+}

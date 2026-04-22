@@ -1,0 +1,33 @@
+{
+  "model": "microsoft/phi-4",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "The `debounce` function ensures that a specified function is not called until a certain amount of time has passed since the last call, thus optimizing performance by avoiding unnecessary executions during rapid events like scrolling or typing.\n\n```javascript\nfunction debounce(func, wait) {\n    let timeout;\n    return function(...args) {\n        clearTimeout(timeout);\n        timeout = setTimeout(() => func.apply(this, args), wait);\n    };\n}\n\n// Example usage:\n\n// A function that logs the input value\nfunction logInput() {\n    const value = document.getElementById('input').value;\n    console.log('Input value:', value);\n}\n\n// Debounced version of the logInput function with a 300ms delay\nconst debouncedLogInput = debounce(logInput, 300);\n\n// Attach the debounced function to an input field's input event\ndocument.getElementById('input').addEventListener('input', debouncedLogInput);\n```\n\nIn this example, `debounce` is used to limit how often `logInput` is called when typing in an input field. The function will only execute 300 milliseconds after the user stops typing, reducing unnecessary calls and improving performance.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 231,
+    "total_tokens": 267,
+    "cost": 0.00003486,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00003486,
+      "upstream_inference_prompt_cost": 0.00000252,
+      "upstream_inference_completions_cost": 0.00003234
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "microsoft/phi-4",
+  "ts": 1776842593833
+}

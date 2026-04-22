@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-30b-a3b-instruct-2507",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Imagine you're reading a long sentence and trying to understand what \"it\" refers to—your brain doesn't process every word the same way. You focus more on certain words (like \"cat\" or \"ran\") and ignore others (\"the,\" \"and\"). That’s the core idea behind the **attention mechanism** in transformers.\n\nIn a transformer model, instead of treating all input words equally, attention lets the model decide how much focus to give each word when processing any given word. Think of it like a dynamic weighting system: when predicting the next word, the model looks at all the words in the input and asks, “How relevant is this word to the current one?”\n\nIt does this by calculating **attention scores**—a numeric measure of relatedness between words. These scores are used to compute a weighted sum of \"values\" (representations of the words), producing a new, context-aware representation of each word. This means a word like \"dog\" might be heavily weighted when the model is processing \"bark,\" but ignored when processing \"sunrise.\"\n\nThis allows transformers to understand long-range dependencies (e.g., linking a pronoun to a noun far back in a sentence) much better than older models. All of this is done in parallel for efficiency, thanks to matrix operations—ideal for modern GPUs.\n\nIn short: attention helps the model focus on the most relevant parts of the input, improving understanding and performance, without needing to process information sequentially. It's like giving the model a spotlight that moves dynamically across the text as it reads.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 314,
+    "total_tokens": 350,
+    "cost": 0.00009744,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00009744,
+      "upstream_inference_prompt_cost": 0.00000324,
+      "upstream_inference_completions_cost": 0.0000942
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-30b-a3b-instruct-2507",
+  "ts": 1776839011487
+}

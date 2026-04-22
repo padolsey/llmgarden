@@ -1,0 +1,33 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Right now, at 9:47 p.m., the top rack has six bowls, four glasses, and the ramen pot soaking. Bottom rack has plates from lunch, three coffee cups, and the greasy air-fryer basket. I run the counter and realize I’m out of clean forks for tomorrow’s breakfast, and the kids’ lunchboxes are still in the car with last week’s yogurt crust. \n\nIf I hit START, the machine will slosh 12 L of heated water around for 2 h 14 min and I’ll pay about 42¢ in electricity on the night-rate meter. That also means I can unload while the coffee brews at 6:30 a.m. and I won’t have to face the sour smell when I open the door tomorrow night. Downside: the half-empty tub feels wasteful and the green part of my brain starts chanting “you’re killing polar bears.”\n\nIf I wait, every breakfast bowl and spoon will sit in the sink all day while I’m at work; by 7 p.m. it’ll be a Jenga tower, the yogurt will have petrified, and I’ll still have to pre-rinse the same forks I need tonight. Net water use tomorrow will be identical whether the machine is half-full or full, but tomorrow I’ll also run an extra hand-washing cycle for the breakfast stuff, so total water actually goes up a liter or two. The polar bear still loses.\n\nI glance at the rate schedule: tonight is off-peak, tomorrow is peak between 4-9 p.m. when I’ll be home to hit START. Forty-two cents tonight vs. sixty-three cents tomorrow. The 21¢ difference is less than the chocolate I just stress-ate.\n\nI press ON. Machine starts humming, I get back the 10 mental minutes I would have spent tomorrow chiseling oatmeal off Tupperware. Polar bear will cope.",
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 393,
+    "total_tokens": 457,
+    "cost": 0.001243,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001243,
+      "upstream_inference_prompt_cost": 0.000064,
+      "upstream_inference_completions_cost": 0.001179
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776843278328
+}

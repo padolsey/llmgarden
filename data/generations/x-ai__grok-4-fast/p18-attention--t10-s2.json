@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-4-fast",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "### Attention Mechanism in Transformers\n\nImagine you're building a search engine for sentences: each word needs to \"pay attention\" to others to understand context, like how \"bank\" means a river edge or a money place depending on nearby words. Transformers, the backbone of models like GPT, handle sequences (e.g., text) without processing them one-by-one like old recurrent neural networks (RNNs). Instead, they use *attention* to link words efficiently in parallel—great for scaling, like multithreading in code.\n\nHere's how it works, in three steps:\n\n1. **Vectors for Everything**: Each word becomes three vectors: *Query* (what I'm looking for), *Key* (what others offer), and *Value* (the actual info). Think of queries as search terms and keys as indexed database entries.\n\n2. **Score and Weigh**: For a word, compute similarity scores by dot-producting its query with all keys (like cosine similarity in vector databases). Softmax turns scores into weights (probabilities summing to 1), emphasizing relevant words.\n\n3. **Weighted Output**: Multiply weights by values and sum—voilà, a context-aware representation for that word.\n\nThis \"self-attention\" captures long-range dependencies fast (O(n²) time, but parallelizable on GPUs). Multi-head attention runs this in parallel \"heads\" for diverse focus, like multiple search angles. Result? Transformers process entire inputs at once, powering translation, chatbots, and more—revolutionizing NLP like REST APIs did web services.\n\n(178 words)",
+  "usage": {
+    "prompt_tokens": 181,
+    "completion_tokens": 518,
+    "total_tokens": 699,
+    "cost": 0.0002682,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 180,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002682,
+      "upstream_inference_prompt_cost": 0.0000092,
+      "upstream_inference_completions_cost": 0.000259
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 204,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-4-fast",
+  "ts": 1776839882977
+}

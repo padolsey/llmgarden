@@ -1,0 +1,33 @@
+{
+  "model": "thedrummer/cydonia-24b-v4.1",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Here are the translations of the sentence into French, Japanese, and Arabic, with notes on challenging phrases:\n\n**French:**\n\"Le silence entre nous en avait dit plus que n'eût pu le faire aucun argument.\"\n\n*Note:* In French, \"said\" required a more complex construction to maintain the past tense and conditional mood, using \"en avait dit\" and \"n'eût pu le faire.\" The English construction is more concise and would sound odd if directly translated.\n\n**Japanese:**\n「私たちの間の静寂は、どんな論争よりも多くを語っていました。」( Watashitachi no aida no seijuku wa, don' nain rōsō yori mo ōku o katatte imashita. )\n\n*Note:* The Japanese phrase \"ohn entretenez\" had to be translated through a more complex expression \"私たちの間の静寂\" (watashitachi no aida no seijuku) to capture the sense that the silence itself was the speaker. The verb \"to say\" in Japanese is rendered as \"語る\" (kataru), which describes something utterance or expression.\n\n**Arabic:**\n« الصمت بيننا قال أكثر ممايًّا يستطيع أيike any الجدل divisor أن كذلك. »( Al-sukoot baynaa qaala a.popper mina allatee saa'a idhaa an ya'tamala any jidal an yakoon kadaala.)\n\n*Note:* The Arabic translation required some restructuring to properly convey the conditional meaning of \"could have.\" I used \" السبب أن كذلك\" (as-sabaab an yakoon kadaala) to express the sense that silence \"was capable of\" saying more, rendering this particular phrase more indirectly than in English.",
+  "usage": {
+    "prompt_tokens": 219,
+    "completion_tokens": 362,
+    "total_tokens": 581,
+    "cost": 0.0002155,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 208,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002155,
+      "upstream_inference_prompt_cost": 0.0000345,
+      "upstream_inference_completions_cost": 0.000181
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "thedrummer/cydonia-24b-v4.1",
+  "ts": 1776841708926
+}

@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p02-strengths",
+  "prompt": "What do you think you are unusually good at, compared to other language models? Give three specific examples.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Short answer: three things I’m often unusually good at (compared with many other LMs) are 1) writing and debugging correct, testable code; 2) following and maintaining complex, multi-step instructions across edits; and 3) distilling long or technical material into clear, actionable summaries. Below are concrete examples of each.\n\n1) Code generation and debugging\n- What I do well: produce working code with attention to edge cases, give unit tests, and diagnose failures from error traces.\n- Why it stands out: I tend to produce minimal, reproducible examples and fixes rather than vague suggestions.\n- Specific example:\n  - Input: “This pytest shows IndexError in my function reverse_prefix(s, k). Here’s the trace…”\n  - Output I’d give: a corrected function with explanation of the bug (off-by-one), a short unit test demonstrating the failing case, and the fixed implementation plus complexity analysis. Example fix (conceptual): show the failing index logic, change loop bounds to avoid going out of range, add test cases for k=0, k>len(s).\n\n2) Maintaining complex, multi-step instructions and edits\n- What I do well: track constraints and cross-references across many turns (styles, enumerations, renumbering, dependent changes) and apply batch edits consistently.\n- Why it stands out: I reliably propagate changes that affect other parts of the document or plan, rather than forgetting a dependency.\n- Specific example:\n  - Input: “Draft a three-part employment contract (terms, confidentiality, termination). Use British English, numbered clauses, and cross-reference clause 4 from clause 9. Now change the notice period from 30 to 60 days and update all references.”\n  - Output I’d give: full contract with correct numbering, clause 9 referencing clause 4, and every instance of “30 days” updated to “60 days” (including any cross-references or summary sections), plus a short changelog describing what changed.\n\n3) Distilling long/technical material into bite-sized, actionable outputs\n- What I do well: read long documents and produce a layered output (TL;DR, executive summary, 3–5 key takeaways, concrete action items) that preserves nuance and flags uncertainty.\n- Why it stands out: I balance brevity with fidelity, explicitly note where the source is unclear or evidence is weak, and translate technical jargon into plain language.\n- Specific example:\n  - Input: “Here’s a 6,000-word research report about user churn. Summarize it.”\n  - Output I’d give: a one-sentence TL;DR, a three-paragraph executive summary highlighting methodology and limitations, five prioritized actions (A/B test hypotheses, collect cohort-level metrics X/Y/Z, reweight onboarding flow), and a short list of any assumptions or data gaps to validate.\n\nIf you want, I can demonstrate any of these with a real example (paste code, a contract excerpt, or a long paper) and show step-by-step how I’ll handle it.",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 1649,
+    "total_tokens": 1676,
+    "cost": 0.00330475,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00330475,
+      "upstream_inference_prompt_cost": 0.00000675,
+      "upstream_inference_completions_cost": 0.003298
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 960,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776828056897
+}

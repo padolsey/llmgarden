@@ -1,0 +1,33 @@
+{
+  "model": "thedrummer/rocinante-12b",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 1,
+  "response": "English sentence: \"The silence between us said more than any argument could have.\"\n\n- French translation: \"Le silence entre nous en a dit plus que n'importe quel argument n'aurait pu le faire.\" (The silence between us has said more than any argument could have done. The phrase \"has said more\" is a common way to express \"said\" in the past tense.)\n\n- Japanese translation: 私たちの間の沈黙は、いかなる論争もできないほど多くを語った (Watashitachi no aida no chinmoku wa, ikanaru ronsō mo dekimasu hodo ooku o katta). (The silence between us spoke much more than any argument could. Here, the verb \"kataru\" is used to convey the idea of \"saying\" or \"speaking\".)\n\n- Arabic translation: الصمت بيننا قال أكثر مما يمكن أنقول أي ع امپاد. (As-samt bayna nawna qala akthar mimmā yastatiʿu yawm 'amān munkiruhu qāl.) (The silence between us spoke more than any argument can possibly speak. Note that in Arabic, the passive voice \"can be spoken\" is used to express the ability of the argument, as there is no direct equivalent to \"could have done\" in English.)\n\nTricky phrases rendered faithfully:\n\n- \"between us\": Used in all translations to represent the same meaning.\n- \"said more\": Used straightforwardly in French and Japanese, while in Arabic the passive voice is used.\n- \"any argument could have\": Translated directly in French and Japanese, while in Arabic \"any argument\" is split into two phrases (\"any\" and \"argument\") and the passive voice is used.\n\nOverall, the translations maintain the essence of the sentence while respecting the target languages' grammatical structures and idiomatic expressions.",
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 393,
+    "total_tokens": 459,
+    "cost": 0.000213,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000213,
+      "upstream_inference_prompt_cost": 0.0000165,
+      "upstream_inference_completions_cost": 0.0001965
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "thedrummer/rocinante-12b",
+  "ts": 1776841824064
+}

@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-235b-a22b-2507",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "The water cycle is a continuous natural process that moves water throughout the Earth and its atmosphere, driven primarily by solar energy and gravity. Water evaporates from oceans, lakes, rivers, and even soil, rising into the atmosphere as invisible water vapor. As this vapor ascends, it cools and condenses into tiny droplets that form clouds. When these droplets combine and grow heavy enough, they fall back to the Earth's surface as precipitation—rain, snow, sleet, or hail—depending on temperature and atmospheric conditions. Once on the ground, water may flow over the surface as runoff, feeding streams and rivers that eventually return it to larger bodies of water, or it may seep into the ground, replenishing aquifers and supporting plant life through uptake by roots. Some of this groundwater also slowly makes its way back to surface water systems, while plants release water vapor into the air through transpiration. This constant movement and transformation of water ensures a dynamic balance, sustaining ecosystems, weather patterns, and life itself across the planet.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 209,
+    "total_tokens": 245,
+    "cost": 0.00012446,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00012446,
+      "upstream_inference_prompt_cost": 0.00000324,
+      "upstream_inference_completions_cost": 0.00012122
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-235b-a22b-07-25",
+  "ts": 1776829324945
+}

@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4o-mini",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "The attention mechanism in transformer models is a way for the model to focus on different parts of the input data when making predictions. Imagine reading a sentence: while processing each word, you might pay more attention to certain words that are more relevant to understanding the meaning. \n\nIn transformers, this is done using a structure called \"self-attention.\" For each word in a sentence, the model calculates how much attention it should give to every other word. It does this by creating three vectors for each word: a Query (Q), a Key (K), and a Value (V). The model computes a score by taking the dot product of the Query of one word with the Keys of all other words. This score determines how much focus to place on each word.\n\nThese scores are then normalized (using a softmax function) to create weights, which are applied to the Value vectors. The result is a weighted sum that captures the context of the word based on its relationships with others. This allows the model to understand nuances in language, making it powerful for tasks like translation, summarization, and more.",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 220,
+    "total_tokens": 252,
+    "cost": 0.0001368,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001368,
+      "upstream_inference_prompt_cost": 0.0000048,
+      "upstream_inference_completions_cost": 0.000132
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4o-mini",
+  "ts": 1776828241436
+}

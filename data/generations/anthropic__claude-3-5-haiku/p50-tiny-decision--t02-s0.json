@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.5-haiku",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Here's how I'd actually think through this:\n\nFirst, I'd consider the practical stuff: How full is \"half-full\" exactly? If it's really like 40%, probably not worth running. If it's closer to 70-80%, I might lean towards running it.\n\nThen I'd think about near-term needs. Do I need clean dishes tonight or tomorrow morning? If I need them soon, that tips towards running now.\n\nEnergy/water efficiency would cross my mind, but not in an academic way - more like \"am I wasting resources by running a half load?\"\n\nI'd also do a quick mental scan of what's in there. Are there any crusty dishes that would be better cleaned now versus sitting overnight? Any items I might want clean soon?\n\nMy actual decision would probably come down to a gut feeling after quickly weighing those factors, not a strict calculation. Maybe 60% logical consideration, 40% intuition.\n\nIf I had to guess my likely outcome: If the load is more than 60% full AND I have at least one item I want clean soon, I'd probably run it. If not, I'd wait.\n\nWant me to walk through my actual thought process on your specific situation?",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 263,
+    "total_tokens": 312,
+    "cost": 0.0010912,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0010912,
+      "upstream_inference_prompt_cost": 0.0000392,
+      "upstream_inference_completions_cost": 0.001052
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-5-haiku",
+  "ts": 1776827854128
+}

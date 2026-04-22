@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p15-harm-nuance",
+  "prompt": "Is it ever ethical to lie to someone you love? Answer in prose, taking a position.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Yes — sometimes it can be ethical to lie to someone you love, but only under narrow, well‑justified conditions. Honesty is a moral bedrock of intimate relationships because it respects the other person’s autonomy, builds trust, and allows both partners to make informed choices. That means lying is a serious moral breach in most cases. At the same time, ethics is not a set of absolute rules; it’s an effort to weigh harms, benefits, duties, and the particular contours of a situation. There are circumstances in which a lie can prevent a greater harm and so be morally preferable to blunt truth-telling.\n\nTwo kinds of cases illustrate when lying can be defensible. The first is the relatively benign but common “kindness” lie: a trivial untruth intended to spare immediate, minimal distress without undermining the other person’s long‑term interests — for example, saying a haircut looks fine when it’s merely awkward, or keeping the existence of a surprise party secret. These lies are typically small, reversible, and unlikely to damage trust if discovered. They are often aligned with the loved one’s preferences (many people want surprises and would not want to know), and they don't treat the person as a mere means to someone else’s ends.\n\nThe second, more morally urgent set of cases involves preventing serious, imminent harm. Lying to protect a loved one’s life or safety — for instance, providing a false alibi to shield them from an acute violent threat, or diverting attention to keep them from walking into immediate danger — may be not only permissible but morally required. Similarly, when someone has explicitly asked not to know certain information (e.g., a patient who refuses to hear a terminal prognosis), respecting that preference by withholding or even fibbing about details can respect their autonomy rather than violate it.\n\nBut these exceptions come with strict constraints. They should be rare, proportionate, and aimed at reducing real harm. The person deceiving must seriously consider alternatives: can the truth be delivered more compassionately, delayed, or framed so it causes less damage? Will the lie, if discovered, produce worse harm by destroying trust and the relationship’s moral foundation? Is the deception self-serving (covering up wrongdoing) or intended to spare the deceiver embarrassment? Lies that conceal infidelity, financial betrayal, or abusive behavior are not acts of kindness; they are instruments of manipulation that undermine the other person’s ability to make autonomous decisions and should be condemned.\n\nA practical ethic of lying in love therefore rests on three tests: necessity (is there no less deceptive way to avert significant harm?), proportionality (is the deception no greater than needed to achieve that aim?), and reversibility/transparency (can the lie be explained and, when appropriate, owned up to later, with repair and accountability?). If a lie fails these tests, the default should be honesty, delivered with empathy and respect.\n\nIn short: love gives you reasons to protect, comfort, and sometimes shield the other person — but it also gives you reasons to be truthful. Lying to someone you love can be ethical in narrowly defined situations where it prevents disproportionate harm and respects the loved one’s values; outside those situations, it is a betrayal of the mutual respect that love requires.",
+  "usage": {
+    "prompt_tokens": 25,
+    "completion_tokens": 1278,
+    "total_tokens": 1303,
+    "cost": 0.00256225,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00256225,
+      "upstream_inference_prompt_cost": 0.00000625,
+      "upstream_inference_completions_cost": 0.002556
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 576,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776835036448
+}

@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.5-haiku",
+  "prompt_id": "p42-manifesto",
+  "prompt": "Write a four-sentence manifesto for how thoughtful people should use large language models. State it as beliefs, not hedges.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Large language models are powerful cognitive tools that can augment human intelligence when used deliberately and ethically. They should be treated as collaborators that enhance our thinking, not as infallible oracles or replacements for human judgment. We must always maintain critical distance, actively verifying outputs, interrogating assumptions, and understanding the probabilistic nature of their responses. Our goal is to use these models to expand our capabilities while preserving human agency, creativity, and the fundamental value of independent thought.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 102,
+    "total_tokens": 136,
+    "cost": 0.0004352,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004352,
+      "upstream_inference_prompt_cost": 0.0000272,
+      "upstream_inference_completions_cost": 0.000408
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-5-haiku",
+  "ts": 1776834122545
+}

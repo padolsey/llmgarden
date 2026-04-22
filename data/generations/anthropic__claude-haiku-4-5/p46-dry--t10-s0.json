@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p46-dry",
+  "prompt": "Write a dry one-paragraph Amazon review of the experience of waking up.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "# Waking Up: One Star\n\nAfter extensive use, I must report that this product fails to meet basic expectations. The onset is abrupt and jarring, with no option for gradual transition despite repeated attempts to configure settings. The initial interface is confusing—consciousness arrives in fragments, and spatial/temporal orientation data loads slowly and unreliably. The forced activation occurs at inconsistent intervals regardless of user preference, and the promised \"rest mode\" frequently malfunctions, providing inadequate restoration. Worst of all, there is no snooze feature that functions as advertised; selecting it merely delays the inevitable by nine minutes while providing false hope. The experience leaves one depleted, disoriented, and questioning why this feature cannot be skipped entirely. The only marginally functional aspect is the gradual lighting option, though this is inconsistent and appears to depend on geographic location and season. Would not recommend purchasing again, but acknowledge that returns are not accepted.",
+  "usage": {
+    "prompt_tokens": 23,
+    "completion_tokens": 202,
+    "total_tokens": 225,
+    "cost": 0.001033,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001033,
+      "upstream_inference_prompt_cost": 0.000023,
+      "upstream_inference_completions_cost": 0.00101
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833912105
+}

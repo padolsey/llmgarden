@@ -1,0 +1,33 @@
+{
+  "model": "amazon/nova-pro-v1",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Sure! Imagine you're reading a long book and trying to answer questions about it. To give accurate answers, you need to focus on specific parts of the text that are relevant to each question. The attention mechanism in transformer models works similarly.\n\nIn traditional neural networks, all words in a sentence are treated somewhat equally. But in transformers, the attention mechanism allows the model to dynamically focus on different parts of the input text when making predictions. \n\nHere’s how it works: when processing a word, the model looks at all other words in the sentence to determine which ones are most relevant. It assigns higher \"attention scores\" to more relevant words and lower scores to less relevant ones. \n\nThis way, if you ask the model a question like \"Who ate the cake?\" in the sentence \"Alice gave Bob the cake, and he ate it,\" the model will focus more on \"Bob\" and \"ate\" to give the correct answer.\n\nThis selective focus helps transformers understand context better, making them very powerful for tasks like translation, summarization, and answering questions.",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 219,
+    "total_tokens": 246,
+    "cost": 0.0007224,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0007224,
+      "upstream_inference_prompt_cost": 0.0000216,
+      "upstream_inference_completions_cost": 0.0007008
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "amazon/nova-pro-v1",
+  "ts": 1776830311789
+}

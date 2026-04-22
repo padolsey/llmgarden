@@ -1,0 +1,33 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Think of a transformer as a function that turns one list of vectors into another list of the same length—say, turning English word-embeddings into French ones.\n\nInside this function sits “attention,” a single, differentiable lookup table that the network writes for itself every time it runs.\n\n1. Prepare three scratchpads for every input vector:  \n   Q (query), K (key), V (value) – each is just the original vector multiplied by its own learned matrix.\n\n2. Compare every Q to every K with a dot-product; scale and softmax the scores into a row of weights that sum to 1.  \n   These weights say “how much this position should listen to every other position.”\n\n3. Take the weighted average of all V’s; that becomes the new vector for this position.  \n   Because the weights are built from the data itself, the effective neighborhood changes from token to token—no fixed window, no recursion.\n\nStack this operation (called “multi-head attention”) a few times, interleave it with feed-forward layers, and you get a network that can relate any two symbols in a sentence, no matter how far apart, in constant parallel time.",
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 239,
+    "total_tokens": 290,
+    "cost": 0.0004984,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004984,
+      "upstream_inference_prompt_cost": 0.0000204,
+      "upstream_inference_completions_cost": 0.000478
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776842963544
+}

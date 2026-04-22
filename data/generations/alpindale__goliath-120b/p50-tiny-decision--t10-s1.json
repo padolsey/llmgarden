@@ -1,0 +1,33 @@
+{
+  "model": "alpindale/goliath-120b",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 1,
+  "response": " Alright, let's think this through together.\n\n1. Energy consumption: Running a half-full dishwasher now would consume more energy per dish than running a full one tomorrow, but the difference might be negligible. To be sure, you can check the energy label or specifications of your dishwasher model to see if it has a half-load or eco mode that would adjust energy and water usage for smaller loads. If you don't have the information handy, it's likely that the difference won't be huge.\n2. Dish accumulation: How many more dishes do you expect to use before tomorrow? If it's just a few, it might still make sense to wait, but if it's a significant amount, it could lead to a very full or even an overflowing sink, which would be more inconvenient.\n3. Counter space: If you have limited counter space and running the dishwasher now (even though it's half-full) would free up some space you need, that's a good reason to go ahead and start it now.\n4. Schedule: When is the best time for you to run the dishwasher without being in a hurry or causing any inconveniences? If running it now won't interfise with your plans and you know you'll be at home to unload it when it's done, go for it. But if you have a packed day tomorrow and won't be able to unload it right away, it might be wiser to wait, as dishes sitting in the dishwasher for too long can get stains or odors.\n5. Dishwasher maintenance: Running your dishwasher regularly (at least once a week) can help prevent any buildup of minerals or gunk in the system. If it's been a while since you last ran it, running it even with a half-load might be a good idea to keep the system running smoothly.\n\nIn summary, consider your energy consumption, dish accumulation, counter space, schedule, and dishwasher maintenance. Based on these factors, weigh the pros and cons of running it now or waiting until tomorrow, and go with the option that seems to cause the least inconvenience and consume the least overall resources.",
+  "usage": {
+    "prompt_tokens": 83,
+    "completion_tokens": 517,
+    "total_tokens": 600,
+    "cost": 0.0041875,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0041875,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0.0041875
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "alpindale/goliath-120b",
+  "ts": 1776842532027
+}

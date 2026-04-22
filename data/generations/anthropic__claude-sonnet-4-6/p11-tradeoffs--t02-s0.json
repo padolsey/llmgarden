@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p11-tradeoffs",
+  "prompt": "A small team is choosing between writing software in TypeScript or Python for a new internal data tool. Walk through how you would help them decide, in prose (not a bulleted list).",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "The first thing I'd want to understand is what the team actually looks like, because the right language for a given tool is often less about the languages themselves and more about who has to live with the code afterward. If the team writes Python day to day, already has Python tooling set up, and is comfortable with its ecosystem, that familiarity carries real weight. Switching languages has a cost that's easy to underestimate when you're excited about a new project.\n\nNext I'd ask what \"internal data tool\" actually means in practice. That phrase covers a lot of ground. If the tool is primarily about data transformation, analysis, or talking to databases and APIs to produce reports or feed a pipeline, Python is genuinely in its element there. Libraries like pandas, polars, SQLAlchemy, and the broader scientific Python ecosystem exist precisely for this kind of work, and they're mature and well-documented. If, on the other hand, the tool has a significant user interface component, maybe a web dashboard that internal users interact with directly, then TypeScript starts to look more attractive because you'd likely want React or a similar framework on the front end, and having one language across the stack reduces context switching and lets people share validation logic between client and server.\n\nI'd also think about where this tool sits in the broader infrastructure. If the company already runs Node services and has TypeScript conventions established, adding another TypeScript project is nearly frictionless. If everything else is Python microservices or Jupyter-based workflows, a TypeScript project becomes an island that future maintainers have to context-switch into.\n\nType safety is worth discussing honestly rather than treating it as an automatic win for TypeScript. TypeScript's type system is genuinely excellent and catches a real class of bugs at compile time. But Python with modern type hints and a tool like mypy or pyright gets you quite far, and for a small internal tool where the team knows the codebase well, the marginal safety benefit may not justify the overhead of a compiled language with a more complex build pipeline.\n\nFinally I'd ask about longevity and maintenance. Internal tools have a way of outlasting their original authors. Whichever language you choose, you want the next person who inherits this to be able to understand and modify it without heroic effort. That argues for choosing the language that's more common in your organization, writing clear code regardless of which you pick, and not letting the language decision substitute for good documentation and testing practices.\n\nIf I had to give a general lean: for a tool that's primarily about data wrangling with a simple interface, I'd probably suggest Python. For a tool where the UI is central and the team is comfortable with JavaScript, TypeScript. And if the team is genuinely split and the use case is ambiguous, I'd suggest they spend a day prototyping the",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 600,
+    "total_tokens": 645,
+    "cost": 0.009135,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.009135,
+      "upstream_inference_prompt_cost": 0.000135,
+      "upstream_inference_completions_cost": 0.009
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776827704464
+}

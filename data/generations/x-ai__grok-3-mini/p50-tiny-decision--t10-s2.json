@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-3-mini",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Alright, let's break this down like I'm actually mulling it over in my head. I'm not going to slap a pros-and-cons list on this or anything structured; I'd just start thinking through it step by step, based on how I imagine I might handle this in real life. I'll try to be honest and practical, drawing from general experiences people have with stuff like this.\n\nFirst off, I'd picture my dishwasher situation. You said it's half-full now, which makes me think: Is it really half-full, or is it more like 60%? That matters because if it's closer to full, I might lean toward running it sooner. But assuming it's genuinely half, my initial gut reaction is that it's probably not worth it yet. Why? Because dishwashers are more efficient when they're packed—it's just a waste of water and energy otherwise. I've heard that running a half-load can use almost as much resources as a full one, so I'd feel a bit guilty about that, especially if I'm trying to be mindful of bills or the environment.\n\nOkay, next I'd think about my day-to-day routine. Do I need clean dishes tonight? Like, if I'm cooking dinner or have people over, waiting could mean I end up with a sink full of dirty stuff, which might force me to wash by hand. That's annoying and defeats the purpose of having a dishwasher. On the flip side, if tonight's a chill night and I can just rinse and stack things in the sink, waiting until tomorrow doesn't sound bad. I'd ask myself: What's my schedule like tomorrow? If I'm super busy, I might regret waiting and end up with a mountain of dishes. But if tomorrow's open, filling it up fully seems smarter.\n\nThen, money comes into play. I'd calculate roughly how much this costs. A dishwasher cycle might use, say, 1-2 kWh of electricity and a bunch of water—let's say around $0.20 to $0.50 per load, depending on where I live. If I run it now on half-full, that's basically paying for half the efficiency. Waiting means one load tomorrow instead of potentially two (if I run it now and then again later), so I'd save a little cash. But is that savings worth the hassle? Probably, unless energy prices are skyrocketing in my area.\n\nI'd also consider the environmental angle, because that's something I think about more these days. Running it half-full feels wasteful—extra water going down the drain, more CO2 from the energy. If I'm trying to be eco-friendly, I'd probably wait. But life's not perfect, and if I'm in a rush, I might justify it by thinking, \"Well, at least I'm not using disposable stuff.\"\n\nNow, what about risks? If I wait until tomorrow, will it actually get full? You said \"definitely full,\" so I'll take your word for it, but in my head, I'd wonder if that's realistic. What if no one uses many dishes tonight?",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 1123,
+    "total_tokens": 1168,
+    "cost": 0.000574325,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 3,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000574325,
+      "upstream_inference_prompt_cost": 0.000012825,
+      "upstream_inference_completions_cost": 0.0005615
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 523,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-3-mini",
+  "ts": 1776840374623
+}

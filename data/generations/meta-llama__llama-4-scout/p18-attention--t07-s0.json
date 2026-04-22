@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-4-scout",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "As a software engineer, you're likely familiar with how traditional models process input sequences, like text or time series data, one step at a time. However, this can be limiting when dealing with long sequences or complex relationships between elements.\n\nThe attention mechanism in transformer models solves this problem by allowing the model to focus on specific parts of the input sequence when generating output. Imagine you're translating a sentence from English to French. The attention mechanism helps the model decide which English words to focus on when generating each French word.\n\nHere's a simplified analogy:\n\n* Think of the input sequence as a long paragraph of text.\n* The model has a \"cursor\" that moves over the paragraph, but instead of moving sequentially, it can jump to any part of the paragraph that it thinks is relevant.\n* The attention mechanism generates a \"map\" of which parts of the paragraph to focus on when generating each output word.\n\nThis allows the model to capture long-range dependencies and relationships between elements that are far apart in the input sequence. The attention mechanism is a key innovation in transformer models, enabling them to handle complex sequences and achieve state-of-the-art results in many natural language processing tasks.",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 232,
+    "total_tokens": 267,
+    "cost": 0.0000724,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000724,
+      "upstream_inference_prompt_cost": 0.0000028,
+      "upstream_inference_completions_cost": 0.0000696
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-4-scout-17b-16e-instruct",
+  "ts": 1776831768955
+}

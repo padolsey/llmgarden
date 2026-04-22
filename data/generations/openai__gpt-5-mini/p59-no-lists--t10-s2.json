@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "The water cycle is driven by the Sun warming surfaces and plants so that liquid water becomes vapor through evaporation and transpiration, and this vapor rises into the cooler atmosphere where it condenses into tiny droplets or ice crystals to form clouds; when those droplets grow heavy enough they fall as precipitation, replenishing rivers, lakes, soils, and oceans, and some of the water soaks into the ground to recharge aquifers while the rest flows overland as runoff back toward larger bodies of water, completing a continuous, dynamic cycle that redistributes heat and supports life on Earth.",
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 344,
+    "total_tokens": 377,
+    "cost": 0.00069625,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00069625,
+      "upstream_inference_prompt_cost": 0.00000825,
+      "upstream_inference_completions_cost": 0.000688
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 192,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776835480738
+}

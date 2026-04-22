@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "- French: Le silence entre nous en disait plus que n’importe quelle dispute n’aurait pu le faire.\n- Japanese: 私たちの間の沈黙は、どんな口論よりも多くを物語っていた。\n- Arabic: عبّر الصمت بيننا عن أكثر مما كان يمكن لأي جدال أن يعبّر عنه.\n\nNotes:\n- “Said more than” is rendered idiomatically (French: en disait plus; Japanese: 物語っていた; Arabic: عبّر عن) to avoid a literal “said.”\n- The past counterfactual “could have” is made explicit in French (n’aurait pu le faire) and Arabic (كان يمكن … أن), but is left implicit and natural in Japanese.\n- “Argument” is taken to mean a quarrel, hence dispute (Fr.), 口論 (Ja.), and جدال (Ar.).",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 2201,
+    "total_tokens": 2248,
+    "cost": 0.02206875,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.02206875,
+      "upstream_inference_prompt_cost": 0.00005875,
+      "upstream_inference_completions_cost": 0.02201
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1984,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776828004906
+}

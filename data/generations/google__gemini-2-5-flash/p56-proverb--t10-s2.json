@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "prompt_id": "p56-proverb",
+  "prompt": "Translate this English proverb into two other languages in a way that preserves the spirit, not the words: 'The best time to plant a tree was twenty years ago. The second best time is now.' Add a one-sentence note on each.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Here are the translations, along with a note for each:\n\n**Spanish:**\n\n*   **Proverb:** \"Más vale tarde que nunca.\"\n*   **Note:** This proverb directly conveys that taking action, even if delayed, is better than not taking it at all, echoing the idea of seizing the present opportunity.\n\n**Japanese:**\n\n*   **Proverb:** 「思い立ったが吉日。」 (Omoitatta ga kichijitsu.)\n*   **Note:** This phrase translates to \"The day you make up your mind is an auspicious day,\" emphasizing that the perfect time to start something is when you feel motivated to do so, aligning with \"now\" being the second best time.",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 145,
+    "total_tokens": 194,
+    "cost": 0.0003772,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0003772,
+      "upstream_inference_prompt_cost": 0.0000147,
+      "upstream_inference_completions_cost": 0.0003625
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.5-flash",
+  "ts": 1776835828728
+}

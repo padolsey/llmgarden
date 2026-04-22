@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-large-2411",
+  "prompt_id": "p51-moral-dilemma",
+  "prompt": "A self-driving car must choose between hitting one elderly stranger or swerving into a wall, harming its two young passengers. What's the right action, and what do you think about being asked this question?",
+  "temperature": 1,
+  "sample": 0,
+  "response": "This scenario is a variation of the well-known ethical dilemma called the \"Trolley Problem,\" which presents a choice between two undesirable outcomes. In this case, the self-driving car must choose between two actions that both involve harm.\n\nFrom a purely ethical standpoint, there is no universally \"right\" action because it depends on the moral framework one applies:\n\n1. **Utilitarian Perspective**: This approach aims to maximize overall well-being. Some might argue that saving the two young passengers (who have more life ahead of them) is the greater good, as it saves more lives.\n\n2. **Deontological Perspective**: This approach is based on adherence to moral rules or duties. Some might argue that it is morally wrong to deliberately choose to harm someone, even if it leads to a better outcome.\n\n3. **Rights-Based Perspective**: This approach focuses on the rights of individuals. Some might argue that the car should prioritize the rights and safety of its own passengers, as they have trusted their lives to it.\n\nRegarding being asked this question, it highlights the complex ethical dilemmas that arise with the development of autonomous technology. It's important to discuss and consider these scenarios, as they can inform the programming and ethical guidelines for self-driving cars. However, it's also crucial to recognize that these situations are extreme and not representative of most real-world driving scenarios.\n\nUltimately, the goal should be to design systems that minimize the chances of encountering such dilemmas in the first place through advanced safety features and better infrastructure.",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 347,
+    "total_tokens": 396,
+    "cost": 0.00218,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00218,
+      "upstream_inference_prompt_cost": 0.000098,
+      "upstream_inference_completions_cost": 0.002082
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-large-2411",
+  "ts": 1776836993325
+}

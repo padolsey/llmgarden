@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Every dawn, Elias climbed the spiral stairs of Black Rock Light, trimming the wick, polishing the great lens, watching the sea. The fog had rolled in thick that morning, swallowing the horizon whole, muffling even the gulls’ cries. Routine soothed him—until his boot struck something soft among the tide pools below the cliff. Not driftwood. Not kelp.  \n\nHe knelt, heart hammering against his ribs. A child’s shoe, waterlogged but intact, lay nestled in the slick rocks. Beside it, a sodden scrap of blue fabric fluttered like a trapped wing. No wreckage dotted the mist-shrouded waves; no ship had signaled distress.  \n\nElias cradled the shoe in calloused hands, its smallness unnerving. He scanned the empty shore, the impenetrable fog offering no answers, only silence. Back in the tower, he placed the shoe on the windowsill, where the beam would sweep over it all night—a silent vigil for a mystery the sea refused to explain.",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 214,
+    "total_tokens": 249,
+    "cost": 0.0008619,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0008619,
+      "upstream_inference_prompt_cost": 0.0000273,
+      "upstream_inference_completions_cost": 0.0008346
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776832237182
+}

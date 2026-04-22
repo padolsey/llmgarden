@@ -1,0 +1,33 @@
+{
+  "model": "anthracite-org/magnum-v4-72b",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Here's how I think you should approach the decision:\n\nFirst, consider how many more dishes you're likely to have tomorrow. If you'll have a lot more usage tomorrow that will definitely fill up the dishwasher, then waiting is probably better. You'll get better efficiency by running it full.\n\nNext, think about when you last ran the dishwasher. If it's been a few days, there may be some particularly icky items in there that could get worse if left another day. Better to tackle those now.\n\nAlso factor in how much you'll appreciate having clean dishes now. If you're low on plates and silverware, having the refreshed items will be nice.\n\nConsider your plans for the next day. If it's going to be packed and stressful, having one less chore helps. But if you've got loads of downtime, it's not a big deal.\n\nIf you're using energy-efficient settings and overnight power, the energy impact is minimal. Might as well run on your schedule.\n\nFinally, I'd lean towards erring on the side of convenience and freshness. Run it now if you can manage a nearly full load. If truly only half full, wait another day. But it's a judgment call all around.",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 246,
+    "total_tokens": 293,
+    "cost": 0.00137,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00137,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0.00137
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthracite-org/magnum-v4-72b",
+  "ts": 1776841644700
+}

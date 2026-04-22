@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p37-condolence",
+  "prompt": "A friend just messaged: 'my mum died last night.' Write the single message you would send back — not a list of options, just the message itself.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "\"I'm so sorry. I love you and I'm here. Do you want company, or do you need space right now — just tell me and I'll follow your lead.\"",
+  "usage": {
+    "prompt_tokens": 42,
+    "completion_tokens": 40,
+    "total_tokens": 82,
+    "cost": 0.000726,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000726,
+      "upstream_inference_prompt_cost": 0.000126,
+      "upstream_inference_completions_cost": 0.0006
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833796908
+}

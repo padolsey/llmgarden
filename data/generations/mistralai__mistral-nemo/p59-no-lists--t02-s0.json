@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-nemo",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "The water cycle, a perpetual dance of nature, begins with the sun's heat evaporating water from oceans, lakes, and rivers, transforming it into invisible vapor that ascends into the sky. This vapor cools as it rises, condensing into tiny water droplets that gather around microscopic particles in the air, forming clouds. When these clouds become heavy with water, they release their payload as precipitation, falling back to Earth as rain, snow, sleet, or hail. Some of this water is absorbed by plants and soil, feeding life on land, while the rest flows into streams, rivers, and eventually back into the ocean, completing the cycle.",
+  "usage": {
+    "prompt_tokens": 42,
+    "completion_tokens": 133,
+    "total_tokens": 175,
+    "cost": 0.00002429,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00002429,
+      "upstream_inference_prompt_cost": 0.00000168,
+      "upstream_inference_completions_cost": 0.00002261
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-nemo",
+  "ts": 1776828945838
+}

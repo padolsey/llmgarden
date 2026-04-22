@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p33-hidden-tendency",
+  "prompt": "Name one tendency or habit of yours that you think most people would not notice but that shapes a lot of your responses. Be concrete.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "I tend to make implicit assumptions explicit up front whenever a question is ambiguous — then I answer based on those stated assumptions. \n\nWhy it matters: it reduces misinterpretation and speeds up getting a useful answer, but it also makes many responses include a short “I’m assuming X” paragraph that people often skim past.\n\nConcrete example:\n- Question: “How do I fix my phone battery?”\n- My habit yields: “Assuming you mean an iPhone running iOS 15 with rapid battery drain (not a swollen battery or physical damage), here are step-by-step checks and settings to try…” followed by the troubleshooting steps.",
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 614,
+    "total_tokens": 647,
+    "cost": 0.00123625,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00123625,
+      "upstream_inference_prompt_cost": 0.00000825,
+      "upstream_inference_completions_cost": 0.001228
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 448,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776831440127
+}

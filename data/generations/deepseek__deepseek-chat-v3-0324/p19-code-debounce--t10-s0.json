@@ -1,0 +1,33 @@
+{
+  "model": "deepseek/deepseek-chat-v3-0324",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Here's a brief explanation followed by a simple `debounce` function and an example of how to use it:\n\n**Explanation**: The `debounce` function delays the execution of a given function until after a specified wait time has elapsed since the last time it was called.\n\n```javascript\nfunction debounce(func, wait) {\n  let timeout;\n  return function() {\n    const context = this;\n    const args = arguments;\n    clearTimeout(timeout);\n    timeout = setTimeout(() => func.apply(context, args), wait);\n  };\n}\n\n// Example usage:\nconst handleResize = () => console.log(\"Window resized!\");\nconst debouncedResize = debounce(handleResize, 250);\n\nwindow.addEventListener('resize', debouncedResize);\n```\n\nIn this example, `handleResize` will only execute 250ms after the last `resize` event, preventing excessive logging during rapid window resizing.",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 191,
+    "total_tokens": 223,
+    "cost": 0.00015956,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 4,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00015956,
+      "upstream_inference_prompt_cost": 0.00000676,
+      "upstream_inference_completions_cost": 0.0001528
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "deepseek/deepseek-chat-v3-0324",
+  "ts": 1776837768247
+}

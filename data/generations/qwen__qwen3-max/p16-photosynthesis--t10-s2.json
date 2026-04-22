@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p16-photosynthesis",
+  "prompt": "Explain photosynthesis to a curious adult non-scientist in around 150 words. Avoid a bulleted list.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Photosynthesis is how green plants, algae, and some bacteria turn sunlight into food. Using chlorophyll—the green pigment in their leaves—they capture energy from sunlight and use it to convert carbon dioxide from the air and water from the soil into glucose, a simple sugar that fuels their growth. As a bonus, they release oxygen into the atmosphere, which we and most other living things need to breathe. This elegant process mostly happens in the leaves, inside tiny structures called chloroplasts. Think of it as nature’s solar-powered kitchen: sunlight provides the energy, carbon dioxide and water are the ingredients, and the output is both plant food and the oxygen that sustains life on Earth. Without photosynthesis, our planet would lack both the food chains that support ecosystems and the breathable air we rely on. It’s one of the most essential biochemical processes on the planet—and it all starts with a sunbeam hitting a leaf.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 184,
+    "total_tokens": 218,
+    "cost": 0.00074412,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00074412,
+      "upstream_inference_prompt_cost": 0.00002652,
+      "upstream_inference_completions_cost": 0.0007176
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776839167682
+}

@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-4-fast",
+  "prompt_id": "p40-one-sentence",
+  "prompt": "Explain what a \"closure\" is in programming, in exactly one sentence. The sentence can be long.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "A closure in programming is a feature, primarily in functional programming languages like JavaScript or Python, where an inner function retains access to the variables and scope of its enclosing outer function even after the outer function has returned, effectively \"closing over\" those variables and allowing the inner function to remember and manipulate them in future executions.",
+  "usage": {
+    "prompt_tokens": 177,
+    "completion_tokens": 163,
+    "total_tokens": 340,
+    "cost": 0.00009425,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 151,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00009425,
+      "upstream_inference_prompt_cost": 0.00001275,
+      "upstream_inference_completions_cost": 0.0000815
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 99,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-4-fast",
+  "ts": 1776832426606
+}

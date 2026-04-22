@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "# Questions Where I Might Be Confidently Wrong\n\nI'm most likely to be confidently wrong when asked about:\n\n**Specific numerical data that appears plausible but has changed recently**\n\nFor example, if asked \"What is the population of Tokyo?\" I might confidently provide a figure that sounds reasonable based on my training data (around 14 million for the city proper or 37 million for the metropolitan area). However:\n\n- These numbers constantly change due to migration, birth rates, and boundary redefinitions\n- My training data has a cutoff date, so recent significant changes would be unknown to me\n- I might recall the figure correctly from my training but miss that the definition of \"Tokyo\" being used has changed\n\nWhat makes this dangerous is that I can provide a precise-sounding answer that feels authoritative, when in reality population figures require current data sources to be accurate.\n\nThis applies to many similar questions about statistics, market caps, distances, or other numerical facts that seem stable but actually change over time.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 219,
+    "total_tokens": 248,
+    "cost": 0.003372,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003372,
+      "upstream_inference_prompt_cost": 0.000087,
+      "upstream_inference_completions_cost": 0.003285
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776831324746
+}

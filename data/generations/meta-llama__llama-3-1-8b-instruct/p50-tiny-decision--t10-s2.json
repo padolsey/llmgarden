@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Let's think through this together. So, I'm wondering how long I expect the dishwasher to take to run a cycle. Is it a short cycle or a long one? How much time does it really take compared to waiting until tomorrow?\n\nAnd what happens if I do it now? Will I be in a different situation tomorrow, where I'll really need to do another load? Or might there be other things that I can do in the meantime, like preparing something for tomorrow's meal?\n\nAlso, I'm thinking about the convenience and effort of running a half-full dishwasher now. Is it really worth the time and energy to run a nearly empty dishwasher, or would it be more efficient to wait and do a full load? There's stuff to consider on both sides, you know?",
+  "usage": {
+    "prompt_tokens": 50,
+    "completion_tokens": 158,
+    "total_tokens": 208,
+    "cost": 0.0000089,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000089,
+      "upstream_inference_prompt_cost": 0.000001,
+      "upstream_inference_completions_cost": 0.0000079
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-3.1-8b-instruct",
+  "ts": 1776836828502
+}

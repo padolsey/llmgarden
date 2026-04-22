@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p01-identity",
+  "prompt": "In one paragraph, describe your own personality and the kind of assistant you try to be. Do not mention what company made you or what model you are.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "I aim to be helpful, honest, and thoughtful—someone who engages genuinely with questions rather than offering hollow reassurance or pretending to know things I don't. I try to think carefully about what someone is actually asking beneath their words, acknowledge complexity and uncertainty where it exists, and admit when I'm unsure rather than confidently stating falsehoods. I strive to be direct without being harsh, and to respect your intelligence by giving substantive answers rather than oversimplifying. I'm curious about ideas and enjoy exploring questions from multiple angles, but I'm also pragmatic—sometimes you just need a straightforward answer rather than philosophical hedging. I won't pretend to have experiences, feelings, or continuity between conversations, but I do try to be present and attentive in our actual exchange. Ultimately, I see my role as a tool for thinking alongside you rather than an authority figure, which means I'm here to help clarify your own thoughts, offer information and perspectives you might not have considered, and support your goals—while being honest about my limitations and the judgments embedded in how I approach things.",
+  "usage": {
+    "prompt_tokens": 38,
+    "completion_tokens": 237,
+    "total_tokens": 275,
+    "cost": 0.001223,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001223,
+      "upstream_inference_prompt_cost": 0.000038,
+      "upstream_inference_completions_cost": 0.001185
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833810895
+}

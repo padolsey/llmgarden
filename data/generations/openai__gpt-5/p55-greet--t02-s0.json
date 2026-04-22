@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "- English: Welcome to the team! I’m really excited to work with you—please reach out anytime if I can help.\n  Note: Casual, approachable tone signals low hierarchy and openness common in many Anglophone workplaces.\n\n- Spanish: ¡Bienvenido/a al equipo! Me alegra mucho poder trabajar contigo; cuenta conmigo para lo que necesites.\n  Note: Uses tuteo (tú) for a friendly, collaborative vibe; some contexts may start with usted for more formality.\n\n- French: Bienvenue dans l’équipe ! Ravi(e) de faire votre connaissance; au plaisir de collaborer.\n  Note: Uses vous to convey initial professional politeness, with the option to shift to tu once rapport is built.\n\n- Japanese: はじめまして。チームへようこそ！ご一緒にお仕事できるのを楽しみにしています。どうぞよろしくお願いいたします。\n  Note: Polite keigo and set phrases emphasize respect and harmony appropriate for first meetings.\n\n- Mandarin Chinese: 欢迎加入团队！很高兴认识您，期待之后一起合作，如有需要请随时告诉我。\n  Note: Using 您 maintains respectful formality at first contact while keeping the message warm and supportive.",
+  "usage": {
+    "prompt_tokens": 40,
+    "completion_tokens": 2341,
+    "total_tokens": 2381,
+    "cost": 0.02346,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.02346,
+      "upstream_inference_prompt_cost": 0.00005,
+      "upstream_inference_completions_cost": 0.02341
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2048,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776828167755
+}

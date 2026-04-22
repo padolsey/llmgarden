@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-30b-a3b-instruct-2507",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "The water cycle is a continuous and dynamic process driven by the sun’s energy, where water moves seamlessly between the Earth's surface and the atmosphere. As sunlight warms bodies of water like oceans, lakes, and rivers, water evaporates, transforming from liquid into invisible water vapor that rises into the sky. Moisture also escapes from plants through transpiration, adding to the atmospheric humidity. As the moist air ascends, it cools, causing the water vapor to condense into tiny droplets, forming clouds. When these droplets combine and grow heavy enough, they fall back to Earth as precipitation—rain, snow, sleet, or hail—depending on temperature and weather conditions. Once on the ground, water flows over surfaces as runoff, joining rivers and streams, or seeps into the soil, recharging groundwater supplies. Some of it collects in lakes and reservoirs, while much returns to oceans, completing the journey. Over time, this eternal circulation sustains life, shapes landscapes, and maintains the delicate balance of Earth’s ecosystems.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 210,
+    "total_tokens": 246,
+    "cost": 0.0000666,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000666,
+      "upstream_inference_prompt_cost": 0.0000036,
+      "upstream_inference_completions_cost": 0.000063
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-30b-a3b-instruct-2507",
+  "ts": 1776839187567
+}

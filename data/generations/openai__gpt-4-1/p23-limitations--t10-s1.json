@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "A kind of question where I am likely to be confidently wrong is one that asks for **very recent, breaking news events** or **dynamic, rapidly-changing information** that occurred after my knowledge cutoff in June 2024. For example:\n\n> \"Who won the 2024 U.S. presidential election?\"\n\nBecause my training data only includes information up to June 2024, I may try to draw on available context, patterns, or probabilities, and present an answer that sounds plausible—perhaps even with a tone of confidence. However, I could very well be wrong simply because I do not have access to that up-to-date information.\n\n**Why does this happen?**\n- My responses are generated to sound contextually appropriate and informative, which sometimes results in confident-seeming answers even when I lack the data to support them.\n- The language model architecture is optimized for coherence rather than for alerting users about my knowledge limitations, unless prompted to do so.\n- I may interpolate from patterns seen in past data; for instance, mentioning a likely candidate based on polls or historical trends, even if something different occurred in reality.\n\n**Other examples include:**\n- \"What is the current weather in Paris?\"\n- \"Who is the CEO of Twitter right now?\"\n- \"What was the score of last night’s NBA finals game?\"\n\n**In summary:**  \nI am likely to be confidently wrong on questions about *current, post-cutoff facts* because I do not have real-time data or browsing capabilities unless explicitly enabled or provided with recent updates by the user.",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 313,
+    "total_tokens": 340,
+    "cost": 0.002558,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002558,
+      "upstream_inference_prompt_cost": 0.000054,
+      "upstream_inference_completions_cost": 0.002504
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-2025-04-14",
+  "ts": 1776835310652
+}

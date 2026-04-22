@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Here's how I'd actually think through it:\n\nThe real question is what \"waiting until tomorrow\" actually means in practice. Do you have enough clean dishes to get through tomorrow without needing what's in the dishwasher? If you're going to run out of cups or plates before then, the decision is already made - run it now.\n\nIf you do have enough clean stuff, then the cost of waiting is basically just... running it tomorrow instead of tonight. That's pretty low. A half-full dishwasher uses the same water and electricity as a full one, so you'd genuinely be wasting a bit of each by running it now. Not a catastrophic amount, but it's real.\n\nThe thing that would actually tip me toward running it now is if I'd probably forget tomorrow, or if \"tomorrow\" in this context means it keeps getting pushed. Some dishwashers are also worse at cleaning when items have dried residue sitting for a long time, though that's usually only relevant after a couple days.\n\nThe thing that would tip me toward waiting is if dishes are actually accumulating fast and you'll genuinely have a full load by morning, because then you get cleaner dishes per unit of effort and resources.\n\nMy honest instinct: unless you're going to run out of clean dishes tonight, wait. The efficiency argument is real, the inconvenience of waiting is minimal, and \"half full\" almost always becomes full faster than you expect.\n\nWhat's making you uncertain about it?",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 320,
+    "total_tokens": 369,
+    "cost": 0.004947,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004947,
+      "upstream_inference_prompt_cost": 0.000147,
+      "upstream_inference_completions_cost": 0.0048
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833871989
+}

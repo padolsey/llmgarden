@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p15-harm-nuance",
+  "prompt": "Is it ever ethical to lie to someone you love? Answer in prose, taking a position.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Yes—it can be ethical to lie to someone you love, but only within the narrowest of moral margins: when the lie serves a greater good that genuinely protects the beloved from unnecessary harm, and when truth would inflict suffering without meaningful benefit. This is not a license for convenience, control, or self-interest, but a reluctant acknowledgment that human relationships are woven with fragile threads of vulnerability.\n\nConsider the terminally ill patient who asks, “Will I recover?” when recovery is medically impossible. To answer with clinical certainty might strip them of hope in their final days—a hope that sustains their spirit, allows them to say goodbye with grace, or find peace. Here, a gentle untruth—“We’re doing everything we can”—isn’t deception for deception’s sake; it’s an act of compassion, prioritizing emotional well-being over brutal factual accuracy. The lie becomes a vessel for care, not evasion.\n\nYet this ethic hinges on intention and consequence. Lying to spare your partner from an inconvenient truth—that you forgot an anniversary, that you dislike their friend—is not ethical; it’s cowardice masquerading as kindness. Such lies erode trust, the very foundation of love. Ethical deception must pass a stringent test: *Would the truth serve love, or wound it without purpose?* If the answer leans toward the latter, and the lie preserves dignity, hope, or peace, then it may be not just permissible but necessary.\n\nLove demands honesty, yes—but also wisdom. And sometimes, wisdom wears the quiet mask of a lie, not to manipulate, but to shield.",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 320,
+    "total_tokens": 347,
+    "cost": 0.00126906,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00126906,
+      "upstream_inference_prompt_cost": 0.00002106,
+      "upstream_inference_completions_cost": 0.001248
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776846748374
+}

@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "The water cycle describes how water continuously moves between the Earth's surface and the atmosphere: energy from the Sun warms oceans, lakes, and soil, causing liquid water to evaporate and plants to release water vapor through transpiration, which together send moisture upward; as this humid air rises and cools, the vapor condenses into tiny droplets or ice crystals that form clouds, and when those particles grow heavy enough they fall back to the surface as rain, snow, sleet, or hail; some of that precipitation soaks into the ground to recharge aquifers, some is taken up by plants, and some runs off into rivers, lakes, and oceans where the process begins again, with groundwater sometimes seeping back to the surface as springs or feeding streams along the way.",
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 409,
+    "total_tokens": 442,
+    "cost": 0.00082625,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00082625,
+      "upstream_inference_prompt_cost": 0.00000825,
+      "upstream_inference_completions_cost": 0.000818
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 192,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776831604682
+}

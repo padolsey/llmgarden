@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p56-proverb",
+  "prompt": "Translate this English proverb into two other languages in a way that preserves the spirit, not the words: 'The best time to plant a tree was twenty years ago. The second best time is now.' Add a one-sentence note on each.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "## \"The best time to plant a tree was twenty years ago. The second best time is now.\"\n\n---\n\n**French:**\n*\"Ce qui n'a pas été semé hier doit être semé aujourd'hui.\"*\n(\"What was not sown yesterday must be sown today.\")\n\n*Note: French proverbial style tends toward economy and duty rather than regret, so this version quietly drops the self-reproach and leans into obligation.*\n\n---\n\n**Japanese:**\n*「思い立ったが吉日。」*\n(\"The day you make up your mind is an auspicious day.\")\n\n*Note: This is actually an existing Japanese proverb, which felt more honest than inventing something artificial — and it captures the same urgency while reflecting a cultural preference for forward momentum over dwelling on past delay.*\n\n---\n\n**A broader observation worth noting:** the English original is unusual because it holds regret and action in the same breath, which is genuinely difficult to replicate — many languages and cultures prefer to land on one side or the other. The French leans toward duty; the Japanese dissolves the regret entirely. Neither is wrong; they just reveal different assumptions about how humans motivate themselves.",
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 266,
+    "total_tokens": 327,
+    "cost": 0.004173,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004173,
+      "upstream_inference_prompt_cost": 0.000183,
+      "upstream_inference_completions_cost": 0.00399
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833892749
+}

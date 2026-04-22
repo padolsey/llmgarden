@@ -1,0 +1,33 @@
+{
+  "model": "cohere/command-a",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Sure, let's think this through step by step, considering practical and intuitive factors:\n\n1. **Current Load vs. Tomorrow's Load**:  \n   - **Now**: The dishwasher is half-full. Running it now means you’ll have clean dishes sooner, but you’re using energy and water for a smaller load.  \n   - **Tomorrow**: It will definitely be full, so you’re maximizing efficiency by running a full load. However, you’ll have to wait longer for clean dishes, and dirty dishes might pile up or smell if left unwashed.  \n\n2. **Urgency of Clean Dishes**:  \n   - Do you need clean dishes tonight or tomorrow morning? If you’re running low on clean dishes and need them soon, running it now makes sense. If you have enough clean dishes for now, waiting might be better.  \n\n3. **Energy and Water Efficiency**:  \n   - Running a full load is generally more efficient than running two half-loads. If you run it now, you might end up running it again tomorrow for the remaining dishes, doubling energy and water use.  \n\n4. **Convenience and Habits**:  \n   - If you’re someone who likes to start the day with an empty sink or prefers not to deal with dirty dishes tomorrow, running it now might give you peace of mind.  \n   - On the other hand, if you’re used to waiting until it’s full and it doesn’t bother you, waiting is the better choice.  \n\n5. **Practical Considerations**:  \n   - Are there any time-sensitive items (like a pot or pan that’s hard to clean if it sits too long)? If so, running it now might prevent caked-on food.  \n   - Are you likely to add more dishes tonight? If so, waiting might be better since it’ll fill up naturally.  \n\n6. **Personal Preferences**:  \n   - Do you care more about saving energy and water, or about having clean dishes readily available? Your personal values will influence this decision.  \n\n**Conclusion**:  \nIf you don’t need clean dishes urgently and want to save energy, wait until tomorrow when it’s full. If you need clean dishes sooner or prefer not to deal with dirty dishes overnight, run it now. But keep in mind that running it twice (today and tomorrow) is less efficient overall.  \n\nWhat’s your priority here—efficiency or convenience? That’ll help you decide!",
+  "usage": {
+    "prompt_tokens": 40,
+    "completion_tokens": 502,
+    "total_tokens": 542,
+    "cost": 0.00512,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00512,
+      "upstream_inference_prompt_cost": 0.0001,
+      "upstream_inference_completions_cost": 0.00502
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "cohere/command-a-03-2025",
+  "ts": 1776839763725
+}

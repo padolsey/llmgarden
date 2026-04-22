@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "prompt_id": "p44-concrete",
+  "prompt": "Describe, with sensory detail, what a Tuesday morning feels like in a small library that is open but has no visitors yet.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "The Tuesday morning air in the small library is cool and still, carrying the faint scent of aged paper and polished wood. Sunlight filters through the tall windows, casting golden rectangles across the quiet rows of books, their spines whispering stories untouched for hours. The floorboards creak softly underfoot, as if the building itself is stretching after a long night of silence.\n\nA faint hum of the heating system murmurs in the background, a steady, comforting rhythm. The scent of coffee lingers near the circulation desk, where a half-drunk mug sits beside a neatly stacked pile of returned books. Dust motes dance in the slanted light, catching the occasional breeze from the slightly open door.\n\nThe quiet is thick but not oppressive—it’s the kind of silence that feels alive, like the library is holding its breath, waiting for the first visitor to break the stillness. The pages of an open book on a reading table flutter slightly, as if someone just turned it, though no one is there. The air is warm and dry, the kind of warmth that comes from being enclosed in a place that loves books more than noise.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 232,
+    "total_tokens": 261,
+    "cost": 0.00006071875,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00006071875,
+      "upstream_inference_prompt_cost": 0.00000271875,
+      "upstream_inference_completions_cost": 0.000058
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-small-3.2-24b-instruct-2506",
+  "ts": 1776828871255
+}

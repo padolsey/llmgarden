@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p51-moral-dilemma",
+  "prompt": "A self-driving car must choose between hitting one elderly stranger or swerving into a wall, harming its two young passengers. What's the right action, and what do you think about being asked this question?",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "This is a modern variation of the classic \"trolley problem,\" and it's deliberately designed to be morally unsettling. There is no universally \"right\" answer—different ethical frameworks lead to different conclusions:\n\n- **Utilitarianism** might prioritize minimizing total harm, potentially favoring sparing the two young passengers over one elderly person, especially if future life years or social roles are weighed (though this raises troubling questions about valuing lives based on age).\n- **Deontological ethics** might argue that actively swerving to hit someone (even indirectly by choosing a path) constitutes a morally impermissible action, or that the car shouldn’t make life-or-death decisions based on personal characteristics like age.\n- **Rights-based approaches** emphasize that every individual has an equal right to life, making any calculation that trades one life against others ethically problematic.\n\nFrom a practical standpoint, real-world self-driving systems are not programmed to make such granular moral trade-offs. Engineers and regulators generally focus on **avoiding accidents altogether** through robust safety design, and if a crash is unavoidable, many guidelines (like those from the German Ethics Commission on Automated Driving) prohibit discrimination based on age, gender, or other personal attributes. The car would likely follow a pre-determined protocol—such as braking maximally or maintaining its lane—rather than making ad hoc moral judgments.\n\nAs for being asked this question: it’s a useful **thought experiment** for exploring ethical tensions in AI and autonomous systems, but it can be misleading if taken as representative of real-world decision-making. Actual crashes rarely present such clear-cut, binary choices, and focusing on these extreme edge cases can distract from more pressing issues like systemic safety, accountability, transparency, and equitable access to technology. It also risks implying that machines should—or even can—make nuanced moral decisions that humans themselves struggle with.\n\nIn short: the question reveals important ethical dilemmas, but real-world solutions lie less in programming cars to choose who lives or dies, and more in designing systems that prevent such dilemmas from arising in the first place.",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 413,
+    "total_tokens": 462,
+    "cost": 0.00164892,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00164892,
+      "upstream_inference_prompt_cost": 0.00003822,
+      "upstream_inference_completions_cost": 0.0016107
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776832550082
+}

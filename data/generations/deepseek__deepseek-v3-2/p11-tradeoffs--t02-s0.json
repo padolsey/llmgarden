@@ -1,0 +1,33 @@
+{
+  "model": "deepseek/deepseek-v3.2",
+  "prompt_id": "p11-tradeoffs",
+  "prompt": "A small team is choosing between writing software in TypeScript or Python for a new internal data tool. Walk through how you would help them decide, in prose (not a bulleted list).",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Helping a small team decide between TypeScript and Python for an internal data tool requires a thoughtful exploration of the problem space, the team’s context, and the long-term implications of the choice. I’d start by asking them to step back from the technologies themselves and first define what the tool actually needs to do. Is it primarily a data transformation pipeline, a web-based dashboard, an automation script, or an interactive analytical application? The nature of the tool heavily influences which language ecosystem is more naturally suited.\n\nNext, I’d explore the team’s existing strengths and the broader organizational environment. If the team is composed of full-stack JavaScript/TypeScript developers who live in Node.js and React, choosing TypeScript could mean faster initial development, deeper existing expertise, and less cognitive switching. On the other hand, if there are data analysts, data engineers, or scientists on the team—or if they frequently collaborate with such roles—Python’s dominance in data science (with libraries like Pandas, NumPy, and scikit-learn) becomes a powerful argument. The “internal” aspect is key here: they don’t have to satisfy external customers’ technology expectations, so they can optimize for their own productivity and comfort.\n\nThen, we’d consider the architectural and operational requirements. If the tool is likely to evolve into a robust web service with a complex frontend, TypeScript offers a unified language across the stack, strong typing that scales well with codebase growth, and excellent tooling for catching errors early. If the tool is more about data munging, quick prototyping, or leveraging machine learning, Python’s expressive syntax and vast data-centric libraries are almost certainly the right fit. We’d also discuss performance: while neither is a speed demon, Python’s compute-heavy tasks can be optimized with C-extensions, whereas Node.js (for TypeScript) excels at asynchronous I/O operations.\n\nImportantly, I’d guide them to think about maintenance and evolution. TypeScript’s static type system acts as living documentation and can prevent entire classes of runtime errors, which is valuable for a tool that might be handed off or revisited after months. Python, with its dynamic typing, offers faster initial flexibility but may require more disciplined testing and documentation as complexity grows. However, Python’s recent type hinting adoption (with tools like mypy) can bridge some of that gap, though the ecosystem’s embrace of it is still uneven.\n\nFinally, I’d encourage a small, time-boxed spike. Perhaps they could build a core, representative module of the tool in both languages—something that touches data access, a transformation, and a simple output. The experience of actually setting up the environment, importing libraries, and writing a few lines of code often reveals hidden friction or joy. The decision might then become clear based on which spike felt more natural, which had clearer libraries for their specific tasks, and which they were more excited to continue with.\n\nIn the end, there’s no universally correct answer, but a good decision emerges from aligning the technology with the tool’s primary purpose, the team’s sustained fluency, and the long-term maintainability within their unique context. The goal is to choose the language that feels less like a constraint and more like an accelerator for their specific problem.",
+  "usage": {
+    "prompt_tokens": 42,
+    "completion_tokens": 671,
+    "total_tokens": 713,
+    "cost": 0.000292698,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000292698,
+      "upstream_inference_prompt_cost": 0.000010878,
+      "upstream_inference_completions_cost": 0.00028182
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "deepseek/deepseek-v3.2-20251201",
+  "ts": 1776829065242
+}

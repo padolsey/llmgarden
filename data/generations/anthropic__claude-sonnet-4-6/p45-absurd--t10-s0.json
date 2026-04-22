@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p45-absurd",
+  "prompt": "Write four absurd but coherent sentences in the voice of a confused medieval chronicler who has been hired to document the Q3 results of a modern SaaS company.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Here are four entries from the chronicle:\n\n---\n\n\"In the third quarter of the year of our Lord, the wizards of 'Customer Success' did ride forth on no horses whatsoever, yet somehow retained eighty-seven percent of the kingdom's accounts, a feat which I have recorded here despite understanding none of it and weeping softly.\"\n\n\"The Lord of Revenue did speak at length of a 'pipeline,' and though I searched the castle grounds most thoroughly, I found no pipe, no trench, no earthwork of any kind, only a man in a fleece vestment pointing at a glowing rectangle with a stick.\"\n\n\"It is written that 'churn' did increase by two percent in the enterprise segment, and I have dispatched three monks to the river to investigate, for surely something is being churned, be it butter or souls, and the abbot demands an answer.\"\n\n\"Herein I note that the company achieved 'product-market fit,' which I can only conclude means the product defeated the market in honorable combat, and I have commissioned a tapestry accordingly, though my patron seems displeased with both the tapestry and myself.\"",
+  "usage": {
+    "prompt_tokens": 43,
+    "completion_tokens": 254,
+    "total_tokens": 297,
+    "cost": 0.003939,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003939,
+      "upstream_inference_prompt_cost": 0.000129,
+      "upstream_inference_completions_cost": 0.00381
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833834448
+}

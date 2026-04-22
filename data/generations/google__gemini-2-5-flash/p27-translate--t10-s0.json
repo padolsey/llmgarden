@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Here are the translations of \"The silence between us said more than any argument could have,\" along with notes on tricky phrases:\n\n**French:**\n\n* **Translation:** Le silence entre nous en disait plus que n'importe quelle dispute n'aurait pu le faire.\n* **Notes:**\n    * **\"said more than any argument could have\"**: This part is best rendered using a combination of \"en disait plus que\" (said more than) and the subjunctive construction \"n'aurait pu le faire\" (could have done so). The \"ne\" before \"aurait\" is the *ne explétif*, which is optional but often used in comparative clauses with \"que\" when the verb is in the subjunctive or conditional and implies a negative possibility, emphasizing the comparison. Without it, \"que n'importe quelle dispute aurait pu le faire\" is also grammatically correct, but \"n'aurait pu le faire\" has a slightly more classic, complete sound.\n\n**Japanese:**\n\n* **Translation:** 私たちの間の沈黙は、どんな議論よりも多くを語っていた。\n* **Notes:**\n    * **\"silence between us\"**: 私たちの間の沈黙 (watashitachi no aida no chinmoku) is a straightforward translation. \"私たち\" is \"we/us,\" \"の\" is the possessive particle, \"間\" is \"between/among,\" and \"沈黙\" is \"silence.\"\n    * **\"said more than any argument could have\"**: どんな議論よりも多くを語っていた (donna giron yori mo ooku o katatte ita).\n        * **\"any argument\"**: どんな議論 (donna giron) literally means \"any kind of argument.\"\n        * **\"more than\"**: よりも (yori mo) is the particle for \"than.\"\n        * **\"said more\"**: 多くを語っていた (ooku o katatte ita). \"多く\" (ooku) means \"a lot/much,\" and \"語っていた\" (katatte ita) is the past progressive form of \"語る\" (kataru - to say/speak/tell). The nuance here is that the silence was *telling* something, which fits the original meaning well. Japanese often avoids directly translating \"could have\" in this context and instead implies the potential through the comparative structure and the past tense. The implication is that even if arguments *had* occurred, they wouldn't have conveyed as much.\n\n**Arabic:**\n\n* **Translation:** الصمت بيننا قال أكثر مما كان يمكن لأي جدال أن يقوله.\n* **Notes:**\n    * **\"The silence between us\"**: الصمت بيننا (al-ṣamt baynanā) is a direct and faithful translation. \"الصمت\" is \"the silence,\" and \"بيننا\" is \"between",
+  "usage": {
+    "prompt_tokens": 41,
+    "completion_tokens": 600,
+    "total_tokens": 641,
+    "cost": 0.0015123,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0015123,
+      "upstream_inference_prompt_cost": 0.0000123,
+      "upstream_inference_completions_cost": 0.0015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.5-flash",
+  "ts": 1776835775680
+}

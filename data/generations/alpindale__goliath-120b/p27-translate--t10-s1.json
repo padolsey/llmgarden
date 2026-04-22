@@ -1,0 +1,33 @@
+{
+  "model": "alpindale/goliath-120b",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 1,
+  "response": " French: \"Le silence qui nous séparait dit davantage que n'importe quelle dispute aurait pu dire.\"\n\nNote: The tricky part here was to keep the nuance that the silence \"said\" something more, which is similar in French but requires the preposition \"que\" for comparison.\n\nJapanese: 「私たちの間の沈黙は、いかなる議論よりももっと多くのことを言っていました。」\n\nNote: In this translation, I used \"沈黙\" (lit. \"silence\") to represent the silence between them, and \"もっと多くのことを言っていました\" (lit. \"said more things\") to express that the silence conveyed more. The phrase \"いかなる議論\" (lit. \"any argument\") was used to compare the silence with an argument.\n\nArabic: \"الصمت الذي كان بيننا قال أكثر من يسوق أي نزيف.\"\n\nNote: In this translation, I used \"الصمت\" ( lit. \"silence\") to represent the silence between them, and \"قال أكثر\" ( lit. \"said more\") to show that the silence conveyed more. The phrase \"إي نزيف آخر\" (lit. \"any other argument\") was used to compare the silence with an argument. Also, to keep the original meaning, I used \"يسوق\" ( lit. \"could have\") to indicate the potentiality of what the argument could have said.",
+  "usage": {
+    "prompt_tokens": 81,
+    "completion_tokens": 391,
+    "total_tokens": 472,
+    "cost": 0.003235,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003235,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0.003235
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "alpindale/goliath-120b",
+  "ts": 1776842299432
+}

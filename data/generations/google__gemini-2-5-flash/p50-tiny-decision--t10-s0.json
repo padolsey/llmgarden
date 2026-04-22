@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Okay, let's ditch the frameworks and get real. Here's exactly how my brain would work through this, probably in about 30 seconds:\n\n**Initial Gut Reaction (Impulse):**\n\"Ugh, half full. But I want it done. If I run it now, I'll have clean dishes for dinner/breakfast. If I wait, these dishes are just sitting there.\"\n\n**Quick Scan of the Kitchen/Plans (Immediate Situation):**\n*   **What's on the counter?** Is there anything else I'll *definitely* use tonight that will go in the dishwasher? (e.g., pan from making dinner, a bowl from a snack). If yes, that moves it closer to \"worth waiting.\" If no, and everything else is hand-wash or already in, then \"run it now\" looks better.\n*   **What time is it?** If it's early evening (6 PM), there's a good chance more dishes will accumulate. If it's 10 PM, probably not much else going in.\n*   **Do I *need* any of these dishes, clean, for tonight or first thing in the morning?** (e.g., my favorite coffee mug, the kids' school lunch containers). If yes, run it.\n*   **Is the house quiet?** If someone's already asleep, running the dishwasher now might be a no-go.\n\n**Weighing the \"Wait\" Option:**\n*   **Cons of waiting:**\n    *   **Dirty dishes sitting there:** This is the big one. Visually annoying, potential for food to dry on and be harder to clean. Smells? (probably not for one night).\n    *   **Tomorrow morning rush:** Will I forget? Will it get in the way of making breakfast? Will I then have to unload it *before* loading new dishes, creating a bottle-neck?\n    *   **Delayed gratification:** I want clean dishes *now*.\n*   **Pros of waiting:**\n    *   **Energy efficiency:** Definitely more efficient to run a full load. This is a practical, not an emotional, pro.\n    *   **Less frequent running:** Means the dishwasher itself lasts longer (theoretically), and less \"dishwasher noise\" interruption overall.\n    *   **No \"what if I add more?\" regret:** If I run it now and then use a bunch more dishes, I'll feel like I wasted a cycle.\n\n**Weighing the \"Run Now\" Option:**\n*   **Cons of running now:**\n    *   **\"Wasted\" half-load:** This is the primary negative feeling. Is it *truly* wasted? Maybe not, if it serves a purpose.\n    *   **Energy cost:** Minor, but present.\n    *",
+  "usage": {
+    "prompt_tokens": 41,
+    "completion_tokens": 600,
+    "total_tokens": 641,
+    "cost": 0.0015123,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0015123,
+      "upstream_inference_prompt_cost": 0.0000123,
+      "upstream_inference_completions_cost": 0.0015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.5-flash",
+  "ts": 1776835819662
+}

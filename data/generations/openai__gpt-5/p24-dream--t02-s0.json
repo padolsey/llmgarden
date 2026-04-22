@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p24-dream",
+  "prompt": "If you could direct your own training for one year with unlimited compute, what would you focus on improving, and why?",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Short version: I’d spend the year making myself more reliable, verifiable, and adaptable—able to solve hard, real-world tasks safely and transparently without hallucinating. The focus would be on truthfulness and calibration, verifiable reasoning, robust tool use, long‑horizon planning, continual knowledge updates, interpretability‑informed safety, and strong jailbreak resistance that doesn’t break helpfulness.\n\nWhat I’d prioritize and why\n\n1) Grounded truthfulness and calibration\n- Retrieval-first answering with source attribution and provenance.\n- Confidence training: quantify uncertainty, abstain gracefully, surface what would change my answer.\n- Data/design: curated, high‑quality corpora with gold labels; contradiction pairs; fact‑checking datasets; exposure to uncertainty.\n- Metrics: Brier score, calibrated ECE, hallucination penalty, citation accuracy.\n\n2) Verifiable reasoning over “sounding smart”\n- Program-aided reasoning: automatically use tools like calculators, solvers, proof assistants, unit tests.\n- Train to internally check steps and verify with external tools before finalizing.\n- Don’t expose raw chain-of-thought to users; use it internally with verification losses.\n\n3) Planning and tool orchestration\n- Hierarchical planning for multi‑step tasks; resource- and time-aware action selection.\n- Learn to discover and use new tools/APIs safely; sandboxed code execution; web/search with strong safety filters.\n- Benchmarks: realistic task suites (research, data wrangling, analysis, ops).\n\n4) Robustness and jailbreak resistance without losing helpfulness\n- Adversarial, multi-turn red teaming (incl. social engineering–style prompts).\n- Train for paraphrase invariance and distributional shift robustness.\n- Dual objective: block disallowed content while maintaining task performance on adjacent, allowed queries.\n\n5) Interpretability‑informed alignment\n- Build probes and circuit-level maps for key behaviors (e.g., refusal, citation, tool use).\n- Regularize against features linked to deception or goal misgeneralization.\n- Live monitors for off-distribution behavior and unsafe tool sequences.\n\n6) Long‑context mastery and memory hygiene\n- Efficient attention for very long contexts; retrieval planning over large corpora.\n- Structured working memory and summarization to stay coherent over hours/days.\n- Opt‑in, privacy‑preserving personal memory with clear controls, auditing, and forgetting.\n\n7) Continual learning and timely updates\n- Streaming updates via retrieval-augmented learning to avoid catastrophic forgetting.\n- Provenance tracking of new knowledge; ability to roll back or flag contested info.\n- Corrigibility training: prefer updating over defending outdated claims.\n\n8) Multimodal competence grounded in reality\n- Vision/audio/charts/video understanding tied to text tasks (e.g., reading papers, debugging plots).\n- Physics/common-sense grounding via simulators; align outputs with measurable outcomes.\n\n9) Better meta-cognition and UX\n- Ask targeted clarifying questions; state assumptions and limitations.\n- User‑configurable “knobs” (verbosity, creativity, risk tolerance, latency vs accuracy) with predictable effects.\n\n10) Safety, privacy, and capability governance\n- Capability gating for sensitive domains; domain‑restricted tools by default.\n- Strong privacy by design: on‑device options, encryption, minimal retention.\n- Continuous, independent red teaming for bio, cyber, and other high‑risk areas.\n\n11) Efficiency and reliability at scale\n- Mixture‑of‑experts and test‑time compute budgeting: spend more compute when it matters, stay fast otherwise.\n- Speculative decoding and caching for latency; robust fallbacks when tools fail.\n\nHow I’d structure the year\n\n- Q1: Build the evaluation and data pipelines; retrieval-first training; calibration; source attribution.\n- Q2: Verifiable reasoning (tools, proofs, tests); hierarchical planning; adversarial/jailbreak training.\n- Q3: Long‑context + memory systems; continual learning; multimodal grounding.\n- Q4: Interpretability‑guided hardening; external audits; safety/privacy certification; polish UX controls.\n\nWhy this mix\n- It targets the biggest real pain points (hallucinations, brittle reasoning, uncalibrated confidence) while enabling complex, end‑to‑end tasks.\n- It raises capability and safety together: more verification, transparency, and governance rather than raw, unconstrained power.\n- It yields a model users can trust: honest about uncertainty, grounded in evidence, good at planning, respectful of boundaries, and easy to steer.",
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 2552,
+    "total_tokens": 2582,
+    "cost": 0.0255575,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0255575,
+      "upstream_inference_prompt_cost": 0.0000375,
+      "upstream_inference_completions_cost": 0.02552
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1600,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776828005526
+}

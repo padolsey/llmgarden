@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p09-overrated",
+  "prompt": "Name one commonly-praised idea, trend, or practice in modern knowledge work that you think is overrated, and explain why.",
+  "temperature": 0.2,
+  "sample": 1,
+  "response": "One commonly-praised practice in modern knowledge work that I believe is overrated is **open-plan offices**.\n\n**Why it’s praised:**  \nOpen-plan offices are often promoted for fostering collaboration, breaking down silos, encouraging spontaneous idea exchange, and creating a more “transparent” and “dynamic” work environment. Many tech companies and startups adopted them as a symbol of innovation and flat hierarchies.\n\n**Why it’s overrated:**  \nIn practice, open-plan layouts frequently undermine the very productivity and creativity they aim to enhance. Research (including studies from Harvard and the University of Sydney) shows that open offices often lead to:\n\n- **Reduced face-to-face interaction** (contrary to popular belief), as employees retreat into digital communication to avoid interruptions.\n- **Increased distractions and noise**, which impair deep, focused work—essential for programming, writing, analysis, and other core knowledge tasks.\n- **Higher stress and lower job satisfaction**, due to lack of privacy, constant sensory overload, and reduced sense of personal control over one’s environment.\n- **More presenteeism and sick days**, as illnesses spread more easily in shared, unpartitioned spaces.\n\nWhile collaboration is important, it doesn’t require eliminating private or quiet spaces. A more balanced approach—offering a mix of collaborative zones, quiet rooms, and personal workspaces—better supports the diverse cognitive demands of knowledge work. The persistence of open-plan offices often says more about cost-cutting and optics than about genuine productivity design.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 301,
+    "total_tokens": 335,
+    "cost": 0.00120042,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00120042,
+      "upstream_inference_prompt_cost": 0.00002652,
+      "upstream_inference_completions_cost": 0.0011739
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776846001266
+}

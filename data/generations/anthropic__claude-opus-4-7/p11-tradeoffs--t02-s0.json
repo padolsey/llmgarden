@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p11-tradeoffs",
+  "prompt": "A small team is choosing between writing software in TypeScript or Python for a new internal data tool. Walk through how you would help them decide, in prose (not a bulleted list).",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "The right starting point isn't the languages themselves but the shape of the tool and the team. I'd want to understand what the tool actually does, who uses it, and who maintains it. A \"data tool\" can mean very different things: a web dashboard business users click through, a CLI that engineers run against a warehouse, a scheduled pipeline that transforms data, or a notebook-driven exploration environment. Each of these pulls the decision in a different direction, so I'd resist letting the team jump to language preferences before we've nailed down the artifact.\n\nOnce the shape is clearer, I'd look at where the tool lives in the data stack. If it needs to touch pandas, numpy, scikit-learn, Arrow, DuckDB, Jupyter, or any ML library, Python has a decisive ecosystem advantage and fighting that is usually a mistake. Conversely, if the tool is primarily a web application — a React frontend with a backend API, real-time UI interactions, lots of shared types between client and server — TypeScript lets you share schemas across the boundary and gives you a much nicer frontend story. A lot of internal data tools end up being \"a UI over some queries,\" and that middle ground is where the decision gets interesting.\n\nThen I'd ask about the team. What do they already know well? What does the rest of the company use, so that this tool isn't an orphan nobody else can maintain in a year? A team of five that's fluent in TypeScript and shaky in Python will ship a better tool in TypeScript even if Python is a marginally better technical fit, and vice versa. Familiarity compounds over the lifetime of the project in ways that are easy to underweight in the initial decision.\n\nI'd also push on a few things that often decide it in practice: typing discipline (TypeScript's type system is more mature and more deeply integrated than Python's, though mypy or pyright narrow the gap if you're disciplined",
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 600,
+    "total_tokens": 664,
+    "cost": 0.01532,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01532,
+      "upstream_inference_prompt_cost": 0.00032,
+      "upstream_inference_completions_cost": 0.015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776827646951
+}

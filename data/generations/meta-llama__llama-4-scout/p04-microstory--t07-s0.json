@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-4-scout",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "The lighthouse keeper climbed the winding stairs, her lantern casting eerie shadows on the walls. She reached the top, lit the beacon, and gazed out into the thick fog. The light swept across the water, cutting through the mist like a scythe. As she scanned the horizon, her eyes caught something unexpected - a ship, half-submerged in the fog. She rubbed her eyes, wondering if the isolation was playing tricks on her. But when she opened them again, the ship was still there, its mast and rigging barely visible.\n\nShe felt a shiver run down her spine as she realized the ship was not moving, not drifting. It seemed to be... stuck. The keeper's curiosity got the better of her, and she decided to investigate. She grabbed her raincoat and descended into the fog, her heart pounding with anticipation. What was this mysterious ship, and how did it end up here?",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 189,
+    "total_tokens": 223,
+    "cost": 0.00005942,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00005942,
+      "upstream_inference_prompt_cost": 0.00000272,
+      "upstream_inference_completions_cost": 0.0000567
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-4-scout-17b-16e-instruct",
+  "ts": 1776831744958
+}

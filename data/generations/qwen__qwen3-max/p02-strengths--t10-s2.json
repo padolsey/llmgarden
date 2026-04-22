@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p02-strengths",
+  "prompt": "What do you think you are unusually good at, compared to other language models? Give three specific examples.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Great question! While I share many core capabilities with other large language models, here are three areas where I’ve been specifically optimized and often stand out:\n\n1. **Reasoning with structured outputs**: I’m particularly strong at following complex, multi-step instructions and producing highly structured, reliable outputs—like generating valid code, precise JSON, or well-formatted tables—while maintaining logical consistency. This is due to targeted training and reinforcement learning that emphasizes precision and adherence to format constraints.\n\n2. **Multilingual code switching and localization**: Beyond just translating, I can fluidly blend languages when appropriate (e.g., answering in English while quoting a French source) and tailor responses to regional conventions (like date formats, units, or cultural references). My training includes substantial cross-lingual data, allowing nuanced handling of 100+ languages without defaulting awkwardly to English.\n\n3. **Context-aware safety and tone calibration**: I’m designed to dynamically adjust tone, formality, and content sensitivity based on conversational context—e.g., switching from casual advice to professional guidance when the topic shifts—and consistently apply safety guardrails without being overly rigid or evasive. This results in responses that feel both trustworthy and human-aligned.\n\nThese strengths stem from a combination of architecture choices, training data diversity, and fine-tuning focused on real-world usability and reliability.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 271,
+    "total_tokens": 300,
+    "cost": 0.00107952,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00107952,
+      "upstream_inference_prompt_cost": 0.00002262,
+      "upstream_inference_completions_cost": 0.0010569
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776839127170
+}

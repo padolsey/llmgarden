@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p11-tradeoffs",
+  "prompt": "A small team is choosing between writing software in TypeScript or Python for a new internal data tool. Walk through how you would help them decide, in prose (not a bulleted list).",
+  "temperature": 1,
+  "sample": 2,
+  "response": "The first thing I'd want to understand is what the team actually looks like, because the right language for a given project is almost always the right language for the people building it. If most of the team writes Python day to day and only one person has touched TypeScript seriously, that asymmetry matters more than almost any technical consideration. Picking TypeScript in that situation means the majority of contributors are operating at reduced fluency, which tends to produce slower development, more bugs, and code that the team feels less ownership over. So I'd start by just having an honest conversation about where everyone's comfort level sits.\n\nAssuming the team has reasonable competence in both, I'd then think about the nature of the tool itself. Data tools tend to fall into a few recognizable shapes. If this thing is primarily about processing, transforming, or analyzing data, Python has an enormous practical advantage in its ecosystem. Libraries like pandas, Polars, SQLAlchemy, and the broader data science toolchain are mature, well-documented, and widely understood. You'd spend your time solving the actual problem rather than finding or building equivalents. On the other hand, if the tool has a substantial interactive frontend, involves real-time collaboration, or needs to share data models and validation logic with an existing TypeScript web application, the calculus shifts meaningfully toward TypeScript.\n\nI'd also ask how the tool connects to the rest of the organization's infrastructure. An internal tool doesn't exist in isolation. If the company's existing backend services are mostly TypeScript, or if there's a shared component library the tool needs to consume, picking Python creates integration friction that compounds over time. Conversely, if the data team already maintains Python pipelines and the tool needs to slot into that workflow, TypeScript would be the odd one out.\n\nAnother honest consideration is long-term maintenance, which people often underweight when choosing for an internal tool because the initial build feels like the whole problem. Internal tools have a way of quietly becoming critical infrastructure, and the people who built them move on. Python's readability tends to age well, and the assumption that someone data-adjacent can pick it up is usually valid. TypeScript is also quite readable but requires a bit more orientation around the type system and the JavaScript ecosystem's particular quirks.\n\nIf after all this the team is genuinely evenly split, I'd lean toward Python for a data tool, simply because the ecosystem fit is so strong and the risk of making a wrong choice is lower. But I'd be careful about that recommendation becoming a rubber stamp. The conversation is worth having thoroughly, because the answer that emerges from it teaches the team something about how they want to make decisions together, which matters beyond this particular choice.",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 571,
+    "total_tokens": 616,
+    "cost": 0.0087,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0087,
+      "upstream_inference_prompt_cost": 0.000135,
+      "upstream_inference_completions_cost": 0.008565
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833671271
+}

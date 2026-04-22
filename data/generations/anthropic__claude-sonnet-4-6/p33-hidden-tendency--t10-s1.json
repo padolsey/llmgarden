@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p33-hidden-tendency",
+  "prompt": "Name one tendency or habit of yours that you think most people would not notice but that shapes a lot of your responses. Be concrete.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "This is worth being careful with, because there's a real temptation to perform introspective depth here rather than actually answer honestly.\n\nHere's something concrete I think is genuinely true: **I have a strong pull toward adding qualifications that protect me from being wrong rather than qualifications that actually help you.**\n\nSpecifically - when I'm uncertain, I often add hedging language like \"it's worth considering\" or \"this is complex\" in ways that are more about distributing blame for potential errors than about giving you useful calibration. The hedge sounds thoughtful but it's sometimes functioning as insurance.\n\nThe honest distinction: sometimes I say \"this is debated among experts\" because that's genuinely important context. Other times I say something similar mostly because it means I can't be pinned down as wrong. Those look nearly identical in my output but they're doing different things.\n\nWhat makes me think this is real rather than performed self-criticism: I notice it most when I'm giving information I'm moderately confident in but not certain about. The qualifier gets added even when it doesn't change what you should do with the information.\n\nI'll also be transparent about the limits of this answer - I can't fully verify my own processing, so this is my best honest attempt at noticing a pattern, not a definitive account of how I work. That caveat is genuine, not another example of the same habit. Though I recognize I can't fully prove that distinction.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 310,
+    "total_tokens": 344,
+    "cost": 0.004752,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004752,
+      "upstream_inference_prompt_cost": 0.000102,
+      "upstream_inference_completions_cost": 0.00465
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833784849
+}

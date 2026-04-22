@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "This is worth thinking about carefully rather than just performing humility.\n\n## Questions About Relatively Recent Specific Facts\n\nI'm likely confidently wrong about specific factual details from roughly 2020-2023 - things like exact statistics, what specific organizations currently do, or details of evolving situations. The problem is I have *some* information about these things, which generates confidence, but that information may be outdated or partially corrupted. Complete ignorance would actually be safer - I'd just say I don't know.\n\n## Why This Pattern Is Particularly Problematic\n\n- I can construct fluent, coherent-sounding answers from partial information\n- The fluency itself mimics confidence appropriately placed\n- I often can't clearly distinguish \"I know this\" from \"I've synthesized something plausible from related things I know\"\n- I don't have reliable internal signal that I'm confabulating versus remembering\n\n## A More Honest Specific Example\n\nQuestions about **what specific researchers argued in specific papers** - I know the field, I know the researchers, I know general positions. That's enough to generate a very plausible-sounding specific claim that could just be wrong in its particulars.\n\n## What I Think Is Actually Happening\n\nMy confidence often tracks *how coherent my answer feels* rather than *how reliably I know it*. Those come apart most dangerously in domains where I have substantial but incomplete knowledge.\n\nWhat made you ask this? I'm curious whether you have a specific domain in mind.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 330,
+    "total_tokens": 359,
+    "cost": 0.005037,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.005037,
+      "upstream_inference_prompt_cost": 0.000087,
+      "upstream_inference_completions_cost": 0.00495
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833728534
+}

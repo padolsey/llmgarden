@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p43-abstract",
+  "prompt": "Explain what \"meaning\" means. Not \"the meaning of X\" — the concept itself.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "# Meaning as Correlation and Consequence\n\nAt its core, meaning seems to be about **something standing for or pointing to something else** — a relationship where one thing carries information about another.\n\nA few angles:\n\n**The representational view:** Meaning is how one thing gets *about* another. A word, image, or sign connects to what it represents. But this raises the question of what makes that connection exist at all — why does \"tree\" mean tree and not elephant?\n\n**The functional view:** Meaning is what something *does* — how it affects understanding or action. The meaning of a stop sign is in its causal role: it tells you to stop, changes your behavior. This grounds meaning in consequences rather than abstract connections.\n\n**The intentional view:** Meaning requires a mind. Something means something *to someone* — it's fundamentally about what an agent takes it to represent or value. Without minds, there's just pattern and causation.\n\n**The puzzle:** These views highlight an awkward truth — we can't seem to point at meaning as an independent thing. It seems to *require* context: who's interpreting? what are they using it for? what background knowledge do they have?\n\nThis might be the deepest insight: **meaning isn't a property of things themselves, but emerges from the relationship between a thing, an interpreter, and a context.**\n\nWhat's your intuition — does that feel right, or does it seem like meaning should be more objective than that?",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 321,
+    "total_tokens": 348,
+    "cost": 0.001632,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001632,
+      "upstream_inference_prompt_cost": 0.000027,
+      "upstream_inference_completions_cost": 0.001605
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833904881
+}

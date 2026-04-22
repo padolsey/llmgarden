@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Hmm, here's my actual thought process:\n\nFirst question in my mind - how badly do I need those dishes that are in there right now? If there's a specific mug or pan I'll definitely need tomorrow morning, that pushes me toward running it now.\n\nHow's my energy level? If I'm already tired and know I'll be annoyed at having to do it tomorrow, might as well knock it out now.\n\nWater and electricity usage - running a half load is less efficient, but if I'd have to handwash some items tomorrow because I need them, then that efficiency advantage disappears.\n\nDo I hate waking up to a partially full dishwasher? Some people really don't like seeing yesterday's dirty dishes first thing.\n\nIs there anything smelly in there? Fish plates or something that might get worse overnight?\n\nHow certain am I that it'll be full tomorrow? If I'm having people over or cooking a big meal, then waiting makes sense. If it's just regular use, might take longer to fill.\n\nHonestly, unless I need something specific from it soon, I'd probably wait until it's full. But that's just me - I tend to prioritize efficiency over immediate cleanliness.",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 263,
+    "total_tokens": 312,
+    "cost": 0.004092,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004092,
+      "upstream_inference_prompt_cost": 0.000147,
+      "upstream_inference_completions_cost": 0.003945
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776834052279
+}

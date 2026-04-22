@@ -1,0 +1,33 @@
+{
+  "model": "gryphe/mythomax-l2-13b",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": " Debounce function: This function delays the execution of a function for a specified amount of time after it has been called, preventing multiple executions of the same function in quick succession.\n\n```javascript\nfunction debounce(func, wait, immediate) {\n  var timeout;\n  return function() {\n    var context = this,\n      args = arguments;\n    var later = function() {\n      timeout = null;\n      if (!immediate) func.apply(context, args);\n    };\n    var callNow = immediate && !timeout;\n    clearTimeout(timeout);\n    timeout = setTimeout(later, wait);\n    if (callNow) func.apply(context, args);\n  };\n}\n```\n\nExample usage:\n\n```javascript\n// Define a function that updates the UI with new data\nfunction updateUI(data) {\n  // Update the UI with the new data\n};\n\n// Debounce the updateUI function to prevent multiple updates in quick succession\nvar debouncedUpdateUI = debounce(updateUI, 500);\n\n// Call the debounced function with new data\nsetTimeout(debouncedUpdateUI, 1000, [1, 2, 3, 4, 5]);\n```\n\nIn this example, the `updateUI` function is debounced using the `debounce` function. The debounced function, `debouncedUpdateUI`, is then called with new data after a delay of 500 milliseconds. When `debouncedUpdateUI` is called, it checks if it has already been called recently and if not, it calls the original `updateUI` function with the new data. This prevents multiple updates of the UI with the same data in quick succession.",
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 383,
+    "total_tokens": 450,
+    "cost": 0.000027,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000027,
+      "upstream_inference_prompt_cost": 0.00000402,
+      "upstream_inference_completions_cost": 0.00002298
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "gryphe/mythomax-l2-13b",
+  "ts": 1776830145539
+}

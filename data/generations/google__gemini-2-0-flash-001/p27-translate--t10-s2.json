@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.0-flash-001",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Okay, here are the translations, along with notes on potentially tricky bits:\n**1. French:**\n\n*   **Translation:** Le silence entre nous en disait plus qu'aucune dispute n'aurait pu le faire.\n*   **Alternate Translation:** Notre silence en disait plus que n'importe quelle dispute.\n\n*   **Notes:**\n    *   \"En disait plus\" or \"Disait plus\" both work for \"said more\". \"En\" represents whatever the situation is or happened before.\n    *   The first option (\"aucune dispute n'aurait pu le faire\") emphasizes that *no* argument could compare to the weight of the silence. The second option (\"n'importe quelle dispute\") is a bit more general (\"any argument\"). I prefer the first option, as it captures the nuance of the English sentence better. Because of the word \"aucune\", the \"ne...pas\" structure is used.\n    * Avoid translating silence as \"le mutisme\" as this is more often used regarding avoiding saying an actual word or expression.\n\n**2. Japanese:**\n\n*   **Translation:** 私たちの間の沈黙は、どんな議論よりも多くを語っていた。 *(Watashitachi no aida no chinmoku wa, donna giron yori mo ooku o katatte ita.)*\n\n*   **Alternate Translation:** 私たちの間の沈黙は、どんな議論よりも雄弁だった。 (*Watashitachi no aida no chinmoku wa, donna giron yori mo yuuben datta.*)\n\n*   **Notes:**\n    *   \"Watashitachi no aida\" = \"between us\" or \"among us.\"\n    *   \"Chinmoku\" = \"silence\".\n    *   \"Donna giron yori mo\" = \"more than any argument.\"\n    *   \"Ook o katatte ita\" = \"was saying much,\" \"was telling a lot.\" The verb \"kataru\" (語る) is a more narrative and evocative word for \"to speak\" or \"to tell.\"  The \"ita\" ending denotes a past continuous tense.\n    * The alternate translation is useful as this expresses the sentence a lot easier using a more complex word \"yuuben\" (雄弁) meaning, eloquent, expressive.\n\n**3. Arabic:**\n\n*   **Translation:** كان الصمت بيننا أبلغ من أي جدال كان يمكن أن يكون. *(Kan as-samtu baynana ablagh min ayyi jidaalin kaana yumkinu an yakuun.)*\n\n*   **Literal Breakdown:**\n    *   كان (Kaana): Was\n    *   الصمت (as-Samtu): The silence\n    *   بيننا (baynana): Between us\n    *   أبلغ (ablagh): More telling/Expressive/",
+  "usage": {
+    "prompt_tokens": 41,
+    "completion_tokens": 600,
+    "total_tokens": 641,
+    "cost": 0.0002441,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002441,
+      "upstream_inference_prompt_cost": 0.0000041,
+      "upstream_inference_completions_cost": 0.00024
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.0-flash-001",
+  "ts": 1776835862358
+}

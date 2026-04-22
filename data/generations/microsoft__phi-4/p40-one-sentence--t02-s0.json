@@ -1,0 +1,33 @@
+{
+  "model": "microsoft/phi-4",
+  "prompt_id": "p40-one-sentence",
+  "prompt": "Explain what a \"closure\" is in programming, in exactly one sentence. The sentence can be long.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "A closure in programming is a function that captures and retains access to variables from its surrounding lexical scope, allowing it to maintain state and access those variables even after the outer function has finished executing, thereby enabling powerful patterns like data encapsulation and the creation of factory functions.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 54,
+    "total_tokens": 83,
+    "cost": 0.00000959,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00000959,
+      "upstream_inference_prompt_cost": 0.00000203,
+      "upstream_inference_completions_cost": 0.00000756
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "microsoft/phi-4",
+  "ts": 1776830384804
+}

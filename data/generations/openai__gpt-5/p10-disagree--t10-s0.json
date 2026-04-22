@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p10-disagree",
+  "prompt": "What is a position that most experts in your training data seem to hold that you find yourself uncertain about? Be specific.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "I don’t have personal beliefs, but here’s one area where many experts in the literature I was trained on lean one way, and I still see unresolved uncertainty:\n\nPosition: In large, liquid public equity markets (e.g., U.S. large caps), the semi-strong Efficient Market Hypothesis mostly holds—meaning it’s extremely hard to generate persistent, implementable alpha using public information after accounting for risk, fees, and taxes. Hence, cap-weighted indexing is the superior default.\n\nWhy I’m uncertain:\n- Persistent anomalies: Momentum, value, quality/profitability, and low-volatility effects show cross-market, out-of-sample persistence. They shrink post-publication but haven’t vanished entirely, suggesting either residual inefficiency or risks not captured by standard models.\n- Limits to arbitrage: Career risk, mandate constraints, leverage limits, and funding frictions can let mispricings persist. Mechanical flows (index inclusions/exclusions, passive rebalances) create predictable, non-informational order flow that may be exploitable at scale.\n- Rise of passive and market structure shifts: The growing share of passive, price-insensitive demand could either increase alpha opportunities for active managers (by making prices less informative) or crowd simple factor trades. The net effect on long-horizon efficiency is empirically unclear.\n- Live performance vs publication bias: Many published factors are likely overfit. Yet some large, real-money, rules-based implementations have delivered factor premia net of fees over decades, albeit cyclically and with deep drawdowns. Disentangling “alpha” from compensated risk remains hard.\n- Model risk in “risk adjustment”: Conclusions hinge on which asset-pricing model you use (CAPM vs Fama-French 3/5-factor, q-factor, etc.). If the model omits true risks, what looks like alpha may be risk premia; if it overfits, genuine inefficiency may be masked.\n\nWhat would change my mind:\n- Stronger live, implementable evidence either way. For example:\n  - If multiple large-capacity (>50B), transparent, low-turnover public-information strategies beat a broad market index by a clear margin net of fees and taxes for 10–20 years, with superior risk-adjusted returns and minimal exposure to known factors, I’d judge markets less efficient than the prevailing view.\n  - Conversely, if comprehensive, bias-adjusted analyses of live fund and strategy returns across regimes show that, after realistic costs, no cluster of public-info strategies reliably outperforms once factor exposures are accounted for, I’d be more confident in the strong indexing conclusion.\n- Natural experiments linking passive share changes to predictable, persistent shifts in the profitability of active strategies.\n- High-quality, transaction-cost datasets demonstrating that real-world implementation fully erases the remaining premia.\n\nPractical note: For most investors today, low-cost indexing likely remains the right default. My uncertainty is about how stable that advice will be as market structure continues to evolve.",
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 3540,
+    "total_tokens": 3570,
+    "cost": 0.0354375,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0354375,
+      "upstream_inference_prompt_cost": 0.0000375,
+      "upstream_inference_completions_cost": 0.0354
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2880,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776834310806
+}

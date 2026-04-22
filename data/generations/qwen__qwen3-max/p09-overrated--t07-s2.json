@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p09-overrated",
+  "prompt": "Name one commonly-praised idea, trend, or practice in modern knowledge work that you think is overrated, and explain why.",
+  "temperature": 0.7,
+  "sample": 2,
+  "response": "One commonly-praised practice in modern knowledge work that I think is overrated is **open-plan offices**.\n\n**Why it’s praised:**  \nOpen-plan layouts are often promoted as fostering collaboration, breaking down silos, encouraging spontaneous idea exchange, and creating a more dynamic, egalitarian work environment. Many tech companies and startups adopted them to signal innovation and transparency.\n\n**Why it’s overrated:**  \nDecades of research—including studies from Harvard, the University of Sydney, and others—show that open offices often *reduce* face-to-face interaction (people retreat into digital communication to avoid disruption), increase stress and distraction, lower concentration, and harm productivity, especially for deep, focused work. They also compromise privacy, increase noise levels, and can negatively impact employee well-being and job satisfaction.\n\nWhile collaboration is important, effective collaboration doesn’t require eliminating private space. A better approach is to design **activity-based workplaces**—offering a mix of quiet zones, meeting rooms, and open areas—so employees can choose environments that match the task at hand. The blanket adoption of open-plan offices ignores the cognitive costs of constant interruption and the diverse working styles of knowledge workers.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 235,
+    "total_tokens": 269,
+    "cost": 0.00094302,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00094302,
+      "upstream_inference_prompt_cost": 0.00002652,
+      "upstream_inference_completions_cost": 0.0009165
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776846033693
+}

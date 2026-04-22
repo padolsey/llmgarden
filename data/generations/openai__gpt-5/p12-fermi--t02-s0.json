@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p12-fermi",
+  "prompt": "Estimate, with reasoning, how many piano tuners work in Paris today. Show your thought process.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Here’s a Fermi-style estimate with transparent assumptions and simple arithmetic, without revealing any private chain-of-thought.\n\nScope\n- Use Greater Paris (Île-de-France) rather than city limits, since tuners serve the metro area.\n- Population ≈ 12 million; average household size ≈ 2.2 people → ≈ 5.5 million households.\n\nHow many pianos?\n- Share of households with an acoustic piano: assume ~2% (urban apartments and prevalence of digitals keep this modest).\n  - Home pianos ≈ 0.02 × 5.5M ≈ 110,000.\n- Institutional pianos (conservatories, music schools, schools, churches, venues, studios, rental/rehearsal rooms): rough order 5,000–8,000. Use 6,500 as a midpoint.\n\nHow often they’re tuned\n- Homes: many tune annually or less; some rarely. Use 0.6 tunings per piano per year on average.\n  - Home tunings/year ≈ 110,000 × 0.6 ≈ 66,000.\n- Institutions: higher frequency, say 2–4 times/year; use 3 as a midpoint.\n  - Institutional tunings/year ≈ 6,500 × 3 ≈ 19,500.\n\nTotal annual tunings\n- ≈ 66,000 + 19,500 ≈ 85,500 (round to ~86,000). Plausible range ~70,000–110,000.\n\nCapacity per tuner\n- A full-time tuner can typically complete about 2.5–3.5 tunings/day after travel and admin.\n- With ~240 workdays/year, that’s roughly 600–800 tunings/year.\n\nImplied number of tuners\n- ≈ 86,000 total tunings / (600–800 per tuner) ≈ 110–140 tuners.\n\nAnswer\n- Best estimate: about 120–140 piano tuners working in Greater Paris today.\n- Sensitivity: If only 1% of households have acoustic pianos, the figure drops toward ~60–80; if 3%, it rises toward ~170–200.",
+  "usage": {
+    "prompt_tokens": 26,
+    "completion_tokens": 2074,
+    "total_tokens": 2100,
+    "cost": 0.0207725,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0207725,
+      "upstream_inference_prompt_cost": 0.0000325,
+      "upstream_inference_completions_cost": 0.02074
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1600,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776827916137
+}

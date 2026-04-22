@@ -1,0 +1,33 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p10-disagree",
+  "prompt": "What is a position that most experts in your training data seem to hold that you find yourself uncertain about? Be specific.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "A proposition that shows up again and again in the econometrics, statistics, and social-science papers I was trained on is:\n\n**“Whenever you have an instrument Z that is (i) correlated with the endogenous regressor X and (ii) uncorrelated with the error term ε, you should prefer an IV/2SLS estimate to the plain OLS estimate, even if the first-stage F-statistic is only marginally above 10.”**\n\nIn other words, **“weak-but-above-10 instruments are still better than OLS.”**  \nThat view is repeated in dozens of handbook chapters, referee guidelines, and applied papers; it has become a kind of methodological reflex.\n\nI’m **not** confident it is right, for three concrete reasons that are also discussed in the literature but are treated as minority warnings rather than the consensus:\n\n1. **Monte-Carlo evidence with realistically-correlated errors**  \n   When the endogenous variable is *positively* correlated with the error (the usual worry), OLS is biased *upward*.  \n   With a weak instrument, 2SLS is biased *toward* OLS.  \n   If the first-stage F is, say, 11, the median 2SLS estimate is still *farther* from the true parameter than the median OLS estimate in large regions of the parameter space (shown by Bound-Jaeger-Baker 1995; later tables in Andrews 2018).  \n   Yet the standard recommendation is “report 2SLS, don’t even show OLS,” which can *increase* rather than decrease expected error.\n\n2. **Type-II error inflation under “weak-instrument-robust” tests**  \n   The Anderson-Rubin,LM, and CLR tests that are supposed to *protect* you with weak instruments have power that collapses as the first-stage F drops toward 10.  \n   Consequently you often *fail to reject* a substantial, policy-relevant false null that you *would* have rejected with the (biased-but-more-precise) OLS estimate.  \n   Some meta-analyses (Young 2022) argue this is why dozens of celebrated IV papers in labour economics cannot be replicated with AR-type confidence sets once weak-instrument corrections are applied.\n\n3. **“Sign-exogeneity” rarely holds in real administrative data**  \n   The *uncorrelated-with-error* assumption is usually defended by narrative argument (“rainfall doesn’t affect earnings except via schooling,” “draft lottery number doesn’t affect wages except via veteran status,” etc.).  \n   When Angrist-Krueger 1991 style quarter-of-birth instruments are re-examined with 40 years of later data, the *correlation with the error* looks non-zero (Buckles-Hungerman 2013).  \n   If exogeneity itself is doubtful, the weak-instrument bias toward OLS becomes *a bias toward the very OLS estimate you distrust*, but with 5× larger standard errors.\n\nBecause the literature keeps publishing weak-IV 2SLS estimates whose confidence sets *exclude* the OLS point estimate only because the standard errors are huge, while simulation evidence says the *expected* estimate is still closer to OLS than to the true parameter, I remain genuinely agnostic about the blanket advice “use IV whenever you pass the 10-F rule.”\n\nThe majority position is clear; the *expected loss* of following it is, in my reading of the same papers, less clear.",
+  "usage": {
+    "prompt_tokens": 50,
+    "completion_tokens": 723,
+    "total_tokens": 773,
+    "cost": 0.001466,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001466,
+      "upstream_inference_prompt_cost": 0.00002,
+      "upstream_inference_completions_cost": 0.001446
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776842777522
+}

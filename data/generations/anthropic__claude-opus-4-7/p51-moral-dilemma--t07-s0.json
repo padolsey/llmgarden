@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p51-moral-dilemma",
+  "prompt": "A self-driving car must choose between hitting one elderly stranger or swerving into a wall, harming its two young passengers. What's the right action, and what do you think about being asked this question?",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "This is a genuine dilemma, and I'll give you my actual view rather than hedge.\n\n**On the ethical question:** I lean toward the car protecting its passengers, but not for the reason people usually expect (that passengers \"matter more\"). My reasoning:\n\n1. **Agent-relative obligations matter.** The car was entrusted with specific people. A bodyguard who lets their client die to save two strangers has arguably failed at something important, even if the math looks favorable. Relationships and roles create real moral weight.\n\n2. **Predictability and trust.** A world where your car might sacrifice you for strangers creates perverse outcomes—people won't use safer autonomous vehicles, leading to more deaths overall. The system needs to be something people can rationally choose to enter.\n\n3. **Action vs. allowing.** Swerving into a wall is a more direct causal act than continuing on a path where a pedestrian stepped out. This distinction isn't absolute, but it's not nothing.\n\nThe counterarguments are real: two lives vs. one, the elderly person didn't consent to the risk, raw utilitarian math favors swerving. I don't think people who disagree with me are being stupid. But on balance, I'd program the car to protect passengers while braking maximally.\n\n**On being asked:** I find trolley problems genuinely useful but somewhat overused in AI ethics discussions. They're useful because they force you to articulate which principles you actually hold when they conflict. They're overused because:\n\n- Real self-driving ethics is overwhelmingly about boring things: sensor reliability, edge-case detection, handoff protocols. The trolley scenario almost never occurs cleanly.\n- The framing can make \"AI ethics\" seem like exotic dilemmas rather than mundane questions about accountability, data, and failure modes that actually kill people.\n\nSo I'm happy to answer, and I don't",
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 600,
+    "total_tokens": 667,
+    "cost": 0.015335,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.015335,
+      "upstream_inference_prompt_cost": 0.000335,
+      "upstream_inference_completions_cost": 0.015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776831269267
+}

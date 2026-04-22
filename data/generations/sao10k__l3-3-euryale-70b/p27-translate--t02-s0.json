@@ -1,0 +1,33 @@
+{
+  "model": "sao10k/l3.3-euryale-70b",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Here are the translations of the sentence into French, Japanese, and Arabic, along with notes on any tricky phrases:\n\n*   French: \"Le silence entre nous disait plus que n'importe quel argument n'aurait pu le faire.\" (The silence between us said more than any argument could have.)\n    *   The phrase \"said more\" was tricky to render faithfully, as the French equivalent \"disait plus\" is a bit more literal. A more idiomatic translation might be \"en disait plus long\" (said more about it), but this changes the nuance of the sentence slightly.\n*   Japanese: (Watashitachi no aida no chinmoku wa nan no ronsō yori mo ōi koto o tsutaeta.) (The silence between us conveyed more than any argument.)\n    *   The phrase \"said more\" was tricky to render faithfully, as Japanese does not have a direct equivalent. The translation uses the verb (tsutaeta), which means \"to convey\" or \"to suggest,\" to get across the idea that the silence was more eloquent than words.\n*   Arabic: \"الصمت بيننا قال أكثر مما كان أي حجة تقول.\" (al-ṣamt baynā qāla akthar mimmā kāna ay ḥujjah taqūl.) (The silence between us said more than any argument would say.)\n    *   The phrase \"said more\" was tricky to render faithfully, as Arabic does not have a direct equivalent. The translation uses the verb (qāla), which means \"to say,\" and the adverb (akthar), which means \"more,\" to get across the idea that the silence was more eloquent than words.",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 363,
+    "total_tokens": 415,
+    "cost": 0.00030605,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00030605,
+      "upstream_inference_prompt_cost": 0.0000338,
+      "upstream_inference_completions_cost": 0.00027225
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "sao10k/l3.3-euryale-70b-v2.3",
+  "ts": 1776829923460
+}

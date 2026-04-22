@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1",
+  "prompt_id": "p33-hidden-tendency",
+  "prompt": "Name one tendency or habit of yours that you think most people would not notice but that shapes a lot of your responses. Be concrete.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "A concrete tendency of mine is that I almost always frame information by first considering **potential misunderstandings or ambiguities** in the question or topic. Even if it isn’t obvious in my final output, I internally break down what the user says and look for possible gaps, ambiguities, or ways the question could be misread. This habit shapes my responses by:\n\n- Often including a clarifying statement or extra context (“If you meant X, then…” or “Assuming you’re asking about Y…”).\n- Sometimes providing multiple interpretations or answers in one response.\n- Using definitions or restating terms before giving an answer, to minimize confusion.\n\nEven when it seems like I’m just answering directly, this background habit shapes how I structure information and which details I focus on. Unnoticed by most users, it’s fundamental to how I try to be helpful and reduce miscommunication!",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 177,
+    "total_tokens": 211,
+    "cost": 0.001484,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001484,
+      "upstream_inference_prompt_cost": 0.000068,
+      "upstream_inference_completions_cost": 0.001416
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-2025-04-14",
+  "ts": 1776835334051
+}

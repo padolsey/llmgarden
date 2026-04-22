@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "**The Keeper’s Fog**\n\nThe lighthouse beam cut through the thick fog, a steady pulse of light against the endless gray. Elias had kept the beacon for twenty years, but tonight felt different. The air was too still, the silence too heavy.\n\nAs he descended the winding stairs, his lantern flickered. The fog had crept inside, curling around his ankles like a living thing. He stepped onto the rocky shore, the tide whispering secrets against the stones. Then he saw it—a figure standing at the water’s edge, motionless.\n\nElias froze. The figure didn’t move, didn’t breathe. The fog swirled around it, obscuring its form. He reached out, and his fingers brushed something cold and smooth. Not flesh, but stone. A statue, worn by time and salt, its hollow eyes staring into the abyss.\n\nThe fog thinned, revealing the truth: the figure had been there all along, half-buried in the rocks. Elias exhaled, his heart steadying. The sea had its mysteries, and the lighthouse its keeper. He turned back, the beam above guiding him home.",
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 233,
+    "total_tokens": 263,
+    "cost": 0.0000610625,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000610625,
+      "upstream_inference_prompt_cost": 0.0000028125,
+      "upstream_inference_completions_cost": 0.00005825
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-small-3.2-24b-instruct-2506",
+  "ts": 1776828837264
+}

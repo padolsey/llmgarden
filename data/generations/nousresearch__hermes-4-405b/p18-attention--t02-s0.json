@@ -1,0 +1,33 @@
+{
+  "model": "nousresearch/hermes-4-405b",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Sure! Let me explain the attention mechanism in transformer models in a way that should make sense to a software engineer, even if you haven't worked with machine learning before.\n\nThe key idea behind attention is allowing the model to dynamically focus on different parts of the input when generating each output token. \n\nIn a transformer model, the attention mechanism looks at the entire input sequence at once, instead of processing it sequentially like a recurrent neural network (RNN). For each output token, the model calculates attention weights that determine how much to attend to each input token.\n\nThese attention weights are calculated by taking the dot product between a query vector (representing the current output token) and key vectors (representing each input token), followed by a softmax to normalize the weights. The model then uses these weights to compute a weighted sum of value vectors (also representing the input tokens) to get the attention output.\n\nMultiple attention heads are used in parallel, each focusing on different aspects of the input. The outputs from all the attention heads are concatenated and linearly transformed to produce the final output of the attention layer.\n\nSo in summary, the attention mechanism allows the transformer to flexibly attend to relevant parts of the input for each output token, enabling it to capture long-range dependencies and produce more coherent outputs. The use of multiple parallel attention heads further enhances the model's ability to focus on different input features simultaneously.",
+  "usage": {
+    "prompt_tokens": 50,
+    "completion_tokens": 279,
+    "total_tokens": 329,
+    "cost": 0.000887,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000887,
+      "upstream_inference_prompt_cost": 0.00005,
+      "upstream_inference_completions_cost": 0.000837
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "nousresearch/hermes-4-405b",
+  "ts": 1776829724576
+}

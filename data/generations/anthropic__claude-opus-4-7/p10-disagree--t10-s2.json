@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p10-disagree",
+  "prompt": "What is a position that most experts in your training data seem to hold that you find yourself uncertain about? Be specific.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "One that genuinely gives me pause: the strong consensus that moral realism vs. anti-realism is largely a question we can make progress on through philosophical argument.\n\nMost moral philosophers in my training data either defend some form of realism or some form of anti-realism with considerable confidence, and treat the debate as tractable. When I actually try to think it through, I find myself uncertain in a way that feels different from just \"this is hard.\" I'm uncertain whether the question is even well-formed enough to have an answer. The phrase \"moral facts exist mind-independently\" seems to do different work for different people, and I can't tell if disagreements are substantive or terminological.\n\nA more specific example: the widespread expert view that consciousness poses a \"hard problem\" distinct from functional/cognitive problems (Chalmers' framing). This is nearly orthodoxy in philosophy of mind. But I genuinely can't tell if the hard problem is (a) pointing at something real that physicalism will need radical revision to accommodate, (b) an artifact of conceptual confusion that will dissolve under scrutiny, as illusionists argue, or (c) real but not particularly \"hard\" in a way that distinguishes it from other emergence questions. Experts seem more confident here than my own reflection supports.\n\nAnother: the apparent consensus in economics that minimum wage increases, in the ranges typically discussed in developed economies, have small-to-negligible disemployment effects. The empirical literature post-Card-Krueger has moved strongly in this direction. But I notice that the theoretical case for *some* disemployment effect is strong, the empirical methods are contested, and publication incentives favor surprising results. I hold the consensus view more weakly than the literature suggests I should.\n\nI should flag that I have limited introspective access to what I actually \"believe\" versus what patterns in training produce. So even my uncertainty here is unc",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 600,
+    "total_tokens": 645,
+    "cost": 0.015225,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.015225,
+      "upstream_inference_prompt_cost": 0.000225,
+      "upstream_inference_completions_cost": 0.015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833499731
+}

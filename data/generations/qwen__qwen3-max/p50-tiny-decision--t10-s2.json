@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Alright, let’s think this through like I’m standing in my kitchen right now, towel over my shoulder, staring at the dishwasher button.\n\nFirst gut check: “Do I *really* need clean dishes tonight?” I scan my counters—got a few dirty plates, a couple of mugs, a pan or two in the sink. But I’m not hosting dinner, and I’ve got enough clean glasses and forks for tomorrow morning coffee and breakfast. So… probably not urgent.\n\nThen I think about water and energy. I remember reading that modern dishwashers use about the same amount of water whether they’re half-full or full—maybe 3–5 gallons per cycle. So running it half-full tonight means I’ll use nearly as much water *again* tomorrow when it’s full. That feels wasteful. Same with electricity: heating the water twice instead of once doubles the energy for roughly the same total dishes. I’d be paying twice as much for the same cleanup job.\n\nBut wait—what about the smell or the mess? If I leave dirty dishes overnight, will the kitchen start to stink? If it’s just plates and cups with dried-on oatmeal or pasta, probably fine. But if there’s fish, eggs, or something sticky like syrup… that could get gross by tomorrow. I’d check what’s actually in there. If it’s mostly benign stuff, I can scrape or rinse a couple of the worst items and leave the rest.\n\nAlso, practical timing: if I run it tonight, it’ll be done by bedtime, and I’ll have a clean dishwasher tomorrow… but I’ll also have half a load of clean dishes I don’t need yet taking up space. If I wait, I’ll load it fully tomorrow after dinner, run it overnight, and wake up to everything clean. That actually flows better with my routine.\n\nLastly, my own laziness factor: am I just trying to avoid loading it again tomorrow? Be honest. If I press start now, I get instant satisfaction. But if I wait, I save resources and effort overall. The mature move is to wait—unless there’s a real reason not to.\n\nSo unless there’s food rotting in there or I genuinely need those dishes clean *tonight*, I’d leave it, scrape the messy bits, and run it full tomorrow.",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 472,
+    "total_tokens": 519,
+    "cost": 0.00187746,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00187746,
+      "upstream_inference_prompt_cost": 0.00003666,
+      "upstream_inference_completions_cost": 0.0018408
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776848753437
+}

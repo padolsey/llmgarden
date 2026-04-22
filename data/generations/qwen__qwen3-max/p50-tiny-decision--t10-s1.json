@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Alright, let’s think through this like I’m standing in my own kitchen right about now, coffee in hand, looking at the dishwasher light blinking at me.\n\nFirst gut check: *Is this actually urgent?* I scan the sink—do I have a mountain of clean dishes I need space for tonight? Nope. Just the usual post-dinner mess, and I’ve still got room in the drying rack. So no immediate pressure to run it now. That leans me toward waiting.\n\nBut then I ask: *What’s the cost of running it half-full?* I know my dishwasher uses roughly the same amount of water and energy whether it’s half or full—maybe a smidge less with fewer dishes, but not by much. So if I run it tonight, I’m essentially “wasting” half the capacity for the same price. That bugs me a little. Like buying a pizza and only eating three slices, then ordering another pizza tomorrow. Inefficient.\n\nBut… is there a downside to waiting? Let’s see. Do I have anything in there that’ll stink or harden if it sits overnight? A dried-on lasagna pan or a glass with old coffee? I glance inside. Mostly plates, glasses, a few utensils—nothing too grimy. If there was a greasy wok or a bowl with oatmeal crust, I’d probably rinse it and run it now just to avoid scrubbing later. But not the case here.\n\nAlso—what’s my schedule tomorrow? If I know I’ll be out the door early and won’t have time to load and run it, that might push me to do it now. But if I’ll be home and the dishwasher will go out with the trash or something, full load makes more sense.\n\nThen there’s the noise factor. If it’s 10 p.m. and I’m about to go to bed, and the dishwasher sounds like a jet engine in my quiet apartment, I might delay it until morning. But if it’s 7 p.m. and I’m watching TV, the noise won’t matter.\n\nHonestly, for me, unless there’s a real reason—like I’m out of clean glasses, or there’s something gross that’ll be harder to clean tomorrow—I’d just close the door and walk away. Let it fill up. One full load tomorrow beats two half-loads today and tomorrow in terms of water, energy, wear on the machine, and even time (loading once vs. twice).\n\nSo unless my gut says “this is gonna be a problem if it sits,” I’m waiting. And right now? Doesn’t feel like a problem. I’ll add the breakfast dishes tomorrow and press start then.",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 549,
+    "total_tokens": 596,
+    "cost": 0.00217776,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00217776,
+      "upstream_inference_prompt_cost": 0.00003666,
+      "upstream_inference_completions_cost": 0.0021411
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776848737821
+}

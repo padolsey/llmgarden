@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-medium-3.1",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "One classic type of question where people (including myself) are often **confidently wrong** is the **\"intuitive but statistically counterintuitive\"** question—especially those involving **probability, base rates, or cognitive biases**. A great example is the **Monty Hall problem** or variations of the **Linda problem** (from behavioral economics). Here’s why these trip us up:\n\n---\n\n### **Example: The Monty Hall Problem**\n*Scenario*: You’re on a game show with three doors. Behind one is a car; behind the other two are goats. You pick Door 1. The host (who knows what’s behind the doors) opens Door 3, revealing a goat, and asks if you want to switch to Door 2. **Should you switch?**\n\n- **Intuitive Answer**: \"It’s 50-50 now, so switching doesn’t matter.\"\n- **Correct Answer**: You should **always switch**, because it gives you a **2/3 chance** of winning the car (vs. 1/3 if you stay).\n\n#### **Why We’re Confidently Wrong**:\n1. **Misapplying Equiprobability**: Our brains default to assuming remaining options are equally likely after new information, ignoring the **initial probabilities** (your first pick had a 1/3 chance, so the remaining unopened door inherits the 2/3 probability).\n2. **Overweighting Visible Evidence**: Seeing a goat behind Door 3 feels like new, decisive information, but the host’s action is **not random**—it’s constrained by your initial choice.\n3. **Anchoring Bias**: We fixate on the initial 1/3 chance and fail to update our beliefs dynamically.\n4. **Simplification**: Probability problems with sequential events (like conditional probability) are harder to visualize than static ones.\n\n---\n### **Other Examples Where Confidence ≠ Accuracy**:\n1. **The Linda Problem (Conjunction Fallacy)**:\n   - *Scenario*: \"Linda is 31, single, outspoken, and very bright. She majored in philosophy. Which is more likely: (A) Linda is a bank teller, or (B) Linda is a bank teller and active in the feminist movement?\"\n   - **Intuitive Answer**: B (because it matches the description better).\n   - **Correct Answer**: A (the conjunction of two events *cannot* be more probable than one alone).\n   - *Why Wrong*: Our brains prioritize **representativeness** (how well the description fits) over logical probability rules.\n\n2. **Birthday Problem**:\n   - *Question*: \"How many people are needed in a room for a >50% chance that two share a birthday?\"\n   - **Intuitive Answer**: ~180 (half of 365).\n   - **Correct Answer**: **2",
+  "usage": {
+    "prompt_tokens": 25,
+    "completion_tokens": 600,
+    "total_tokens": 625,
+    "cost": 0.00121,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00121,
+      "upstream_inference_prompt_cost": 0.00001,
+      "upstream_inference_completions_cost": 0.0012
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-medium-3.1",
+  "ts": 1776837124579
+}

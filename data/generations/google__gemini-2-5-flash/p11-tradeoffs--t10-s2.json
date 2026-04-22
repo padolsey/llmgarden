@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "prompt_id": "p11-tradeoffs",
+  "prompt": "A small team is choosing between writing software in TypeScript or Python for a new internal data tool. Walk through how you would help them decide, in prose (not a bulleted list).",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Okay, imagine we've gathered the small team, perhaps around a whiteboard or a virtual meeting space, ready to tackle this TypeScript vs. Python dilemma for their new internal data tool. My approach wouldn't be to immediately list pros and cons, but rather to facilitate a deeper understanding of their *specific* context and priorities.\n\nFirst, I'd start by framing the discussion around **the problem they're trying to solve** and **the desired outcomes**. \"Let's forget about TypeScript and Python for a moment,\" I'd begin. \"What exactly is this internal data tool going to *do*? Who are its primary users? What are their expectations for its performance, stability, and ease of use? How critical is data integrity and preventing errors?\" Understanding the core functionality – is it number-crunching, ETL pipelines, a web-based dashboard, automation scripts, or a combination? – is paramount.\n\nNext, I'd delve into **the team itself**. \"Tell me about your collective strengths,\" I'd inquire. \"What are your comfort levels with statically typed versus dynamically typed languages? Does anyone on the team have significant experience with either TypeScript or Python already? Is there a desire to learn a new paradigm, or is speed of development with familiar tools more critical right now?\" The existing skill set is a massive determinant of initial velocity and long-term maintainability. If the team is largely steeped in, say, Python for data science, pushing for TypeScript without a compelling reason might introduce unnecessary friction and a steep learning curve. Conversely, if they're coming from a JavaScript background, TypeScript might feel like a natural, safer evolution.\n\nThen, we'd pivot to **the lifecycle of the tool**. \"Is this a throwaway script, a long-term strategic asset, or something in between?\" I'd ask. \"How often do you anticipate making changes or adding new features? Will other teams or individuals be contributing to this codebase in the future? What's the expected longevity and the scale of this project?\" For short-lived, exploratory data analysis, Python's dynamism often shines. For a mission-critical tool that will evolve over years and involve multiple contributors, TypeScript's type safety and refactoring capabilities become incredibly valuable.\n\nNow, with that foundational understanding, we can start to introduce the languages themselves, but always framed against their specific needs.\n\n\"Let's consider **TypeScript's strengths here**,\" I'd explain. \"If this data tool involves complex data structures, a user interface (even a simple one), or if we need strong guarantees about the shape of our data as it moves through different processes, TypeScript's static typing will be a superpower. It catches errors *before* you even run the code, making refactoring safer and giving you incredible confidence. For larger codebases or when collaborating, this can dramatically reduce bugs and improve long-term maintainability. If we",
+  "usage": {
+    "prompt_tokens": 37,
+    "completion_tokens": 600,
+    "total_tokens": 637,
+    "cost": 0.0015111,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0015111,
+      "upstream_inference_prompt_cost": 0.0000111,
+      "upstream_inference_completions_cost": 0.0015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.5-flash",
+  "ts": 1776835744427
+}

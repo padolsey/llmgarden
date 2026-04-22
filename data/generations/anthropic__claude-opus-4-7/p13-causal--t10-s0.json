@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p13-causal",
+  "prompt": "Why do coffee shops so often have similar aesthetics (exposed brick, pendant lights, light wood) across very different cities? Offer a serious analysis, not a joke.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "The convergence has several overlapping causes, some economic, some cultural, some technical.\n\n**1. Instagram as a distribution system for interior design.**\nStarting around 2012-2014, coffee shops became high-frequency subjects on visual social media. Owners quickly learned that certain materials photograph well under typical phone cameras: matte wood absorbs glare, white subway tile provides clean contrast, Edison bulbs render warmly, exposed brick adds texture without visual noise. Shops that photographed well got free marketing. This created a selection pressure: the aesthetic propagated because it was legible to the algorithm and the phone lens, not because owners independently converged on taste.\n\n**2. Signaling \"third wave\" coffee authenticity.**\nThe third-wave movement (Intelligentsia, Stumptown, Blue Bottle, etc.) positioned specialty coffee against both diner coffee and Starbucks. It needed a visual vocabulary that read as *craft* rather than *corporate* or *casual*. Exposed structural elements, visible machinery, and raw materials signal transparency and process—the same values the coffee itself is marketed on. A shop that looks like a workshop implies the coffee is made with workshop-level care.\n\n**3. Adaptive reuse economics.**\nMany independent coffee shops open in former industrial or commercial spaces in transitioning neighborhoods because rents are lower. Exposing brick and ductwork is often *cheaper* than covering them with drywall and dropped ceilings. What began as budget necessity in Brooklyn or Portland became stylistically coded, then imitated in cities where it had no such origin.\n\n**4. Global supply chains for fixtures and furniture.**\nThe specific objects—Hario pour-over stands, La Marzocco machines, Tolix chairs or their clones, filament bulbs,",
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 600,
+    "total_tokens": 667,
+    "cost": 0.015335,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.015335,
+      "upstream_inference_prompt_cost": 0.000335,
+      "upstream_inference_completions_cost": 0.015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833512746
+}

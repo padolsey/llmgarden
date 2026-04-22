@@ -1,0 +1,33 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Think of attention as a smart “lookup table” that is rebuilt for every word you read.\n\n1. For each input word the network produces three short vectors:  \n- Query (what am I searching for?)  \n- Key (what topic do I cover?)  \n- Value (what information do I carry?)\n\n2. To decide how strongly word A should influence word B we take A’s Query, dot-product it with every other word’s Key, scale the results and run them through softmax. That gives a probability distribution of attention scores—numbers that add to 1.\n\n3. We multiply each word’s Value by its score and sum; the outcome is a single context-aware vector that mixes just the parts of the sentence that matter for the current word.\n\n4. Repeat for every word in parallel; GPUs love this.  \nBecause the same word can play different “roles,” we usually have several parallel heads (multi-head attention) so the model can attend to syntax, semantics, or facts at once.\n\nNo recursion, no long vanishing gradients—just fast matrix multiplications that let you look anywhere in the sentence in O(1) steps.",
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 232,
+    "total_tokens": 283,
+    "cost": 0.0004844,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004844,
+      "upstream_inference_prompt_cost": 0.0000204,
+      "upstream_inference_completions_cost": 0.000464
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776842947487
+}

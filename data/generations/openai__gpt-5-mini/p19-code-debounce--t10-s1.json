@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Debounce delays calling a function until a certain time has passed since the last invocation, preventing it from running too frequently.\n\n```javascript\nfunction debounce(fn, wait = 300) {\n  let timeout;\n  return function(...args) {\n    const context = this;\n    clearTimeout(timeout);\n    timeout = setTimeout(() => fn.apply(context, args), wait);\n  };\n}\n\n// Example: debounce an input handler so it runs 300ms after typing stops\nconst input = document.querySelector('#search');\nconst handleSearch = (query) => {\n  // perform search or API call\n  console.log('Searching for', query);\n};\nconst debouncedSearch = debounce(handleSearch, 300);\n\ninput.addEventListener('input', (e) => debouncedSearch(e.target.value));\n```",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 515,
+    "total_tokens": 551,
+    "cost": 0.001039,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001039,
+      "upstream_inference_prompt_cost": 0.000009,
+      "upstream_inference_completions_cost": 0.00103
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 320,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776835060808
+}

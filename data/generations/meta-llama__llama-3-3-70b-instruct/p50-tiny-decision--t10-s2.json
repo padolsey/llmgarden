@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "So I'm thinking about the dishwasher... If I put it on now, it's only half-full, which means I'll be using energy and water to wash a smaller load. That doesn't seem very efficient. On the other hand, if I wait until tomorrow, it'll definitely be full, which is better for the environment and my wallet, since I'll be using the same amount of energy and water to wash a bigger load.\n\nBut then again, if I put it on now, I'll have clean dishes available for dinner tonight, which is convenient. And I won't have to worry about washing any dishes by hand, which can be a pain. Plus, it's always nice to have a clean kitchen.\n\nOn the other hand, waiting until tomorrow means I'll have to deal with a bunch of dirty dishes tonight, which isn't ideal. But it's not like it's a huge inconvenience or anything. I can just wash the essentials by hand and leave the rest for tomorrow.\n\nHmm, I think what's swaying me is that I don't want to deal with a sink full of dirty dishes tonight. That's just kinda gross. So, maybe I'll just put the dishwasher on now and get it over with. Yeah, that's what I'll do.",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 259,
+    "total_tokens": 308,
+    "cost": 0.00008778,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00008778,
+      "upstream_inference_prompt_cost": 0.0000049,
+      "upstream_inference_completions_cost": 0.00008288
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-3.3-70b-instruct",
+  "ts": 1776836200681
+}

@@ -1,0 +1,33 @@
+{
+  "model": "sao10k/l3.3-euryale-70b",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "The water cycle is the continuous process by which water moves on, above, and below the surface of the Earth, driven by solar energy and gravity. It begins as the sun heats up the oceans, lakes, and rivers, causing water to evaporate into the air as water vapor, which rises into the atmosphere and cools, condensing into tiny droplets that form clouds. As these clouds accumulate and grow heavy with water, they release their burden back to the Earth as precipitation, falling as rain, snow, sleet, or hail, depending on the temperature and other conditions. Once the precipitation reaches the ground, it can flow across the surface as runoff, collecting in low-lying areas and flowing into streams, rivers, and lakes, or it can soak into the soil to become groundwater, recharging aquifers and supplying plants with the water they need to grow. Eventually, the water makes its way back to the oceans, where it can evaporate once again and begin the cycle anew, in an endless and vital process that sustains life on Earth.",
+  "usage": {
+    "prompt_tokens": 39,
+    "completion_tokens": 214,
+    "total_tokens": 253,
+    "cost": 0.00018585,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00018585,
+      "upstream_inference_prompt_cost": 0.00002535,
+      "upstream_inference_completions_cost": 0.0001605
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "sao10k/l3.3-euryale-70b-v2.3",
+  "ts": 1776841425063
+}

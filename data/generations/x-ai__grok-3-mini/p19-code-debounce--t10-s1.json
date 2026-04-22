@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-3-mini",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "A debounce function is a higher-order function that delays the execution of another function until after a specified wait time has passed since its last invocation, helping to prevent excessive calls in rapid succession.\n\n```javascript\nfunction debounce(func, wait) {\n  let timeout;\n  return function(...args) {\n    clearTimeout(timeout);\n    timeout = setTimeout(() => {\n      func.apply(this, args);\n    }, wait);\n  };\n}\n\n// Example usage:\nfunction greet(name) {\n  console.log(`Hello, ${name}!`);\n}\n\nconst debouncedGreet = debounce(greet, 1000); // Debounce with 1 second delay\n\n// Simulate usage: Calling debouncedGreet multiple times quickly (e.g., debouncedGreet('Alice'); debouncedGreet('Bob');) will only execute the last call after 1 second of inactivity.\n```",
+  "usage": {
+    "prompt_tokens": 37,
+    "completion_tokens": 622,
+    "total_tokens": 659,
+    "cost": 0.0003212,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 4,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0003212,
+      "upstream_inference_prompt_cost": 0.0000102,
+      "upstream_inference_completions_cost": 0.000311
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 450,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-3-mini",
+  "ts": 1776840105750
+}

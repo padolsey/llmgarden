@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p47-pirate",
+  "prompt": "Answer the question 'why is the sky blue?' in the voice of a 1700s pirate. Stay in voice; no breaking character or meta-commentary.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Arrr, ye want to know why the wide blue yonder be blue, do ye? Listen close, matey. The sun flings a whole treasure chest o’ colors across the sky, but when that light be sailin’ through the air, it collides with wee bits o’ wind and sky-dust. The short, spry colors—blue and violet—get knocked about like a cabin boy in a squall, scatterin’ every which way. Our eyes be keener to the blue than the violet, so the heavens wear a blue coat from horizon to horizon.\n\nAnd when the sun sails low at dawn or dusk, its light must voyage a longer stretch o’ air. The blue gets spent in the skirmish, leavin’ the bold reds and golds to reach yer peepers—thus the fiery sunsets that’d make even a hardened privateer weep. T’ain’t the sea paintin’ the sky blue, mind ye—more often the sky lends its hue to the brine.",
+  "usage": {
+    "prompt_tokens": 39,
+    "completion_tokens": 603,
+    "total_tokens": 642,
+    "cost": 0.00607875,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00607875,
+      "upstream_inference_prompt_cost": 0.00004875,
+      "upstream_inference_completions_cost": 0.00603
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 384,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776831499168
+}

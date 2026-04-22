@@ -1,0 +1,33 @@
+{
+  "model": "sao10k/l3.1-euryale-70b",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Okay, let's think about this. If you run the dishwasher now with a half-full load, you'll be using energy and water right away. But you'll have the advantage of getting those dishes clean sooner. Plus, if you're planning to wait until tomorrow, there's always a chance that the dishwasher might not get full enough to justify running it.\n\nOn the other hand, if you wait until tomorrow, you'll definitely have a full load, which is more energy-efficient. But you'll have to deal with a bigger pile of dirty dishes until then. It's also worth considering whether you'll need any of those dishes before tomorrow.\n\nI would probably lean towards waiting until tomorrow. It's more energy-efficient and you'll have a full load. But if you really need some of those dishes tonight, or if you find dealing with a big pile of dirty dishes stressful, then running it now might be the better choice for you.",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 189,
+    "total_tokens": 238,
+    "cost": 0.0002023,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002023,
+      "upstream_inference_prompt_cost": 0.00004165,
+      "upstream_inference_completions_cost": 0.00016065
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "sao10k/l3.1-euryale-70b",
+  "ts": 1776832723139
+}

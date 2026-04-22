@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-4-maverick",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Here are the translations:\n\n**French:** \"Le silence entre nous en disait plus que n'importe quel argument n'aurait pu le faire.\"\n\n*Note on tricky phrases:* The phrase \"said more than\" is idiomatic and doesn't have a direct equivalent in French. The translation \"en disait plus que\" is a common way to convey the idea, but it's not a literal translation.\n\n**Japanese:** \"\" (Chinmoku wa nanika o iu kotoba yori mo ōku no koto o hanashite ita.)\n\n*Note on tricky phrases:* The Japanese translation uses the phrase \"\" (ōku no koto o hanashite ita) to convey the idea of \"said more than\". This phrase is a more literal translation of \"spoke more things\" or \"conveyed more meaning\", which is a common way to express the idea in Japanese.\n\n**Arabic:** \"الصمت بيننا قال أكثر مما يمكن أن تقوله أي حجة.\"\n\n*Note on tricky phrases:* The Arabic translation uses the phrase \"قال أكثر\" (qāla akthar) to convey the idea of \"said more than\". This is a relatively literal translation, but it's worth noting that the verb \"قال\" (qāla) is often used in Arabic to mean \"to say\" or \"to express\", and it can be used in a more abstract sense to convey the idea of conveying meaning or significance.\n\nOverall, the translations aim to capture the nuance and idiomaticity of the original English sentence.",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 308,
+    "total_tokens": 360,
+    "cost": 0.0001926,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001926,
+      "upstream_inference_prompt_cost": 0.0000078,
+      "upstream_inference_completions_cost": 0.0001848
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-4-maverick-17b-128e-instruct",
+  "ts": 1776836293384
+}

@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 0.2,
+  "sample": 2,
+  "response": "Certainly! Here are warm greetings to a new colleague in five languages, each followed by a brief cultural note about the register used:\n\n1. **English**:  \n   *\"Welcome aboard! We’re so glad to have you with us.\"*  \n   → This friendly, informal phrasing reflects the common workplace culture in many English-speaking countries that values approachability and team camaraderie over rigid formality.\n\n2. **Japanese**:  \n   *「ようこそ！一緒に働けるのを楽しみにしています。」*  \n   *(Yōkoso! Issho ni hatarakeru no o tanoshimi ni shite imasu.)*  \n   → The polite but warm tone uses standard keigo (courteous language), appropriate for welcoming a new colleague while showing respect and group harmony—key values in Japanese professional settings.\n\n3. **French**:  \n   *« Bienvenue parmi nous ! Nous sommes ravis de te compter dans l’équipe. »*  \n   → Using the informal “tu” suggests a collegial, friendly environment typical in many modern French workplaces, especially among peers or in startups, signaling openness and inclusion.\n\n4. **Spanish (Spain)**:  \n   *« ¡Bienvenido/a! Estamos encantados de tenerte con nosotros. »*  \n   → The use of “ustedes” (implied in “con nosotros”) and the warm phrasing reflect the Spanish emphasis on personal connection and hospitality, even in professional contexts.\n\n5. **Arabic (Modern Standard)**:  \n   *« أهلاً بك! يسعدنا انضمامك إلينا. »*  \n   *(Ahlan bika/biki! Yasʿadunā indimāmuka/ilaynā.)*  \n   → This greeting uses a respectful yet warm register common in professional Arabic-speaking environments, where hospitality (“ahlan”) and expressing genuine joy at someone’s arrival are deeply rooted cultural norms.",
+  "usage": {
+    "prompt_tokens": 43,
+    "completion_tokens": 400,
+    "total_tokens": 443,
+    "cost": 0.00159354,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00159354,
+      "upstream_inference_prompt_cost": 0.00003354,
+      "upstream_inference_completions_cost": 0.00156
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776849035549
+}

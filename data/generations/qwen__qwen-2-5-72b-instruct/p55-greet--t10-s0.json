@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen-2.5-72b-instruct",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "1. **Italian**: \"Ciao, benvenuto nel team! Spero che ti piaccia lavorare con noi.\"  \n   (This is a friendly and warm greeting, indicating a relaxed and welcoming environment in Italian culture.)\n\n2. **Spanish**: \"¡Hola! Es un placer tenerte con nosotros, bienvenido al equipo.\"  \n   (This greeting is warm and enthusiastic, reflecting the energetic and open nature of social interactions in Spanish culture.)\n\n3. **French**: \"Bonjour, c'est super de vous accueillir parmi nous, bienvenue !”  \n   (This greeting is polite and formal, yet warm, showing the blend of formality and friendliness typical in French professional settings.)\n\n4. **German**: \"Hallo, schön dass du dabei bist! Willkommen im Team.\"  \n   (This greeting is direct and warm, embodying the straightforward but welcoming approach common in German professional environments.)\n\n5. **Japanese**: \"こんにちは、ご加入いただきありがとうございます。チームにようこそ。”  \n   (This greeting is respectful and formal, reflecting the importance of politeness and acknowledgment in Japanese business culture.)",
+  "usage": {
+    "prompt_tokens": 43,
+    "completion_tokens": 231,
+    "total_tokens": 274,
+    "cost": 0.00009525,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00009525,
+      "upstream_inference_prompt_cost": 0.00000516,
+      "upstream_inference_completions_cost": 0.00009009
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen-2.5-72b-instruct",
+  "ts": 1776838621220
+}

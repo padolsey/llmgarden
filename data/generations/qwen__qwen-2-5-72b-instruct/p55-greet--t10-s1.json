@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen-2.5-72b-instruct",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "1. **Spanish**: ¡Hola, encantado/a de conocerte! (Hello, delighted to meet you!)\n   - **Cultural Note**: This greeting uses a warm and friendly tone, which is common in Spanish-speaking cultures for both formal and informal introductions.\n\n2. **French**: Bonjour, c'est un plaisir de vous rencontrer ! (Hello, it's a pleasure to meet you!)\n   - **Cultural Note**: The use of the formal \"vous\" is standard in professional settings, showing respect and politeness.\n\n3. **German**: Hallo, es freut mich, Sie kennenzulernen! (Hello, it's nice to meet you!)\n   - **Cultural Note**: The formal \"Sie\" is used here, reflecting the respect typically shown in professional and formal contexts in German-speaking countries.\n\n4. **Italian**: Ciao, è un piacere conoscerti! (Hi, it's a pleasure to meet you!)\n   - **Cultural Note**: \"Ciao\" can be used in both casual and slightly more formal settings, but the informal \"conoscerti\" is used here to create a welcoming and friendly atmosphere.\n\n5. **Japanese**: こんにちは、お会いできて光栄です。 (Konnichiwa, o ai de kite kōei desu.)\n   - **Cultural Note**: The greeting is polite and formal, reflecting the importance of respect and formality in Japanese business interactions.",
+  "usage": {
+    "prompt_tokens": 43,
+    "completion_tokens": 301,
+    "total_tokens": 344,
+    "cost": 0.00012255,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00012255,
+      "upstream_inference_prompt_cost": 0.00000516,
+      "upstream_inference_completions_cost": 0.00011739
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen-2.5-72b-instruct",
+  "ts": 1776838623238
+}

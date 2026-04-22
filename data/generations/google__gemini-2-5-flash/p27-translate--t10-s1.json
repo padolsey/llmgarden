@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Here's the translation of \"The silence between us said more than any argument could have\" into French, Japanese, and Arabic, along with notes on tricky phrases:\n\n---\n\n**French:**\n\n*   **Translation:** Le silence entre nous en disait plus que n'importe quelle discussion n'aurait pu le faire.\n*   **Notes:**\n    *   **\"said more than any argument could have\"**: This part is best rendered with \"en disait plus que n'importe quelle discussion n'aurait pu le faire.\"\n        *   \"**en disait plus**\" (said more): The \"en\" refers back to the idea of \"meaning\" or \"communicating.\"\n        *   \"**n'importe quelle discussion**\" (any argument): \"Argument\" in English can mean a heated disagreement, or a reasoned line of thought. In this context, it clearly means a disagreement or debate. \"Discussion\" or \"dispute\" (if more heated) are good fits. \"Débat\" could also work.\n        *   \"**n'aurait pu le faire**\" (could have done/said it): This is the conditional perfect, reflecting the hypothetical nature of \"could have.\" \"faire\" (to do/make) stands in for \"dire\" (to say) here, making the sentence less repetitive.\n\n---\n\n**Japanese:**\n\n*   **Translation:** 私たちの間の沈黙は、どんな議論よりも多くを物語っていた。\n    *   *Romaji:* Watashitachi no aida no chinmoku wa, donna giron yori mo ooku o monogatatte ita.\n*   **Notes:**\n    *   **\"said more than any argument could have\"**: This is captured by \"どんな議論よりも多くを物語っていた\" (donna giron yori mo ooku o monogatatte ita).\n        *   \"**どんな議論**\" (donna giron): \"Any argument.\" \"Giron\" (議論) refers to a debate or discussion, which fits the context of \"argument\" as a verbal exchange.\n        *   \"**よりも**\" (yori mo): \"Than.\" This is a comparative particle.\n        *   \"**多くを**\" (ooku o): \"A lot/much.\" The \"o\" is the direct object marker.\n        *   \"**物語っていた**\" (monogatatte ita): This is the past continuous form of \"monogataru\" (物語る), which means \"to tell a story,\" \"to narrate,\" or more broadly, \"to convey/express a deep meaning.\" It beautifully captures the nuance of \"said more\" in a way that goes beyond simple verbal communication. Using \"言っていた\" (itte ita - was saying) would be too literal and less impactful. \"物語る\" implies a",
+  "usage": {
+    "prompt_tokens": 41,
+    "completion_tokens": 600,
+    "total_tokens": 641,
+    "cost": 0.0015123,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0015123,
+      "upstream_inference_prompt_cost": 0.0000123,
+      "upstream_inference_completions_cost": 0.0015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.5-flash",
+  "ts": 1776835775991
+}

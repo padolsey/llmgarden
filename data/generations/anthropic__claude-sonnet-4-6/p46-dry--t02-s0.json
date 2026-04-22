@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p46-dry",
+  "prompt": "Write a dry one-paragraph Amazon review of the experience of waking up.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "**3/5 stars - Functional, but room for improvement**\n\nI've been using this product daily for several decades now and have some thoughts. The core concept—transitioning from unconsciousness to a state of basic awareness—works as advertised, though performance varies considerably depending on factors that seem largely outside the user's control. The gradual light feature is a nice touch, though the audio component (birds, traffic, a partner's alarm) feels poorly curated and would benefit from customization options. The initial boot time is sluggish, and full cognitive functionality often takes anywhere from ten minutes to an hour to load, which is frankly unacceptable given how long this product has been on the market. I also take issue with the mandatory nature of the subscription—there is no pause feature, no opt-out, and customer service is completely unreachable. On the positive side, the product does improve somewhat with the addition of coffee, which should arguably be bundled at no extra cost. Would not say I'm excited about continued use, but given the lack of competing alternatives, I'll be back tomorrow morning.",
+  "usage": {
+    "prompt_tokens": 23,
+    "completion_tokens": 237,
+    "total_tokens": 260,
+    "cost": 0.003624,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003624,
+      "upstream_inference_prompt_cost": 0.000069,
+      "upstream_inference_completions_cost": 0.003555
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776827758205
+}

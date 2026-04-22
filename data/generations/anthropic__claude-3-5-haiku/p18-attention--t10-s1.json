@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.5-haiku",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Here's an explanation of attention in transformers:\n\nImagine you're reading a long document and trying to understand a specific sentence. As you read, your brain naturally focuses on the most relevant words and context around that sentence. Attention works similarly in machine learning.\n\nIn traditional neural networks, models process information sequentially, like reading a book from start to finish. Attention allows a model to dynamically focus on different parts of the input when processing each word or element.\n\nHere's a practical analogy: Think of attention like a spotlight that can illuminate different parts of an input simultaneously. When processing a word, the model can \"look\" at other relevant words, weighing their importance.\n\nTechnically, this is done by computing three key vectors for each input element:\n- Query (what we're currently focusing on)\n- Key (what we're comparing against)\n- Value (the actual information we might want)\n\nThe model calculates \"attention scores\" by comparing queries and keys, which determine how much focus each element gets. These scores are then used to create a weighted summary of the most relevant information.\n\nIn transformers, this happens in parallel for all elements, allowing the model to capture complex relationships across the entire input quickly and efficiently.\n\nThe result? Models that can understand context much more deeply than traditional approaches.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 278,
+    "total_tokens": 312,
+    "cost": 0.0011392,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0011392,
+      "upstream_inference_prompt_cost": 0.0000272,
+      "upstream_inference_completions_cost": 0.001112
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-5-haiku",
+  "ts": 1776834069458
+}

@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-4-fast",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "A debounce function in JavaScript delays the execution of a provided callback until a specified delay has elapsed since the last time it was invoked, which helps optimize performance for frequent events like user input or scrolling.\n\n```javascript\nfunction debounce(func, delay) {\n  let timeoutId;\n  return function(...args) {\n    clearTimeout(timeoutId);\n    timeoutId = setTimeout(() => func.apply(this, args), delay);\n  };\n}\n```\n\n**Example usage:**\n```javascript\nconst logMessage = debounce(() => console.log('Debounced message!'), 300);\n\n// Simulate rapid calls (e.g., on keyup event)\nlogMessage();\nlogMessage();\nlogMessage(); // Only logs once after 300ms of inactivity\n```",
+  "usage": {
+    "prompt_tokens": 186,
+    "completion_tokens": 409,
+    "total_tokens": 595,
+    "cost": 0.00021875,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 153,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021875,
+      "upstream_inference_prompt_cost": 0.00001425,
+      "upstream_inference_completions_cost": 0.0002045
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 263,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-4-fast",
+  "ts": 1776829595106
+}

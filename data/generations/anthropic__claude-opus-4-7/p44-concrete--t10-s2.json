@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p44-concrete",
+  "prompt": "Describe, with sensory detail, what a Tuesday morning feels like in a small library that is open but has no visitors yet.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "The heater clicks on somewhere behind the walls, and for a moment that's the loudest thing in the room—a low mechanical throat-clearing that the building does every twenty minutes or so, like an old dog settling. Then it fades, and what's left is the hum of the fluorescent tubes overhead, one of them ticking faintly, due to be replaced.\n\nThe air smells the way library air always smells: paper aging slowly, the sweet dust of buckram bindings, a trace of lemon polish from whoever wiped down the circulation desk the night before. Underneath that, the coffee the librarian brought in a thermos—already losing its heat, going slightly bitter in the ceramic mug beside the date stamp.\n\nLight comes in at a low angle through the east windows, striping the carpet in pale gold rectangles. You can see the dust moving in it, drifting, settling on the tops of the returned books stacked on the cart. The carpet is that industrial loop kind, flattened into paths where feet have gone a thousand times—to the new arrivals, to the bathrooms, to the children's section with its blue beanbag chair still slumped from yesterday's last reader.\n\nThe wall clock's second hand makes a small tock, tock, tock that you only notice because nothing else is competing with it. A radiator pipe somewhere pings. Outside, a car passes, its tires hissing on wet asphalt, and then doesn't come back.\n\nThe librarian's chair creaks as she shifts. She turns a page in whatever she's reading to pass the time. The sound is soft, deliberate—a small dry whisper—and then the quiet folds back over it like water.\n\nThe books wait. They are very good at waiting.",
+  "usage": {
+    "prompt_tokens": 50,
+    "completion_tokens": 544,
+    "total_tokens": 594,
+    "cost": 0.01385,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01385,
+      "upstream_inference_prompt_cost": 0.00025,
+      "upstream_inference_completions_cost": 0.0136
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833629043
+}

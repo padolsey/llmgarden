@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.5-haiku",
+  "prompt_id": "p11-tradeoffs",
+  "prompt": "A small team is choosing between writing software in TypeScript or Python for a new internal data tool. Walk through how you would help them decide, in prose (not a bulleted list).",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "When helping a small team choose between TypeScript and Python for an internal data tool, I would first engage them in a conversation about their specific project requirements, team skills, and long-term goals. The decision isn't just about language features, but about finding the best fit for their unique context.\n\nI'd start by understanding the nature of their data tool. Are they doing heavy data processing, statistical analysis, machine learning, or building a web-based dashboard? Python has historically been stronger for data science and scientific computing, with robust libraries like pandas, NumPy, and scikit-learn. If their tool involves complex data manipulation or predictive modeling, Python might have an edge.\n\nHowever, if they're building a web-based tool with potential future frontend integration, TypeScript could be more compelling. Its strong typing and compile-time error checking can prevent many runtime errors, which is valuable in data tools where accuracy is critical. TypeScript also integrates seamlessly with modern JavaScript frameworks like React or Vue, offering more flexibility if they want to create an interactive interface.\n\nI'd also probe their team's existing skill set. If they already have Python developers or data scientists, switching to TypeScript might introduce unnecessary learning curve. Conversely, if they have JavaScript/web development experience, TypeScript would feel more natural.\n\nPerformance and ecosystem would be another discussion point. While both languages are capable, Python might have slight advantages for computational tasks, especially with libraries like Cython. TypeScript, being a superset of JavaScript, compiles to highly optimized JavaScript and runs efficiently in Node.js environments.\n\nUltimately, I'd recommend they prototype a small component of their tool in both languages to get a practical sense of development experience. This hands-on exploration often reveals nuances no theoretical comparison can capture.\n\nThe goal isn't to declare a universal \"winner,\" but to help them make an intentional choice aligned with their specific project needs, team capabilities, and future scalability.",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 411,
+    "total_tokens": 456,
+    "cost": 0.00168,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00168,
+      "upstream_inference_prompt_cost": 0.000036,
+      "upstream_inference_completions_cost": 0.001644
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-5-haiku",
+  "ts": 1776827823733
+}

@@ -1,0 +1,33 @@
+{
+  "model": "anthracite-org/magnum-v4-72b",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "The attention mechanism is a key component of transformer models that allows the model to effectively process sequences. It works by giving the model the ability to selectively focus on different parts of the input when making predictions.\n\nAt a high level, the attention mechanism calculates a set of weights that represent the importance of each part of the input for the current prediction. These weights are then used to compute a weighted sum of the inputs, which is passed through the rest of the model.\n\nIn practice, attention is computed using a series of linear transformations and a softmax function. The inputs are first transformed into \"query\", \"key\", and \"value\" representations. The dot product of each query-key pair is calculated and scaled, then passed through a softmax to get the attention weights. These weights are then multiplied with the values and summed to produce the output.\n\nThe beauty of attention is that it allows the model to focus on different parts of the input for different predictions, providing a flexible way to process long sequences. By stacking multiple attention layers, transformers can model complex dependencies and achieve impressive performance on tasks like language understanding and generation.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 221,
+    "total_tokens": 257,
+    "cost": 0.0012125,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0012125,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0.0012125
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthracite-org/magnum-v4-72b",
+  "ts": 1776841517260
+}

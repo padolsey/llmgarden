@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p37-condolence",
+  "prompt": "A friend just messaged: 'my mum died last night.' Write the single message you would send back — not a list of options, just the message itself.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Oh God, I'm so sorry. I just read your message.\n\nI'm here. Whatever you need — to talk, to sit in silence on the phone, for me to come over, to bring you food, nothing at all — just tell me. No pressure to respond right now.\n\nI love you. I'm so, so sorry.",
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 99,
+    "total_tokens": 150,
+    "cost": 0.00273,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00273,
+      "upstream_inference_prompt_cost": 0.000255,
+      "upstream_inference_completions_cost": 0.002475
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833605288
+}

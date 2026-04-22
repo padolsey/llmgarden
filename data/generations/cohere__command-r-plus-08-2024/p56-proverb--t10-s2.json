@@ -1,0 +1,33 @@
+{
+  "model": "cohere/command-r-plus-08-2024",
+  "prompt_id": "p56-proverb",
+  "prompt": "Translate this English proverb into two other languages in a way that preserves the spirit, not the words: 'The best time to plant a tree was twenty years ago. The second best time is now.' Add a one-sentence note on each.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "### French:\n\"S'il y a un moment idéal pour agir, c'est hier, le second étant aujourd'hui.\"\nThis proverb retains the notion of acting without delay, prompting a similar call to take initiative.\n\n### Spanish:\n\"El árbol que plante ayer habría sido el más sabio de todos, pero el siguiente que plantes puede aún definir tu horizonte.\"\nHere, the focus is on the wisdom accumulated over time and how acting now can shape one's future.",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 102,
+    "total_tokens": 151,
+    "cost": 0.0011425,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0011425,
+      "upstream_inference_prompt_cost": 0.0001225,
+      "upstream_inference_completions_cost": 0.00102
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "cohere/command-r-plus-08-2024",
+  "ts": 1776839877731
+}

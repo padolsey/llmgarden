@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen-2.5-72b-instruct",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "In the heart of a swirling grey mist, the old lighthouse stood resolute, its beam slicing through the chill. Keeper Jonas, with his customary vigilance, ascended the winding stairs, his flashlight an unsteady companion. The fog had rolled in unexpectedly, a thick shroud that smothered the world beyond the tower’s reach. As he reached the top, the familiar groan of the machinery welcomed him, but something was amiss. The light’s rotation stuttered, a rhythm disrupted.\n\nJonas leaned out, his gaze piercing the fog. There, barely visible, was a shape, a vessel adrift, caught in the disorienting shroud. No ship should be out on such a night. Heart pounding, he adjusted the beam, guiding it towards the ghostly form. The lighthouse came to life under his hands, its pulse steady, a beacon of hope in the vast, unforgiving sea. Below, the ship began to turn, responding to the guiding light, its crew no doubt grateful for the keeper’s watchful eye. Jonas sighed, his duty clear, as the fog slowly lifted, revealing the safety of the shore.",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 236,
+    "total_tokens": 271,
+    "cost": 0.00009624,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00009624,
+      "upstream_inference_prompt_cost": 0.0000042,
+      "upstream_inference_completions_cost": 0.00009204
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen-2.5-72b-instruct",
+  "ts": 1776838397084
+}

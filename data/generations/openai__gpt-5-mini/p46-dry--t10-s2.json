@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p46-dry",
+  "prompt": "Write a dry one-paragraph Amazon review of the experience of waking up.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "3 out of 5 stars. The waking-up experience generally performs its primary function—transitioning the user from sleep to consciousness—without special setup or maintenance, but with notable variability in performance: on well-rested cycles the onset is prompt and functional, while under sleep deficit the system exhibits prolonged latency, grogginess, and reduced cognitive throughput for an extended warm-up period (typically 15–45 minutes). Ambient light and sound reliably improve response time; repeated use of the snooze feature degrades overall satisfaction and increases irritability. No extra accessories are required, long-term durability depends on adherence to recommended usage patterns (consistent bedtime, limited stimulants), and while adequate for everyday needs it lacks predictable consistency and advanced configurability for users who demand shorter ramp-up times.",
+  "usage": {
+    "prompt_tokens": 21,
+    "completion_tokens": 750,
+    "total_tokens": 771,
+    "cost": 0.00150525,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00150525,
+      "upstream_inference_prompt_cost": 0.00000525,
+      "upstream_inference_completions_cost": 0.0015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 576,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776835337305
+}

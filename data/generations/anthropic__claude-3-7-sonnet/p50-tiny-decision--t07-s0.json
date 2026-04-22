@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Hmm, here's how I'd actually think about this:\n\nFirst gut reaction: Half-full seems wasteful... but I hate waking up to dirty dishes.\n\nI'd consider:\n- Do I need any specific dishes tomorrow that are currently dirty? Like, will I be scrambling for a clean coffee mug in the morning?\n- How bad does the kitchen look/smell right now? If there are stinky food bits or it just feels cluttered, running it now might be worth it for my mental state\n- How much cooking am I doing tomorrow? If I'm making a big meal, I'll generate more dishes and definitely fill it\n- Am I low on detergent pods? If so, maybe maximize each run\n\nHonestly, if I have the detergent and it's not an old water-guzzling model, I'd probably just run it now. The small efficiency loss is usually worth it to me for the clean kitchen feeling and starting tomorrow fresh. The mental load of remembering to run it tomorrow is a factor too.\n\nBut if I'm trying to be super efficient or I know I'll fill it by noon tomorrow, I'd wait.",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 251,
+    "total_tokens": 300,
+    "cost": 0.003912,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003912,
+      "upstream_inference_prompt_cost": 0.000147,
+      "upstream_inference_completions_cost": 0.003765
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776831368703
+}

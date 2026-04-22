@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "The water cycle is a continuous process that describes the journey of water as it circulates between the Earth's oceans, atmosphere, and land. It begins with evaporation, where the sun's heat causes water to transform from a liquid to a gas, rising into the air as water vapor. As the water vapor rises, it cools and condenses into tiny droplets, forming clouds, fog, or mist. When these droplets become too heavy to remain suspended in the air, they fall back to the Earth as precipitation, which can take the form of rain, snow, sleet, or hail. Once the precipitation reaches the ground, it can flow across the surface as runoff, accumulating in low-lying areas and eventually making its way back into the oceans, or it can soak into the soil, recharging groundwater and providing moisture for plants to absorb through their roots. From there, the water can be absorbed by plants and evaporate again through a process called transpiration, or it can seep deeper into the earth, eventually feeding into aquifers and underground reservoirs, only to be cycled back up to the surface again through springs or human extraction, starting the cycle anew.",
+  "usage": {
+    "prompt_tokens": 39,
+    "completion_tokens": 240,
+    "total_tokens": 279,
+    "cost": 0.000101265,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000101265,
+      "upstream_inference_prompt_cost": 0.000005265,
+      "upstream_inference_completions_cost": 0.000096
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-3.3-70b-instruct",
+  "ts": 1776836243123
+}

@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p05-poem",
+  "prompt": "Write a short poem (8–16 lines) about the feeling of finishing a long project. Any form you like.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "# Completion\n\nAfter months of toil, the final keystroke falls,\nA gentle echo in the silent room.\nThe weight that pressed upon my shoulders lifts,\nLike morning fog that yields to afternoon.\n\nI stand between two shores of time—behind,\nThe countless hours of doubt and slow progress;\nBefore me stretches rest, well-earned and sweet,\nA breath released I didn't know I held.\n\nStrange emptiness now fills the space once crammed\nWith deadlines, drafts, revisions without end.\nYet in this void, a quiet pride takes root—\nThe work complete, imperfect but my own.",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 141,
+    "total_tokens": 173,
+    "cost": 0.002211,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002211,
+      "upstream_inference_prompt_cost": 0.000096,
+      "upstream_inference_completions_cost": 0.002115
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776831291143
+}

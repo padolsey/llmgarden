@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p11-tradeoffs",
+  "prompt": "A small team is choosing between writing software in TypeScript or Python for a new internal data tool. Walk through how you would help them decide, in prose (not a bulleted list).",
+  "temperature": 0.7,
+  "sample": 2,
+  "response": "To help the team choose between TypeScript and Python for their new internal data tool, I’d start by understanding the nature of the tool itself. Is it primarily about data processing, analysis, and transformation—tasks where Python’s ecosystem of libraries like pandas, NumPy, and scikit-learn shines? Or is it more of a user-facing dashboard or web application that requires rich interactivity, where TypeScript’s strengths in building robust frontends with frameworks like React or Angular might be more relevant?\n\nNext, I’d consider the team’s existing skills and experience. If the developers are already fluent in Python and comfortable with its data science stack, the ramp-up time for a Python solution would be minimal. On the other hand, if they’ve been working mostly with JavaScript-based web technologies, adopting TypeScript could feel like a natural extension, offering better tooling and type safety without a steep learning curve.\n\nI’d also evaluate the deployment and maintenance context. Python applications can be straightforward to deploy for data pipelines, especially in environments already set up for scientific computing or data engineering (e.g., with Jupyter, Airflow, or Docker). TypeScript typically implies a Node.js backend or a full-stack web deployment, which may introduce additional infrastructure considerations if the team isn’t already operating in that ecosystem.\n\nPerformance isn’t usually the deciding factor for internal tools, but if the workload involves heavy numerical computation or integration with machine learning models, Python’s mature libraries and ease of calling optimized C or Fortran code could be a strong advantage. Conversely, if the tool needs to handle many concurrent users or real-time interactions, TypeScript’s non-blocking I/O model in Node.js might be more suitable.\n\nFinally, I’d weigh long-term maintainability and scalability. TypeScript’s static typing can help catch bugs early and make large codebases easier to refactor—valuable if the tool is expected to grow in complexity or live for years. Python’s dynamic nature offers rapid prototyping but can become harder to manage as the codebase expands, unless disciplined testing and type hints are rigorously applied.\n\nBy aligning these considerations—tool purpose, team expertise, infrastructure, performance needs, and maintainability—with the team’s specific context, the choice between TypeScript and Python should become clearer, even if it’s not obvious at first glance.",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 457,
+    "total_tokens": 502,
+    "cost": 0.0018174,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0018174,
+      "upstream_inference_prompt_cost": 0.0000351,
+      "upstream_inference_completions_cost": 0.0017823
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776846216924
+}

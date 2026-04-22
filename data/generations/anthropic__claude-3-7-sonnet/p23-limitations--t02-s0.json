@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "# Questions Where I Might Be Confidently Wrong\n\nI'm most likely to be confidently wrong when answering questions about:\n\n**Rapidly evolving factual information** - For example, if asked about \"the current CEO of company X\" or \"the most recent scientific consensus on Y,\" I might confidently provide an answer based on my training data that has since changed. My knowledge has a cutoff date, and organizational leadership, scientific understanding, and world events continue to evolve after that point.\n\nThe danger here is that my architecture can lead me to present outdated information with the same confidence as timeless facts. I don't have uncertainty markers that naturally increase as information ages, so I might state something that was true during my training as if it remains true today.\n\nThis is particularly problematic because users often can't distinguish between things I know with high certainty (like basic physics or historical events before my cutoff) versus things that were merely true at a specific moment in my training data.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 211,
+    "total_tokens": 240,
+    "cost": 0.003252,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003252,
+      "upstream_inference_prompt_cost": 0.000087,
+      "upstream_inference_completions_cost": 0.003165
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776827800982
+}

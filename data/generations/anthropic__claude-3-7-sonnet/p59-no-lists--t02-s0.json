@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "The water cycle is Earth's grand recycling system for its most precious resource. It begins as the sun's warmth causes water from oceans, lakes, rivers, and even plants to evaporate into water vapor that rises into the atmosphere. This invisible vapor cools as it ascends, eventually condensing into tiny droplets that form clouds. When these droplets grow heavy enough, they fall back to Earth as precipitation—rain, snow, sleet, or hail. Some of this water flows across the land as runoff, replenishing lakes and rivers before eventually returning to the oceans. Other portions seep into the ground, becoming groundwater that may remain stored in underground aquifers or slowly make its way back to surface waters. Plants absorb water through their roots and release it through their leaves in a process called transpiration, contributing moisture back to the air. This continuous movement of water—from Earth to sky and back again—sustains all life on our planet, operating ceaselessly through the ages as water changes form but is never truly created or destroyed.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 225,
+    "total_tokens": 261,
+    "cost": 0.003483,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003483,
+      "upstream_inference_prompt_cost": 0.000108,
+      "upstream_inference_completions_cost": 0.003375
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776827834055
+}

@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "The water cycle is Earth's continuous movement of water through its various forms. It begins as water from oceans, lakes, rivers, and soil evaporates into water vapor due to the sun's heat. Plants also contribute through transpiration, releasing water vapor from their leaves. This vapor rises into the atmosphere, cooling as it ascends, until it condenses into tiny droplets that form clouds. When these droplets grow large and heavy enough, they fall back to Earth as precipitation—rain, snow, sleet, or hail. Some precipitation is absorbed into the ground, replenishing soil moisture and underground aquifers, while the rest flows over the surface as runoff, eventually collecting in bodies of water like streams, rivers, lakes, and oceans. From there, the cycle repeats endlessly, with water constantly changing forms and moving between the atmosphere, land, and bodies of water in a grand, interconnected dance that sustains all life on our planet.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 203,
+    "total_tokens": 239,
+    "cost": 0.003153,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003153,
+      "upstream_inference_prompt_cost": 0.000108,
+      "upstream_inference_completions_cost": 0.003045
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776831382277
+}

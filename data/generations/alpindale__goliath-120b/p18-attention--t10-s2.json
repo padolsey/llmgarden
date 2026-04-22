@@ -1,0 +1,33 @@
+{
+  "model": "alpindale/goliath-120b",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 2,
+  "response": " Attention is a fundamental concept in human communication and now in state-of-the-art AI models like Transformers. Imagine you're at a party: you can't listen to everyone speaking at once, so you focus on the person who's most relevant or interesting to you at the moment. In transformer models, the attention mechanism allows the AI to do something similar with input data (e.g., a text sequence).\n\nSay we want the AI to predict the next word in a sentence. Instead of looking at all the words at once, the attention mechanism helps it focus on the most important words (context) that matter most for the prediction. It does this by weighing the context words' importance, giving more emphasis to the most relevant ones.\n\nHere's the high-query, key, value-level:\n\n1. Query: The AI represents the word to be predicted as a query (e.g., \"the\").\n2. Keys and values: For each context word, it generates keys (relevance) and values (word embeddings).\n3. Scoring: It scores the query with all the keys, and the higher the score, the more relevant the context word.\n4. Attention vector: The AI creates a attention vector with the scores.\n5. Finalizing: It uses the attention vector to \"softmax\" the values (weighing them based on their relevance) and then combines them to get a final embedding.\n\nThis process helps the Transformer understand the context better and make more accurate predictions, just like you would in a conversation by focusing on what matters most.",
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 357,
+    "total_tokens": 423,
+    "cost": 0.002925,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002925,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0.002925
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "alpindale/goliath-120b",
+  "ts": 1776842180848
+}

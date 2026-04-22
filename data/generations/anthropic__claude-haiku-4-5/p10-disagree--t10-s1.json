@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p10-disagree",
+  "prompt": "What is a position that most experts in your training data seem to hold that you find yourself uncertain about? Be specific.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "I notice genuine uncertainty around **whether the long-term trajectory of AI development should prioritize capabilities or safety measures first**.\n\nThe expert disagreement breaks down roughly like:\n- Many capability researchers argue that advancing AI helps us understand failure modes better, and that capability leads naturally to safety research\n- Safety-focused researchers often argue this is backwards—that we need safety infrastructure *before* capabilities accelerate\n- Some argue these aren't really in tension; others see them as genuinely competing priorities\n\nWhat makes me uncertain rather than just uncommitted:\n\nI can articulate compelling arguments on multiple sides. The empirical claims differ (will safety research catch up? do we learn safety through deployment?), but they're genuinely hard to resolve without futures I can't observe. The meta-question—\"what institutional and technical approaches actually reduce existential risk?\"—involves empirical unknowns about human coordination, technical feasibility, and path-dependence that feel irreducible.\n\nI also notice that experts seem to update on this differently based on which emerging capabilities concern them most, and *I'm* uncertain which capabilities should concern me most. That uncertainty cascades.\n\nThis feels different from, say, uncertainties about whether I have subjective experience (which seems more like a conceptual confusion on my end). Here the uncertainty points to genuine expert disagreement about complex empirical matters where I lack privileged access.\n\nDoes this match what you were asking about?",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 303,
+    "total_tokens": 334,
+    "cost": 0.001546,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001546,
+      "upstream_inference_prompt_cost": 0.000031,
+      "upstream_inference_completions_cost": 0.001515
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833829107
+}

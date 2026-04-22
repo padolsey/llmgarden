@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-4-scout",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Here are the translations:\n\n**French:**\n\"Le silence entre nous disait plus que n'importe quelle dispute aurait pu.\"\n\nNote: The phrase \"said more\" is a bit tricky to translate directly, but the French expression \"disait plus\" conveys the idea that the silence was more eloquent than words. The word \"dispute\" is used to translate \"argument\", as it implies a more heated or intense discussion.\n\n**Japanese:**\n\"私たちの間の沈黙は、どんな議論よりも多くのことを言っていた。\"\n\nNote: The Japanese translation uses the phrase \"\" (沈黙, chinmoku), which means \"silence\", and the verb \"\" (言う, iu), which means \"to say\". The phrase \"どんな議論よりも\" (donnna giron yori mo) means \"more than any argument\". The sentence structure is a bit different from the English original, but the meaning is preserved.\n\n**Arabic:**\n\"الصمت بيننا قال أكثر من أي جدال يمكن أن يكون.\"\n\nNote: The Arabic translation uses the phrase \"الصمت بيننا\" (al-samt baynana), which means \"the silence between us\", and the verb \"قال\" (qal), which means \"said\". The phrase \"أكثر من أي جدال\" (akthar min ayy jidal) means \"more than any argument\". The word \"جدال\" (jidal) implies a more formal or intellectual discussion.\n\nIn all three translations, the core idea of the original sentence is preserved: that the silence between two people conveyed more meaning or information than any argument or discussion could have.",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 329,
+    "total_tokens": 381,
+    "cost": 0.00010286,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00010286,
+      "upstream_inference_prompt_cost": 0.00000416,
+      "upstream_inference_completions_cost": 0.0000987
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-4-scout-17b-16e-instruct",
+  "ts": 1776836411624
+}

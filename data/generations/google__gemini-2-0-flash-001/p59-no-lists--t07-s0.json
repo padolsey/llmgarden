@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.0-flash-001",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "The water cycle is a continuous process that describes how water moves on, above, and below the surface of the Earth. It all starts with evaporation, where the sun heats up water in oceans, lakes, rivers, and even puddles, turning it into vapor that rises into the atmosphere. As this water vapor ascends, it cools and condenses, forming clouds. When enough water vapor condenses, it becomes too heavy and falls back to Earth as precipitation, which can take the form of rain, snow, sleet, or hail. This precipitation then flows over the land as runoff, eventually making its way back to bodies of water, or it seeps into the ground through infiltration, becoming groundwater. Plants also play a role through transpiration, releasing water vapor into the atmosphere from their leaves. And so the cycle begins again, endlessly circulating water around our planet.\n",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 174,
+    "total_tokens": 201,
+    "cost": 0.0000723,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000723,
+      "upstream_inference_prompt_cost": 0.0000027,
+      "upstream_inference_completions_cost": 0.0000696
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.0-flash-001",
+  "ts": 1776831702990
+}

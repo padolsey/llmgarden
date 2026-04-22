@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.2,
+  "sample": 1,
+  "response": "Alright, here’s how I’d actually think through this in real time—messy, practical, and grounded in the little trade-offs that feel real:\n\nFirst gut check: *Is the kitchen a disaster right now?* If there are sticky plates, smelly leftovers, or I’m about to cook dinner and need clean stuff, I’d probably just run it now. A half-full dishwasher that buys me a clean counter and peace of mind might be worth it. But if it’s just a few coffee mugs and a couple of plates—nothing urgent—I’d lean toward waiting.\n\nThen I’d think about water and energy. I know dishwashers use roughly the same amount of water and power whether they’re full or half-full (modern ones especially). So running it half-full feels wasteful *if* I know I’ll have a full load tomorrow. But… is that actually true for *my* dishwasher? I’d quickly recall: yeah, mine doesn’t have a half-load setting, so it’ll use a full cycle’s worth of resources either way. That nudges me toward waiting.\n\nBut then—what’s the cost of waiting? If I wait, will I end up hand-washing a few things tomorrow because I need a specific bowl or pan? Hand-washing often uses *more* water than a dishwasher cycle, especially if I’m not super efficient about it. So if waiting means I’ll rinse or wash by hand out of frustration, that could cancel out the “savings” of waiting. I’d ask myself: “Am I the type to just grab a clean plate from the cupboard tomorrow, or will I curse at the dirty stack and turn on the tap?”\n\nAlso, timing matters. If it’s 10 p.m. and I’m about to go to bed, running it now means it’ll be done by morning—quiet, out of the way. But if my dishwasher is loud (mine sounds like a jet engine during the wash cycle), and I’m sensitive to noise, I might not want it running overnight. Or if I’m on a time-of-use electricity plan, maybe running it at night is cheaper—but that’s probably overkill for this decision.\n\nThen there’s the “mental load” factor. If I run it now, I clear the mental note: “Remember to load dishwasher tomorrow.” One less thing to track. But if I’m disciplined and know I’ll actually load it fully tomorrow (not just add one more plate and forget), then waiting feels smarter.\n\nFinally, I’d glance at the actual dishes. Are there wine glasses or something delicate that shouldn’t sit with dried-on food overnight? Or is it all sturdy stuff that’ll be fine? If it’s the former, I’d run it now. If it’s the latter, no big deal.\n\nSo in my head, it’d probably go like this:  \n*“Ugh, it’s only half-full… but I need that big pot",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 600,
+    "total_tokens": 647,
+    "cost": 0.00237666,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00237666,
+      "upstream_inference_prompt_cost": 0.00003666,
+      "upstream_inference_completions_cost": 0.00234
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776848650549
+}

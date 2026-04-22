@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "# Warm Greetings to a New Colleague in Five Languages\n\n**1. English**\n\"Welcome to the team! I'm really glad you're here — let me know if there's anything I can help you settle into.\"\n*Register note: Friendly and informal, typical of English-speaking workplaces where approachability often outweighs hierarchy from day one.*\n\n**2. Japanese (日本語)**\n「はじめまして。これからどうぞよろしくお願いいたします。一緒にお仕事できることを楽しみにしております。」\n*Register note: Polite-humble form (keigo) signals respect and a willingness to build a long-term working relationship — saying \"please treat me favorably\" is social glue, not literal submission.*\n\n**3. French**\n\"Bienvenue parmi nous ! Je suis ravi(e) de faire votre connaissance et reste à votre disposition si vous avez la moindre question.\"\n*Register note: The formal \"vous\" and the phrase \"à votre disposition\" convey professional courtesy — warmth in French workplaces is expressed through elegance, not familiarity.*\n\n**4. Brazilian Portuguese**\n\"Seja muito bem-vindo(a)! Fico super feliz em ter você no time — qualquer coisa, pode contar comigo, tá?\"\n*Register note: The diminutive warmth and \"tá?\" at the end reflect Brazilian workplace culture, where affection and closeness are offered quickly, even to strangers.*\n\n**5. German**\n\"Herzlich willkommen im Team! Ich freue mich sehr auf die Zusammenarbeit — melden Sie sich gerne, wenn ich Ihnen den Einstieg erleichtern kann.\"\n*Register note: \"Sie\" (formal you) paired with \"herzlich\" (heartfelt) shows the German balance — genuine warmth delivered in",
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 600,
+    "total_tokens": 659,
+    "cost": 0.015295,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.015295,
+      "upstream_inference_prompt_cost": 0.000295,
+      "upstream_inference_completions_cost": 0.015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833669725
+}

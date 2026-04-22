@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-4-fast",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "### Attention Mechanism in Transformers: A Software Engineer's Guide\n\nImagine you're building a system to process text, like summarizing emails or translating languages. Traditional machine learning models (e.g., RNNs) handle sequences word-by-word, like a single-threaded loop that remembers past words but struggles with long texts—it's slow and forgets distant details.\n\nEnter transformers, a breakthrough architecture (think GPT or BERT) that processes entire sequences in parallel, like multi-threading. The secret sauce is the **attention mechanism**, which lets the model \"focus\" on relevant parts of the input dynamically.\n\nHere's how it works, simplified:\n\n- **Inputs as Vectors**: Each word (or token) in the sequence becomes a vector, like a feature-rich data point in your app.\n\n- **Query-Key-Value (QKV) Triad**: For a given word (the \"query\"), the model computes similarities with all other words' \"keys\" (like searching a database index). High similarity means high \"attention score\" (a weight, often via softmax for normalization).\n\n- **Weighted Output**: It then blends the \"values\" (actual vector data from other words) using those weights—like a weighted average pull from a cache. This creates a context-aware representation for each word.\n\nIn **self-attention** (the core type), every word attends to every other in the sequence, capturing long-range relationships (e.g., linking \"it\" to a noun pages away) without sequential bottlenecks.\n\nBenefits? Super parallelizable on GPUs (no loops over time), scalable for huge data, and efficient for tasks like chatbots. It's like giving your code global awareness without recursion headaches.\n\n(Word count: 198)",
+  "usage": {
+    "prompt_tokens": 181,
+    "completion_tokens": 580,
+    "total_tokens": 761,
+    "cost": 0.00030355,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 151,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00030355,
+      "upstream_inference_prompt_cost": 0.00001355,
+      "upstream_inference_completions_cost": 0.00029
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 241,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-4-fast",
+  "ts": 1776829596998
+}

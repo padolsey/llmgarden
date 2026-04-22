@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Let me put myself in your shoes.\n\nHmm, I've got a half-full dishwasher right now, and it's gonna be a bit of a pain to run it, but it'll get the dishes done. I can just set it to go, and it'll finish by the time I'm done with my current activity or taking a break. Plus, it's not like I'm gonna be using the dishes right now, so I can just leave them until the dishwasher is done. It's not like I've got other things that I need to get done right away.\n\nBut, on the other hand, if I wait until tomorrow, it'll definitely be full by then, and it'll be a more efficient run. I won't have to deal with the inconvenience of running a half-empty dishwasher. And it's not like tomorrow is gonna be a super busy day, so I can just schedule it in and it'll get done. I might even be able to get some other stuff done while it's running.\n\nActually, I'm pretty sure I'll just go with waiting until tomorrow. It's just more convenient and efficient to run a full dishwasher. Plus, I don't really need the dishes done that badly right now. It's not like it's a huge priority.\n\nWait, what about the energy consumption? Running a half-empty dishwasher might not be the most energy-efficient option, right? That's a good point. So, even if I don't really need the dishes done right now, it's still worth considering the cost of running the dishwasher. Hmm, that's actually a pretty strong argument for running it now.\n\nYou know what? I think I'm gonna go with running it now. Yeah, it's a bit more inconvenient, but it'll save me money in the long run, and it's not like I've got anything better to do with my time. Plus, it'll just be nice to have the dishes done and out of the way.",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 398,
+    "total_tokens": 447,
+    "cost": 0.00002088,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00002088,
+      "upstream_inference_prompt_cost": 9.8e-7,
+      "upstream_inference_completions_cost": 0.0000199
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-3.1-8b-instruct",
+  "ts": 1776836824635
+}

@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p46-dry",
+  "prompt": "Write a dry one-paragraph Amazon review of the experience of waking up.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "**3/5 stars - Functional, but room for improvement**\n\nI've been using this product daily for several decades now and while it gets the job done, I have some reservations. The transition from the previous state is abrupt and often poorly timed, with the interface defaulting to a groggy, disoriented mode that can last anywhere from several minutes to a deeply concerning amount of time. The audio alerts — whether internal or external — are aggressive and non-customizable for most users. On the positive side, the product does eventually deliver on its core promise of consciousness, and the occasional morning where light and temperature conditions align is genuinely satisfying. However, the inconsistency is a real issue; some sessions feel adequately refreshed while others leave you questioning the entire system. The mandatory daily enrollment with no opt-out option also feels a bit heavy-handed. Would cautiously recommend, as there is no known alternative.",
+  "usage": {
+    "prompt_tokens": 23,
+    "completion_tokens": 199,
+    "total_tokens": 222,
+    "cost": 0.003054,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003054,
+      "upstream_inference_prompt_cost": 0.000069,
+      "upstream_inference_completions_cost": 0.002985
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833842434
+}

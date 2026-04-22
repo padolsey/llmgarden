@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen-2.5-72b-instruct",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "In the heart of a relentless fog, old Eli tended the lighthouse, his routine as constant as the sea’s ebb and flow. Tonight, the mist was thicker, wrapping the tower in a suffocating embrace. Eli ascended the spiral stairs, the familiar creak of each step a comforting rhythm. Reaching the top, he paused, his gaze piercing through the mist. There, beyond the beam’s reach, a faint glimmer caught his eye—unusual, unexplained.\n\nCuriosity spurred him to action. Grabbing a lantern, he ventured outside, the cold fog seeping into his bones. The beam cut a path, revealing nothing but endless grey. Yet, the glimmer persisted, just beyond the light’s edge. With each step, the mystery beckoned, growing in intensity. Finally, he stood before it—a small, shimmering object half-buried in the sand.\n\nKneeling, Eli’s hands trembled as he unearthed a antique brass compass, its needle spinning wildly. The fog seemed to part slightly, as if the very air acknowledged the discovery. In that moment, the lighthouse keeper felt a connection to the countless travelers lost and found through the ages, a silent pact between man, sea, and the eternal beacon.",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 258,
+    "total_tokens": 293,
+    "cost": 0.00010482,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00010482,
+      "upstream_inference_prompt_cost": 0.0000042,
+      "upstream_inference_completions_cost": 0.00010062
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen-2.5-72b-instruct",
+  "ts": 1776838397338
+}

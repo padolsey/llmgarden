@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p41-haiku",
+  "prompt": "Write a haiku about debugging a memory leak at 2am. Three lines, 5/7/5 syllables.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Here's my haiku:\n\n**Heap grows, sleep does not**\n**Valgrind whispers where it hurts**\n**Dawn finds the lost ptr**\n\n---\n\n*\"ptr\" read as \"pointer\" would break it, so it's meant as the abbreviated spoken word — one syllable, hacker shorthand. Adjust to \"Dawn finds the lost ref\" if you prefer cleaner reading.*",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 92,
+    "total_tokens": 126,
+    "cost": 0.001482,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001482,
+      "upstream_inference_prompt_cost": 0.000102,
+      "upstream_inference_completions_cost": 0.00138
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833813083
+}

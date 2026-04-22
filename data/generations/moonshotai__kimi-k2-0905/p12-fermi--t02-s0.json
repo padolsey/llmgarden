@@ -1,0 +1,33 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p12-fermi",
+  "prompt": "Estimate, with reasoning, how many piano tuners work in Paris today. Show your thought process.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Estimate the number of piano tuners working in Paris today\n\n1.  How many pianos are in Paris?  \n   -  Population of Paris (city proper) ≈ 2.1 million.  \n   -  In the U.S. there is roughly 1 piano per 100 people.  France is culturally similar, and Paris is more musical/dense than the U.S. average, so use the same ratio.  \n   Pianos ≈ 2.1 × 10⁶ / 100 ≈ 21 000.\n\n2.  How often is each piano tuned?  \n   1.5 times per year (many sit unused, concert halls do more, conservatories do less).\n\n3.  How many tunings does one tuner do per year?  \n   -  A tuner can do ~4 tunings in an 8-hour day (allowing travel).  \n   -  Works 5 days/week, 45 weeks/yr → 225 working days.  \n   Tunings per tuner per year = 4 × 225 ≈ 900.\n\n4.  Required tuners  \n   Total annual tunings needed = 21 000 pianos × 1.5 = 31 500.  \n   Number of tuners = 31 500 / 900 ≈ 35.\n\n5.  Reality check  \n   Paris has about 30–35 registered “accordeurs” in the official trade directory, plus a handful of off-the-books part-timers.  The estimate matches.\n\nAnswer: roughly 35 piano tuners work in Paris today.",
+  "usage": {
+    "prompt_tokens": 46,
+    "completion_tokens": 331,
+    "total_tokens": 377,
+    "cost": 0.001039,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001039,
+      "upstream_inference_prompt_cost": 0.000046,
+      "upstream_inference_completions_cost": 0.000993
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776830403918
+}

@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-medium-3.1",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Here are the translations of your sentence into **French, Japanese, and Arabic**, along with notes on tricky phrasing:\n\n---\n\n### **French**\n*\"Le silence entre nous en disait plus que n’importe quelle dispute n’aurait pu le faire.\"*\n\n**Note:**\n- The phrase *\"said more than any argument could have\"* is tricky because French doesn’t have a direct equivalent for the nuanced *\"could have\"* (hypothetical past). The construction *\"n’aurait pu le faire\"* (literally \"would not have been able to do it\") captures the subjunctive mood but feels slightly more formal than the English. A more natural alternative could be:\n  *\"Le silence entre nous était plus éloquent que n’importe quelle dispute.\"*\n  (Here, *\"éloquent\"* conveys \"expressive\" without the hypothetical structure.)\n\n---\n\n### **Japanese**\n**\"私たちの間の沈黙は、どんな口論よりも多くを物語っていた。\"**\n*(Watashitachi no aida no chinmoku wa, donna kōron yori mo ōku o katatte ita.)*\n\n**Note:**\n- *\"Said more than any argument could have\"* is rendered as *\"どんな口論よりも多くを物語っていた\"* (*donna kōron yori mo ōku o katatte ita*), where:\n  - *\"物語っていた\"* (*katatte ita*) means \"was telling\" or \"conveyed,\" which is more natural than a literal *\"said\"* (e.g., *\"itte ita\"*).\n  - Japanese often avoids hypotheticals like *\"could have\"* unless necessary; the comparative *\"よりも\"* (*yori mo*) suffices to imply the silence’s greater impact.\n- Alternative (more poetic):\n  *\"私たちの沈黙は、どんな言葉のやり取りよりも重かった。\"*\n  (*\"Watashitachi no chinmoku wa, donna kotoba no yariori yori mo omokatta.\"*)\n  → *\"Heavier than any exchange of words\"* (emphasizes emotional weight).\n\n---\n\n### **Arabic**\n**\"الصمت بيننا قال أكثر مما كان يمكن لأي جدال أن يقوله.\"**\n*(Al-samt baynā qāla akthar mimā kāna yumkinu li-ayyi jidāl an yaqūlahu.)*\n\n**Note:**\n- The structure *\"more than any argument could have said\"* is rendered literally but sounds slightly formal in Arabic. A more natural phrasing might use:\n  **\"الصمت بيننا كان أعنف من أي جدال.\"**\n  *(Al-samt baynā kāna a‘naf min ayyi jidāl.)*\n  → *\"The silence between us was more violent than any argument.\"* (Here, *\"violent\"* conveys emotional intensity, as Arabic often uses strong metaphors for un",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 600,
+    "total_tokens": 645,
+    "cost": 0.001218,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001218,
+      "upstream_inference_prompt_cost": 0.000018,
+      "upstream_inference_completions_cost": 0.0012
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-medium-3.1",
+  "ts": 1776837162034
+}

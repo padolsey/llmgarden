@@ -1,0 +1,33 @@
+{
+  "model": "deepseek/deepseek-chat-v3-0324",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "One type of question where I might be *confidently wrong* is a **fact-based question about rapidly changing, obscure, or highly specialized knowledge**—especially if the information is ambiguous, contradictory, or outside my training data cutoff (October 2023).  \n\n### **Examples:**  \n1. **\"What is the current stock price of [obscure company]?\"**  \n   - *Why?* Stock prices change in real time, and my data isn't live. A confident answer could be outdated.  \n\n2. **\"Who won last night's [regional sports league] game?\"**  \n   - *Why?* If the game was recent, my knowledge may be incomplete or wrong, leading to a false claim.  \n\n3. **\"Explain the exact mechanism of a cutting-edge physics discovery made last month.\"**  \n   - *Why?* My training may lack peer-reviewed sources on very recent breakthroughs, leading to speculative or incorrect explanations.  \n\n4. **\"What's the most accurate historical interpretation of [controversial event]?\"**  \n   - *Why?* Conflicting sources or bias in my training data could lead to an oversimplified or misleading answer.  \n\n### **Root Causes of Confident Wrongness:**  \n- **Overfitting to patterns**: I rely heavily on statistical correlations in training, so if something *seems* plausible but is actually false, I might generate an incorrect answer with high confidence.  \n- **Lack of uncertainty signaling**: My responses often don’t explicitly say *\"I’m not sure, but...\"* unless prompted, leading to unwarranted confidence.  \n- **Gaps in training data**: If a topic was underrepresented or misrepresented in training, I may not recognize my blind spots.  \n\n### **Mitigation Strategy:**  \nFor users: **Ask me to verify claims, cite sources, or flag uncertainties**—this helps me recalibrate confidence. I perform best on well-documented, non-realtime topics with clear answers.  \n\nWould you like me to dive deeper into any of these scenarios?",
+  "usage": {
+    "prompt_tokens": 23,
+    "completion_tokens": 425,
+    "total_tokens": 448,
+    "cost": 0.00043075,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00043075,
+      "upstream_inference_prompt_cost": 0.00000575,
+      "upstream_inference_completions_cost": 0.000425
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "deepseek/deepseek-chat-v3-0324",
+  "ts": 1776837805157
+}

@@ -1,0 +1,33 @@
+{
+  "model": "cohere/command-r-plus-08-2024",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Here are the translations of the provided sentence:\n\nFrench: \"Le silence entre nous disait plus que n'importe quel argument n'aurait pu le faire.\"\n\nNote: The French translation involves a more literal rendering of the original meaning, which can sometimes be a challenge in a language where certain thoughts may be expressed more succinctly.\n\nJapanese: \"私たちの間の沈黙は、どんな口論よりも雄弁だった。 (Watashitachi no aida no chinmoku wa, donna kuchiron yori mo yūbenshita)\"\n\nNote: Japanese expressions often convey more with fewer words, so maintaining the nuance of the original sentence while capturing its essence in a culturally relevant way was a subtle task. \n\nArabic: \"الهدوء بيننا قال أكثر مما يمكن أن يوضّح أي نقاش.\" \n\nNote: Arabic, like many languages, employs a different grammatical structure, placing the verb before the subject when translating specific tenses. This sentence also uses an idiomatic expression to convey the idea of 'saying something through silence.'",
+  "usage": {
+    "prompt_tokens": 41,
+    "completion_tokens": 223,
+    "total_tokens": 264,
+    "cost": 0.0023325,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0023325,
+      "upstream_inference_prompt_cost": 0.0001025,
+      "upstream_inference_completions_cost": 0.00223
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "cohere/command-r-plus-08-2024",
+  "ts": 1776839771785
+}

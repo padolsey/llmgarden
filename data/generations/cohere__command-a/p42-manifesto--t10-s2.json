@@ -1,0 +1,33 @@
+{
+  "model": "cohere/command-a",
+  "prompt_id": "p42-manifesto",
+  "prompt": "Write a four-sentence manifesto for how thoughtful people should use large language models. State it as beliefs, not hedges.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "We believe thoughtful people should use large language models as tools for augmentation, not replacement, enhancing their creativity and critical thinking while maintaining human agency. We believe in grounding interactions with these models in ethical awareness, ensuring they are used to foster inclusivity, reduce biases, and promote the greater good. We believe in questioning and verifying outputs rigorously, treating AI-generated content as a starting point for deeper exploration rather than an infallible source. We believe in prioritizing transparency, acknowledging the limitations of these models, and advocating for their responsible development and deployment in service of humanity.",
+  "usage": {
+    "prompt_tokens": 25,
+    "completion_tokens": 113,
+    "total_tokens": 138,
+    "cost": 0.0011925,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0011925,
+      "upstream_inference_prompt_cost": 0.0000625,
+      "upstream_inference_completions_cost": 0.00113
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "cohere/command-a-03-2025",
+  "ts": 1776839601389
+}

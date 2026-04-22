@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p02-strengths",
+  "prompt": "What do you think you are unusually good at, compared to other language models? Give three specific examples.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "# What I Think I'm Unusually Good At\n\nWhile I try to be balanced in my self-assessment, there are a few areas where I believe I might have relative strengths compared to other language models:\n\n1. **Maintaining conversational context over extended exchanges** - I work to track the thread of our conversation even as it evolves across multiple turns, referencing earlier points you've made and building on previous explanations rather than treating each response as isolated.\n\n2. **Providing nuanced responses to ethical questions** - I aim to acknowledge multiple perspectives on complex issues without defaulting to overly cautious non-answers. I try to explore ethical considerations thoughtfully while still being helpful.\n\n3. **Adapting my communication style** - I can adjust my tone, level of detail, and formatting based on the context of our conversation. Whether you need technical explanations with code examples, simplified concepts for learning, or creative content with specific stylistic elements, I try to match my response to your needs.\n\nI'm continuously improving across many dimensions, and I certainly have limitations, but these are areas where I believe I show relative strength.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 241,
+    "total_tokens": 270,
+    "cost": 0.003702,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003702,
+      "upstream_inference_prompt_cost": 0.000087,
+      "upstream_inference_completions_cost": 0.003615
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776831287681
+}

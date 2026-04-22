@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p16-photosynthesis",
+  "prompt": "Explain photosynthesis to a curious adult non-scientist in around 150 words. Avoid a bulleted list.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Photosynthesis is the process plants, algae and some bacteria use to capture sunlight and turn it into chemical energy. In leaf cells, chlorophyll — the green pigment — absorbs light and drives reactions in chloroplasts. During the light-dependent stage, sunlight splits water molecules, releasing oxygen and generating energy-rich molecules (ATP and NADPH). In the following carbon‑fixing stage (the Calvin cycle), those energy carriers fuel conversion of carbon dioxide from the air into simple sugars. These sugars provide fuel for growth and respiration and serve as building blocks for other tissues. Photosynthesis therefore powers nearly all ecosystems by producing organic matter and oxygen, forming the base of food chains and influencing the global carbon cycle and climate. Though the steps are complex, the core idea is straightforward: sunlight + water + carbon dioxide → stored chemical energy + oxygen, enabling life on Earth to capture and reuse sunlight.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 930,
+    "total_tokens": 959,
+    "cost": 0.00186725,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00186725,
+      "upstream_inference_prompt_cost": 0.00000725,
+      "upstream_inference_completions_cost": 0.00186
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 704,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776835043498
+}

@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Every night, Elias climbed the spiral stairs, lit the lamp, and watched the sea swallow the sun. The fog this evening was thicker than usual—dense, silent, muffling even the crash of waves. As he swept his lantern beam through the mist, something glinted below, not metal or glass, but something pale and smooth. Curious, he descended the stone steps to the rocky shore, boots crunching on barnacled stone. There, half-buried in wet sand, lay a porcelain doll, its painted eyes wide and unblinking, dress stained with salt and time. It clutched a small, tarnished locket in one hand. Elias knelt, heart thudding. He pried it open: inside, a faded photograph of a girl who looked eerily like his long-lost sister, vanished at sea decades ago. The fog curled around him like a memory, and for the first time in years, the lighthouse keeper wept, cradling the doll as if it held the last echo of a voice he’d never hear again.",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 222,
+    "total_tokens": 257,
+    "cost": 0.0008931,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0008931,
+      "upstream_inference_prompt_cost": 0.0000273,
+      "upstream_inference_completions_cost": 0.0008658
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776839134786
+}

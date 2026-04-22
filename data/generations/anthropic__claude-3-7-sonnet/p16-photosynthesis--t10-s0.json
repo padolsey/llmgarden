@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p16-photosynthesis",
+  "prompt": "Explain photosynthesis to a curious adult non-scientist in around 150 words. Avoid a bulleted list.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "# Photosynthesis: Nature's Solar Power System\n\nPhotosynthesis is essentially how plants, algae, and some bacteria convert sunlight into food energy. Think of plants as living solar panels that capture light energy and use it to transform simple ingredients into fuel.\n\nThe process begins when green chlorophyll molecules in leaves trap sunlight. This energizes the plant's cellular machinery to perform a remarkable chemical conversion: combining water (drawn up through roots) with carbon dioxide (absorbed from the air through tiny leaf pores) to create glucose (sugar) and oxygen.\n\nThe sugar becomes the plant's food, either used immediately for growth or stored for later. The oxygen is released as a waste product - which fortunately for us, happens to be essential for our survival!\n\nThis elegant process powers nearly all life on Earth through food webs and provides the oxygen we breathe. It's nature's original renewable energy system, operating silently in every green leaf around us.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 205,
+    "total_tokens": 239,
+    "cost": 0.003177,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003177,
+      "upstream_inference_prompt_cost": 0.000102,
+      "upstream_inference_completions_cost": 0.003075
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776833951244
+}

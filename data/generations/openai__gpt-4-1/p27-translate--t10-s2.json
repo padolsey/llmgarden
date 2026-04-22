@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Certainly! Here are the translations with brief notes on any tricky phrases:\n\n---\n\n**French:**\n> *Le silence entre nous en disait plus que n'importe quelle dispute n'aurait pu le faire.*\n\n**Note:**  \nTranslating \"said more than any argument could have\" was slightly tricky. In French, both \"dispute\" (quarrel) and \"discussion\" (discussion/argument) could be used, but \"dispute\" here carries the emotional charge needed. The structure \"n'importe quelle dispute n'aurait pu le faire\" is an idiomatic way to maintain the conditional past implication.\n\n---\n\n**Japanese:**\n> 私たちの間の沈黙は、どんな口論よりも多くを語っていた。\n\n**Note:**  \nIn Japanese, rendering \"said more than any argument could have\" is nuanced—沈黙 (*chinmoku*, \"silence\") is personified as expressing something, using \"語っていた\" (was telling/speaking), and \"どんな口論よりも\" (\"more than any argument\") is a natural way to convey the comparison.\n\n---\n\n**Arabic:**\n> كان الصمت بيننا أبلغ من أي جدال كان يمكن أن يحدث.\n\n**Note:**  \nIn Arabic, \"أبلغ\" (more eloquent/more expressive) is often used to convey \"said more\" in a figurative sense. \"أي جدال كان يمكن أن يحدث\" (\"any argument that could have happened\") is used to express the unrealized potential comparison implied by the original English conditional perfect.\n\n---\n\nLet me know if you’d like any additional explanations or different phrasing!",
+  "usage": {
+    "prompt_tokens": 48,
+    "completion_tokens": 337,
+    "total_tokens": 385,
+    "cost": 0.002792,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002792,
+      "upstream_inference_prompt_cost": 0.000096,
+      "upstream_inference_completions_cost": 0.002696
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-2025-04-14",
+  "ts": 1776835321832
+}

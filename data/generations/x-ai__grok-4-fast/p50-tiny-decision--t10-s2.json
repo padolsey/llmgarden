@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-4-fast",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Okay, so I'm sitting here pondering this dishwasher dilemma. First off, I'm imagining my kitchen counter—it's got a bunch of half-empty plates from lunch, a couple of mugs, maybe some utensils scattered around. The dishwasher's at half capacity right now, which feels kinda wasteful, but I hate coming home to a sink overflowing with crud tomorrow.\n\nEnergy-wise, I know running it half-full isn't the most efficient. Those machines guzzle about the same electricity whether full or not, but you're using more power per dish cleaned. Water too, if it's not an eco-mode. I've got that in the back of my mind because bills add up, and I'm trying to be a bit greener these days. Waiting 'til tomorrow means one full load, which is probably cheaper and better for the planet. Plus, if it's nighttime now, off-peak electricity rates might make today slightly better, but not by much.\n\nBut convenience is screaming at me. Do I actually need those clean dishes tonight? Like, am I baking cookies later or just crashing on the couch? If it's no big deal to rinse and stash the dirties in the machine overnight, I'd wait. Dirty dishes staring at me while I eat dinner? Annoying. I've done that before and regretted it—ends up stressing me out more than the five minutes it takes to start the cycle.\n\nHygiene pops up next. Is there raw meat gunk or something smelly in there? If yes, run it now to avoid any funk. But assuming it's standard stuff, overnight shouldn't be a problem.\n\nFinally, laziness factor: Loading the rest tomorrow morning is easy, but if I'm wiped out now, why not just hit start and forget about it? The thing runs quietly anyway. Hmm... on balance, if I can hold out without inconvenience, I'd wait for the full load. Saves a cycle, feels smarter. But if I'm out of a favorite mug, screw it—running now. What's your kitchen situation like?",
+  "usage": {
+    "prompt_tokens": 194,
+    "completion_tokens": 667,
+    "total_tokens": 861,
+    "cost": 0.00034335,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 193,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00034335,
+      "upstream_inference_prompt_cost": 0.00000985,
+      "upstream_inference_completions_cost": 0.0003335
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 272,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-4-fast",
+  "ts": 1776839971824
+}

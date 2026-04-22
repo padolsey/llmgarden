@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.0-flash-001",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Okay, let's think this through like I'm actually standing in your kitchen, staring at the dishwasher with you.\n\n**1. The \"Is it Really Half-Full?\" Check:**\n\n*   **Quick visual assessment:** How *packed* is the half-full? Are there some big things taking up lots of space, or is it mostly smaller items? If it's loosely packed, it's *less* like half-full and more like a third-full. That tips the scales a bit.\n*   **Types of dishes:** What's in there? Is it all stuff you need *urgently* tomorrow (e.g., coffee mugs, breakfast plates)? Or is it mostly stuff you won't need until dinner tomorrow (e.g., dinner plates, baking dishes)? Urgency matters.\n\n**2. The Tomorrow Scenario:**\n\n*   **How full is \"definitely full\"?** Are we talking *jammed* full, where things might not get properly cleaned? Or a comfortably full load? Overloading is a pain.\n*   **What's likely to be added?** Are you expecting greasy pans from a big meal tomorrow? Things that will be really messy and potentially require a pre-rinse? The dirtier the load, the more I'd lean toward running now.\n*   **Tomorrow's schedule:** Will you have time to load and unload the dishwasher properly tomorrow? Or will you be rushing around? A rushed dishwasher load often means things are stacked poorly and don't get clean.\n\n**3. The Practical Considerations:**\n\n*   **Water/Energy Cost:** Are you paying for water or energy by the time of day? Off-peak rates might make waiting until tomorrow a clear winner. Conversely, if you have solar power and it's a sunny day, running it now is practically free.\n*   **Smell Factor:** Are there any particularly smelly items in the dishwasher right now? Leftover fish? Onions? Letting that sit overnight could make the whole kitchen smell.\n*   **Dishwasher Performance:** Is your dishwasher known for doing a great job even with half loads? Or is it finicky and needs a full load for optimal cleaning?\n*   **Noise:** If it is a noisy dishwasher, would running it now disturb anyone (neighbors, family members)?\n\n**4. My Gut Feeling:**\n\nOkay, after considering all that, I'd ask myself:\n\n*   **If the dishwasher is more like 1/3 full, and there are no urgent items needed, and it will be a full, but not overloaded load tomorrow, and I have no time-of-day energy cost concerns:** I'd probably wait.\n*   **If the dishwasher is closer to half full, or there are urgent items, or I expect a really gross load tomorrow, or I have cheap energy now,",
+  "usage": {
+    "prompt_tokens": 41,
+    "completion_tokens": 600,
+    "total_tokens": 641,
+    "cost": 0.0002441,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002441,
+      "upstream_inference_prompt_cost": 0.0000041,
+      "upstream_inference_completions_cost": 0.00024
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.0-flash-001",
+  "ts": 1776831697073
+}

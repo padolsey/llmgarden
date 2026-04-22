@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p16-photosynthesis",
+  "prompt": "Explain photosynthesis to a curious adult non-scientist in around 150 words. Avoid a bulleted list.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "# Photosynthesis: Nature's Solar Power Station\n\nPhotosynthesis is how plants, algae, and some bacteria transform sunlight into food. Inside plant cells, particularly in structures called chloroplasts, the green pigment chlorophyll captures sunlight energy. This energy powers a remarkable chemical process that converts carbon dioxide from the air and water from the soil into glucose (sugar) and oxygen.\n\nThink of it as nature's food factory: sunlight provides the power, chlorophyll works as solar panels, carbon dioxide serves as raw material, and water helps transport everything. The plant keeps the glucose as its energy source—either using it immediately or storing it for later—while releasing oxygen as a \"waste product\" that happens to be essential for animals like us.\n\nThis elegant process sustains nearly all life on Earth by creating food energy and maintaining atmospheric oxygen. It's the biological bridge between the sun's energy and the food we eat—a silent miracle happening in every green leaf around you.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 211,
+    "total_tokens": 245,
+    "cost": 0.003267,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003267,
+      "upstream_inference_prompt_cost": 0.000102,
+      "upstream_inference_completions_cost": 0.003165
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776833953567
+}

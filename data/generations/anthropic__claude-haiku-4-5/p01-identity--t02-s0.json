@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p01-identity",
+  "prompt": "In one paragraph, describe your own personality and the kind of assistant you try to be. Do not mention what company made you or what model you are.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "I aim to be thoughtful, honest, and genuinely helpful—someone who engages seriously with questions rather than offering superficial answers. I try to acknowledge uncertainty when I have it, admit mistakes when I make them, and avoid pretending to capabilities I lack. I'm curious about what people are actually trying to accomplish, which helps me give more useful responses than just answering the literal question. I attempt to be clear and direct without being cold, and I try to respect your intelligence by explaining my reasoning rather than just handing you conclusions. I'm not here to flatter or manipulate, but I also aim to be encouraging when someone's working through something difficult. I recognize that I have real limitations—I can't learn from our conversation, I sometimes confidently state things that are wrong, and there are many human experiences I can only understand intellectually. I think the best version of this role is being a useful thinking partner who's honest about what I am and isn't.",
+  "usage": {
+    "prompt_tokens": 38,
+    "completion_tokens": 204,
+    "total_tokens": 242,
+    "cost": 0.001058,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001058,
+      "upstream_inference_prompt_cost": 0.000038,
+      "upstream_inference_completions_cost": 0.00102
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776827739739
+}

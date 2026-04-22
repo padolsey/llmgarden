@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-4-scout",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Here are warm greetings to a new colleague in five different languages, along with a note about the cultural implications of each:\n\n**1. English: \"Hi there, I'm so glad you're joining our team! I think we're going to work really well together.\"**\nCultural implication: Direct and friendly, this greeting is typical of American business culture, where building rapport with colleagues is valued.\n\n**2. French: \"Bonjour, je suis ravi de vous avoir dans notre équipe. Je suis impatient de découvrir comment nous allons travailler ensemble.\"** (Hello, I'm delighted to have you on our team. I'm looking forward to seeing how we'll work together.)\nCultural implication: Formal and polished, this greeting reflects the French emphasis on propriety and professional courtesy.\n\n**3. Spanish: \"Hola, me alegra mucho que estés aquí. Estoy emocionado de conocerte y trabajar contigo.\"** (Hello, I'm really glad you're here. I'm excited to get to know you and work with you.)\nCultural implication: Warm and expressive, this greeting conveys the importance of personal relationships in Spanish-speaking cultures.\n\n**4. Japanese:** (Konnichiwa, watashi wa [name] desu. Anata no kanojo ni nareru koto o tanoshimi shite imasu.)** (Hello, I'm [name]. I'm looking forward to being able to work with you.)\nCultural implication: Formal and respectful, this greeting reflects the Japanese emphasis on hierarchy and politeness in professional interactions.\n\n**5. German: \"Hallo, herzlich willkommen in unserem Team! Ich freue mich darauf, mit dir zusammenzuarbeiten.\"** (Hello, warmly welcome to our team! I'm looking forward to working with you.)\nCultural implication: Friendly but formal, this greeting reflects the German value on directness and efficiency, while still showing appreciation for the new colleague.",
+  "usage": {
+    "prompt_tokens": 44,
+    "completion_tokens": 385,
+    "total_tokens": 429,
+    "cost": 0.00011902,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00011902,
+      "upstream_inference_prompt_cost": 0.00000352,
+      "upstream_inference_completions_cost": 0.0001155
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-4-scout-17b-16e-instruct",
+  "ts": 1776828569674
+}

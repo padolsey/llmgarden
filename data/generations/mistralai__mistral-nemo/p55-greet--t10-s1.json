@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-nemo",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "1. **English - Formal**\n   - Greeting: \"Good morning, I'm delighted to welcome you to our team. How do you do?\"\n   - Note: This formal greeting is common in professional settings in English-speaking countries, indicating respect and professionalism.\n\n2. **Spanish - Informal**\n   - Greeting: \"Hola, ¿qué tal? Me alegra mucho que te hayas unido a nuestro equipo.\"\n   - Note: In Spanish-speaking cultures, the use of 'tú' (informal) is common in professional settings, fostering a more relaxed and open atmosphere.\n\n3. **French - Neutral**\n   - Greeting: \"Bonjour, je suis ravi de vous accueillir dans notre équipe. Comment ça va?\"\n   - Note: French uses a more neutral register in professional contexts, balancing formal politeness with approachability.\n\n4. **German - Formal**\n   - Greeting: \"Guten Morgen, ich freue mich sehr, Sie in unserem Team willkommen zu heißen. Wie geht es Ihnen?\"\n   - Note: Germans typically use a formal 'Sie' form in professional settings, reflecting a high value on formality and respect.\n\n5. **Japanese - Hierarchical**\n   - Greeting: \"おはようございます。新しくюсьう silico します。いかがいかがですか？\"\n   - Note: Japanese uses distinct polite and humble forms (respectively, です and cultivars). Here, we use a polite form (です) as it's the typical speaking level in professional settings, showing deference to the colleague's higher position or seniority.",
+  "usage": {
+    "prompt_tokens": 40,
+    "completion_tokens": 329,
+    "total_tokens": 369,
+    "cost": 0.00001396,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00001396,
+      "upstream_inference_prompt_cost": 8e-7,
+      "upstream_inference_completions_cost": 0.00001316
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-nemo",
+  "ts": 1776837678311
+}

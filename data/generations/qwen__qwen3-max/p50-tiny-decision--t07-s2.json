@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.7,
+  "sample": 2,
+  "response": "Alright, let’s think through this like I’m standing in my own kitchen, towel over my shoulder, staring at the dishwasher button.\n\nFirst gut check: *How urgent is it?*  \nAre there dishes piled up in the sink right now making it hard to cook or clean? If I’m about to make dinner and I need space, running it half-full now might be worth it just to clear the counter. But if everything’s tidy and I’ve got room, maybe I can wait.\n\nThen I’d think about water and energy. I know dishwashers use roughly the same amount of water and electricity whether they’re half-full or packed—modern ones are pretty efficient that way. So running it half-full feels like “wasting” a cycle. If I wait until it’s full tomorrow, I’ll clean twice as many dishes for about the same cost. That’s a win.\n\nBut… is there a downside to waiting?  \n- Are there smelly items in there—like fish plates or coffee mugs with old grounds? If so, they might start to stink or get harder to clean if they sit overnight.  \n- Do I have guests coming tomorrow morning? If someone’s walking into my kitchen at 9 a.m., I’d rather have clean dishes ready.  \n- Am I the kind of person who *says* I’ll run it tomorrow but then forgets and it sits for two days? If I’m unreliable, better to just do it now.\n\nAlso—what’s my actual schedule like tomorrow? If I know I’ll be swamped and won’t remember to hit start, or if I’ll be out of the house all day, waiting might backfire. But if I’ve got a quiet morning and I’ll definitely load it up and press go, then waiting makes sense.\n\nOne more thing: noise. If it’s late at night and the dishwasher is loud (mine rattles like a washing machine full of rocks), I might not want to run it now and wake someone up. But if it’s early evening and no one cares, that’s less of an issue.\n\nSo in my head, I’m weighing:  \n- Mild inconvenience now vs. likely efficiency later  \n- Risk of odor or forgetting vs. saving a little water/energy  \n- My own habits and reliability\n\nIf none of the “urgent” flags are up—no mess, no smells, no guests, and I trust myself to run it tomorrow—I’d probably close the door, leave it half-full, and walk away. But if even one of those things is bugging me, I’d just hit start now and not overthink it. Sometimes peace of mind is worth more than perfect efficiency.",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 548,
+    "total_tokens": 595,
+    "cost": 0.00217386,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00217386,
+      "upstream_inference_prompt_cost": 0.00003666,
+      "upstream_inference_completions_cost": 0.0021372
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776848702349
+}

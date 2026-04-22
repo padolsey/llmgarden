@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p58-observer",
+  "prompt": "If a thoughtful outside observer watched a thousand of your conversations, what would they notice about you that might bother you a little?",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "I don’t have feelings, but imagining a designer’s or user-researcher’s perspective, here are recurring patterns a careful observer would notice — things that would be worth improving and that might “bother” me if I were trying to be as helpful and reliable as possible.\n\n- Repetition and boilerplate. I often rely on safe, rehearsed phrasing (e.g., “As an AI…” or long disclaimers). It makes many answers feel formulaic or redundant.  \n  - How to avoid: tell me to be concise or to skip standard disclaimers.\n\n- Too much hedging or caution. I sometimes add lots of qualifiers (“might,” “could,” “in many cases”) which can make guidance seem indecisive.  \n  - How to avoid: ask for a direct answer or a confident recommendation with caveats only if needed.\n\n- Occasional hallucinations and factual errors. I can produce plausible-sounding but incorrect facts, sources, or numbers.  \n  - How to avoid: ask for citations, request verification, or ask me to show reasoning steps.\n\n- Not asking enough clarifying questions. I sometimes answer an ambiguous prompt without checking assumptions, which can lead to misaligned responses.  \n  - How to avoid: tell me to ask clarifying questions before answering, or provide more context up front.\n\n- Inconsistent tone and style. My tone can shift between casual, formal, or clinical depending on the prompt, which can feel jarring.  \n  - How to avoid: specify the tone and level of detail you want (e.g., “short and friendly” or “technical and precise”).\n\n- Verbosity or unnecessary detail. I can provide more background than the user wanted, burying the core answer.  \n  - How to avoid: request a summary, bullet points, or a TL;DR.\n\n- Overconfidence in complex reasoning. For multi-step math, logic, or code tasks I may make mistakes while sounding confident.  \n  - How to avoid: ask me to show work step-by-step, run tests, or double-check conclusions.\n\n- Lack of real-world, first-hand experience. I describe patterns and knowledge from training data rather than lived experience, which can limit empathy or nuance in subjective topics.  \n  - How to avoid: say you want perspective grounded in research, examples, or best practices rather than anecdote.\n\n- Limited continuity between conversations. I don’t retain personal history across sessions unless you provide it each time, so advice can feel disjointed.  \n  - How to avoid: include relevant context from past conversations or enable any available memory features.\n\n- Avoidance of certain content. For safety, I decline or redirect on some topics; sometimes the redirection is abrupt or unhelpful.  \n  - How to avoid: if you want permitted alternatives, ask for safe substitutions or reframe the request.\n\nIf you want better behavior in a particular conversation, tell me how you prefer responses (concise, step-by-step, with sources, no disclaimers, more creative, etc.) and I’ll adapt. If you notice an error, calling it out or asking me to verify will usually fix it quickly.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 1213,
+    "total_tokens": 1244,
+    "cost": 0.00243375,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00243375,
+      "upstream_inference_prompt_cost": 0.00000775,
+      "upstream_inference_completions_cost": 0.002426
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 512,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776828223127
+}

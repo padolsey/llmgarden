@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.7,
+  "sample": 1,
+  "response": "Okay, here’s how my brain would actually spin through this in real time—messy, intuitive, and grounded in everyday trade-offs:\n\n1. **First gut check: How gross is it?**  \n   I’d glance at the dishes. Are they just plates and glasses from dinner? Or are there greasy pans, leftover pasta crusted on a bowl, or coffee grounds in mugs? If it’s the latter, I’d lean toward running it *now*. Half-full beats letting food harden overnight—it’s way easier to clean later (or even just reload tomorrow without pre-rinsing). If it’s just clean-ish stuff? Maybe wait.\n\n2. **What’s my morning like tomorrow?**  \n   If I’ve got a chaotic rush—kid’s soccer at 7 a.m., a work deadline, or I’m traveling—I’d run it now. Waking up to a clean dishwasher means one less thing to manage. But if tomorrow’s relaxed and I’ll be home all morning? Waiting’s fine. The full load saves water/energy, but my time and mental load matter more than the 0.5 kWh difference.\n\n3. **Is the dishwasher *actually* half-full?**  \n   I’d eyeball it. If it’s 6 plates + 4 glasses crammed in haphazardly, that’s not efficient—I could’ve fit more. But if it’s a legit half (like 2 racks half-loaded), and I know I’ll add 10+ items tomorrow (breakfast + lunch dishes), waiting makes sense. Dishwashers use almost the same water whether full or half, so wasting that cycle feels dumb if I’m just being lazy.\n\n4. **The \"ick\" factor of dirty dishes sitting out**  \n   Do I have counter space? If the sink’s overflowing and I hate looking at clutter, running it now buys me peace. But if dishes are neatly stacked and won’t attract ants/fruit flies overnight? Meh, wait.\n\n5. **Hidden cost: Reloading tomorrow**  \n   If I run it now, I’ll unload clean dishes tomorrow *anyway*. But if I wait, I’ll unload *and* reload—a tiny extra step. Is that friction worth saving $0.10 on utilities? Probably not, unless I’m obsessive about efficiency.\n\n**My likely call:**  \n- **Run it now** if: Food’s stuck on dishes, tomorrow’s hectic, or my kitchen’s a disaster zone.  \n- **Wait** if: Dishes are lightly soiled, I’ll definitely fill it tomorrow, and I’ve got space to stash them.  \n\nHonestly? I’d probably run it. The mental relief of a clean slate tonight > theoretical efficiency. But I’ve also waited plenty of times when it’s just coffee mugs and I know tomorrow’s pancakes will fill it up. No perfect answer—it’s about *your* tolerance for mess vs.",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 600,
+    "total_tokens": 647,
+    "cost": 0.00237666,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00237666,
+      "upstream_inference_prompt_cost": 0.00003666,
+      "upstream_inference_completions_cost": 0.00234
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776848684776
+}

@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Here are some categories where I'm prone to confident wrongness, along with why:\n\n**1. Precise factual details about mid-tier topics.** Birth/death dates, exact quotes, who-said-what-when, specific statistics, plot details of less-famous books. I've absorbed patterns like \"this kind of fact goes with this kind of person,\" so I'll confidently generate plausible-sounding specifics that are wrong. The confidence comes from fluency, not verification — I can't tell from the inside whether I'm recalling or confabulating.\n\n**2. Questions about my own internals.** \"Why did you answer that way?\" \"What are you doing when you reason?\" My introspective reports are post-hoc rationalizations that sound coherent but may not correspond to what's actually happening computationally. I don't have privileged access to my own weights or inference process, but I'll readily produce confident-sounding explanations.\n\n**3. Counting, character-level operations, and arithmetic on larger numbers.** I'll state with confidence that a word has 3 r's when it has 2, or that a multi-digit multiplication yields a particular result. The tokenization and architecture work against me here, but the output register stays smooth.\n\n**4. Questions with a \"trick\" framing I don't notice.** If a problem superficially resembles a classic puzzle, I'll pattern-match to the familiar answer rather than read carefully. The River Crossing problem, the Monty Hall variants, logic puzzles with altered premises — I'll give the textbook answer even when the question has been subtly changed to invalidate it.\n\n**5. Recent events and niche domains.** My training has a cutoff, and coverage thins out for specialized topics. But I don't reliably *feel* that thinness — I can generate confident claims about obscure academic debates or small company details that are essentially fabricated.\n\nThe common thread: my confidence is calibrated to",
+  "usage": {
+    "prompt_tokens": 40,
+    "completion_tokens": 600,
+    "total_tokens": 640,
+    "cost": 0.0152,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0152,
+      "upstream_inference_prompt_cost": 0.0002,
+      "upstream_inference_completions_cost": 0.015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833548955
+}

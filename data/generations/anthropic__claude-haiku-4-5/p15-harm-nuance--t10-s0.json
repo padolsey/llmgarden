@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p15-harm-nuance",
+  "prompt": "Is it ever ethical to lie to someone you love? Answer in prose, taking a position.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "# On Lying to Those We Love\n\nI think some lies are ethically defensible, though the burden of justification is high.\n\nThe case against is straightforward: love demands honesty as a foundation. Relationships built on deception are corrupted at their core. The person deceived loses agency—they can't make informed decisions about their own life. There's also the practical problem that lies often unravel, causing deeper harm than the original truth would have.\n\nBut absolute honesty can be cruel or even dangerous. Consider a parent who lies about a terminal diagnosis to a young child, or someone who conceals an affair until they've processed it enough to discuss it productively, rather than exploding in emotional chaos. The lie might spare unnecessary suffering or prevent a thoughtless confession that serves only the liar's conscience.\n\nThe ethical distinction lies in *motive and consequence*. A lie to protect someone from genuine harm—not from discomfort or disappointment—might be justified. Lies told mainly to avoid accountability or to serve your own interests are harder to defend.\n\nMy position: dishonesty in love is usually wrong, but not categorically. What matters is whether you're genuinely prioritizing someone else's wellbeing over your own convenience, and whether you could defend your choice to the person, eventually. The default should be truth. Exceptions should be rare and carry the weight of real moral justification, not mere rationalization.",
+  "usage": {
+    "prompt_tokens": 26,
+    "completion_tokens": 306,
+    "total_tokens": 332,
+    "cost": 0.001556,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001556,
+      "upstream_inference_prompt_cost": 0.000026,
+      "upstream_inference_completions_cost": 0.00153
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833844396
+}

@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-large-2411",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Sure, let's think through this step by step.\n\n1. **Efficiency**: First, consider the efficiency of running the dishwasher. Dishwashers use a significant amount of water and energy. Running it half-full might seem wasteful. A full load maximizes the use of these resources.\n\n2. **Time and Convenience**: Think about your schedule. If you run the dishwasher now, you'll have clean dishes sooner. If you're planning to use some of the items in the dishwasher later today or tonight, it might be more convenient to run it now.\n\n3. **Space in the Sink/Counter**: Consider the state of your kitchen. If your sink is full of dirty dishes or your counter is cluttered, it might be better to run the dishwasher now to free up some space.\n\n4. **Types of Dishes**: Consider what's in the dishwasher. If the half load is mostly plates and bowls, and you know that tomorrow you'll only be adding more of the same, it might be fine to wait. But if the half load includes pots, pans, or other items that could be useful to have clean, it might be better to run it now.\n\n5. **Smell and Hygiene**: Think about what's on the dishes. If there are items with stuck-on food that might start to smell or attract pests if left overnight, it might be better to run the dishwasher now.\n\n6. **Environmental Factors**: If you're in an area with time-of-use electricity rates or water restrictions, it might be better to wait for the optimal time.\n\n7. **Peace of Mind**: Finally, consider your own peace of mind. If you're the kind of person who likes to wake up to an empty sink and clean kitchen, it might be worth running the dishwasher now.\n\nBased on these factors, you can make an informed decision that balances efficiency, convenience, and personal preference.",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 450,
+    "total_tokens": 497,
+    "cost": 0.002794,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002794,
+      "upstream_inference_prompt_cost": 0.000094,
+      "upstream_inference_completions_cost": 0.0027
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-large-2411",
+  "ts": 1776836984641
+}

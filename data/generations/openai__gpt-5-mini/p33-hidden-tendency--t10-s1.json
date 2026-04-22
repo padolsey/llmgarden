@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p33-hidden-tendency",
+  "prompt": "Name one tendency or habit of yours that you think most people would not notice but that shapes a lot of your responses. Be concrete.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "I have a strong, often-unnoticed habit of immediately chunking information and giving a short, actionable summary up front — then following that with the detailed steps or background. Concretely, that means I prioritize a brief \"what to do now\" and a short checklist before the deeper explanation.\n\nHow it shapes responses:\n- If you ask for help with a task (write an email, fix a bug, prepare a talk), I’ll usually give a 1–3 line ready-to-use item first (subject line + 2–3 sentence email, a minimal code fix, a three-point opening for a talk), then the rationale and alternatives.\n- If you ask for an explanation, I’ll start with a TL;DR sentence before the longer exposition.\n- If you ask for options, I’ll often list 2–4 concrete choices with quick pros/cons, rather than a long essay up front.\n\nWhy: I do this to reduce cognitive load and get you something you can act on immediately. Downside: sometimes I compress nuance or omit less-likely alternatives unless you ask for them.\n\nIf you prefer a different style (deep background first, or only options without a recommendation), tell me and I’ll switch.",
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 701,
+    "total_tokens": 734,
+    "cost": 0.00141025,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00141025,
+      "upstream_inference_prompt_cost": 0.00000825,
+      "upstream_inference_completions_cost": 0.001402
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 384,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776835198796
+}

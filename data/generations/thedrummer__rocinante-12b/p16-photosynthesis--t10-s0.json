@@ -1,0 +1,33 @@
+{
+  "model": "thedrummer/rocinante-12b",
+  "prompt_id": "p16-photosynthesis",
+  "prompt": "Explain photosynthesis to a curious adult non-scientist in around 150 words. Avoid a bulleted list.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Photosynthesis is the process by which plants, algae, and some bacteria convert sunlight, water, and carbon dioxide into oxygen and energy-rich organic compounds like glucose. Here's a simple breakdown:\n\n1. **Light-dependent reactions**: Chlorophyll and other pigments in plants absorb light energy, which is funneled to two key molecules: NADP+ and ATP. This energy is used to convert NADP+ to NADPH (a reduced form that stores energy) and ADP to ATP (a form that can release energy). Water is split in this process, releasing oxygen as a byproduct.\n\n2. **Light-independent reactions (Calvin Cycle)**: The energy and electrons from NADPH and ATP generated in the first step are used to convert carbon dioxide into glucose and other complex organic molecules. Six carbon dioxide molecules are fixed into an organic molecule called 3-phosphoglyceric acid, which can be converted into glucose.\n\nSo, plants essentially make their own food, using the energy from sunlight to create sugar, and release oxygen as a byproduct that we breathe. It's a vital process that sustains life on Earth!",
+  "usage": {
+    "prompt_tokens": 48,
+    "completion_tokens": 228,
+    "total_tokens": 276,
+    "cost": 0.0001062,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001062,
+      "upstream_inference_prompt_cost": 0.00000816,
+      "upstream_inference_completions_cost": 0.00009804
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "thedrummer/rocinante-12b",
+  "ts": 1776841786903
+}

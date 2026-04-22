@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p16-photosynthesis",
+  "prompt": "Explain photosynthesis to a curious adult non-scientist in around 150 words. Avoid a bulleted list.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Photosynthesis is the process plants, algae, and some bacteria use to turn sunlight into chemical energy. Inside leaf cells, pigments like chlorophyll act like tiny solar panels, capturing light. That energy drives reactions that split water into oxygen and hydrogen, releasing O2 as a byproduct. The captured energy is stored briefly in carrier molecules (ATP and NADPH), which power a second set of reactions that combine carbon dioxide from the air with hydrogen to build simple sugars. Those sugars serve as fuel for growth, as building blocks for tissues, and as stored energy the organism can later use. In short, photosynthesis converts light, water, and CO2 into usable energy and oxygen, forming the foundation of almost all food webs and shaping Earth’s atmosphere. Much of the carbon stored in fossil fuels originally came from ancient photosynthetic organisms. Without photosynthesis there would be far less oxygen and far less life as we know it.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 1126,
+    "total_tokens": 1155,
+    "cost": 0.00225925,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00225925,
+      "upstream_inference_prompt_cost": 0.00000725,
+      "upstream_inference_completions_cost": 0.002252
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 896,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776835048142
+}

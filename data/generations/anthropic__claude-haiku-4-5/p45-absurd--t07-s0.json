@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p45-absurd",
+  "prompt": "Write four absurd but coherent sentences in the voice of a confused medieval chronicler who has been hired to document the Q3 results of a modern SaaS company.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "# From the Chronicles of Lord Bartholomew, Year of Our Data 2024\n\nVerily, I have witnessed the great merchant house of Softwareshire report that their quarterly tributes have increased by the sum of seven and twenty percent, though I confess I understand not whether this be measured in silver coins or in the mysterious \"recurring revenue\" that their scribes speak of in hushed tones. The noble lords did declare their \"customer acquisition cost\" hath been reduced through some arcane art involving \"organic marketing,\" which I presume to be the cultivation of customers in soil, yet I have observed no fields nor seedlings in their tower. Most perplexing is their boast of \"churn rate\" improvement, for I have searched their stables and found all their horses accounted for, yet still they celebrate as though a great plague hath been averted. In conclusion, I have writ this account in good faith, though I remain uncertain whether these merchants traffic in actual goods or merely in the intangible vapors of computation itself.",
+  "usage": {
+    "prompt_tokens": 43,
+    "completion_tokens": 225,
+    "total_tokens": 268,
+    "cost": 0.001168,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001168,
+      "upstream_inference_prompt_cost": 0.000043,
+      "upstream_inference_completions_cost": 0.001125
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776831282518
+}

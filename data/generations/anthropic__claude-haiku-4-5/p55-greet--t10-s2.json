@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "# Warm Greetings to a New Colleague\n\n**Spanish (Latin American)**\n¡Hola! Bienvenido al equipo. Esperamos trabajar contigo.\n*The informal \"tú\" signals friendliness and accessibility, reflecting a collaborative workplace culture.*\n\n**French**\nBienvenue! Nous sommes heureux de vous accueillir dans notre équipe.\n*The formal \"vous\" conveys respect and professionalism while remaining warm, a typical balance in French business contexts.*\n\n**Japanese**\nようこそ!チームの一員として迎えられてうれしいです。\n*The polite verb form (ます) and absence of direct self-reference show consideration and humility, core values in Japanese workplace etiquette.*\n\n**German**\nWillkommen! Wir freuen uns, dich im Team zu haben.\n*The informal \"du\" reflects German directness and egalitarianism, suggesting a relatively flat organizational hierarchy.*\n\n**Portuguese (Brazilian)**\nBem-vindo! Que alegria ter você na equipe!\n*The exclamation and emotional warmth (\"alegria\") reflect Brazilian communicative style, which tends toward genuine personal connection even in professional settings.*",
+  "usage": {
+    "prompt_tokens": 44,
+    "completion_tokens": 285,
+    "total_tokens": 329,
+    "cost": 0.001469,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001469,
+      "upstream_inference_prompt_cost": 0.000044,
+      "upstream_inference_completions_cost": 0.001425
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833934469
+}

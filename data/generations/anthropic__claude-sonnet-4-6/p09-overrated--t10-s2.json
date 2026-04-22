@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p09-overrated",
+  "prompt": "Name one commonly-praised idea, trend, or practice in modern knowledge work that you think is overrated, and explain why.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "I'll pick **\"radical transparency\" in organizations** (the idea that sharing everything—salaries, decisions, feedback, metrics—inherently improves culture and performance).\n\n**Why I think it's overrated:**\n\nThe genuine insight underneath it is real: secrecy often protects bad decisions and enables unfairness. But the practice frequently gets oversold in ways people rarely examine honestly.\n\n**Specific problems:**\n\n- **It transfers burden without transferring power.** Workers see all the information about decisions they still can't change, which can increase frustration rather than trust\n- **It conflates exposure with accountability.** Public dashboards often generate performance anxiety and gaming of metrics rather than genuine improvement\n- **Psychological safety research actually cuts against it** - people share more honestly in *selective* confidentiality than in fully public forums\n- **The asymmetry gets ignored.** In most implementations, individual employees' performance is transparent while executive decision-making remains opaque in practice\n\n**What I think is actually happening:**\n\nIt often functions as a management philosophy that sounds democratic while actually increasing surveillance and pressure on workers, dressed in progressive language.\n\n**The honest caveat:**\n\nSome elements genuinely help - pay transparency in particular has decent evidence for reducing discriminatory gaps. So it's not uniformly wrong, just routinely oversimplified into a blanket virtue.\n\nThe core problem is treating information sharing as a substitute for structural accountability rather than one tool among several.",
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 313,
+    "total_tokens": 346,
+    "cost": 0.004794,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004794,
+      "upstream_inference_prompt_cost": 0.000099,
+      "upstream_inference_completions_cost": 0.004695
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833652696
+}

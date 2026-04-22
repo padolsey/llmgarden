@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "The sun's warmth initiates a continuous journey for water, drawing it from the vast oceans, lakes, and rivers as an invisible vapor that gracefully ascends into the atmosphere, a process known as evaporation. As this humid air rises higher, it gradually cools, causing the vapor to transform into tiny liquid droplets or ice crystals, which then cluster together to form the clouds we see drifting across the sky, a phenomenon called condensation. Eventually, these clouds become heavy with moisture, and the water returns to Earth's surface in various forms, such as rain, snow, sleet, or hail, a crucial stage known as precipitation. Once back on solid ground, this water either seeps into the soil, replenishing groundwater reserves, or flows across the land as runoff, carving streams and rivers that ultimately lead it back to the larger bodies of water, thus completing the endless, life-sustaining cycle that constantly renews our planet's most vital resource.",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 190,
+    "total_tokens": 217,
+    "cost": 0.0004831,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004831,
+      "upstream_inference_prompt_cost": 0.0000081,
+      "upstream_inference_completions_cost": 0.000475
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.5-flash",
+  "ts": 1776831644586
+}

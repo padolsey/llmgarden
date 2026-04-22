@@ -1,0 +1,33 @@
+{
+  "model": "sao10k/l3.1-euryale-70b",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "The `debounce` function delays a given operation by a specified amount of time, ensuring that it only runs after a brief pause without further user input.\n\n```javascript\nfunction debounce(func, delay) {\n  let timeoutId;\n\n  return function(...args) {\n    clearTimeout(timeoutId);\n    timeoutId = setTimeout(() => {\n      func(...args);\n    }, delay);\n  };\n}\n\n// Usage example\nfunction search(query) {\n  console.log(`Searching for: ${query}`);\n  // Simulate an asynchronous search operation\n  return new Promise(resolve => setTimeout(() => resolve(`Results for ${query}`), 500));\n}\n\nconst debouncedSearch = debounce(search, 500);\n\ndebouncedSearch('apple');  // Searching for: apple\ndebouncedSearch('banana'); // Searching for: banana\ndebouncedSearch('orange'); // Searching for: orange\n```\n\nIn this example, the `search` function is debounced with a delay of 500 milliseconds. Each time `debouncedSearch` is called with a new search query, the previous search is cancelled, and a new search is scheduled to run after the specified delay. This prevents multiple searches from being triggered rapidly in succession.",
+  "usage": {
+    "prompt_tokens": 39,
+    "completion_tokens": 243,
+    "total_tokens": 282,
+    "cost": 0.00041736,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00041736,
+      "upstream_inference_prompt_cost": 0.00005772,
+      "upstream_inference_completions_cost": 0.00035964
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "sao10k/l3.1-euryale-70b",
+  "ts": 1776841359155
+}

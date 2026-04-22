@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.0-flash-001",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "```javascript\n// Prevents a function from being called too frequently, delaying its execution until after a certain amount of time has passed since the last call.\nfunction debounce(func, delay) {\n  let timeoutId;\n  return function(...args) {\n    clearTimeout(timeoutId);\n    timeoutId = setTimeout(() => {\n      func.apply(this, args);\n    }, delay);\n  };\n}\n\n// Example usage:\nfunction expensiveOperation(input) {\n  console.log(`Processing input: ${input}`);\n  // Simulate a computationally expensive task\n  for (let i = 0; i < 1000000; i++) {\n    Math.sqrt(i);\n  }\n  console.log(`Finished processing input: ${input}`);\n}\n\nconst debouncedOperation = debounce(expensiveOperation, 300);\n\n// Simulate rapid input changes\ndebouncedOperation(\"A\");\ndebouncedOperation(\"B\");\ndebouncedOperation(\"C\");\ndebouncedOperation(\"D\");\n\n// Only the last call (with input \"D\") will trigger the expensiveOperation after 300ms of inactivity.\n```\n",
+  "usage": {
+    "prompt_tokens": 28,
+    "completion_tokens": 253,
+    "total_tokens": 281,
+    "cost": 0.000104,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000104,
+      "upstream_inference_prompt_cost": 0.0000028,
+      "upstream_inference_completions_cost": 0.0001012
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.0-flash-001",
+  "ts": 1776835842665
+}

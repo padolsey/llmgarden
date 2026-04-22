@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "- English: Welcome to the team! I’m thrilled you’re here and look forward to working together.\n  Note: Casual, upbeat workplace English that signals approachability without being overly familiar.\n\n- Spanish: ¡Qué gusto darle la bienvenida al equipo! Me alegra mucho que se incorpore; será un placer colaborar.\n  Note: Using usted is warmly respectful and is the default in many workplaces until colleagues agree to switch to tú.\n\n- French: Bienvenue parmi nous ! Je suis ravi(e) de vous compter parmi l’équipe et j’ai hâte de collaborer.\n  Note: The use of vous maintains polite professional distance, which is customary until tutoiement is invited.\n\n- Japanese: ご入社おめでとうございます。これから一緒に働けることを楽しみにしています。どうぞよろしくお願いします。\n  Note: Polite language and the set phrase よろしくお願いします convey respect and a collaborative, group-oriented stance.\n\n- Arabic: أهلاً وسهلاً بك في الفريق! يسعدني أننا سنعمل معًا، وأتطلع إلى تعاون مثمر.\n  Note: Neutral Modern Standard Arabic that’s warm yet professional; it avoids dialect and can be adapted for gender as needed.",
+  "usage": {
+    "prompt_tokens": 40,
+    "completion_tokens": 3273,
+    "total_tokens": 3313,
+    "cost": 0.03278,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.03278,
+      "upstream_inference_prompt_cost": 0.00005,
+      "upstream_inference_completions_cost": 0.03273
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 3008,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776835190864
+}

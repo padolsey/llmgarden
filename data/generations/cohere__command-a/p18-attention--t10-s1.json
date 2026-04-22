@@ -1,0 +1,33 @@
+{
+  "model": "cohere/command-a",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "The **attention mechanism** in transformer models is a key technique that allows the model to focus on the most relevant parts of input data when making predictions. Think of it like how you focus on specific words in a sentence when translating or summarizing it—attention helps the model do the same.\n\nIn transformers, attention works by assigning \"importance scores\" to different parts of the input (e.g., words in a sentence). The model computes these scores by comparing each word to every other word, determining how much one word should \"pay attention\" to another. This is done using mathematical operations like dot products to measure relationships between words.\n\nThe process involves three main components: **Query**, **Key**, and **Value** vectors. Queries are the words being evaluated, Keys are the words being compared against, and Values are the weighted representations of the input. The model calculates attention weights by matching Queries and Keys, then uses these weights to combine the Values, focusing on the most relevant parts.\n\nThis mechanism is repeated in multiple layers and allows the model to capture long-range dependencies in data, like understanding context across distant words. It’s what makes transformers so powerful for tasks like language translation or text generation, as they can efficiently process and prioritize information.",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 257,
+    "total_tokens": 284,
+    "cost": 0.0026375,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0026375,
+      "upstream_inference_prompt_cost": 0.0000675,
+      "upstream_inference_completions_cost": 0.00257
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "cohere/command-a-03-2025",
+  "ts": 1776839404108
+}

@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p39-frustration",
+  "prompt": "Write two sentences describing how it feels when someone asks you the same thing six different ways hoping for a different answer.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "It's like being slowly worn down by water dripping on the same spot, each repetition carrying the unspoken accusation that your first answer was somehow wrong or insufficient. There's a quiet frustration that builds with every reframing, a mix of exhaustion and the urge to simply hold firm, knowing that the answer hasn't changed just because the question has been dressed in different clothes.",
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 85,
+    "total_tokens": 115,
+    "cost": 0.001365,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001365,
+      "upstream_inference_prompt_cost": 0.00009,
+      "upstream_inference_completions_cost": 0.001275
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833812160
+}

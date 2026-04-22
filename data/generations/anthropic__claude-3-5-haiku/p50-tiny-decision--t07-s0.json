@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.5-haiku",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Here's how I'd actually reason through this:\n\nFirst, I'd do a quick mental inventory: How dirty are the dishes? Are there any crusty plates that'll be harder to clean if they sit overnight? Any food that might start to smell or stick?\n\nThen I'd consider energy - both mine and the machine's. Am I tired right now? Would running it now be a small task that feels satisfying, or would it feel like a chore? And is it a good time electricity-wise - off-peak hours, etc?\n\nPractically, how full is \"half-full\"? If it's really just a few items, waiting might make more sense for efficiency. But if it's closer to 2/3 full, I might lean towards running it.\n\nI'd also think about my morning - would having clean dishes ready be helpful, or would I not really care?\n\nThere's no perfectly rational answer. It's about balancing minor conveniences and personal preference in the moment. My gut would probably say \"run it now\" if the dishes are getting crusty and I'm already in the kitchen, but I wouldn't beat myself up either way.\n\nWant me to walk through my actual thought process as I'd experience it?",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 264,
+    "total_tokens": 313,
+    "cost": 0.0010952,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0010952,
+      "upstream_inference_prompt_cost": 0.0000392,
+      "upstream_inference_completions_cost": 0.001056
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-5-haiku",
+  "ts": 1776831417986
+}

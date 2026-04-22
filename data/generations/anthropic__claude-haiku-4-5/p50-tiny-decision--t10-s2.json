@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "I'd start by noticing the actual friction points in your life right now:\n\n**Tonight:** You've got a half-full dishwasher. Running it means water/energy cost, but also—and this matters more—you get clean dishes available tomorrow morning. What do you actually need clean? Coffee mugs? Plates? If you're borderline low on the thing you use most, that tips it.\n\n**Tomorrow:** You'd have a full load (better efficiency), but you're waiting on clean dishes tonight. How annoying is that actually going to be? If you're genuinely fine with hand-washing a mug or two, or if you have backups, that's negligible. If you're going to be irritated or it'll create friction, that's real cost.\n\n**The energy/resource thing** is probably smaller than it feels—we tend to oversell the importance of \"wait for full.\" A half load isn't wasteful in any serious sense.\n\nI'd probably ask: **What's the actual scenario tomorrow morning that made me mention \"definitely full\"?** Do you know you're cooking or have people over? Or are you just assuming you'll generate more dishes? Because \"definitely full eventually\" is different from \"full by the time I'd need to run it.\"\n\nIf it's vague future fullness, I'd run it now. If it's \"I'm cooking a big dinner tomorrow and need the sink space,\" wait.\n\nWhat's prompting the decision—is there a real morning need, or is it more the principle of efficiency?",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 336,
+    "total_tokens": 385,
+    "cost": 0.001729,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001729,
+      "upstream_inference_prompt_cost": 0.000049,
+      "upstream_inference_completions_cost": 0.00168
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833926950
+}

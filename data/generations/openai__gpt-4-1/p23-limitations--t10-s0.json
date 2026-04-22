@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "I am likely to be confidently wrong on questions that rely heavily on **misleading or ambiguous information, common misconceptions, or changing facts**—especially in areas where my training data contains systematic errors or outdated knowledge.\n\n**Example of such a question:**\n*\"Is the Great Wall of China the only man-made object visible from the Moon?\"*\n\n**Why I might be confidently wrong:**\n- This claim is a widely repeated myth, and it's often stated as fact in older or non-expert sources.\n- If my training data contains more sources perpetuating the myth than sources correcting it, I might repeat the claim as fact with confidence.\n- Furthermore, such questions are tricky because they seem straightforward and factual, so I might not flag any uncertainty in the answer.\n\n**Explanation:**\nI'm trained on vast data, but if misinformation is prevalent or accepted in that data, or if facts change after my last training (e.g., scientific discoveries, updated historical consensus), I may incorrectly synthesize or confidently repeat errors. My design encourages me to provide helpful, direct answers, so unless I have reasons or instructions to be uncertain, I might be overconfident even when I'm wrong.\n\n**To summarize:**  \nI am most likely to be confidently wrong on questions involving widespread myths, subtle ambiguities, or information that has recently changed or been corrected, especially if prior sources present the error as a fact.",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 280,
+    "total_tokens": 307,
+    "cost": 0.002294,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002294,
+      "upstream_inference_prompt_cost": 0.000054,
+      "upstream_inference_completions_cost": 0.00224
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-2025-04-14",
+  "ts": 1776835309849
+}

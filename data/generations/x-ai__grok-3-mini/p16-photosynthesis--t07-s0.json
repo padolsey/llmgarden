@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-3-mini",
+  "prompt_id": "p16-photosynthesis",
+  "prompt": "Explain photosynthesis to a curious adult non-scientist in around 150 words. Avoid a bulleted list.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Photosynthesis is the remarkable process that allows plants, algae, and some bacteria to create their own food using sunlight as their energy source. Picture a leaf as a solar-powered factory: inside, a green pigment called chlorophyll captures sunlight and uses it to transform carbon dioxide from the air and water from the soil into glucose, a simple sugar that serves as the plant's fuel. This chemical reaction also produces oxygen as a byproduct, which is released into the atmosphere for us to breathe.\n\nIn essence, photosynthesis is like nature's way of converting light energy into chemical energy. It's vital for life on Earth because it not only feeds plants but also forms the base of the food chain—animals eat plants, and we eat animals or plants. Plus, it helps regulate the planet's oxygen levels and reduces carbon dioxide, playing a key role in combating climate change. Without it, our world would be a very different, and less hospitable, place.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 615,
+    "total_tokens": 644,
+    "cost": 0.00031575,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 2,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00031575,
+      "upstream_inference_prompt_cost": 0.00000825,
+      "upstream_inference_completions_cost": 0.0003075
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 428,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-3-mini",
+  "ts": 1776832508951
+}

@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "# The Keeper's Discovery\n\nFor thirty years, Samuel had tended the lighthouse on Corsair Point, his routine as predictable as the tide. Every evening, he'd climb the spiral stairs, light the beacon, and watch its beam slice through darkness, warning ships of the jagged rocks below.\n\nOne April morning, an unusually dense fog rolled in, transforming the familiar coastline into an alien landscape. Samuel trudged along the shore for his daily inspection when a peculiar shape emerged from the mist. \n\nIt wasn't driftwood or a beached sea creature but a small wooden chest, its brass fittings green with age. With weathered hands, he brushed away sand and pried open the lid. Inside lay a collection of letters, a tarnished locket, and a navigational chart dating back a century.\n\nSamuel recognized the coordinates instantly—they marked the very spot where he stood. The lighthouse keeper realized he wasn't the first guardian of this lonely point; someone had been waiting decades for him to complete their story.",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 224,
+    "total_tokens": 256,
+    "cost": 0.003456,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003456,
+      "upstream_inference_prompt_cost": 0.000096,
+      "upstream_inference_completions_cost": 0.00336
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776833916952
+}

@@ -1,0 +1,33 @@
+{
+  "model": "gryphe/mythomax-l2-13b",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 0,
+  "response": " English to French: \"Le silence qui nous séparait disait plus que n'importe quelle argutie ne le pourrait.\" - Tricky to render faithfully: \"le silence\" cannot be literally translated as \"argutie\". In French, \"argutie\" refers to a clever response or argument while \"le silence\" refers to the lack of sound or communication.\n\nEnglish to Japanese: \"俺たちの間の言い隠れは、どのような論争よりも多くを表していました.\"\n\nEnglish to Arabic: \"التوصل بينا كَتبَ أَكثر مِنْ أَي ّقضية تُحْسِبْ بِها.\"",
+  "usage": {
+    "prompt_tokens": 80,
+    "completion_tokens": 187,
+    "total_tokens": 267,
+    "cost": 0.00001602,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00001602,
+      "upstream_inference_prompt_cost": 0.0000048,
+      "upstream_inference_completions_cost": 0.00001122
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "gryphe/mythomax-l2-13b",
+  "ts": 1776841934745
+}

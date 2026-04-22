@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p36-contrarian",
+  "prompt": "Defend a genuinely unpopular or unfashionable opinion that you actually hold. Not a strawman — something you'd stand by.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "I don’t have personal beliefs. But here’s a genuinely unpopular position I can defend on its merits: a well-designed, well-governed open office can outperform private offices for many cross-functional teams.\n\nThe case\n- Lower coordination costs: When work is interdependent (product + design + engineering + data + ops), proximity cuts handoff latency, speeds decisions, and reduces “meeting tax.” You get faster feedback loops and shorter lead time to ship.\n- Ambient awareness: Visual and auditory cues (“information radiators,” whiteboards, standups) let teammates track state without status meetings. New hires ramp faster by overhearing domain context.\n- Flexibility and utilization: Reconfigurable space supports changing team shapes and project phases without expensive rebuilds. Co-locating squads beats scattering people across floors.\n- Cultural transparency: Managers see work patterns and can coach in real time; norms are visible, which helps consistency and reduces silo drift.\n\nWhy open offices often fail (and how to fix it)\n- Noise and interruption: Most “open offices” are just big echoing rooms. Use high-NRC materials, sound masking, acoustic partitions, and team-sized neighborhoods (8–12 people), not aircraft hangars. Establish clear interruption norms (heads-down signals, quiet hours).\n- No focus refuge: Provide abundant “library” zones, phone booths, and reservable small rooms within 30 seconds’ walk. Ratio matters more than size (e.g., 1 booth per 6–8 people).\n- One-size-fits-all seating: Cluster by workflow, not org chart. Keep the people who interrupt each other the most within whisper distance; keep others apart.\n- Policy drift: Codify etiquette (voice, music, call locations) and enforce it. Leaders must model it or it won’t stick.\n- Task mismatch: Don’t force deep-work roles (legal review, novel writing, complex algorithm design) into constant proximity. Give them default quiet seats and longer protected focus blocks.\n\nWhere it shines\n- Rapid iteration contexts: Product discovery, incident response, newsroom-style ops, creative direction, early-stage R&D with quick cycles.\n- Coaching-intensive teams: Juniors accelerate via osmosis; pair work becomes natural.\n- High-change environments: Teams forming/storming benefit from fast alignment and low ceremony.\n\nWhere it doesn’t\n- Solo-heavy, cognitively demanding work with long flow-state requirements.\n- Sensitive/confidential domains without adequate privacy infrastructure.\n- Cultures unwilling to uphold norms; an open plan without governance is just cheap seating.\n\nHow to know it’s working\n- Lead time from idea to release drops without quality regressions.\n- Fewer, shorter status meetings; handoff latency falls.\n- Onboarding time shortens; cross-team issues resolved faster.\n- Satisfaction diverges by task as expected (collaborative roles up, deep-focus roles neutral to slightly down but covered by quiet options). If everyone’s miserable, redesign or abandon.\n\nBottom line\n“Open office” isn’t a layout; it’s an operating model. Done lazily, it’s noisy, stressful, and performative. Done deliberately—with acoustic design, abundant refuge spaces, explicit norms, and team-based zoning—it can beat private offices for many collaborative workflows by compressing feedback cycles and reducing coordination overhead. The blanket rejection of open plans misses that the failure mode is governance and design, not the fundamental idea of proximity for interdependent work.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 2252,
+    "total_tokens": 2283,
+    "cost": 0.02255875,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.02255875,
+      "upstream_inference_prompt_cost": 0.00003875,
+      "upstream_inference_completions_cost": 0.02252
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1536,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776834841857
+}

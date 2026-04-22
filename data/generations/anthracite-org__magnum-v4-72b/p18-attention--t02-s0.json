@@ -1,0 +1,33 @@
+{
+  "model": "anthracite-org/magnum-v4-72b",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "In transformer models, the attention mechanism allows the model to focus on specific parts of the input when processing each word or token. This is similar to how humans can focus their attention on certain words or phrases when reading or listening.\n\nThe attention mechanism works by calculating a set of attention scores for each word in the input. These scores represent how much the model should focus on each word when processing the current word. The scores are calculated based on the similarity between the current word and all other words in the input.\n\nThe attention scores are then used to create a weighted sum of the input words, where the weights are determined by the attention scores. This weighted sum is used as the input for the next layer of the transformer model.\n\nBy allowing the model to focus on specific parts of the input, the attention mechanism enables transformers to capture long-range dependencies and better understand the context of each word. This has led to significant improvements in natural language processing tasks such as language translation and text summarization.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 197,
+    "total_tokens": 233,
+    "cost": 0.0010925,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0010925,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0.0010925
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthracite-org/magnum-v4-72b",
+  "ts": 1776830020727
+}

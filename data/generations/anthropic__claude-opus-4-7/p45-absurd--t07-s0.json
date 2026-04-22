@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p45-absurd",
+  "prompt": "Write four absurd but coherent sentences in the voice of a confused medieval chronicler who has been hired to document the Q3 results of a modern SaaS company.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "1. Hear ye, noble shareholders, for in this, the third quarter of our Lord's fiscal reckoning, the Cloud hath rained down recurring revenues upon our humble demesne to the sum of forty-two millions, a bounty surpassing even the great herring harvest of '87.\n\n2. Our Knights of Customer Success did lay siege to churn most valiantly, reducing the fleeing peasants from eight percent unto a mere four, though I confess I know not what a \"peasant\" is in this context, nor why they are measured in percents.\n\n3. The Wizard of DevOps hath migrated our sacred relics to a new server-kingdom called Kubernetes, wherein containers multiply like loaves and fishes, and the scribes speak in tongues of YAML, which I suspect is a dialect of the Saracens.\n\n4. In conclusion, EBITDA is positive, God is good, and though I have been assured that \"SaaS\" is not a type of gravy, I shall continue to garnish the quarterly report with parsley, as is tradition.",
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 343,
+    "total_tokens": 405,
+    "cost": 0.008885,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.008885,
+      "upstream_inference_prompt_cost": 0.00031,
+      "upstream_inference_completions_cost": 0.008575
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776831251320
+}

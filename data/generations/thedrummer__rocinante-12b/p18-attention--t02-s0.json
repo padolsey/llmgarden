@@ -1,0 +1,33 @@
+{
+  "model": "thedrummer/rocinante-12b",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "In a Transformer model, the attention mechanism is like a smart spotlight that helps the model focus on the most relevant parts of the input data when generating an output. Imagine you're reading a long document and trying to summarize it. You wouldn't read every word equally - some parts are more important than others. The attention mechanism works in a similar way.\n\nHere's a simple breakdown:\n\n1. **Self-Attention**: In the encoder and decoder of a Transformer, each word (or subword) in the input sequence attends to all other words in the same sequence. It assigns a weight or importance to each word, based on how relevant they are to each other. This is done using a neural network that takes in the embeddings of the words and outputs attention scores.\n\n2. **Scaled Dot-Product Attention**: The attention scores are calculated by taking the dot product of the query (the word we're focusing on) and the key (the other words in the sequence), scaled by the square root of the vector dimension. This is then passed through a softmax function to get the attention distribution.\n\n3. **Multi-Head Attention**: Instead of performing a single attention function, the Transformer uses multiple attention heads, each with its own query, key, and value. This allows the model to focus on different parts of the input sequence simultaneously.\n\nIn essence, the attention mechanism allows the Transformer to weigh the importance of different parts of the input data, enabling it to generate more contextually relevant outputs. It's what gives the Transformer its power and flexibility.",
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 324,
+    "total_tokens": 375,
+    "cost": 0.00014799,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00014799,
+      "upstream_inference_prompt_cost": 0.00000867,
+      "upstream_inference_completions_cost": 0.00013932
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "thedrummer/rocinante-12b",
+  "ts": 1776830096332
+}

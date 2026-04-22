@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-3-mini",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "The old lighthouse keeper trudged up the worn spiral stairs, his oil lamp casting a feeble glow against the impenetrable fog that cloaked the jagged coast. Night after night, he tended the beacon, a solitary guardian against the sea's treachery. But tonight, the fog thickened like a living veil, muffling the crash of waves and distorting sounds into eerie whispers.\n\nAs he adjusted the light's reflector, a shadowy form materialized in the mist, drifting closer with unnatural grace. His heart quickened; it was no ship or spectral illusion. Venturing down to the rocky shore, he discovered a fragile wooden chest, washed ashore and half-buried in wet sand. Inside, nestled among faded maps and tarnished coins, lay a locket containing a faded photograph of a woman and child—echoes of a long-lost life.\n\nThe keeper stared, a pang of unforeseen emotion piercing his isolation, as the fog slowly retreated into the dawn.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 683,
+    "total_tokens": 714,
+    "cost": 0.00035035,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 2,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00035035,
+      "upstream_inference_prompt_cost": 0.00000885,
+      "upstream_inference_completions_cost": 0.0003415
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 492,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-3-mini",
+  "ts": 1776839972918
+}

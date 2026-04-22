@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Short answer: questions that ask for precise, checkable facts outside my training data (recent events, exact citations, or live measurements) or for long, novel rigorous reasoning (complex proofs, subtle multi-step diagnostics) are where I’m most likely to be confidently wrong. Here’s why and what to watch for.\n\nKinds of questions and why I can be confidently wrong\n\n- Recent or real‑time facts (e.g., “What is the stock price of X right now?” or “Who is the current minister of Y?”)\n  - Why: my training stops at a cutoff and I don’t have live access to the web or real‑time sensors. I will often produce a fluent, plausible answer but it can be outdated or simply incorrect.\n\n- Requests for exact bibliographic details or verbatim quotations (e.g., “Give the DOI and page numbers for paper Z,” or “Quote line X from that speech.”)\n  - Why: models tend to fabricate plausible-looking citations, DOIs, and page numbers when they can’t find an exact match in memory. The result sounds authoritative but can be made‑up.\n\n- Complex, long multi-step reasoning or novel mathematics (e.g., “Prove conjecture Q” or very long algebraic derivations)\n  - Why: I generate stepwise arguments by predicting likely next tokens. That produces convincing but sometimes invalid or subtly flawed proofs: a single unproven step can make the whole argument wrong, yet the prose remains confident.\n\n- Ambiguous or underspecified questions (e.g., “What should I do about my computer problem?” without error logs)\n  - Why: I will pick a plausible interpretation and answer it confidently; if the user intended a different interpretation, the answer will be wrong but still sound like the right solution.\n\n- High‑stakes professional diagnostics (medical, legal, engineering safety decisions)\n  - Why: Real decisions depend on detailed context, tests, regulations, or measurements I don’t have. I can provide plausible-sounding guidance that misses critical constraints.\n\nWhy this happens (mechanics)\n- I predict next tokens based on patterns in training data rather than verifying facts against a live reality.\n- I do not internally perform formal certainty calibration the way a human expert would; my fluent phrasing doesn’t equal accuracy.\n- In absence of exact grounding data, I fill gaps with statistically plausible content (hallucination).\n- Long chains of inference compound small errors into a confident-but-wrong conclusion.\n\nHow to reduce the risk\n- Ask for sources and then check them externally (don’t trust citations without verification).\n- Request step‑by‑step derivations and ask me to flag assumptions or points of uncertainty.\n- For time‑sensitive facts, use live data sources or indicate the need for current verification.\n- For high‑stakes matters, treat my output as a starting point and consult a qualified human expert.\n- Ask me to explicitly state confidence levels or alternative interpretations.\n\nIf you want, I can give a short example of a typical confident hallucination (e.g., a fabricated citation) and show how to test it. Which type would you like an example of?",
+  "usage": {
+    "prompt_tokens": 26,
+    "completion_tokens": 1587,
+    "total_tokens": 1613,
+    "cost": 0.0031805,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0031805,
+      "upstream_inference_prompt_cost": 0.0000065,
+      "upstream_inference_completions_cost": 0.003174
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 896,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776835098037
+}

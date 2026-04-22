@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Okay, let's break this down like a real human, not a robot.\n\n**My Brain's Initial Scan (Instantaneous):**\n\n*   **Half-full now vs. Full tomorrow.** This is the core conflict.\n*   **What's in there?** Are there any *critical* items? (My favorite mug? The only clean spatula? A baby bottle?)\n*   **What's my energy level?** Am I feeling lazy or productive?\n\n**Deeper Dive - The \"Now\" Scenario:**\n\n*   **Pros of running it now:**\n    *   **Immediate gratification:** Clean dishes *tonight*. No lingering dirty dishes.\n    *   **Availability:** If I need that specific mug/plate/utensil for breakfast, it'll be clean.\n    *   **Smell:** No chance of food scraps sitting overnight and getting funky. (This is a big one for me.)\n    *   **\"Done\" feeling:** One less thing to think about tomorrow.\n    *   **Less clutter:** The counter won't accumulate more dirty dishes overnight.\n    *   **Hot water:** If I'm about to shower, running the dishwasher might steal hot water. (Minor, but sometimes relevant.)\n\n*   **Cons of running it now:**\n    *   **\"Waste\" of water/electricity:** It's only half-full. My inner frugal voice is grumbling.\n    *   **Noise:** Is anyone sleeping? Am I trying to watch TV? (If it's a quiet dishwasher, less of an issue.)\n    *   **Still have to unload:** It'll be clean, but I still have to put it away.\n\n**Deeper Dive - The \"Tomorrow\" Scenario:**\n\n*   **Pros of waiting:**\n    *   **Efficiency:** Full load, maximum bang for my buck (water/electricity). My frugal voice is happy.\n    *   **No noise tonight:** Peace and quiet.\n    *   **One less chore tonight:** I can just relax.\n\n*   **Cons of waiting:**\n    *   **Dirty dishes accumulate:** The counter will look messier.\n    *   **Potential for smell:** Especially if there are food scraps. Ugh.\n    *   **No clean dishes for breakfast:** If I need something specific, I'll have to hand wash it or wait.\n    *   **Tomorrow's chore list grows:** It's not *gone*, just postponed. And tomorrow I might be even busier/lazier.\n    *   **\"Dish mountain\" anxiety:** The thought of a full, overflowing sink/counter can be stressful.\n\n**The Decision-Making Process (My Internal Monologue):**\n\n1.  **\"What's in there that I *really* need soon?\"**\n",
+  "usage": {
+    "prompt_tokens": 41,
+    "completion_tokens": 600,
+    "total_tokens": 641,
+    "cost": 0.0015123,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0015123,
+      "upstream_inference_prompt_cost": 0.0000123,
+      "upstream_inference_completions_cost": 0.0015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.5-flash",
+  "ts": 1776828343747
+}

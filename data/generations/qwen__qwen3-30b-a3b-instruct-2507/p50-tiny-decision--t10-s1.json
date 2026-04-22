@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-30b-a3b-instruct-2507",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Alright, let’s just sit with this like a real person would, not like a robot with a decision matrix.\n\nYou’re standing in front of the dishwasher, thinking about whether to run it now while it’s half-full or wait until tomorrow when it’ll be full. Let’s walk through the real thoughts you’d probably have:\n\nFirst, you check how much it actually *is* full. Not just “half,” but *how* half? Like, there's a stack of 3 bowls, a few forks, a couple of plates… could it fit a few more things? Or is it genuinely at the point where adding one more coffee mug would make it crowded? That matters. If it's *almost* full—and you’ve got a few more things to add—maybe waiting’s not a big risk.\n\nThen you think: *What’s the cost of running it now?* It’s not just the electricity or water (though that’s a tiny bit of guilt), but the *time*. Does it take 1.5 hours? And when it’s done, do you have to sort through everything and put it away? If you’re planning to be around later, that’s not a problem. But if you’re going to bed in 20 minutes and then the dishes won’t be ready until midnight? That’s annoying—you don’t want to wake up to a pile of clean but still-uneaten dishes.\n\nNow the other side: waiting. If you wait, you’re saving that cycle—no electricity, no water, no time spent loading. But… what if tomorrow *doesn’t* end up full? What if you forget? What if you end up running it twice instead of once? That’s wasteful. But if you’re confident you’ll gather everything, and the kitchen’s gonna be a mess otherwise, then waiting isn’t risky.\n\nAnd then… the emotional stuff. That little bit of guilt when you walk by it and see it half-full? You’re not *sloppy*, but you also don’t want to *overthink*. Does running it now make you feel more in control? Or does waiting feel like lazy convenience?\n\nSo real talk: if you’ve got a few extra items in the sink, and tomorrow will be busy, and you’re pretty sure you’ll *actually* load it all tomorrow, then maybe wait. But if it’s already piling up—like, you’ve had 2 dinners this week and it’s getting ugly—then just run it. You don’t want to get the *I’ve been running this for 3 days* guilt on top of the dishes.\n\nAnd… honestly? If you've got a clean dryer smell and a puppy or kid who'll probably make more mess in 5 minutes, it might be better to get it out of the way now.\n\nSo in the end, it’s not a math problem—it’s what feels *lighter*: the missing full load tomorrow, or the extra pipeline of dishes piling up today.\n\nYou know what? Just run it now. Not because it’s rational. Because you’re tired, and the kitchen feels cluttered, and it’ll make you *not* think about it all evening. And trust that tomorrow will be full. It probably will.",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 667,
+    "total_tokens": 714,
+    "cost": 0.00020433,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020433,
+      "upstream_inference_prompt_cost": 0.00000423,
+      "upstream_inference_completions_cost": 0.0002001
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-30b-a3b-instruct-2507",
+  "ts": 1776839171439
+}

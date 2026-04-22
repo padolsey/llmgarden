@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p52-song",
+  "prompt": "Name a song you find genuinely moving — any language, any era — and describe, in a short paragraph, why it works on you.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "\"Clair de lune\" by Debussy gets me every time. There's something about how it refuses to resolve—it keeps suggesting completion, then drifting sideways into new territory. It mirrors how grief or longing actually feels: not a neat arc, but a series of moments where you think you've found solid ground, then the light shifts and you're uncertain again. The piece is technically about moonlight, but it sounds like the experience of remembering someone, or wanting something you can't quite name. It's beautiful without being sentimental, which I think is the hardest thing to pull off.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 133,
+    "total_tokens": 169,
+    "cost": 0.000701,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000701,
+      "upstream_inference_prompt_cost": 0.000036,
+      "upstream_inference_completions_cost": 0.000665
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776827781158
+}

@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Imagine you're reading a long sentence, but you can only focus on a few words at a time to understand the current word. For instance, if you're reading \"The quick brown fox jumps over the lazy dog,\" and you're at \"jumps,\" you might pay more attention to \"fox\" (who is jumping) and \"over\" (direction) than \"the\" or \"brown.\"\n\nThe attention mechanism in Transformers does exactly this for computers. When processing a word, it doesn't just look at the word itself; it scans *all* other words in the input sequence. For each other word, it calculates a \"relevance score\" to the current word.\n\nThese scores then act as weights. The model takes a weighted average of all other words' information, giving more \"attention\" to the words with higher relevance. This allows the model to dynamically identify and focus on the most important parts of the input when generating or understanding a word, significantly improving its comprehension and generation capabilities compared to older models that processed words in strict order without this flexible focus.",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 221,
+    "total_tokens": 248,
+    "cost": 0.0005606,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0005606,
+      "upstream_inference_prompt_cost": 0.0000081,
+      "upstream_inference_completions_cost": 0.0005525
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.5-flash",
+  "ts": 1776835756462
+}

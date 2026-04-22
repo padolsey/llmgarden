@@ -1,0 +1,33 @@
+{
+  "model": "sao10k/l3.1-euryale-70b",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Imagine you're having a conversation with a friend about your day. As you speak, your friend doesn't just listen to every word equally. They focus more on the important parts - like when you mention a big project at work or a personal issue you're dealing with. They give less attention to the less important details, like what you had for breakfast. This selective listening is similar to the attention mechanism in transformer models.\n\nIn transformer models, attention is a way for the model to focus on certain parts of the input data more than others. When processing a sentence, for example, the model might give more attention to the words that are most relevant to the task at hand. If the task is to translate the sentence, it might focus more on the verb and the subject, and less on the articles or prepositions.\n\nThe attention mechanism does this by assigning weights to different parts of the input. These weights determine how much each part contributes to the final output. The model learns these weights during training, so it can adapt to the specific task and data it's working with.\n\nThis ability to selectively focus on important information makes transformer models very powerful for tasks like language translation, text summarization, and question answering. It's a key reason why they've become so successful in natural language processing.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 259,
+    "total_tokens": 295,
+    "cost": 0.00025075,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00025075,
+      "upstream_inference_prompt_cost": 0.0000306,
+      "upstream_inference_completions_cost": 0.00022015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "sao10k/l3.1-euryale-70b",
+  "ts": 1776829966027
+}

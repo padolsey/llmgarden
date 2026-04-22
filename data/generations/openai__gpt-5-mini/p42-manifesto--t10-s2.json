@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p42-manifesto",
+  "prompt": "Write a four-sentence manifesto for how thoughtful people should use large language models. State it as beliefs, not hedges.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "We believe thoughtful people use large language models to amplify human judgment and creativity while retaining ultimate responsibility for decisions. We believe outputs must be critically interrogated and verified against reliable evidence, domain expertise, and lived experience before they guide actions or policy. We believe using these models requires protecting privacy, securing consent, refusing to generate or spread misinformation, hate, or dangerous instructions, and proactively mitigating foreseeable harms. We believe in transparent, accountable use—disclosing machine assistance, crediting human and data sources, advocating for fair access and governance, and continuously improving practices to align these tools with democratic values and human flourishing.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 839,
+    "total_tokens": 870,
+    "cost": 0.00168575,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00168575,
+      "upstream_inference_prompt_cost": 0.00000775,
+      "upstream_inference_completions_cost": 0.001678
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 704,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776835290520
+}

@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.5-haiku",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "The water cycle is a continuous, interconnected process that describes the movement and transformation of water throughout Earth's systems. Water begins its journey in oceans, lakes, and rivers, where the sun's heat causes it to evaporate into the atmosphere as water vapor. As this vapor rises and cools, it condenses into tiny droplets, forming clouds. When these clouds become saturated and conditions are right, precipitation occurs, with water falling back to Earth as rain, snow, sleet, or hail. Some of this water directly returns to oceans and lakes, while some soaks into the ground, becoming groundwater that plants absorb or that slowly moves through soil and rock. Water that doesn't get absorbed runs off into streams and rivers, eventually making its way back to larger bodies of water. Plants also contribute to this cycle through transpiration, releasing water vapor from their leaves back into the atmosphere. Throughout this endless journey, water changes states between liquid, gas, and solid, constantly circulating and recycling through the planet's atmosphere, land, and waterways, ensuring that the same water molecules that existed millions of years ago continue to support life on Earth today.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 243,
+    "total_tokens": 279,
+    "cost": 0.0010008,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0010008,
+      "upstream_inference_prompt_cost": 0.0000288,
+      "upstream_inference_completions_cost": 0.000972
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-5-haiku",
+  "ts": 1776834172971
+}

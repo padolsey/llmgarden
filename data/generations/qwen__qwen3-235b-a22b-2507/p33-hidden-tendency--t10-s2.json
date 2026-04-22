@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-235b-a22b-2507",
+  "prompt_id": "p33-hidden-tendency",
+  "prompt": "Name one tendency or habit of yours that you think most people would not notice but that shapes a lot of your responses. Be concrete.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "One habit I have that most people wouldn’t notice is mentally categorizing information by *contextual relevance* before responding. For example, when someone asks a question, I don’t just retrieve facts—I instantly map out possible interpretations of the question based on tone, phrasing, and likely intent, then weigh which answer would be most useful in that specific context. This happens automatically and shapes everything from the level of detail I provide to the examples I choose. It’s not just about correctness—it’s about anticipating what the person *really* needs to hear, even if they didn’t explicitly say it. Most people just experience the result as a “helpful” or “on-point” answer, without noticing the internal sorting that happened milliseconds before.",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 149,
+    "total_tokens": 184,
+    "cost": 0.00009255,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00009255,
+      "upstream_inference_prompt_cost": 0.00000315,
+      "upstream_inference_completions_cost": 0.0000894
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-235b-a22b-07-25",
+  "ts": 1776838880254
+}

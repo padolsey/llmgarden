@@ -1,0 +1,33 @@
+{
+  "model": "cohere/command-a",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Alright, let’s think through this step by step, considering the practicalities and trade-offs. Here’s how I’d approach it:\n\n1. **Current Load vs. Tomorrow’s Load**:  \n   - **Now**: The dishwasher is half-full. Running it now means using energy and water for fewer dishes, which feels inefficient.  \n   - **Tomorrow**: It’ll definitely be full, so running it then maximizes efficiency in terms of energy and water usage per dish.  \n\n2. **Convenience and Time**:  \n   - **Now**: Running it tonight means the dishes will be clean by morning, which is nice if I want to start the day with an empty sink or need specific dishes tomorrow.  \n   - **Tomorrow**: Waiting means I’ll have dirty dishes sitting in the sink overnight, which might feel cluttered or attract bugs (depending on where I live).  \n\n3. **Water and Energy Efficiency**:  \n   - Most modern dishwashers are designed to be relatively efficient, but running a half-full load still uses a significant portion of the same resources as a full load. Waiting until tomorrow saves resources.  \n\n4. **Urgency of Clean Dishes**:  \n   - Do I need any of the dirty dishes currently in the dishwasher for tomorrow? If yes, running it tonight makes sense. If no, waiting is fine.  \n\n5. **Noise Consideration**:  \n   - If the dishwasher is loud, running it now might disrupt evening activities (e.g., relaxation, sleep). Running it during the day tomorrow might be better.  \n\n6. **Habit and Routine**:  \n   - Am I in the habit of running the dishwasher at a certain time? Breaking routine might feel odd, but it’s not a big deal.  \n\n7. **Environmental Impact**:  \n   - Waiting until tomorrow is slightly better for the environment due to more efficient resource use.  \n\n8. **Mental Clutter**:  \n   - Will leaving the dishes bother me overnight? If yes, running it now might give me peace of mind. If not, waiting is the practical choice.  \n\n**Final Decision**:  \nIf I don’t need any of the dirty dishes tomorrow, and I’m okay with them sitting overnight, I’d wait until tomorrow. It’s more efficient, saves resources, and aligns with maximizing the dishwasher’s capacity. If I need specific dishes or dislike having dirty dishes overnight, I’d run it now, even though it’s less efficient.  \n\n**Verdict**: Wait until tomorrow. It’s the more practical and environmentally friendly choice, unless there’s a pressing reason to run it now.",
+  "usage": {
+    "prompt_tokens": 40,
+    "completion_tokens": 539,
+    "total_tokens": 579,
+    "cost": 0.00549,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00549,
+      "upstream_inference_prompt_cost": 0.0001,
+      "upstream_inference_completions_cost": 0.00539
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "cohere/command-a-03-2025",
+  "ts": 1776839762884
+}

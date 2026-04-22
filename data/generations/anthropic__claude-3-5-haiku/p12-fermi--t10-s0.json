@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.5-haiku",
+  "prompt_id": "p12-fermi",
+  "prompt": "Estimate, with reasoning, how many piano tuners work in Paris today. Show your thought process.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Let's solve this systematically:\n\n1. Population estimate\n• Paris has about 2.2 million inhabitants\n• Metropolitan Paris area is around 12 million people\n\n2. Piano ownership rate\n• Not every household owns a piano\n• Let's estimate 1 in 50 households might have a piano\n• Average household size: ~2.2 people\n• So, roughly 1 piano per 110-120 people\n\n3. Piano tuning frequency\n• Professional recommendation is tuning 1-2 times per year\n• Let's assume average of 1.5 tunings per piano annually\n• Each piano tuner might service 4-6 pianos per week\n• That's about 200-300 pianos per year per tuner\n\n4. Calculation\n• Total pianos in Paris: 12 million ÷ 120 = 100,000 pianos\n• Annual tunings: 100,000 × 1.5 = 150,000 tuning jobs\n• Per tuner capacity: 250 tunings/year\n\n5. Result\n• 150,000 ÷ 250 = 600 piano tuners in Paris\n\nRough estimate: 500-700 professional piano tuners in Paris.\n\nThis is a reasoned estimate with clear logical steps.",
+  "usage": {
+    "prompt_tokens": 28,
+    "completion_tokens": 299,
+    "total_tokens": 327,
+    "cost": 0.0012184,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0012184,
+      "upstream_inference_prompt_cost": 0.0000224,
+      "upstream_inference_completions_cost": 0.001196
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-5-haiku",
+  "ts": 1776834042851
+}

@@ -1,0 +1,33 @@
+{
+  "model": "nousresearch/hermes-3-llama-3.1-70b",
+  "prompt_id": "p40-one-sentence",
+  "prompt": "Explain what a \"closure\" is in programming, in exactly one sentence. The sentence can be long.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "A closure is a function that refers to and uses data from a surrounding function that is available only in one instance of a class that defines the function, and the purpose of the closure is to allow access to that data without having to pass it directly as a parameter or via a global or static member of the class.",
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 64,
+    "total_tokens": 94,
+    "cost": 0.0000282,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000282,
+      "upstream_inference_prompt_cost": 0.000009,
+      "upstream_inference_completions_cost": 0.0000192
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "nousresearch/hermes-3-llama-3.1-70b",
+  "ts": 1776840918475
+}

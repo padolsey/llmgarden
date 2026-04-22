@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p56-proverb",
+  "prompt": "Translate this English proverb into two other languages in a way that preserves the spirit, not the words: 'The best time to plant a tree was twenty years ago. The second best time is now.' Add a one-sentence note on each.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "## \"Act Now, Despite Being Late\"\n\n---\n\n**Spanish (Latin American tradition):**\n*\"Camarón que se duerme, se lo lleva la corriente — pero el que despierta a tiempo aún puede nadar.\"*\n(\"The shrimp that falls asleep gets swept away by the current — but the one that wakes in time can still swim.\")\n\n*Note: This builds on an existing proverb about lost opportunity, then extends it with a redemptive second half that the original lacks, mirroring the English version's two-part structure.*\n\n---\n\n**Japanese (drawing on Buddhist sensibility):**\n*「今日が残りの人生で一番若い日だ。」*\n(\"Today is the youngest you will ever be for the rest of your life.\")\n\n*Note: Rather than framing the past as lost, this phrasing shifts urgency entirely into the present moment, which aligns more naturally with how Japanese proverbial wisdom tends to counsel acceptance alongside action.*\n\n---\n\n**On the translation approach:**\nBoth versions resist literal translation deliberately. The goal was to find the *emotional logic* — regret acknowledged, paralysis rejected, present action affirmed — and locate that feeling inside each language's own cultural instincts rather than importing a foreign image.",
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 289,
+    "total_tokens": 350,
+    "cost": 0.004518,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004518,
+      "upstream_inference_prompt_cost": 0.000183,
+      "upstream_inference_completions_cost": 0.004335
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833900881
+}

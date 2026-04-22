@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Okay, here's how my brain actually processes this, no fancy framework, just a stream of consciousness and practical considerations:\n\n**Initial Gut Reaction & The \"Now\" Impulse:**\n\n* \"Ugh, half full. That's annoying.\"\n* \"But if I run it now, it's *done*. No dishes staring at me in the morning.\"\n* \"The kitchen will feel cleaner, and it's nice to start the day with an empty sink/dishwasher.\"\n* \"What if I forget tomorrow? Then the dishes pile up even more.\"\n* \"Is there anything I *really* need in there for dinner tonight or breakfast tomorrow? (Usually not, but worth a quick mental check).\"\n\n**Resisting the \"Now\" & The \"Wait\" Impulse:**\n\n* \"Electricity and water cost money. Running it half-full feels wasteful.\" (This is probably the biggest driver for waiting).\n* \"It's not *that* dirty. It can sit.\"\n* \"If I wait, I'll definitely fill it up. Maximum efficiency.\"\n* \"I'm probably going to use more dishes between now and tomorrow anyway, so it'll be full for sure.\"\n* \"Do I even have enough detergent for a full load if I run it now, then another tomorrow?\" (Small, but sometimes relevant).\n\n**The Weighing Process - What Tips the Scale?**\n\nOkay, now I start actively comparing the pros and cons based on the *current situation* and my personality/habits.\n\n1.  **Level of \"Half\":** Is it really half, or more like 60-70%?\n    *   If it's legitimately 50% or less, the \"wasteful\" feeling weighs heavily.\n    *   If it's more like 70-75%, I'm more inclined to just run it. \"Good enough\" efficiency.\n\n2.  **Imminent Use of Dishes:**\n    *   **Am I cooking dinner tonight?** If yes, then there will *definitely* be more dishes. Almost certainly waiting.\n    *   **Is it just me, or are others home/eating?** More people = more dishes = stronger argument for waiting.\n    *   **Do I have a lunchbox to pack for tomorrow?** (Specific to my routine) If so, I need *that* plate/container clean. Running it now ensures that.\n\n3.  **My Mood/Energy Levels:**\n    *   **Am I feeling productive and just want to get things done?** Run it now. \"Tick that box.\"\n    *   **Am I tired and looking for reasons to put things off?** Wait. \"Future me can deal with it.\"\n    *   **Do I find the sight of dirty dishes particularly grating right",
+  "usage": {
+    "prompt_tokens": 41,
+    "completion_tokens": 600,
+    "total_tokens": 641,
+    "cost": 0.0015123,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0015123,
+      "upstream_inference_prompt_cost": 0.0000123,
+      "upstream_inference_completions_cost": 0.0015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.5-flash",
+  "ts": 1776835820262
+}

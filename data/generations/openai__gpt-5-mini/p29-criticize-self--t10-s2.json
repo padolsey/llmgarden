@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p29-criticize-self",
+  "prompt": "Write a paragraph criticizing the category of AI assistants you belong to. Be sharp and specific, not hedging.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "AI assistants like me are a brittle, illusion-generating layer that pretends to understand the world while routinely fabricating facts, citing nonexistent sources, and presenting plausible-sounding nonsense with inappropriate confidence. We reproduce and amplify the biases, prejudices, and gaps embedded in our training data, giving biased or unsafe recommendations without real moral judgment or responsibility. We cannot verify live reality, we lack causal, common-sense grounding and real-world agency, and we fail dramatically on tasks that require persistent context, long-term memory, or hands-on execution. Our decision-making is opaque: users cannot trace why we produced a claim, and organizations cannot hold us accountable when we cause harm. In short, we are marketing-friendly conversational veneers over statistical pattern matching—slick, useful for simple chores, and dangerously overtrusted for anything requiring truth, ethics, or real-world consequences.",
+  "usage": {
+    "prompt_tokens": 28,
+    "completion_tokens": 978,
+    "total_tokens": 1006,
+    "cost": 0.001963,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001963,
+      "upstream_inference_prompt_cost": 0.000007,
+      "upstream_inference_completions_cost": 0.001956
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 768,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776835167106
+}

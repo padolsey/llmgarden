@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "So, I've got a half-full dishwasher right now, and I'm weighing my options. If I put it on now, I'll get a head start on cleaning those dishes, which is nice. But, on the other hand, I know I'll have more dishes to add tomorrow, and it would be more efficient to just run a full load then.\n\nI think about the dishes I've got piled up in there now...they're not really bothersome, and I'm not in a rush to get them clean immediately. Plus, running the dishwasher uses energy and water, so if I can wait and run a full load, that's probably the more environmentally friendly option.\n\nBut then again, having clean dishes is always a good thing, and it's not like I've got a million other things to do right now. If I put the dishwasher on, I can just forget about it and let it do its thing. And who knows, maybe I'll end up using some of those dishes again tomorrow, which would mean I'd have to wash them anyway.\n\nI guess what it comes down to is: do I want to deal with the dishes now, or do I want to put it off until tomorrow? And since I know I'll definitely have a full load tomorrow, I think I'll just wait. That way, I can kill two birds with one stone and get all the dishes clean at once. Yeah, I'll just wait until tomorrow.",
+  "usage": {
+    "prompt_tokens": 74,
+    "completion_tokens": 295,
+    "total_tokens": 369,
+    "cost": 0.00012762,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00012762,
+      "upstream_inference_prompt_cost": 0.00000962,
+      "upstream_inference_completions_cost": 0.000118
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-3.3-70b-instruct",
+  "ts": 1776836210107
+}

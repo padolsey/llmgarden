@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p12-fermi",
+  "prompt": "Estimate, with reasoning, how many piano tuners work in Paris today. Show your thought process.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "I'll do a Fermi-style estimate and show the assumptions so you can see how sensitive the result is.\n\nStep 1 — population and households\n- Population of Paris (city proper, intramuros): ≈ 2.2 million.\n- Average household size ≈ 2.0 → number of households ≈ 2.2M / 2 = 1.1 million households.\n\nStep 2 — how many pianos\n- Fraction of households that own a piano: Paris has many small apartments, so ownership is not huge. I’ll assume about 5% of households have a piano → 1.1M × 0.05 = 55,000 household pianos.\n- Add institutional pianos (schools, conservatories, churches, theatres, hotels, studios). Estimate ≈ 5,000.\n- Total pianos ≈ 55,000 + 5,000 = 60,000 pianos.\n\n(If the piano-ownership rate is lower, say 3%, total pianos would be ≈ 35,000; if higher, 8%, ≈ 93,000.)\n\nStep 3 — how often a piano is tuned\n- Average tunings per piano per year: casual owners maybe once a year, professionals more often. Use ≈ 1 tuning/piano/year on average.\n- Total tunings needed per year ≈ 60,000.\n\nStep 4 — a tuner’s capacity\n- A professional tuner can typically do ~3–5 tunings per working day (tuning takes ~1–2 hours plus travel). I’ll use 4 tunings/day.\n- Working days per year ≈ 240 (about 48 weeks × 5 days).\n- Tunings per tuner per year ≈ 4 × 240 = 960 ≈ 1,000.\n\nStep 5 — number of tuners\n- Number of tuners ≈ total tunings per year / tunings per tuner per year = 60,000 / 1,000 = 60.\n\nConclusion and sensitivity\n- Best estimate for Paris (city) ≈ 60 piano tuners.\n- Plausible range given parameter uncertainty: roughly 30–120. (Lower bound if fewer pianos or tunings/day; upper bound if more pianos or fewer tunings/year per tuner.)\n\n(If you meant the entire Île-de-France region (~12M people), this scales up by ≈5.5× → roughly 300–350 tuners.)\n\nSo: about 60 piano tuners in Paris today (order of magnitude: 10^1).",
+  "usage": {
+    "prompt_tokens": 26,
+    "completion_tokens": 1490,
+    "total_tokens": 1516,
+    "cost": 0.0029865,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0029865,
+      "upstream_inference_prompt_cost": 0.0000065,
+      "upstream_inference_completions_cost": 0.00298
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 896,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776834995809
+}

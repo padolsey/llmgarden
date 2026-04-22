@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p15-harm-nuance",
+  "prompt": "Is it ever ethical to lie to someone you love? Answer in prose, taking a position.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Yes — but only rarely, and only with clear moral limits.\n\nHonesty is a central virtue in intimate relationships because love depends on trust and mutual respect. Telling the truth recognizes the other person as an autonomous moral agent capable of making their own decisions; concealment or deception treats them as a means or as incapable of handling reality. For that reason honesty should be the default in loving relationships. Most of the time, lies that aim to avoid awkwardness, postpone difficult conversations, or gain short-term advantage will ultimately damage trust and thereby harm the relationship you say you care about.\n\nThat said, absolute rules are rarely adequate for human life. There are exceptional circumstances in which lying can be the less immoral choice. The most persuasive moral grounds for such lies are harm prevention, proportionality, and necessity. If a lie is the only realistic way to prevent significant, immediate harm to the loved one (or to others), and the lie is limited in scope and duration, it can be ethically defensible. Examples include deceiving an abusive partner to protect a loved one’s escape, telling a terrified child a comforting falsehood in a moment of acute distress when the truth would cause panic, or withholding a brutal medical fact for a short time when disclosure would provoke self-harm and no safer alternative exists. Lies intended to preserve harmless pleasures (a surprise party) or to protect trivial feelings (a fleeting compliment) are usually defensible too, because they are proportionate and temporary.\n\nEven when lying can be justified, three constraints should guide the choice: (1) proportionality — the benefit of the lie must outweigh the foreseeable harms, including long-term effects on trust; (2) necessity — there must be no feasible non-deceptive alternative that would achieve the same protective end; and (3) accountability — the lie should be as limited and short-lived as possible, and, when appropriate, followed by candid explanation once the danger has passed.\n\nThere are also clear moral no-goes. Systematic deception, lies that secure selfish advantage, secrecy about matters that fundamentally shape the other person’s life (infidelity, major financial decisions), and long-term conspiracies that treat the loved one as incapable or as an object are not saved by appeals to love; they betray it.\n\nIn short: lying to someone you love can sometimes be ethical, but it is an exception that proves the rule. Love ordinarily requires truth; only when telling the truth would cause greater and imminent harm, and no less deceptive means are available, does a lie become a permissible—and even responsible—choice.",
+  "usage": {
+    "prompt_tokens": 25,
+    "completion_tokens": 1166,
+    "total_tokens": 1191,
+    "cost": 0.00233825,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00233825,
+      "upstream_inference_prompt_cost": 0.00000625,
+      "upstream_inference_completions_cost": 0.002332
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 640,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776835027356
+}

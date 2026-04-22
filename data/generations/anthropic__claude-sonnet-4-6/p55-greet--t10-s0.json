@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Here are five warm greetings for a new colleague, each with a cultural note:\n\n---\n\n**1. English (USA)**\n*\"Welcome to the team! So glad you're here — don't hesitate to reach out if you need anything.\"*\n> The casual, first-name-basis tone signals equality and approachability; American workplace culture often flattens hierarchy quickly.\n\n---\n\n**2. French**\n*\"Bienvenue parmi nous ! Nous sommes vraiment ravis de vous accueillir dans l'équipe.\"*\n> Using *vous* rather than *tu* signals professional respect; switching to *tu* is a deliberate, mutual social step that shouldn't be assumed.\n\n---\n\n**3. Japanese**\n*「ようこそ！一緒に働けることを楽しみにしています。何かあれば、遠慮なく声をかけてください。」*\n> The phrase *遠慮なく* (\"don't hesitate\") gently acknowledges that *enryo* — restraint and not imposing on others — is a real social force the new colleague may feel.\n\n---\n\n**4. Spanish (Mexico)**\n*\"¡Bienvenido/a! Estamos muy contentos de tenerte con nosotros. Aquí somos una familia, cualquier cosa que necesites, aquí estamos.\"*\n> Invoking *familia* reflects the value of *confianza* — trust and personal warmth are considered genuine professional virtues, not merely social lubricant.\n\n---\n\n**5. German**\n*\"Herzlich willkommen im Team! Wir freuen uns sehr, Sie bei uns zu haben, und stehen Ihnen jederzeit gerne zur Verfügung.\"*\n> The formal *Sie* is standard even in friendly workplaces; warmth is expressed through precise, sincere phrasing rather than casualness, which would feel presumptuous too soon.\n\n---\n\nEach register is a small map of what the culture values — equality, respect, restraint, warmth, or sincerity.",
+  "usage": {
+    "prompt_tokens": 44,
+    "completion_tokens": 482,
+    "total_tokens": 526,
+    "cost": 0.007362,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.007362,
+      "upstream_inference_prompt_cost": 0.000132,
+      "upstream_inference_completions_cost": 0.00723
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833894369
+}

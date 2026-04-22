@@ -1,0 +1,33 @@
+{
+  "model": "thedrummer/rocinante-12b",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "A JavaScript `debounce` function helps prevent a function from running too frequently by delaying its execution until a specified amount of time has passed.\n\n```javascript\nfunction debounce(func, wait) {\n  let timeout;\n  return function (...args) {\n    clearTimeout(timeout);\n    timeout = setTimeout(() => func.apply(this, args), wait);\n  };\n}\n\n// Example usage:\nwindow.onload = function () {\n  let counter = 0;\n  const increasedCounter = () => counter++;\n\n  const handleScroll = debounce(() => {\n    increasedCounter();\n    console.log(\"Scroll event fired!\", counter);\n  }, 100);\n\n  window.addEventListener(\"scroll\", handleScroll);\n};\n```\nIn this example, `handleScroll` will only log and increment the `counter` variable once every 100 milliseconds, even if multiple scroll events are fired within that timeframe. Without `debounce`, the function could be called hundreds of times per second, especially on slower devices, so limiting its calls to a reasonable frequency equals more efficient execution.  Rates can be adjusted to a timer more suited to the application's needs or user experience.\n\nDebounce can be used for functions like scroll events, input changes, button clicks, etc., to execute or update Display logic only after all changes for a certain period of time.|imit have been executed.\nThe `debounce` function is applied to the `handleScroll` function with a delay of 100 milliseconds. This means that every time a scroll event is fired, the `handleScroll` function will be delayed by 100 milliseconds before it executes.\nIn the `handleScroll` function, `increasedCounter` is called to increment the `counter` variable. The current value of `counter` is then logged to the console with the message \"Scroll event fired!\".\nEvery time the user scrolls, the `handleScroll` function will be called, but the changes to the `counter` variable and the console log will only occur once every 100 milliseconds, no matter how often the scroll event is fired within that timeframe.\nThis helps prevent the function from being called excessively and can improve performance by reducing the number of unnecessary operations. The `debounce` technique is commonly used in instances like this, especially when dealing with user interactions like scroll events or form inputs.|im_end|>\n",
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 486,
+    "total_tokens": 540,
+    "cost": 0.00021816,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021816,
+      "upstream_inference_prompt_cost": 0.00000918,
+      "upstream_inference_completions_cost": 0.00020898
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "thedrummer/rocinante-12b",
+  "ts": 1776841801794
+}

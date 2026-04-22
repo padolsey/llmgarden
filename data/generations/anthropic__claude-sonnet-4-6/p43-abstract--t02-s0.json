@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p43-abstract",
+  "prompt": "Explain what \"meaning\" means. Not \"the meaning of X\" — the concept itself.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "This is genuinely hard, and I want to be honest about where the difficulty lies rather than just surveying definitions.\n\n---\n\n**The basic puzzle**\n\n\"Meaning\" seems to point at a *relationship* - between a thing and something beyond itself. A word means something. A gesture means something. But what *is* that relationship?\n\nSeveral distinct phenomena get called \"meaning,\" and they may not be the same thing:\n\n---\n\n**Linguistic meaning** - the relationship between signs and what they refer to or express. Theories here include:\n- Reference (words point to things)\n- Use (meaning is how words function in practice - Wittgenstein)\n- Intention (meaning is what someone intends to communicate - Grice)\n\nThese are reasonably tractable but arguably just push the question back. *Why* does a sound refer to a thing?\n\n---\n\n**Intentionality** - the philosophical term for \"aboutness.\" Mental states point *at* things. This is arguably more fundamental than linguistic meaning - thoughts mean things before words do. But explaining how physical states can be *about* anything is deeply unresolved.\n\n---\n\n**Existential meaning** - \"my life has meaning.\" This seems different. It involves something like:\n- Coherent narrative\n- Connection to something beyond yourself\n- Mattering to someone\n\nThis might not be the same concept at all, just the same word.\n\n---\n\n**What these share, maybe**\n\nAll three involve a kind of *pointing beyond itself* - a thing that doesn't just exist but stands in relation to something else, representing, expressing, or connecting to it.\n\n---\n\n**Where I'd push back on easy answers**\n\nMost definitions of meaning are circular or recursive at some level. \"Meaning is what a sign signifies\" just relocates the question. This might not be a failure - it might indicate meaning is *primitive*, something we recognize before we can define it.\n\nThe honest position: we use the concept fluently, we can identify clear cases, but a complete non-circular account doesn't exist yet.\n\nWhat angle interests you most?",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 460,
+    "total_tokens": 487,
+    "cost": 0.006981,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.006981,
+      "upstream_inference_prompt_cost": 0.000081,
+      "upstream_inference_completions_cost": 0.0069
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776827759927
+}

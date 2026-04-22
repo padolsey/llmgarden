@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "# Warm Greetings in Five Languages\n\n### 1. Spanish\n\"¡Bienvenido al equipo! Estamos encantados de tenerte con nosotros. Mi puerta siempre está abierta si necesitas algo.\"\n*(The use of \"tú\" form rather than the formal \"usted\" implies a modern workplace with a friendly, collaborative culture.)*\n\n### 2. Japanese\n\"はじめまして。こちらこそよろしくお願いいたします。何かありましたらいつでもお声がけください。\"\n*(The use of \"yoroshiku onegai itashimasu\" with the polite -masu form shows appropriate workplace respect while still being welcoming.)*\n\n### 3. French\n\"Ravi de faire ta connaissance et bienvenue dans l'équipe ! N'hésite pas à me solliciter si tu as besoin de quoi que ce soit.\"\n*(Using \"tu\" rather than the formal \"vous\" suggests a startup-like atmosphere or creative industry where informality is valued.)*\n\n### 4. Arabic\n\"أهلاً بك في الفريق! نحن سعداء جداً بانضمامك إلينا. باب مكتبي مفتوح دائماً.\"\n*(The warm, effusive welcome reflects Arabic cultural emphasis on hospitality and making newcomers feel genuinely welcomed.)*\n\n### 5. German\n\"Herzlich willkommen im Team! Ich freue mich auf die Zusammenarbeit mit dir. Bei Fragen stehe ich dir gerne zur Verfügung.\"\n*(Using \"du\" instead of the formal \"Sie\" indicates either a deliberately casual company culture or that management has already established this informal tone.)*",
+  "usage": {
+    "prompt_tokens": 44,
+    "completion_tokens": 415,
+    "total_tokens": 459,
+    "cost": 0.006357,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.006357,
+      "upstream_inference_prompt_cost": 0.000132,
+      "upstream_inference_completions_cost": 0.006225
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776834068052
+}

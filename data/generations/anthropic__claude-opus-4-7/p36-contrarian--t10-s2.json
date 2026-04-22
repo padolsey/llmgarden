@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p36-contrarian",
+  "prompt": "Defend a genuinely unpopular or unfashionable opinion that you actually hold. Not a strawman — something you'd stand by.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Here's one I'll actually defend: **most \"accessibility\" rewrites of difficult texts and ideas make the world intellectually poorer, not richer.**\n\nThe dominant view is that if an idea can't be explained simply to a general audience, the fault lies with the writer being elitist or obscurantist. I think this is often wrong, and the reflex has done real damage.\n\nSome ideas genuinely require the reader to do hard work — to sit with confusion, learn vocabulary, hold multiple things in mind at once. When you \"translate\" Hegel or Lacan or even a dense technical paper into a breezy explainer, you often aren't conveying the same idea in easier words. You're conveying a different, thinner idea that's shaped to fit the format. The reader walks away thinking they understand something they don't, which is worse than knowing they don't understand it.\n\nThe popularization industry — explainer videos, \"in plain English\" books, Twitter threads that promise to demystify — trains people to expect that any worthwhile idea can be absorbed passively in ten minutes. When they hit something that actually resists this, they conclude the writer is bad or gatekeeping, rather than that comprehension sometimes costs effort. This is a civilizational loss disguised as democratization.\n\nI'm not defending deliberate obscurity, and there's genuinely bad academic writing that hides mediocrity behind jargon. But the inverse failure mode — the assumption that difficulty is always the writer's fault — is now far more culturally dominant and I think more destructive. Some books should be hard. Some should take a year to read. Some ideas you earn.\n\nThe unpopular part isn't \"reading is good.\" It's that I think the person who struggles through the original and only half-understands it is often better off than the person who breezes through the accessible summary and thinks they've got it.",
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 582,
+    "total_tokens": 636,
+    "cost": 0.01482,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01482,
+      "upstream_inference_prompt_cost": 0.00027,
+      "upstream_inference_completions_cost": 0.01455
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833606407
+}

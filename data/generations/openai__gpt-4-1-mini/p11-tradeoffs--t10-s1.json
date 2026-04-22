@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1-mini",
+  "prompt_id": "p11-tradeoffs",
+  "prompt": "A small team is choosing between writing software in TypeScript or Python for a new internal data tool. Walk through how you would help them decide, in prose (not a bulleted list).",
+  "temperature": 1,
+  "sample": 1,
+  "response": "When helping a small team decide between writing a new internal data tool in TypeScript or Python, I would start by understanding the context and key factors influencing their choice. First, I'd ask about the team's existing expertise and comfort level with each language. If most team members have strong backgrounds in one language over the other, that naturally tilts the decision to whichever they can be more productive with and maintain the tool more easily over time.\n\nNext, I'd consider the nature of the data tool itself. If the tool involves a lot of complex data manipulation, analysis, and integration with scientific or statistical libraries, Python often shines because of its rich ecosystem—libraries like Pandas, NumPy, and SciPy make data tasks straightforward. On the other hand, if the tool's frontend or UI is a key component, or it needs to run in the browser, TypeScript might be more appropriate due to its tight integration with JavaScript and front-end frameworks.\n\nI'd also look at the runtime environment and deployment needs. Python is typically strong for server-side scripting, batch jobs, or internal backends, whereas TypeScript, compiled to JavaScript, can be run anywhere JavaScript runs, including browsers and serverless platforms. Maintenance considerations are crucial too. TypeScript’s static typing can help catch bugs early and potentially make the codebase more robust, especially as it scales or as multiple developers contribute. Python’s dynamic typing offers rapid prototyping but could lead to subtle runtime errors if not well tested.\n\nAnother angle is integration with existing systems. If other internal tools or infrastructure components are predominantly built in one language, aligning with that can ease interoperability and reduce onboarding friction. Additionally, tooling around testing, debugging, and CI/CD pipelines may influence the choice depending on what the existing environment supports out of the box.\n\nFinally, I would emphasize future-proofing and long-term support. If the tool might evolve into a more complex application or be adopted by a wider set of users, choosing a language with strong community support and widespread usage in that domain is prudent.\n\nIn summary, I would guide the team to weigh their collective expertise, the specific technical requirements of the data tool, integration needs, maintenance expectations, and the development ecosystem to arrive at the language choice that best balances productivity, reliability, and scalability for their particular situation.",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 460,
+    "total_tokens": 505,
+    "cost": 0.000754,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000754,
+      "upstream_inference_prompt_cost": 0.000018,
+      "upstream_inference_completions_cost": 0.000736
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-mini-2025-04-14",
+  "ts": 1776835391579
+}

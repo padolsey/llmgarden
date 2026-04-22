@@ -1,0 +1,33 @@
+{
+  "model": "z-ai/glm-4.6",
+  "prompt_id": "p40-one-sentence",
+  "prompt": "Explain what a \"closure\" is in programming, in exactly one sentence. The sentence can be long.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "A closure is a function that, along with a reference to its surrounding lexical environment—the variables that were in scope when the function was created—forms a bundle that allows the function to access and remember those outer variables even after the outer function has completed its execution.",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 1797,
+    "total_tokens": 1824,
+    "cost": 0.00342483,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00342483,
+      "upstream_inference_prompt_cost": 0.00001053,
+      "upstream_inference_completions_cost": 0.0034143
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1744,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "z-ai/glm-4.6",
+  "ts": 1776844818792
+}

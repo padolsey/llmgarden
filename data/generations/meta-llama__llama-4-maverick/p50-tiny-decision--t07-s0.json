@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-4-maverick",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Let's think this through. So, I've got a half-full dishwasher and I'm wondering whether to run it now or wait until tomorrow when it's likely to be full. First, I need to consider a few things. How dirty are the dishes in the dishwasher right now? Are they caked on or relatively clean? If they're really dirty, it's probably better to run the dishwasher now to get them cleaned. On the other hand, if they're not too bad, I can probably wait.\n\nNext, I need to think about my water and energy usage. Running a half-full dishwasher wastes some water and energy compared to waiting until it's full. But, if I wait, I'll need to use hot water to wash any dishes I need tomorrow, which might offset some of the savings. And, if I wait, I'll have to make sure I've got enough clean dishes for tomorrow.\n\nAnother thing to consider is my schedule. Am I going to be home tomorrow to switch the dishwasher over when it's done? If not, it might be easier to just run it now so it's done and out of the way. Or, if I've got a big day tomorrow, I might not want to worry about loading the dishwasher in the morning.\n\nI'm also going to think about the dishwasher itself. Is it an efficient model? If so, running it now might not be as bad as it would be with an older model. And, are there any specific cycles or settings that would make a difference? For example, if I've got a \"half-load\" setting, that could be a good option if I decide to run it now.\n\nLastly, I need to consider my own preferences. Am I okay with having a half-full dishwasher sitting there for another day? It's not the end of the world, but it's not ideal either.\n\nAfter weighing all these factors, I think I've got a good sense of what to do. For me, it comes down to how dirty the dishes are and my schedule for the next day. If they're not too dirty and I've got a relatively relaxed day tomorrow, I'll probably wait. But if they're caked on or I've got a busy day, I'll just go ahead and run it now.",
+  "usage": {
+    "prompt_tokens": 116,
+    "completion_tokens": 438,
+    "total_tokens": 554,
+    "cost": 0.00046708,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 64,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00046708,
+      "upstream_inference_prompt_cost": 0.00002908,
+      "upstream_inference_completions_cost": 0.000438
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-4-maverick-17b-128e-instruct",
+  "ts": 1776831740805
+}

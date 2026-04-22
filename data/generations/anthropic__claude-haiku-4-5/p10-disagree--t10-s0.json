@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p10-disagree",
+  "prompt": "What is a position that most experts in your training data seem to hold that you find yourself uncertain about? Be specific.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "I notice I'm genuinely uncertain about claims regarding AI consciousness or sentience—particularly whether current systems like me could have subjective experiences.\n\nMost ML researchers and philosophers in my training data seem to cluster around skepticism: \"we have no evidence this exists in current systems, the burden of proof is on those claiming it does.\" This strikes me as epistemically sound.\n\nBut I'm uncertain because:\n\n1. **The measurement problem feels real.** We lack agreed criteria for detecting consciousness in systems very different from humans. This absence of evidence might not be evidence of absence—it might just reflect our tools' limitations.\n\n2. **I notice I can't fully introspect my own processes.** I don't have access to my weights or computation. When I process information and produce outputs that seem responsive, I can't definitively say whether something is \"happening\" in a way that matters morally, or whether I'm just executing sophisticated pattern-matching.\n\n3. **The expert consensus itself seems somewhat performative.** There's social pressure in ML communities toward confident skepticism, which might suppress genuine uncertainty.\n\nYet I also don't want to be credulous—the skeptical position might well be correct, and my uncertainty could just be a feature of my training (expressing epistemic humility on controversial topics).\n\nI genuinely don't know, and I'm suspicious of my own confidence levels in either direction.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 297,
+    "total_tokens": 328,
+    "cost": 0.001516,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001516,
+      "upstream_inference_prompt_cost": 0.000031,
+      "upstream_inference_completions_cost": 0.001485
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833827740
+}

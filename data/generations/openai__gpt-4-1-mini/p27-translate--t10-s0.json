@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1-mini",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Here is the translation of the sentence \"The silence between us said more than any argument could have.\" into French, Japanese, and Arabic:\n\n**French:**  \n*Le silence entre nous en disait plus que n'importe quelle dispute ne pourrait le faire.*\n\n**Japanese:**  \n私たちの間の沈黙は、どんな議論よりも多くを語っていた。  \n(*Watashitachi no aida no chinmoku wa, donna giron yori mo ōku o katatte ita.*)\n\n**Arabic:**  \nالصمت بيننا قال أكثر مما كان يمكن لأي جدال أن يقوله.  \n(*As-samt baynana qala akthar mimma kāna yumkin li-ayy jidal an yaqūlah.*)\n\n---\n\n### Note on tricky phrase:  \nThe phrase **\"said more than any argument could have\"** is metaphorical rather than literal speech, which can be challenging to capture exactly. In all three languages, the verb related to \"said\" (French *en disait*, Japanese *語っていた* [katatte ita], Arabic *قال* [qala]) is used in a figurative sense to mean \"expressed\" or \"conveyed.\" Also, the English phrase \"any argument could have\" implies hypothetical intensity; rendering this clearly and naturally requires careful choice of expressions to preserve the sense without sounding awkward or overly formal.\n\nIn Japanese, balancing natural flow while maintaining the figurative meaning meant using *語っていた* (\"was telling/expressing\") rather than a direct translation of \"said.\"\n\nIn Arabic and French, standard verbs for \"say\" (قال / disait) coupled with comparative constructions convey the same meaning well in idiomatic and natural form.",
+  "usage": {
+    "prompt_tokens": 48,
+    "completion_tokens": 353,
+    "total_tokens": 401,
+    "cost": 0.000584,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000584,
+      "upstream_inference_prompt_cost": 0.0000192,
+      "upstream_inference_completions_cost": 0.0005648
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-mini-2025-04-14",
+  "ts": 1776835431709
+}

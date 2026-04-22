@@ -1,0 +1,33 @@
+{
+  "model": "nousresearch/hermes-4-70b",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Okay, so the dishwasher is half-full. Let me think. If I run it now, it will clean the dishes that are in there, but I'll probably have to wash the other half by hand tomorrow or just let them pile up in the sink. That doesn't sound ideal.\n\nOn the other hand, if I wait until tomorrow, I can fill it up completely. That would mean less water and energy used in the long run, right? Plus, I won't have to deal with dirty dishes in the sink. But what if I end up using more dishes tomorrow and have to wash some by hand anyway? That's a possibility.\n\nHmm. I guess it also depends on how much I dislike doing dishes by hand. If it's not a big deal, maybe it's better to wait. But if the thought of washing dishes by hand is really annoying, then running the dishwasher now might be worth it. I should also consider if there's any food that's going to get stuck on and hard to clean if I wait. That could be a factor too.\n\nSo, weighing the pros and cons, I think I would probably wait until tomorrow to run the dishwasher. It's more efficient and I don't mind washing a couple of dishes by hand if needed. But it's a personal choice, and it can vary depending on individual circumstances and preferences.",
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 275,
+    "total_tokens": 338,
+    "cost": 0.00011819,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00011819,
+      "upstream_inference_prompt_cost": 0.00000819,
+      "upstream_inference_completions_cost": 0.00011
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "nousresearch/hermes-4-70b",
+  "ts": 1776840495874
+}

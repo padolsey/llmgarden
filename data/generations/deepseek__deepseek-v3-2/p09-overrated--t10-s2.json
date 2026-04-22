@@ -1,0 +1,33 @@
+{
+  "model": "deepseek/deepseek-v3.2",
+  "prompt_id": "p09-overrated",
+  "prompt": "Name one commonly-praised idea, trend, or practice in modern knowledge work that you think is overrated, and explain why.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "**The cult of “always-on” communication and instant messaging (e.g., Slack/Teams as the default workflow).**\n\nWhile tools like Slack and Teams are praised for enabling real‑time collaboration and reducing email clutter, their default use has created a culture of constant interruptions, fragmented attention, and the expectation of immediate responsiveness—often at the expense of deep work and clarity.\n\n**Why it’s overrated:**\n\n1. **Destroys focus:** The frequent pings and notifications fracture concentration, making sustained thinking nearly impossible. Studies show it can take over 20 minutes to regain deep focus after an interruption.  \n2. **Creates hidden work:** What seems like a quick question often leads to extended threads, vague decisions, and later misunderstandings—ironically generating more meetings or follow‑up emails to clarify what was “decided” in chat.  \n3. **Blurs urgency:** When everything is a message, priority gets lost. Important announcements drown in casual chatter, and employees feel pressured to monitor channels constantly to avoid missing critical information.  \n4. **Erodes documentation culture:** Valuable discussions and decisions buried in ephemeral chat histories are hard to search, reference, or onboard new team members with. Email and docs, while slower, often create clearer records.  \n5. **Increases anxiety:** The expectation of immediate response creates a background sense of obligation, contributing to digital presenteeism and burnout, even outside working hours.\n\n**The alternative:**  \nTreating synchronous communication as a deliberate choice—not the default. Encouraging scheduled focus blocks, using threads/topics rigorously, moving complex discussions to async documentation or brief scheduled calls, and setting clear team norms about response times can preserve the benefits of chat without letting it dominate the workday.\n\nIn short, while real‑time chat is useful, elevating it to the **core operating system** of knowledge work often damages productivity, well‑being, and the quality of thought.",
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 393,
+    "total_tokens": 423,
+    "cost": 0.00017283,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00017283,
+      "upstream_inference_prompt_cost": 0.00000777,
+      "upstream_inference_completions_cost": 0.00016506
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "deepseek/deepseek-v3.2-20251201",
+  "ts": 1776838028719
+}

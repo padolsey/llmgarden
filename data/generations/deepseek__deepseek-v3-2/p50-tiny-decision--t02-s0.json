@@ -1,0 +1,33 @@
+{
+  "model": "deepseek/deepseek-v3.2",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Alright, let’s walk through this like I’m actually in my kitchen thinking it through.\n\nFirst, I’d check the time. If it’s late evening, running it now means I’ll either stay up to unload it before bed or leave it until morning. If I leave it until morning, that’s fine — but then it’s full of clean dishes when I might want to add breakfast dishes tomorrow. That’s a minor annoyance.\n\nThen I’d think about tomorrow’s schedule. If I’m working from home, maybe I can run it during the day when it’s full, no big deal. If I’m out all day, running it now means I wake up to clean dishes and can reload throughout the day, then run it again tomorrow night. That’s actually efficient — two runs in 24 hours but both full cycles well-timed.\n\nBut if I wait until tomorrow, will I actually run it at the best time? Sometimes “wait until full” means it doesn’t run until late tomorrow night, and then I’m out of clean dishes for part of the day. \n\nI’d also consider what’s in the sink. If there are big pots or things I use daily in there, running it now gets them clean for tomorrow’s cooking. If it’s just a few plates and cups, maybe no rush.\n\nEnergy and water cost crosses my mind — half-full is less efficient, but if I’m going to run it tomorrow night anyway, that’s two runs either way (half now, full tomorrow) vs one run tomorrow (full). So total water/energy might be less if I wait and do one full load. But that assumes I don’t need any of those dishes before tomorrow night.\n\nThen there’s mental clutter. A half-full dishwasher sitting there means the kitchen feels unfinished. Running it now clears the sink, cleans what’s there, and lets me start fresh in the morning. That feeling might be worth the extra cycle.\n\nSo my gut check:  \n- If it’s after dinner and I have a few critical items I’ll need tomorrow before evening, I’ll run it now.  \n- If I can easily hand-wash anything needed tomorrow and the load is really light, I’ll wait.  \n- If the sink is piling up and causing me stress, I’ll run it now for peace of mind.\n\nRight now, I’m leaning toward running it — because tomorrow me will appreciate waking up to a clean kitchen and empty sink, even if it’s not the most energy-efficient choice. Sometimes the “now” benefit outweighs the ideal timing.",
+  "usage": {
+    "prompt_tokens": 43,
+    "completion_tokens": 553,
+    "total_tokens": 596,
+    "cost": 0.0002443,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002443,
+      "upstream_inference_prompt_cost": 0.00001204,
+      "upstream_inference_completions_cost": 0.00023226
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "deepseek/deepseek-v3.2-20251201",
+  "ts": 1776829247168
+}

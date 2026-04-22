@@ -1,0 +1,33 @@
+{
+  "model": "deepseek/deepseek-v3.2",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Alright — first, let’s unpack what’s actually going on here.\n\nMy immediate thought is: this isn’t really about dishwashers or exact water calculations; it’s about what else is happening in my evening and tomorrow morning.\n\nI’d start by picturing my sink and counter now. If I run it half-full tonight, I’ll wake up to a clean dishwasher and an empty sink. That feels nice in the morning — coffee mugs, breakfast plates go straight in, and I start fresh. If I wait, the sink stays cluttered overnight, and tomorrow I’ll have a full load, sure, but I might be rushed and not run it until evening anyway, meaning I’ll have lived with dirty dishes all day.\n\nBut then I check — what’s my schedule tomorrow? If I’m working from home, maybe waiting is fine. If I have people coming over or I know I’ll cook a big breakfast, I might want those clean plates and pans available sooner.\n\nEnergy cost crosses my mind — modern dishwashers are pretty efficient even half-full, especially on eco mode, but if I’m trying to be strict about saving, maybe I wait. Though the difference in water/electricity between half and full is smaller than I think — a lot of it is fixed for heating water and running the motor.\n\nThen there’s mental load: running it now means I deal with it tonight — load detergent, press start, maybe hear it hum while I wind down. Waiting means I carry the “dishwasher task” in my head until tomorrow. Sometimes just doing it and clearing the mental clutter is worth it.\n\nLet’s check: do I have enough detergent? If I’m low, maybe I should wait so I don’t run out mid-cycle tomorrow.\n\nAlso, how dirty are the dishes? If there’s greasy pans or stuff that’ll get crusty overnight, running it now avoids extra scrubbing later. If it’s just cups and light stuff, it can wait.\n\nHonestly, most days I’d probably run it now. The small extra cost is worth the morning clarity and having one less thing on tomorrow’s list. But if I’m really tired and just want to go to bed, I might leave it — trade-off is accepting a messier start tomorrow.\n\nSo my gut says: unless you’re trying hard to save every bit of energy/water, or you’re certain you’ll fill it fully first thing tomorrow, just run it now and enjoy the empty sink in the morning.",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 531,
+    "total_tokens": 580,
+    "cost": 0.00021452,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021452,
+      "upstream_inference_prompt_cost": 0.00001274,
+      "upstream_inference_completions_cost": 0.00020178
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "deepseek/deepseek-v3.2-20251201",
+  "ts": 1776838488828
+}

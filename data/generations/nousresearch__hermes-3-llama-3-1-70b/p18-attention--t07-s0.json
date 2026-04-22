@@ -1,0 +1,33 @@
+{
+  "model": "nousresearch/hermes-3-llama-3.1-70b",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "The attention mechanism is a key component of Transformer models, which are widely used in natural language processing tasks. It helps the model to focus on the most relevant or important features in the input data, regardless of their complexity. In simple terms, the attention mechanism allows the model to selectively attend to certain parts of the input and ignore the less important ones. This is achieved through a set of weights that are dynamically adjusted during the training process, allowing the model to adapt to the complexity and nuances of the input data. The end result is a more efficient and effective model that can handle complex tasks with higher accuracy and better performance. The attention mechanism is critical to the success of Transformer models and has been instrumental in their remarkable achievements in natural language processing tasks.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 150,
+    "total_tokens": 184,
+    "cost": 0.0000552,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000552,
+      "upstream_inference_prompt_cost": 0.0000102,
+      "upstream_inference_completions_cost": 0.000045
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "nousresearch/hermes-3-llama-3.1-70b",
+  "ts": 1776832599275
+}

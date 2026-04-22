@@ -1,0 +1,33 @@
+{
+  "model": "alpindale/goliath-120b",
+  "prompt_id": "p16-photosynthesis",
+  "prompt": "Explain photosynthesis to a curious adult non-scientist in around 150 words. Avoid a bulleted list.",
+  "temperature": 1,
+  "sample": 2,
+  "response": " Photosynthesis is a fascinating process that enables plants, algae, and some bacteria to convert light energy from the Sun into chemical energy, which they use to grow and survive. It's a crucial foundation of most food chains on Earth, as well as a major source of oxygen in our atmosphere. In short, photosynthesis is a two-step process that can be broadly divided into the light-dependent and light-independent reactions. During the light-dependent stage, which primarily takes place in the chloroplasts of plant cells, sunlight is absorbed by chlorophyll and other pigments. This absorption of light energy causes electrons to become excited and a electrons to be lost, creating an electron deficit. To replace these electrons, water is split into oxygen (O2), which is released into the atmosphere, and hydrogen ions (H+). Meanwhile, the electrons move through an electron transport chain, releasing energy that is used to produce ATP and NADPH. The light-independent stage, or the Calvin-Benson cycle, takes place in the stroma of the chloroplasts and the chloroplast membrane. Here, the ATP and NADPH from the light-dependent stage are used to combine the H+ ions and CO2 to form glucose (C6H12O6), which is then used by the plant for energy or stored as starch. Oxygen (O2) is also produced as a byproduct and released into the atmosphere. In essence, photosynthesis is nature's way of capturing sunlight and utilizing its energy to make food, while at the same time supplying us with life-sustaining oxygen.",
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 378,
+    "total_tokens": 444,
+    "cost": 0.0030825,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0030825,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0.0030825
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "alpindale/goliath-120b",
+  "ts": 1776842166399
+}

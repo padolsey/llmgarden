@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "In traditional neural networks, inputs are fed into a network and processed sequentially. However, the Transformer model, introduced in the paper \"Attention Is All You Need\" by Vaswani et al., introduced a different approach.\n\nImagine you're writing a sentence: \"The dog ran quickly around the corner.\" Traditional neural networks would process each word one by one, where the \"corner\" word is influenced heavily by the \"around\" word. But what if the \"corner\" word is influenced more by the \"quickly\" word? The Transformer's attention mechanism allows the model to weigh the importance of each word based on its relevance to the current word being processed.\n\nHere's a simplified explanation of how it works:\n\n* The model takes in a sequence of inputs (e.g., words in a sentence).\n* For each input, the model calculates a set of weights, which represent how much each other input contributes to the current input.\n* The weights are calculated using a scoring function, which takes into account the similarity between the current input and each other input.\n* The model then uses these weights to calculate a weighted sum of the other inputs, effectively \"paying attention\" to the most relevant ones.\n\nThis allows the model to focus on the most relevant information when processing each input, rather than relying solely on sequential processing.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 265,
+    "total_tokens": 301,
+    "cost": 0.00001397,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00001397,
+      "upstream_inference_prompt_cost": 7.2e-7,
+      "upstream_inference_completions_cost": 0.00001325
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-3.1-8b-instruct",
+  "ts": 1776836703240
+}

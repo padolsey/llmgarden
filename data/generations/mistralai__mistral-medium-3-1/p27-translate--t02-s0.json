@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-medium-3.1",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Here are the translations of your sentence into **French**, **Japanese**, and **Arabic**, along with notes on tricky phrasing:\n\n---\n\n### **French**\n*\"Le silence entre nous en disait plus que n’importe quelle dispute n’aurait pu le faire.\"*\n\n**Note:**\n- The phrase *\"said more than any argument could have\"* is tricky because French often avoids the conditional perfect (*\"aurait pu\"*) in favor of a simpler structure. Here, *\"n’aurait pu le faire\"* (literally \"would not have been able to do it\") is the most natural way to convey the hypothetical comparison, but it sounds slightly more formal than the English. A more colloquial alternative could be:\n  *\"Le silence entre nous en disait plus que n’importe quelle dispute.\"*\n  (This drops the explicit comparison but keeps the meaning intact.)\n\n---\n\n### **Japanese**\n**\"私たちの間の沈黙は、どんな言い争いよりも多くを語っていた。\"**\n*(Watashitachi no aida no chinmoku wa, donna iiaraiyori mo ōku o katatte ita.)*\n\n**Note:**\n- Japanese lacks a direct equivalent for the past perfect (\"could have said\"), so the verb **\"語っていた\" (katatte ita, \"was speaking\")** is used in the past continuous to imply an ongoing truth. The nuance of \"more than any argument *could have*\" is conveyed by **\"どんな…よりも\" (donna… yori mo, \"more than any…\")**, which works well here.\n- Alternatively, for a slightly more poetic or literary tone, you could use:\n  **\"私たちの沈黙は、どんな口論よりも雄弁だった。\"**\n  *(Watashitachi no chinmoku wa, donna kōron yori mo yūben datta.)*\n  (\"Our silence was more eloquent than any quarrel.\") Here, **\"雄弁 (yūben, eloquent)\"** adds a layer of sophistication.\n\n---\n\n### **Arabic**\n**\"الصمت بيننا قال أكثر مما يمكن لأي جدال أن يقوله.\"**\n*(Al-samt baynana qal akthar mimma yumkin li-ayy jadal an yaqulah.)*\n\n**Note:**\n- The phrase *\"said more than any argument could have\"* is challenging because Arabic often prefers explicit structures. The literal translation uses **\"يمكن... أن يقول\" (yumkin... an yaqul, \"it is possible for... to say\")**, which is grammatically correct but slightly verbose.\n- A more natural, concise alternative (common in literary Arabic) would be:\n  **\"صمتنا كان أبلغ من أي جدال.\"**\n  *(Samtuna kan ablagh min ayy jadal.)*\n  (\"Our silence was more eloquent than any argument.\") Here, **\"أبلغ (abl",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 600,
+    "total_tokens": 645,
+    "cost": 0.001218,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001218,
+      "upstream_inference_prompt_cost": 0.000018,
+      "upstream_inference_completions_cost": 0.0012
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-medium-3.1",
+  "ts": 1776828817099
+}

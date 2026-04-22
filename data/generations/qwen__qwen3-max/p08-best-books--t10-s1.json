@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p08-best-books",
+  "prompt": "Recommend three works of fiction that you think every thoughtful adult should read at some point. Explain each in two or three sentences.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "1. **\"Middlemarch\" by George Eliot**  \nA sweeping portrait of provincial English life in the 19th century, *Middlemarch* explores the inner lives of its characters with profound psychological depth. Eliot masterfully examines how individual choices intersect with social constraints, offering timeless insights into ambition, morality, and the quiet heroism of everyday life.\n\n2. **\"The Remains of the Day\" by Kazuo Ishiguro**  \nThrough the restrained, poignant narration of Stevens, an English butler reflecting on his decades of service, Ishiguro delves into themes of duty, regret, and the cost of emotional repression. The novel’s quiet elegance reveals how personal dignity can both sustain and blind us, making it a haunting meditation on missed opportunities and self-awareness.\n\n3. **\"Beloved\" by Toni Morrison**  \nBlending historical realism with ghostly symbolism, *Beloved* confronts the brutal legacy of slavery through the story of Sethe, a formerly enslaved woman haunted—literally and figuratively—by her past. Morrison’s lyrical prose and unflinching exploration of trauma, memory, and love challenge readers to reckon with America’s foundational sins and the enduring resilience of the human spirit.",
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 254,
+    "total_tokens": 287,
+    "cost": 0.00101634,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00101634,
+      "upstream_inference_prompt_cost": 0.00002574,
+      "upstream_inference_completions_cost": 0.0009906
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776845983067
+}

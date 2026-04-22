@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 0,
+  "response": "French\nLe silence entre nous en disait plus que n'aurait pu le faire n'importe quelle dispute.\n\nNote: I used \"en disait plus\" + \"dispute\" to keep the metaphorical sense of \"silence said more.\" \"Dispute\" (arguing/row) matches the English \"argument\"; \"débat\" would be milder.\n\nJapanese\n二人の間の沈黙は、どんな議論よりも雄弁だった。\n\nNote: I used 「雄弁だった」(\"was eloquent\") to capture the idiom \"said more\" naturally. 「議論」 is a neutral \"argument/discussion\"; 「口論／言い争い」 would emphasize a harsher quarrel.\n\nArabic\nكان الصمت بيننا أبلغَ من أيِّ جدالٍ.\n\nNote: \"أبلغَ\" (more expressive/eloquent) conveys the idea of \"said more\" idiomatically. \"جدال\" fits \"argument\"; alternatives like \"شجار\" would imply a more physical/angry fight.",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 998,
+    "total_tokens": 1045,
+    "cost": 0.00200775,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00200775,
+      "upstream_inference_prompt_cost": 0.00001175,
+      "upstream_inference_completions_cost": 0.001996
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 768,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776835143274
+}

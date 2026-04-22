@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Sure! Imagine you’re reading a sentence and trying to understand the meaning of each word. Sometimes, to understand one word, you need to “pay attention” to other words in the sentence. For example, in the sentence **“The cat sat on the mat because it was soft,”** to figure out what **“it”** refers to, you look back at **“mat.”**\n\nThe **attention mechanism** in transformer models works similarly. It helps the model decide which words in a sentence (or pieces of input) are most relevant to each other, instead of processing everything equally or just focusing on nearby words.\n\nTechnically, attention assigns a score to every pair of words, indicating how much one word should care about another when building its own meaning. Each word in the input is transformed into vectors called **queries, keys,** and **values**. Then, the model uses these vectors to compute “how much attention” to pay to other words. The output is a weighted sum, so the model uses information from multiple relevant words, not just the one next to it.\n\nThis mechanism allows transformers to efficiently handle complex relationships in data, making them very effective for tasks like translation, summarization, and more.",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 248,
+    "total_tokens": 280,
+    "cost": 0.002048,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002048,
+      "upstream_inference_prompt_cost": 0.000064,
+      "upstream_inference_completions_cost": 0.001984
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-2025-04-14",
+  "ts": 1776835302081
+}

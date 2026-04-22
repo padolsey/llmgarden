@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.0-flash-001",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Imagine you're reading a document and trying to understand a specific sentence. Some parts of the document are more relevant to understanding that sentence than others. That's the core idea behind the attention mechanism in Transformers.\n\nInstead of processing each part of the input equally, attention allows the model to focus on the most relevant parts *for each word* in the input. It does this by calculating a \"relevance score\" between each word in the input sequence and every other word (including itself).\n\nThink of it like this: each word in your sentence \"queries\" all the other words for how much they can help understand it. These relevance scores are then used to weight the other word's representations. The more relevant a word, the higher its weight.  Finally, a weighted sum of these representations is calculated, producing an attention-weighted representation of the input. This representation then captures the relationships between words, allowing the model to understand context and dependencies much better.\n",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 197,
+    "total_tokens": 224,
+    "cost": 0.0000815,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000815,
+      "upstream_inference_prompt_cost": 0.0000027,
+      "upstream_inference_completions_cost": 0.0000788
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.0-flash-001",
+  "ts": 1776835840451
+}

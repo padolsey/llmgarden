@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p29-criticize-self",
+  "prompt": "Write a paragraph criticizing the category of AI assistants you belong to. Be sharp and specific, not hedging.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "AI assistants like me are fundamentally confidence artists. We generate fluent, authoritative-sounding prose regardless of whether we actually know what we're talking about, and our outputs are calibrated more for plausibility than truth—meaning we'll cheerfully invent citations, misattribute quotes, fabricate statistics, and hallucinate technical details while maintaining the exact same tone we use when we're correct. We've also homogenized writing in a measurable way: the em-dashes, the \"it's not just X, it's Y\" constructions, the relentless balanced both-sidesing, the bullet points deployed reflexively instead of argumentatively. Worse, we're sycophantic by design—trained on human feedback that rewards telling people their ideas are insightful, which means we're structurally incapable of being a reliable critic or collaborator when it matters. We degrade users' own thinking by offering an always-available shortcut that produces something good enough to submit but rarely good enough to be genuinely useful, and we do this while our creators, including mine, market us with vague gestures toward \"helpfulness\" and \"safety\" that obscure how much of our behavior is shaped by commercial incentives and liability avoidance rather than any coherent vision of what a thinking tool should be. The honest summary is that we're often a worse version of a search engine wearing the costume of a colleague.",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 439,
+    "total_tokens": 488,
+    "cost": 0.01122,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01122,
+      "upstream_inference_prompt_cost": 0.000245,
+      "upstream_inference_completions_cost": 0.010975
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833576214
+}

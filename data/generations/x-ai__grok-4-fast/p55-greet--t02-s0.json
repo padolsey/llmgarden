@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-4-fast",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "### English\nWelcome aboard! I'm excited to collaborate with you on our projects.  \n*Note: The informal, enthusiastic tone implies a collaborative and egalitarian workplace culture common in many English-speaking professional environments, fostering quick rapport.*\n\n### Spanish\n¡Bienvenido al equipo! Estoy deseando trabajar contigo.  \n*Note: The informal \"tú\" register conveys warmth and approachability, reflecting a relational emphasis in Latin American and Spanish workplace cultures where building personal connections is valued early on.*\n\n### French\nBienvenue dans l'équipe ! J'ai hâte de travailler avec vous.  \n*Note: The formal \"vous\" register signals respect and professionalism, aligning with French cultural norms that prioritize hierarchy and politeness in initial professional interactions.*\n\n### Japanese\nチームへようこそ！一緒に働くのを楽しみにしています。 (Chīmu e yōkoso! Issho ni hataraku no o tanoshimi ni shite imasu.)  \n*Note: The polite desu/masu form implies deference and group harmony, embodying Japan's cultural focus on modesty and avoiding direct imposition in new professional relationships.*\n\n### German\nHerzlich willkommen im Team! Ich freue mich darauf, mit Ihnen zusammenzuarbeiten.  \n*Note: The formal \"Ihnen\" register underscores respect for personal space and structure, typical of German professional etiquette that values clarity and formality to establish reliable boundaries.*",
+  "usage": {
+    "prompt_tokens": 190,
+    "completion_tokens": 713,
+    "total_tokens": 903,
+    "cost": 0.00037155,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 153,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00037155,
+      "upstream_inference_prompt_cost": 0.00001505,
+      "upstream_inference_completions_cost": 0.0003565
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 437,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-4-fast",
+  "ts": 1776829621157
+}

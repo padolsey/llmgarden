@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 0.7,
+  "sample": 2,
+  "response": "Certainly! Here are warm greetings to a new colleague in five languages, each followed by a brief cultural note about the register used:\n\n1. **English**:  \n*\"Welcome aboard! We’re so glad to have you with us.\"*  \n→ This friendly, informal tone reflects the common Anglophone workplace norm of approachability and immediate inclusion, even in professional settings.\n\n2. **Japanese**:  \n「ようこそ！一緒に働けるのを楽しみにしています。」  \n*(Yōkoso! Issho ni hatarakeru no o tanoshimi ni shite imasu.)*  \n→ The polite and humble phrasing (using 〜ています and avoiding overly casual speech) aligns with Japanese workplace values of respect, group harmony, and modesty.\n\n3. **Spanish (Spain)**:  \n*\"¡Bienvenido/a! Estamos encantados de tenerte en el equipo.\"*  \n→ The use of “encantados” and the inclusive “bienvenido/a” shows warmth with a balance of professionalism and personal connection, typical in Spanish-speaking professional cultures that value interpersonal rapport.\n\n4. **French**:  \n« Bienvenue parmi nous ! Nous sommes ravis de vous compter dans notre équipe. »  \n→ The formal “vous” and polished phrasing reflect the French professional preference for maintaining courteous formality while still expressing genuine enthusiasm.\n\n5. **Arabic (Modern Standard)**:  \n\"مرحباً بك! يسعدنا انضمامك إلى فريقنا.\"  \n*(Marḥaban bika! Yasaʿudunā ʾinḍimāmuka ʾilā farīqinā.)*  \n→ The use of MSA (rather than a dialect) and the polite, welcoming phrasing conveys respect and professionalism, appropriate in pan-Arab formal or workplace contexts where linguistic decorum signals sincerity.",
+  "usage": {
+    "prompt_tokens": 43,
+    "completion_tokens": 384,
+    "total_tokens": 427,
+    "cost": 0.00153114,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00153114,
+      "upstream_inference_prompt_cost": 0.00003354,
+      "upstream_inference_completions_cost": 0.0014976
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776849060605
+}

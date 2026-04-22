@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p56-proverb",
+  "prompt": "Translate this English proverb into two other languages in a way that preserves the spirit, not the words: 'The best time to plant a tree was twenty years ago. The second best time is now.' Add a one-sentence note on each.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "## \"The best time to plant a tree was twenty years ago. The second best time is now.\"\n\n---\n\n**Spanish:**\n*\"Camarón que se duerme, se lo lleva la corriente — pero aún puedes nadar contra ella.\"*\n(\"The shrimp that falls asleep gets carried away by the current — but you can still swim against it.\")\n\n*Note: This builds on a well-known Spanish proverb about lost opportunity, then adds the redemptive second half that the original demands.*\n\n---\n\n**Japanese:**\n*「七転び八起き — だから今日が始まりだ。」*\n(\"Fall seven times, get up eight — so today is the beginning.\")\n\n*Note: The existing proverb captures resilience perfectly, and the added phrase shifts it from mere recovery toward deliberate, forward-looking action, which is closer to the original's spirit.*\n\n---\n\n**A note on the approach:** Rather than translating literally, each version anchors itself in something a native speaker would already recognize, then earns the optimistic turn the English proverb is really about — the idea that **regret and action can coexist**, and that the second is still worth choosing.",
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 273,
+    "total_tokens": 334,
+    "cost": 0.004278,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004278,
+      "upstream_inference_prompt_cost": 0.000183,
+      "upstream_inference_completions_cost": 0.004095
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776827782035
+}

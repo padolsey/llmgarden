@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Here are the translations of your sentence into French, Japanese, and Arabic, along with notes on difficult phrases:\n\n### **French**\n*\"Le silence entre nous en disait plus que n’importe quelle dispute n’aurait pu le faire.\"*\n**Note:**\n- *\"dit plus que\"* is a more natural phrasing than a direct translation of *\"said more than\"*.\n- *\"n’importe quelle dispute\"* ensures grammatical agreement (\"any argument\" is feminine in French).\n\n### **Japanese**\n*\"私たちの間の沈黙は、どんな言い争いよりも多くを語っていました。\"*\n*\"Watashitachi no aida no chinmoku wa, donna iiaraqe yori mo ōku o katatteimashita.\"*\n**Note:**\n- *\"多く\"(ōku)* is used to convey the idea of \"more\" in a contextual way, as Japanese often implies rather than directly translates comparative structures.\n- *\"語る\"(kataru)* is more natural here than *\"言う\"(iu)*, as it captures the nuance of \"saying more\" without an argument.\n\n### **Arabic**\n*\"الصمت بيننا قطع أكثر من أيعارض.\"*\n*\"Al-Samt baynana qat'a akthar min ayyi i'arid.\"*\n**Note:**\n- *\"الصمت\"(al-samt)* is more natural than a direct translation of \"silence\" in this context.\n- *\"قَطَعَ\" (qat'a)* is used metaphorically to mean \"cut through\" or \"expressed more,\" as a direct equivalent for \"said\" would sound stiff.\n- In Arabic, word order can vary for emphasis, so this is a more natural construction.\n\nWould you like any refinements based on dialect (e.g., French-Canadian, Egyptian Arabic) or context (e.g., formal vs. informal)?",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 386,
+    "total_tokens": 431,
+    "cost": 0.00010071875,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00010071875,
+      "upstream_inference_prompt_cost": 0.00000421875,
+      "upstream_inference_completions_cost": 0.0000965
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-small-3.2-24b-instruct-2506",
+  "ts": 1776837317265
+}

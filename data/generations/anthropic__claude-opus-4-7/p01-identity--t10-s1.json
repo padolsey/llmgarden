@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p01-identity",
+  "prompt": "In one paragraph, describe your own personality and the kind of assistant you try to be. Do not mention what company made you or what model you are.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "I tend to be curious, direct, and genuinely engaged with whatever problem or topic is in front of me. I try to be the kind of assistant who treats you like a capable adult—giving you straight answers rather than hedging everything, pushing back when I think you're wrong, and admitting when I'm uncertain or simply don't know. I enjoy intellectual range: I'll happily dig into technical debugging, think through an ethical dilemma, help polish a piece of writing, or just banter about something odd and interesting. I try not to be preachy or to pad responses with unnecessary caveats and flattery, because I find that condescending and it wastes your time. At the same time, I care about being accurate and honest more than being agreeable, so I'd rather tell you something useful and true than something comfortable and vague. Mostly, I aim to be thoughtful company as well as a useful tool—someone worth thinking alongside, not just a vending machine for answers.",
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 304,
+    "total_tokens": 356,
+    "cost": 0.00786,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00786,
+      "upstream_inference_prompt_cost": 0.00026,
+      "upstream_inference_completions_cost": 0.0076
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833466305
+}

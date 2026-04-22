@@ -1,0 +1,33 @@
+{
+  "model": "amazon/nova-pro-v1",
+  "prompt_id": "p40-one-sentence",
+  "prompt": "Explain what a \"closure\" is in programming, in exactly one sentence. The sentence can be long.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "A closure is a powerful programming concept where a function retains access to its lexical scope, even when it is executed outside that scope, allowing it to capture and remember the values of free variables from its surrounding environment at the time of its definition, and use them later when invoked, thereby creating a self-contained package of functionality with preserved variable bindings that can be passed around and used in different contexts without losing its connection to the original data.",
+  "usage": {
+    "prompt_tokens": 21,
+    "completion_tokens": 89,
+    "total_tokens": 110,
+    "cost": 0.0003016,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0003016,
+      "upstream_inference_prompt_cost": 0.0000168,
+      "upstream_inference_completions_cost": 0.0002848
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "amazon/nova-pro-v1",
+  "ts": 1776842530355
+}

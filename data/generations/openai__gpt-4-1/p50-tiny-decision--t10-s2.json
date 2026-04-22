@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Absolutely! Here’s how I’d *actually* think through this, the way you’d mull it over walking by your kitchen:\n\n---\n\n**First, I imagine standing in front of the dishwasher.**  \nIt’s half-full. I mentally note that if I ran it now, I’d have clean dishes in the morning. Nice. But it *feels* wasteful.\n\n**Next, I check my dish stash.**  \nDo I have enough plates, glasses, forks, etc., to last until tomorrow *without* running it? If yes, then there’s no urgency.\n\n**Now, I try to picture tomorrow.**  \nIs anything happening that would mess up my plan? Like, am I cooking a big dinner or having people over? If yes, maybe I’ll need more than I think. But if not, waiting is probably fine.\n\n**Then, I think about energy and water use.**  \nRunning half-full is less efficient, both for my water bill and the environment. Sometimes that’s enough to nudge me to wait.\n\n**But now I look at what’s IN the dishwasher.**  \nAre things like pots and pans in there already starting to develop that “been sitting around too long” smell? Or will waiting another day make the dried-on mess twice as hard to deal with? If the latter, maybe running it now saves scrubbing later.\n\n**I glance at my sink and counters:**  \nAre dirty dishes already piling up there, or will they if I don’t run it? If yes, maybe running it now prevents chaos.\n\n**Finally, “future me” check:**  \nWill my tomorrow-morning self be secretly grateful if the dishes are done when they wake up, or indifferent? Will I be annoyed facing a full dishwasher to load? How much do I care about later convenience?\n\n---\n\n**Summing up:** If there’s no rush, I have spare dishes, nothing special is happening tomorrow, and it’s not going to get gross or inconvenient—I’d wait.  \nIf I’m low on essentials, expect a kitchen mess, or dread caked-on food, then I’d run it now and not feel bad.\n\n*(And, honestly? If I just want to check a “clean kitchen” feeling off my mental list, I might run it now anyway and promise to fill it to the brim next time.)*",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 478,
+    "total_tokens": 523,
+    "cost": 0.003914,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003914,
+      "upstream_inference_prompt_cost": 0.00009,
+      "upstream_inference_completions_cost": 0.003824
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-2025-04-14",
+  "ts": 1776835372593
+}

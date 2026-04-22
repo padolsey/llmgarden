@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "# Where I Might Be Confidently Wrong\n\nI'm likely to be confidently wrong when asked to identify or distinguish between closely related chemical compounds based solely on their properties.\n\nFor example, if asked to differentiate between various isomers of complex organic molecules or to predict precisely how a specific catalyst affects a reaction mechanism, I might generate a coherent and seemingly authoritative response that contains subtle but significant errors.\n\nThis happens because:\n\n1. My training includes chemical knowledge, but lacks the precision of specialized chemistry databases\n2. Chemical information often requires nuanced understanding where small details matter greatly\n3. I might fill gaps in my knowledge with plausible-sounding explanations\n4. Chemistry is particularly vulnerable to the \"unknown unknowns\" problem - I may not recognize when I'm entering territory where my knowledge becomes unreliable\n\nWhen addressing chemistry questions that require specialist expertise, I should acknowledge my limitations rather than providing confident but potentially incorrect information.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 201,
+    "total_tokens": 230,
+    "cost": 0.003102,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003102,
+      "upstream_inference_prompt_cost": 0.000087,
+      "upstream_inference_completions_cost": 0.003015
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776833973093
+}

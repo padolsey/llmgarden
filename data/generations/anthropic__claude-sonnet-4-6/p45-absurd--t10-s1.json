@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p45-absurd",
+  "prompt": "Write four absurd but coherent sentences in the voice of a confused medieval chronicler who has been hired to document the Q3 results of a modern SaaS company.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Here are four sentences in the voice of a confused medieval chronicler documenting SaaS Q3 results:\n\n---\n\n\"On the fourteenth day of the harvest month, the Lords of the Dashboard did convene in a glass-walled great hall and declared that 'churn,' which I had assumed to be a device for making butter, had increased most grievously in the SMB segment, bringing sorrow unto the faces of those who clutch their small glowing rectangles.\"\n\n\"The wizard called the CFO did conjure a fearsome chart upon the wall using no candle nor flame, and the red line descending toward the bottom of the parchment was met with a silence so profound that I checked mine own pulse to confirm I had not perished.\"\n\n\"It is written that the ARR — a figure which the scribes speak of with the reverence one normally reserves for holy relics or a particularly good harvest — hath grown by twelve percent, which the assembled nobles received with the muted nodding of men who had hoped for fifteen.\"\n\n\"I cannot explain the nature of the Cloud, for I have looked upward many times and seen only sky, and when I asked the young squire where the data was stored, he gestured at the ceiling with the weary expression of a man who has answered this question before and expects to answer it many times yet before he dies.\"",
+  "usage": {
+    "prompt_tokens": 43,
+    "completion_tokens": 296,
+    "total_tokens": 339,
+    "cost": 0.004569,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004569,
+      "upstream_inference_prompt_cost": 0.000129,
+      "upstream_inference_completions_cost": 0.00444
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833835900
+}

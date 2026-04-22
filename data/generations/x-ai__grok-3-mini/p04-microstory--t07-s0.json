@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-3-mini",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "The old lighthouse keeper trudged through his nightly routine, oiling the massive lamp that pierced the thick fog enveloping the rocky coast. The sea's relentless roar muffled the world, leaving him alone with the cold wind and swirling mist. As he peered out from the tower's gallery, a peculiar shape materialized in the haze, not the familiar outline of waves or distant rocks.\n\nHis breath caught; it was a small, weathered boat, adrift and silent, bobbing perilously close to the jagged shore. Inside, wrapped in tattered sails, lay an ornate chest, its brass lock glinting faintly in the lighthouse beam. Heart pounding, he descended the spiral stairs and hauled the boat ashore, uncovering treasures long lost to the sea—ancient coins and a faded map.\n\nThe discovery stirred a mix of wonder and unease, transforming his isolated vigil into a riddle of the deep. As the fog thinned with dawn, he pondered the secrets it had unwittingly delivered.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 695,
+    "total_tokens": 726,
+    "cost": 0.0003559,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 4,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0003559,
+      "upstream_inference_prompt_cost": 0.0000084,
+      "upstream_inference_completions_cost": 0.0003475
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 503,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-3-mini",
+  "ts": 1776832451129
+}

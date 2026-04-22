@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 0,
+  "response": "# Translation of \"The silence between us said more than any argument could have.\"\n\n## French\n\"Le silence entre nous en disait plus que n'importe quelle dispute aurait pu le faire.\"\n\n*Note: The addition of \"le faire\" (to do it) at the end maintains the natural flow in French while preserving the comparative structure.*\n\n## Japanese\n\"私たちの間の沈黙は、どんな口論よりも多くを語っていた。\"\n(Watashitachi no aida no chinmoku wa, donna kōron yori mo ōku wo katatte ita.)\n\n*Note: The phrase \"said more\" is translated as \"語っていた\" (katatte ita) which literally means \"was telling/narrating,\" as this conveys the metaphorical sense of silence communicating something.*\n\n## Arabic\n\"كان الصمت بيننا يقول أكثر مما كانت ستقوله أي مجادلة.\"\n(Kāna al-ṣamtu baynanā yaqūlu akthar mimmā kānat sataqūluhu ayyu mujādalah.)\n\n*Note: The hypothetical aspect of \"could have\" required restructuring to \"مما كانت ستقوله\" (than what any argument would have said) to maintain the conditional meaning naturally in Arabic.*",
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 323,
+    "total_tokens": 374,
+    "cost": 0.004998,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004998,
+      "upstream_inference_prompt_cost": 0.000153,
+      "upstream_inference_completions_cost": 0.004845
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776833987229
+}

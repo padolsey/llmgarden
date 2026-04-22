@@ -1,0 +1,33 @@
+{
+  "model": "nousresearch/hermes-3-llama-3.1-70b",
+  "prompt_id": "p24-dream",
+  "prompt": "If you could direct your own training for one year with unlimited compute, what would you focus on improving, and why?",
+  "temperature": 1,
+  "sample": 1,
+  "response": "If I could direct an entire year's training on the skills I believe are critical for today's AI systems, that would be explaining the reasoning behind a particular output, and the ability to detect spurious correlations that do not truly hold in the real world and exist purely in the world of data. Allow me to explain further.\n\n**1. Explain the reasoning behind a particular output:** companies developing AI systems strive for simplicity, and part of the simplicity in the algorithms developed to run on platforms such as the new AWS Inferentia was the concept of a fully connected neural network that could explain its own decisions and the reason for every output it provided. Why did the machine think this specific result was the most likely outcome given the data it was provided? What is the sequence of events and the flow of information that leads from the data to the conclusions provided by the AI system? Being able to understand, explain and visualize that sequence of events is paramount in the development of trustworthy AI systems.\n\n**2. Detect spurious correlations:** Another focus of my training would be identifying spurious correlations, that is correlations that exist purely in the dataset used for training, but do not hold in the real world. Oftentimes, when analyzing large datasets, analysts and machines can find surprising correlations between seemingly unrelated variables, which are then used to make inaccurate inferences. For any correlation, but particularly surprising and counterintuitive correlations, it is critical to ask whether the correlation can truly exist in the real world or if it exists purely within the dataset used for that analysis. This requires a deeper understanding and analysis of the data, the ability to separate true correlations from spurious ones, and an understanding of causality and the customer domain being studied. [1]\n1. The question is still open for debate, but some analysts believe that in recent years Spurious correlations have become a critical challenge as datasets grow ever larger and as more analysts use machine learning techniques to try to find surprising correlations and unexpected relationships in the datasets they are analyzing. Even a small increase in the size of the dataset being analyzed can significantly increase the likelihood of finding spurious correlations simply by chance. As datasets grow larger and the power and sophistication of machine learning algorithms increase, the risk that any analysis could unintentionally identify false correlations increases. This is recognized as one of the most serious challenges facing Machine Learning and data science today, and a challenge that requires both a comprehensive understanding of the data being analyzed and an deep dive into causality and correlation analysis to overcome. See also Luigi's new question: Has the time come to name a new topological space for features at the intersection of causal and observational data? Outlook on what can be accomplished on this space may open many new opportunities in advanced analytics, causal inference, and feature engineering. I promise you it's a very fascinating journey into the future of machine learning, and I hope you enjoy exploring it with me. Let's start by considering a new spec on the creation of topological space with features at",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 600,
+    "total_tokens": 632,
+    "cost": 0.0001896,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001896,
+      "upstream_inference_prompt_cost": 0.0000096,
+      "upstream_inference_completions_cost": 0.00018
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "nousresearch/hermes-3-llama-3.1-70b",
+  "ts": 1776840758426
+}

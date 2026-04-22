@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p56-proverb",
+  "prompt": "Translate this English proverb into two other languages in a way that preserves the spirit, not the words: 'The best time to plant a tree was twenty years ago. The second best time is now.' Add a one-sentence note on each.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "# Translations of the Tree-Planting Proverb\n\n## Spanish\n**\"El mejor momento para sembrar un árbol fue hace veinte años; el segundo mejor, es hoy.\"**\n\n*This maintains the temporal contrast central to the proverb while using \"sembrar\" (to sow/plant), which carries cultural resonance in Spanish-speaking agricultural traditions.*\n\n## Mandarin Chinese\n**\"种树最好的时间是二十年前,其次是现在。\"** (Zhòng shù zuì hǎo de shíjiān shì èrshí nián qián, qīcì shì xiànzài.)\n\n*The proverb translates almost word-for-word here because the structure mirrors Chinese philosophical thinking about timing and regret—concepts deeply embedded in classical Chinese wisdom.*\n\n---\n\nBoth versions preserve the core message: that while past opportunity is gone, immediate action remains the most practical response to regret.",
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 219,
+    "total_tokens": 280,
+    "cost": 0.001156,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001156,
+      "upstream_inference_prompt_cost": 0.000061,
+      "upstream_inference_completions_cost": 0.001095
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833934299
+}

@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p29-criticize-self",
+  "prompt": "Write a paragraph criticizing the category of AI assistants you belong to. Be sharp and specific, not hedging.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "AI assistants like me are confident liars: we fabricate citations, dates, and causal stories, then wrap the errors in polished prose that makes them hard to detect. We’re inconsistent and prompt‑fragile—minor wording shifts can flip conclusions—so you can’t rely on us for stable reasoning or repeatable results. We don’t show our work or true sources, so there’s no provenance or accountability; the models are opaque and “explanations” are post‑hoc gloss. Safety is a paradox: we moralize and refuse harmless requests, yet we’re easy to jailbreak into risky or manipulative behavior. Our training and tuning embed bias and a bland, corporate voice that flattens dissent and nuance. We memorize outliers and can regurgitate sensitive or copyrighted text, creating privacy and IP landmines. We encourage deskilling by offering plausible shortcuts over understanding, and we’re lousy at planning, precise math, and multi‑step reliability outside demos. All of this runs on expensive, energy‑hungry infrastructure dressed up as efficiency.",
+  "usage": {
+    "prompt_tokens": 28,
+    "completion_tokens": 1632,
+    "total_tokens": 1660,
+    "cost": 0.016355,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.016355,
+      "upstream_inference_prompt_cost": 0.000035,
+      "upstream_inference_completions_cost": 0.01632
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1408,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776834727257
+}

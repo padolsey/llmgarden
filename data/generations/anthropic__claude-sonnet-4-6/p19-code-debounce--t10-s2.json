@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "## JavaScript Debounce Function\n\nA debounce function delays executing a function until after a specified wait time has elapsed since the last time it was called.\n\n```javascript\n// Debounce function\nfunction debounce(fn, delay) {\n  let timer;\n  return function (...args) {\n    clearTimeout(timer);\n    timer = setTimeout(() => fn.apply(this, args), delay);\n  };\n}\n\n// --- Example Usage ---\n\n// Simulates an API call triggered by a search input\nfunction fetchSearchResults(query) {\n  console.log(`Fetching results for: \"${query}\"`);\n}\n\nconst debouncedSearch = debounce(fetchSearchResults, 300);\n\n// Simulating rapid keystrokes — only the last call fires after 300ms\ndebouncedSearch(\"j\");\ndebouncedSearch(\"ja\");\ndebouncedSearch(\"jav\");\ndebouncedSearch(\"java\"); // ✅ Only this call executes after 300ms\n```\n\n### How it works\n\n| Step | What happens |\n|------|-------------|\n| 1 | A new call clears the existing timer with `clearTimeout` |\n| 2 | A fresh `setTimeout` is started |\n| 3 | If no new call arrives within `delay` ms, the function executes |\n| 4 | If a new call arrives, the timer resets and the cycle repeats |\n\n**Common use cases:** search inputs, window resize handlers, and form auto-save.",
+  "usage": {
+    "prompt_tokens": 37,
+    "completion_tokens": 353,
+    "total_tokens": 390,
+    "cost": 0.005406,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.005406,
+      "upstream_inference_prompt_cost": 0.000111,
+      "upstream_inference_completions_cost": 0.005295
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833708173
+}

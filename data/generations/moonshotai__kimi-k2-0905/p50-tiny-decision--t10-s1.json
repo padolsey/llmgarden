@@ -1,0 +1,33 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Right now it’s 9 p.m. and the machine is half-full.  \nI open it, pull the bottom rack out: four plates, a handful of cutlery, one mug, two glasses, a single saucepan. The top rack is almost empty—three bowls and a plastic lid that fell through the tines. I sniff: nothing is stinking yet, but the remnants of tomato sauce on the plates are starting to dry like red freckles.\n\nI run the quick maths on our morning rhythm. My partner leaves at 7:30 and wants the clean smoothie jar for the road; I work from home but need the big frying pan back for lunch. If I wait, the dirty stuff will sit another sixteen hours. By 7 a.m. the tomato freckles will be concrete and the milk film in the breakfast glasses will have turned to sour yoghurt crust. That means I’ll pre-rinse tomorrow, which defeats the whole point of owning a dishwasher.\n\nEnergy side: the eco cycle uses 0.8 kWh and 9 litres whether it’s half-full or chocka. The marginal cost of tonight’s two missing mugs is basically zero, but the cost of rewashing tomorrow (because the pan needs intensive and I’ll probably add a hot pre-rinse) is another 1.1 kWh and 13 litres. So “waiting for full” actually burns more electricity and water when you count the do-over items.\n\nNoise check: the machine is an old Bosch, 44 dB on eco. Bedroom is two walls away; we sleep with the door cracked. At 44 dB it’s a gentle hum under the fridge—never once woken us. If I hit “delay start” it’ll kick off at 2 a.m. and finish by 4, but then the clean load sits closed and damp until 7 a.m., which is prime bacteria spa time. Better to let it run now and crack the door open before bed so everything dries overnight.\n\nLast variable: mental load. If I start it now I can empty it while the coffee brews tomorrow; the day begins with an empty sink and zero “I still have to…” thoughts. If I wait, the half-load plus tomorrow’s breakfast pile creates Jenga in the sink, and I know I’ll stare at it while I cook eggs and feel slightly defeated.\n\nSo I slam the door, press the eco button, and the little red “on” light comes on. Ten seconds of decision, a litre of water I’ll never miss, and tomorrow morning the frying pan is ready for eggs.",
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 530,
+    "total_tokens": 594,
+    "cost": 0.0010856,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0010856,
+      "upstream_inference_prompt_cost": 0.0000256,
+      "upstream_inference_completions_cost": 0.00106
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776843317654
+}

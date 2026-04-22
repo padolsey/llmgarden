@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "English:\nWelcome aboard! I'm excited to work together—please reach out if I can help you get settled.\nNote: Friendly, first-name-basis tone common in many English-speaking workplaces; approachable without being too informal.\n\nSpanish:\n¡Qué gusto tenerte en el equipo! Me alegra que te unas; cuenta conmigo para lo que necesites mientras te integras.\nNote: Uses tú for a warm, modern collegial vibe; usted would be the safer formal choice with seniors or in conservative settings.\n\nFrench:\nBienvenue parmi nous ! Je suis ravi(e) de travailler avec vous ; n’hésitez pas à me solliciter pour toute question.\nNote: Polite vous keeps professional distance while staying warm; tutoiement typically follows mutual agreement.\n\nJapanese:\nチームへようこそ！これから一緒に働けるのを楽しみにしています。何かあれば、いつでも声をかけてくださいね。\nNote: Desu/masu-level politeness signals respect and friendliness; plain form would feel too casual at first.\n\nArabic (MSA):\nأهلاً وسهلاً بك في الفريق! يسعدني أننا سنعمل معاً، وإذا احتجت أي مساعدة فأنا هنا لدعمك.\nNote: Formal-neutral MSA is courteous and widely understood; many shift to local dialects for warmer, informal chat later.",
+  "usage": {
+    "prompt_tokens": 40,
+    "completion_tokens": 2203,
+    "total_tokens": 2243,
+    "cost": 0.02208,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.02208,
+      "upstream_inference_prompt_cost": 0.00005,
+      "upstream_inference_completions_cost": 0.02203
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1920,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776835166051
+}

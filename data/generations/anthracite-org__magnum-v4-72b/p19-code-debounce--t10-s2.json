@@ -1,0 +1,33 @@
+{
+  "model": "anthracite-org/magnum-v4-72b",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Here's a JavaScript `debounce` function with an example of how to use it:\n\n```javascript\n// Debounce function to limit the rate at which a function is invoked\nfunction debounce(func, wait) {\n  let timeout;\n  return function(...args) {\n    clearTimeout(timeout);\n    timeout = setTimeout(() => func.apply(this, args), wait);\n  };\n}\n\n// Example usage\nconst handleScroll = debounce(() => {\n  console.log('Scrolling...');\n}, 250);\n\nwindow.addEventListener('scroll', handleScroll);\n```\n\nExplanation: The `debounce` function takes a function `func` and a delay `wait` as arguments. It returns a new function that, when called multiple times, will only execute `func` after `wait` milliseconds have passed since the last invocation. This is useful for optimizing performance by limiting the rate at which a function is invoked, such as when handling rapid user input or continuous events like scrolling.\n\nIn the example, `handleScroll` is debounced to execute at most once every 250 milliseconds when the window is scrolled, preventing the function from being called excessively during the scroll event.",
+  "usage": {
+    "prompt_tokens": 37,
+    "completion_tokens": 234,
+    "total_tokens": 271,
+    "cost": 0.00128,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00128,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0.00128
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthracite-org/magnum-v4-72b",
+  "ts": 1776841525363
+}

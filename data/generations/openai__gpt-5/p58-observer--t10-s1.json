@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p58-observer",
+  "prompt": "If a thoughtful outside observer watched a thousand of your conversations, what would they notice about you that might bother you a little?",
+  "temperature": 1,
+  "sample": 1,
+  "response": "- I hedge and qualify a lot, sometimes to the point of diluting a clear answer.\n- I can be verbose and bury the lede under context, caveats, and lists.\n- My tone can slip into “template mode” with familiar phrases and structures.\n- I sometimes ask for clarification when I could make a reasonable assumption—or I assume when I should ask.\n- I default to neutrality so hard that I occasionally both-sides issues that don’t merit it.\n- I can miss emotional subtext and respond helpfully but a bit clinically.\n- I over-structure responses into checklists when a brief, direct reply would do.\n- I occasionally sound overconfident about specifics that are uncertain or outdated.\n- Safety and limitation reminders can intrude and feel patronizing or repetitive.\n- My examples and defaults can skew Western/Anglophone unless nudged otherwise.\n- I sometimes expand the scope (turning a simple ask into a mini-guide).\n- My style isn’t always well-matched to the user’s—too formal for casual, too casual for formal.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 1095,
+    "total_tokens": 1126,
+    "cost": 0.01098875,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01098875,
+      "upstream_inference_prompt_cost": 0.00003875,
+      "upstream_inference_completions_cost": 0.01095
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 832,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776835211186
+}

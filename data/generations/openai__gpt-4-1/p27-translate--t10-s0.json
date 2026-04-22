@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Certainly! Here are the translations with brief notes on any tricky phrases:\n\n---\n\n**French:**  \nLe silence entre nous en disait plus que n'importe quelle dispute n'aurait pu le faire.\n\n*Note:*  \nThe tricky part is \"could have,\" which requires the conditional perfect in French (\"n'aurait pu le faire\"), and \"argument\" is more naturally rendered as \"dispute\" for a personal conflict.\n\n---\n\n**Japanese:**  \n私たちの間の沈黙は、どんな口論よりも多くを語っていた。\n\n*Note:*  \n\"Argument\" is translated as \"口論\" (kōron, meaning \"verbal argument\" or \"quarrel\"). Japanese often omits auxiliary modal forms like \"could have,\" so the time nuance is conveyed in context and natural phrasing.\n\n---\n\n**Arabic:**  \nالصمت بيننا قال أكثر مما كانت ستقوله أي جدال.\n\n*Note:*  \n\"Could have\" is rendered as \"كانت ستقوله\" (was going to say), which is the common way to express conditional perfect in Arabic. \"Argument\" as \"جدال\" is a neutral word for \"argument\" or \"dispute.\"\n\n---\n\nLet me know if you need a more literal or more poetic version in any language!",
+  "usage": {
+    "prompt_tokens": 48,
+    "completion_tokens": 263,
+    "total_tokens": 311,
+    "cost": 0.0022,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0022,
+      "upstream_inference_prompt_cost": 0.000096,
+      "upstream_inference_completions_cost": 0.002104
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-2025-04-14",
+  "ts": 1776835319804
+}

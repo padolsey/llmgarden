@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-30b-a3b-instruct-2507",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "The water cycle is a continuous and dynamic process that circulates water throughout the Earth’s systems, driven by the sun's energy and the force of gravity. It begins when the sun heats water in oceans, lakes, and rivers, transforming it into vapor that rises into the atmosphere through evaporation. Plants also contribute by releasing water vapor through their leaves in a process called transpiration, which collectively enriches the air with moisture. As the warm, moist air ascends, it cools and condenses around tiny particles in the atmosphere, forming clouds. When the water droplets within these clouds grow large and heavy enough, they fall back to the Earth as precipitation—whether in the form of rain, snow, sleet, or hail. This water then flows over the land as runoff, replenishing rivers and lakes, or seeps into the ground to become groundwater, eventually making its way back to oceans or being absorbed by plants. Over time, the water returns to the surface through springs or is drawn up by plant roots, only to evaporate once more, continuing the endless loop that sustains life on our planet.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 226,
+    "total_tokens": 262,
+    "cost": 0.0000714,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000714,
+      "upstream_inference_prompt_cost": 0.0000036,
+      "upstream_inference_completions_cost": 0.0000678
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-30b-a3b-instruct-2507",
+  "ts": 1776839187615
+}

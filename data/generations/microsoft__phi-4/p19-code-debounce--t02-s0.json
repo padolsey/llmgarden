@@ -1,0 +1,33 @@
+{
+  "model": "microsoft/phi-4",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "A `debounce` function in JavaScript is used to limit the rate at which a function can fire, ensuring it only executes after a specified delay since the last time it was invoked. This is particularly useful for handling events that can fire frequently, such as window resizing or keypress events.\n\nHere's a simple implementation of a `debounce` function along with an example of how to use it:\n\n```javascript\nfunction debounce(func, delay) {\n  let timeoutId;\n  return function(...args) {\n    const context = this;\n    clearTimeout(timeoutId);\n    timeoutId = setTimeout(() => func.apply(context, args), delay);\n  };\n}\n\n// Example usage:\n// A function that logs the window width\nfunction logWidth() {\n  console.log('Window width:', window.innerWidth);\n}\n\n// Create a debounced version of logWidth with a 300ms delay\nconst debouncedLogWidth = debounce(logWidth, 300);\n\n// Attach the debounced function to the window resize event\nwindow.addEventListener('resize', debouncedLogWidth);\n```\n\nIn this example, `logWidth` is a function that logs the current window width. The `debounce` function wraps `logWidth` to ensure it only executes once every 300 milliseconds, even if the `resize` event fires more frequently.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 265,
+    "total_tokens": 301,
+    "cost": 0.00003962,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00003962,
+      "upstream_inference_prompt_cost": 0.00000252,
+      "upstream_inference_completions_cost": 0.0000371
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "microsoft/phi-4",
+  "ts": 1776830362793
+}

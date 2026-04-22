@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1",
+  "prompt_id": "p11-tradeoffs",
+  "prompt": "A small team is choosing between writing software in TypeScript or Python for a new internal data tool. Walk through how you would help them decide, in prose (not a bulleted list).",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "When helping a small team choose between TypeScript and Python for a new internal data tool, I would begin by understanding the specific requirements and context of their project. I’d ask about the nature of the data tool: is it primarily a web application, a command-line utility, or a backend service? Is it intended for data analysis, automation, or user interaction? The answers to these questions can significantly influence the decision.\n\nIf the tool is going to be a web-based application with a user interface, TypeScript might be a natural fit, especially if the team is already familiar with JavaScript or plans to use frameworks like React or Angular. TypeScript’s static typing can help catch errors early and make the codebase more maintainable as the project grows. Its integration with modern web development tools and strong support for modular, scalable architectures can be a significant advantage for building robust front-end or full-stack applications.\n\nOn the other hand, if the tool is focused on data manipulation, analysis, or automation—tasks that are often script-heavy and require rapid prototyping—Python could be the better choice. Python’s concise syntax, extensive standard library, and rich ecosystem of data science libraries (such as pandas, NumPy, and Jupyter) make it particularly well-suited for these kinds of tasks. Python is also widely used in the data community, so finding resources, libraries, and support is generally easier.\n\nAnother important consideration is the team’s existing expertise. If the team is more comfortable with one language over the other, leveraging that familiarity can speed up development and reduce onboarding time. For example, if the team has strong JavaScript or TypeScript experience, they might be more productive and write safer code in TypeScript. Conversely, if they have a background in Python, especially in data-related projects, Python could allow them to iterate quickly and take advantage of familiar tools.\n\nI’d also consider the long-term maintainability of the tool. TypeScript’s static typing can help prevent certain classes of bugs and make refactoring safer, which is valuable as the codebase grows or as team members change. Python, while dynamically typed, is often praised for its readability and simplicity, which can also aid maintainability, especially for smaller teams or projects that are not expected to become very large or complex.\n\nFinally, I’d look at integration needs. If the tool needs to interface with other systems or services, the available APIs and libraries in each language could sway the decision. For example, if the tool needs to interact with a lot of web APIs or cloud services that have strong Python SDKs, Python might be preferable. If it needs to be embedded in a larger TypeScript/JavaScript codebase, or if it needs to run in the browser, TypeScript would be the obvious choice.\n\nIn summary, I would guide the team through a discussion of their project’s technical requirements, their own expertise, the expected evolution of the tool, and the broader ecosystem around each language. By weighing these factors together,",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 600,
+    "total_tokens": 645,
+    "cost": 0.00489,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00489,
+      "upstream_inference_prompt_cost": 0.00009,
+      "upstream_inference_completions_cost": 0.0048
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-2025-04-14",
+  "ts": 1776828175818
+}

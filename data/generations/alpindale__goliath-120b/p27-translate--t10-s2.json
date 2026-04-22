@@ -1,0 +1,33 @@
+{
+  "model": "alpindale/goliath-120b",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 2,
+  "response": " French: « Le silence entre nous a dit plus que tout argument ne pourrait le faire. »\n\nNote: The literal translation for \"said more than\" in French would be \"a dit plus que,\" but it is more natural to use \"a dit plus que tout\" in this context.\n\nJapanese: 「私たちの間の沈黙は、どれだけ議論しても云いきれないことを伝えました。」\n\nNote: The literal translation for \"said more than any argument could have\" in Japanese would be \"議論しても云いきれないことを伝えました,\" but it is more natural to use \"どれだけ議論しても云いきれないことを伝えました\" in this context, which emphasizes the fact that even a lot of arguing couldn't have conveyed as much.\n\nArabic: 「الص\";\r\nNote: The direct translation for \"The silence between us said more than any argument could have\" is ‎\"الص asset; omission=\"true\" implied=\"true\" annotation=\"\"></switch>\n\nThis is a free translation of the phrase that conveys the nuance of the original sentence: \"The silence between us was louder than all the words that could have been said.\"",
+  "usage": {
+    "prompt_tokens": 81,
+    "completion_tokens": 313,
+    "total_tokens": 394,
+    "cost": 0.00265,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00265,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0.00265
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "alpindale/goliath-120b",
+  "ts": 1776842299761
+}

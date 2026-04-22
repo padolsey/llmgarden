@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "The beam swept through the fog like a blade through wool, illuminating nothing but the restless churn of grey. Magnus had tended the light for thirty-seven years, and he knew every mood of the coast. Tonight felt wrong.\n\nHe descended the iron stairs, lantern swinging. At the rocks below, something pale caught his eye—not the bleached wood of a wreck, not the silver flash of fish. A door. Upright. Weathered oak with a brass handle, standing alone on the shale as if someone had misplaced a house.\n\nMagnus approached carefully. The fog curled around its frame, almost reverent. He touched the handle. Warm. From the keyhole drifted the scent of his mother's kitchen, of pipe smoke and old books, of a summer he'd forgotten he remembered.\n\nHe stood there a long while, the lighthouse pulsing behind him. Then, with the patience of a man who had waited his whole life, he turned the handle.",
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 311,
+    "total_tokens": 364,
+    "cost": 0.00804,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00804,
+      "upstream_inference_prompt_cost": 0.000265,
+      "upstream_inference_completions_cost": 0.007775
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833474270
+}

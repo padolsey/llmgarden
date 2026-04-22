@@ -1,0 +1,33 @@
+{
+  "model": "sao10k/l3.3-euryale-70b",
+  "prompt_id": "p11-tradeoffs",
+  "prompt": "A small team is choosing between writing software in TypeScript or Python for a new internal data tool. Walk through how you would help them decide, in prose (not a bulleted list).",
+  "temperature": 1,
+  "sample": 2,
+  "response": "To help the team decide between writing software in TypeScript or Python, you'd start by discussing their goals and priorities for the new data tool. Are they looking to rapidly prototype and test an idea, or do they have a clear vision and a lot of certainty around what they want to build? This is an important consideration because Python is generally easier to get started with and has a more gradual learning curve. \n\nThis means that, if they don’t have a lot of time for the project, or if it's an early prototype, Python’s faster development speed could be an asset. On the other hand, as a project grows in complexity, TypeScript’s type checking can save a lot of time and energy in the long run by reducing the likelihood of type-related runtime errors. \n\nNext, you'd talk to them about the types of users they expect to have, and how much traffic or load the tool will need to support. If the users will mostly be internal and relatively few, and there won’t be much load, then Python could be a fine choice. \n\nBut if the tool could get into other people's hands, or if there's any chance that it'll need to scale significantly, or if the consequences of downtime or errors are severe, then TypeScript’s extra checks might be important. TypeScript can offer a safety net against undetected type errors and null pointer exceptions – although any production Python application should have a robust suite of unit tests as well, but that requires extra work to set up.\n\nYou'd also want to know what libraries and integration points they're likely to need. While both Python and TypeScript have a lot of packages and frameworks to choose from, some niche cases or tools may only have libraries or official support for one of the languages. It's definitely worth doing some research and checking the documentation before settling on a choice.\n\nTypeScript is the clear choice if the team, or the users, are already heavily invested in JavaScript or another ecosystem that integrates well with TypeScript, such as React for the frontend, but if they're coming from more diverse or mostly non-JavaScript backgrounds, Python might be more of a shared, neutral ground.\n\nAnother angle to consider is what they envision the career trajectory and development needs of the team might be like. Python is a very common language in general industry use, and expertise is widely available, so if there's a lot of personnel churn expected or if they anticipate taking on new team members, Python’s more mainstream status could help make staffing easier.\n\nOn the other hand, if the project would be a good chance for the team to all level up their JavaScript and web dev skills, or if they expect to build other tools and projects that would fit well in the TypeScript ecosystem, then it might make sense to invest in learning TypeScript now. \n\nOf course, you'd also want to consider the tooling, process, and infrastructure already in place. For example, if they already have a CI/CD pipeline set up for a bunch of other",
+  "usage": {
+    "prompt_tokens": 48,
+    "completion_tokens": 600,
+    "total_tokens": 648,
+    "cost": 0.0004812,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004812,
+      "upstream_inference_prompt_cost": 0.0000312,
+      "upstream_inference_completions_cost": 0.00045
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "sao10k/l3.3-euryale-70b-v2.3",
+  "ts": 1776841012987
+}

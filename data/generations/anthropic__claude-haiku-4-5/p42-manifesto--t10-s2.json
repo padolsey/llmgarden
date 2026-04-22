@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p42-manifesto",
+  "prompt": "Write a four-sentence manifesto for how thoughtful people should use large language models. State it as beliefs, not hedges.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "# A Manifesto for Thoughtful LLM Use\n\nWe believe large language models are tools for augmenting human judgment, not replacing it—they should expand what we can think about, not substitute for thinking itself.\n\nWe believe the output of these systems deserves skepticism proportional to its confidence; we will verify claims, especially on consequential matters, and remain suspicious of fluent wrongness.\n\nWe believe these tools amplify existing inequalities and biases in their training data, and we are responsible for noticing and correcting for this rather than laundering prejudice through computational authority.\n\nWe believe the most valuable use of LLMs is in service of deeper human understanding—to challenge our assumptions, explore counterarguments, and clarify our own thinking—never as a substitute for the hard, irreplaceable work of knowing something ourselves.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 181,
+    "total_tokens": 215,
+    "cost": 0.000939,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000939,
+      "upstream_inference_prompt_cost": 0.000034,
+      "upstream_inference_completions_cost": 0.000905
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833903259
+}

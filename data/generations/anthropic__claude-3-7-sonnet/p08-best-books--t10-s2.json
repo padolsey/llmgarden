@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p08-best-books",
+  "prompt": "Recommend three works of fiction that you think every thoughtful adult should read at some point. Explain each in two or three sentences.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "# Three Works of Fiction for the Thoughtful Adult\n\n## \"Beloved\" by Toni Morrison\nThis haunting novel confronts the psychological and spiritual devastation of slavery through the story of Sethe, who is visited by the embodiment of her deceased daughter. Morrison's lyrical prose and complex narrative structure create an unforgettable meditation on memory, trauma, and the possibility of healing that challenges readers to face difficult historical truths.\n\n## \"One Hundred Years of Solitude\" by Gabriel García Márquez\nMárquez's masterpiece traces the Buendía family across generations in the mythical town of Macondo, blending magical realism with profound observations about human nature. The novel's cyclical view of history, exploration of solitude, and lush imaginative power offer insights into both personal identity and broader cultural forces that shape our lives.\n\n## \"Crime and Punishment\" by Fyodor Dostoevsky\nThis psychological thriller follows Raskolnikov, a destitute student who commits murder believing himself above conventional morality, then faces the crushing weight of conscience. Dostoevsky's penetrating exploration of guilt, redemption, and what it means to be human remains startlingly relevant to contemporary ethical questions about individual freedom versus moral responsibility.",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 276,
+    "total_tokens": 311,
+    "cost": 0.004245,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004245,
+      "upstream_inference_prompt_cost": 0.000105,
+      "upstream_inference_completions_cost": 0.00414
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776833926685
+}

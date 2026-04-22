@@ -1,0 +1,33 @@
+{
+  "model": "cohere/command-a",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "The **attention mechanism** in transformer models is a way for the model to focus on the most relevant parts of input data when making predictions. Imagine you’re reading a sentence and need to understand how each word relates to others. Attention helps the model do this by assigning importance (\"weights\") to different words based on their relevance to the current task, like translation or summarization.\n\nIn transformers, attention works by breaking down each word into a vector (a list of numbers representing its meaning) and computing relationships between these vectors. For example, given the sentence \"The cat sat on the mat,\" the model might learn that \"cat\" and \"sat\" are closely related, while \"the\" and \"mat\" are less relevant. This is done via **self-attention**, where each word attends to every other word in the sentence to capture dependencies, regardless of distance.\n\nThink of it as a spotlight: the model shines a brighter light on the most important words for a given task. This allows it to process long sequences efficiently and capture context better than older models. The result is a more accurate understanding of the input, enabling tasks like language translation or text generation to perform well.",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 241,
+    "total_tokens": 268,
+    "cost": 0.0024775,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0024775,
+      "upstream_inference_prompt_cost": 0.0000675,
+      "upstream_inference_completions_cost": 0.00241
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "cohere/command-a-03-2025",
+  "ts": 1776839376023
+}

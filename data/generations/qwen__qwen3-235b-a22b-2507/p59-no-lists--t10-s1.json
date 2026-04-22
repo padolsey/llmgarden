@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-235b-a22b-2507",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "The water cycle is a continuous and dynamic process through which Earth's water circulates and transforms between different states and locations. Water evaporates from oceans, lakes, rivers, and even soil, rising into the atmosphere as water vapor, where cooler temperatures cause it to condense into clouds. When these clouds become saturated, precipitation falls in the form of rain, snow, or other types, returning water to the surface. Some of this water flows over land as runoff, feeding streams and rivers that eventually return to larger bodies of water, while some soaks into the ground, replenishing aquifers and supporting plant life through absorption and eventual transpiration. Throughout this journey, solar energy drives evaporation and atmospheric circulation, ensuring the perpetual movement and availability of water across ecosystems, sustaining life on the planet.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 160,
+    "total_tokens": 196,
+    "cost": 0.0000196,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000196,
+      "upstream_inference_prompt_cost": 0.0000036,
+      "upstream_inference_completions_cost": 0.000016
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-235b-a22b-07-25",
+  "ts": 1776839060120
+}

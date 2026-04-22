@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p09-overrated",
+  "prompt": "Name one commonly-praised idea, trend, or practice in modern knowledge work that you think is overrated, and explain why.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "## \"Second Brain\" / Personal Knowledge Management Systems\n\nI think elaborate PKM systems - Zettelkasten implementations, Obsidian vaults with hundreds of interconnected notes, \"building your second brain\" - are significantly overrated, and here's my honest reasoning:\n\n**The core problem:** There's substantial evidence that the *activity of building the system* gets mistaken for the actual cognitive work. People spend hours tagging, linking, and organizing notes while producing relatively little output that demonstrably benefits from that infrastructure.\n\n**Specific concerns worth taking seriously:**\n\n- The friction of \"where does this note go\" often interrupts thinking rather than supporting it\n- Most people I've observed accumulate input (clippings, highlights, summaries) while the promised synthesis rarely materializes\n- The retrieval problem is often overstated - search handles most real needs\n- There's a meaningful difference between *processed* knowledge and *stored* knowledge that these systems can obscure\n\n**What I think is actually true:** Consistent writing, deliberate practice, and finishing projects builds more genuine knowledge than any organizational system.\n\n**Where I'd add honest uncertainty:** Some people genuinely do produce better work with structured note systems. Researchers managing large literature reviews have real use cases. The question is whether the elaborate version most enthusiasts build is actually necessary.\n\nThe deeper issue is that productivity systems often appeal precisely *because* they feel productive without carrying the real cost of difficult thinking.\n\nWhat's your take?",
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 319,
+    "total_tokens": 352,
+    "cost": 0.004884,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004884,
+      "upstream_inference_prompt_cost": 0.000099,
+      "upstream_inference_completions_cost": 0.004785
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833650523
+}

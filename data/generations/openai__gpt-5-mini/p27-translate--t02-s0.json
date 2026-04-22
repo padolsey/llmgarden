@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "French:\nLe silence entre nous en disait plus que n'importe quelle dispute n'aurait pu le faire.\n\nJapanese:\n私たちの間の沈黙は、どんな口論よりも多くを語っていた。\n\nArabic:\nكان الصمت بيننا أبلغ من أي جدالٍ كان يمكن أن يكون.\n\nBrief notes on tricky phrases:\n- \"The silence ... said more\": this personification (silence \"saying\" something) is preserved in all three languages but required slightly different verbs — French \"en disait\", Japanese \"語っていた\" (to \"speak/tell\"), Arabic \"أبلغ\" (more idiomatic: \"more telling/eloquent\") — to sound natural.\n- \"Argument\": I used French \"dispute\", Japanese \"口論\" (or \"議論\" depending on whether you mean quarrel vs. debate), and Arabic \"جدال\". Each choice emphasizes a somewhat emotional disagreement rather than a calm discussion; alternatives could shift tone.",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 1362,
+    "total_tokens": 1409,
+    "cost": 0.00273575,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00273575,
+      "upstream_inference_prompt_cost": 0.00001175,
+      "upstream_inference_completions_cost": 0.002724
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1152,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776828134337
+}

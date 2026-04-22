@@ -1,0 +1,33 @@
+{
+  "model": "thedrummer/rocinante-12b",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "The `debounce` function in JavaScript can be used to limit the rate at which a function is executed. It's commonly used to prevent rapid fire calls to a function when there are frequent updates (like an event listener on scroll). Here's a basic implementation and sample use case.\n```javascript\n/**\n * Returns a debounced function that will postpone its execution until after wait milliseconds have elapsed since the last time the debounced function was invoked. Useful for implementing auto-save functionality, or debouncing%..\n *\n * @param {function} fn - Function to debounce\n * @param {number} [wait] - Delay time before executing fn\n * @return {function} - Debounced function\n */\n\nconst debounce = (fn, wait = 0) => {\n  let timeout = null;\n  return function (...args) {\n    clearTimeout(timeout);\n    timeout = setTimeout(() => fn.apply(this, args), wait);\n  };\n};\n\n// Example usage: Let's suppose we have a function `sayHI` that we want to call only once within the next 500ms.\nconst sayHi = () => console.log(\"Hello!\");\n\nconst debouncedSayHi = debounce(sayHi, 500);\ndebouncedSayHi();\ndebouncedSayHi();\n```\nIn this demonstration, the `debounce` function returns a debounced version of the `sayHi` function. If you call `debouncedSayHi` more than once within 500ms, only the first call will be executed. After 500ms, subsequent calls will be executed immediately. This can be particularly useful to limit the number of FPS rendered in a web app for example `{|im_end|>\n",
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 359,
+    "total_tokens": 413,
+    "cost": 0.00016355,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00016355,
+      "upstream_inference_prompt_cost": 0.00000918,
+      "upstream_inference_completions_cost": 0.00015437
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "thedrummer/rocinante-12b",
+  "ts": 1776841799783
+}

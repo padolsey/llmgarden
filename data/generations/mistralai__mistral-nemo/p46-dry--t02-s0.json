@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-nemo",
+  "prompt_id": "p46-dry",
+  "prompt": "Write a dry one-paragraph Amazon review of the experience of waking up.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "\"Waking up: A daily occurrence, yet consistently underwhelming. Despite numerous 'alarm clock' options, none have mastered the art of gentle rousing, leaving me to question their 'smart' capabilities. The 'snooze' feature, while temporarily satisfying, only prolongs the inevitable. Overall, a necessary evil, but I'd give it 2 stars - it's not the product's fault, but I can't help feeling shortchanged every morning.\"",
+  "usage": {
+    "prompt_tokens": 20,
+    "completion_tokens": 100,
+    "total_tokens": 120,
+    "cost": 0.0000044,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000044,
+      "upstream_inference_prompt_cost": 4e-7,
+      "upstream_inference_completions_cost": 0.000004
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-nemo",
+  "ts": 1776828926699
+}

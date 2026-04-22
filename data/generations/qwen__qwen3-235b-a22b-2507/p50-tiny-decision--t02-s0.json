@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-235b-a22b-2507",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Okay, let’s think this through like a real person standing in the kitchen, not like a textbook.\n\nFirst, I’d notice the actual state of the dishwasher—half-full. That means there’s space, but also that it’s not empty. I’d probably open it and look. Are the dishes inside already dirty? Or are they just clean ones I haven’t put away? (Wait, no—if it’s half-full and I’m deciding whether to run it, they’re probably dirty.) So, yeah, dirty dishes are sitting in there. Maybe they’ve been there since lunch. Are they gross? Like, crusted-on food, or just lightly used? If they’re starting to smell or dry out, that’s annoying—cleaning them later might be harder.\n\nThen I’d think about tonight. Am I going to use more dishes? Probably. Dinner, maybe a snack, a glass later. So by tomorrow, it’ll be full. That part’s reliable. But if I run it now, I’ll have clean dishes tonight. That could be nice—maybe I want a clean mug for tea, or I hate the clutter. But also, running it now means I’m using water and electricity for only half a load. That feels wasteful. Like, I’m paying to clean half as much.\n\nBut wait—what if I run it now, and then after dinner I have more dishes, and I have to run it *again* tomorrow? That’d be worse. So I need to time it right. If I run it now, I’d better not add more dishes to it after I start. So I’d have to hand-wash or leave the new dishes out until the next cycle. Is that a pain? Maybe.\n\nThen there’s the time thing. If I run it now, it’ll be done by bedtime. Clean dishes waiting. Feels satisfying. But if I wait, I wake up to a full dishwasher—also satisfying, but delayed. And if I’m lazy in the morning, I might not run it right away, and then I’m out of clean dishes by lunch. That’s annoying.\n\nAlso, how long does my dishwasher take? If it’s a two-hour cycle, and I start it now, it’s done when I’m trying to relax. But if I start it late at night, maybe it’s noisy and wakes someone up. Or maybe I can delay-start it? Do I have that feature? (I should check.) If I can set it for 2 a.m., that’s ideal—off-peak electricity, quiet, full load. But only if it’ll be full by then.\n\nSo the real question is: is the cost of running half a load (money, water, energy) worth the benefit of having clean dishes tonight and avoiding the risk of running out tomorrow?\n\nFor me, personally, I hate running out of clean dishes. And I hate re-washing dried-on food.",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 600,
+    "total_tokens": 647,
+    "cost": 0.0000647,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000647,
+      "upstream_inference_prompt_cost": 0.0000047,
+      "upstream_inference_completions_cost": 0.00006
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-235b-a22b-07-25",
+  "ts": 1776829316961
+}

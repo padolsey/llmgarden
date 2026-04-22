@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-medium-3.1",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Here’s how I’d actually think through it in real time, with all the messy, practical considerations:\n\n1. **The Immediate Hassle Factor**:\n   - If I run it now, I have to scrape/rinse the dishes in there, maybe rearrange a few things to fit more, and then actually start the cycle. That’s 5-10 minutes of effort *right now* when I might be tired or distracted. If I wait, I can toss everything in tomorrow without thinking—future me handles the work.\n   - But if I wait, tomorrow’s me will have to deal with a bigger pile of dirty dishes in the sink, which might feel overwhelming. Do I trust tomorrow’s me to handle that?\n\n2. **The Dishwasher’s Mood**:\n   - Is it already smelling a little funky in there? If the half-load has been sitting for a day with food residue, running it now might prevent a gross buildup. If the dishes are fairly clean (just glasses and plates with no stuck-on food), waiting is fine.\n   - If I wait, will the new dishes tomorrow be greasier or have dried-on food? (E.g., if I’m cooking pasta or eggs tomorrow, those are worse to let sit.)\n\n3. **The Water/Energy Guilt**:\n   - I *know* running a half-load is less efficient, but how much does that actually matter? If it’s a newer dishwasher, the difference might be negligible. If it’s an old clunker, I might feel guilty wasting water. But is the guilt worth the mental energy?\n   - Alternatively: if I run it now, I can use the \"eco\" or \"light\" cycle since it’s not full, which might balance out the inefficiency.\n\n4. **The Kitchen Flow**:\n   - Do I need any of these dishes *now*? Like, if my favorite mug or a key cutting board is in there, running it tonight means I’ll have it for breakfast. If not, who cares?\n   - Is the sink/drying rack already cluttered? If adding more dishes will make the kitchen feel chaotic, running it now might restore order. If the kitchen’s already clean, waiting is easier.\n\n5. **The Tomorrow Wildcards**:\n   - What’s tomorrow’s schedule like? If I’m leaving early or have a busy day, running it now means one less thing to think about. If I’m home all day, it’s no big deal.\n   - Will tomorrow’s dishes be dishwasher-safe? If I’m hand-washing a bunch of stuff (e.g., cast iron, wood cutting boards), the dishwasher might not fill up anyway, making tonight’s half-load the only viable option.\n\n6. **The Psychological Win**:\n   - Sometimes I run it just to feel like I’ve \"accomplished\" something. If I’m in a cleaning",
+  "usage": {
+    "prompt_tokens": 44,
+    "completion_tokens": 600,
+    "total_tokens": 644,
+    "cost": 0.0012176,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0012176,
+      "upstream_inference_prompt_cost": 0.0000176,
+      "upstream_inference_completions_cost": 0.0012
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-medium-3.1",
+  "ts": 1776832079614
+}

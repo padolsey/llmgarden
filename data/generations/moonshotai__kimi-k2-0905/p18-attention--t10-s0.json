@@ -1,0 +1,33 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Think of attention as a fuzzy database join.\n\nA transformer processes a whole sentence at once.  \nFor every output position it needs to look up which input words matter right now.  \nAttention builds three vectors for every token:\n\n- Query: “What am I looking for?”  \n- Key: “What do I store?”  \n- Value: “What do I return?”\n\nTo produce the next word, the model takes the current token’s query, computes a dot-product score against every earlier key, turns those scores into soft weights via softmax, and returns a weighted average of the values.  \nThat single operation lets distant words talk directly—no left-to-right loop, no fixed-size window.\n\nMulti-head attention just parallelizes this several times (each head learns different kinds of lookups) and concatenates the results.  \nBecause everything is matrix multiplication, the whole sentence is processed in one GPU-friendly shot.  \n\nIn short: attention is a content-addressable, differentiable, parallelizable “find-similar-and-blend” routine that replaces recurrence with large, learned look-ups.",
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 216,
+    "total_tokens": 267,
+    "cost": 0.0004524,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004524,
+      "upstream_inference_prompt_cost": 0.0000204,
+      "upstream_inference_completions_cost": 0.000432
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776842928089
+}

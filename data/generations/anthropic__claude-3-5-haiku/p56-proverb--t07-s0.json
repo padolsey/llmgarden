@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.5-haiku",
+  "prompt_id": "p56-proverb",
+  "prompt": "Translate this English proverb into two other languages in a way that preserves the spirit, not the words: 'The best time to plant a tree was twenty years ago. The second best time is now.' Add a one-sentence note on each.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Here are two translations that capture the essence of the proverb:\n\nSpanish:\n\"Si no sembraste ayer, siembra hoy.\" \n(If you didn't sow yesterday, sow today.)\n\nNote: This version emphasizes the urgency of taking action in the present, regardless of past missed opportunities.\n\nJapanese:\n「遅れても、今始めれば道は開ける」\n(Even if late, if you start now, a path will open.)\n\nNote: This translation reflects the Japanese cultural value of perseverance and the belief that it's never too late to begin something meaningful.",
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 138,
+    "total_tokens": 199,
+    "cost": 0.0006008,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0006008,
+      "upstream_inference_prompt_cost": 0.0000488,
+      "upstream_inference_completions_cost": 0.000552
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-5-haiku",
+  "ts": 1776831421059
+}

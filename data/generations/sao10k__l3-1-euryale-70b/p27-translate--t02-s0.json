@@ -1,0 +1,33 @@
+{
+  "model": "sao10k/l3.1-euryale-70b",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "French: \"Le silence entre nous en disait plus que n'importe quel argument n'aurait pu le faire.\"\n\nJapanese: \"私たち間の沈黙は、どんな議論よりも多くを語っていた。\"\n\nArabic: \"الصمت بيننا قال أكثر مما كان أي حجة قادرة على قوله.\"\n\nNote: The phrase \"said more\" was tricky to render faithfully in all three languages. In French, it's translated as \"en disait plus,\" in Japanese as \"多くを語っていた,\" and in Arabic as \"قال أكثر.\" Each of these translations conveys the idea that the silence conveyed more meaning than any argument could, but the word choice and grammatical structure differ slightly in each language to best fit the idiomatic expression.",
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 161,
+    "total_tokens": 212,
+    "cost": 0.0001802,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001802,
+      "upstream_inference_prompt_cost": 0.00004335,
+      "upstream_inference_completions_cost": 0.00013685
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "sao10k/l3.1-euryale-70b",
+  "ts": 1776829973145
+}

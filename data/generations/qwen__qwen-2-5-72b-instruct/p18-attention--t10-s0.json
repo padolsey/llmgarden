@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen-2.5-72b-instruct",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Sure! Imagine you’re working on a text summarization tool. In traditional models, you’d process the entire text sequentially, which can be inefficient for long documents. The transformer model, however, uses an \"attention mechanism\" to handle this more intelligently.\n\nThink of the attention mechanism as a way for the model to focus on different parts of the input text when generating each word of the summary. Instead of treating the entire text equally, it dynamically decides which parts are most relevant for the current word it's generating.\n\nHere’s a simplified analogy: You’re writing a summary of a long book. Instead of reading the entire book again and again for each sentence of your summary, you quickly glance at the most relevant parts of the book. This is what the attention mechanism does in a transformer model.\n\nTechnically, the attention mechanism works by creating a set of \"queries,\" \"keys,\" and \"values\" for each word in the input. The model then uses these to compute a weighted sum of the values, where the weights are determined by the similarity between the queries and keys. This allows the model to focus on the most relevant parts of the input, making it more efficient and effective, especially for tasks involving long sequences of data.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 248,
+    "total_tokens": 284,
+    "cost": 0.00010104,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00010104,
+      "upstream_inference_prompt_cost": 0.00000432,
+      "upstream_inference_completions_cost": 0.00009672
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen-2.5-72b-instruct",
+  "ts": 1776838466637
+}

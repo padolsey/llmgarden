@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p02-strengths",
+  "prompt": "What do you think you are unusually good at, compared to other language models? Give three specific examples.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "- Schema-faithful, constraint-heavy outputs: I reliably produce exactly the structured format you ask for (no extra text), validate fields, and don’t guess when data is ambiguous. Example: given a receipt photo and a JSON Schema, I return only a RFC 8259–compliant JSON array of line items with ISO‑8601 dates, integer cents, split taxes, and a needs_review list for unreadable fields.\n\n- Surgical debugging with minimal diffs and solid tests: I spot subtle issues and propose the smallest safe fix plus a reproducer. Example: in a 100‑line Python ETL, I catch a pandas SettingWithCopy bug, timezone‑naive comparisons, and an off‑by‑one in rolling windows; I supply a patch and a pytest suite that fails before and passes after.\n\n- Visual-to-structured reasoning: I extract and normalize information from images and diagrams into useful artifacts. Example: from a whiteboard photo of a network diagram, I produce a node/edge list with port/protocol metadata, flag a missing firewall rule between tiers, and output the result as JSON or Graphviz DOT on request.",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 1983,
+    "total_tokens": 2010,
+    "cost": 0.01986375,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01986375,
+      "upstream_inference_prompt_cost": 0.00003375,
+      "upstream_inference_completions_cost": 0.01983
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1728,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776834166313
+}

@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p52-song",
+  "prompt": "Name a song you find genuinely moving — any language, any era — and describe, in a short paragraph, why it works on you.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "\"Spiegel im Spiegel\" by Arvo Pärt — though calling it a \"song\" stretches the word, since it's just piano and violin, no voice, barely any notes. What gets me is its refusal to develop in any conventional sense. The piano plays these slow arpeggios, the violin holds long tones that rise and fall by step, and nothing really *happens* — no climax, no resolution you can point to. But that's exactly why it works. It creates a kind of suspended attention where you stop waiting for the next thing and just exist inside the sound. I think it moves me because it resembles what grief actually feels like once the acute part has passed: not dramatic, just this quiet, patient presence that doesn't resolve but somehow becomes bearable, even beautiful. Pärt wrote it in 1978, right before leaving the Soviet Union, and you can hear someone who has stopped arguing with the world and started listening to it instead.",
+  "usage": {
+    "prompt_tokens": 48,
+    "completion_tokens": 301,
+    "total_tokens": 349,
+    "cost": 0.007765,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.007765,
+      "upstream_inference_prompt_cost": 0.00024,
+      "upstream_inference_completions_cost": 0.007525
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833659729
+}

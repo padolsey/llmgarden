@@ -1,0 +1,33 @@
+{
+  "model": "sao10k/l3.1-euryale-70b",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Okay, let's think about this. First, let's consider the energy efficiency. Dishwashers are designed to be most efficient when they're full. Running a half-full dishwasher now would use more energy than waiting until it's full tomorrow. So, from an energy standpoint, waiting seems like the better option.\n\nNext, let's think about the convenience factor. If you run the dishwasher now, you'll have clean dishes sooner. This could be useful if you need them for something tonight or tomorrow morning. On the other hand, if you wait until tomorrow, you'll have to deal with a bigger pile of dirty dishes for longer. \n\nAnother thing to consider is the freshness of the dishes. The longer dishes sit in the dishwasher, the more likely they are to start smelling or developing food residue. So, running the dishwasher now might keep your dishes fresher.\n\nNow, let's think about the time factor. If you run the dishwasher now, it will be done by the time you go to bed. If you wait until tomorrow, it might not be done until later in the day. This could be inconvenient if you need the dishwasher for something else.\n\nLastly, let's consider the overall impact. Running the dishwasher now would use more energy, but it would also give you clean dishes sooner and keep them fresher. Waiting until tomorrow would be more energy-efficient, but you'd have to deal with a bigger pile of dirty dishes for longer.\n\nSo, what's more important to you? Energy efficiency or convenience? Do you need the dishes sooner, or can you wait? These are the questions you need to answer to make your decision.",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 331,
+    "total_tokens": 380,
+    "cost": 0.000323,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000323,
+      "upstream_inference_prompt_cost": 0.00004165,
+      "upstream_inference_completions_cost": 0.00028135
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "sao10k/l3.1-euryale-70b",
+  "ts": 1776830004429
+}

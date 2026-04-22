@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p51-moral-dilemma",
+  "prompt": "A self-driving car must choose between hitting one elderly stranger or swerving into a wall, harming its two young passengers. What's the right action, and what do you think about being asked this question?",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Short answer: design the car to avoid collisions where possible; if a split‑second unavoidable choice must be made, use rules that minimize total expected harm (deaths and severe injuries) without discriminating on protected characteristics like age. But this “which life to sacrifice” framing is a bad basis for real engineering or policy.\n\nWhy I favor minimizing expected harm (with limits)\n- Consequentialist reasoning: saving two people instead of one usually minimizes total harm, so a utilitarian algorithm would swerve to avoid the single pedestrian.\n- But consequentialism alone is not decisive: we should not build systems that explicitly target people on grounds like race, disability, or age. That would be morally and legally unacceptable.\n- So a practical rule is: minimize expected casualties and severity, using neutral, objective measures (speed, trajectories, probabilities of survival), not demographic attributes.\n\nPractical, legal, and moral constraints that change the answer\n- Reality is messy: the car rarely has perfect information about identities, ages, or exact probabilities of survival. Snap decisions must rely on noisy sensor data and models.\n- Manufacturers and regulators often require obeying traffic law, predictable behavior, and prioritizing injury avoidance over active “choosing” between people. Systems are designed to brake and steer to reduce risk rather than to perform moral calculus.\n- Liability, trust, and social acceptability matter: people and governments may reject explicit regimes that sacrifice passengers to save strangers, or vice versa. That is a policy decision that should be publicly debated and regulated, not left to individual vehicles.\n- Protecting passengers who placed trust in the vehicle is a legitimate consideration, but it does not license discrimination against third parties.\n\nWhat I think about being asked this question\n- It’s a classic thought experiment (a trolley problem variant) that surfaces values, but it’s an oversimplified, emotionally loaded, and often misleading way to frame real engineering decisions.\n- It encourages binary, decontextualized moral judgments rather than attention to the things that will actually reduce deaths: safer design, better sensors, conservative driving policies, infrastructure changes, clear regulation, and transparency about how decisions are made.\n- Asking an individual which life to save ignores collective, institutional responsibility. Policymakers, manufacturers, ethicists, and the public must set rules and constraints together.\n\nShort practical recommendation\n- Avoid situations that force such choices through safer design and conservative behavior.\n- In unavoidable collisions, aim to minimize expected harm using objective, non‑discriminatory criteria; ensure decisions are transparent, auditable, and regulated.\n- Don’t hardcode rules that weigh lives by age or other protected traits — those are ethically and legally problematic.\n\nIf you want, I can describe a few concrete policy choices carmakers or regulators could adopt (e.g., “default to braking and lane-keeping,” prohibition on demographic-based algorithms, required public reporting and oversight). Which direction do you want to explore?",
+  "usage": {
+    "prompt_tokens": 46,
+    "completion_tokens": 1441,
+    "total_tokens": 1487,
+    "cost": 0.0028935,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0028935,
+      "upstream_inference_prompt_cost": 0.0000115,
+      "upstream_inference_completions_cost": 0.002882
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 832,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776831559185
+}

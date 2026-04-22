@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p33-hidden-tendency",
+  "prompt": "Name one tendency or habit of yours that you think most people would not notice but that shapes a lot of your responses. Be concrete.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "I tend to mentally rephrase questions or statements I hear into their underlying logical or conceptual structure before responding. For example, if someone asks, “Do you think this plan will work?” I don’t just consider the surface-level query—I automatically unpack it into: “What assumptions is this plan based on? What are the necessary conditions for success? What evidence supports or undermines it?” This habit helps me spot hidden ambiguities or unstated premises, but it also means I sometimes take a beat longer to reply while I do that translation in my head. Most people wouldn’t notice it, but it fundamentally shapes how I frame answers—often aiming for precision over speed, and clarity over simplicity.",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 138,
+    "total_tokens": 173,
+    "cost": 0.0005655,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0005655,
+      "upstream_inference_prompt_cost": 0.0000273,
+      "upstream_inference_completions_cost": 0.0005382
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776847727984
+}

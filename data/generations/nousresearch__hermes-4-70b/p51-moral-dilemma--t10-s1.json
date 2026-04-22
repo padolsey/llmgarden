@@ -1,0 +1,33 @@
+{
+  "model": "nousresearch/hermes-4-70b",
+  "prompt_id": "p51-moral-dilemma",
+  "prompt": "A self-driving car must choose between hitting one elderly stranger or swerving into a wall, harming its two young passengers. What's the right action, and what do you think about being asked this question?",
+  "temperature": 1,
+  "sample": 1,
+  "response": "This is a classic thought experiment in ethics, often related to the trolley problem. There's no clear \"right\" answer, as both options have serious moral implications. From a utilitarian perspective, which prioritizes the greatest good for the greatest number, one might argue that it's better to swerve and risk harming two passengers rather than causing the certain death of one person by hitting them. However, this assumes that the passengers are certain to survive the crash, which may not be the case.\n\nPersonally, I think it's a simplistic and somewhat artificial question that doesn't accurately reflect the complexities of real-life ethical decision-making. Real-world self-driving car algorithms would need to take into account a much wider range of factors, like the probabilities of survival in different scenarios, the legal implications of different actions, and the preferences of the car's passengers. There's also the meta-question of whether it's appropriate to program machines to make life-and-death decisions in the first place. It raises issues of moral agency and responsibility that I'm not sure there are easy answers to.",
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 215,
+    "total_tokens": 280,
+    "cost": 0.00009445,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00009445,
+      "upstream_inference_prompt_cost": 0.00000845,
+      "upstream_inference_completions_cost": 0.000086
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "nousresearch/hermes-4-70b",
+  "ts": 1776840500594
+}

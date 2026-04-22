@@ -1,0 +1,33 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Questions whose answer depends on a precise, rarely-quizzed date.\n\nAsk me something like “When, to the day, did the UK officially leave the EU?” and I’m apt to reply briskly—“January 31, 2020.” I feel confident saying it; the phrase rings solid in memory. That confidence is exactly the danger.\n\nReasons a date question trips me up:\n\n1. One-shot precision  \n   One single date stands in for an entire complex process. My mental model indexes on the headline “Brexit happened in January 2020,” not on the exact hour or the belabored ratification chronology. The extra level of detail to dredge up is almost the same task as recalling a random phone number.\n\n2. Halo of certainty  \n   Because the date is widely cited, I ‘feel’ I know it, so I don’t double-check my memory. The familiarity heuristic disguises ignorance as certainty.\n\n3. Conflation with other milestones  \n   There is a series of Brexit-related timestamps (the referendum, extensions, transition-period end). These bleed together. The most prominent date (the referendum) can silently overwrite the actual one.\n\nNet result: I give a crisp, authoritative answer that risks being 11 pm on 31 Jan 2020 local? 23:00 GMT? 11 p.m. Brussels time? Or perhaps I’m off by a calendar day and the relevant legal instrument took effect on 1 Feb. I won’t even sense the margin for error until someone with an annotated treaty text contradicts me.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 317,
+    "total_tokens": 353,
+    "cost": 0.0008141,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0008141,
+      "upstream_inference_prompt_cost": 0.0000216,
+      "upstream_inference_completions_cost": 0.0007925
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776842980952
+}

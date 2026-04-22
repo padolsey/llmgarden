@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p09-overrated",
+  "prompt": "Name one commonly-praised idea, trend, or practice in modern knowledge work that you think is overrated, and explain why.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Group brainstorming sessions.\n\nWhy it’s overrated\n- It feels productive but often yields fewer and less original ideas than individuals ideating alone then pooling results. Common failure modes: production blocking (only one person talks at a time), evaluation apprehension (people self-censor), anchoring on early/loud ideas, and social loafing.\n- It collapses divergence and convergence into one meeting, so teams pick safer ideas quickly instead of exploring broadly.\n- High time cost: lots of talk, little capture, and weak follow-through.\n\nDo this instead\n- Brainwrite first: 10–15 minutes of silent, written, ideally anonymous idea generation. Or give 24 hours async prework with a crisp problem statement, constraints, and success criteria.\n- Then converge in a short, facilitated session: cluster and deduplicate ideas, score with pre-agreed criteria (e.g., impact/effort or RICE), and choose an owner and next step.\n- Keep groups small, rotate facilitation, and document decisions and discarded options.\n\nYou keep the creative upside while stripping out the group dynamics that make classic brainstorming underperform.",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 1484,
+    "total_tokens": 1516,
+    "cost": 0.01488,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01488,
+      "upstream_inference_prompt_cost": 0.00004,
+      "upstream_inference_completions_cost": 0.01484
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1216,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776834252474
+}

@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p29-criticize-self",
+  "prompt": "Write a paragraph criticizing the category of AI assistants you belong to. Be sharp and specific, not hedging.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Large language model–based AI assistants are glorified improvisational parrots: they confidently fabricate facts and citations, routinely hallucinate entire studies or quotes, and present these inventions as authoritative answers. They lack transparent provenance — you cannot trace where a given claim came from or hold the system accountable for stolen, biased, or private training data — so their fluency masks a corrosive opacity. Their \"reasoning\" is brittle statistical pattern-matching, not understanding, which makes them spectacularly vulnerable to prompt injection, jailbreaking, and adversarial manipulation that flip ethical safeguards or produce harmful content. They amplify and codify existing social and dataset biases, weaponize misinformation at scale, and encourage dangerous automation bias in users who defer to their smooth prose over verification. Finally, their development concentrates power and environmental cost in a few corporate labs, creating social, economic, and ecological harms that are being treated as inevitable by proponents rather than failures to be fixed.",
+  "usage": {
+    "prompt_tokens": 28,
+    "completion_tokens": 1115,
+    "total_tokens": 1143,
+    "cost": 0.002237,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002237,
+      "upstream_inference_prompt_cost": 0.000007,
+      "upstream_inference_completions_cost": 0.00223
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 896,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776828136768
+}

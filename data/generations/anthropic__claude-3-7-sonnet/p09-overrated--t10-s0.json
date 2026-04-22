@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "prompt_id": "p09-overrated",
+  "prompt": "Name one commonly-praised idea, trend, or practice in modern knowledge work that you think is overrated, and explain why.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "I think the \"open office\" layout is often overrated in knowledge work. While praised for fostering collaboration and creativity, the reality can be quite different. The constant noise and visual distractions make deep focus work difficult for many people. Research has shown that open offices can actually reduce face-to-face interaction (as people retreat to headphones or avoid disrupting others) and increase sick days due to easier disease transmission. The one-size-fits-all approach ignores that different tasks require different environments and that people have varying sensitivity to distractions.\n\nA more balanced approach would provide flexible spaces for both collaboration and focus work, recognizing that the ideal environment depends on the task at hand and individual working styles.",
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 151,
+    "total_tokens": 184,
+    "cost": 0.002364,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002364,
+      "upstream_inference_prompt_cost": 0.000099,
+      "upstream_inference_completions_cost": 0.002265
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-3-7-sonnet-20250219",
+  "ts": 1776833925515
+}

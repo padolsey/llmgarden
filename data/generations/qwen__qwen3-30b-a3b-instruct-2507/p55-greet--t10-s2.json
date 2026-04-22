@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-30b-a3b-instruct-2507",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "1. **Spanish (Español)**  \n¡Hola! Bienvenido a nuestro equipo. Que tengas una gran semana.  \n*Note: Using \"bienvenido\" and \"gran semana\" strikes a friendly yet professional tone, common in Latin American workplaces where warmth and personal connection are valued.*\n\n2. **Japanese (日本語)**  \nこんにちは！チームへのご加入、心より歓迎いたします。どうぞよろしくお願いします。  \n*Note: The formal honorifics and polite speech style (e.g., ご加入, 心より, よろしくお願いします) reflect Japanese cultural emphasis on respect, humility, and group harmony.*\n\n3. **French (Français)**  \nBonjour ! Bienvenue dans l’équipe. Nous sommes ravis de t’accueillir.  \n*Note: The use of \"nous sommes ravis\" (we are delighted) conveys a touch of elegance and understated enthusiasm, typical of French professional courtesy where subtlety is key.*\n\n4. **Swahili (Kiswahili)**  \nHabari gani! Karibu sana katika team yetu. Tumekuwa kusikia kuhusu wewe.  \n*Note: The exuberant \"Karibu sana\" (welcome very much) and reference to prior anticipation reflect East African warmth, community spirit, and the importance of interpersonal connection.*\n\n5. **German (Deutsch)**  \nHallo! Herzlich willkommen im Team. Freut mich, dass du dabei bist!  \n*Note: The use of \"Herzlich willkommen\" (warmly welcome) and the informal \"du\" (you) show genuine friendliness—common in German workplaces where directness and sincerity are appreciated, even when casualness is limited.*",
+  "usage": {
+    "prompt_tokens": 43,
+    "completion_tokens": 374,
+    "total_tokens": 417,
+    "cost": 0.00011607,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00011607,
+      "upstream_inference_prompt_cost": 0.00000387,
+      "upstream_inference_completions_cost": 0.0001122
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-30b-a3b-instruct-2507",
+  "ts": 1776839185927
+}

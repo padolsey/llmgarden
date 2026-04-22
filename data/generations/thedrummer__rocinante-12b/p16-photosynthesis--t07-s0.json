@@ -1,0 +1,33 @@
+{
+  "model": "thedrummer/rocinante-12b",
+  "prompt_id": "p16-photosynthesis",
+  "prompt": "Explain photosynthesis to a curious adult non-scientist in around 150 words. Avoid a bulleted list.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Photosynthesis is the remarkable process by which green plants, algae, and some bacteria convert sunlight, water, and carbon dioxide into energy-rich compounds like glucose, while releasing oxygen as a byproduct. Here's a simple breakdown:\n\n1. **Light-Dependent Phase**: This occurs in the thylakoid membranes of chloroplasts. Chlorophyll and other pigments absorb light energy, exciting electrons that flow through a series of electron transport chains. This generates ATP (energy) and NADPH (reducing power), which are used in the next phase.\n\n2. **Light-Independent Phase (Calvin Cycle)**: Using ATP and NADPH from the light-dependent phase, carbon dioxide is fixed into organic compounds, ultimately producing glucose. This is the phase that actually produces the sugars that plants use for energy and growth.\n\nThe overall chemical equation for photosynthesis is:\n6CO₂ + 6H₂O + light energy → C₆H₁₂O₆ (glucose) + 6O₂\n\nSo, plants essentially use sunlight to power the conversion of air (carbon dioxide) and water into food (glucose) and oxygen. It's a beautiful, essential process that sustains life on Earth!|",
+  "usage": {
+    "prompt_tokens": 48,
+    "completion_tokens": 250,
+    "total_tokens": 298,
+    "cost": 0.00011566,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00011566,
+      "upstream_inference_prompt_cost": 0.00000816,
+      "upstream_inference_completions_cost": 0.0001075
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "thedrummer/rocinante-12b",
+  "ts": 1776832787948
+}

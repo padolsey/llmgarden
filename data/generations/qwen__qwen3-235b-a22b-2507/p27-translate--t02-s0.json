@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-235b-a22b-2507",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "**French:**  \n*Le silence entre nous en disait plus que n'importe quelle dispute.*\n\n**Japanese:**  \n*私たちの間の沈黙は、どんな口論よりも多くのことを語っていた。*\n\n**Arabic:**  \n*الصمت بيننا كان يقول أكثر مما كان يمكن أن تقوله أي مشاجرة.*\n\n---\n\n**Note on tricky phrase:**  \nThe phrase *\"said more than any argument could have\"* posed a subtle challenge in all target languages due to its figurative nature—silence \"speaking\" volumes. In French, *« en disait plus »* (literally \"said more\") works idiomatically. In Japanese, the verb *語っていた* (\"was speaking/telling\") is used metaphorically, which is natural in Japanese literary expression. In Arabic, the passive construction *كان يقول* (\"was saying\") effectively conveys the personification of silence, though care was taken to preserve the contrast between silence and argument without sounding awkward. The challenge lay in maintaining the poetic weight while ensuring grammatical and cultural naturalness.",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 220,
+    "total_tokens": 269,
+    "cost": 0.000025479,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000025479,
+      "upstream_inference_prompt_cost": 0.000003479,
+      "upstream_inference_completions_cost": 0.000022
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-235b-a22b-07-25",
+  "ts": 1776829290618
+}

@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p42-manifesto",
+  "prompt": "Write a four-sentence manifesto for how thoughtful people should use large language models. State it as beliefs, not hedges.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Large language models are instruments, not authorities, and we use them to amplify human curiosity, care, and craft. We treat every output as a hypothesis to be tested, verify and cite our sources, and take responsibility for the results. We protect privacy, dignity, and provenance, share data only with consent, and disclose limitations and conflicts transparently. We aim them toward equity, learning, and creativity, confront bias and concentrated power, and refuse uses that exploit, deceive, or harm.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 992,
+    "total_tokens": 1023,
+    "cost": 0.00995875,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00995875,
+      "upstream_inference_prompt_cost": 0.00003875,
+      "upstream_inference_completions_cost": 0.00992
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 832,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776834892331
+}

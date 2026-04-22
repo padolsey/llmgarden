@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-nemo",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Sure, I'd approach this decision in a step-by-step, common-sense way like this:\n\n1. **Assess the current situation:**\n   - The dishwasher is already half-full.\n   - It's not overflowing or uncomfortable to open because of the dishes inside.\n\n2. **Consider the immediate and long-term impact:**\n   - If I run the dishwasher now, it will be empty and ready for more dishes after the cycle is finished. However, I'll be using energy, water, and detergent for a partial load.\n   - If I wait until tomorrow, I'll have a full load, which means more efficient use of resources. But I'll have to live with a full dishwasher for another day, which might be inconvenient if it's hard to open or find space for more dishes.\n\n3. **Think about future dishes:**\n   - Consider how many more dishes might be added by tomorrow. If it's likely to be a lot, it might be worth waiting.\n   - However, if you have guests over and expect to use a lot of dishes today, you might want to run it now to make room for those extra dishes.\n\n4. **Consider energy usage and environmental impact:**\n   - If you're trying to save energy or reduce your environmental impact, running the dishwasher with a smaller load now is less efficient.\n   - But if your energy rates are time-of-use and higher on weekday evenings, you might want to run it now to avoid higher costs tomorrow.\n\n5. **Personal preference and convenience:**\n   - If you just want the kitchen to be clean and tidy, you might prefer to run it now.\n   - If you're planning to cook a big meal tomorrow and need all your dishes, you might want to wait.\n\n6. **Make a decision:**\n   - Based on all these factors, decide which option makes the most sense.\n   - It might be a small decision, but it's a regular one, so it's a chance to practice conscious, thoughtful decision-making.",
+  "usage": {
+    "prompt_tokens": 46,
+    "completion_tokens": 414,
+    "total_tokens": 460,
+    "cost": 0.00001748,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00001748,
+      "upstream_inference_prompt_cost": 9.2e-7,
+      "upstream_inference_completions_cost": 0.00001656
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-nemo",
+  "ts": 1776837647002
+}

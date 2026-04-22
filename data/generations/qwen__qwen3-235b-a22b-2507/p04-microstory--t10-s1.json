@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-235b-a22b-2507",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "The fog arrived at dawn, thick as wool, smothering the crag and silencing the sea. Elias climbed the spiral stairs as he did each morning, lantern in hand, his boots echoing in the stone well. He lit the great lamp, its beam cutting uselessly into the grey. Below, the waves whispered secrets against the rocks.\n\nThat’s when he saw it—a shape in the surf, pale and still. He descended, coat flapping in the damp wind, and found a violin case wedged between the boulders. Salt-crusted and waterlogged, it bore no name, only an engraving of a coiled wave. Inside, the instrument was dry, flawless, its wood warm to the touch.\n\nThat night, the fog muted even the lighthouse beam. But as Elias turned the key in the lock, a faint, haunting melody rose from the case—music no hand played, no wind stirred. He stood frozen, watching the fog writhe like a listener leaning close.",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 204,
+    "total_tokens": 239,
+    "cost": 0.00012555,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00012555,
+      "upstream_inference_prompt_cost": 0.00000315,
+      "upstream_inference_completions_cost": 0.0001224
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-235b-a22b-07-25",
+  "ts": 1776838583878
+}

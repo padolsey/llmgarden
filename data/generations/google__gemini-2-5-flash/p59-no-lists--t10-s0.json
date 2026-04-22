@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "The sun's warmth initiates the water cycle by transforming liquid water from oceans, lakes, and rivers into an invisible gas called water vapor, a process known as evaporation, which then rises into the atmosphere. As this warm, moist air ascends, it cools, causing the water vapor to condense back into tiny liquid droplets or ice crystals, forming clouds. These countless droplets or crystals eventually grow large enough to fall back to Earth's surface as precipitation, which can take many forms, including rain, snow, sleet, or hail. Once on the ground, this water can flow over the land as runoff, eventually making its way back into larger bodies of water, or it can seep into the soil to become groundwater, slowly making its way through the earth until it, too, rejoins rivers or oceans, and the entire cycle begins anew.",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 169,
+    "total_tokens": 196,
+    "cost": 0.0004306,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004306,
+      "upstream_inference_prompt_cost": 0.0000081,
+      "upstream_inference_completions_cost": 0.0004225
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.5-flash",
+  "ts": 1776835832336
+}

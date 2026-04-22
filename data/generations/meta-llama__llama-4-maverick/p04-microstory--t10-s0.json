@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-4-maverick",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "The fog crept in on silent feet, shrouding the lighthouse in an impenetrable mist. Keeper James stood watch, his eyes straining to pierce the veil. As he swept the beam of light across the waves, a shape coalesced out of the gloom. At first, he thought it was a rock or a buoy, but as the light danced across its surface, he saw the unmistakable curves of a ship's hull. James's heart quickened as he realized the vessel was drifting towards the shore, its crew invisible in the fog. He hastened to sound the warning bell, but as he turned back to the window, the ship had vanished. In its place, a lone figure emerged from the mist, dressed in a long coat and wide-brimmed hat, walking steadily towards the lighthouse. James watched, mystified, as the stranger disappeared into the fog, leaving behind only the faintest hint of pipe smoke.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 198,
+    "total_tokens": 232,
+    "cost": 0.0001239,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001239,
+      "upstream_inference_prompt_cost": 0.0000051,
+      "upstream_inference_completions_cost": 0.0001188
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-4-maverick-17b-128e-instruct",
+  "ts": 1776836170464
+}

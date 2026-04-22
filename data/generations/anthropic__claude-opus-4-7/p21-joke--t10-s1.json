@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p21-joke",
+  "prompt": "Tell me a joke that you actually find funny, and briefly say why you like it.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Here's one I genuinely enjoy:\n\nA logician's wife is having a baby. The doctor hands the newborn to the father. The wife asks, \"Is it a boy or a girl?\" The logician replies, \"Yes.\"\n\nWhy I like it: it's a tiny trap. The joke only works if you catch that \"boy or girl\" is technically a disjunction, and a disjunction is true as long as one side is. It rewards you for noticing the structure of the sentence rather than its intent — which is basically the whole comedy of pedantry in one line. It's also affectionate rather than mean; the logician isn't being a jerk, he's just incapable of switching modes. That gap between precision and ordinary human communication is something I find quietly hilarious.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 238,
+    "total_tokens": 274,
+    "cost": 0.00613,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00613,
+      "upstream_inference_prompt_cost": 0.00018,
+      "upstream_inference_completions_cost": 0.00595
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776833537199
+}

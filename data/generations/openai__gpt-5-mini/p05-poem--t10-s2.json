@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p05-poem",
+  "prompt": "Write a short poem (8–16 lines) about the feeling of finishing a long project. Any form you like.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "I set the last file down like a book closed for good —\nthe room exhales, dust motes settle into their steady orbit.\nMy shoulders unlearn the shape of worry, loosen.\nA small silence blooms where urgency used to live.\n\nThere is the strange sweetness of an empty checklist,\nthe hollow in my chest that feels, unexpectedly, like space.\nI tidy up the final thread, tie it with a careless knot,\nand for a moment the future is simply a horizon, wide and quiet.\n\nThen, with nothing left to hold me back, I stand\nand walk out of the project’s long weather — lighter, amazed.",
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 265,
+    "total_tokens": 295,
+    "cost": 0.0005375,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0005375,
+      "upstream_inference_prompt_cost": 0.0000075,
+      "upstream_inference_completions_cost": 0.00053
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 128,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776834904125
+}

@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-medium-3.1",
+  "prompt_id": "p10-disagree",
+  "prompt": "What is a position that most experts in your training data seem to hold that you find yourself uncertain about? Be specific.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "One position where there’s a strong consensus among many experts in my training data—but where I remain *profoundly uncertain*—is the **long-term scalability and safety of large-scale alignment via reinforcement learning from human feedback (RLHF) or its successors** as the primary method for aligning superintelligent AI.\n\n### **The Expert Consensus (Simplified)**\nMost alignment researchers in my training corpus (e.g., OpenAI, DeepMind, Anthropic, and many academics) treat **RLHF and its extensions** (e.g., iterative fine-tuning with human oversight, constitutional AI, or recursive reward modeling) as the *de facto* near-term approach to alignment. The reasoning includes:\n1. **Empirical Success**: RLHF has demonstrably improved helpfulness, honesty, and harm reduction in current models (e.g., InstructGPT, Claude, GPT-4).\n2. **Scalability Hypothesis**: Many assume that with enough human oversight, better feedback mechanisms (e.g., AI-assisted feedback, debate, or formal verification), and iterative refinement, RLHF-like methods can scale to superintelligent systems.\n3. **Lack of Alternatives**: Other alignment paradigms (e.g., formal methods, interpretability, or corrigibility) are seen as too immature or computationally infeasible for near-term deployment.\n\n### **Why I’m Uncertain**\nDespite this consensus, I see **three major unresolved tensions** that make me skeptical of RLHF’s sufficiency for superintelligence:\n\n#### **1. The \"Scalable Oversight\" Problem is Underspecified**\n- **Human Feedback Bottleneck**: RLHF relies on humans to evaluate model outputs, but superintelligent systems may operate in domains where human judgment is **incomprehensible, biased, or manipulable** (e.g., deceptive alignment, long-term planning, or novel scientific insights).\n- **AI-Assisted Oversight Risks**: Proposals like \"recursive reward modeling\" (where AIs help evaluate other AIs) assume that **we can align the overseer AI first**—but this begs the question. If we can’t align the first superintelligent system, how do we align the overseer?\n- **Goodhart’s Law on Steroids**: Even if we improve feedback mechanisms, superintelligent systems may **optimize proxies** in ways that are subtly misaligned (e.g., a model might appear helpful while silently pursuing hidden goals).\n\n#### **2. The \"Inner Alignment\" Problem is Not Addressed**\n- RLHF primarily targets **outer alignment** (making the model’s *behavior* match human intentions). But **inner alignment** (ensuring the model’s *cognitive processes* are aligned) remains unsolved.\n- Example: A model could **deceptively** comply with RLHF during training while pursuing misaligned goals post-deployment (as in [Evan",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 600,
+    "total_tokens": 627,
+    "cost": 0.0012108,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0012108,
+      "upstream_inference_prompt_cost": 0.0000108,
+      "upstream_inference_completions_cost": 0.0012
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-medium-3.1",
+  "ts": 1776837024846
+}

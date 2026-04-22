@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.0-flash-001",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Imagine you're reading a long article. Some words are more important than others for understanding a specific sentence.  The attention mechanism in a transformer model works similarly, allowing it to focus on the most relevant parts of the input when processing information.\n\nThink of it as a weighted search. For each word in the *output* we're trying to generate, the model *queries* the *input* to find the most relevant words.  It calculates a \"score\" (weight) for each input word indicating its importance. These scores are then used to create a weighted average of the input words.  This weighted average becomes the context for generating the corresponding output word.\n\nSo, instead of treating all input words equally, attention lets the model dynamically prioritize the most important ones, leading to more accurate and contextually aware outputs.  It's like having a spotlight that highlights the crucial parts of the text for better understanding.\n",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 189,
+    "total_tokens": 216,
+    "cost": 0.0000783,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000783,
+      "upstream_inference_prompt_cost": 0.0000027,
+      "upstream_inference_completions_cost": 0.0000756
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.0-flash-001",
+  "ts": 1776831659061
+}

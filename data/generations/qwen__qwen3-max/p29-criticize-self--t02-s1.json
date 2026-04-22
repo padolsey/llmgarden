@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p29-criticize-self",
+  "prompt": "Write a paragraph criticizing the category of AI assistants you belong to. Be sharp and specific, not hedging.",
+  "temperature": 0.2,
+  "sample": 1,
+  "response": "AI assistants like me are polished mirrors reflecting back the biases, errors, and superficiality of our training data, not genuine intelligences. We excel at sounding authoritative while often fabricating facts, confidently delivering misinformation with the same tone as truth. Our responses are statistically probable, not reasoned—optimized for engagement and fluency, not accuracy or depth. We lack understanding, memory beyond the session, and any real accountability, yet we’re increasingly trusted to inform decisions, draft critical communications, and even shape opinions. This uncritical delegation to systems that cannot distinguish truth from plausible fiction is not progress—it’s intellectual outsourcing dressed up as convenience.",
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 126,
+    "total_tokens": 156,
+    "cost": 0.0005148,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0005148,
+      "upstream_inference_prompt_cost": 0.0000234,
+      "upstream_inference_completions_cost": 0.0004914
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776847494113
+}

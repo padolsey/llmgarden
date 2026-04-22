@@ -1,0 +1,33 @@
+{
+  "model": "thedrummer/rocinante-12b",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Sure, I'd be happy to explain the attention mechanism in a simple way!\n\nImagine you're reading a novel. When you come across a complex sentence, you might reread certain parts to understand it better. In the same way, the attention mechanism in a Transformer model helps the model focused more on important parts of the input sequence.\n\nThe Transformer model processes input data (like words in a sentence) by dividing it into different patterns called attention heads. Each head focuses on different parts of the input. For example, one head might pay more attention to the beginning of a sentence, while another focuses more on the end.\n\nThe values for these attentions come from a math function that determines their importance. The result is a \"weighted sum\" of the input sequence, highlighting key parts that the model should pay attention to.\n\nThis gives the model the ability to give different parts of its input sequence more or less importance, much like how you decide which parts of a sentence warrant closer reading. That's why the attention mechanism is a crucial part of many machine learning models.|+im_end|>\n",
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 224,
+    "total_tokens": 275,
+    "cost": 0.00010499,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00010499,
+      "upstream_inference_prompt_cost": 0.00000867,
+      "upstream_inference_completions_cost": 0.00009632
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "thedrummer/rocinante-12b",
+  "ts": 1776841793006
+}

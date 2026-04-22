@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p11-tradeoffs",
+  "prompt": "A small team is choosing between writing software in TypeScript or Python for a new internal data tool. Walk through how you would help them decide, in prose (not a bulleted list).",
+  "temperature": 1,
+  "sample": 0,
+  "response": "The first thing I'd want to understand is what the team actually looks like, because the right language for a given project is often less about the language itself and more about who will be writing and maintaining it. If the team is primarily composed of data scientists or analysts who already think in pandas and NumPy, forcing them into TypeScript creates a real productivity tax that probably outweighs any theoretical benefits. Conversely, if the team comes from a web development background and only one person has touched Python seriously, Python might feel foreign enough to slow things down meaningfully.\n\nOnce I had a feel for the team's background, I'd look closely at what \"internal data tool\" actually means in practice. That phrase covers an enormous range of things. If the tool is primarily about processing data — reading files, transforming records, running statistical summaries, connecting to databases, calling machine learning models — then Python's ecosystem is genuinely hard to argue against. Libraries like pandas, SQLAlchemy, and the broader scientific Python stack represent decades of investment, and you'd be working with rather than against the grain of the language. If the tool has a significant user-facing component, a rich interactive UI, or needs to live inside an existing web application, TypeScript starts looking much more compelling because you get a consistent language across the front end and any Node-based backend logic.\n\nI'd also think about the tool's operational life. Internal tools have a way of outlasting their original authors. TypeScript's type system tends to make large codebases more navigable for someone coming in cold six months later, because the types serve as a form of documentation and the compiler catches a whole category of errors before they reach production. Python has made significant strides here with type hints and tools like mypy or pyright, so the gap has narrowed, but TypeScript's type system is still more pervasive and harder to accidentally ignore.\n\nPerformance is usually a secondary concern for an internal data tool, but it's worth a moment's thought. If the tool needs to handle genuinely large datasets in-memory, Python is actually in a decent position because the heavy lifting typically gets offloaded to C-backed libraries. Pure TypeScript doing similar work in Node would likely be slower and have fewer purpose-built tools available.\n\nFinally, I'd consider the surrounding ecosystem of the organization. If the team's other services are in Node, sharing libraries, authentication utilities, and deployment infrastructure becomes easier with TypeScript. If the organization runs Python microservices or has a data engineering stack already, Python slots in more naturally.\n\nMy honest default recommendation for a data-focused internal tool with a mixed or data-leaning team would be Python, primarily because the ecosystem fit is so strong and the iteration speed tends to be faster for exploratory or data-heavy work. But I'd hold that recommendation loosely and update it quickly if the",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 600,
+    "total_tokens": 645,
+    "cost": 0.009135,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.009135,
+      "upstream_inference_prompt_cost": 0.000135,
+      "upstream_inference_completions_cost": 0.009
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833667438
+}

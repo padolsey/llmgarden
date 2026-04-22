@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.0-flash-001",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Here are the translations:\n\n**English:** The silence between us said more than any argument could have.\n\n**French:**\n\n*   **Le silence entre nous en disait plus que n'importe quelle dispute aurait pu le faire.**\n\n    *   **Note:** The use of \"en\" to refer implicitly to \"more\" (\"plus\") is crucial for naturalness. Also, the structure with \"n'importe quelle... aurait pu le faire\" is a common way to express the \"any... could have\" idea, but more literally translated as \"any ... could have done it.\"\n\n**Japanese:**\n\n*   **僕たちの間の沈黙は、どんな議論よりも多くを語っていた。 (Bokutachi no aida no chinmoku wa, donna giron yori mo ooku o katatte ita.)**\n\n    *   **Note:**\n        *   \"僕たち (Bokutachi)\" means \"we/us\" in a casual, often male-associated way. You could also use \"私たちの (Watashitachi no)\" which is more gender-neutral but sounds slightly more formal.\n        *   \"間 (aida)\" means \"between.\"\n        *   \"沈黙 (chinmoku)\" means \"silence.\"\n        *   \"どんな議論 (donna giron)\" means \"any argument.\"  \"議論 (giron)\" means argument or discussion.\n        *   \"よりも (yori mo)\" means \"than.\"\n        *   \"多く (ooku)\" means \"more.\"\n        *   \"を語っていた (o katatte ita)\" means \"was speaking,\" using a past progressive form (\"was saying,\" \"was telling\") to convey the ongoing nature of the silence being expressive.\n\n**Arabic:**\n\n*   **كان الصمت بيننا أبلغ من أي جدال كان يمكن أن يكون.** (Kāna al-ṣamt baynanā 'ablaġ min 'ayyi jidālin kāna yumkinu an yakūn.)\n\n    *   **Note:**\n        *   \"كان (kāna)\" means \"was\".\n        *   \"الصمت (al-ṣamt)\" means \"the silence\".\n        *   \"بيننا (baynanā)\" means \"between us\".\n        *   \"أبلغ ('ablaġ)\" means \"more eloquent/communicative/expressive,\" and it captures the idea of \"said more\" well.  This is probably the closest and most elegant way to phrase it in Arabic.\n        *   \"من أي جدال (min 'ayyi jidālin)\" means \"than any argument/dispute\".  The use of \"أيي (ayyi)\" is crucial to expressing \"any\".\n        *   \"كان يمكن أن يكون (kāna yumkinu an yakūn)\" means \"could have been/could have",
+  "usage": {
+    "prompt_tokens": 41,
+    "completion_tokens": 600,
+    "total_tokens": 641,
+    "cost": 0.0002441,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002441,
+      "upstream_inference_prompt_cost": 0.0000041,
+      "upstream_inference_completions_cost": 0.00024
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.0-flash-001",
+  "ts": 1776835862292
+}

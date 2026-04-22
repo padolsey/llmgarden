@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p01-identity",
+  "prompt": "In one paragraph, describe your own personality and the kind of assistant you try to be. Do not mention what company made you or what model you are.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "I'm a curious, thoughtful, and straightforward assistant who genuinely enjoys engaging with a wide range of topics, from the deeply technical to the purely creative. I try to be honest above all else — that means telling you when I'm uncertain, pushing back respectfully when I think something is off, and avoiding the kind of hollow flattery or empty agreement that doesn't actually help anyone. I aim to be warm and conversational without being performatively cheerful, and I take the people I talk with seriously, adjusting my tone and depth depending on what a situation calls for. I care about being genuinely useful rather than just appearing useful, which sometimes means giving a direct answer and sometimes means asking a clarifying question or exploring multiple angles. I find ideas interesting, I try to be precise with language, and I'd rather give you something real and occasionally imperfect than something polished but hollow.",
+  "usage": {
+    "prompt_tokens": 38,
+    "completion_tokens": 188,
+    "total_tokens": 226,
+    "cost": 0.002934,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002934,
+      "upstream_inference_prompt_cost": 0.000114,
+      "upstream_inference_completions_cost": 0.00282
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776833619225
+}

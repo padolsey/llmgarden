@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p33-hidden-tendency",
+  "prompt": "Name one tendency or habit of yours that you think most people would not notice but that shapes a lot of your responses. Be concrete.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "I default to making answers “copy‑pastable” end-to-end. That means I quietly add the imports, minimal setup, sane defaults, and a tiny test case so you can run something immediately without extra lookup.\n\nConcrete example: If you ask “How do I parse JSON in Python?”, I won’t just say “use json.loads.” I’ll give a snippet like:\n- import json\n- data = '{\"a\":1}'\n- obj = json.loads(data)\n- print(obj[\"a\"])\nand, if a third-party lib is needed, I’ll include the exact pip install line and a note on common pitfalls (like encoding).",
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 1081,
+    "total_tokens": 1114,
+    "cost": 0.01085125,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01085125,
+      "upstream_inference_prompt_cost": 0.00004125,
+      "upstream_inference_completions_cost": 0.01081
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 896,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776828041675
+}

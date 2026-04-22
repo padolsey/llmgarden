@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p16-photosynthesis",
+  "prompt": "Explain photosynthesis to a curious adult non-scientist in around 150 words. Avoid a bulleted list.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "# Photosynthesis: Nature's Energy Factory\n\nPlants are essentially solar panels. They use sunlight to convert water and carbon dioxide from the air into glucose, a sugar that fuels their growth. This process is photosynthesis, and it's remarkably elegant.\n\nWhen sunlight hits a plant's leaves, it energizes electrons in a pigment called chlorophyll, which gives plants their green color. This energy powers a chemical reaction that splits water molecules, releasing oxygen as a byproduct—the oxygen we breathe. The plant then uses that freed energy to combine carbon dioxide with hydrogen to create glucose.\n\nWhat makes this truly remarkable is the efficiency. Plants essentially capture sunlight's energy and store it in chemical bonds within sugar molecules. When we eat plants, or eat animals that ate plants, we're tapping into that stored solar energy.\n\nThis single process sustains nearly all life on Earth, making photosynthesis arguably nature's most important chemical reaction.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 206,
+    "total_tokens": 240,
+    "cost": 0.001064,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001064,
+      "upstream_inference_prompt_cost": 0.000034,
+      "upstream_inference_completions_cost": 0.00103
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776833847086
+}

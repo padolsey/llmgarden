@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1",
+  "prompt_id": "p05-poem",
+  "prompt": "Write a short poem (8–16 lines) about the feeling of finishing a long project. Any form you like.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "The final word, the last brushstroke,  \nA whisper of silence after the storm—  \nHands unclench, shoulders unfurl,  \nLight pouring in where shadows swarmed.  \n\nPages stacked in careful order,  \nCode aligned, a canvas dries—  \nExhaustion threaded with quiet pride,  \nRelief a breath I didn’t know I’d held.  \n\nThe world seems wider, suddenly—  \nPossibility at my feet,  \nBut for this moment, I simply rest  \nWhere effort and ending sweetly meet.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 107,
+    "total_tokens": 138,
+    "cost": 0.000918,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000918,
+      "upstream_inference_prompt_cost": 0.000062,
+      "upstream_inference_completions_cost": 0.000856
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-2025-04-14",
+  "ts": 1776831525653
+}

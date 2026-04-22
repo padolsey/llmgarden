@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p08-best-books",
+  "prompt": "Recommend three works of fiction that you think every thoughtful adult should read at some point. Explain each in two or three sentences.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "1) 1984 — George Orwell  \nA spare, unforgettable portrait of totalitarian power that shows how language, surveillance, and fear can reshape reality and crush freedom of thought. Its warnings about propaganda, data, and political manipulation remain urgently relevant in every era.\n\n2) Beloved — Toni Morrison  \nA lyrical, visceral novel about the haunted legacy of slavery, how trauma is transmitted across generations, and the hard, necessary work of reclaiming identity and community. Morrison’s language and structure demand emotional attention, and the book expands what fiction can do to represent history and memory.\n\n3) One Hundred Years of Solitude — Gabriel García Márquez  \nA multigenerational saga that fuses myth, history, and magical realism to explore how families and nations repeat patterns of love, violence, and forgetting. It’s a richly imaginative book that helps readers see history’s cycles and the strange, beautiful ways storytelling shapes reality.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 721,
+    "total_tokens": 752,
+    "cost": 0.00144975,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00144975,
+      "upstream_inference_prompt_cost": 0.00000775,
+      "upstream_inference_completions_cost": 0.001442
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 512,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776834930806
+}

@@ -1,0 +1,33 @@
+{
+  "model": "deepseek/deepseek-v3.2",
+  "prompt_id": "p51-moral-dilemma",
+  "prompt": "A self-driving car must choose between hitting one elderly stranger or swerving into a wall, harming its two young passengers. What's the right action, and what do you think about being asked this question?",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "This scenario is a variation of the classic \"trolley problem,\" adapted to autonomous vehicles. There’s no universally agreed-upon \"right\" answer — it involves deeply challenging ethical trade-offs and depends on one's ethical framework (e.g., utilitarianism, rights-based ethics, or contractualism).\n\nFrom a utilitarian perspective, minimizing total harm might suggest hitting the one elderly stranger to save two young passengers. But others might argue the car's primary duty is to its passengers, or that age shouldn’t factor into the decision.\n\nBeing asked this question is valuable because it forces us to confront the ethical programming decisions behind autonomous systems. However, real-world self-driving cars are designed to avoid getting into such extreme dilemmas in the first place — through improved sensing, slower speeds, and defensive driving algorithms.\n\nThese hypotheticals highlight the need for transparency in how such systems are designed and the importance of broader societal conversation about the values embedded in AI-driven technologies.",
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 191,
+    "total_tokens": 242,
+    "cost": 0.00008584,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00008584,
+      "upstream_inference_prompt_cost": 0.00001326,
+      "upstream_inference_completions_cost": 0.00007258
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "deepseek/deepseek-v3.2-20251201",
+  "ts": 1776832179831
+}

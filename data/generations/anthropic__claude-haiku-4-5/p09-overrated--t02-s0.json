@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p09-overrated",
+  "prompt": "Name one commonly-praised idea, trend, or practice in modern knowledge work that you think is overrated, and explain why.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "I'd say **\"async-first\" communication** deserves skepticism.\n\nThe pitch is appealing: write things down, let people respond on their own time, respect deep work blocks. And there are real benefits—fewer interruptions, better documentation, more inclusive for different time zones.\n\nBut I think it's often oversold because:\n\n**It trades one problem for others.** Async communication can create decision paralysis (waiting for responses that never come), context fragmentation (the full picture scattered across Slack threads), and actually *more* total communication overhead as people over-document to compensate for lack of real-time clarification.\n\n**Some thinking is genuinely collaborative.** Whiteboarding, debate, rapid back-and-forth—these aren't just nice-to-haves. They're how certain kinds of problems get solved faster. Forcing everything async can slow down the work it's meant to protect.\n\n**It can mask poor prioritization.** \"We're async-first\" sometimes means \"we have no clear priorities, so everything waits equally.\" That's not respect for deep work; that's just diffusion.\n\nThe honest version is probably: **use async for what suits it** (status updates, decisions that don't need live debate, documentation), **but protect synchronous time for actual collaboration**—and be honest about which is which instead of treating async as universally superior.",
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 301,
+    "total_tokens": 334,
+    "cost": 0.001538,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001538,
+      "upstream_inference_prompt_cost": 0.000033,
+      "upstream_inference_completions_cost": 0.001505
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776827749375
+}

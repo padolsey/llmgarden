@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-haiku-4.5",
+  "prompt_id": "p11-tradeoffs",
+  "prompt": "A small team is choosing between writing software in TypeScript or Python for a new internal data tool. Walk through how you would help them decide, in prose (not a bulleted list).",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "# Helping a Team Choose Between TypeScript and Python\n\nI'd start by understanding what \"internal data tool\" actually means for this specific team, since that phrase could encompass vastly different projects. Is this a one-off script that processes some CSV files, or a long-lived service that other teams will depend on? Is it primarily about data transformation, or does it involve building a user interface? These details matter enormously because they change which language's strengths become relevant.\n\nNext, I'd want to know about the team itself. What languages do they already know well? If three of four people are comfortable with Python and one knows TypeScript, that's a significant practical advantage for Python that shouldn't be dismissed lightly. Learning a new language takes time, and that time has real costs. I'd also ask about their experience level—a team that's very junior might benefit from Python's gentler learning curve, while a team with strong object-oriented backgrounds might find TypeScript's type system more natural.\n\nThen I'd explore the actual technical requirements. Python is genuinely excellent for data work because of its ecosystem. NumPy, Pandas, Scikit-learn, and countless other libraries are mature and well-documented. If this tool involves serious data manipulation or analysis, Python probably has better libraries and a larger community of people who've solved similar problems. TypeScript, by contrast, is better if you're building something with a web interface or if this tool needs to integrate tightly with other JavaScript-based systems your company already uses.\n\nI'd also ask about deployment and operations. How will this tool run? If it needs to live in a containerized environment that your team already manages with Node.js services, TypeScript becomes more attractive because it fits into existing infrastructure. If it's running on a Python-friendly server or as a scheduled job, Python is simpler. The question of who will maintain this tool matters too—if it's truly internal and only one person understands it, you're somewhat locked into that person's language preference, which is worth acknowledging honestly.\n\nOne practical consideration is the development experience. TypeScript's type system can catch certain classes of bugs before runtime, which is valuable for tools that other people depend on. But that type safety comes with more upfront verbosity and setup. Python lets you move faster initially, though you might catch bugs later. For an internal tool with a small audience, that tradeoff might favor Python's speed.\n\nI'd also gently push back on any assumption that this is a permanent decision. Many internal tools start small and either grow into something that needs rewriting anyway, or they stabilize and rarely change. It's worth asking whether the choice really needs to be perfect for five years out, or whether \"good enough for the next year\" is actually the right frame.\n\nFinally, I'd suggest they consider doing a small spike",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 600,
+    "total_tokens": 645,
+    "cost": 0.003045,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003045,
+      "upstream_inference_prompt_cost": 0.000045,
+      "upstream_inference_completions_cost": 0.003
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.5-haiku-20251001",
+  "ts": 1776827753892
+}

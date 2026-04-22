@@ -1,0 +1,33 @@
+{
+  "model": "amazon/nova-pro-v1",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "Sure! Imagine you're reading a long book and you need to recall specific parts to understand the current chapter. The attention mechanism in transformer models works similarly. \n\nIn traditional models, information flows sequentially, making it hard to capture long-range dependencies. Transformers, however, use attention to weigh the importance of different words in a sentence when encoding meaning.\n\nHere’s how it works: \n\n1. **Input Encoding**: Each word in a sentence is converted into a numerical vector.\n2. **Attention Scores**: The model calculates attention scores to determine how much focus each word should receive relative to others.\n3. **Weighted Representation**: These scores are used to create a weighted representation, highlighting important words.\n4. **Context Vector**: This weighted sum forms a context vector for each word, capturing relevant information from the entire sentence.\n5. **Output**: The model uses these enriched vectors to make predictions or generate text.\n\nThis mechanism allows transformers to efficiently handle relationships between words, regardless of their distance in the sentence, leading to better performance in tasks like translation and summarization.",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 218,
+    "total_tokens": 245,
+    "cost": 0.0007192,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0007192,
+      "upstream_inference_prompt_cost": 0.0000216,
+      "upstream_inference_completions_cost": 0.0006976
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "amazon/nova-pro-v1",
+  "ts": 1776842465686
+}

@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "So I'm looking at the dishwasher, and it's half-full. That's not ideal, but it's also not empty. If I put it on now, I'll get some dishes clean, which is nice. But I'll also be using energy and water to run a half-full load, which might not be the most efficient thing to do.\n\nOn the other hand, if I wait until tomorrow, the dishwasher will definitely be full, which is better for the environment and my utility bills. But that means I'll have to deal with a bunch of dirty dishes piling up in the sink until then, which is kind of annoying.\n\nI'm also thinking about my schedule for tomorrow. Do I have a lot of cooking planned? Will I be generating even more dirty dishes? If so, it might make sense to wait until tomorrow to run the dishwasher, so I can get everything clean at once.\n\nBut then again, if I put the dishwasher on now, I'll have a head start on tomorrow's dishes. I won't have to worry about a huge pile of dirty dishes in the morning, which could be nice.\n\nHmm, I think what's swaying me is the thought of having to deal with a sink full of dirty dishes for the next 24 hours. That's just not very appealing. And it's not like running the dishwasher now is going to break the bank or anything. So, yeah, I think I'd put the dishwasher on now. It's just easier, and it'll make my life a little bit simpler for the rest of the day.",
+  "usage": {
+    "prompt_tokens": 74,
+    "completion_tokens": 319,
+    "total_tokens": 393,
+    "cost": 0.00013722,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00013722,
+      "upstream_inference_prompt_cost": 0.00000962,
+      "upstream_inference_completions_cost": 0.0001276
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-3.3-70b-instruct",
+  "ts": 1776828498356
+}

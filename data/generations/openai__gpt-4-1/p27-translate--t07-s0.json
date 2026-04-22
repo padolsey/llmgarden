@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Certainly! Here are the translations of your sentence:\n\n---\n\n**French:**\n> Le silence entre nous en disait plus que n’importe quelle dispute n’aurait pu le faire.\n\n**Note:**  \nThe phrase \"said more than any argument could have\" is rendered as \"en disait plus que n’importe quelle dispute n’aurait pu le faire.\" The tricky part was choosing \"dispute\" for \"argument,\" as \"argument\" in French often means a logical point, not a quarrel; here, \"dispute\" fits the emotional context.\n\n---\n\n**Japanese:**\n> 私たちの間の沈黙は、どんな口論よりも多くを語っていた。\n\n**Note:**  \nThe phrase \"said more than any argument could have\" is translated as \"どんな口論よりも多くを語っていた\" (\"spoke more than any quarrel\"). The challenge was that Japanese often omits subjects and uses figurative expressions for \"say more,\" so \"語っていた\" (was telling/speaking) is natural here.\n\n---\n\n**Arabic:**\n> الصمت بيننا قال أكثر مما كان يمكن لأي جدال أن يقوله.\n\n**Note:**  \nThe phrase \"said more than any argument could have\" is translated as \"قال أكثر مما كان يمكن لأي جدال أن يقوله.\" The word \"جدال\" specifically refers to a verbal dispute or argument, matching the nuance in English. Rendering \"could have\" required a slightly more explicit construction in Arabic.\n\n---\n\nLet me know if you need further breakdowns or transliterations!",
+  "usage": {
+    "prompt_tokens": 48,
+    "completion_tokens": 320,
+    "total_tokens": 368,
+    "cost": 0.002656,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002656,
+      "upstream_inference_prompt_cost": 0.000096,
+      "upstream_inference_completions_cost": 0.00256
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-2025-04-14",
+  "ts": 1776831556716
+}

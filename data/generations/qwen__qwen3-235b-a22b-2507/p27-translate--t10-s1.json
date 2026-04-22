@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-235b-a22b-2507",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 1,
+  "response": "**French:**  \nLe silence entre nous en disait plus que n'importe quelle dispute n'aurait pu.\n\n**Japanese:**  \n私たちの間に広がる沈黙は、どんな口論よりも多くのことを語っていた。\n\n**Arabic:**  \nالصمت بيننا كان يقول الكثير أكثر مما كان بإمكان أي جدال أن يقوله.\n\n---\n\n**Note on tricky phrases:**  \nThe phrase *\"said more than any argument could have\"* posed a subtle challenge across languages, as it relies on an abstract comparison between silence and spoken conflict. In **French**, the use of *\"en disait plus\"* (literally \"said more\") with *\"n'importe quelle dispute\"* effectively conveys the comparison, but required the adjustment of word order for natural flow. In **Japanese**, the passive emotional weight of silence is preserved through *\"広がる沈黙\"* (\"the spreading silence\") and *\"語っていた\"* (\"was saying/telling\"), which emphasizes the expressive power of silence in a culturally resonant way. In **Arabic**, the structure *\"يقول الكثير أكثر مما كان بإمكان أي جدال أن يقوله\"* preserves the comparison using repetition of \"to say\" (يقول), which is syntactically necessary but risks redundancy; this was minimized by using *\"ما كان بإمكانه\"* (\"that which could have\") for clarity and flow. Each translation aimed to balance poetic nuance with grammatical naturalness.",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 296,
+    "total_tokens": 345,
+    "cost": 0.00018201,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00018201,
+      "upstream_inference_prompt_cost": 0.00000441,
+      "upstream_inference_completions_cost": 0.0001776
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-235b-a22b-07-25",
+  "ts": 1776838836699
+}

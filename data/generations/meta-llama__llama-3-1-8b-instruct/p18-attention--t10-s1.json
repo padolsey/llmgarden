@@ -1,0 +1,33 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Imagine you're working on a project that involves extracting specific sentences from a long document. The sentences are a mix of unrelated information and specific details you're interested in. Your task is to highlight the relevant sentences and ignore the rest.\n\nThe attention mechanism in transformer models works similarly. It's a way to focus on the most relevant information in a sentence (or sequence of words) when generating a prediction or output.\n\nIn a transformer model, the input sentence is broken down into smaller chunks called tokens. Each token is processed by the model, and the attention mechanism decides how much weight to give to each token when generating the output. It's like deciding which sentences to highlight in your document.\n\nThe attention mechanism uses two main components:\n\n1. **Query**: This is like a search query you'd enter into a search engine. It represents the current state of the model's output.\n2. **Keys and Values**: These are the tokens from the input sentence. The model uses the query to calculate how similar each token is to the current state of the output.\n\nThe model then uses these similarities to decide which tokens to focus on and assign more weight to them when generating the output. This allows the model to focus on the most relevant information in the input sentence and generate more accurate predictions.",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 257,
+    "total_tokens": 293,
+    "cost": 0.00001357,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00001357,
+      "upstream_inference_prompt_cost": 7.2e-7,
+      "upstream_inference_completions_cost": 0.00001285
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "meta-llama/llama-3.1-8b-instruct",
+  "ts": 1776836702894
+}

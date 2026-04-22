@@ -1,0 +1,33 @@
+{
+  "model": "anthracite-org/magnum-v4-72b",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Debounce is a function that limits the rate at which a wrapped function can fire. Here's a simple JavaScript implementation:\n\n```javascript\nfunction debounce(func, wait) {\n    let timeout;\n    return function() {\n        const context = this;\n        const args = arguments;\n        clearTimeout(timeout);\n        timeout = setTimeout(() => func.apply(context, args), wait);\n    };\n}\n```\n\nExample usage:\n\n```javascript\nconst updatePosition = debounce(function(x, y) {\n  console.log('X: ' + x + ' Y: ' + y);\n}, 200);\n\n// Call updatePosition frequently in a loop\nfor (let x = 0; x <= 100; x++) {\n  updatePosition(x, x/2);\n}\n```\n\nIn this example, `debounce` wraps the `updatePosition` function so that it only executes once every 200 milliseconds, even if called more frequently. This can help optimize performance by limiting the number of times the wrapped function runs.",
+  "usage": {
+    "prompt_tokens": 37,
+    "completion_tokens": 208,
+    "total_tokens": 245,
+    "cost": 0.00115,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00115,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0.00115
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthracite-org/magnum-v4-72b",
+  "ts": 1776841523401
+}

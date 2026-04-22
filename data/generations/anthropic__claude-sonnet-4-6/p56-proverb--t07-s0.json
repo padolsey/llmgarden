@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p56-proverb",
+  "prompt": "Translate this English proverb into two other languages in a way that preserves the spirit, not the words: 'The best time to plant a tree was twenty years ago. The second best time is now.' Add a one-sentence note on each.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "## The Proverb in Two Languages\n\n---\n\n**French**\n*\"Il ne sert à rien de pleurer le temps perdu ; la graine plantée aujourd'hui deviendra l'arbre de demain.\"*\n(\"There is no use crying over lost time; the seed planted today will become tomorrow's tree.\")\n\n**Note:** French tends toward a gentle, philosophical resignation before pivoting to hope, so the translation leans into that cultural rhythm rather than the blunter English structure.\n\n---\n\n**Japanese**\n*「今日が、残りの人生で一番若い日だ。」*\n(\"Today is the youngest day of the rest of your life.\")\n\n**Note:** This takes a more indirect approach suited to Japanese expression, replacing the tree metaphor entirely with a reflection on time that carries the same quiet urgency without spelling out the lesson too directly.\n\n---\n\n**A broader observation worth noting:** The French version stays closer to the original's structure, while the Japanese version strips it down to its emotional core. Both are legitimate translation strategies — one preserves the *argument*, the other preserves the *feeling*. Which approach works better often depends on how much the target culture values explicitness.",
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 269,
+    "total_tokens": 330,
+    "cost": 0.004218,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004218,
+      "upstream_inference_prompt_cost": 0.000183,
+      "upstream_inference_completions_cost": 0.004035
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776831297378
+}

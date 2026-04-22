@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-4.1",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Imagine you’re reading a sentence and trying to understand the meaning of each word. Sometimes, to understand one word, you need to look at other words in the sentence. The attention mechanism in transformer models does something similar for computers.\n\nInstead of processing words one by one or in a fixed order, the attention mechanism allows the model to look at all the words in a sentence at once. For each word, it figures out which other words are important (“relevant”) to understanding it, and gives them more “attention.” This is done by calculating scores that represent how much each word should focus on every other word.\n\nTechnically, for every word, the model computes a weighted average of information from all the other words, where the weights are the attention scores. This allows the model to capture context and relationships, even for words that are far apart.\n\nFor example, in the sentence “The cat that chased the mouse was fast,” the word “was” should relate more to “cat” than “mouse.” The attention mechanism helps the model figure this out automatically, making it great at understanding language and context.",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 223,
+    "total_tokens": 255,
+    "cost": 0.001848,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001848,
+      "upstream_inference_prompt_cost": 0.000064,
+      "upstream_inference_completions_cost": 0.001784
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-4.1-2025-04-14",
+  "ts": 1776831546338
+}

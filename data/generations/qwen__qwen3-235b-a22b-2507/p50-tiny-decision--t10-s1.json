@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-235b-a22b-2507",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Okay, let's step into the real moment — it’s evening, the kitchen is a little messy, and the dishwasher is half-full. Here’s how I’d actually think through it, moment by moment, not as a textbook decision but like a person standing in the kitchen deciding:\n\nFirst, I’d notice *how* the dishwasher is half-full. Are the dirty dishes just from tonight? Or have they been piling up all day, maybe some even from breakfast? If it’s been accumulating, I might feel a little ick about leaving them overnight — food drying on plates, the potential for smells or ants, especially if someone cooked something greasy or stinky. That little guilt or irritation factor matters.\n\nThen I’d check the time. Is it 7 PM or 10 PM? If it’s late, I might not want to deal with the noise now — the dishwasher churning through the evening might bother someone sleeping, or break the quiet mood. But if it’s early enough, the noise doesn’t matter, and running it now means I wake up to clean dishes tomorrow. That’s nice.\n\nThen I’d think about *tomorrow*. Will it definitely be full? Or is there a chance we’ll eat out, or hand-wash a few things, and it’ll still be half-full again? Sometimes “definitely full” is an optimistic forecast. If I’m not *sure* it will get full, I start to lean toward running it now — better to use a half-load than let it sit three days.\n\nThen the cost kicks in — not just “electricity” in the abstract, but that little voice in my head: *Is this wasteful?* I know dishwashers use roughly the same water and energy whether half or full, so running it now is less efficient. But I also know that modern dishwashers are pretty efficient, and running one extra cycle this month isn’t going to break the bank. So the guilt is real, but not crushing.\n\nThen the convenience trade-off: If I run it now, I have to load it properly, add soap, check filters maybe, press start. Ten minutes of effort tonight. But then tomorrow morning, open the door — clean dishes, no stress. Counter is clear. No “ugh, still dirty” feeling.\n\nIf I wait, I have fewer dishes to load tonight — nice — but tomorrow there’s more chaos. More clutter. Have to remember to load it. Risk double-loading the sink when washing more. Might need clean dishes in the morning and not have them.\n\nAnd what about the dishes themselves? Are there things in there that shouldn’t soak — wood, cast iron, or fine glassware? Probably not, but if so, I’d definitely run it now. But assuming it’s all normal stuff…\n\nAlso — is there a person I live with who *hates* running half-loads? If so, I might avoid it just to dodge",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 600,
+    "total_tokens": 647,
+    "cost": 0.00035223,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00035223,
+      "upstream_inference_prompt_cost": 0.00000423,
+      "upstream_inference_completions_cost": 0.000348
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-235b-a22b-07-25",
+  "ts": 1776839001151
+}

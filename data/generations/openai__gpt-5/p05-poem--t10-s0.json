@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p05-poem",
+  "prompt": "Write a short poem (8–16 lines) about the feeling of finishing a long project. Any form you like.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "The last key clicks, and the room forgets to hum.\nCoffee rings become halos on a quiet desk.\nMy shoulders drop like scaffolding unlatched from a spine.\nThe to-do list blinks, a city gone dark, grid by grid.\n\nIn the sudden weather of after, tools cool like stones.\nThread is knotted; the needle remembers the way back.\nWhat was a chorus of half-made things goes single, clear.\n\nI walk the perimeter of what now holds its own weight,\npress the edges, hear the faint thrum of built time.\nPride arrives shyly, like a cat at dusk.\n\nThen sleep comes on with a lighthouse rhythm,\nand morning will call it finished—and let it drift from me.",
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 534,
+    "total_tokens": 564,
+    "cost": 0.0053775,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0053775,
+      "upstream_inference_prompt_cost": 0.0000375,
+      "upstream_inference_completions_cost": 0.00534
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 320,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776834196919
+}

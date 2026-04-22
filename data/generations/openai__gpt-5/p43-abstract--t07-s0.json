@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p43-abstract",
+  "prompt": "Explain what \"meaning\" means. Not \"the meaning of X\" — the concept itself.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Short answer\nMeaning is the content a sign has for an interpreter: the standards that fix when it is correctly applied, what it rules out, and what follows from it, given shared conventions and a context.\n\nWays to unpack that\n\n- Triadic relation: Meaning lives in a three-way relation among a sign (word, gesture, symbol), what it is about (object, property, situation), and an interpreter who can use it. This is the Peircean idea: sign–object–interpretant.\n\n- Norms and correctness: To have meaning is to be assessable as used rightly or wrongly. Meaning isn’t just correlation or causation; it brings standards—e.g., this word should apply here, not there.\n\n- Core dimensions people emphasize\n  - Reference/denotation (extension): what it picks out.\n  - Sense/intension: the way of picking it out; the conditions under which it would be true or applicable.\n  - Inferential role: what justifies it and what it justifies (its place in reasoning).\n  - Use/pragmatics: what a speaker intends to do with it in a context and what hearers are meant to recognize.\n  - Conventionality: socially shared rules coordinating speakers and hearers.\n  - Affective/expressive load: attitudes or emotions it conveys beyond descriptive content.\n\n- Levels to distinguish\n  - Word meaning (lexical content).\n  - Sentence meaning (literal compositional content).\n  - Speaker meaning (what this speaker intends here and now, often going beyond the literal).\n  - Discourse meaning (how content accumulates across turns, with presuppositions and implicatures).\n\n- Formalizations (different theories capture different facets)\n  - Truth-conditional/model-theoretic: the meaning of a sentence is its truth-conditions (or a function from possible worlds to truth values; for terms, to referents).\n  - Inferentialist/proof-theoretic: meanings are constituted by rules of inference and use.\n  - Information-theoretic: meaning as constraints that reduce uncertainty about variables (semantic information vs bare Shannon correlation).\n  - Teleosemantic/functional: a state means what it is supposed (by its biological or learning history) to indicate, allowing misrepresentation.\n  - Distributional/usage-based: meaning approximated by patterns of use across contexts.\n\n- Context sensitivity and implication\n  - Many expressions are indexical (I, here, now) or context-shaped (tall, rich).\n  - What is meant often exceeds what is said (implicature, presupposition, tone).\n\n- Compositionality and ambiguity\n  - Complex meanings are built from parts by systematic rules, yet many signs are polysemous or vague; conventions and context resolve this.\n\nOperational handle\nTo understand the meaning of an expression is to be able to:\n- Recognize when it applies and when it doesn’t (its conditions of correct use).\n- Know what follows if it applies and what would count against it (its inferential role).\n- Predict how it changes the common ground and action-guidance in a context (its pragmatic upshot).\n- Coordinate with others in using it according to shared norms (its conventional aspect).\n\nSynthesis\nMeaning is not a single thing but a family-resemblance notion centered on this: a sign has meaning insofar as it participates, under shared norms, in reliably coordinating minds with each other and with the world by fixing conditions of correct use and their consequences in context.",
+  "usage": {
+    "prompt_tokens": 25,
+    "completion_tokens": 1914,
+    "total_tokens": 1939,
+    "cost": 0.01917125,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01917125,
+      "upstream_inference_prompt_cost": 0.00003125,
+      "upstream_inference_completions_cost": 0.01914
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1152,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776831489595
+}

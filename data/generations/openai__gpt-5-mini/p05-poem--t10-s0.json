@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p05-poem",
+  "prompt": "Write a short poem (8–16 lines) about the feeling of finishing a long project. Any form you like.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "The last file closes like a long-drawn door,\ndust motes settle on the scaffold of my hands.\nI let the held breath spill—soft, disbelieving—\nand feel the tight rope loosen in my chest.\n\nA small, private bell rings in the ribs,\nechoing all the nights that stitched the days.\nJoy tastes of quiet: coffee gone cold,\nthe calendar’s red X finally earned.\n\nThere is no fanfare, only a settle and shine,\nthe work like a ship eased into harbor.\nI stand on the dock, palms open, thankful\nfor the weight that taught me how to carry.",
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 278,
+    "total_tokens": 308,
+    "cost": 0.0005635,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0005635,
+      "upstream_inference_prompt_cost": 0.0000075,
+      "upstream_inference_completions_cost": 0.000556
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 128,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776834898266
+}

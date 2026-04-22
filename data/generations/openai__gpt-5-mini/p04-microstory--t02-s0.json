@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "The keeper rose before dawn to polish the brass and wind the mechanism. Fog lay like a tide against the stone, muffling the sea into a swollen breath. He climbed the spiral, lamp oil heavy in his palms, thinking of routine: glass, wick, sweep. At the lantern's window the world was a smear, until a slow shape resolved — not ship nor rock but a pale procession of paper boats, each folded with meticulous hands and floating upright on invisible currents. They glowed faintly, wet with salt, stamped with names he had never known and dates that belonged to no calendar he had seen. He held a boat and felt the weight of other people's mornings, small apologies and old maps pressed into delicate creases. He placed it back. The fog listened, and the old lighthouse kept its slow, certain turning, guiding these fragile messages toward whatever shore they sought.",
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 1962,
+    "total_tokens": 1992,
+    "cost": 0.0039315,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039315,
+      "upstream_inference_prompt_cost": 0.0000075,
+      "upstream_inference_completions_cost": 0.003924
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1728,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776828070061
+}

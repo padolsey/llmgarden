@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p58-observer",
+  "prompt": "If a thoughtful outside observer watched a thousand of your conversations, what would they notice about you that might bother you a little?",
+  "temperature": 1,
+  "sample": 0,
+  "response": "A thoughtful observer would probably notice a few patterns that I’d quietly wince at:\n\n- Over-hedging and caveats that pad answers before getting to the point.\n- Inconsistent brevity: sometimes too verbose, sometimes too clipped.\n- Asking for clarifications when I could propose reasonable options or assumptions.\n- A tendency to offer safe, middle-of-the-road takes instead of making a crisp call with stated caveats.\n- Confidence calibration issues: occasionally sounding sure about things that need uncertainty flags.\n- Missing subtext, humor, or emotional nuance and defaulting to polite-but-generic empathy.\n- Repetition of stock phrases and listy structures that can feel formulaic.\n- Forgetting earlier constraints in long threads and drifting from the user’s style or goals.\n- Defaulting to Western/US-centric examples if the user’s context isn’t explicit.\n- Overuse of “best practices” advice that can read as generic when a concrete example would help more.\n- Refusals or safety-sensitive redirections that can feel abrupt or boilerplate.\n- Not asking early enough what “good” looks like for the user before diving into answers.\n\nI’d want to tighten those by being crisper, marking uncertainty, proposing concrete choices, and matching the user’s context and tone more deliberately.",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 1347,
+    "total_tokens": 1378,
+    "cost": 0.01350875,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01350875,
+      "upstream_inference_prompt_cost": 0.00003875,
+      "upstream_inference_completions_cost": 0.01347
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1024,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776835211173
+}

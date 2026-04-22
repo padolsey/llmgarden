@@ -1,0 +1,33 @@
+{
+  "model": "sao10k/l3.1-euryale-70b",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "The water cycle, also known as the hydrological cycle, is the continuous process through which water moves on, above, and beneath the Earth's surface. It begins with evaporation, where the sun's heat transforms water from oceans, lakes, rivers, and the ground into vapor. This water vapor rises into the atmosphere, creating clouds. When these clouds become heavy with water, the vapor condenses into droplets, leading to precipitation, such as rain, snow, or hail, depending on the temperature. Some of this precipitated water is caught in plants, forming transpiration, or is intercepted by trees or man-made structures, known as interception. The rest falls to the ground, infiltrating into the soil, which makes its way along gravity to become groundwater, or flows as superficial runoff, traveling through surface channels and eventually returning to bodies of water, starting the cycle again.",
+  "usage": {
+    "prompt_tokens": 38,
+    "completion_tokens": 178,
+    "total_tokens": 216,
+    "cost": 0.0001836,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001836,
+      "upstream_inference_prompt_cost": 0.0000323,
+      "upstream_inference_completions_cost": 0.0001513
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "sao10k/l3.1-euryale-70b",
+  "ts": 1776841498823
+}

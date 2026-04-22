@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p16-photosynthesis",
+  "prompt": "Explain photosynthesis to a curious adult non-scientist in around 150 words. Avoid a bulleted list.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Photosynthesis is how plants, algae, and some bacteria turn sunlight into food and release the oxygen we breathe. Inside their cells are chloroplasts packed with chlorophyll, the green pigment that absorbs light. In the first stage, light energy is used to split water, freeing oxygen and charging up molecular “batteries.” In the second stage, the plant uses that stored energy to stitch carbon dioxide from the air into sugars. It spends those sugars to power growth and make wood, fruits, and roots, or stores them as starch. When we eat plants—or animals that ate plants—we tap the same captured sunlight. Leaves look green because they reflect green wavelengths more than they absorb. On a planetary scale, photosynthesis is Earth’s solar engine: it feeds almost every food web, fills the atmosphere with oxygen, and locks carbon into biomass and soils. Fossil fuels are ancient photosynthesis—sunlight stored long ago. A leaf is a living solar panel linked to a sugar factory.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 581,
+    "total_tokens": 610,
+    "cost": 0.00584625,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00584625,
+      "upstream_inference_prompt_cost": 0.00003625,
+      "upstream_inference_completions_cost": 0.00581
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 320,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776834460759
+}

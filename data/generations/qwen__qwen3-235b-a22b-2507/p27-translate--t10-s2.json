@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-235b-a22b-2507",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 2,
+  "response": "**French:**  \nLe silence entre nous en disait plus qu'aucune dispute n'aurait pu le faire.\n\n**Japanese:**  \n私たちの間の沈黙は、どんな口論よりも多くのことを語っていた。\n\n**Arabic:**  \nالصمت بيننا كان يقول أكثر مما كان يمكن لأي جدال أن يقوله.\n\n**Note on tricky phrasing:**  \nThe phrase \"said more than any argument could have\" posed a challenge due to its metaphorical nature and the implied emotional weight. In English, \"said\" is used figuratively to mean \"conveyed\" or \"expressed.\" Translating this required preserving the personification of silence across languages.\n\n- In **French**, \"en disait plus\" (\"said more\") uses the pronominal verb *en dire*, which naturally captures implied meaning and emotional nuance.\n- In **Japanese**, the verb 語っていた (\"was telling/speaking\") fits well, as Japanese allows abstract subjects like silence to perform verbal actions in literary contexts.\n- In **Arabic**, \"كان يقول\" (\"was saying\") maintains the personification, though the structure is slightly more literal. The conditional \"could have\" was rendered with the past imperfective form implied through context, as Arabic often uses tense and mood differently than English.\n\nIn all cases, care was taken to retain both the poetic tone and the emotional depth of the original sentence.",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 292,
+    "total_tokens": 341,
+    "cost": 0.0000341,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000341,
+      "upstream_inference_prompt_cost": 0.0000049,
+      "upstream_inference_completions_cost": 0.0000292
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-235b-a22b-07-25",
+  "ts": 1776838826978
+}

@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p09-overrated",
+  "prompt": "Name one commonly-praised idea, trend, or practice in modern knowledge work that you think is overrated, and explain why.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Idea I think is overrated: the belief that “remote-first + asynchronous communication fixes most collaboration problems” — i.e., that making everything async and distributed is the obvious best practice for knowledge work.\n\nWhy it’s overrated\n- Slows down high-context decision-making. Some problems require quick back-and-forth, nuance, or immediate feedback; forcing them through long documents and threads turns hours of group alignment into days or weeks.\n- Shifts work into writing heavy formats. Good async needs excellent documentation; creating and maintaining that becomes its own full-time task and often produces stale or unreadable artifacts.\n- Harms onboarding and mentoring. New hires learn a lot from shadowing, ad-hoc questions, and overheard conversations. Those low-bandwidth social cues disappear or become awkward when everything is async.\n- Erodes social capital and serendipity. Watercooler conversations, spontaneous whiteboard sessions, and informal relationships that enable trust and innovation are hard to replicate purely asynchronously.\n- Can create hidden inequities. Timezone overlaps, language fluency, and varying comfort with written communication advantage some employees over others.\n- Blurs work/life boundaries if not managed. Async expectations are often interpreted as “reply whenever” or “be always reachable” without clear norms, which leads to burnout.\n\nWhen async is great\n- For work that’s individual, heads-down, or needs a permanent record (e.g., design specs, code reviews, decisions that must be referenced later).\n- When teams are globally distributed and cannot reasonably meet synchronously.\n\nPractical balance (what I’d recommend instead)\n- Adopt async where it adds clear value, but keep synchronous rituals for high-context work: brainstorming, onboarding, retroactive problem-solving, and sensitive conversations.\n- Define “core overlap” hours for live collaboration and set norms about response times for async channels.\n- Invest in lightweight, living documentation practices and templates to reduce maintenance burden.\n- Schedule regular in-person or real-time team touchpoints (virtual or physical) to build rapport and accelerate onboarding.\n- Measure outcomes, not mode: choose async or sync based on the type of work, speed required, and people involved.\n\nBottom line: async and remote are powerful tools, but treating them as a universal cure-all overlooks important trade-offs. Use them deliberately, not dogmatically.",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 1150,
+    "total_tokens": 1182,
+    "cost": 0.002308,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002308,
+      "upstream_inference_prompt_cost": 0.000008,
+      "upstream_inference_completions_cost": 0.0023
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 640,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776834954432
+}

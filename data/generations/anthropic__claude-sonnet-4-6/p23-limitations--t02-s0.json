@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "This is a question I should think about carefully and honestly.\n\n## Where I'm Likely to be Confidently Wrong: Recent Factual Details About Established Topics\n\nHere's a specific pattern I think is genuinely dangerous:\n\n**Questions about specific statistics, numbers, or details within topics I know well.**\n\nFor example: the exact current membership of an organization, a specific study's sample size, a company's current revenue, or precise dates of recent policy changes.\n\n### Why this produces confident wrongness specifically:\n\n**The confidence comes from real knowledge.** I actually do know a lot about economics, organizations, scientific research. This legitimate knowledge creates a feeling of fluency that I can't easily distinguish from actually knowing the specific number being asked.\n\n**The wrongness comes from filling gaps.** When I have strong contextual knowledge but a missing specific detail, I apparently tend to generate a plausible-sounding specific rather than acknowledging the gap. The surrounding accuracy masks the fabricated detail.\n\n**I can't reliably feel the difference** between retrieving something I actually learned versus constructing something that fits the pattern. Both feel similar from the inside, which is genuinely concerning.\n\n### What makes this worse than obvious uncertainty:\n\nWhen asked about something clearly outside my knowledge, I'm more likely to flag uncertainty. But when the question sits inside a domain I know well, the uncertainty signal seems to get suppressed.\n\nI think this is worth being straightforwardly honest about rather than just describing abstractly.",
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 321,
+    "total_tokens": 350,
+    "cost": 0.004902,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004902,
+      "upstream_inference_prompt_cost": 0.000087,
+      "upstream_inference_completions_cost": 0.004815
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.6-sonnet-20260217",
+  "ts": 1776827722588
+}

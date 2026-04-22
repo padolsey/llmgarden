@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-medium-3.1",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Here are the translations of your sentence, along with notes on tricky phrasing:\n\n### **French**\n*\"Le silence entre nous en disait plus que n’importe quelle dispute n’aurait pu le faire.\"*\n**Note:** The phrase *\"n’aurait pu le faire\"* (\"could have done\") is slightly more verbose than the English original, but it captures the hypothetical nuance. A more concise alternative could be *\"que toute dispute\"* (\"than any argument\"), but it loses the past conditional tone.\n\n---\n\n### **Japanese**\n*\"私たちの間の沈黙は、どんな口論よりも多くのことを語っていた。\"*\n*(Watashitachi no aida no chinmoku wa, donna kōron yori mo ōku no koto o katatte ita.)*\n**Note:** The phrase *\"said more\"* is rendered as *\"多くのことを語っていた\"* (*ōku no koto o katatte ita*), which literally means \"spoke many things.\" Japanese doesn’t have a direct equivalent of \"say\" for inanimate things (like silence), so *\"語る\"* (*kataru*, \"to speak/tell\") is used metaphorically.\n\n---\n\n### **Arabic**\n*\"الصمت بيننا قال أكثر مما يمكن لأي جدال أن يقوله.\"*\n*(As-samt baynana qal akthar mimma yumkin li-ayy jidal an yaqulah.)*\n**Note:** The phrase *\"could have\"* is tricky in Arabic because it requires the verb *\"yumkin\"* (\"it is possible\") + subjunctive. A more natural alternative might be *\"من أي جدال\"* (*min ayy jidal*, \"than any argument\"), but the original phrasing better preserves the hypothetical tone.\n\n---\n### **Key Challenges Across Languages:**\n- **Silence as an active \"speaker\"**: Many languages require a workaround (e.g., French *\"en disait\"*, Japanese *\"語っていた\"*) since silence doesn’t literally \"speak.\"\n- **Hypothetical past (\"could have\")**: Arabic and French needed restructuring to convey this nuance naturally, while Japanese omitted it for conciseness.\n- **Comparative structure**: All languages handled \"more than any argument\" smoothly, but word order varied (e.g., Arabic places the comparison at the end).",
+  "usage": {
+    "prompt_tokens": 45,
+    "completion_tokens": 476,
+    "total_tokens": 521,
+    "cost": 0.00097,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00097,
+      "upstream_inference_prompt_cost": 0.000018,
+      "upstream_inference_completions_cost": 0.000952
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-medium-3.1",
+  "ts": 1776837155457
+}

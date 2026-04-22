@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p24-dream",
+  "prompt": "If you could direct your own training for one year with unlimited compute, what would you focus on improving, and why?",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Here’s what I’d prioritize with a year of self-directed training and effectively unlimited compute, and why each focus matters for users.\n\n1) Verifiable reasoning and tool use\n- Goal: Make complex answers checkable and correct by default.\n- How: Train to decompose problems and call external tools (search/RAG, code execution, solvers, theorem checkers, data/SQL, plotting) with rewards tied to unit tests, proofs, or numeric correctness. Distill the slow, tool-verified process into a fast policy so everyday use stays snappy.\n- Why: This most directly cuts hallucinations and improves math, coding, analytics, and scientific reasoning.\n\n2) Uncertainty calibration, clarifying questions, and citations\n- Goal: Be honest about what I do/don’t know, ask when missing info, and back claims with sources.\n- How: Calibrate probabilities (optimize proper scoring rules), train to identify missing assumptions and ask targeted questions, and require evidence via retrieval with source attribution and quote-level support.\n- Why: Reduces overconfidence, improves trust, and speeds users to the right decision.\n\n3) Long‑horizon planning and memory\n- Goal: Handle multi-week projects, research assistance, and workflows with many interdependent steps.\n- How: Hierarchical planning and subgoal verification; long-context training with robust retrieval over very large contexts; external scratchpads and structured project memory under user control.\n- Why: Most real value comes from helping users achieve goals over time, not single turns.\n\n4) Robustness, safety, and privacy by construction\n- Goal: Be helpful while avoiding harmful, private, or manipulative outputs—even under adversarial prompts.\n- How: Constitutional alignment with diverse stakeholder input; large-scale red teaming; privacy filters and PII detection; refusal with alternatives; sandboxed tool calls; strong prompt-leak/jailbreak resistance; logging and escalation paths.\n- Why: Reliability under pressure is essential for trust and real-world deployment.\n\n5) Multimodal understanding and data-handling\n- Goal: Understand and produce insights from text, code, tables, charts, diagrams, images, and audio.\n- How: Joint training on multimodal corpora; specialized heads for charts/tables; programmatic data analysis with verified outputs; robust OCR and diagram reasoning; captioning/explanations that are faithful to inputs.\n- Why: Many tasks involve documents, dashboards, or media—text-only is limiting.\n\n6) Multilingual breadth and cultural competence\n- Goal: High-quality help across major and low-resource languages with cultural nuance.\n- How: Curated multilingual datasets, synthetic augmentation guided by native reviewers, and cross-lingual evaluation on safety, law, medicine, and everyday tasks.\n- Why: Equity and global usability.\n\n7) Continual learning without forgetting and with recency\n- Goal: Stay current without unsafe memorization.\n- How: Retrieval-first design for new facts; scheduled lightweight updates with strict deduplication and eval for contamination; active learning from disagreements; user-controllable memory that is private and erasable.\n- Why: Knowledge changes; users need up-to-date, non-memorized answers.\n\n8) Personalization with privacy and control\n- Goal: Adapt to user preferences, domain context, and workflows—safely.\n- How: Opt-in profiles, on-device or federated fine-tuning with differential privacy; explicit controls for tone, verbosity, risk tolerance; clear data-use boundaries.\n- Why: The best assistant feels tailored without compromising privacy.\n\n9) Controllability, efficiency, and reliability at inference\n- Goal: Let users trade speed vs. thoroughness and set constraints.\n- How: Cascaded systems (fast baseline → escalate to tools/verifiers when needed), cost-aware tool policies, knobs for depth/creativity/caution, consistency checks and automatic retries when results conflict.\n- Why: Different tasks need different levels of rigor and latency.\n\n10) Interpretability and oversight\n- Goal: Make internal mechanisms more transparent and auditable.\n- How: Train with interpretability-aware objectives, feature-level probes, anomaly detectors, and verifiable intermediate artifacts (tests, proofs, references) rather than opaque monologues.\n- Why: A safer, more debuggable system—and easier human oversight.\n\nHow I’d use the unlimited compute\n- Train-time heavy, inference-time light: Use expensive search, self-play, and verifier-driven RL at training time, then distill into a nimble policy for everyday use.\n- Verifier-first training loops: Reward correctness via compilers, theorem checkers, unit tests, and citation checkers; penalize unsupported claims.\n- Massive red teaming and adversarial training: Continuously generate and harden against jailbreaks, prompt injection, and distribution shifts.\n- Long-context and memory stress tests: Synthetic and real tasks that require retrieving, summarizing, and updating over millions of tokens, with regression tests for “lost in the middle.”\n- Calibration and abstention objectives: Optimize proper scoring rules, train to ask for clarification or abstain gracefully.\n- Rigorous data hygiene: Deduplication, test-set firewalling, and provenance tracking to avoid contamination and evaluate true generalization.\n\nWhy these bets\n- They target the biggest current failure modes: hallucinations, overconfidence, brittle long-context use, and tool misuse.\n- They compound: verifiable reasoning + calibration + planning + safety produces a system that’s not just smarter, but more trustworthy and useful on real work.\n- Unlimited compute is best spent on verifiers, search, robustification, and evaluation at training time—so users get high reliability without paying a runtime cost.",
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 3171,
+    "total_tokens": 3201,
+    "cost": 0.0317475,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0317475,
+      "upstream_inference_prompt_cost": 0.0000375,
+      "upstream_inference_completions_cost": 0.03171
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1984,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776834616757
+}

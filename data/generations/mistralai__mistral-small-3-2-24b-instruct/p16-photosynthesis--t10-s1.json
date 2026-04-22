@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "prompt_id": "p16-photosynthesis",
+  "prompt": "Explain photosynthesis to a curious adult non-scientist in around 150 words. Avoid a bulleted list.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Certainly! Photosynthesis is nature’s way of turning sunlight intoenergy that plants—and ultimately, all life—can use. Here’s how it works in simple terms: Plants capture sunlight with their green leaves, which contain a pigment called chlorophyll. This pigment acts like a solar panel, absorbing light energy to fuel a chemical reaction. The plant takes in carbon dioxide from the air through tiny openings in its leaves and draws up water from its roots. Using sunlight’s energy, it combines these ingredients to create glucose (a sugar that feeds the plant) and releases oxygen as a byproduct.\n\nYou might think of photosynthesis as a kind of cooking: the sun provides heat, the plant’s leaves are the kitchen, and the ingredients are water and carbon dioxide. The result? Sugar for the plant to grow, and oxygen that animals (including us) breathe. It’s a beautifully simple process that sustains almost all ecosystems on Earth, making it the foundation of life as we know it.",
+  "usage": {
+    "prompt_tokens": 28,
+    "completion_tokens": 197,
+    "total_tokens": 225,
+    "cost": 0.0000415,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000415,
+      "upstream_inference_prompt_cost": 0.0000021,
+      "upstream_inference_completions_cost": 0.0000394
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-small-3.2-24b-instruct-2506",
+  "ts": 1776837298913
+}

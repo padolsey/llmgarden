@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "The sun, a colossal furnace in the sky, tirelessly warms the Earth's oceans, lakes, and rivers, causing countless water molecules to shimmer and ascend into the atmosphere as an invisible vapor, a process known as evaporation. As these airborne water particles rise higher, they cool and coalesce around microscopic dust specks, forming tiny droplets that gather to create clouds, a visible testament to the water's journey skyward. These ethereal formations drift across the landscapes, carried by gentle breezes, until the accumulated droplets grow heavy, too weighty to remain suspended, and fall back to the Earth's surface as precipitation, manifesting as rain, snow, sleet, or hail. Upon returning, this water might replenish groundwater reserves, sink into the soil to nourish thirsty plants, or flow across the land as runoff, eventually finding its way back to streams, rivers, and ultimately, the vast oceans, thus completing its continuous, life-sustaining circuit.",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 188,
+    "total_tokens": 215,
+    "cost": 0.0004781,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004781,
+      "upstream_inference_prompt_cost": 0.0000081,
+      "upstream_inference_completions_cost": 0.00047
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.5-flash",
+  "ts": 1776835833148
+}

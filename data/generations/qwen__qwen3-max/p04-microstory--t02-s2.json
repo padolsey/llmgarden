@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p04-microstory",
+  "prompt": "Write a 150-word short story about a lighthouse keeper who discovers something unexpected in the fog. Do not use dialogue.",
+  "temperature": 0.2,
+  "sample": 2,
+  "response": "Every dawn, Elias wound the lamp’s gears, polished its glass, and watched the sea breathe against the cliffs. The fog had clung for three days—thick, silent, swallowing the horn’s mournful cry. On the fourth morning, as he swept the gallery, something snagged his boot. Not driftwood. Not rope. A child’s leather satchel, damp but intact, lay coiled near the railing. His pulse quickened. Inside, a water-stained sketchbook filled with drawings of whales, stars, and lighthouses—his lighthouse. The final page held a charcoal self-portrait: a girl with wind-tousled hair, eyes wide with wonder, standing exactly where he now stood. No name. No date. Only the sea’s salt on the paper. Elias closed the book gently, tucked it beneath his coat, and returned to his duties. But that night, as he lit the lamp, he scanned the fog not for ships, but for a silhouette that might never return.",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 209,
+    "total_tokens": 244,
+    "cost": 0.0008424,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0008424,
+      "upstream_inference_prompt_cost": 0.0000273,
+      "upstream_inference_completions_cost": 0.0008151
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776845836398
+}

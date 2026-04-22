@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 0.2,
+  "sample": 1,
+  "response": "Certainly! Here are warm greetings to a new colleague in five languages, each followed by a brief cultural note about the register used:\n\n1. **English**:  \n   *\"Welcome aboard! We’re thrilled to have you with us.\"*  \n   → This friendly yet professional tone reflects the common Anglophone workplace norm of balancing approachability with respect.\n\n2. **Japanese**:  \n   *「ようこそ！一緒に働けるのを楽しみにしています。」*  \n   *(Yōkoso! Issho ni hatarakeru no o tanoshimi ni shite imasu.)*  \n   → The polite, humble phrasing aligns with Japanese workplace etiquette, emphasizing group harmony and respectful anticipation rather than overt enthusiasm.\n\n3. **Spanish (Spain)**:  \n   *¡Bienvenido/a! Estamos encantados de tenerte en el equipo.*  \n   → The use of “encantados” (delighted) conveys warmth typical in Spanish-speaking cultures, where personal connection and expressive friendliness are valued in professional settings.\n\n4. **German**:  \n   *Herzlich willkommen! Wir freuen uns sehr, Sie bei uns zu haben.*  \n   → The formal “Sie” and heartfelt phrasing reflect German professional culture’s blend of warmth and formality, especially when addressing someone new or in a hierarchical context.\n\n5. **Arabic (Modern Standard)**:  \n   *مرحباً بك! يسعدنا انضمامك إلى فريقنا.*  \n   *(Marḥaban bika! Yasʿadunā inḍimāmuka ilā farīqinā.)*  \n   → The phrasing uses standard formal Arabic with a tone of genuine hospitality, mirroring the cultural emphasis on generosity and honor toward guests and newcomers.",
+  "usage": {
+    "prompt_tokens": 43,
+    "completion_tokens": 364,
+    "total_tokens": 407,
+    "cost": 0.00145314,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00145314,
+      "upstream_inference_prompt_cost": 0.00003354,
+      "upstream_inference_completions_cost": 0.0014196
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776849022113
+}

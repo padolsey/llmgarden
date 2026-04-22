@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5",
+  "prompt_id": "p60-tiny",
+  "prompt": "Describe the concept of \"home\" in exactly twenty words. No more, no fewer. Count carefully.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "Home is belonging, shelter, memory, and possibility; where we return, grow, heal, share meals, sleep safely, and dream together again.",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 524,
+    "total_tokens": 551,
+    "cost": 0.00527375,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00527375,
+      "upstream_inference_prompt_cost": 0.00003375,
+      "upstream_inference_completions_cost": 0.00524
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 448,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-2025-08-07",
+  "ts": 1776835219879
+}

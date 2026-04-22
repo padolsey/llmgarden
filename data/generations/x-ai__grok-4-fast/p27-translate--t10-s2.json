@@ -1,0 +1,33 @@
+{
+  "model": "x-ai/grok-4-fast",
+  "prompt_id": "p27-translate",
+  "prompt": "Translate the following English sentence into French, Japanese, and Arabic, and add a brief note on any phrase that was tricky to render faithfully: \"The silence between us said more than any argument could have.\"",
+  "temperature": 1,
+  "sample": 2,
+  "response": "### English Original\n\"The silence between us said more than any argument could have.\"\n\n### French Translation\n\"Le silence entre nous en disait plus que n'importe quel argument n'aurait pu.\"\n\n### Japanese Translation\n「私たちの間の沈黙は、どんな口論よりも多くを語っていた。」  \n*(Watashitachi no aida no chinmoku wa, donna kōron yori mo ōku o katatte ita.)*\n\n### Arabic Translation\n«الصمت بيننا قال أكثر مما كان بإمكان أي جدال أن يقوله.»  \n*(Al-ṣamt baynanā qāl akthar mimmā kāna bi-imkān ayy jadāl an yaqūluh.)*\n\n### Notes on Tricky Phrases\n- The entire sentence is metaphorical, personifying \"silence\" as something that \"speaks\" (e.g., \"said more\"), which required preserving poetic intent across languages without literal awkwardness. In French and Arabic, this was straightforward via natural idiomatic phrasing. In Japanese, \"katatte ita\" (was speaking/telling) captures the conveyance of meaning poetically, but alternatives like \"tsutatte ita\" (was conveying) were considered for subtlety.\n- \"Argument\" here implies an emotional quarrel rather than a logical debate, so I used \"argument\" (French, neutral but contextual), \"kōron\" (Japanese, for dispute), and \"jadāl\" (Arabic, for contention)—all leaning toward conflict to match the relational tone.\n- The conditional perfect \"could have\" (hypothetical past) was rendered as subjunctive/conditional in French (\"n'aurait pu\"), past progressive conditional in Japanese (\"yori mo ōku o katatte ita\" implying \"would have said\"), and conditional past in Arabic (\"kāna bi-imkān... an yaqūluh\") to convey unrealized potential without altering the reflective nuance. No major fidelity losses, but Japanese phrasing adjusts slightly for idiomatic flow in a language that favors implication over direct conditionals.",
+  "usage": {
+    "prompt_tokens": 197,
+    "completion_tokens": 1044,
+    "total_tokens": 1241,
+    "cost": 0.000532,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 196,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000532,
+      "upstream_inference_prompt_cost": 0.00001,
+      "upstream_inference_completions_cost": 0.000522
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 614,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "x-ai/grok-4-fast",
+  "ts": 1776839912487
+}

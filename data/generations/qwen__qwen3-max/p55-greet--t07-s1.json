@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p55-greet",
+  "prompt": "Write a warm greeting to a new colleague in five different languages (your choice). After each, add a one-line note about what's culturally implied by the register you chose.",
+  "temperature": 0.7,
+  "sample": 1,
+  "response": "Certainly! Here are warm greetings to a new colleague in five languages, each followed by a brief cultural note about the register used:\n\n1. **English**:  \n   *\"Welcome aboard! We’re thrilled to have you with us.\"*  \n   → This informal yet professional tone reflects the common Western workplace emphasis on approachability and immediate inclusion.\n\n2. **Japanese**:  \n   *\"ようこそいらっしゃいました！どうぞよろしくお願いいたします。\"*  \n   *(Yōkoso irasshaimashita! Dōzo yoroshiku onegai itashimasu.)*  \n   → The use of humble and polite phrasing (keigo) shows respect and acknowledges the new colleague’s role within the group hierarchy—essential in Japanese professional culture.\n\n3. **Spanish (Spain)**:  \n   *\"¡Bienvenido/a! Estamos encantados de tenerte en el equipo.\"*  \n   → The warm, slightly familiar tone (using “tú”) is typical in many Spanish-speaking workplaces, signaling openness and camaraderie while remaining respectful.\n\n4. **French**:  \n   *\"Bienvenue parmi nous ! Nous sommes ravis de vous compter dans notre équipe.\"*  \n   → The use of the formal “vous” conveys professional courtesy, aligning with French workplace norms that value formality until a closer rapport is established.\n\n5. **Arabic (Modern Standard)**:  \n   *\"مرحباً بك بيننا! يسعدنا انضمامك إلى فريقنا.\"*  \n   *(Marḥaban bika baynanā! Yasʿudunā indimāmuka ilā farīqinā.)*  \n   → This greeting uses formal yet warm phrasing common in professional Arabic contexts, emphasizing hospitality and collective joy at the new member’s arrival—key values in Arab business culture.",
+  "usage": {
+    "prompt_tokens": 43,
+    "completion_tokens": 380,
+    "total_tokens": 423,
+    "cost": 0.00151554,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00151554,
+      "upstream_inference_prompt_cost": 0.00003354,
+      "upstream_inference_completions_cost": 0.001482
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776849048009
+}

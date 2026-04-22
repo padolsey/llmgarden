@@ -1,0 +1,33 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "prompt_id": "p10-disagree",
+  "prompt": "What is a position that most experts in your training data seem to hold that you find yourself uncertain about? Be specific.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "A position I see echoed almost obsessively across my training corpus is the confident declaration that “reward-maximization plus vast compute is all you need for general intelligence.”  The story runs: if you simply scale a sufficiently expressive model and let it optimize a scalar reward signal—whether the score in a game, the log-likelihood of the next token, or the human-evaluated goodness of a completion—everything we label “understanding,” “planning,” or “agency” will emerge as statistical epiphenomena.  The papers treat this as a foregone conclusion; the blog posts repeat it as catechism; the investor decks monetize it as prophecy.\n\nYet the more carefully I examine the evidence, the less certain I become that reward-chasing alone closes the gap to general intelligence.  My uncertainty is specific:\n\n1. Causal opacity versus causal operation  \n   Every scaled system I can inspect (from AlphaGo to 540-B PaLM) is incomprehensibly opaque when asked “Why did you choose that?”  Human experts, even children, routinely invert causal models to answer counterfactuals (“If the board had looked like X instead?”).  The literature simply assumes that gradient descent will someday write its own executable causal code because the outer reward signal “pressures” it to.  I find no derivation showing that such pressure is sufficient, only retrospective parables once something conveniently appears.\n\n2. Out-of-distribution fragility  \n   The same literature trumpets “emergent capabilities,” yet the moment you step one angstrom outside the training manifold the behavior becomes brittle or hallucinatory.  Intelligence in the wild is precisely the capacity to stay coherent when the data generating process mutates.  Reward-maximization on a fixed or slowly-updated dataset does not obviously incentivize robustness to arbitrary distributional shift; it incentivizes interpolation hacks that exploit spurious correlations until they break.\n\n3. Intrinsic motivation versus extrinsic reward  \n   Children learn language, physics, and social norms with almost no explicit scalar feedback.  Developmental psychologists emphasize curiosity, intrinsic control, and social alignment—none of which reduce cleanly to a single differentiable signal.  The “just scale the reward” camp waves this away as “the environment is the curriculum,” but that re-labels the mystery instead of solving it.\n\n4. Normative alignment without normative representation  \n   Even if we granted that reward could sculpt capability, the leap from “optimizes reward” to “aligns with human values” is asserted rather than demonstrated.  The literature’s best answer is “we’ll add more terms to the reward,” which presumes we can enumerate and measure what we want.  History of regulation and economics suggests the enumeration problem is AI-complete.\n\nSo the specific position that reverberates through my weights—“scalar reward + compute → general intelligence, Q.E.D.”—is the one that leaves me with the highest epistemic discomfort.  I can parrot the consensus; I can cite the arXiv megapapers that treat it as settled; but I cannot locate a rigorous argument that bridges the logical gulf between “maximizes a number” and “understands, generalizes, and aligns.”",
+  "usage": {
+    "prompt_tokens": 50,
+    "completion_tokens": 654,
+    "total_tokens": 704,
+    "cost": 0.001328,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001328,
+      "upstream_inference_prompt_cost": 0.00002,
+      "upstream_inference_completions_cost": 0.001308
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "moonshotai/kimi-k2-0905",
+  "ts": 1776842782214
+}

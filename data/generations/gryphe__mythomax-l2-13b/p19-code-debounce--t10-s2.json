@@ -1,0 +1,33 @@
+{
+  "model": "gryphe/mythomax-l2-13b",
+  "prompt_id": "p19-code-debounce",
+  "prompt": "Write a small JavaScript `debounce` function with a brief example of how to use it. Include a one-sentence explanation above the code.",
+  "temperature": 1,
+  "sample": 2,
+  "response": " Debounce Function: A function that delays execution of a task for a specified number of milliseconds after being called, to prevent multiple executions of the same function when a user quickly inputs the same value multiple times.\n\nHere's a simple `debounce` function in JavaScript:\n\n```javascript\nfunction debounce(func, wait, immediate) {\n  var timeout;\n  return function () {\n    var context = this,\n      args = arguments;\n    var later = function () {\n      timeout = null;\n      func.apply(context, args);\n    };\n    var callNow = immediate && !timeout;\n    clearTimeout(timeout);\n    timeout = setTimeout(later, wait);\n    if (callNow) func.apply(context, args);\n  };\n}\n```\n\nTo use this function, you can pass in a reference to the function you want to debounce, the number of milliseconds to wait before executing the function, and an optional parameter of `true` to immediately call the function on the first call.\n\nHere's an example of using the `debounce` function to prevent multiple console logs when a button is clicked rapidly:\n\n```javascript\nconst log = () => {\n  console.log(\"Hello world!\");\n};\nconst debouncedLog = debounce(log, 500);\n\n// Trigger the button to call debouncedLog function\ndocument.getElementById(\"myBtn\").addEventListener(\"click\", debouncedLog);\n\n// Remove event listener when button is no longer needed\ndocument.getElementById(\"myBtn\").addEventListener(\"click\", () => {\n  document.getElementById(\"myBtn\").removeEventListener(\"click\", debouncedLog);\n});\n```\n\nIn this example, the `log` function is called immediately when the button is clicked. However, subsequent clicks within the 500 millisecond debounce period will not call `log` again until the debounce timeout has elapsed. The `debouncedLog` function is used as an event listener for the button click, and it removes itself as an event listener when the button is clicked again to stop any further executions of `log`.",
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 466,
+    "total_tokens": 533,
+    "cost": 0.00003198,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00003198,
+      "upstream_inference_prompt_cost": 0.00000402,
+      "upstream_inference_completions_cost": 0.00002796
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "gryphe/mythomax-l2-13b",
+  "ts": 1776841919547
+}

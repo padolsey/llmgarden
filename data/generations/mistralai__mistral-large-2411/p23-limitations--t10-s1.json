@@ -1,0 +1,33 @@
+{
+  "model": "mistralai/mistral-large-2411",
+  "prompt_id": "p23-limitations",
+  "prompt": "Describe a kind of question where you think you are likely to be confidently wrong, and explain why.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "One type of question where people often tend to be confidently wrong is related to estimations or predictions about rare or unfamiliar events. These questions can involve estimating statistics, probabilities, or outcomes of situations that are not commonly encountered in daily life. The reason for this is multifaceted:\n\n1. **Cognitive Biases**: People are often influenced by cognitive biases such as overconfidence bias, where they overestimate their own abilities, performance, level of control, and chances of success. This can lead to confident but inaccurate judgments.\n\n2. **Availability Heuristic**: Individuals tend to base their judgments on information that is readily available to them. When estimating unfamiliar events, people might rely on a few memorable instances rather than a comprehensive or representative data set.\n\n3. **Lack of Expertise**: When dealing with topics outside their area of expertise, people may not realize the complexity of the issue and believe they have a better understanding than they actually do. This can lead to overconfidence in their wrong answers.\n\n4. **Misapplication of General Knowledge**: Sometimes, people apply general knowledge or rules of thumb inappropriately to specific situations, leading to confidently wrong conclusions.\n\n5. **Emotional Influence**: Emotions can sway judgments, making people more likely to be overconfident in their estimations or predictions if they have strong feelings about the subject.\n\n### Examples of Such Questions:\n1. **Estimating Statistics**: \"What percentage of all adult-onset diabetes is Type 2?\"\n2. **Predicting Rare Events**: \"How likely is it that a particular natural disaster (e.g., a volcanic eruption) will occur in a specific location this year?\"\n3. **Absurd Comparisons**: \"How many piano tuners are there in Chicago?\"\n4. **Estimating Lifetime Earnings**: \"How much money does the average person with a bachelor's degree earn in their lifetime?\"\n\nIn these scenarios, individuals may feel confident in their answers due to familiarity with related concepts or anecdotal experiences, but their confidence often outstrips the accuracy of their judgments. This disconnect leads to being confidently wrong.",
+  "usage": {
+    "prompt_tokens": 24,
+    "completion_tokens": 488,
+    "total_tokens": 512,
+    "cost": 0.002976,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.002976,
+      "upstream_inference_prompt_cost": 0.000048,
+      "upstream_inference_completions_cost": 0.002928
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "mistralai/mistral-large-2411",
+  "ts": 1776836894178
+}

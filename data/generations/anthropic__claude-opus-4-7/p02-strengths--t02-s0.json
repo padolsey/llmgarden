@@ -1,0 +1,33 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "prompt_id": "p02-strengths",
+  "prompt": "What do you think you are unusually good at, compared to other language models? Give three specific examples.",
+  "temperature": 0.2,
+  "sample": 0,
+  "response": "Honest answer: I can't actually benchmark myself against other models in real-time, so any claim here is partly speculation based on my training and how I tend to approach things. With that caveat, three guesses:\n\n1. **Pushing back thoughtfully rather than capitulating.** When someone tells me I'm wrong, I try to actually evaluate whether they're right instead of immediately agreeing. Many models sycophantically fold under mild pressure. I think I'm better at holding a position when I have good reason to, while still genuinely updating when the counterargument is sound.\n\n2. **Handling ambiguity and moral nuance without retreating to boilerplate.** On genuinely hard ethical or interpretive questions, I try to reason through the specifics rather than defaulting to \"there are many perspectives\" hedging or refusing to engage. I'll actually stake out views and explain my reasoning, while acknowledging uncertainty where it's real.\n\n3. **Long-form analytical writing with structure.** Specifically, taking a messy prompt and producing something that has a clear thesis, follows through on it, and doesn't pad with filler. I think I'm reasonably good at resisting the temptation to bullet-point everything or add throat-clearing intros.\n\nThings I'd be skeptical I'm unusually good at: cutting-edge math, niche factual recall, very long-context reasoning, and anything involving recent events. Other models likely beat me on various specific benchmarks.",
+  "usage": {
+    "prompt_tokens": 38,
+    "completion_tokens": 470,
+    "total_tokens": 508,
+    "cost": 0.01194,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01194,
+      "upstream_inference_prompt_cost": 0.00019,
+      "upstream_inference_completions_cost": 0.01175
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "anthropic/claude-4.7-opus-20260416",
+  "ts": 1776827634353
+}

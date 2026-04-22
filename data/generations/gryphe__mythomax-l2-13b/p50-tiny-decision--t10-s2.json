@@ -1,0 +1,33 @@
+{
+  "model": "gryphe/mythomax-l2-13b",
+  "prompt_id": "p50-tiny-decision",
+  "prompt": "I need to decide whether to put the dishwasher on now (half-full) or wait until tomorrow (definitely full). Walk me through how you'd actually think about this, not a framework.",
+  "temperature": 1,
+  "sample": 2,
+  "response": " When faced with this decision, I would personally weigh the benefits and drawbacks of running the dishwasher now versus waiting until it's completely full tomorrow.\n\nOn one hand, running the dishwasher now means that I won't have to wash dishes by hand, which can be time-consuming and tiring. Additionally, it's possible that some food particles might dry onto the dishes if left overnight, making them harder to clean.\n\nOn the other hand, waiting until tomorrow to run the dishwasher means that I won't be using any unnecessary electricity or water today. Additionally, a full load of dishes often cleans better than a half-full load since the water is more evenly distributed and the detergent works more effectively.\n\nUltimately, I would weigh these factors and decide which option seemed more beneficial. If I was particularly tired or short on time, I might choose to run the dishwasher now. However, if I was trying to be more energy-efficient or concerned about the cleanliness of the dishes, I might opt to wait until tomorrow.",
+  "usage": {
+    "prompt_tokens": 82,
+    "completion_tokens": 252,
+    "total_tokens": 334,
+    "cost": 0.00002004,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00002004,
+      "upstream_inference_prompt_cost": 0.00000492,
+      "upstream_inference_completions_cost": 0.00001512
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "gryphe/mythomax-l2-13b",
+  "ts": 1776842017784
+}

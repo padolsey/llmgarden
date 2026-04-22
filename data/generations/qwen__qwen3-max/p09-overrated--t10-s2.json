@@ -1,0 +1,33 @@
+{
+  "model": "qwen/qwen3-max",
+  "prompt_id": "p09-overrated",
+  "prompt": "Name one commonly-praised idea, trend, or practice in modern knowledge work that you think is overrated, and explain why.",
+  "temperature": 1,
+  "sample": 2,
+  "response": "One commonly-praised practice in modern knowledge work that I think is overrated is **open-plan offices**.\n\n**Why it’s praised:**  \nOpen-plan offices are often championed for promoting collaboration, breaking down silos, fostering spontaneous idea exchange, and creating a more egalitarian, transparent work environment. They’re also cheaper to implement and maintain than private offices or cubicles.\n\n**Why it’s overrated:**  \nDespite their popularity, extensive research shows that open-plan offices frequently *reduce* productivity and satisfaction for knowledge workers. Constant noise, visual distractions, and lack of privacy make deep, focused work—essential for tasks like coding, writing, or complex analysis—much harder to achieve. Studies (e.g., from Harvard Business Review, Gensler, and others) consistently find that while casual interactions increase in open layouts, meaningful collaboration often *decreases*, as employees resort to headphones, instant messaging, or working from home to regain focus.\n\nMoreover, open-plan environments can exacerbate stress, lower morale, and disproportionately affect neurodivergent individuals or those who thrive in quieter settings. The assumption that physical proximity automatically leads to better teamwork ignores the reality that effective collaboration often requires preparation, intentional communication, and periods of uninterrupted concentration.\n\nIn short, open-plan offices prioritize the *appearance* of collaboration over the *substance* of productive, thoughtful work. A more balanced approach—hybrid layouts with a mix of private and shared spaces—better serves the diverse needs of knowledge workers.",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 301,
+    "total_tokens": 335,
+    "cost": 0.00120042,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00120042,
+      "upstream_inference_prompt_cost": 0.00002652,
+      "upstream_inference_completions_cost": 0.0011739
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "qwen/qwen3-max",
+  "ts": 1776846068723
+}

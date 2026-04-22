@@ -1,0 +1,33 @@
+{
+  "model": "microsoft/phi-4",
+  "prompt_id": "p59-no-lists",
+  "prompt": "Explain the water cycle, in prose, without using any lists, bullets, headings, or numbered steps. Keep it to one paragraph.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "The water cycle is a continuous and dynamic process that circulates water throughout Earth's atmosphere, surface, and subsurface regions, driven primarily by solar energy. It begins with evaporation, where the Sun's heat causes water from oceans, rivers, lakes, and even soil moisture to transform into water vapor, rising into the atmosphere. While airborne, this water vapor can lead to condensation, where cooler temperatures at higher altitudes cause the vapor to coalesce into tiny droplets of liquid water, forming clouds. These clouds may eventually release the accumulated moisture as precipitation, such as rain, snow, sleet, or hail, falling back to the surface. Some of this water replenishes bodies of water and infiltrates soil layers, recharging aquifers through a process known as infiltration, while the remaining water travels over the land as surface runoff, making its way back to oceans or other bodies of water. Finally, transpiration from plants, where water absorbed by roots via groundwater and soil moisture is released into the atmosphere through leaves, also contributes to atmospheric moisture. Through these interconnected phases—evaporation, condensation, precipitation, infiltration, runoff, and transpiration—water continuously moves through the environment, playing a crucial role in supporting life and shaping Earth's weather patterns.",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 255,
+    "total_tokens": 290,
+    "cost": 0.00003815,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00003815,
+      "upstream_inference_prompt_cost": 0.00000245,
+      "upstream_inference_completions_cost": 0.0000357
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "microsoft/phi-4",
+  "ts": 1776842704857
+}

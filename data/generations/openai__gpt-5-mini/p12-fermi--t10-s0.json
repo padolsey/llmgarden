@@ -1,0 +1,33 @@
+{
+  "model": "openai/gpt-5-mini",
+  "prompt_id": "p12-fermi",
+  "prompt": "Estimate, with reasoning, how many piano tuners work in Paris today. Show your thought process.",
+  "temperature": 1,
+  "sample": 0,
+  "response": "This is a classic Fermi (back-of-the-envelope) question. I’ll show the assumptions and arithmetic so you can see where uncertainty comes from and how the answer changes if you pick different values.\n\nI’ll give estimates both for Paris proper (intra‑muros) and for the greater Paris metro area, since people sometimes mean one or the other.\n\nStep 1 — population and households\n- Paris city population ≈ 2.1 million → roughly 1.0–1.1 million households (average household size ≈ 2.0–2.1).  \n- Paris metro population ≈ 12 million → roughly 5–6 million households.\n\nStep 2 — how many pianos\n- Fraction of households with a piano in a large European city: plausible range 2%–6%. Because Paris has a strong musical culture I’ll use 3%–5% as a reasonable range.\n  - Paris city: 1.05M households × 3–5% → 31,500 – 52,500 household pianos (pick ~42,000 as a midpoint).\n- Add institutional pianos (schools, conservatories, churches, theatres, studios, hotels): estimate ~2,000–6,000 in Paris city. Use ~3,000–5,000 midpoint.\n  - Total pianos in Paris city ≈ 35,000 – 57,500 (≈ 45,000 as a working value).\n\nStep 3 — how often each piano is tuned\n- Many home pianos: about once per year on average. Concert/institutional pianos: multiple times/year. Reasonable average tunings per piano ≈ 1.0–1.8 per year. Use 1.2–1.5 as a central range.\n  - With 45,000 pianos × 1.2–1.5 tunings/year → 54,000 – 67,500 tunings per year in Paris city.\n\nStep 4 — how many tunings one tuner can do per year\n- Work days: ~240 (48 weeks × 5 days) is typical.  \n- Tunings per working day: depends on travel and job complexity; 1–4 is plausible. Reasonable full‑time average ≈ 2–3 tunings/day.\n  - So tunings per tuner per year ≈ 240 × (2–3) = 480 – 720.\n\nStep 5 — put it together: number of tuners = total tunings per year / tunings per tuner per year\n- Using the ranges above:\n  - Low‑workload assumption: 54,000 tunings ÷ 480 ≈ 113 tuners.\n  - High‑workload assumption: 67,500 ÷ 720 ≈ 94 tuners.\n- These two ends overlap; a simple central estimate ≈ 100–120 full‑time tuners for Paris proper.\n\nSo my estimate for Paris (city, intra‑muros) is: about 100 tuners (plausible range ~70–150, depending on the assumptions about piano ownership and tuners’ workload). If you count part‑time tuners and technicians who tune only occasionally, the headcount might be higher; the number above is effectively full‑time equivalents.\n\nFor the Paris metropolitan area (≈12M people) you scale roughly by population/household:\n- If city ≈ 100 tuners, metro ≈ (12M/2.1M) ≈ 5.7 times bigger → ~600 tuners. Using the same uncertainty bands gives a rough metro range ~300–900, with a central estimate near 400–700 depending on assumptions. (A quicker Fermi using 200–250k pianos in metro area and the same work rates gives ≈ 350–450 tuners as a conservative central estimate.)\n\nKey uncertainties and caveats\n- “Piano” includes upright, grand, digital (digital keyboards rarely need tuning). The share of digital instruments lowers the number of acoustic pianos requiring tuning.  \n- Some tuners specialize in concert work and do many tunings for a small number of pianos; many tuners do repairs, sales, or teach, splitting their time. That moves the head‑count vs. full‑time‑equivalent number.  \n- My calculation is intended to give an order‑of‑magnitude answer, not a precise count.\n\nBottom line\n- Paris (city): roughly 100 piano tuners (plausible range ~70–150).  \n- Greater Paris metro: broadly a few hundred; a reasonable central estimate ~400–600, with wide uncertainty.",
+  "usage": {
+    "prompt_tokens": 26,
+    "completion_tokens": 2167,
+    "total_tokens": 2193,
+    "cost": 0.0043405,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0043405,
+      "upstream_inference_prompt_cost": 0.0000065,
+      "upstream_inference_completions_cost": 0.004334
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1152,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "openai/gpt-5-mini-2025-08-07",
+  "ts": 1776834995786
+}

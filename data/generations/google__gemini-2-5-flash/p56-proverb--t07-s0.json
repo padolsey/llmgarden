@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "prompt_id": "p56-proverb",
+  "prompt": "Translate this English proverb into two other languages in a way that preserves the spirit, not the words: 'The best time to plant a tree was twenty years ago. The second best time is now.' Add a one-sentence note on each.",
+  "temperature": 0.7,
+  "sample": 0,
+  "response": "Here are two translations of the proverb, aiming to preserve its spirit:\n\n---\n\n**Spanish:**\n\n**\"Más vale tarde que nunca, especialmente si siembras hoy lo que debiste haber sembrado ayer.\"**\n\n*This Spanish translation emphasizes the \"better late than never\" aspect, specifically applying it to the idea of starting something beneficial. It adds a direct nod to the missed opportunity while still encouraging present action.*\n\n---\n\n**Japanese:**\n\n**「思い立ったが吉日、今からでも遅くない。」** (Omoitatta ga kichijitsu, ima kara demo osokunai.)\n\n*This Japanese translation utilizes two common idioms. \"Omoitatta ga kichijitsu\" means \"The day you decide to do something is the best day,\" conveying the urgency and opportunism of starting. \"Ima kara demo osokunai\" directly translates to \"It's not too late even from now,\" reinforcing the idea that the present is the next best time to act.*",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 207,
+    "total_tokens": 256,
+    "cost": 0.0005322,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0005322,
+      "upstream_inference_prompt_cost": 0.0000147,
+      "upstream_inference_completions_cost": 0.0005175
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.5-flash",
+  "ts": 1776831642606
+}

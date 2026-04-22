@@ -1,0 +1,33 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "prompt_id": "p18-attention",
+  "prompt": "Explain the attention mechanism in transformer models to a software engineer who has never done ML. Keep it to about 200 words.",
+  "temperature": 1,
+  "sample": 1,
+  "response": "Imagine you're reading a long technical document. When you're trying to understand a specific sentence, your brain doesn't treat every word equally. You focus more on the key terms and their relationships, while downplaying less important words.\n\nThe attention mechanism in Transformer models works similarly for sequences of data, like sentences. It allows the model to \"pay attention\" to different parts of the input sequence when processing a particular element.\n\nFor each word (or token) in a sentence, the attention mechanism calculates a score indicating how relevant every other word in that sentence is to the current word. These scores are then used to create a weighted average of all the other words. This weighted average, containing information from relevant words, is what the model actually uses to understand the current word's context. This way, the model doesn't just process words in order, but can dynamically focus on the most important parts of the input, regardless of their position.",
+  "usage": {
+    "prompt_tokens": 27,
+    "completion_tokens": 194,
+    "total_tokens": 221,
+    "cost": 0.0004931,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004931,
+      "upstream_inference_prompt_cost": 0.0000081,
+      "upstream_inference_completions_cost": 0.000485
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw_model": "google/gemini-2.5-flash",
+  "ts": 1776835756811
+}
