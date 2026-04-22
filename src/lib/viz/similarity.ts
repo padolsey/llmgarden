@@ -217,3 +217,31 @@ export function meanVector(vectors: number[][]): number[] {
 	for (let i = 0; i < d; i++) out[i] /= vectors.length;
 	return out;
 }
+
+/** Subtract two vectors, returning a + (-b). */
+export function subtract(a: number[], b: number[]): number[] {
+	const d = a.length;
+	const out = new Array(d);
+	for (let i = 0; i < d; i++) out[i] = a[i] - b[i];
+	return out;
+}
+
+/** Per-prompt per-model mean vector, for per-prompt projections. */
+export function perPromptModelMeans(samples: SamplePoint[]): Map<string, Map<string, number[]>> {
+	const out = new Map<string, Map<string, number[]>>();
+	const byCell = new Map<string, Map<string, number[][]>>();
+	for (const s of samples) {
+		if (!byCell.has(s.promptId)) byCell.set(s.promptId, new Map());
+		const pm = byCell.get(s.promptId)!;
+		if (!pm.has(s.modelId)) pm.set(s.modelId, []);
+		pm.get(s.modelId)!.push(s.vector);
+	}
+	for (const [pid, pm] of byCell.entries()) {
+		const modelMeans = new Map<string, number[]>();
+		for (const [mid, vs] of pm.entries()) {
+			modelMeans.set(mid, l2normalize(meanVector(vs)));
+		}
+		out.set(pid, modelMeans);
+	}
+	return out;
+}

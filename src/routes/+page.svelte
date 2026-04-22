@@ -1,6 +1,9 @@
 <script lang="ts">
 	import { FAMILY_COLORS, colorFor } from '$lib/viz/palette';
 	import SampleCloud from '$lib/viz/SampleCloud.svelte';
+	import FacetGrid from '$lib/viz/FacetGrid.svelte';
+	import IsolationBar from '$lib/viz/IsolationBar.svelte';
+	import FtAxisRibbon from '$lib/viz/FtAxisRibbon.svelte';
 
 	let { data } = $props();
 	const projection = $derived(data.data);
@@ -12,6 +15,9 @@
 	let activeFamilies = $state<Set<string>>(new Set());
 	let showKnn = $state(true);
 	let showTrajectories = $state(true);
+	let showVoiceSiblings = $state(false);
+	let showLineagePaths = $state(false);
+	let showSpreadArrows = $state(false);
 
 	const hoveredModel = $derived(
 		hovered ? projection?.models.find((m) => m.slug === hovered) ?? null : null
@@ -213,6 +219,18 @@
 				<input type="checkbox" bind:checked={showTrajectories} class="accent-current" />
 				<span>temperature trajectories</span>
 			</label>
+			<label class="flex items-center gap-1.5 cursor-pointer text-zinc-500 dark:text-zinc-400">
+				<input type="checkbox" bind:checked={showVoiceSiblings} class="accent-current" />
+				<span>voice siblings</span>
+			</label>
+			<label class="flex items-center gap-1.5 cursor-pointer text-zinc-500 dark:text-zinc-400">
+				<input type="checkbox" bind:checked={showLineagePaths} class="accent-current" />
+				<span>lineage arrows</span>
+			</label>
+			<label class="flex items-center gap-1.5 cursor-pointer text-zinc-500 dark:text-zinc-400">
+				<input type="checkbox" bind:checked={showSpreadArrows} class="accent-current" />
+				<span>spread directions</span>
+			</label>
 		</div>
 
 		<div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
@@ -255,6 +273,76 @@
 									{#each traj.points as p}
 										<circle cx={svgX(p.x)} cy={svgY(p.y)} r={1 + p.temperature * 0.8} fill={colorFor(traj.family)} opacity="0.35" />
 									{/each}
+								{/if}
+							{/each}
+						</g>
+					{/if}
+
+					<!-- Voice-sibling cross-family edges -->
+					{#if showVoiceSiblings}
+						<g stroke-width="0.6" fill="none" class="stroke-amber-500 dark:stroke-amber-400" opacity="0.55">
+							{#each projection.model_knn_edges as edge}
+								{@const A = projection.models.find((m) => m.slug === edge.from)}
+								{@const B = projection.models.find((m) => m.slug === edge.to)}
+								{#if A && B && A.family !== B.family && edge.similarity >= 0.93 && isFamilyActive(A.family) && isFamilyActive(B.family)}
+									<line x1={svgX(A.x_umap)} y1={svgY(A.y_umap)} x2={svgX(B.x_umap)} y2={svgY(B.y_umap)} />
+								{/if}
+							{/each}
+						</g>
+					{/if}
+
+					<!-- Lineage / generational arrows -->
+					{#if showLineagePaths}
+						<g fill="none" opacity="0.65">
+							{#each projection.lineage_paths as lp}
+								{@const pts = lp.slugs
+									.map((s) => projection.models.find((m) => m.slug === s))
+									.filter((m) => m && isFamilyActive(m.family))}
+								{#if pts.length >= 2}
+									{@const fam = pts[0]!.family}
+									{@const color = colorFor(fam)}
+									<polyline
+										stroke={color}
+										stroke-width="0.6"
+										stroke-dasharray="3,2"
+										points={pts.map((m) => `${svgX(m!.x_umap)},${svgY(m!.y_umap)}`).join(' ')}
+									/>
+									<!-- Arrowhead at end -->
+									{#if pts.length >= 2}
+										{@const a = pts[pts.length - 2]!}
+										{@const b = pts[pts.length - 1]!}
+										{@const ax = svgX(a.x_umap)}
+										{@const ay = svgY(a.y_umap)}
+										{@const bx = svgX(b.x_umap)}
+										{@const by = svgY(b.y_umap)}
+										{@const dxn = bx - ax}
+										{@const dyn = by - ay}
+										{@const len = Math.sqrt(dxn * dxn + dyn * dyn) || 1}
+										{@const ux = dxn / len}
+										{@const uy = dyn / len}
+										<polygon
+											fill={color}
+											points="{bx},{by} {bx - 4 * ux - 2 * uy},{by - 4 * uy + 2 * ux} {bx - 4 * ux + 2 * uy},{by - 4 * uy - 2 * ux}"
+										/>
+									{/if}
+								{/if}
+							{/each}
+						</g>
+					{/if}
+
+					<!-- Spread direction arrows (temp=1.0 top-PC) -->
+					{#if showSpreadArrows}
+						<g stroke-width="0.5" fill="none" opacity="0.7">
+							{#each projection.models as m}
+								{#if isFamilyActive(m.family) && (m.spread_dx !== 0 || m.spread_dy !== 0)}
+									{@const cx = svgX(m.x_umap)}
+									{@const cy = svgY(m.y_umap)}
+									{@const mag = Math.sqrt(m.spread_dx * m.spread_dx + m.spread_dy * m.spread_dy)}
+									{@const scale = 80}
+									{@const dx = (m.spread_dx / Math.max(mag, 0.0001)) * Math.min(mag * scale, 18)}
+									{@const dy = -(m.spread_dy / Math.max(mag, 0.0001)) * Math.min(mag * scale, 18)}
+									<line x1={cx} y1={cy} x2={cx + dx} y2={cy + dy} stroke={colorFor(m.family)} />
+									<line x1={cx} y1={cy} x2={cx - dx} y2={cy - dy} stroke={colorFor(m.family)} opacity="0.4" />
 								{/if}
 							{/each}
 						</g>
@@ -464,6 +552,26 @@
 				</div>
 			</div>
 		{/if}
+
+		<FacetGrid
+			per_prompt={projection.per_prompt}
+			prompts={projection.prompts}
+			models={projection.models}
+			{activeFamilies}
+			onHover={(slug) => (hovered = slug)}
+		/>
+
+		<FtAxisRibbon
+			models={projection.models}
+			{activeFamilies}
+			onHover={(slug) => (hovered = slug)}
+		/>
+
+		<IsolationBar
+			models={projection.models}
+			{activeFamilies}
+			onHover={(slug) => (hovered = slug)}
+		/>
 
 		<footer class="mt-8 text-xs text-zinc-500 dark:text-zinc-400 space-y-1">
 			<div>

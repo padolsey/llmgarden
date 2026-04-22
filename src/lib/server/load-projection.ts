@@ -19,6 +19,22 @@ export interface ProjectionModel {
 	volatility: number;
 	x_umap: number;
 	y_umap: number;
+	ft_axis: number;
+	isolation: number;
+	spread_dx: number;
+	spread_dy: number;
+}
+
+export interface PromptProjection {
+	prompt_id: string;
+	mean_distance: number;
+	coords: { slug: string; x: number; y: number }[];
+}
+
+export interface LineagePath {
+	name: string;
+	description: string;
+	slugs: string[];
 }
 
 export interface ProjectionModelTemp {
@@ -58,6 +74,8 @@ export interface ProjectionFile {
 	samples: ProjectionSample[];
 	model_knn_edges: ProjectionEdge[];
 	pairwise_cosine: number[][];
+	per_prompt: PromptProjection[];
+	lineage_paths: LineagePath[];
 }
 
 export interface LoadedModel extends ProjectionModel {
@@ -78,6 +96,8 @@ export interface LoadedData {
 	pairwise: number[][];
 	family_labels: Record<string, string>;
 	prompts: { id: string; category: string; text: string }[];
+	per_prompt: PromptProjection[];
+	lineage_paths: LineagePath[];
 }
 
 export function loadData(): LoadedData | null {
@@ -105,7 +125,9 @@ export function loadData(): LoadedData | null {
 		model_knn_edges: file.model_knn_edges,
 		pairwise: file.pairwise_cosine,
 		family_labels: FAMILY_LABELS,
-		prompts: PROMPTS.map((p) => ({ id: p.id, category: p.category, text: p.text }))
+		prompts: PROMPTS.map((p) => ({ id: p.id, category: p.category, text: p.text })),
+		per_prompt: file.per_prompt ?? [],
+		lineage_paths: file.lineage_paths ?? []
 	};
 }
 
